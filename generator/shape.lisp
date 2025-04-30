@@ -55,12 +55,12 @@
 (defun make-request-with-input (request-class input method path-conversion action)
   (make-instance request-class
                  :method method
-                 :path (add-query-with-input
-                        (etypecase path-conversion
-                          (string path-conversion)
-                          (function (funcall path-conversion input))
-                          (null "/"))
-                        input)
+                 :path (quri:uri-path (add-query-with-input
+                                        (etypecase path-conversion
+                                          (string path-conversion)
+                                          (function (funcall path-conversion input))
+                                          (null "/"))
+                                        input))
                  :params (input-params input)
                  :headers (input-headers input)
                  :payload (input-payload input)
