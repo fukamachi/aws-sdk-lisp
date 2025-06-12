@@ -62,6 +62,9 @@
    (payload :initarg :payload
             :initform nil
             :accessor request-payload)
+   (payload-properties :initarg :payload-properties
+                       :initform nil
+                       :accessor request-payload-properties)
    (session :initarg :session
             :initform *session*
             :reader request-session)))

@@ -75,31 +75,36 @@
            :status status
            :body body-str)))
 
-(defun parse-response (response body-type wrapper-name error-map)
+(defun parse-response (response body-type wrapper-name error-map &optional default-content-type)
   (destructuring-bind (body status headers &rest ignore-args)
       response
+    ;; TODO: Parse also from headers
     (declare (ignore ignore-args))
-    (let ((content-type (gethash "content-type" headers)))
+    (let ((content-type (or (gethash "content-type" headers)
+                            default-content-type)))
       (if (<= 400 status 599)
           (parse-response-error body status content-type error-map)
-          (if (equal body-type "blob")
-              body
-              (let ((body-str (ensure-string (or body ""))))
-                (cond
-                  ((or (string-prefix-p "text/xml" content-type)
-                       (string-prefix-p "application/xml" content-type))
-                   (let* ((output (xmls-to-alist (xmls:parse-to-list body-str)))
-                          (output ;; Unwrap the root element
-                            (cdr (first output))))
-                     (if wrapper-name
-                         (values (aget output wrapper-name)
-                                 (aget output "ResponseMetadata"))
-                         output)))
-                  ((member content-type '("application/json" "application/x-amz-json-1.1" "application/x-amz-json-1.0")
-                           :test #'string=)
-                   (yason:parse body-str :object-as :alist))
-                  (t
-                   body-str))))))))
+          (values
+           (if (equal body-type "blob")
+               body
+               (let ((body-str (ensure-string (or body ""))))
+                 (cond
+                   ((or (string-prefix-p "text/xml" content-type)
+                        (string-prefix-p "application/xml" content-type))
+                    (let* ((output (xmls-to-alist (xmls:parse-to-list body-str)))
+                           (output ;; Unwrap the root element
+                             (cdr (first output))))
+                      (if wrapper-name
+                          (values (aget output wrapper-name)
+                                  (aget output "ResponseMetadata"))
+                          output)))
+                   ((member content-type '("application/json" "application/x-amz-json-1.1" "application/x-amz-json-1.0")
+                            :test #'string=)
+                    (yason:parse body-str :object-as :alist))
+                   (t
+                    body-str))))
+           status
+           headers)))))
 
 (defun compile-path-pattern (path-pattern)
   (when path-pattern
@@ -121,7 +126,7 @@
                      ,@slots))
           path-pattern))))
 
-(defun compile-operation (service name options params body-type error-map)
+(defun compile-operation (service name options params body-type error-map protocol)
   (let* ((output (gethash "output" options))
          (method (gethash "method" (gethash "http" options)))
          (request-uri (gethash "requestUri" (gethash "http" options))))
@@ -141,7 +146,10 @@
                   ,body-type
                   ,(and output
                         (gethash "resultWrapper" output))
-                  ,error-map)))
+                  ,error-map
+                  ,(case protocol
+                     ((:json :rest-json) "application/json")
+                     (:rest-xml "application/xml")))))
              (export ',(lispify name))))
         `(progn
            (defun ,(lispify name) ()

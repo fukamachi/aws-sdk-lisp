@@ -39,6 +39,8 @@
   (:method (input) input))
 (defgeneric input-headers (input))
 (defgeneric input-payload (input))
+(defgeneric input-payload-properties (input)
+  (:method (input) (declare (ignore input)) nil))
 
 (defun add-query-with-input (uri input)
   (quri:make-uri :defaults uri
@@ -55,15 +57,16 @@
 (defun make-request-with-input (request-class input method path-conversion action)
   (make-instance request-class
                  :method method
-                 :path (quri:uri-path (add-query-with-input
-                                        (etypecase path-conversion
-                                          (string path-conversion)
-                                          (function (funcall path-conversion input))
-                                          (null "/"))
-                                        input))
+                 :path (quri:render-uri (add-query-with-input
+                                         (etypecase path-conversion
+                                           (string path-conversion)
+                                           (function (funcall path-conversion input))
+                                           (null "/"))
+                                         input))
                  :params (input-params input)
                  :headers (input-headers input)
                  :payload (input-payload input)
+                 :payload-properties (input-payload-properties input)
                  :operation action))
 
 (defun filter-member (key value members)
@@ -127,7 +130,17 @@
        (defmethod input-payload ((input ,shape-name))
          ,(if payload
               `(slot-value input ',(lispify payload))
-              'nil)))))
+              'nil))
+       ,@(when (and payload
+                    (gethash payload members))
+           (let ((props (gethash payload members)))
+             `((defmethod input-payload-properties ((input ,shape-name))
+                 (declare (ignore input))
+                 (list ,@(and (gethash "locationName" props)
+                              `(:location-name ,(gethash "locationName" props)))
+                       ,@(and (gethash "xmlNamespace" props)
+                              (gethash "uri" (gethash "xmlNamespace" props))
+                              `(:xml-namespace ,(gethash "uri" (gethash "xmlNamespace" props))))))))))))
 
 (defun compile-exception-shape (name &key members exception)
   (let ((condition-name (lispify* name)))

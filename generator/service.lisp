@@ -108,7 +108,8 @@
                                                      (find-output-type
                                                       (gethash+ `("shapes" ,(gethash "shape" shape)) hash))))))
                                    (find-output-type payload-shape))))
-                          (intern (string :*error-map*)))))
+                          (intern (string :*error-map*))
+                          protocol)))
         (force-output stream)))))
 
 (defun dump-service-base-file-to-stream (service service-dir &optional (stream *standard-output*))

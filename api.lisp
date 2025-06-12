@@ -48,7 +48,11 @@
                                  :method (request-method req)
                                  :host (request-host req region)
                                  :path (quri:uri-path uri)
-                                 :params (quri:uri-query-params uri)
+                                 :params (mapcar (lambda (kv)
+                                                   (if (null (cdr kv))
+                                                       (cons (car kv) "")
+                                                       kv))
+                                                 (quri:uri-query-params uri))
                                  :headers headers
                                  :payload (or payload "")))
         (multiple-value-list
