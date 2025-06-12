@@ -85,19 +85,22 @@
       (if (<= 400 status 599)
           (parse-response-error body status content-type error-map)
           (values
-           (if (equal body-type "blob")
+           (if (or (= status 204)
+                   (equal body-type "blob"))
                body
                (let ((body-str (ensure-string (or body ""))))
                  (cond
                    ((or (string-prefix-p "text/xml" content-type)
                         (string-prefix-p "application/xml" content-type))
-                    (let* ((output (xmls-to-alist (xmls:parse-to-list body-str)))
-                           (output ;; Unwrap the root element
-                             (cdr (first output))))
-                      (if wrapper-name
-                          (values (aget output wrapper-name)
-                                  (aget output "ResponseMetadata"))
-                          output)))
+                    (if (string= body-str "")
+                        body-str
+                        (let* ((output (xmls-to-alist (xmls:parse-to-list body-str)))
+                               (output ;; Unwrap the root element
+                                 (cdr (first output))))
+                          (if wrapper-name
+                              (values (aget output wrapper-name)
+                                      (aget output "ResponseMetadata"))
+                              output))))
                    ((member content-type '("application/json" "application/x-amz-json-1.1" "application/x-amz-json-1.0")
                             :test #'string=)
                     (yason:parse body-str :object-as :alist))
