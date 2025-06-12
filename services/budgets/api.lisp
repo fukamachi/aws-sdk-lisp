@@ -4798,7 +4798,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateBudget"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-budget))
 (common-lisp:progn
  (common-lisp:defun create-budget-action
@@ -4820,7 +4820,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateBudgetAction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-budget-action))
 (common-lisp:progn
  (common-lisp:defun create-notification
@@ -4839,7 +4839,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateNotification"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-notification))
 (common-lisp:progn
  (common-lisp:defun create-subscriber
@@ -4858,7 +4858,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateSubscriber"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-subscriber))
 (common-lisp:progn
  (common-lisp:defun delete-budget
@@ -4875,7 +4875,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteBudget"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-budget))
 (common-lisp:progn
  (common-lisp:defun delete-budget-action
@@ -4893,7 +4893,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteBudgetAction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-budget-action))
 (common-lisp:progn
  (common-lisp:defun delete-notification
@@ -4911,7 +4911,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteNotification"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-notification))
 (common-lisp:progn
  (common-lisp:defun delete-subscriber
@@ -4930,7 +4930,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteSubscriber"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-subscriber))
 (common-lisp:progn
  (common-lisp:defun describe-budget
@@ -4947,7 +4947,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeBudget"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-budget))
 (common-lisp:progn
  (common-lisp:defun describe-budget-action
@@ -4965,7 +4965,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeBudgetAction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-budget-action))
 (common-lisp:progn
  (common-lisp:defun describe-budget-action-histories
@@ -4986,7 +4986,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeBudgetActionHistories"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-budget-action-histories))
 (common-lisp:progn
  (common-lisp:defun describe-budget-actions-for-account
@@ -5005,7 +5005,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeBudgetActionsForAccount"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-budget-actions-for-account))
 (common-lisp:progn
  (common-lisp:defun describe-budget-actions-for-budget
@@ -5025,7 +5025,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeBudgetActionsForBudget"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-budget-actions-for-budget))
 (common-lisp:progn
  (common-lisp:defun describe-budget-notifications-for-account
@@ -5044,7 +5044,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeBudgetNotificationsForAccount"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-budget-notifications-for-account))
 (common-lisp:progn
  (common-lisp:defun describe-budget-performance-history
@@ -5065,7 +5065,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeBudgetPerformanceHistory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-budget-performance-history))
 (common-lisp:progn
  (common-lisp:defun describe-budgets
@@ -5083,7 +5083,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeBudgets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-budgets))
 (common-lisp:progn
  (common-lisp:defun describe-notifications-for-budget
@@ -5103,7 +5103,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeNotificationsForBudget"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-notifications-for-budget))
 (common-lisp:progn
  (common-lisp:defun describe-subscribers-for-notification
@@ -5124,7 +5124,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeSubscribersForNotification"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-subscribers-for-notification))
 (common-lisp:progn
  (common-lisp:defun execute-budget-action
@@ -5143,7 +5143,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ExecuteBudgetAction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'execute-budget-action))
 (common-lisp:progn
  (common-lisp:defun update-budget
@@ -5160,7 +5160,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateBudget"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-budget))
 (common-lisp:progn
  (common-lisp:defun update-budget-action
@@ -5182,7 +5182,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateBudgetAction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-budget-action))
 (common-lisp:progn
  (common-lisp:defun update-notification
@@ -5202,7 +5202,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateNotification"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-notification))
 (common-lisp:progn
  (common-lisp:defun update-subscriber
@@ -5222,5 +5222,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateSubscriber"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-subscriber))

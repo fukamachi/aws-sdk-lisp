@@ -1038,7 +1038,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeServices"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-services))
 (common-lisp:progn
  (common-lisp:defun get-attribute-values
@@ -1057,7 +1057,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAttributeValues"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-attribute-values))
 (common-lisp:progn
  (common-lisp:defun get-price-list-file-url
@@ -1074,7 +1074,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetPriceListFileUrl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-price-list-file-url))
 (common-lisp:progn
  (common-lisp:defun get-products
@@ -1094,7 +1094,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetProducts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-products))
 (common-lisp:progn
  (common-lisp:defun list-price-lists
@@ -1114,5 +1114,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPriceLists"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-price-lists))

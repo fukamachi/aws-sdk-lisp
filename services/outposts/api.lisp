@@ -4438,7 +4438,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'order-id))))
                                                         "CancelOrder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-order))
 (common-lisp:progn
  (common-lisp:defun create-order
@@ -4458,7 +4458,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/orders"
                                                         "CreateOrder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-order))
 (common-lisp:progn
  (common-lisp:defun create-outpost
@@ -4479,7 +4479,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/outposts"
                                                         "CreateOutpost"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-outpost))
 (common-lisp:progn
  (common-lisp:defun create-site
@@ -4500,7 +4500,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/sites"
                                                         "CreateSite"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-site))
 (common-lisp:progn
  (common-lisp:defun delete-outpost
@@ -4527,7 +4527,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'outpost-id))))
                                                         "DeleteOutpost"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-outpost))
 (common-lisp:progn
  (common-lisp:defun delete-site
@@ -4554,7 +4554,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'site-id))))
                                                         "DeleteSite"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-site))
 (common-lisp:progn
  (common-lisp:defun get-catalog-item
@@ -4581,7 +4581,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'catalog-item-id))))
                                                         "GetCatalogItem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-catalog-item))
 (common-lisp:progn
  (common-lisp:defun get-connection
@@ -4608,7 +4608,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'connection-id))))
                                                         "GetConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-connection))
 (common-lisp:progn
  (common-lisp:defun get-order
@@ -4635,7 +4635,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'order-id))))
                                                         "GetOrder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-order))
 (common-lisp:progn
  (common-lisp:defun get-outpost
@@ -4662,7 +4662,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'outpost-id))))
                                                         "GetOutpost"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-outpost))
 (common-lisp:progn
  (common-lisp:defun get-outpost-instance-types
@@ -4690,7 +4690,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'outpost-id))))
                                                         "GetOutpostInstanceTypes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-outpost-instance-types))
 (common-lisp:progn
  (common-lisp:defun get-site
@@ -4717,7 +4717,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'site-id))))
                                                         "GetSite"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-site))
 (common-lisp:progn
  (common-lisp:defun get-site-address
@@ -4744,7 +4744,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'site-id))))
                                                         "GetSiteAddress"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-site-address))
 (common-lisp:progn
  (common-lisp:defun list-assets
@@ -4774,7 +4774,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'outpost-id))))
                                                         "ListAssets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-assets))
 (common-lisp:progn
  (common-lisp:defun list-catalog-items
@@ -4794,7 +4794,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/catalog/items"
                                                         "ListCatalogItems"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-catalog-items))
 (common-lisp:progn
  (common-lisp:defun list-orders
@@ -4813,7 +4813,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/list-orders"
                                                         "ListOrders"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-orders))
 (common-lisp:progn
  (common-lisp:defun list-outposts
@@ -4834,7 +4834,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/outposts"
                                                         "ListOutposts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-outposts))
 (common-lisp:progn
  (common-lisp:defun list-sites
@@ -4857,7 +4857,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/sites"
                                                         "ListSites"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-sites))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -4884,7 +4884,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun start-connection
@@ -4904,7 +4904,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/connections"
                                                         "StartConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-connection))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4931,7 +4931,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4958,7 +4958,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-outpost
@@ -4988,7 +4988,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'outpost-id))))
                                                         "UpdateOutpost"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-outpost))
 (common-lisp:progn
  (common-lisp:defun update-site
@@ -5015,7 +5015,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'site-id))))
                                                         "UpdateSite"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-site))
 (common-lisp:progn
  (common-lisp:defun update-site-address
@@ -5042,7 +5042,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'site-id))))
                                                         "UpdateSiteAddress"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-site-address))
 (common-lisp:progn
  (common-lisp:defun update-site-rack-physical-properties
@@ -5076,5 +5076,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'site-id))))
                                                         "UpdateSiteRackPhysicalProperties"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-site-rack-physical-properties))

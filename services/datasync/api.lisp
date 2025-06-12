@@ -12504,7 +12504,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AddStorageSystem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-storage-system))
 (common-lisp:progn
  (common-lisp:defun cancel-task-execution
@@ -12521,7 +12521,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CancelTaskExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-task-execution))
 (common-lisp:progn
  (common-lisp:defun create-agent
@@ -12541,7 +12541,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateAgent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-agent))
 (common-lisp:progn
  (common-lisp:defun create-location-azure-blob
@@ -12563,7 +12563,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateLocationAzureBlob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-location-azure-blob))
 (common-lisp:progn
  (common-lisp:defun create-location-efs
@@ -12584,7 +12584,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateLocationEfs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-location-efs))
 (common-lisp:progn
  (common-lisp:defun create-location-fsx-lustre
@@ -12605,7 +12605,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateLocationFsxLustre"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-location-fsx-lustre))
 (common-lisp:progn
  (common-lisp:defun create-location-fsx-ontap
@@ -12626,7 +12626,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateLocationFsxOntap"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-location-fsx-ontap))
 (common-lisp:progn
  (common-lisp:defun create-location-fsx-open-zfs
@@ -12647,7 +12647,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateLocationFsxOpenZfs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-location-fsx-open-zfs))
 (common-lisp:progn
  (common-lisp:defun create-location-fsx-windows
@@ -12668,7 +12668,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateLocationFsxWindows"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-location-fsx-windows))
 (common-lisp:progn
  (common-lisp:defun create-location-hdfs
@@ -12692,7 +12692,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateLocationHdfs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-location-hdfs))
 (common-lisp:progn
  (common-lisp:defun create-location-nfs
@@ -12712,7 +12712,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateLocationNfs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-location-nfs))
 (common-lisp:progn
  (common-lisp:defun create-location-object-storage
@@ -12735,7 +12735,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateLocationObjectStorage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-location-object-storage))
 (common-lisp:progn
  (common-lisp:defun create-location-s3
@@ -12755,7 +12755,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateLocationS3"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-location-s3))
 (common-lisp:progn
  (common-lisp:defun create-location-smb
@@ -12775,7 +12775,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateLocationSmb"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-location-smb))
 (common-lisp:progn
  (common-lisp:defun create-task
@@ -12798,7 +12798,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-task))
 (common-lisp:progn
  (common-lisp:defun delete-agent
@@ -12815,7 +12815,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAgent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-agent))
 (common-lisp:progn
  (common-lisp:defun delete-location
@@ -12832,7 +12832,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteLocation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-location))
 (common-lisp:progn
  (common-lisp:defun delete-task
@@ -12849,7 +12849,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-task))
 (common-lisp:progn
  (common-lisp:defun describe-agent
@@ -12866,7 +12866,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAgent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-agent))
 (common-lisp:progn
  (common-lisp:defun describe-discovery-job
@@ -12883,7 +12883,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDiscoveryJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-discovery-job))
 (common-lisp:progn
  (common-lisp:defun describe-location-azure-blob
@@ -12901,7 +12901,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeLocationAzureBlob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-location-azure-blob))
 (common-lisp:progn
  (common-lisp:defun describe-location-efs
@@ -12918,7 +12918,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeLocationEfs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-location-efs))
 (common-lisp:progn
  (common-lisp:defun describe-location-fsx-lustre
@@ -12936,7 +12936,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeLocationFsxLustre"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-location-fsx-lustre))
 (common-lisp:progn
  (common-lisp:defun describe-location-fsx-ontap
@@ -12954,7 +12954,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeLocationFsxOntap"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-location-fsx-ontap))
 (common-lisp:progn
  (common-lisp:defun describe-location-fsx-open-zfs
@@ -12972,7 +12972,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeLocationFsxOpenZfs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-location-fsx-open-zfs))
 (common-lisp:progn
  (common-lisp:defun describe-location-fsx-windows
@@ -12990,7 +12990,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeLocationFsxWindows"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-location-fsx-windows))
 (common-lisp:progn
  (common-lisp:defun describe-location-hdfs
@@ -13007,7 +13007,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeLocationHdfs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-location-hdfs))
 (common-lisp:progn
  (common-lisp:defun describe-location-nfs
@@ -13024,7 +13024,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeLocationNfs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-location-nfs))
 (common-lisp:progn
  (common-lisp:defun describe-location-object-storage
@@ -13042,7 +13042,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeLocationObjectStorage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-location-object-storage))
 (common-lisp:progn
  (common-lisp:defun describe-location-s3
@@ -13059,7 +13059,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeLocationS3"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-location-s3))
 (common-lisp:progn
  (common-lisp:defun describe-location-smb
@@ -13076,7 +13076,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeLocationSmb"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-location-smb))
 (common-lisp:progn
  (common-lisp:defun describe-storage-system
@@ -13093,7 +13093,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeStorageSystem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-storage-system))
 (common-lisp:progn
  (common-lisp:defun describe-storage-system-resource-metrics
@@ -13114,7 +13114,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeStorageSystemResourceMetrics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-storage-system-resource-metrics))
 (common-lisp:progn
  (common-lisp:defun describe-storage-system-resources
@@ -13135,7 +13135,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeStorageSystemResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-storage-system-resources))
 (common-lisp:progn
  (common-lisp:defun describe-task
@@ -13152,7 +13152,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-task))
 (common-lisp:progn
  (common-lisp:defun describe-task-execution
@@ -13169,7 +13169,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTaskExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-task-execution))
 (common-lisp:progn
  (common-lisp:defun generate-recommendations
@@ -13188,7 +13188,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GenerateRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'generate-recommendations))
 (common-lisp:progn
  (common-lisp:defun list-agents
@@ -13205,7 +13205,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAgents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-agents))
 (common-lisp:progn
  (common-lisp:defun list-discovery-jobs
@@ -13224,7 +13224,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDiscoveryJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-discovery-jobs))
 (common-lisp:progn
  (common-lisp:defun list-locations
@@ -13241,7 +13241,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListLocations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-locations))
 (common-lisp:progn
  (common-lisp:defun list-storage-systems
@@ -13258,7 +13258,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListStorageSystems"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-storage-systems))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -13276,7 +13276,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-task-executions
@@ -13294,7 +13294,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTaskExecutions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-task-executions))
 (common-lisp:progn
  (common-lisp:defun list-tasks
@@ -13311,7 +13311,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTasks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tasks))
 (common-lisp:progn
  (common-lisp:defun remove-storage-system
@@ -13328,7 +13328,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RemoveStorageSystem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-storage-system))
 (common-lisp:progn
  (common-lisp:defun start-discovery-job
@@ -13348,7 +13348,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartDiscoveryJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-discovery-job))
 (common-lisp:progn
  (common-lisp:defun start-task-execution
@@ -13368,7 +13368,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartTaskExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-task-execution))
 (common-lisp:progn
  (common-lisp:defun stop-discovery-job
@@ -13385,7 +13385,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopDiscoveryJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-discovery-job))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -13402,7 +13402,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -13419,7 +13419,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-agent
@@ -13436,7 +13436,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateAgent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-agent))
 (common-lisp:progn
  (common-lisp:defun update-discovery-job
@@ -13455,7 +13455,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateDiscoveryJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-discovery-job))
 (common-lisp:progn
  (common-lisp:defun update-location-azure-blob
@@ -13477,7 +13477,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateLocationAzureBlob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-location-azure-blob))
 (common-lisp:progn
  (common-lisp:defun update-location-hdfs
@@ -13502,7 +13502,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateLocationHdfs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-location-hdfs))
 (common-lisp:progn
  (common-lisp:defun update-location-nfs
@@ -13522,7 +13522,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateLocationNfs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-location-nfs))
 (common-lisp:progn
  (common-lisp:defun update-location-object-storage
@@ -13544,7 +13544,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateLocationObjectStorage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-location-object-storage))
 (common-lisp:progn
  (common-lisp:defun update-location-smb
@@ -13564,7 +13564,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateLocationSmb"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-location-smb))
 (common-lisp:progn
  (common-lisp:defun update-storage-system
@@ -13584,7 +13584,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateStorageSystem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-storage-system))
 (common-lisp:progn
  (common-lisp:defun update-task
@@ -13605,7 +13605,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-task))
 (common-lisp:progn
  (common-lisp:defun update-task-execution
@@ -13622,5 +13622,5 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateTaskExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-task-execution))

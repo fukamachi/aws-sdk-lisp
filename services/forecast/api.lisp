@@ -13121,7 +13121,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateAutoPredictor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-auto-predictor))
 (common-lisp:progn
  (common-lisp:defun create-dataset
@@ -13141,7 +13141,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-dataset))
 (common-lisp:progn
  (common-lisp:defun create-dataset-group
@@ -13160,7 +13160,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDatasetGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-dataset-group))
 (common-lisp:progn
  (common-lisp:defun create-dataset-import-job
@@ -13184,7 +13184,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDatasetImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-dataset-import-job))
 (common-lisp:progn
  (common-lisp:defun create-explainability
@@ -13206,7 +13206,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateExplainability"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-explainability))
 (common-lisp:progn
  (common-lisp:defun create-explainability-export
@@ -13227,7 +13227,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateExplainabilityExport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-explainability-export))
 (common-lisp:progn
  (common-lisp:defun create-forecast
@@ -13247,7 +13247,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateForecast"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-forecast))
 (common-lisp:progn
  (common-lisp:defun create-forecast-export-job
@@ -13268,7 +13268,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateForecastExportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-forecast-export-job))
 (common-lisp:progn
  (common-lisp:defun create-monitor
@@ -13285,7 +13285,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateMonitor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-monitor))
 (common-lisp:progn
  (common-lisp:defun create-predictor
@@ -13311,7 +13311,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreatePredictor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-predictor))
 (common-lisp:progn
  (common-lisp:defun create-predictor-backtest-export-job
@@ -13332,7 +13332,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreatePredictorBacktestExportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-predictor-backtest-export-job))
 (common-lisp:progn
  (common-lisp:defun create-what-if-analysis
@@ -13352,7 +13352,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateWhatIfAnalysis"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-what-if-analysis))
 (common-lisp:progn
  (common-lisp:defun create-what-if-forecast
@@ -13373,7 +13373,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateWhatIfForecast"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-what-if-forecast))
 (common-lisp:progn
  (common-lisp:defun create-what-if-forecast-export
@@ -13394,7 +13394,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateWhatIfForecastExport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-what-if-forecast-export))
 (common-lisp:progn
  (common-lisp:defun delete-dataset
@@ -13411,7 +13411,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-dataset))
 (common-lisp:progn
  (common-lisp:defun delete-dataset-group
@@ -13428,7 +13428,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDatasetGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-dataset-group))
 (common-lisp:progn
  (common-lisp:defun delete-dataset-import-job
@@ -13446,7 +13446,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDatasetImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-dataset-import-job))
 (common-lisp:progn
  (common-lisp:defun delete-explainability
@@ -13463,7 +13463,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteExplainability"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-explainability))
 (common-lisp:progn
  (common-lisp:defun delete-explainability-export
@@ -13481,7 +13481,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteExplainabilityExport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-explainability-export))
 (common-lisp:progn
  (common-lisp:defun delete-forecast
@@ -13498,7 +13498,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteForecast"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-forecast))
 (common-lisp:progn
  (common-lisp:defun delete-forecast-export-job
@@ -13516,7 +13516,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteForecastExportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-forecast-export-job))
 (common-lisp:progn
  (common-lisp:defun delete-monitor
@@ -13533,7 +13533,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteMonitor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-monitor))
 (common-lisp:progn
  (common-lisp:defun delete-predictor
@@ -13550,7 +13550,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeletePredictor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-predictor))
 (common-lisp:progn
  (common-lisp:defun delete-predictor-backtest-export-job
@@ -13569,7 +13569,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeletePredictorBacktestExportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-predictor-backtest-export-job))
 (common-lisp:progn
  (common-lisp:defun delete-resource-tree
@@ -13586,7 +13586,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteResourceTree"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resource-tree))
 (common-lisp:progn
  (common-lisp:defun delete-what-if-analysis
@@ -13603,7 +13603,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteWhatIfAnalysis"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-what-if-analysis))
 (common-lisp:progn
  (common-lisp:defun delete-what-if-forecast
@@ -13620,7 +13620,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteWhatIfForecast"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-what-if-forecast))
 (common-lisp:progn
  (common-lisp:defun delete-what-if-forecast-export
@@ -13638,7 +13638,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteWhatIfForecastExport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-what-if-forecast-export))
 (common-lisp:progn
  (common-lisp:defun describe-auto-predictor
@@ -13655,7 +13655,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAutoPredictor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-auto-predictor))
 (common-lisp:progn
  (common-lisp:defun describe-dataset
@@ -13672,7 +13672,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-dataset))
 (common-lisp:progn
  (common-lisp:defun describe-dataset-group
@@ -13689,7 +13689,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDatasetGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-dataset-group))
 (common-lisp:progn
  (common-lisp:defun describe-dataset-import-job
@@ -13707,7 +13707,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDatasetImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-dataset-import-job))
 (common-lisp:progn
  (common-lisp:defun describe-explainability
@@ -13724,7 +13724,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeExplainability"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-explainability))
 (common-lisp:progn
  (common-lisp:defun describe-explainability-export
@@ -13742,7 +13742,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeExplainabilityExport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-explainability-export))
 (common-lisp:progn
  (common-lisp:defun describe-forecast
@@ -13759,7 +13759,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeForecast"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-forecast))
 (common-lisp:progn
  (common-lisp:defun describe-forecast-export-job
@@ -13777,7 +13777,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeForecastExportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-forecast-export-job))
 (common-lisp:progn
  (common-lisp:defun describe-monitor
@@ -13794,7 +13794,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeMonitor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-monitor))
 (common-lisp:progn
  (common-lisp:defun describe-predictor
@@ -13811,7 +13811,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribePredictor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-predictor))
 (common-lisp:progn
  (common-lisp:defun describe-predictor-backtest-export-job
@@ -13830,7 +13830,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribePredictorBacktestExportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-predictor-backtest-export-job))
 (common-lisp:progn
  (common-lisp:defun describe-what-if-analysis
@@ -13848,7 +13848,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeWhatIfAnalysis"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-what-if-analysis))
 (common-lisp:progn
  (common-lisp:defun describe-what-if-forecast
@@ -13866,7 +13866,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeWhatIfForecast"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-what-if-forecast))
 (common-lisp:progn
  (common-lisp:defun describe-what-if-forecast-export
@@ -13884,7 +13884,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeWhatIfForecastExport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-what-if-forecast-export))
 (common-lisp:progn
  (common-lisp:defun get-accuracy-metrics
@@ -13901,7 +13901,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAccuracyMetrics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-accuracy-metrics))
 (common-lisp:progn
  (common-lisp:defun list-dataset-groups
@@ -13918,7 +13918,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDatasetGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-dataset-groups))
 (common-lisp:progn
  (common-lisp:defun list-dataset-import-jobs
@@ -13935,7 +13935,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDatasetImportJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-dataset-import-jobs))
 (common-lisp:progn
  (common-lisp:defun list-datasets
@@ -13952,7 +13952,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDatasets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-datasets))
 (common-lisp:progn
  (common-lisp:defun list-explainabilities
@@ -13969,7 +13969,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListExplainabilities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-explainabilities))
 (common-lisp:progn
  (common-lisp:defun list-explainability-exports
@@ -13987,7 +13987,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListExplainabilityExports"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-explainability-exports))
 (common-lisp:progn
  (common-lisp:defun list-forecast-export-jobs
@@ -14005,7 +14005,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListForecastExportJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-forecast-export-jobs))
 (common-lisp:progn
  (common-lisp:defun list-forecasts
@@ -14022,7 +14022,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListForecasts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-forecasts))
 (common-lisp:progn
  (common-lisp:defun list-monitor-evaluations
@@ -14041,7 +14041,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListMonitorEvaluations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-monitor-evaluations))
 (common-lisp:progn
  (common-lisp:defun list-monitors
@@ -14058,7 +14058,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListMonitors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-monitors))
 (common-lisp:progn
  (common-lisp:defun list-predictor-backtest-export-jobs
@@ -14076,7 +14076,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPredictorBacktestExportJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-predictor-backtest-export-jobs))
 (common-lisp:progn
  (common-lisp:defun list-predictors
@@ -14093,7 +14093,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPredictors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-predictors))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -14110,7 +14110,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-what-if-analyses
@@ -14127,7 +14127,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListWhatIfAnalyses"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-what-if-analyses))
 (common-lisp:progn
  (common-lisp:defun list-what-if-forecast-exports
@@ -14145,7 +14145,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListWhatIfForecastExports"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-what-if-forecast-exports))
 (common-lisp:progn
  (common-lisp:defun list-what-if-forecasts
@@ -14162,7 +14162,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListWhatIfForecasts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-what-if-forecasts))
 (common-lisp:progn
  (common-lisp:defun resume-resource
@@ -14179,7 +14179,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ResumeResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'resume-resource))
 (common-lisp:progn
  (common-lisp:defun stop-resource
@@ -14196,7 +14196,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-resource))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -14213,7 +14213,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -14230,7 +14230,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-dataset-group
@@ -14247,5 +14247,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateDatasetGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-dataset-group))

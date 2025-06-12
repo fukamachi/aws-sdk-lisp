@@ -1919,7 +1919,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'connectparticipant-request aws-sdk/generator/operation::input "POST"
         "/participant/complete-attachment-upload" "CompleteAttachmentUpload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'complete-attachment-upload))
 (common-lisp:progn
  (common-lisp:defun create-participant-connection
@@ -1938,7 +1938,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'connectparticipant-request aws-sdk/generator/operation::input "POST"
         "/participant/connection" "CreateParticipantConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-participant-connection))
 (common-lisp:progn
  (common-lisp:defun describe-view
@@ -1960,7 +1960,7 @@
                                 aws-sdk/generator/operation::input
                                 'view-token))))
         "DescribeView"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-view))
 (common-lisp:progn
  (common-lisp:defun disconnect-participant
@@ -1976,7 +1976,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'connectparticipant-request aws-sdk/generator/operation::input "POST"
         "/participant/disconnect" "DisconnectParticipant"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disconnect-participant))
 (common-lisp:progn
  (common-lisp:defun get-attachment
@@ -1992,7 +1992,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'connectparticipant-request aws-sdk/generator/operation::input "POST"
         "/participant/attachment" "GetAttachment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-attachment))
 (common-lisp:progn
  (common-lisp:defun get-transcript
@@ -2011,7 +2011,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'connectparticipant-request aws-sdk/generator/operation::input "POST"
         "/participant/transcript" "GetTranscript"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-transcript))
 (common-lisp:progn
  (common-lisp:defun send-event
@@ -2029,7 +2029,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'connectparticipant-request aws-sdk/generator/operation::input "POST"
         "/participant/event" "SendEvent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-event))
 (common-lisp:progn
  (common-lisp:defun send-message
@@ -2047,7 +2047,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'connectparticipant-request aws-sdk/generator/operation::input "POST"
         "/participant/message" "SendMessage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-message))
 (common-lisp:progn
  (common-lisp:defun start-attachment-upload
@@ -2066,5 +2066,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'connectparticipant-request aws-sdk/generator/operation::input "POST"
         "/participant/start-attachment-upload" "StartAttachmentUpload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-attachment-upload))

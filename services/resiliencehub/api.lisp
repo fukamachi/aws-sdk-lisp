@@ -12085,7 +12085,7 @@
                                                         "POST"
                                                         "/add-draft-app-version-resource-mappings"
                                                         "AddDraftAppVersionResourceMappings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-draft-app-version-resource-mappings))
 (common-lisp:progn
  (common-lisp:defun batch-update-recommendation-status
@@ -12104,7 +12104,7 @@
                                                         "POST"
                                                         "/batch-update-recommendation-status"
                                                         "BatchUpdateRecommendationStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-update-recommendation-status))
 (common-lisp:progn
  (common-lisp:defun create-app
@@ -12125,7 +12125,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/create-app"
                                                         "CreateApp"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-app))
 (common-lisp:progn
  (common-lisp:defun create-app-version-app-component
@@ -12146,7 +12146,7 @@
                                                         "POST"
                                                         "/create-app-version-app-component"
                                                         "CreateAppVersionAppComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-app-version-app-component))
 (common-lisp:progn
  (common-lisp:defun create-app-version-resource
@@ -12170,7 +12170,7 @@
                                                         "POST"
                                                         "/create-app-version-resource"
                                                         "CreateAppVersionResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-app-version-resource))
 (common-lisp:progn
  (common-lisp:defun create-recommendation-template
@@ -12192,7 +12192,7 @@
                                                         "POST"
                                                         "/create-recommendation-template"
                                                         "CreateRecommendationTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-recommendation-template))
 (common-lisp:progn
  (common-lisp:defun create-resiliency-policy
@@ -12213,7 +12213,7 @@
                                                         "POST"
                                                         "/create-resiliency-policy"
                                                         "CreateResiliencyPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-resiliency-policy))
 (common-lisp:progn
  (common-lisp:defun delete-app
@@ -12231,7 +12231,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/delete-app"
                                                         "DeleteApp"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-app))
 (common-lisp:progn
  (common-lisp:defun delete-app-assessment
@@ -12249,7 +12249,7 @@
                                                         "POST"
                                                         "/delete-app-assessment"
                                                         "DeleteAppAssessment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-app-assessment))
 (common-lisp:progn
  (common-lisp:defun delete-app-input-source
@@ -12270,7 +12270,7 @@
                                                         "POST"
                                                         "/delete-app-input-source"
                                                         "DeleteAppInputSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-app-input-source))
 (common-lisp:progn
  (common-lisp:defun delete-app-version-app-component
@@ -12289,7 +12289,7 @@
                                                         "POST"
                                                         "/delete-app-version-app-component"
                                                         "DeleteAppVersionAppComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-app-version-app-component))
 (common-lisp:progn
  (common-lisp:defun delete-app-version-resource
@@ -12312,7 +12312,7 @@
                                                         "POST"
                                                         "/delete-app-version-resource"
                                                         "DeleteAppVersionResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-app-version-resource))
 (common-lisp:progn
  (common-lisp:defun delete-recommendation-template
@@ -12332,7 +12332,7 @@
                                                         "POST"
                                                         "/delete-recommendation-template"
                                                         "DeleteRecommendationTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-recommendation-template))
 (common-lisp:progn
  (common-lisp:defun delete-resiliency-policy
@@ -12350,7 +12350,7 @@
                                                         "POST"
                                                         "/delete-resiliency-policy"
                                                         "DeleteResiliencyPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resiliency-policy))
 (common-lisp:progn
  (common-lisp:defun describe-app
@@ -12367,7 +12367,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/describe-app"
                                                         "DescribeApp"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-app))
 (common-lisp:progn
  (common-lisp:defun describe-app-assessment
@@ -12385,7 +12385,7 @@
                                                         "POST"
                                                         "/describe-app-assessment"
                                                         "DescribeAppAssessment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-app-assessment))
 (common-lisp:progn
  (common-lisp:defun describe-app-version
@@ -12403,7 +12403,7 @@
                                                         "POST"
                                                         "/describe-app-version"
                                                         "DescribeAppVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-app-version))
 (common-lisp:progn
  (common-lisp:defun describe-app-version-app-component
@@ -12422,7 +12422,7 @@
                                                         "POST"
                                                         "/describe-app-version-app-component"
                                                         "DescribeAppVersionAppComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-app-version-app-component))
 (common-lisp:progn
  (common-lisp:defun describe-app-version-resource
@@ -12445,7 +12445,7 @@
                                                         "POST"
                                                         "/describe-app-version-resource"
                                                         "DescribeAppVersionResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-app-version-resource))
 (common-lisp:progn
  (common-lisp:defun describe-app-version-resources-resolution-status
@@ -12465,7 +12465,7 @@
                                                         "POST"
                                                         "/describe-app-version-resources-resolution-status"
                                                         "DescribeAppVersionResourcesResolutionStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-app-version-resources-resolution-status))
 (common-lisp:progn
  (common-lisp:defun describe-app-version-template
@@ -12484,7 +12484,7 @@
                                                         "POST"
                                                         "/describe-app-version-template"
                                                         "DescribeAppVersionTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-app-version-template))
 (common-lisp:progn
  (common-lisp:defun describe-draft-app-version-resources-import-status
@@ -12503,7 +12503,7 @@
                                                         "POST"
                                                         "/describe-draft-app-version-resources-import-status"
                                                         "DescribeDraftAppVersionResourcesImportStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-draft-app-version-resources-import-status))
 (common-lisp:progn
  (common-lisp:defun describe-resiliency-policy
@@ -12522,7 +12522,7 @@
                                                         "POST"
                                                         "/describe-resiliency-policy"
                                                         "DescribeResiliencyPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-resiliency-policy))
 (common-lisp:progn
  (common-lisp:defun import-resources-to-draft-app-version
@@ -12544,7 +12544,7 @@
                                                         "POST"
                                                         "/import-resources-to-draft-app-version"
                                                         "ImportResourcesToDraftAppVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-resources-to-draft-app-version))
 (common-lisp:progn
  (common-lisp:defun list-alarm-recommendations
@@ -12564,7 +12564,7 @@
                                                         "POST"
                                                         "/list-alarm-recommendations"
                                                         "ListAlarmRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-alarm-recommendations))
 (common-lisp:progn
  (common-lisp:defun list-app-assessment-compliance-drifts
@@ -12584,7 +12584,7 @@
                                                         "POST"
                                                         "/list-app-assessment-compliance-drifts"
                                                         "ListAppAssessmentComplianceDrifts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-app-assessment-compliance-drifts))
 (common-lisp:progn
  (common-lisp:defun list-app-assessments
@@ -12606,7 +12606,7 @@
                                                         "GET"
                                                         "/list-app-assessments"
                                                         "ListAppAssessments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-app-assessments))
 (common-lisp:progn
  (common-lisp:defun list-app-component-compliances
@@ -12626,7 +12626,7 @@
                                                         "POST"
                                                         "/list-app-component-compliances"
                                                         "ListAppComponentCompliances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-app-component-compliances))
 (common-lisp:progn
  (common-lisp:defun list-app-component-recommendations
@@ -12646,7 +12646,7 @@
                                                         "POST"
                                                         "/list-app-component-recommendations"
                                                         "ListAppComponentRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-app-component-recommendations))
 (common-lisp:progn
  (common-lisp:defun list-app-input-sources
@@ -12666,7 +12666,7 @@
                                                         "POST"
                                                         "/list-app-input-sources"
                                                         "ListAppInputSources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-app-input-sources))
 (common-lisp:progn
  (common-lisp:defun list-app-version-app-components
@@ -12687,7 +12687,7 @@
                                                         "POST"
                                                         "/list-app-version-app-components"
                                                         "ListAppVersionAppComponents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-app-version-app-components))
 (common-lisp:progn
  (common-lisp:defun list-app-version-resource-mappings
@@ -12708,7 +12708,7 @@
                                                         "POST"
                                                         "/list-app-version-resource-mappings"
                                                         "ListAppVersionResourceMappings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-app-version-resource-mappings))
 (common-lisp:progn
  (common-lisp:defun list-app-version-resources
@@ -12730,7 +12730,7 @@
                                                         "POST"
                                                         "/list-app-version-resources"
                                                         "ListAppVersionResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-app-version-resources))
 (common-lisp:progn
  (common-lisp:defun list-app-versions
@@ -12750,7 +12750,7 @@
                                                         "POST"
                                                         "/list-app-versions"
                                                         "ListAppVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-app-versions))
 (common-lisp:progn
  (common-lisp:defun list-apps
@@ -12771,7 +12771,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/list-apps"
                                                         "ListApps"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-apps))
 (common-lisp:progn
  (common-lisp:defun list-recommendation-templates
@@ -12794,7 +12794,7 @@
                                                         "GET"
                                                         "/list-recommendation-templates"
                                                         "ListRecommendationTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-recommendation-templates))
 (common-lisp:progn
  (common-lisp:defun list-resiliency-policies
@@ -12813,7 +12813,7 @@
                                                         "GET"
                                                         "/list-resiliency-policies"
                                                         "ListResiliencyPolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-resiliency-policies))
 (common-lisp:progn
  (common-lisp:defun list-sop-recommendations
@@ -12832,7 +12832,7 @@
                                                         "POST"
                                                         "/list-sop-recommendations"
                                                         "ListSopRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-sop-recommendations))
 (common-lisp:progn
  (common-lisp:defun list-suggested-resiliency-policies
@@ -12851,7 +12851,7 @@
                                                         "GET"
                                                         "/list-suggested-resiliency-policies"
                                                         "ListSuggestedResiliencyPolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-suggested-resiliency-policies))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -12878,7 +12878,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-test-recommendations
@@ -12898,7 +12898,7 @@
                                                         "POST"
                                                         "/list-test-recommendations"
                                                         "ListTestRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-test-recommendations))
 (common-lisp:progn
  (common-lisp:defun list-unsupported-app-version-resources
@@ -12920,7 +12920,7 @@
                                                         "POST"
                                                         "/list-unsupported-app-version-resources"
                                                         "ListUnsupportedAppVersionResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-unsupported-app-version-resources))
 (common-lisp:progn
  (common-lisp:defun publish-app-version
@@ -12938,7 +12938,7 @@
                                                         "POST"
                                                         "/publish-app-version"
                                                         "PublishAppVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'publish-app-version))
 (common-lisp:progn
  (common-lisp:defun put-draft-app-version-template
@@ -12957,7 +12957,7 @@
                                                         "POST"
                                                         "/put-draft-app-version-template"
                                                         "PutDraftAppVersionTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-draft-app-version-template))
 (common-lisp:progn
  (common-lisp:defun remove-draft-app-version-resource-mappings
@@ -12981,7 +12981,7 @@
                                                         "POST"
                                                         "/remove-draft-app-version-resource-mappings"
                                                         "RemoveDraftAppVersionResourceMappings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-draft-app-version-resource-mappings))
 (common-lisp:progn
  (common-lisp:defun resolve-app-version-resources
@@ -13000,7 +13000,7 @@
                                                         "POST"
                                                         "/resolve-app-version-resources"
                                                         "ResolveAppVersionResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'resolve-app-version-resources))
 (common-lisp:progn
  (common-lisp:defun start-app-assessment
@@ -13021,7 +13021,7 @@
                                                         "POST"
                                                         "/start-app-assessment"
                                                         "StartAppAssessment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-app-assessment))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -13048,7 +13048,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -13075,7 +13075,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-app
@@ -13097,7 +13097,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/update-app"
                                                         "UpdateApp"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-app))
 (common-lisp:progn
  (common-lisp:defun update-app-version
@@ -13115,7 +13115,7 @@
                                                         "POST"
                                                         "/update-app-version"
                                                         "UpdateAppVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-app-version))
 (common-lisp:progn
  (common-lisp:defun update-app-version-app-component
@@ -13135,7 +13135,7 @@
                                                         "POST"
                                                         "/update-app-version-app-component"
                                                         "UpdateAppVersionAppComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-app-version-app-component))
 (common-lisp:progn
  (common-lisp:defun update-app-version-resource
@@ -13159,7 +13159,7 @@
                                                         "POST"
                                                         "/update-app-version-resource"
                                                         "UpdateAppVersionResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-app-version-resource))
 (common-lisp:progn
  (common-lisp:defun update-resiliency-policy
@@ -13180,5 +13180,5 @@
                                                         "POST"
                                                         "/update-resiliency-policy"
                                                         "UpdateResiliencyPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-resiliency-policy))

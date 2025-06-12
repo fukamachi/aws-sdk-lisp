@@ -18823,7 +18823,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AcceptMatch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'accept-match))
 (common-lisp:progn
  (common-lisp:defun claim-game-server
@@ -18843,7 +18843,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ClaimGameServer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'claim-game-server))
 (common-lisp:progn
  (common-lisp:defun create-alias
@@ -18861,7 +18861,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-alias))
 (common-lisp:progn
  (common-lisp:defun create-build
@@ -18881,7 +18881,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateBuild"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-build))
 (common-lisp:progn
  (common-lisp:defun create-fleet
@@ -18913,7 +18913,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-fleet))
 (common-lisp:progn
  (common-lisp:defun create-fleet-locations
@@ -18930,7 +18930,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateFleetLocations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-fleet-locations))
 (common-lisp:progn
  (common-lisp:defun create-game-server-group
@@ -18953,7 +18953,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateGameServerGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-game-server-group))
 (common-lisp:progn
  (common-lisp:defun create-game-session
@@ -18976,7 +18976,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateGameSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-game-session))
 (common-lisp:progn
  (common-lisp:defun create-game-session-queue
@@ -18999,7 +18999,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateGameSessionQueue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-game-session-queue))
 (common-lisp:progn
  (common-lisp:defun create-location
@@ -19016,7 +19016,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateLocation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-location))
 (common-lisp:progn
  (common-lisp:defun create-matchmaking-configuration
@@ -19043,7 +19043,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateMatchmakingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-matchmaking-configuration))
 (common-lisp:progn
  (common-lisp:defun create-matchmaking-rule-set
@@ -19061,7 +19061,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateMatchmakingRuleSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-matchmaking-rule-set))
 (common-lisp:progn
  (common-lisp:defun create-player-session
@@ -19079,7 +19079,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreatePlayerSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-player-session))
 (common-lisp:progn
  (common-lisp:defun create-player-sessions
@@ -19098,7 +19098,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreatePlayerSessions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-player-sessions))
 (common-lisp:progn
  (common-lisp:defun create-script
@@ -19117,7 +19117,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateScript"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-script))
 (common-lisp:progn
  (common-lisp:defun create-vpc-peering-authorization
@@ -19136,7 +19136,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateVpcPeeringAuthorization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-vpc-peering-authorization))
 (common-lisp:progn
  (common-lisp:defun create-vpc-peering-connection
@@ -19156,7 +19156,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateVpcPeeringConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-vpc-peering-connection))
 (common-lisp:progn
  (common-lisp:defun delete-alias
@@ -19173,7 +19173,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-alias))
 (common-lisp:progn
  (common-lisp:defun delete-build
@@ -19190,7 +19190,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteBuild"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-build))
 (common-lisp:progn
  (common-lisp:defun delete-fleet
@@ -19207,7 +19207,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-fleet))
 (common-lisp:progn
  (common-lisp:defun delete-fleet-locations
@@ -19224,7 +19224,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteFleetLocations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-fleet-locations))
 (common-lisp:progn
  (common-lisp:defun delete-game-server-group
@@ -19242,7 +19242,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteGameServerGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-game-server-group))
 (common-lisp:progn
  (common-lisp:defun delete-game-session-queue
@@ -19259,7 +19259,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteGameSessionQueue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-game-session-queue))
 (common-lisp:progn
  (common-lisp:defun delete-location
@@ -19276,7 +19276,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteLocation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-location))
 (common-lisp:progn
  (common-lisp:defun delete-matchmaking-configuration
@@ -19294,7 +19294,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteMatchmakingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-matchmaking-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-matchmaking-rule-set
@@ -19312,7 +19312,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteMatchmakingRuleSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-matchmaking-rule-set))
 (common-lisp:progn
  (common-lisp:defun delete-scaling-policy
@@ -19329,7 +19329,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteScalingPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-scaling-policy))
 (common-lisp:progn
  (common-lisp:defun delete-script
@@ -19346,7 +19346,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteScript"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-script))
 (common-lisp:progn
  (common-lisp:defun delete-vpc-peering-authorization
@@ -19365,7 +19365,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteVpcPeeringAuthorization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-vpc-peering-authorization))
 (common-lisp:progn
  (common-lisp:defun delete-vpc-peering-connection
@@ -19384,7 +19384,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteVpcPeeringConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-vpc-peering-connection))
 (common-lisp:progn
  (common-lisp:defun deregister-compute
@@ -19401,7 +19401,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeregisterCompute"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deregister-compute))
 (common-lisp:progn
  (common-lisp:defun deregister-game-server
@@ -19419,7 +19419,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeregisterGameServer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deregister-game-server))
 (common-lisp:progn
  (common-lisp:defun describe-alias
@@ -19436,7 +19436,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-alias))
 (common-lisp:progn
  (common-lisp:defun describe-build
@@ -19453,7 +19453,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeBuild"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-build))
 (common-lisp:progn
  (common-lisp:defun describe-compute
@@ -19470,7 +19470,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeCompute"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-compute))
 (common-lisp:progn
  (common-lisp:defun describe-ec2instance-limits
@@ -19488,7 +19488,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEC2InstanceLimits"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-ec2instance-limits))
 (common-lisp:progn
  (common-lisp:defun describe-fleet-attributes
@@ -19505,7 +19505,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeFleetAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-fleet-attributes))
 (common-lisp:progn
  (common-lisp:defun describe-fleet-capacity
@@ -19522,7 +19522,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeFleetCapacity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-fleet-capacity))
 (common-lisp:progn
  (common-lisp:defun describe-fleet-events
@@ -19541,7 +19541,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeFleetEvents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-fleet-events))
 (common-lisp:progn
  (common-lisp:defun describe-fleet-location-attributes
@@ -19560,7 +19560,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeFleetLocationAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-fleet-location-attributes))
 (common-lisp:progn
  (common-lisp:defun describe-fleet-location-capacity
@@ -19578,7 +19578,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeFleetLocationCapacity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-fleet-location-capacity))
 (common-lisp:progn
  (common-lisp:defun describe-fleet-location-utilization
@@ -19596,7 +19596,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeFleetLocationUtilization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-fleet-location-utilization))
 (common-lisp:progn
  (common-lisp:defun describe-fleet-port-settings
@@ -19614,7 +19614,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeFleetPortSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-fleet-port-settings))
 (common-lisp:progn
  (common-lisp:defun describe-fleet-utilization
@@ -19631,7 +19631,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeFleetUtilization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-fleet-utilization))
 (common-lisp:progn
  (common-lisp:defun describe-game-server
@@ -19649,7 +19649,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeGameServer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-game-server))
 (common-lisp:progn
  (common-lisp:defun describe-game-server-group
@@ -19666,7 +19666,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeGameServerGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-game-server-group))
 (common-lisp:progn
  (common-lisp:defun describe-game-server-instances
@@ -19687,7 +19687,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeGameServerInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-game-server-instances))
 (common-lisp:progn
  (common-lisp:defun describe-game-session-details
@@ -19708,7 +19708,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeGameSessionDetails"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-game-session-details))
 (common-lisp:progn
  (common-lisp:defun describe-game-session-placement
@@ -19726,7 +19726,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeGameSessionPlacement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-game-session-placement))
 (common-lisp:progn
  (common-lisp:defun describe-game-session-queues
@@ -19744,7 +19744,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeGameSessionQueues"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-game-session-queues))
 (common-lisp:progn
  (common-lisp:defun describe-game-sessions
@@ -19764,7 +19764,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeGameSessions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-game-sessions))
 (common-lisp:progn
  (common-lisp:defun describe-instances
@@ -19783,7 +19783,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-instances))
 (common-lisp:progn
  (common-lisp:defun describe-matchmaking
@@ -19800,7 +19800,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeMatchmaking"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-matchmaking))
 (common-lisp:progn
  (common-lisp:defun describe-matchmaking-configurations
@@ -19819,7 +19819,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeMatchmakingConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-matchmaking-configurations))
 (common-lisp:progn
  (common-lisp:defun describe-matchmaking-rule-sets
@@ -19837,7 +19837,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeMatchmakingRuleSets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-matchmaking-rule-sets))
 (common-lisp:progn
  (common-lisp:defun describe-player-sessions
@@ -19858,7 +19858,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribePlayerSessions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-player-sessions))
 (common-lisp:progn
  (common-lisp:defun describe-runtime-configuration
@@ -19876,7 +19876,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeRuntimeConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-runtime-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-scaling-policies
@@ -19895,7 +19895,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeScalingPolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-scaling-policies))
 (common-lisp:progn
  (common-lisp:defun describe-script
@@ -19912,7 +19912,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeScript"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-script))
 (common-lisp:progn
  (common-lisp:defun describe-vpc-peering-authorizations ()
@@ -19938,7 +19938,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeVpcPeeringConnections"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-vpc-peering-connections))
 (common-lisp:progn
  (common-lisp:defun get-compute-access
@@ -19955,7 +19955,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetComputeAccess"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-compute-access))
 (common-lisp:progn
  (common-lisp:defun get-compute-auth-token
@@ -19972,7 +19972,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetComputeAuthToken"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-compute-auth-token))
 (common-lisp:progn
  (common-lisp:defun get-game-session-log-url
@@ -19989,7 +19989,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetGameSessionLogUrl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-game-session-log-url))
 (common-lisp:progn
  (common-lisp:defun get-instance-access
@@ -20006,7 +20006,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetInstanceAccess"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-instance-access))
 (common-lisp:progn
  (common-lisp:defun list-aliases
@@ -20025,7 +20025,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAliases"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-aliases))
 (common-lisp:progn
  (common-lisp:defun list-builds
@@ -20042,7 +20042,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListBuilds"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-builds))
 (common-lisp:progn
  (common-lisp:defun list-compute
@@ -20060,7 +20060,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListCompute"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-compute))
 (common-lisp:progn
  (common-lisp:defun list-fleets
@@ -20078,7 +20078,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListFleets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-fleets))
 (common-lisp:progn
  (common-lisp:defun list-game-server-groups
@@ -20095,7 +20095,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListGameServerGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-game-server-groups))
 (common-lisp:progn
  (common-lisp:defun list-game-servers
@@ -20114,7 +20114,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListGameServers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-game-servers))
 (common-lisp:progn
  (common-lisp:defun list-locations
@@ -20131,7 +20131,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListLocations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-locations))
 (common-lisp:progn
  (common-lisp:defun list-scripts
@@ -20148,7 +20148,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListScripts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-scripts))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -20165,7 +20165,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-scaling-policy
@@ -20188,7 +20188,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutScalingPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-scaling-policy))
 (common-lisp:progn
  (common-lisp:defun register-compute
@@ -20208,7 +20208,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RegisterCompute"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-compute))
 (common-lisp:progn
  (common-lisp:defun register-game-server
@@ -20228,7 +20228,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RegisterGameServer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-game-server))
 (common-lisp:progn
  (common-lisp:defun request-upload-credentials
@@ -20245,7 +20245,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RequestUploadCredentials"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'request-upload-credentials))
 (common-lisp:progn
  (common-lisp:defun resolve-alias
@@ -20262,7 +20262,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ResolveAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'resolve-alias))
 (common-lisp:progn
  (common-lisp:defun resume-game-server-group
@@ -20280,7 +20280,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ResumeGameServerGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'resume-game-server-group))
 (common-lisp:progn
  (common-lisp:defun search-game-sessions
@@ -20300,7 +20300,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SearchGameSessions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-game-sessions))
 (common-lisp:progn
  (common-lisp:defun start-fleet-actions
@@ -20317,7 +20317,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartFleetActions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-fleet-actions))
 (common-lisp:progn
  (common-lisp:defun start-game-session-placement
@@ -20341,7 +20341,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartGameSessionPlacement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-game-session-placement))
 (common-lisp:progn
  (common-lisp:defun start-match-backfill
@@ -20361,7 +20361,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartMatchBackfill"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-match-backfill))
 (common-lisp:progn
  (common-lisp:defun start-matchmaking
@@ -20379,7 +20379,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartMatchmaking"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-matchmaking))
 (common-lisp:progn
  (common-lisp:defun stop-fleet-actions
@@ -20396,7 +20396,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopFleetActions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-fleet-actions))
 (common-lisp:progn
  (common-lisp:defun stop-game-session-placement
@@ -20414,7 +20414,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopGameSessionPlacement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-game-session-placement))
 (common-lisp:progn
  (common-lisp:defun stop-matchmaking
@@ -20431,7 +20431,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopMatchmaking"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-matchmaking))
 (common-lisp:progn
  (common-lisp:defun suspend-game-server-group
@@ -20449,7 +20449,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SuspendGameServerGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'suspend-game-server-group))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -20466,7 +20466,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -20483,7 +20483,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-alias
@@ -20502,7 +20502,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-alias))
 (common-lisp:progn
  (common-lisp:defun update-build
@@ -20519,7 +20519,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateBuild"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-build))
 (common-lisp:progn
  (common-lisp:defun update-fleet-attributes
@@ -20542,7 +20542,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateFleetAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-fleet-attributes))
 (common-lisp:progn
  (common-lisp:defun update-fleet-capacity
@@ -20562,7 +20562,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateFleetCapacity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-fleet-capacity))
 (common-lisp:progn
  (common-lisp:defun update-fleet-port-settings
@@ -20583,7 +20583,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateFleetPortSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-fleet-port-settings))
 (common-lisp:progn
  (common-lisp:defun update-game-server
@@ -20603,7 +20603,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateGameServer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-game-server))
 (common-lisp:progn
  (common-lisp:defun update-game-server-group
@@ -20624,7 +20624,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateGameServerGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-game-server-group))
 (common-lisp:progn
  (common-lisp:defun update-game-session
@@ -20646,7 +20646,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateGameSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-game-session))
 (common-lisp:progn
  (common-lisp:defun update-game-session-queue
@@ -20669,7 +20669,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateGameSessionQueue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-game-session-queue))
 (common-lisp:progn
  (common-lisp:defun update-matchmaking-configuration
@@ -20696,7 +20696,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateMatchmakingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-matchmaking-configuration))
 (common-lisp:progn
  (common-lisp:defun update-runtime-configuration
@@ -20714,7 +20714,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateRuntimeConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-runtime-configuration))
 (common-lisp:progn
  (common-lisp:defun update-script
@@ -20733,7 +20733,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateScript"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-script))
 (common-lisp:progn
  (common-lisp:defun validate-matchmaking-rule-set
@@ -20751,5 +20751,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ValidateMatchmakingRuleSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'validate-matchmaking-rule-set))

@@ -6830,7 +6830,7 @@
                                 aws-sdk/generator/operation::input
                                 'application-component-id))))
         "GetApplicationComponentDetails"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-application-component-details))
 (common-lisp:progn
  (common-lisp:defun get-application-component-strategies
@@ -6854,7 +6854,7 @@
                                 aws-sdk/generator/operation::input
                                 'application-component-id))))
         "GetApplicationComponentStrategies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-application-component-strategies))
 (common-lisp:progn
  (common-lisp:defun get-assessment
@@ -6875,7 +6875,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "GetAssessment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-assessment))
 (common-lisp:progn
  (common-lisp:defun get-import-file-task
@@ -6896,7 +6896,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "GetImportFileTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-import-file-task))
 (common-lisp:progn
  (common-lisp:defun get-latest-assessment-id ()
@@ -6946,7 +6946,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "GetRecommendationReportDetails"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-recommendation-report-details))
 (common-lisp:progn
  (common-lisp:defun get-server-details
@@ -6969,7 +6969,7 @@
                                 aws-sdk/generator/operation::input
                                 'server-id))))
         "GetServerDetails"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-server-details))
 (common-lisp:progn
  (common-lisp:defun get-server-strategies
@@ -6991,7 +6991,7 @@
                                 aws-sdk/generator/operation::input
                                 'server-id))))
         "GetServerStrategies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-server-strategies))
 (common-lisp:progn
  (common-lisp:defun list-analyzable-servers
@@ -7007,7 +7007,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'migrationhubstrategy-request aws-sdk/generator/operation::input "POST"
         "/list-analyzable-servers" "ListAnalyzableServers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-analyzable-servers))
 (common-lisp:progn
  (common-lisp:defun list-application-components
@@ -7027,7 +7027,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'migrationhubstrategy-request aws-sdk/generator/operation::input "POST"
         "/list-applicationcomponents" "ListApplicationComponents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-application-components))
 (common-lisp:progn
  (common-lisp:defun list-collectors
@@ -7043,7 +7043,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'migrationhubstrategy-request aws-sdk/generator/operation::input "GET"
         "/list-collectors" "ListCollectors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-collectors))
 (common-lisp:progn
  (common-lisp:defun list-import-file-task
@@ -7059,7 +7059,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'migrationhubstrategy-request aws-sdk/generator/operation::input "GET"
         "/list-import-file-task" "ListImportFileTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-import-file-task))
 (common-lisp:progn
  (common-lisp:defun list-servers
@@ -7078,7 +7078,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'migrationhubstrategy-request aws-sdk/generator/operation::input "POST"
         "/list-servers" "ListServers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-servers))
 (common-lisp:progn
  (common-lisp:defun put-portfolio-preferences
@@ -7098,7 +7098,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'migrationhubstrategy-request aws-sdk/generator/operation::input "POST"
         "/put-portfolio-preferences" "PutPortfolioPreferences"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-portfolio-preferences))
 (common-lisp:progn
  (common-lisp:defun start-assessment
@@ -7118,7 +7118,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'migrationhubstrategy-request aws-sdk/generator/operation::input "POST"
         "/start-assessment" "StartAssessment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-assessment))
 (common-lisp:progn
  (common-lisp:defun start-import-file-task
@@ -7137,7 +7137,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'migrationhubstrategy-request aws-sdk/generator/operation::input "POST"
         "/start-import-file-task" "StartImportFileTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-import-file-task))
 (common-lisp:progn
  (common-lisp:defun start-recommendation-report-generation
@@ -7155,7 +7155,7 @@
         'migrationhubstrategy-request aws-sdk/generator/operation::input "POST"
         "/start-recommendation-report-generation"
         "StartRecommendationReportGeneration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-recommendation-report-generation))
 (common-lisp:progn
  (common-lisp:defun stop-assessment
@@ -7171,7 +7171,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'migrationhubstrategy-request aws-sdk/generator/operation::input "POST"
         "/stop-assessment" "StopAssessment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-assessment))
 (common-lisp:progn
  (common-lisp:defun update-application-component-config
@@ -7193,7 +7193,7 @@
         'migrationhubstrategy-request aws-sdk/generator/operation::input "POST"
         "/update-applicationcomponent-config/"
         "UpdateApplicationComponentConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-application-component-config))
 (common-lisp:progn
  (common-lisp:defun update-server-config
@@ -7209,5 +7209,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'migrationhubstrategy-request aws-sdk/generator/operation::input "POST"
         "/update-server-config/" "UpdateServerConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-server-config))

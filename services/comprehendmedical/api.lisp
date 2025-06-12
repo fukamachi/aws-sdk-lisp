@@ -5185,7 +5185,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeEntitiesDetectionV2Job"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-entities-detection-v2job))
 (common-lisp:progn
  (common-lisp:defun describe-icd10cminference-job
@@ -5202,7 +5202,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeICD10CMInferenceJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-icd10cminference-job))
 (common-lisp:progn
  (common-lisp:defun describe-phidetection-job
@@ -5219,7 +5219,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "DescribePHIDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-phidetection-job))
 (common-lisp:progn
  (common-lisp:defun describe-rx-norm-inference-job
@@ -5236,7 +5236,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeRxNormInferenceJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-rx-norm-inference-job))
 (common-lisp:progn
  (common-lisp:defun describe-snomedctinference-job
@@ -5253,7 +5253,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeSNOMEDCTInferenceJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-snomedctinference-job))
 (common-lisp:progn
  (common-lisp:defun detect-entities
@@ -5269,7 +5269,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "DetectEntities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detect-entities))
 (common-lisp:progn
  (common-lisp:defun detect-entities-v2
@@ -5285,7 +5285,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "DetectEntitiesV2"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detect-entities-v2))
 (common-lisp:progn
  (common-lisp:defun detect-phi
@@ -5301,7 +5301,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "DetectPHI"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detect-phi))
 (common-lisp:progn
  (common-lisp:defun infer-icd10cm
@@ -5317,7 +5317,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "InferICD10CM"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'infer-icd10cm))
 (common-lisp:progn
  (common-lisp:defun infer-rx-norm
@@ -5333,7 +5333,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "InferRxNorm"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'infer-rx-norm))
 (common-lisp:progn
  (common-lisp:defun infer-snomedct
@@ -5349,7 +5349,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "InferSNOMEDCT"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'infer-snomedct))
 (common-lisp:progn
  (common-lisp:defun list-entities-detection-v2jobs
@@ -5366,7 +5366,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "ListEntitiesDetectionV2Jobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-entities-detection-v2jobs))
 (common-lisp:progn
  (common-lisp:defun list-icd10cminference-jobs
@@ -5383,7 +5383,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "ListICD10CMInferenceJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-icd10cminference-jobs))
 (common-lisp:progn
  (common-lisp:defun list-phidetection-jobs
@@ -5399,7 +5399,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "ListPHIDetectionJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-phidetection-jobs))
 (common-lisp:progn
  (common-lisp:defun list-rx-norm-inference-jobs
@@ -5416,7 +5416,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "ListRxNormInferenceJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-rx-norm-inference-jobs))
 (common-lisp:progn
  (common-lisp:defun list-snomedctinference-jobs
@@ -5433,7 +5433,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "ListSNOMEDCTInferenceJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-snomedctinference-jobs))
 (common-lisp:progn
  (common-lisp:defun start-entities-detection-v2job
@@ -5454,7 +5454,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "StartEntitiesDetectionV2Job"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-entities-detection-v2job))
 (common-lisp:progn
  (common-lisp:defun start-icd10cminference-job
@@ -5475,7 +5475,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "StartICD10CMInferenceJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-icd10cminference-job))
 (common-lisp:progn
  (common-lisp:defun start-phidetection-job
@@ -5495,7 +5495,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "StartPHIDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-phidetection-job))
 (common-lisp:progn
  (common-lisp:defun start-rx-norm-inference-job
@@ -5516,7 +5516,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "StartRxNormInferenceJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-rx-norm-inference-job))
 (common-lisp:progn
  (common-lisp:defun start-snomedctinference-job
@@ -5537,7 +5537,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "StartSNOMEDCTInferenceJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-snomedctinference-job))
 (common-lisp:progn
  (common-lisp:defun stop-entities-detection-v2job
@@ -5554,7 +5554,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "StopEntitiesDetectionV2Job"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-entities-detection-v2job))
 (common-lisp:progn
  (common-lisp:defun stop-icd10cminference-job
@@ -5571,7 +5571,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "StopICD10CMInferenceJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-icd10cminference-job))
 (common-lisp:progn
  (common-lisp:defun stop-phidetection-job
@@ -5587,7 +5587,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "StopPHIDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-phidetection-job))
 (common-lisp:progn
  (common-lisp:defun stop-rx-norm-inference-job
@@ -5604,7 +5604,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "StopRxNormInferenceJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-rx-norm-inference-job))
 (common-lisp:progn
  (common-lisp:defun stop-snomedctinference-job
@@ -5621,5 +5621,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'comprehendmedical-request aws-sdk/generator/operation::input "POST"
         "/" "StopSNOMEDCTInferenceJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-snomedctinference-job))

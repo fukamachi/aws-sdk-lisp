@@ -9644,7 +9644,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchCheckLayerAvailability"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-check-layer-availability))
 (common-lisp:progn
  (common-lisp:defun batch-delete-image
@@ -9662,7 +9662,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchDeleteImage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-delete-image))
 (common-lisp:progn
  (common-lisp:defun batch-get-image
@@ -9682,7 +9682,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchGetImage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-image))
 (common-lisp:progn
  (common-lisp:defun batch-get-repository-scanning-configuration
@@ -9700,7 +9700,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchGetRepositoryScanningConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-repository-scanning-configuration))
 (common-lisp:progn
  (common-lisp:defun complete-layer-upload
@@ -9720,7 +9720,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CompleteLayerUpload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'complete-layer-upload))
 (common-lisp:progn
  (common-lisp:defun create-pull-through-cache-rule
@@ -9742,7 +9742,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreatePullThroughCacheRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-pull-through-cache-rule))
 (common-lisp:progn
  (common-lisp:defun create-repository
@@ -9764,7 +9764,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateRepository"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-repository))
 (common-lisp:progn
  (common-lisp:defun delete-lifecycle-policy
@@ -9781,7 +9781,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteLifecyclePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-lifecycle-policy))
 (common-lisp:progn
  (common-lisp:defun delete-pull-through-cache-rule
@@ -9800,7 +9800,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeletePullThroughCacheRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-pull-through-cache-rule))
 (common-lisp:progn
  (common-lisp:defun delete-registry-policy ()
@@ -9826,7 +9826,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteRepository"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-repository))
 (common-lisp:progn
  (common-lisp:defun delete-repository-policy
@@ -9843,7 +9843,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteRepositoryPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-repository-policy))
 (common-lisp:progn
  (common-lisp:defun describe-image-replication-status
@@ -9862,7 +9862,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeImageReplicationStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-image-replication-status))
 (common-lisp:progn
  (common-lisp:defun describe-image-scan-findings
@@ -9883,7 +9883,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeImageScanFindings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-image-scan-findings))
 (common-lisp:progn
  (common-lisp:defun describe-images
@@ -9903,7 +9903,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeImages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-images))
 (common-lisp:progn
  (common-lisp:defun describe-pull-through-cache-rules
@@ -9924,7 +9924,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribePullThroughCacheRules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-pull-through-cache-rules))
 (common-lisp:progn
  (common-lisp:defun describe-registry ()
@@ -9952,7 +9952,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeRepositories"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-repositories))
 (common-lisp:progn
  (common-lisp:defun get-authorization-token
@@ -9969,7 +9969,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAuthorizationToken"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-authorization-token))
 (common-lisp:progn
  (common-lisp:defun get-download-url-for-layer
@@ -9988,7 +9988,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDownloadUrlForLayer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-download-url-for-layer))
 (common-lisp:progn
  (common-lisp:defun get-lifecycle-policy
@@ -10005,7 +10005,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetLifecyclePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-lifecycle-policy))
 (common-lisp:progn
  (common-lisp:defun get-lifecycle-policy-preview
@@ -10026,7 +10026,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetLifecyclePolicyPreview"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-lifecycle-policy-preview))
 (common-lisp:progn
  (common-lisp:defun get-registry-policy ()
@@ -10059,7 +10059,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetRepositoryPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-repository-policy))
 (common-lisp:progn
  (common-lisp:defun initiate-layer-upload
@@ -10076,7 +10076,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "InitiateLayerUpload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'initiate-layer-upload))
 (common-lisp:progn
  (common-lisp:defun list-images
@@ -10096,7 +10096,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListImages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-images))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -10113,7 +10113,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-image
@@ -10133,7 +10133,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'ecr-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "PutImage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-image))
 (common-lisp:progn
  (common-lisp:defun put-image-scanning-configuration
@@ -10154,7 +10154,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutImageScanningConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-image-scanning-configuration))
 (common-lisp:progn
  (common-lisp:defun put-image-tag-mutability
@@ -10173,7 +10173,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutImageTagMutability"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-image-tag-mutability))
 (common-lisp:progn
  (common-lisp:defun put-lifecycle-policy
@@ -10192,7 +10192,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutLifecyclePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-lifecycle-policy))
 (common-lisp:progn
  (common-lisp:defun put-registry-policy
@@ -10209,7 +10209,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutRegistryPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-registry-policy))
 (common-lisp:progn
  (common-lisp:defun put-registry-scanning-configuration
@@ -10227,7 +10227,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutRegistryScanningConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-registry-scanning-configuration))
 (common-lisp:progn
  (common-lisp:defun put-replication-configuration
@@ -10245,7 +10245,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutReplicationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-replication-configuration))
 (common-lisp:progn
  (common-lisp:defun set-repository-policy
@@ -10264,7 +10264,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetRepositoryPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'set-repository-policy))
 (common-lisp:progn
  (common-lisp:defun start-image-scan
@@ -10282,7 +10282,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartImageScan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-image-scan))
 (common-lisp:progn
  (common-lisp:defun start-lifecycle-policy-preview
@@ -10302,7 +10302,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartLifecyclePolicyPreview"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-lifecycle-policy-preview))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -10319,7 +10319,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -10336,7 +10336,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-pull-through-cache-rule
@@ -10356,7 +10356,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdatePullThroughCacheRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-pull-through-cache-rule))
 (common-lisp:progn
  (common-lisp:defun upload-layer-part
@@ -10376,7 +10376,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UploadLayerPart"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'upload-layer-part))
 (common-lisp:progn
  (common-lisp:defun validate-pull-through-cache-rule
@@ -10395,5 +10395,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ValidatePullThroughCacheRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'validate-pull-through-cache-rule))

@@ -394,5 +394,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cloudtrail-data-request aws-sdk/generator/operation::input "POST"
         "/PutAuditEvents" "PutAuditEvents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-audit-events))

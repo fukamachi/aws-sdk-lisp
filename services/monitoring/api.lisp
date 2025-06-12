@@ -8175,7 +8175,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAlarms"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-alarms))
 (common-lisp:progn
  (common-lisp:defun delete-anomaly-detector
@@ -8196,7 +8196,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAnomalyDetector"))
-      common-lisp:nil "DeleteAnomalyDetectorResult" *error-map*)))
+      common-lisp:nil "DeleteAnomalyDetectorResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-anomaly-detector))
 (common-lisp:progn
  (common-lisp:defun delete-dashboards
@@ -8213,7 +8214,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDashboards"))
-      common-lisp:nil "DeleteDashboardsResult" *error-map*)))
+      common-lisp:nil "DeleteDashboardsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-dashboards))
 (common-lisp:progn
  (common-lisp:defun delete-insight-rules
@@ -8230,7 +8231,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteInsightRules"))
-      common-lisp:nil "DeleteInsightRulesResult" *error-map*)))
+      common-lisp:nil "DeleteInsightRulesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-insight-rules))
 (common-lisp:progn
  (common-lisp:defun delete-metric-stream
@@ -8247,7 +8248,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteMetricStream"))
-      common-lisp:nil "DeleteMetricStreamResult" *error-map*)))
+      common-lisp:nil "DeleteMetricStreamResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-metric-stream))
 (common-lisp:progn
  (common-lisp:defun describe-alarm-history
@@ -8267,7 +8268,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAlarmHistory"))
-      common-lisp:nil "DescribeAlarmHistoryResult" *error-map*)))
+      common-lisp:nil "DescribeAlarmHistoryResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-alarm-history))
 (common-lisp:progn
  (common-lisp:defun describe-alarms
@@ -8289,7 +8291,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAlarms"))
-      common-lisp:nil "DescribeAlarmsResult" *error-map*)))
+      common-lisp:nil "DescribeAlarmsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-alarms))
 (common-lisp:progn
  (common-lisp:defun describe-alarms-for-metric
@@ -8309,7 +8311,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAlarmsForMetric"))
-      common-lisp:nil "DescribeAlarmsForMetricResult" *error-map*)))
+      common-lisp:nil "DescribeAlarmsForMetricResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-alarms-for-metric))
 (common-lisp:progn
  (common-lisp:defun describe-anomaly-detectors
@@ -8329,7 +8332,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAnomalyDetectors"))
-      common-lisp:nil "DescribeAnomalyDetectorsResult" *error-map*)))
+      common-lisp:nil "DescribeAnomalyDetectorsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-anomaly-detectors))
 (common-lisp:progn
  (common-lisp:defun describe-insight-rules
@@ -8346,7 +8350,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeInsightRules"))
-      common-lisp:nil "DescribeInsightRulesResult" *error-map*)))
+      common-lisp:nil "DescribeInsightRulesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-insight-rules))
 (common-lisp:progn
  (common-lisp:defun disable-alarm-actions
@@ -8363,7 +8368,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisableAlarmActions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'disable-alarm-actions))
 (common-lisp:progn
  (common-lisp:defun disable-insight-rules
@@ -8380,7 +8385,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisableInsightRules"))
-      common-lisp:nil "DisableInsightRulesResult" *error-map*)))
+      common-lisp:nil "DisableInsightRulesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'disable-insight-rules))
 (common-lisp:progn
  (common-lisp:defun enable-alarm-actions
@@ -8397,7 +8403,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "EnableAlarmActions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'enable-alarm-actions))
 (common-lisp:progn
  (common-lisp:defun enable-insight-rules
@@ -8414,7 +8420,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "EnableInsightRules"))
-      common-lisp:nil "EnableInsightRulesResult" *error-map*)))
+      common-lisp:nil "EnableInsightRulesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'enable-insight-rules))
 (common-lisp:progn
  (common-lisp:defun get-dashboard
@@ -8431,7 +8437,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDashboard"))
-      common-lisp:nil "GetDashboardResult" *error-map*)))
+      common-lisp:nil "GetDashboardResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-dashboard))
 (common-lisp:progn
  (common-lisp:defun get-insight-rule-report
@@ -8451,7 +8457,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetInsightRuleReport"))
-      common-lisp:nil "GetInsightRuleReportResult" *error-map*)))
+      common-lisp:nil "GetInsightRuleReportResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-insight-rule-report))
 (common-lisp:progn
  (common-lisp:defun get-metric-data
@@ -8471,7 +8478,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetMetricData"))
-      common-lisp:nil "GetMetricDataResult" *error-map*)))
+      common-lisp:nil "GetMetricDataResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-metric-data))
 (common-lisp:progn
  (common-lisp:defun get-metric-statistics
@@ -8492,7 +8499,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetMetricStatistics"))
-      common-lisp:nil "GetMetricStatisticsResult" *error-map*)))
+      common-lisp:nil "GetMetricStatisticsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-metric-statistics))
 (common-lisp:progn
  (common-lisp:defun get-metric-stream
@@ -8509,7 +8517,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetMetricStream"))
-      common-lisp:nil "GetMetricStreamResult" *error-map*)))
+      common-lisp:nil "GetMetricStreamResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-metric-stream))
 (common-lisp:progn
  (common-lisp:defun get-metric-widget-image
@@ -8526,7 +8534,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetMetricWidgetImage"))
-      common-lisp:nil "GetMetricWidgetImageResult" *error-map*)))
+      common-lisp:nil "GetMetricWidgetImageResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-metric-widget-image))
 (common-lisp:progn
  (common-lisp:defun list-dashboards
@@ -8544,7 +8553,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDashboards"))
-      common-lisp:nil "ListDashboardsResult" *error-map*)))
+      common-lisp:nil "ListDashboardsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-dashboards))
 (common-lisp:progn
  (common-lisp:defun list-managed-insight-rules
@@ -8562,7 +8571,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListManagedInsightRules"))
-      common-lisp:nil "ListManagedInsightRulesResult" *error-map*)))
+      common-lisp:nil "ListManagedInsightRulesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-managed-insight-rules))
 (common-lisp:progn
  (common-lisp:defun list-metric-streams
@@ -8579,7 +8589,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListMetricStreams"))
-      common-lisp:nil "ListMetricStreamsResult" *error-map*)))
+      common-lisp:nil "ListMetricStreamsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-metric-streams))
 (common-lisp:progn
  (common-lisp:defun list-metrics
@@ -8600,7 +8610,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListMetrics"))
-      common-lisp:nil "ListMetricsResult" *error-map*)))
+      common-lisp:nil "ListMetricsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-metrics))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -8617,7 +8627,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil "ListTagsForResourceResult" *error-map*)))
+      common-lisp:nil "ListTagsForResourceResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-anomaly-detector
@@ -8638,7 +8649,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutAnomalyDetector"))
-      common-lisp:nil "PutAnomalyDetectorResult" *error-map*)))
+      common-lisp:nil "PutAnomalyDetectorResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'put-anomaly-detector))
 (common-lisp:progn
  (common-lisp:defun put-composite-alarm
@@ -8663,7 +8674,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutCompositeAlarm"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'put-composite-alarm))
 (common-lisp:progn
  (common-lisp:defun put-dashboard
@@ -8680,7 +8691,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutDashboard"))
-      common-lisp:nil "PutDashboardResult" *error-map*)))
+      common-lisp:nil "PutDashboardResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'put-dashboard))
 (common-lisp:progn
  (common-lisp:defun put-insight-rule
@@ -8699,7 +8710,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutInsightRule"))
-      common-lisp:nil "PutInsightRuleResult" *error-map*)))
+      common-lisp:nil "PutInsightRuleResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'put-insight-rule))
 (common-lisp:progn
  (common-lisp:defun put-managed-insight-rules
@@ -8716,7 +8727,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutManagedInsightRules"))
-      common-lisp:nil "PutManagedInsightRulesResult" *error-map*)))
+      common-lisp:nil "PutManagedInsightRulesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'put-managed-insight-rules))
 (common-lisp:progn
  (common-lisp:defun put-metric-alarm
@@ -8745,7 +8757,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutMetricAlarm"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'put-metric-alarm))
 (common-lisp:progn
  (common-lisp:defun put-metric-data
@@ -8762,7 +8774,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutMetricData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'put-metric-data))
 (common-lisp:progn
  (common-lisp:defun put-metric-stream
@@ -8784,7 +8796,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutMetricStream"))
-      common-lisp:nil "PutMetricStreamResult" *error-map*)))
+      common-lisp:nil "PutMetricStreamResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'put-metric-stream))
 (common-lisp:progn
  (common-lisp:defun set-alarm-state
@@ -8804,7 +8816,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetAlarmState"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'set-alarm-state))
 (common-lisp:progn
  (common-lisp:defun start-metric-streams
@@ -8821,7 +8833,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartMetricStreams"))
-      common-lisp:nil "StartMetricStreamsResult" *error-map*)))
+      common-lisp:nil "StartMetricStreamsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'start-metric-streams))
 (common-lisp:progn
  (common-lisp:defun stop-metric-streams
@@ -8838,7 +8850,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopMetricStreams"))
-      common-lisp:nil "StopMetricStreamsResult" *error-map*)))
+      common-lisp:nil "StopMetricStreamsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'stop-metric-streams))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -8855,7 +8867,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil "TagResourceResult" *error-map*)))
+      common-lisp:nil "TagResourceResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -8872,5 +8884,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil "UntagResourceResult" *error-map*)))
+      common-lisp:nil "UntagResourceResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'untag-resource))

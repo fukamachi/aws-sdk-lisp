@@ -18755,7 +18755,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AddTagsToResource"))
-      common-lisp:nil "AddTagsToResourceResult" *error-map*)))
+      common-lisp:nil "AddTagsToResourceResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'add-tags-to-resource))
 (common-lisp:progn
  (common-lisp:defun authorize-cache-security-group-ingress
@@ -18776,7 +18776,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AuthorizeCacheSecurityGroupIngress"))
-      common-lisp:nil "AuthorizeCacheSecurityGroupIngressResult" *error-map*)))
+      common-lisp:nil "AuthorizeCacheSecurityGroupIngressResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'authorize-cache-security-group-ingress))
 (common-lisp:progn
  (common-lisp:defun batch-apply-update-action
@@ -18797,7 +18798,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchApplyUpdateAction"))
-      common-lisp:nil "BatchApplyUpdateActionResult" *error-map*)))
+      common-lisp:nil "BatchApplyUpdateActionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'batch-apply-update-action))
 (common-lisp:progn
  (common-lisp:defun batch-stop-update-action
@@ -18817,7 +18819,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchStopUpdateAction"))
-      common-lisp:nil "BatchStopUpdateActionResult" *error-map*)))
+      common-lisp:nil "BatchStopUpdateActionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'batch-stop-update-action))
 (common-lisp:progn
  (common-lisp:defun complete-migration
@@ -18834,7 +18837,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CompleteMigration"))
-      common-lisp:nil "CompleteMigrationResult" *error-map*)))
+      common-lisp:nil "CompleteMigrationResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'complete-migration))
 (common-lisp:progn
  (common-lisp:defun copy-serverless-cache-snapshot
@@ -18855,7 +18858,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CopyServerlessCacheSnapshot"))
-      common-lisp:nil "CopyServerlessCacheSnapshotResult" *error-map*)))
+      common-lisp:nil "CopyServerlessCacheSnapshotResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'copy-serverless-cache-snapshot))
 (common-lisp:progn
  (common-lisp:defun copy-snapshot
@@ -18875,7 +18879,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CopySnapshot"))
-      common-lisp:nil "CopySnapshotResult" *error-map*)))
+      common-lisp:nil "CopySnapshotResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'copy-snapshot))
 (common-lisp:progn
  (common-lisp:defun create-cache-cluster
@@ -18912,7 +18916,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateCacheCluster"))
-      common-lisp:nil "CreateCacheClusterResult" *error-map*)))
+      common-lisp:nil "CreateCacheClusterResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-cache-cluster))
 (common-lisp:progn
  (common-lisp:defun create-cache-parameter-group
@@ -18933,7 +18937,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateCacheParameterGroup"))
-      common-lisp:nil "CreateCacheParameterGroupResult" *error-map*)))
+      common-lisp:nil "CreateCacheParameterGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-cache-parameter-group))
 (common-lisp:progn
  (common-lisp:defun create-cache-security-group
@@ -18953,7 +18958,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateCacheSecurityGroup"))
-      common-lisp:nil "CreateCacheSecurityGroupResult" *error-map*)))
+      common-lisp:nil "CreateCacheSecurityGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-cache-security-group))
 (common-lisp:progn
  (common-lisp:defun create-cache-subnet-group
@@ -18974,7 +18980,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateCacheSubnetGroup"))
-      common-lisp:nil "CreateCacheSubnetGroupResult" *error-map*)))
+      common-lisp:nil "CreateCacheSubnetGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-cache-subnet-group))
 (common-lisp:progn
  (common-lisp:defun create-global-replication-group
@@ -18996,7 +19003,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateGlobalReplicationGroup"))
-      common-lisp:nil "CreateGlobalReplicationGroupResult" *error-map*)))
+      common-lisp:nil "CreateGlobalReplicationGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-global-replication-group))
 (common-lisp:progn
  (common-lisp:defun create-replication-group
@@ -19041,7 +19049,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateReplicationGroup"))
-      common-lisp:nil "CreateReplicationGroupResult" *error-map*)))
+      common-lisp:nil "CreateReplicationGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-replication-group))
 (common-lisp:progn
  (common-lisp:defun create-serverless-cache
@@ -19066,7 +19075,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateServerlessCache"))
-      common-lisp:nil "CreateServerlessCacheResult" *error-map*)))
+      common-lisp:nil "CreateServerlessCacheResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-serverless-cache))
 (common-lisp:progn
  (common-lisp:defun create-serverless-cache-snapshot
@@ -19087,7 +19097,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateServerlessCacheSnapshot"))
-      common-lisp:nil "CreateServerlessCacheSnapshotResult" *error-map*)))
+      common-lisp:nil "CreateServerlessCacheSnapshotResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-serverless-cache-snapshot))
 (common-lisp:progn
  (common-lisp:defun create-snapshot
@@ -19107,7 +19118,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateSnapshot"))
-      common-lisp:nil "CreateSnapshotResult" *error-map*)))
+      common-lisp:nil "CreateSnapshotResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-snapshot))
 (common-lisp:progn
  (common-lisp:defun create-user
@@ -19128,7 +19139,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateUser"))
-      common-lisp:nil "CreateUserResult" *error-map*)))
+      common-lisp:nil "CreateUserResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-user))
 (common-lisp:progn
  (common-lisp:defun create-user-group
@@ -19146,7 +19157,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateUserGroup"))
-      common-lisp:nil "CreateUserGroupResult" *error-map*)))
+      common-lisp:nil "CreateUserGroupResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-user-group))
 (common-lisp:progn
  (common-lisp:defun decrease-node-groups-in-global-replication-group
@@ -19170,7 +19181,7 @@
                                                         "POST" "/"
                                                         "DecreaseNodeGroupsInGlobalReplicationGroup"))
       common-lisp:nil "DecreaseNodeGroupsInGlobalReplicationGroupResult"
-      *error-map*)))
+      *error-map* common-lisp:nil)))
  (common-lisp:export 'decrease-node-groups-in-global-replication-group))
 (common-lisp:progn
  (common-lisp:defun decrease-replica-count
@@ -19191,7 +19202,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DecreaseReplicaCount"))
-      common-lisp:nil "DecreaseReplicaCountResult" *error-map*)))
+      common-lisp:nil "DecreaseReplicaCountResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'decrease-replica-count))
 (common-lisp:progn
  (common-lisp:defun delete-cache-cluster
@@ -19210,7 +19222,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteCacheCluster"))
-      common-lisp:nil "DeleteCacheClusterResult" *error-map*)))
+      common-lisp:nil "DeleteCacheClusterResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-cache-cluster))
 (common-lisp:progn
  (common-lisp:defun delete-cache-parameter-group
@@ -19228,7 +19240,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteCacheParameterGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-cache-parameter-group))
 (common-lisp:progn
  (common-lisp:defun delete-cache-security-group
@@ -19246,7 +19258,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteCacheSecurityGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-cache-security-group))
 (common-lisp:progn
  (common-lisp:defun delete-cache-subnet-group
@@ -19264,7 +19276,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteCacheSubnetGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-cache-subnet-group))
 (common-lisp:progn
  (common-lisp:defun delete-global-replication-group
@@ -19285,7 +19297,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteGlobalReplicationGroup"))
-      common-lisp:nil "DeleteGlobalReplicationGroupResult" *error-map*)))
+      common-lisp:nil "DeleteGlobalReplicationGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-global-replication-group))
 (common-lisp:progn
  (common-lisp:defun delete-replication-group
@@ -19305,7 +19318,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteReplicationGroup"))
-      common-lisp:nil "DeleteReplicationGroupResult" *error-map*)))
+      common-lisp:nil "DeleteReplicationGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-replication-group))
 (common-lisp:progn
  (common-lisp:defun delete-serverless-cache
@@ -19324,7 +19338,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteServerlessCache"))
-      common-lisp:nil "DeleteServerlessCacheResult" *error-map*)))
+      common-lisp:nil "DeleteServerlessCacheResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-serverless-cache))
 (common-lisp:progn
  (common-lisp:defun delete-serverless-cache-snapshot
@@ -19342,7 +19357,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteServerlessCacheSnapshot"))
-      common-lisp:nil "DeleteServerlessCacheSnapshotResult" *error-map*)))
+      common-lisp:nil "DeleteServerlessCacheSnapshotResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-serverless-cache-snapshot))
 (common-lisp:progn
  (common-lisp:defun delete-snapshot
@@ -19359,7 +19375,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteSnapshot"))
-      common-lisp:nil "DeleteSnapshotResult" *error-map*)))
+      common-lisp:nil "DeleteSnapshotResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-snapshot))
 (common-lisp:progn
  (common-lisp:defun delete-user
@@ -19376,7 +19392,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteUser"))
-      common-lisp:nil "DeleteUserResult" *error-map*)))
+      common-lisp:nil "DeleteUserResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-user))
 (common-lisp:progn
  (common-lisp:defun delete-user-group
@@ -19393,7 +19409,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteUserGroup"))
-      common-lisp:nil "DeleteUserGroupResult" *error-map*)))
+      common-lisp:nil "DeleteUserGroupResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-user-group))
 (common-lisp:progn
  (common-lisp:defun describe-cache-clusters
@@ -19414,7 +19430,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeCacheClusters"))
-      common-lisp:nil "DescribeCacheClustersResult" *error-map*)))
+      common-lisp:nil "DescribeCacheClustersResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-cache-clusters))
 (common-lisp:progn
  (common-lisp:defun describe-cache-engine-versions
@@ -19436,7 +19453,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeCacheEngineVersions"))
-      common-lisp:nil "DescribeCacheEngineVersionsResult" *error-map*)))
+      common-lisp:nil "DescribeCacheEngineVersionsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-cache-engine-versions))
 (common-lisp:progn
  (common-lisp:defun describe-cache-parameter-groups
@@ -19456,7 +19474,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeCacheParameterGroups"))
-      common-lisp:nil "DescribeCacheParameterGroupsResult" *error-map*)))
+      common-lisp:nil "DescribeCacheParameterGroupsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-cache-parameter-groups))
 (common-lisp:progn
  (common-lisp:defun describe-cache-parameters
@@ -19477,7 +19496,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeCacheParameters"))
-      common-lisp:nil "DescribeCacheParametersResult" *error-map*)))
+      common-lisp:nil "DescribeCacheParametersResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-cache-parameters))
 (common-lisp:progn
  (common-lisp:defun describe-cache-security-groups
@@ -19497,7 +19517,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeCacheSecurityGroups"))
-      common-lisp:nil "DescribeCacheSecurityGroupsResult" *error-map*)))
+      common-lisp:nil "DescribeCacheSecurityGroupsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-cache-security-groups))
 (common-lisp:progn
  (common-lisp:defun describe-cache-subnet-groups
@@ -19517,7 +19538,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeCacheSubnetGroups"))
-      common-lisp:nil "DescribeCacheSubnetGroupsResult" *error-map*)))
+      common-lisp:nil "DescribeCacheSubnetGroupsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-cache-subnet-groups))
 (common-lisp:progn
  (common-lisp:defun describe-engine-default-parameters
@@ -19537,7 +19559,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEngineDefaultParameters"))
-      common-lisp:nil "DescribeEngineDefaultParametersResult" *error-map*)))
+      common-lisp:nil "DescribeEngineDefaultParametersResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-engine-default-parameters))
 (common-lisp:progn
  (common-lisp:defun describe-events
@@ -19557,7 +19580,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEvents"))
-      common-lisp:nil "DescribeEventsResult" *error-map*)))
+      common-lisp:nil "DescribeEventsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-events))
 (common-lisp:progn
  (common-lisp:defun describe-global-replication-groups
@@ -19578,7 +19601,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeGlobalReplicationGroups"))
-      common-lisp:nil "DescribeGlobalReplicationGroupsResult" *error-map*)))
+      common-lisp:nil "DescribeGlobalReplicationGroupsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-global-replication-groups))
 (common-lisp:progn
  (common-lisp:defun describe-replication-groups
@@ -19597,7 +19621,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeReplicationGroups"))
-      common-lisp:nil "DescribeReplicationGroupsResult" *error-map*)))
+      common-lisp:nil "DescribeReplicationGroupsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-replication-groups))
 (common-lisp:progn
  (common-lisp:defun describe-reserved-cache-nodes
@@ -19620,7 +19645,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeReservedCacheNodes"))
-      common-lisp:nil "DescribeReservedCacheNodesResult" *error-map*)))
+      common-lisp:nil "DescribeReservedCacheNodesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-reserved-cache-nodes))
 (common-lisp:progn
  (common-lisp:defun describe-reserved-cache-nodes-offerings
@@ -19642,8 +19668,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeReservedCacheNodesOfferings"))
-      common-lisp:nil "DescribeReservedCacheNodesOfferingsResult"
-      *error-map*)))
+      common-lisp:nil "DescribeReservedCacheNodesOfferingsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-reserved-cache-nodes-offerings))
 (common-lisp:progn
  (common-lisp:defun describe-serverless-cache-snapshots
@@ -19665,7 +19691,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeServerlessCacheSnapshots"))
-      common-lisp:nil "DescribeServerlessCacheSnapshotsResult" *error-map*)))
+      common-lisp:nil "DescribeServerlessCacheSnapshotsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-serverless-cache-snapshots))
 (common-lisp:progn
  (common-lisp:defun describe-serverless-caches
@@ -19685,7 +19712,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeServerlessCaches"))
-      common-lisp:nil "DescribeServerlessCachesResult" *error-map*)))
+      common-lisp:nil "DescribeServerlessCachesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-serverless-caches))
 (common-lisp:progn
  (common-lisp:defun describe-service-updates
@@ -19705,7 +19733,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeServiceUpdates"))
-      common-lisp:nil "DescribeServiceUpdatesResult" *error-map*)))
+      common-lisp:nil "DescribeServiceUpdatesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-service-updates))
 (common-lisp:progn
  (common-lisp:defun describe-snapshots
@@ -19726,7 +19755,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeSnapshots"))
-      common-lisp:nil "DescribeSnapshotsResult" *error-map*)))
+      common-lisp:nil "DescribeSnapshotsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-snapshots))
 (common-lisp:progn
  (common-lisp:defun describe-update-actions
@@ -19749,7 +19778,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeUpdateActions"))
-      common-lisp:nil "DescribeUpdateActionsResult" *error-map*)))
+      common-lisp:nil "DescribeUpdateActionsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-update-actions))
 (common-lisp:progn
  (common-lisp:defun describe-user-groups
@@ -19767,7 +19797,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeUserGroups"))
-      common-lisp:nil "DescribeUserGroupsResult" *error-map*)))
+      common-lisp:nil "DescribeUserGroupsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-user-groups))
 (common-lisp:progn
  (common-lisp:defun describe-users
@@ -19786,7 +19816,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeUsers"))
-      common-lisp:nil "DescribeUsersResult" *error-map*)))
+      common-lisp:nil "DescribeUsersResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-users))
 (common-lisp:progn
  (common-lisp:defun disassociate-global-replication-group
@@ -19807,7 +19837,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateGlobalReplicationGroup"))
-      common-lisp:nil "DisassociateGlobalReplicationGroupResult" *error-map*)))
+      common-lisp:nil "DisassociateGlobalReplicationGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'disassociate-global-replication-group))
 (common-lisp:progn
  (common-lisp:defun export-serverless-cache-snapshot
@@ -19827,7 +19858,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ExportServerlessCacheSnapshot"))
-      common-lisp:nil "ExportServerlessCacheSnapshotResult" *error-map*)))
+      common-lisp:nil "ExportServerlessCacheSnapshotResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'export-serverless-cache-snapshot))
 (common-lisp:progn
  (common-lisp:defun failover-global-replication-group
@@ -19848,7 +19880,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "FailoverGlobalReplicationGroup"))
-      common-lisp:nil "FailoverGlobalReplicationGroupResult" *error-map*)))
+      common-lisp:nil "FailoverGlobalReplicationGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'failover-global-replication-group))
 (common-lisp:progn
  (common-lisp:defun increase-node-groups-in-global-replication-group
@@ -19871,7 +19904,7 @@
                                                         "POST" "/"
                                                         "IncreaseNodeGroupsInGlobalReplicationGroup"))
       common-lisp:nil "IncreaseNodeGroupsInGlobalReplicationGroupResult"
-      *error-map*)))
+      *error-map* common-lisp:nil)))
  (common-lisp:export 'increase-node-groups-in-global-replication-group))
 (common-lisp:progn
  (common-lisp:defun increase-replica-count
@@ -19891,7 +19924,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "IncreaseReplicaCount"))
-      common-lisp:nil "IncreaseReplicaCountResult" *error-map*)))
+      common-lisp:nil "IncreaseReplicaCountResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'increase-replica-count))
 (common-lisp:progn
  (common-lisp:defun list-allowed-node-type-modifications
@@ -19910,7 +19944,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAllowedNodeTypeModifications"))
-      common-lisp:nil "ListAllowedNodeTypeModificationsResult" *error-map*)))
+      common-lisp:nil "ListAllowedNodeTypeModificationsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-allowed-node-type-modifications))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -19927,7 +19962,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil "ListTagsForResourceResult" *error-map*)))
+      common-lisp:nil "ListTagsForResourceResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun modify-cache-cluster
@@ -19961,7 +19997,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyCacheCluster"))
-      common-lisp:nil "ModifyCacheClusterResult" *error-map*)))
+      common-lisp:nil "ModifyCacheClusterResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'modify-cache-cluster))
 (common-lisp:progn
  (common-lisp:defun modify-cache-parameter-group
@@ -19981,7 +20017,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyCacheParameterGroup"))
-      common-lisp:nil "ModifyCacheParameterGroupResult" *error-map*)))
+      common-lisp:nil "ModifyCacheParameterGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'modify-cache-parameter-group))
 (common-lisp:progn
  (common-lisp:defun modify-cache-subnet-group
@@ -20002,7 +20039,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyCacheSubnetGroup"))
-      common-lisp:nil "ModifyCacheSubnetGroupResult" *error-map*)))
+      common-lisp:nil "ModifyCacheSubnetGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'modify-cache-subnet-group))
 (common-lisp:progn
  (common-lisp:defun modify-global-replication-group
@@ -20027,7 +20065,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyGlobalReplicationGroup"))
-      common-lisp:nil "ModifyGlobalReplicationGroupResult" *error-map*)))
+      common-lisp:nil "ModifyGlobalReplicationGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'modify-global-replication-group))
 (common-lisp:progn
  (common-lisp:defun modify-replication-group
@@ -20067,7 +20106,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyReplicationGroup"))
-      common-lisp:nil "ModifyReplicationGroupResult" *error-map*)))
+      common-lisp:nil "ModifyReplicationGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'modify-replication-group))
 (common-lisp:progn
  (common-lisp:defun modify-replication-group-shard-configuration
@@ -20091,7 +20131,7 @@
                                                         "POST" "/"
                                                         "ModifyReplicationGroupShardConfiguration"))
       common-lisp:nil "ModifyReplicationGroupShardConfigurationResult"
-      *error-map*)))
+      *error-map* common-lisp:nil)))
  (common-lisp:export 'modify-replication-group-shard-configuration))
 (common-lisp:progn
  (common-lisp:defun modify-serverless-cache
@@ -20114,7 +20154,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyServerlessCache"))
-      common-lisp:nil "ModifyServerlessCacheResult" *error-map*)))
+      common-lisp:nil "ModifyServerlessCacheResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'modify-serverless-cache))
 (common-lisp:progn
  (common-lisp:defun modify-user
@@ -20135,7 +20176,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyUser"))
-      common-lisp:nil "ModifyUserResult" *error-map*)))
+      common-lisp:nil "ModifyUserResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'modify-user))
 (common-lisp:progn
  (common-lisp:defun modify-user-group
@@ -20154,7 +20195,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyUserGroup"))
-      common-lisp:nil "ModifyUserGroupResult" *error-map*)))
+      common-lisp:nil "ModifyUserGroupResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'modify-user-group))
 (common-lisp:progn
  (common-lisp:defun purchase-reserved-cache-nodes-offering
@@ -20175,7 +20216,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PurchaseReservedCacheNodesOffering"))
-      common-lisp:nil "PurchaseReservedCacheNodesOfferingResult" *error-map*)))
+      common-lisp:nil "PurchaseReservedCacheNodesOfferingResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'purchase-reserved-cache-nodes-offering))
 (common-lisp:progn
  (common-lisp:defun rebalance-slots-in-global-replication-group
@@ -20196,7 +20238,7 @@
                                                         "POST" "/"
                                                         "RebalanceSlotsInGlobalReplicationGroup"))
       common-lisp:nil "RebalanceSlotsInGlobalReplicationGroupResult"
-      *error-map*)))
+      *error-map* common-lisp:nil)))
  (common-lisp:export 'rebalance-slots-in-global-replication-group))
 (common-lisp:progn
  (common-lisp:defun reboot-cache-cluster
@@ -20215,7 +20257,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RebootCacheCluster"))
-      common-lisp:nil "RebootCacheClusterResult" *error-map*)))
+      common-lisp:nil "RebootCacheClusterResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'reboot-cache-cluster))
 (common-lisp:progn
  (common-lisp:defun remove-tags-from-resource
@@ -20233,7 +20275,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RemoveTagsFromResource"))
-      common-lisp:nil "RemoveTagsFromResourceResult" *error-map*)))
+      common-lisp:nil "RemoveTagsFromResourceResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'remove-tags-from-resource))
 (common-lisp:progn
  (common-lisp:defun reset-cache-parameter-group
@@ -20254,7 +20297,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ResetCacheParameterGroup"))
-      common-lisp:nil "ResetCacheParameterGroupResult" *error-map*)))
+      common-lisp:nil "ResetCacheParameterGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'reset-cache-parameter-group))
 (common-lisp:progn
  (common-lisp:defun revoke-cache-security-group-ingress
@@ -20275,7 +20319,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RevokeCacheSecurityGroupIngress"))
-      common-lisp:nil "RevokeCacheSecurityGroupIngressResult" *error-map*)))
+      common-lisp:nil "RevokeCacheSecurityGroupIngressResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'revoke-cache-security-group-ingress))
 (common-lisp:progn
  (common-lisp:defun start-migration
@@ -20294,7 +20339,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartMigration"))
-      common-lisp:nil "StartMigrationResult" *error-map*)))
+      common-lisp:nil "StartMigrationResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'start-migration))
 (common-lisp:progn
  (common-lisp:defun test-failover
@@ -20312,7 +20357,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TestFailover"))
-      common-lisp:nil "TestFailoverResult" *error-map*)))
+      common-lisp:nil "TestFailoverResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'test-failover))
 (common-lisp:progn
  (common-lisp:defun test-migration
@@ -20331,5 +20376,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TestMigration"))
-      common-lisp:nil "TestMigrationResult" *error-map*)))
+      common-lisp:nil "TestMigrationResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'test-migration))

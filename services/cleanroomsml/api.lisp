@@ -4712,7 +4712,7 @@
                                                         "POST"
                                                         "/audience-model"
                                                         "CreateAudienceModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-audience-model))
 (common-lisp:progn
  (common-lisp:defun create-configured-audience-model
@@ -4737,7 +4737,7 @@
                                                         "POST"
                                                         "/configured-audience-model"
                                                         "CreateConfiguredAudienceModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-configured-audience-model))
 (common-lisp:progn
  (common-lisp:defun create-training-dataset
@@ -4757,7 +4757,7 @@
                                                         "POST"
                                                         "/training-dataset"
                                                         "CreateTrainingDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-training-dataset))
 (common-lisp:progn
  (common-lisp:defun delete-audience-generation-job
@@ -4785,7 +4785,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'audience-generation-job-arn))))
                                                         "DeleteAudienceGenerationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-audience-generation-job))
 (common-lisp:progn
  (common-lisp:defun delete-audience-model
@@ -4812,7 +4812,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'audience-model-arn))))
                                                         "DeleteAudienceModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-audience-model))
 (common-lisp:progn
  (common-lisp:defun delete-configured-audience-model
@@ -4840,7 +4840,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configured-audience-model-arn))))
                                                         "DeleteConfiguredAudienceModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-configured-audience-model))
 (common-lisp:progn
  (common-lisp:defun delete-configured-audience-model-policy
@@ -4868,7 +4868,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configured-audience-model-arn))))
                                                         "DeleteConfiguredAudienceModelPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-configured-audience-model-policy))
 (common-lisp:progn
  (common-lisp:defun delete-training-dataset
@@ -4895,7 +4895,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'training-dataset-arn))))
                                                         "DeleteTrainingDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-training-dataset))
 (common-lisp:progn
  (common-lisp:defun get-audience-generation-job
@@ -4923,7 +4923,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'audience-generation-job-arn))))
                                                         "GetAudienceGenerationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-audience-generation-job))
 (common-lisp:progn
  (common-lisp:defun get-audience-model
@@ -4950,7 +4950,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'audience-model-arn))))
                                                         "GetAudienceModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-audience-model))
 (common-lisp:progn
  (common-lisp:defun get-configured-audience-model
@@ -4978,7 +4978,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configured-audience-model-arn))))
                                                         "GetConfiguredAudienceModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-configured-audience-model))
 (common-lisp:progn
  (common-lisp:defun get-configured-audience-model-policy
@@ -5006,7 +5006,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configured-audience-model-arn))))
                                                         "GetConfiguredAudienceModelPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-configured-audience-model-policy))
 (common-lisp:progn
  (common-lisp:defun get-training-dataset
@@ -5033,7 +5033,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'training-dataset-arn))))
                                                         "GetTrainingDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-training-dataset))
 (common-lisp:progn
  (common-lisp:defun list-audience-export-jobs
@@ -5054,7 +5054,7 @@
                                                         "GET"
                                                         "/audience-export-job"
                                                         "ListAudienceExportJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-audience-export-jobs))
 (common-lisp:progn
  (common-lisp:defun list-audience-generation-jobs
@@ -5076,7 +5076,7 @@
                                                         "GET"
                                                         "/audience-generation-job"
                                                         "ListAudienceGenerationJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-audience-generation-jobs))
 (common-lisp:progn
  (common-lisp:defun list-audience-models
@@ -5093,7 +5093,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/audience-model"
                                                         "ListAudienceModels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-audience-models))
 (common-lisp:progn
  (common-lisp:defun list-configured-audience-models
@@ -5112,7 +5112,7 @@
                                                         "GET"
                                                         "/configured-audience-model"
                                                         "ListConfiguredAudienceModels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-configured-audience-models))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -5139,7 +5139,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-training-datasets
@@ -5157,7 +5157,7 @@
                                                         "GET"
                                                         "/training-dataset"
                                                         "ListTrainingDatasets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-training-datasets))
 (common-lisp:progn
  (common-lisp:defun put-configured-audience-model-policy
@@ -5190,7 +5190,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configured-audience-model-arn))))
                                                         "PutConfiguredAudienceModelPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-configured-audience-model-policy))
 (common-lisp:progn
  (common-lisp:defun start-audience-export-job
@@ -5212,7 +5212,7 @@
                                                         "POST"
                                                         "/audience-export-job"
                                                         "StartAudienceExportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-audience-export-job))
 (common-lisp:progn
  (common-lisp:defun start-audience-generation-job
@@ -5235,7 +5235,7 @@
                                                         "POST"
                                                         "/audience-generation-job"
                                                         "StartAudienceGenerationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-audience-generation-job))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -5262,7 +5262,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -5289,7 +5289,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-configured-audience-model
@@ -5323,5 +5323,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'configured-audience-model-arn))))
                                                         "UpdateConfiguredAudienceModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-configured-audience-model))

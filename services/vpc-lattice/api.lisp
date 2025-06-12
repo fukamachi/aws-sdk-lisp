@@ -9779,7 +9779,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'listener-identifier))))
                                                         "BatchUpdateRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-update-rule))
 (common-lisp:progn
  (common-lisp:defun create-access-log-subscription
@@ -9801,7 +9801,7 @@
                                                         "POST"
                                                         "/accesslogsubscriptions"
                                                         "CreateAccessLogSubscription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-access-log-subscription))
 (common-lisp:progn
  (common-lisp:defun create-listener
@@ -9831,7 +9831,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'service-identifier))))
                                                         "CreateListener"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-listener))
 (common-lisp:progn
  (common-lisp:defun create-rule
@@ -9865,7 +9865,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'listener-identifier))))
                                                         "CreateRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-rule))
 (common-lisp:progn
  (common-lisp:defun create-service
@@ -9885,7 +9885,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/services"
                                                         "CreateService"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-service))
 (common-lisp:progn
  (common-lisp:defun create-service-network
@@ -9904,7 +9904,7 @@
                                                         "POST"
                                                         "/servicenetworks"
                                                         "CreateServiceNetwork"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-service-network))
 (common-lisp:progn
  (common-lisp:defun create-service-network-service-association
@@ -9926,7 +9926,7 @@
                                                         "POST"
                                                         "/servicenetworkserviceassociations"
                                                         "CreateServiceNetworkServiceAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-service-network-service-association))
 (common-lisp:progn
  (common-lisp:defun create-service-network-vpc-association
@@ -9948,7 +9948,7 @@
                                                         "POST"
                                                         "/servicenetworkvpcassociations"
                                                         "CreateServiceNetworkVpcAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-service-network-vpc-association))
 (common-lisp:progn
  (common-lisp:defun create-target-group
@@ -9966,7 +9966,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/targetgroups"
                                                         "CreateTargetGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-target-group))
 (common-lisp:progn
  (common-lisp:defun delete-access-log-subscription
@@ -9995,7 +9995,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'access-log-subscription-identifier))))
                                                         "DeleteAccessLogSubscription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-access-log-subscription))
 (common-lisp:progn
  (common-lisp:defun delete-auth-policy
@@ -10022,7 +10022,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-identifier))))
                                                         "DeleteAuthPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-auth-policy))
 (common-lisp:progn
  (common-lisp:defun delete-listener
@@ -10054,7 +10054,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'listener-identifier))))
                                                         "DeleteListener"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-listener))
 (common-lisp:progn
  (common-lisp:defun delete-resource-policy
@@ -10081,7 +10081,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "DeleteResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resource-policy))
 (common-lisp:progn
  (common-lisp:defun delete-rule
@@ -10119,7 +10119,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'rule-identifier))))
                                                         "DeleteRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-rule))
 (common-lisp:progn
  (common-lisp:defun delete-service
@@ -10146,7 +10146,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'service-identifier))))
                                                         "DeleteService"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-service))
 (common-lisp:progn
  (common-lisp:defun delete-service-network
@@ -10173,7 +10173,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'service-network-identifier))))
                                                         "DeleteServiceNetwork"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-service-network))
 (common-lisp:progn
  (common-lisp:defun delete-service-network-service-association
@@ -10203,7 +10203,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'service-network-service-association-identifier))))
                                                         "DeleteServiceNetworkServiceAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-service-network-service-association))
 (common-lisp:progn
  (common-lisp:defun delete-service-network-vpc-association
@@ -10233,7 +10233,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'service-network-vpc-association-identifier))))
                                                         "DeleteServiceNetworkVpcAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-service-network-vpc-association))
 (common-lisp:progn
  (common-lisp:defun delete-target-group
@@ -10260,7 +10260,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'target-group-identifier))))
                                                         "DeleteTargetGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-target-group))
 (common-lisp:progn
  (common-lisp:defun deregister-targets
@@ -10288,7 +10288,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'target-group-identifier))))
                                                         "DeregisterTargets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deregister-targets))
 (common-lisp:progn
  (common-lisp:defun get-access-log-subscription
@@ -10317,7 +10317,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'access-log-subscription-identifier))))
                                                         "GetAccessLogSubscription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-access-log-subscription))
 (common-lisp:progn
  (common-lisp:defun get-auth-policy
@@ -10344,7 +10344,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-identifier))))
                                                         "GetAuthPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-auth-policy))
 (common-lisp:progn
  (common-lisp:defun get-listener
@@ -10376,7 +10376,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'listener-identifier))))
                                                         "GetListener"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-listener))
 (common-lisp:progn
  (common-lisp:defun get-resource-policy
@@ -10403,7 +10403,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "GetResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-policy))
 (common-lisp:progn
  (common-lisp:defun get-rule
@@ -10441,7 +10441,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'rule-identifier))))
                                                         "GetRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-rule))
 (common-lisp:progn
  (common-lisp:defun get-service
@@ -10468,7 +10468,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'service-identifier))))
                                                         "GetService"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-service))
 (common-lisp:progn
  (common-lisp:defun get-service-network
@@ -10495,7 +10495,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'service-network-identifier))))
                                                         "GetServiceNetwork"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-service-network))
 (common-lisp:progn
  (common-lisp:defun get-service-network-service-association
@@ -10525,7 +10525,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'service-network-service-association-identifier))))
                                                         "GetServiceNetworkServiceAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-service-network-service-association))
 (common-lisp:progn
  (common-lisp:defun get-service-network-vpc-association
@@ -10555,7 +10555,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'service-network-vpc-association-identifier))))
                                                         "GetServiceNetworkVpcAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-service-network-vpc-association))
 (common-lisp:progn
  (common-lisp:defun get-target-group
@@ -10582,7 +10582,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'target-group-identifier))))
                                                         "GetTargetGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-target-group))
 (common-lisp:progn
  (common-lisp:defun list-access-log-subscriptions
@@ -10603,7 +10603,7 @@
                                                         "GET"
                                                         "/accesslogsubscriptions"
                                                         "ListAccessLogSubscriptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-access-log-subscriptions))
 (common-lisp:progn
  (common-lisp:defun list-listeners
@@ -10632,7 +10632,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'service-identifier))))
                                                         "ListListeners"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-listeners))
 (common-lisp:progn
  (common-lisp:defun list-rules
@@ -10666,7 +10666,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'listener-identifier))))
                                                         "ListRules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-rules))
 (common-lisp:progn
  (common-lisp:defun list-service-network-service-associations
@@ -10688,7 +10688,7 @@
                                                         "GET"
                                                         "/servicenetworkserviceassociations"
                                                         "ListServiceNetworkServiceAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-service-network-service-associations))
 (common-lisp:progn
  (common-lisp:defun list-service-network-vpc-associations
@@ -10710,7 +10710,7 @@
                                                         "GET"
                                                         "/servicenetworkvpcassociations"
                                                         "ListServiceNetworkVpcAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-service-network-vpc-associations))
 (common-lisp:progn
  (common-lisp:defun list-service-networks
@@ -10728,7 +10728,7 @@
                                                         "GET"
                                                         "/servicenetworks"
                                                         "ListServiceNetworks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-service-networks))
 (common-lisp:progn
  (common-lisp:defun list-services
@@ -10745,7 +10745,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/services"
                                                         "ListServices"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-services))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -10772,7 +10772,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-target-groups
@@ -10792,7 +10792,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/targetgroups"
                                                         "ListTargetGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-target-groups))
 (common-lisp:progn
  (common-lisp:defun list-targets
@@ -10822,7 +10822,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'target-group-identifier))))
                                                         "ListTargets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-targets))
 (common-lisp:progn
  (common-lisp:defun put-auth-policy
@@ -10849,7 +10849,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-identifier))))
                                                         "PutAuthPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-auth-policy))
 (common-lisp:progn
  (common-lisp:defun put-resource-policy
@@ -10876,7 +10876,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "PutResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-resource-policy))
 (common-lisp:progn
  (common-lisp:defun register-targets
@@ -10904,7 +10904,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'target-group-identifier))))
                                                         "RegisterTargets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-targets))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -10931,7 +10931,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -10958,7 +10958,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-access-log-subscription
@@ -10988,7 +10988,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'access-log-subscription-identifier))))
                                                         "UpdateAccessLogSubscription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-access-log-subscription))
 (common-lisp:progn
  (common-lisp:defun update-listener
@@ -11022,7 +11022,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'listener-identifier))))
                                                         "UpdateListener"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-listener))
 (common-lisp:progn
  (common-lisp:defun update-rule
@@ -11060,7 +11060,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'rule-identifier))))
                                                         "UpdateRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-rule))
 (common-lisp:progn
  (common-lisp:defun update-service
@@ -11089,7 +11089,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'service-identifier))))
                                                         "UpdateService"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-service))
 (common-lisp:progn
  (common-lisp:defun update-service-network
@@ -11117,7 +11117,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'service-network-identifier))))
                                                         "UpdateServiceNetwork"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-service-network))
 (common-lisp:progn
  (common-lisp:defun update-service-network-vpc-association
@@ -11148,7 +11148,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'service-network-vpc-association-identifier))))
                                                         "UpdateServiceNetworkVpcAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-service-network-vpc-association))
 (common-lisp:progn
  (common-lisp:defun update-target-group
@@ -11176,5 +11176,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'target-group-identifier))))
                                                         "UpdateTargetGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-target-group))

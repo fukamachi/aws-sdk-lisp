@@ -3871,7 +3871,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'license-type))))
                                                         "AssociateLicense"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-license))
 (common-lisp:progn
  (common-lisp:defun create-workspace
@@ -3901,7 +3901,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/workspaces"
                                                         "CreateWorkspace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-workspace))
 (common-lisp:progn
  (common-lisp:defun create-workspace-api-key
@@ -3930,7 +3930,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "CreateWorkspaceApiKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-workspace-api-key))
 (common-lisp:progn
  (common-lisp:defun delete-workspace
@@ -3957,7 +3957,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "DeleteWorkspace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-workspace))
 (common-lisp:progn
  (common-lisp:defun delete-workspace-api-key
@@ -3988,7 +3988,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'key-name))))
                                                         "DeleteWorkspaceApiKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-workspace-api-key))
 (common-lisp:progn
  (common-lisp:defun describe-workspace
@@ -4015,7 +4015,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "DescribeWorkspace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-workspace))
 (common-lisp:progn
  (common-lisp:defun describe-workspace-authentication
@@ -4043,7 +4043,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "DescribeWorkspaceAuthentication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-workspace-authentication))
 (common-lisp:progn
  (common-lisp:defun describe-workspace-configuration
@@ -4071,7 +4071,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "DescribeWorkspaceConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-workspace-configuration))
 (common-lisp:progn
  (common-lisp:defun disassociate-license
@@ -4102,7 +4102,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'license-type))))
                                                         "DisassociateLicense"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-license))
 (common-lisp:progn
  (common-lisp:defun list-permissions
@@ -4132,7 +4132,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "ListPermissions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-permissions))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -4159,7 +4159,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-versions
@@ -4177,7 +4177,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/versions"
                                                         "ListVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-versions))
 (common-lisp:progn
  (common-lisp:defun list-workspaces
@@ -4194,7 +4194,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/workspaces"
                                                         "ListWorkspaces"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-workspaces))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4221,7 +4221,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4248,7 +4248,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-permissions
@@ -4276,7 +4276,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "UpdatePermissions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-permissions))
 (common-lisp:progn
  (common-lisp:defun update-workspace
@@ -4315,7 +4315,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "UpdateWorkspace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-workspace))
 (common-lisp:progn
  (common-lisp:defun update-workspace-authentication
@@ -4346,7 +4346,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "UpdateWorkspaceAuthentication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-workspace-authentication))
 (common-lisp:progn
  (common-lisp:defun update-workspace-configuration
@@ -4376,5 +4376,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "UpdateWorkspaceConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-workspace-configuration))

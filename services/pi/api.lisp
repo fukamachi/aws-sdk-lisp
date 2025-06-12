@@ -3413,7 +3413,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreatePerformanceAnalysisReport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-performance-analysis-report))
 (common-lisp:progn
  (common-lisp:defun delete-performance-analysis-report
@@ -3433,7 +3433,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeletePerformanceAnalysisReport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-performance-analysis-report))
 (common-lisp:progn
  (common-lisp:defun describe-dimension-keys
@@ -3456,7 +3456,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDimensionKeys"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-dimension-keys))
 (common-lisp:progn
  (common-lisp:defun get-dimension-key-details
@@ -3477,7 +3477,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDimensionKeyDetails"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-dimension-key-details))
 (common-lisp:progn
  (common-lisp:defun get-performance-analysis-report
@@ -3498,7 +3498,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetPerformanceAnalysisReport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-performance-analysis-report))
 (common-lisp:progn
  (common-lisp:defun get-resource-metadata
@@ -3515,7 +3515,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetResourceMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-metadata))
 (common-lisp:progn
  (common-lisp:defun get-resource-metrics
@@ -3536,7 +3536,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetResourceMetrics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-metrics))
 (common-lisp:progn
  (common-lisp:defun list-available-resource-dimensions
@@ -3557,7 +3557,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAvailableResourceDimensions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-available-resource-dimensions))
 (common-lisp:progn
  (common-lisp:defun list-available-resource-metrics
@@ -3578,7 +3578,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAvailableResourceMetrics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-available-resource-metrics))
 (common-lisp:progn
  (common-lisp:defun list-performance-analysis-reports
@@ -3599,7 +3599,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPerformanceAnalysisReports"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-performance-analysis-reports))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -3616,7 +3616,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3633,7 +3633,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3651,5 +3651,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))

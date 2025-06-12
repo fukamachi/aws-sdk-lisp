@@ -1430,7 +1430,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/spaces"
                                                         "CreateSpace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-space))
 (common-lisp:progn
  (common-lisp:defun delete-space
@@ -1457,7 +1457,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'space-id))))
                                                         "DeleteSpace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-space))
 (common-lisp:progn
  (common-lisp:defun deregister-admin
@@ -1488,7 +1488,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'admin-id))))
                                                         "DeregisterAdmin"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deregister-admin))
 (common-lisp:progn
  (common-lisp:defun get-space
@@ -1515,7 +1515,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'space-id))))
                                                         "GetSpace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-space))
 (common-lisp:progn
  (common-lisp:defun list-spaces
@@ -1532,7 +1532,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/spaces"
                                                         "ListSpaces"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-spaces))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -1559,7 +1559,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun register-admin
@@ -1590,7 +1590,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'admin-id))))
                                                         "RegisterAdmin"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-admin))
 (common-lisp:progn
  (common-lisp:defun send-invites
@@ -1618,7 +1618,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'space-id))))
                                                         "SendInvites"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-invites))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -1645,7 +1645,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -1672,7 +1672,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-space
@@ -1700,5 +1700,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'space-id))))
                                                         "UpdateSpace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-space))

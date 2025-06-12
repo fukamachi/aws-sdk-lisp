@@ -10487,7 +10487,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AddTagsToOnPremisesInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-tags-to-on-premises-instances))
 (common-lisp:progn
  (common-lisp:defun batch-get-application-revisions
@@ -10505,7 +10505,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchGetApplicationRevisions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-application-revisions))
 (common-lisp:progn
  (common-lisp:defun batch-get-applications
@@ -10522,7 +10522,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchGetApplications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-applications))
 (common-lisp:progn
  (common-lisp:defun batch-get-deployment-groups
@@ -10541,7 +10541,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchGetDeploymentGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-deployment-groups))
 (common-lisp:progn
  (common-lisp:defun batch-get-deployment-instances
@@ -10559,7 +10559,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchGetDeploymentInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-deployment-instances))
 (common-lisp:progn
  (common-lisp:defun batch-get-deployment-targets
@@ -10577,7 +10577,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchGetDeploymentTargets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-deployment-targets))
 (common-lisp:progn
  (common-lisp:defun batch-get-deployments
@@ -10594,7 +10594,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchGetDeployments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-deployments))
 (common-lisp:progn
  (common-lisp:defun batch-get-on-premises-instances
@@ -10612,7 +10612,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchGetOnPremisesInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-on-premises-instances))
 (common-lisp:progn
  (common-lisp:defun continue-deployment
@@ -10630,7 +10630,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ContinueDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'continue-deployment))
 (common-lisp:progn
  (common-lisp:defun create-application
@@ -10648,7 +10648,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-application))
 (common-lisp:progn
  (common-lisp:defun create-deployment
@@ -10674,7 +10674,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-deployment))
 (common-lisp:progn
  (common-lisp:defun create-deployment-config
@@ -10695,7 +10695,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDeploymentConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-deployment-config))
 (common-lisp:progn
  (common-lisp:defun create-deployment-group
@@ -10727,7 +10727,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDeploymentGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-deployment-group))
 (common-lisp:progn
  (common-lisp:defun delete-application
@@ -10744,7 +10744,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-application))
 (common-lisp:progn
  (common-lisp:defun delete-deployment-config
@@ -10761,7 +10761,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDeploymentConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-deployment-config))
 (common-lisp:progn
  (common-lisp:defun delete-deployment-group
@@ -10779,7 +10779,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDeploymentGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-deployment-group))
 (common-lisp:progn
  (common-lisp:defun delete-git-hub-account-token
@@ -10797,7 +10797,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteGitHubAccountToken"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-git-hub-account-token))
 (common-lisp:progn
  (common-lisp:defun delete-resources-by-external-id
@@ -10815,7 +10815,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteResourcesByExternalId"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resources-by-external-id))
 (common-lisp:progn
  (common-lisp:defun deregister-on-premises-instance
@@ -10833,7 +10833,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeregisterOnPremisesInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deregister-on-premises-instance))
 (common-lisp:progn
  (common-lisp:defun get-application
@@ -10850,7 +10850,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-application))
 (common-lisp:progn
  (common-lisp:defun get-application-revision
@@ -10867,7 +10867,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetApplicationRevision"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-application-revision))
 (common-lisp:progn
  (common-lisp:defun get-deployment
@@ -10884,7 +10884,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-deployment))
 (common-lisp:progn
  (common-lisp:defun get-deployment-config
@@ -10901,7 +10901,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDeploymentConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-deployment-config))
 (common-lisp:progn
  (common-lisp:defun get-deployment-group
@@ -10919,7 +10919,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDeploymentGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-deployment-group))
 (common-lisp:progn
  (common-lisp:defun get-deployment-instance
@@ -10936,7 +10936,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDeploymentInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-deployment-instance))
 (common-lisp:progn
  (common-lisp:defun get-deployment-target
@@ -10953,7 +10953,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDeploymentTarget"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-deployment-target))
 (common-lisp:progn
  (common-lisp:defun get-on-premises-instance
@@ -10970,7 +10970,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetOnPremisesInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-on-premises-instance))
 (common-lisp:progn
  (common-lisp:defun list-application-revisions
@@ -10990,7 +10990,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListApplicationRevisions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-application-revisions))
 (common-lisp:progn
  (common-lisp:defun list-applications
@@ -11007,7 +11007,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListApplications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-applications))
 (common-lisp:progn
  (common-lisp:defun list-deployment-configs
@@ -11024,7 +11024,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDeploymentConfigs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-deployment-configs))
 (common-lisp:progn
  (common-lisp:defun list-deployment-groups
@@ -11041,7 +11041,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDeploymentGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-deployment-groups))
 (common-lisp:progn
  (common-lisp:defun list-deployment-instances
@@ -11061,7 +11061,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDeploymentInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-deployment-instances))
 (common-lisp:progn
  (common-lisp:defun list-deployment-targets
@@ -11079,7 +11079,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDeploymentTargets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-deployment-targets))
 (common-lisp:progn
  (common-lisp:defun list-deployments
@@ -11100,7 +11100,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDeployments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-deployments))
 (common-lisp:progn
  (common-lisp:defun list-git-hub-account-token-names
@@ -11118,7 +11118,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListGitHubAccountTokenNames"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-git-hub-account-token-names))
 (common-lisp:progn
  (common-lisp:defun list-on-premises-instances
@@ -11137,7 +11137,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListOnPremisesInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-on-premises-instances))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -11154,7 +11154,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-lifecycle-event-hook-execution-status
@@ -11175,7 +11175,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutLifecycleEventHookExecutionStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-lifecycle-event-hook-execution-status))
 (common-lisp:progn
  (common-lisp:defun register-application-revision
@@ -11194,7 +11194,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RegisterApplicationRevision"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-application-revision))
 (common-lisp:progn
  (common-lisp:defun register-on-premises-instance
@@ -11214,7 +11214,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RegisterOnPremisesInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-on-premises-instance))
 (common-lisp:progn
  (common-lisp:defun remove-tags-from-on-premises-instances
@@ -11232,7 +11232,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RemoveTagsFromOnPremisesInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-tags-from-on-premises-instances))
 (common-lisp:progn
  (common-lisp:defun skip-wait-time-for-instance-termination
@@ -11250,7 +11250,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SkipWaitTimeForInstanceTermination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'skip-wait-time-for-instance-termination))
 (common-lisp:progn
  (common-lisp:defun stop-deployment
@@ -11268,7 +11268,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-deployment))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -11285,7 +11285,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -11302,7 +11302,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-application
@@ -11320,7 +11320,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-application))
 (common-lisp:progn
  (common-lisp:defun update-deployment-group
@@ -11353,5 +11353,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateDeploymentGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-deployment-group))

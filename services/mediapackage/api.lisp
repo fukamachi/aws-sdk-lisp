@@ -6380,7 +6380,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "ConfigureLogs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'configure-logs))
 (common-lisp:progn
  (common-lisp:defun create-channel
@@ -6397,7 +6397,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/channels"
                                                         "CreateChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-channel))
 (common-lisp:progn
  (common-lisp:defun create-harvest-job
@@ -6417,7 +6417,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/harvest_jobs"
                                                         "CreateHarvestJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-harvest-job))
 (common-lisp:progn
  (common-lisp:defun create-origin-endpoint
@@ -6441,7 +6441,7 @@
                                                         "POST"
                                                         "/origin_endpoints"
                                                         "CreateOriginEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-origin-endpoint))
 (common-lisp:progn
  (common-lisp:defun delete-channel
@@ -6468,7 +6468,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-channel))
 (common-lisp:progn
  (common-lisp:defun delete-origin-endpoint
@@ -6495,7 +6495,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteOriginEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-origin-endpoint))
 (common-lisp:progn
  (common-lisp:defun describe-channel
@@ -6522,7 +6522,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DescribeChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-channel))
 (common-lisp:progn
  (common-lisp:defun describe-harvest-job
@@ -6549,7 +6549,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DescribeHarvestJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-harvest-job))
 (common-lisp:progn
  (common-lisp:defun describe-origin-endpoint
@@ -6576,7 +6576,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DescribeOriginEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-origin-endpoint))
 (common-lisp:progn
  (common-lisp:defun list-channels
@@ -6593,7 +6593,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/channels"
                                                         "ListChannels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-channels))
 (common-lisp:progn
  (common-lisp:defun list-harvest-jobs
@@ -6613,7 +6613,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/harvest_jobs"
                                                         "ListHarvestJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-harvest-jobs))
 (common-lisp:progn
  (common-lisp:defun list-origin-endpoints
@@ -6632,7 +6632,7 @@
                                                         "GET"
                                                         "/origin_endpoints"
                                                         "ListOriginEndpoints"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-origin-endpoints))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -6659,7 +6659,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun rotate-channel-credentials
@@ -6687,7 +6687,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "RotateChannelCredentials"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'rotate-channel-credentials))
 (common-lisp:progn
  (common-lisp:defun rotate-ingest-endpoint-credentials
@@ -6719,7 +6719,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'ingest-endpoint-id))))
                                                         "RotateIngestEndpointCredentials"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'rotate-ingest-endpoint-credentials))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -6746,7 +6746,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -6773,7 +6773,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-channel
@@ -6800,7 +6800,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-channel))
 (common-lisp:progn
  (common-lisp:defun update-origin-endpoint
@@ -6833,5 +6833,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateOriginEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-origin-endpoint))

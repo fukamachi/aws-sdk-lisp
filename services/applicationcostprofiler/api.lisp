@@ -996,7 +996,7 @@
                                 aws-sdk/generator/operation::input
                                 'report-id))))
         "DeleteReportDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-report-definition))
 (common-lisp:progn
  (common-lisp:defun get-report-definition
@@ -1019,7 +1019,7 @@
                                 aws-sdk/generator/operation::input
                                 'report-id))))
         "GetReportDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-report-definition))
 (common-lisp:progn
  (common-lisp:defun import-application-usage
@@ -1035,7 +1035,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'applicationcostprofiler-request aws-sdk/generator/operation::input
         "POST" "/importApplicationUsage" "ImportApplicationUsage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-application-usage))
 (common-lisp:progn
  (common-lisp:defun list-report-definitions
@@ -1051,7 +1051,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'applicationcostprofiler-request aws-sdk/generator/operation::input
         "GET" "/reportDefinition" "ListReportDefinitions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-report-definitions))
 (common-lisp:progn
  (common-lisp:defun put-report-definition
@@ -1070,7 +1070,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'applicationcostprofiler-request aws-sdk/generator/operation::input
         "POST" "/reportDefinition" "PutReportDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-report-definition))
 (common-lisp:progn
  (common-lisp:defun update-report-definition
@@ -1096,5 +1096,5 @@
                                 aws-sdk/generator/operation::input
                                 'report-id))))
         "UpdateReportDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-report-definition))

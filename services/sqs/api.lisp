@@ -3398,7 +3398,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AddPermission"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-permission))
 (common-lisp:progn
  (common-lisp:defun cancel-message-move-task
@@ -3415,7 +3415,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CancelMessageMoveTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-message-move-task))
 (common-lisp:progn
  (common-lisp:defun change-message-visibility
@@ -3435,7 +3435,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ChangeMessageVisibility"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'change-message-visibility))
 (common-lisp:progn
  (common-lisp:defun change-message-visibility-batch
@@ -3453,7 +3453,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ChangeMessageVisibilityBatch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'change-message-visibility-batch))
 (common-lisp:progn
  (common-lisp:defun create-queue
@@ -3470,7 +3470,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateQueue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-queue))
 (common-lisp:progn
  (common-lisp:defun delete-message
@@ -3487,7 +3487,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteMessage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-message))
 (common-lisp:progn
  (common-lisp:defun delete-message-batch
@@ -3504,7 +3504,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteMessageBatch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-message-batch))
 (common-lisp:progn
  (common-lisp:defun delete-queue
@@ -3521,7 +3521,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteQueue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-queue))
 (common-lisp:progn
  (common-lisp:defun get-queue-attributes
@@ -3538,7 +3538,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetQueueAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-queue-attributes))
 (common-lisp:progn
  (common-lisp:defun get-queue-url
@@ -3556,7 +3556,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetQueueUrl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-queue-url))
 (common-lisp:progn
  (common-lisp:defun list-dead-letter-source-queues
@@ -3575,7 +3575,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDeadLetterSourceQueues"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-dead-letter-source-queues))
 (common-lisp:progn
  (common-lisp:defun list-message-move-tasks
@@ -3592,7 +3592,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListMessageMoveTasks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-message-move-tasks))
 (common-lisp:progn
  (common-lisp:defun list-queue-tags
@@ -3609,7 +3609,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListQueueTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-queue-tags))
 (common-lisp:progn
  (common-lisp:defun list-queues
@@ -3627,7 +3627,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListQueues"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-queues))
 (common-lisp:progn
  (common-lisp:defun purge-queue
@@ -3644,7 +3644,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PurgeQueue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'purge-queue))
 (common-lisp:progn
  (common-lisp:defun receive-message
@@ -3667,7 +3667,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ReceiveMessage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'receive-message))
 (common-lisp:progn
  (common-lisp:defun remove-permission
@@ -3684,7 +3684,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RemovePermission"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-permission))
 (common-lisp:progn
  (common-lisp:defun send-message
@@ -3706,7 +3706,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SendMessage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-message))
 (common-lisp:progn
  (common-lisp:defun send-message-batch
@@ -3723,7 +3723,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SendMessageBatch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-message-batch))
 (common-lisp:progn
  (common-lisp:defun set-queue-attributes
@@ -3740,7 +3740,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetQueueAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'set-queue-attributes))
 (common-lisp:progn
  (common-lisp:defun start-message-move-task
@@ -3760,7 +3760,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartMessageMoveTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-message-move-task))
 (common-lisp:progn
  (common-lisp:defun tag-queue
@@ -3776,7 +3776,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'sqs-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "TagQueue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-queue))
 (common-lisp:progn
  (common-lisp:defun untag-queue
@@ -3793,5 +3793,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagQueue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-queue))

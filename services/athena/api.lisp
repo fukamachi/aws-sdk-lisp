@@ -12374,7 +12374,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchGetNamedQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-named-query))
 (common-lisp:progn
  (common-lisp:defun batch-get-prepared-statement
@@ -12393,7 +12393,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchGetPreparedStatement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-prepared-statement))
 (common-lisp:progn
  (common-lisp:defun batch-get-query-execution
@@ -12410,7 +12410,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchGetQueryExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-query-execution))
 (common-lisp:progn
  (common-lisp:defun cancel-capacity-reservation
@@ -12428,7 +12428,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CancelCapacityReservation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-capacity-reservation))
 (common-lisp:progn
  (common-lisp:defun create-capacity-reservation
@@ -12446,7 +12446,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateCapacityReservation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-capacity-reservation))
 (common-lisp:progn
  (common-lisp:defun create-data-catalog
@@ -12464,7 +12464,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDataCatalog"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-data-catalog))
 (common-lisp:progn
  (common-lisp:defun create-named-query
@@ -12484,7 +12484,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateNamedQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-named-query))
 (common-lisp:progn
  (common-lisp:defun create-notebook
@@ -12502,7 +12502,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateNotebook"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-notebook))
 (common-lisp:progn
  (common-lisp:defun create-prepared-statement
@@ -12522,7 +12522,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreatePreparedStatement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-prepared-statement))
 (common-lisp:progn
  (common-lisp:defun create-presigned-notebook-url
@@ -12540,7 +12540,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreatePresignedNotebookUrl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-presigned-notebook-url))
 (common-lisp:progn
  (common-lisp:defun create-work-group
@@ -12558,7 +12558,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateWorkGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-work-group))
 (common-lisp:progn
  (common-lisp:defun delete-capacity-reservation
@@ -12576,7 +12576,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteCapacityReservation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-capacity-reservation))
 (common-lisp:progn
  (common-lisp:defun delete-data-catalog
@@ -12593,7 +12593,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDataCatalog"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-data-catalog))
 (common-lisp:progn
  (common-lisp:defun delete-named-query
@@ -12610,7 +12610,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteNamedQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-named-query))
 (common-lisp:progn
  (common-lisp:defun delete-notebook
@@ -12627,7 +12627,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteNotebook"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-notebook))
 (common-lisp:progn
  (common-lisp:defun delete-prepared-statement
@@ -12644,7 +12644,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeletePreparedStatement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-prepared-statement))
 (common-lisp:progn
  (common-lisp:defun delete-work-group
@@ -12662,7 +12662,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteWorkGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-work-group))
 (common-lisp:progn
  (common-lisp:defun export-notebook
@@ -12679,7 +12679,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ExportNotebook"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'export-notebook))
 (common-lisp:progn
  (common-lisp:defun get-calculation-execution
@@ -12697,7 +12697,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCalculationExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-calculation-execution))
 (common-lisp:progn
  (common-lisp:defun get-calculation-execution-code
@@ -12715,7 +12715,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCalculationExecutionCode"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-calculation-execution-code))
 (common-lisp:progn
  (common-lisp:defun get-calculation-execution-status
@@ -12733,7 +12733,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCalculationExecutionStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-calculation-execution-status))
 (common-lisp:progn
  (common-lisp:defun get-capacity-assignment-configuration
@@ -12751,7 +12751,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCapacityAssignmentConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-capacity-assignment-configuration))
 (common-lisp:progn
  (common-lisp:defun get-capacity-reservation
@@ -12768,7 +12768,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCapacityReservation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-capacity-reservation))
 (common-lisp:progn
  (common-lisp:defun get-data-catalog
@@ -12785,7 +12785,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDataCatalog"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-data-catalog))
 (common-lisp:progn
  (common-lisp:defun get-database
@@ -12803,7 +12803,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDatabase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-database))
 (common-lisp:progn
  (common-lisp:defun get-named-query
@@ -12820,7 +12820,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetNamedQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-named-query))
 (common-lisp:progn
  (common-lisp:defun get-notebook-metadata
@@ -12837,7 +12837,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetNotebookMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-notebook-metadata))
 (common-lisp:progn
  (common-lisp:defun get-prepared-statement
@@ -12854,7 +12854,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetPreparedStatement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-prepared-statement))
 (common-lisp:progn
  (common-lisp:defun get-query-execution
@@ -12871,7 +12871,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetQueryExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-query-execution))
 (common-lisp:progn
  (common-lisp:defun get-query-results
@@ -12890,7 +12890,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetQueryResults"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-query-results))
 (common-lisp:progn
  (common-lisp:defun get-query-runtime-statistics
@@ -12908,7 +12908,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetQueryRuntimeStatistics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-query-runtime-statistics))
 (common-lisp:progn
  (common-lisp:defun get-session
@@ -12925,7 +12925,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-session))
 (common-lisp:progn
  (common-lisp:defun get-session-status
@@ -12942,7 +12942,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetSessionStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-session-status))
 (common-lisp:progn
  (common-lisp:defun get-table-metadata
@@ -12961,7 +12961,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetTableMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-table-metadata))
 (common-lisp:progn
  (common-lisp:defun get-work-group
@@ -12978,7 +12978,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetWorkGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-work-group))
 (common-lisp:progn
  (common-lisp:defun import-notebook
@@ -12998,7 +12998,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ImportNotebook"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-notebook))
 (common-lisp:progn
  (common-lisp:defun list-application-dpusizes
@@ -13015,7 +13015,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListApplicationDPUSizes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-application-dpusizes))
 (common-lisp:progn
  (common-lisp:defun list-calculation-executions
@@ -13035,7 +13035,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListCalculationExecutions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-calculation-executions))
 (common-lisp:progn
  (common-lisp:defun list-capacity-reservations
@@ -13052,7 +13052,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListCapacityReservations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-capacity-reservations))
 (common-lisp:progn
  (common-lisp:defun list-data-catalogs
@@ -13070,7 +13070,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDataCatalogs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-data-catalogs))
 (common-lisp:progn
  (common-lisp:defun list-databases
@@ -13089,7 +13089,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDatabases"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-databases))
 (common-lisp:progn
  (common-lisp:defun list-engine-versions
@@ -13106,7 +13106,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListEngineVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-engine-versions))
 (common-lisp:progn
  (common-lisp:defun list-executors
@@ -13126,7 +13126,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListExecutors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-executors))
 (common-lisp:progn
  (common-lisp:defun list-named-queries
@@ -13144,7 +13144,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListNamedQueries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-named-queries))
 (common-lisp:progn
  (common-lisp:defun list-notebook-metadata
@@ -13163,7 +13163,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListNotebookMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-notebook-metadata))
 (common-lisp:progn
  (common-lisp:defun list-notebook-sessions
@@ -13181,7 +13181,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListNotebookSessions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-notebook-sessions))
 (common-lisp:progn
  (common-lisp:defun list-prepared-statements
@@ -13199,7 +13199,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPreparedStatements"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-prepared-statements))
 (common-lisp:progn
  (common-lisp:defun list-query-executions
@@ -13217,7 +13217,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListQueryExecutions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-query-executions))
 (common-lisp:progn
  (common-lisp:defun list-sessions
@@ -13236,7 +13236,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListSessions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-sessions))
 (common-lisp:progn
  (common-lisp:defun list-table-metadata
@@ -13256,7 +13256,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTableMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-table-metadata))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -13274,7 +13274,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-work-groups
@@ -13291,7 +13291,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListWorkGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-work-groups))
 (common-lisp:progn
  (common-lisp:defun put-capacity-assignment-configuration
@@ -13311,7 +13311,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutCapacityAssignmentConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-capacity-assignment-configuration))
 (common-lisp:progn
  (common-lisp:defun start-calculation-execution
@@ -13332,7 +13332,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartCalculationExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-calculation-execution))
 (common-lisp:progn
  (common-lisp:defun start-query-execution
@@ -13354,7 +13354,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartQueryExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-query-execution))
 (common-lisp:progn
  (common-lisp:defun start-session
@@ -13375,7 +13375,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-session))
 (common-lisp:progn
  (common-lisp:defun stop-calculation-execution
@@ -13393,7 +13393,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopCalculationExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-calculation-execution))
 (common-lisp:progn
  (common-lisp:defun stop-query-execution
@@ -13410,7 +13410,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopQueryExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-query-execution))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -13427,7 +13427,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun terminate-session
@@ -13444,7 +13444,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TerminateSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'terminate-session))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -13461,7 +13461,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-capacity-reservation
@@ -13479,7 +13479,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateCapacityReservation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-capacity-reservation))
 (common-lisp:progn
  (common-lisp:defun update-data-catalog
@@ -13497,7 +13497,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateDataCatalog"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-data-catalog))
 (common-lisp:progn
  (common-lisp:defun update-named-query
@@ -13516,7 +13516,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateNamedQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-named-query))
 (common-lisp:progn
  (common-lisp:defun update-notebook
@@ -13536,7 +13536,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateNotebook"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-notebook))
 (common-lisp:progn
  (common-lisp:defun update-notebook-metadata
@@ -13554,7 +13554,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateNotebookMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-notebook-metadata))
 (common-lisp:progn
  (common-lisp:defun update-prepared-statement
@@ -13574,7 +13574,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdatePreparedStatement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-prepared-statement))
 (common-lisp:progn
  (common-lisp:defun update-work-group
@@ -13593,5 +13593,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateWorkGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-work-group))

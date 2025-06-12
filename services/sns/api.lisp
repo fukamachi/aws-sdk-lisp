@@ -4679,7 +4679,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AddPermission"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'add-permission))
 (common-lisp:progn
  (common-lisp:defun check-if-phone-number-is-opted-out
@@ -4697,7 +4697,8 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CheckIfPhoneNumberIsOptedOut"))
-      common-lisp:nil "CheckIfPhoneNumberIsOptedOutResult" *error-map*)))
+      common-lisp:nil "CheckIfPhoneNumberIsOptedOutResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'check-if-phone-number-is-opted-out))
 (common-lisp:progn
  (common-lisp:defun confirm-subscription
@@ -4716,7 +4717,8 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ConfirmSubscription"))
-      common-lisp:nil "ConfirmSubscriptionResult" *error-map*)))
+      common-lisp:nil "ConfirmSubscriptionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'confirm-subscription))
 (common-lisp:progn
  (common-lisp:defun create-platform-application
@@ -4734,7 +4736,8 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreatePlatformApplication"))
-      common-lisp:nil "CreatePlatformApplicationResult" *error-map*)))
+      common-lisp:nil "CreatePlatformApplicationResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-platform-application))
 (common-lisp:progn
  (common-lisp:defun create-platform-endpoint
@@ -4754,7 +4757,8 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreatePlatformEndpoint"))
-      common-lisp:nil "CreatePlatformEndpointResult" *error-map*)))
+      common-lisp:nil "CreatePlatformEndpointResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-platform-endpoint))
 (common-lisp:progn
  (common-lisp:defun create-smssandbox-phone-number
@@ -4772,7 +4776,8 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateSMSSandboxPhoneNumber"))
-      common-lisp:nil "CreateSMSSandboxPhoneNumberResult" *error-map*)))
+      common-lisp:nil "CreateSMSSandboxPhoneNumberResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-smssandbox-phone-number))
 (common-lisp:progn
  (common-lisp:defun create-topic
@@ -4791,7 +4796,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateTopic"))
-      common-lisp:nil "CreateTopicResult" *error-map*)))
+      common-lisp:nil "CreateTopicResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-topic))
 (common-lisp:progn
  (common-lisp:defun delete-endpoint
@@ -4808,7 +4813,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-endpoint))
 (common-lisp:progn
  (common-lisp:defun delete-platform-application
@@ -4826,7 +4831,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeletePlatformApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-platform-application))
 (common-lisp:progn
  (common-lisp:defun delete-smssandbox-phone-number
@@ -4844,7 +4849,8 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteSMSSandboxPhoneNumber"))
-      common-lisp:nil "DeleteSMSSandboxPhoneNumberResult" *error-map*)))
+      common-lisp:nil "DeleteSMSSandboxPhoneNumberResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-smssandbox-phone-number))
 (common-lisp:progn
  (common-lisp:defun delete-topic
@@ -4861,7 +4867,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteTopic"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-topic))
 (common-lisp:progn
  (common-lisp:defun get-data-protection-policy
@@ -4878,7 +4884,8 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDataProtectionPolicy"))
-      common-lisp:nil "GetDataProtectionPolicyResult" *error-map*)))
+      common-lisp:nil "GetDataProtectionPolicyResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-data-protection-policy))
 (common-lisp:progn
  (common-lisp:defun get-endpoint-attributes
@@ -4895,7 +4902,8 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetEndpointAttributes"))
-      common-lisp:nil "GetEndpointAttributesResult" *error-map*)))
+      common-lisp:nil "GetEndpointAttributesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-endpoint-attributes))
 (common-lisp:progn
  (common-lisp:defun get-platform-application-attributes
@@ -4913,7 +4921,8 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetPlatformApplicationAttributes"))
-      common-lisp:nil "GetPlatformApplicationAttributesResult" *error-map*)))
+      common-lisp:nil "GetPlatformApplicationAttributesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-platform-application-attributes))
 (common-lisp:progn
  (common-lisp:defun get-smsattributes
@@ -4930,7 +4939,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetSMSAttributes"))
-      common-lisp:nil "GetSMSAttributesResult" *error-map*)))
+      common-lisp:nil "GetSMSAttributesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-smsattributes))
 (common-lisp:progn
  (common-lisp:defun get-smssandbox-account-status ()
@@ -4956,7 +4965,8 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetSubscriptionAttributes"))
-      common-lisp:nil "GetSubscriptionAttributesResult" *error-map*)))
+      common-lisp:nil "GetSubscriptionAttributesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-subscription-attributes))
 (common-lisp:progn
  (common-lisp:defun get-topic-attributes
@@ -4973,7 +4983,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetTopicAttributes"))
-      common-lisp:nil "GetTopicAttributesResult" *error-map*)))
+      common-lisp:nil "GetTopicAttributesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-topic-attributes))
 (common-lisp:progn
  (common-lisp:defun list-endpoints-by-platform-application
@@ -4992,7 +5002,8 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListEndpointsByPlatformApplication"))
-      common-lisp:nil "ListEndpointsByPlatformApplicationResult" *error-map*)))
+      common-lisp:nil "ListEndpointsByPlatformApplicationResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-endpoints-by-platform-application))
 (common-lisp:progn
  (common-lisp:defun list-origination-numbers
@@ -5009,7 +5020,8 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListOriginationNumbers"))
-      common-lisp:nil "ListOriginationNumbersResult" *error-map*)))
+      common-lisp:nil "ListOriginationNumbersResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-origination-numbers))
 (common-lisp:progn
  (common-lisp:defun list-phone-numbers-opted-out
@@ -5027,7 +5039,8 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPhoneNumbersOptedOut"))
-      common-lisp:nil "ListPhoneNumbersOptedOutResult" *error-map*)))
+      common-lisp:nil "ListPhoneNumbersOptedOutResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-phone-numbers-opted-out))
 (common-lisp:progn
  (common-lisp:defun list-platform-applications
@@ -5044,7 +5057,8 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPlatformApplications"))
-      common-lisp:nil "ListPlatformApplicationsResult" *error-map*)))
+      common-lisp:nil "ListPlatformApplicationsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-platform-applications))
 (common-lisp:progn
  (common-lisp:defun list-smssandbox-phone-numbers
@@ -5062,7 +5076,8 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListSMSSandboxPhoneNumbers"))
-      common-lisp:nil "ListSMSSandboxPhoneNumbersResult" *error-map*)))
+      common-lisp:nil "ListSMSSandboxPhoneNumbersResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-smssandbox-phone-numbers))
 (common-lisp:progn
  (common-lisp:defun list-subscriptions
@@ -5079,7 +5094,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListSubscriptions"))
-      common-lisp:nil "ListSubscriptionsResult" *error-map*)))
+      common-lisp:nil "ListSubscriptionsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-subscriptions))
 (common-lisp:progn
  (common-lisp:defun list-subscriptions-by-topic
@@ -5097,7 +5112,8 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListSubscriptionsByTopic"))
-      common-lisp:nil "ListSubscriptionsByTopicResult" *error-map*)))
+      common-lisp:nil "ListSubscriptionsByTopicResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-subscriptions-by-topic))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -5114,7 +5130,8 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil "ListTagsForResourceResult" *error-map*)))
+      common-lisp:nil "ListTagsForResourceResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-topics
@@ -5131,7 +5148,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTopics"))
-      common-lisp:nil "ListTopicsResult" *error-map*)))
+      common-lisp:nil "ListTopicsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-topics))
 (common-lisp:progn
  (common-lisp:defun opt-in-phone-number
@@ -5148,7 +5165,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "OptInPhoneNumber"))
-      common-lisp:nil "OptInPhoneNumberResult" *error-map*)))
+      common-lisp:nil "OptInPhoneNumberResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'opt-in-phone-number))
 (common-lisp:progn
  (common-lisp:defun publish
@@ -5169,7 +5186,7 @@ common-lisp:nil
        (aws-sdk/generator/shape:make-request-with-input 'sns-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "Publish"))
-      common-lisp:nil "PublishResult" *error-map*)))
+      common-lisp:nil "PublishResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'publish))
 (common-lisp:progn
  (common-lisp:defun publish-batch
@@ -5187,7 +5204,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PublishBatch"))
-      common-lisp:nil "PublishBatchResult" *error-map*)))
+      common-lisp:nil "PublishBatchResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'publish-batch))
 (common-lisp:progn
  (common-lisp:defun put-data-protection-policy
@@ -5205,7 +5222,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutDataProtectionPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'put-data-protection-policy))
 (common-lisp:progn
  (common-lisp:defun remove-permission
@@ -5222,7 +5239,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RemovePermission"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'remove-permission))
 (common-lisp:progn
  (common-lisp:defun set-endpoint-attributes
@@ -5239,7 +5256,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetEndpointAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'set-endpoint-attributes))
 (common-lisp:progn
  (common-lisp:defun set-platform-application-attributes
@@ -5258,7 +5275,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetPlatformApplicationAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'set-platform-application-attributes))
 (common-lisp:progn
  (common-lisp:defun set-smsattributes
@@ -5275,7 +5292,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetSMSAttributes"))
-      common-lisp:nil "SetSMSAttributesResult" *error-map*)))
+      common-lisp:nil "SetSMSAttributesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'set-smsattributes))
 (common-lisp:progn
  (common-lisp:defun set-subscription-attributes
@@ -5295,7 +5312,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetSubscriptionAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'set-subscription-attributes))
 (common-lisp:progn
  (common-lisp:defun set-topic-attributes
@@ -5313,7 +5330,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetTopicAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'set-topic-attributes))
 (common-lisp:progn
  (common-lisp:defun subscribe
@@ -5333,7 +5350,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "Subscribe"))
-      common-lisp:nil "SubscribeResult" *error-map*)))
+      common-lisp:nil "SubscribeResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'subscribe))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -5350,7 +5367,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil "TagResourceResult" *error-map*)))
+      common-lisp:nil "TagResourceResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun unsubscribe
@@ -5367,7 +5384,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "Unsubscribe"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'unsubscribe))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -5384,7 +5401,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil "UntagResourceResult" *error-map*)))
+      common-lisp:nil "UntagResourceResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun verify-smssandbox-phone-number
@@ -5402,5 +5419,6 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "VerifySMSSandboxPhoneNumber"))
-      common-lisp:nil "VerifySMSSandboxPhoneNumberResult" *error-map*)))
+      common-lisp:nil "VerifySMSSandboxPhoneNumberResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'verify-smssandbox-phone-number))

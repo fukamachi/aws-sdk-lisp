@@ -9870,7 +9870,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "BatchDeleteRecipeVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-delete-recipe-version))
 (common-lisp:progn
  (common-lisp:defun create-dataset
@@ -9889,7 +9889,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/datasets"
                                                         "CreateDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-dataset))
 (common-lisp:progn
  (common-lisp:defun create-profile-job
@@ -9913,7 +9913,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/profileJobs"
                                                         "CreateProfileJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-profile-job))
 (common-lisp:progn
  (common-lisp:defun create-project
@@ -9932,7 +9932,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/projects"
                                                         "CreateProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-project))
 (common-lisp:progn
  (common-lisp:defun create-recipe
@@ -9949,7 +9949,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/recipes"
                                                         "CreateRecipe"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-recipe))
 (common-lisp:progn
  (common-lisp:defun create-recipe-job
@@ -9972,7 +9972,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/recipeJobs"
                                                         "CreateRecipeJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-recipe-job))
 (common-lisp:progn
  (common-lisp:defun create-ruleset
@@ -9990,7 +9990,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/rulesets"
                                                         "CreateRuleset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-ruleset))
 (common-lisp:progn
  (common-lisp:defun create-schedule
@@ -10008,7 +10008,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/schedules"
                                                         "CreateSchedule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-schedule))
 (common-lisp:progn
  (common-lisp:defun delete-dataset
@@ -10035,7 +10035,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-dataset))
 (common-lisp:progn
  (common-lisp:defun delete-job
@@ -10062,7 +10062,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-job))
 (common-lisp:progn
  (common-lisp:defun delete-project
@@ -10089,7 +10089,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-project))
 (common-lisp:progn
  (common-lisp:defun delete-recipe-version
@@ -10120,7 +10120,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'recipe-version))))
                                                         "DeleteRecipeVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-recipe-version))
 (common-lisp:progn
  (common-lisp:defun delete-ruleset
@@ -10147,7 +10147,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteRuleset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-ruleset))
 (common-lisp:progn
  (common-lisp:defun delete-schedule
@@ -10174,7 +10174,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteSchedule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-schedule))
 (common-lisp:progn
  (common-lisp:defun describe-dataset
@@ -10201,7 +10201,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DescribeDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-dataset))
 (common-lisp:progn
  (common-lisp:defun describe-job
@@ -10228,7 +10228,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DescribeJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-job))
 (common-lisp:progn
  (common-lisp:defun describe-job-run
@@ -10259,7 +10259,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'run-id))))
                                                         "DescribeJobRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-job-run))
 (common-lisp:progn
  (common-lisp:defun describe-project
@@ -10286,7 +10286,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DescribeProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-project))
 (common-lisp:progn
  (common-lisp:defun describe-recipe
@@ -10313,7 +10313,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DescribeRecipe"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-recipe))
 (common-lisp:progn
  (common-lisp:defun describe-ruleset
@@ -10340,7 +10340,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DescribeRuleset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-ruleset))
 (common-lisp:progn
  (common-lisp:defun describe-schedule
@@ -10367,7 +10367,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DescribeSchedule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-schedule))
 (common-lisp:progn
  (common-lisp:defun list-datasets
@@ -10384,7 +10384,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/datasets"
                                                         "ListDatasets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-datasets))
 (common-lisp:progn
  (common-lisp:defun list-job-runs
@@ -10411,7 +10411,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "ListJobRuns"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-job-runs))
 (common-lisp:progn
  (common-lisp:defun list-jobs
@@ -10430,7 +10430,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/jobs"
                                                         "ListJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-jobs))
 (common-lisp:progn
  (common-lisp:defun list-projects
@@ -10447,7 +10447,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/projects"
                                                         "ListProjects"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-projects))
 (common-lisp:progn
  (common-lisp:defun list-recipe-versions
@@ -10464,7 +10464,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/recipeVersions"
                                                         "ListRecipeVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-recipe-versions))
 (common-lisp:progn
  (common-lisp:defun list-recipes
@@ -10482,7 +10482,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/recipes"
                                                         "ListRecipes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-recipes))
 (common-lisp:progn
  (common-lisp:defun list-rulesets
@@ -10500,7 +10500,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/rulesets"
                                                         "ListRulesets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-rulesets))
 (common-lisp:progn
  (common-lisp:defun list-schedules
@@ -10518,7 +10518,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/schedules"
                                                         "ListSchedules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-schedules))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -10545,7 +10545,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun publish-recipe
@@ -10572,7 +10572,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "PublishRecipe"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'publish-recipe))
 (common-lisp:progn
  (common-lisp:defun send-project-session-action
@@ -10603,7 +10603,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "SendProjectSessionAction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-project-session-action))
 (common-lisp:progn
  (common-lisp:defun start-job-run
@@ -10630,7 +10630,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "StartJobRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-job-run))
 (common-lisp:progn
  (common-lisp:defun start-project-session
@@ -10657,7 +10657,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "StartProjectSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-project-session))
 (common-lisp:progn
  (common-lisp:defun stop-job-run
@@ -10688,7 +10688,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'run-id))))
                                                         "StopJobRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-job-run))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -10715,7 +10715,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -10742,7 +10742,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-dataset
@@ -10771,7 +10771,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-dataset))
 (common-lisp:progn
  (common-lisp:defun update-profile-job
@@ -10804,7 +10804,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateProfileJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-profile-job))
 (common-lisp:progn
  (common-lisp:defun update-project
@@ -10831,7 +10831,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-project))
 (common-lisp:progn
  (common-lisp:defun update-recipe
@@ -10858,7 +10858,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateRecipe"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-recipe))
 (common-lisp:progn
  (common-lisp:defun update-recipe-job
@@ -10890,7 +10890,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateRecipeJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-recipe-job))
 (common-lisp:progn
  (common-lisp:defun update-ruleset
@@ -10917,7 +10917,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateRuleset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-ruleset))
 (common-lisp:progn
  (common-lisp:defun update-schedule
@@ -10944,5 +10944,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateSchedule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-schedule))

@@ -6684,7 +6684,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AnalyzeDocument"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'analyze-document))
 (common-lisp:progn
  (common-lisp:defun analyze-expense
@@ -6701,7 +6701,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AnalyzeExpense"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'analyze-expense))
 (common-lisp:progn
  (common-lisp:defun analyze-id
@@ -6718,7 +6718,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AnalyzeID"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'analyze-id))
 (common-lisp:progn
  (common-lisp:defun create-adapter
@@ -6738,7 +6738,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateAdapter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-adapter))
 (common-lisp:progn
  (common-lisp:defun create-adapter-version
@@ -6758,7 +6758,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateAdapterVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-adapter-version))
 (common-lisp:progn
  (common-lisp:defun delete-adapter
@@ -6775,7 +6775,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAdapter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-adapter))
 (common-lisp:progn
  (common-lisp:defun delete-adapter-version
@@ -6792,7 +6792,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAdapterVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-adapter-version))
 (common-lisp:progn
  (common-lisp:defun detect-document-text
@@ -6809,7 +6809,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetectDocumentText"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detect-document-text))
 (common-lisp:progn
  (common-lisp:defun get-adapter
@@ -6826,7 +6826,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAdapter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-adapter))
 (common-lisp:progn
  (common-lisp:defun get-adapter-version
@@ -6843,7 +6843,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAdapterVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-adapter-version))
 (common-lisp:progn
  (common-lisp:defun get-document-analysis
@@ -6860,7 +6860,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDocumentAnalysis"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-document-analysis))
 (common-lisp:progn
  (common-lisp:defun get-document-text-detection
@@ -6878,7 +6878,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDocumentTextDetection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-document-text-detection))
 (common-lisp:progn
  (common-lisp:defun get-expense-analysis
@@ -6895,7 +6895,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetExpenseAnalysis"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-expense-analysis))
 (common-lisp:progn
  (common-lisp:defun get-lending-analysis
@@ -6912,7 +6912,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetLendingAnalysis"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-lending-analysis))
 (common-lisp:progn
  (common-lisp:defun get-lending-analysis-summary
@@ -6930,7 +6930,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetLendingAnalysisSummary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-lending-analysis-summary))
 (common-lisp:progn
  (common-lisp:defun list-adapter-versions
@@ -6950,7 +6950,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAdapterVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-adapter-versions))
 (common-lisp:progn
  (common-lisp:defun list-adapters
@@ -6970,7 +6970,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAdapters"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-adapters))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -6987,7 +6987,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun start-document-analysis
@@ -7009,7 +7009,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartDocumentAnalysis"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-document-analysis))
 (common-lisp:progn
  (common-lisp:defun start-document-text-detection
@@ -7030,7 +7030,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartDocumentTextDetection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-document-text-detection))
 (common-lisp:progn
  (common-lisp:defun start-expense-analysis
@@ -7050,7 +7050,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartExpenseAnalysis"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-expense-analysis))
 (common-lisp:progn
  (common-lisp:defun start-lending-analysis
@@ -7070,7 +7070,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartLendingAnalysis"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-lending-analysis))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -7087,7 +7087,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -7104,7 +7104,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-adapter
@@ -7123,5 +7123,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateAdapter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-adapter))

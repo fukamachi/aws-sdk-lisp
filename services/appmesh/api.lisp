@@ -599,7 +599,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-gateway-route-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'gateway-route)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'gateway-route))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-gateway-route-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-mesh-input common-lisp:nil
                        ((client-token :initarg :client-token :initform
@@ -698,7 +704,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input create-mesh-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'mesh)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'mesh))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input create-mesh-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-route-input common-lisp:nil
                        ((client-token :initarg :client-token :initform
@@ -818,7 +828,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input create-route-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'route)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'route))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input create-route-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-virtual-gateway-input common-lisp:nil
                        ((client-token :initarg :client-token :initform
@@ -952,7 +966,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-virtual-gateway-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-gateway)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-gateway))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-virtual-gateway-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-virtual-node-input common-lisp:nil
                        ((client-token :initarg :client-token :initform
@@ -1082,7 +1102,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-virtual-node-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-node)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-node))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-virtual-node-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-virtual-router-input common-lisp:nil
                        ((client-token :initarg :client-token :initform
@@ -1213,7 +1239,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-virtual-router-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-router)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-router))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-virtual-router-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-virtual-service-input common-lisp:nil
                        ((client-token :initarg :client-token :initform
@@ -1347,7 +1379,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-virtual-service-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-service)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-service))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-virtual-service-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:deftype default-gateway-route-rewrite () 'common-lisp:string)
 (common-lisp:progn
  (common-lisp:defclass delete-gateway-route-input common-lisp:nil
@@ -1441,7 +1479,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           delete-gateway-route-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'gateway-route)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'gateway-route))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-gateway-route-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-mesh-input common-lisp:nil
                        ((mesh-name :initarg :mesh-name :initform
@@ -1496,7 +1540,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input delete-mesh-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'mesh)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'mesh))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input delete-mesh-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-route-input common-lisp:nil
                        ((mesh-name :initarg :mesh-name :initform
@@ -1571,7 +1619,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input delete-route-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'route)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'route))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input delete-route-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-virtual-gateway-input common-lisp:nil
                        ((mesh-name :initarg :mesh-name :initform
@@ -1658,7 +1710,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           delete-virtual-gateway-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-gateway)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-gateway))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-virtual-gateway-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-virtual-node-input common-lisp:nil
                        ((mesh-name :initarg :mesh-name :initform
@@ -1743,7 +1801,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           delete-virtual-node-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-node)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-node))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-virtual-node-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-virtual-router-input common-lisp:nil
                        ((mesh-name :initarg :mesh-name :initform
@@ -1828,7 +1892,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           delete-virtual-router-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-router)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-router))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-virtual-router-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-virtual-service-input common-lisp:nil
                        ((mesh-name :initarg :mesh-name :initform
@@ -1915,7 +1985,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           delete-virtual-service-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-service)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-service))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-virtual-service-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass describe-gateway-route-input common-lisp:nil
                        ((gateway-route-name :initarg :gateway-route-name
@@ -2009,7 +2085,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           describe-gateway-route-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'gateway-route)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'gateway-route))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          describe-gateway-route-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass describe-mesh-input common-lisp:nil
                        ((mesh-name :initarg :mesh-name :initform
@@ -2070,7 +2152,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input describe-mesh-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'mesh)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'mesh))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input describe-mesh-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass describe-route-input common-lisp:nil
                        ((mesh-name :initarg :mesh-name :initform
@@ -2151,7 +2237,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           describe-route-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'route)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'route))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          describe-route-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass describe-virtual-gateway-input common-lisp:nil
                        ((mesh-name :initarg :mesh-name :initform
@@ -2239,7 +2331,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           describe-virtual-gateway-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-gateway)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-gateway))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          describe-virtual-gateway-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass describe-virtual-node-input common-lisp:nil
                        ((mesh-name :initarg :mesh-name :initform
@@ -2324,7 +2422,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           describe-virtual-node-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-node)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-node))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          describe-virtual-node-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass describe-virtual-router-input common-lisp:nil
                        ((mesh-name :initarg :mesh-name :initform
@@ -2411,7 +2515,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           describe-virtual-router-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-router)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-router))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          describe-virtual-router-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass describe-virtual-service-input common-lisp:nil
                        ((mesh-name :initarg :mesh-name :initform
@@ -2499,7 +2609,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           describe-virtual-service-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-service)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-service))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          describe-virtual-service-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:deftype dns-response-type () 'common-lisp:string)
 (common-lisp:progn
  (common-lisp:defclass dns-service-discovery common-lisp:nil
@@ -8547,7 +8663,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-gateway-route-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'gateway-route)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'gateway-route))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-gateway-route-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-mesh-input common-lisp:nil
                        ((client-token :initarg :client-token :initform
@@ -8627,7 +8749,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input update-mesh-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'mesh)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'mesh))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input update-mesh-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-route-input common-lisp:nil
                        ((client-token :initarg :client-token :initform
@@ -8728,7 +8854,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input update-route-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'route)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'route))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input update-route-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-virtual-gateway-input common-lisp:nil
                        ((client-token :initarg :client-token :initform
@@ -8842,7 +8972,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-virtual-gateway-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-gateway)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-gateway))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-virtual-gateway-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-virtual-node-input common-lisp:nil
                        ((client-token :initarg :client-token :initform
@@ -8953,7 +9089,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-virtual-node-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-node)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-node))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-virtual-node-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-virtual-router-input common-lisp:nil
                        ((client-token :initarg :client-token :initform
@@ -9065,7 +9207,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-virtual-router-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-router)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-router))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-virtual-router-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-virtual-service-input common-lisp:nil
                        ((client-token :initarg :client-token :initform
@@ -9179,7 +9327,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-virtual-service-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-service)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'virtual-service))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-virtual-service-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass virtual-gateway-access-log common-lisp:nil
                        ((file :initarg :file :initform common-lisp:nil :type
@@ -12525,7 +12679,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'virtual-gateway-name))))
                                                         "CreateGatewayRoute"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-gateway-route))
 (common-lisp:progn
  (common-lisp:defun create-mesh
@@ -12544,7 +12698,7 @@
                                                         "PUT"
                                                         "/v20190125/meshes"
                                                         "CreateMesh"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-mesh))
 (common-lisp:progn
  (common-lisp:defun create-route
@@ -12578,7 +12732,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'virtual-router-name))))
                                                         "CreateRoute"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-route))
 (common-lisp:progn
  (common-lisp:defun create-virtual-gateway
@@ -12608,7 +12762,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'mesh-name))))
                                                         "CreateVirtualGateway"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-virtual-gateway))
 (common-lisp:progn
  (common-lisp:defun create-virtual-node
@@ -12638,7 +12792,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'mesh-name))))
                                                         "CreateVirtualNode"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-virtual-node))
 (common-lisp:progn
  (common-lisp:defun create-virtual-router
@@ -12668,7 +12822,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'mesh-name))))
                                                         "CreateVirtualRouter"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-virtual-router))
 (common-lisp:progn
  (common-lisp:defun create-virtual-service
@@ -12698,7 +12852,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'mesh-name))))
                                                         "CreateVirtualService"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-virtual-service))
 (common-lisp:progn
  (common-lisp:defun delete-gateway-route
@@ -12736,7 +12890,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'gateway-route-name))))
                                                         "DeleteGatewayRoute"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-gateway-route))
 (common-lisp:progn
  (common-lisp:defun delete-mesh
@@ -12763,7 +12917,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'mesh-name))))
                                                         "DeleteMesh"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-mesh))
 (common-lisp:progn
  (common-lisp:defun delete-route
@@ -12801,7 +12955,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'route-name))))
                                                         "DeleteRoute"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-route))
 (common-lisp:progn
  (common-lisp:defun delete-virtual-gateway
@@ -12834,7 +12988,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'virtual-gateway-name))))
                                                         "DeleteVirtualGateway"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-virtual-gateway))
 (common-lisp:progn
  (common-lisp:defun delete-virtual-node
@@ -12866,7 +13020,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'virtual-node-name))))
                                                         "DeleteVirtualNode"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-virtual-node))
 (common-lisp:progn
  (common-lisp:defun delete-virtual-router
@@ -12898,7 +13052,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'virtual-router-name))))
                                                         "DeleteVirtualRouter"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-virtual-router))
 (common-lisp:progn
  (common-lisp:defun delete-virtual-service
@@ -12931,7 +13085,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'virtual-service-name))))
                                                         "DeleteVirtualService"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-virtual-service))
 (common-lisp:progn
  (common-lisp:defun describe-gateway-route
@@ -12969,7 +13123,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'gateway-route-name))))
                                                         "DescribeGatewayRoute"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-gateway-route))
 (common-lisp:progn
  (common-lisp:defun describe-mesh
@@ -12996,7 +13150,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'mesh-name))))
                                                         "DescribeMesh"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-mesh))
 (common-lisp:progn
  (common-lisp:defun describe-route
@@ -13034,7 +13188,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'route-name))))
                                                         "DescribeRoute"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-route))
 (common-lisp:progn
  (common-lisp:defun describe-virtual-gateway
@@ -13067,7 +13221,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'virtual-gateway-name))))
                                                         "DescribeVirtualGateway"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-virtual-gateway))
 (common-lisp:progn
  (common-lisp:defun describe-virtual-node
@@ -13099,7 +13253,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'virtual-node-name))))
                                                         "DescribeVirtualNode"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-virtual-node))
 (common-lisp:progn
  (common-lisp:defun describe-virtual-router
@@ -13131,7 +13285,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'virtual-router-name))))
                                                         "DescribeVirtualRouter"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-virtual-router))
 (common-lisp:progn
  (common-lisp:defun describe-virtual-service
@@ -13164,7 +13318,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'virtual-service-name))))
                                                         "DescribeVirtualService"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-virtual-service))
 (common-lisp:progn
  (common-lisp:defun list-gateway-routes
@@ -13198,7 +13352,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'virtual-gateway-name))))
                                                         "ListGatewayRoutes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-gateway-routes))
 (common-lisp:progn
  (common-lisp:defun list-meshes
@@ -13216,7 +13370,7 @@
                                                         "GET"
                                                         "/v20190125/meshes"
                                                         "ListMeshes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-meshes))
 (common-lisp:progn
  (common-lisp:defun list-routes
@@ -13250,7 +13404,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'virtual-router-name))))
                                                         "ListRoutes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-routes))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -13267,7 +13421,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v20190125/tags"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-virtual-gateways
@@ -13295,7 +13449,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'mesh-name))))
                                                         "ListVirtualGateways"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-virtual-gateways))
 (common-lisp:progn
  (common-lisp:defun list-virtual-nodes
@@ -13323,7 +13477,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'mesh-name))))
                                                         "ListVirtualNodes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-virtual-nodes))
 (common-lisp:progn
  (common-lisp:defun list-virtual-routers
@@ -13351,7 +13505,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'mesh-name))))
                                                         "ListVirtualRouters"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-virtual-routers))
 (common-lisp:progn
  (common-lisp:defun list-virtual-services
@@ -13379,7 +13533,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'mesh-name))))
                                                         "ListVirtualServices"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-virtual-services))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -13396,7 +13550,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/v20190125/tag"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -13414,7 +13568,7 @@
                                                         "PUT"
                                                         "/v20190125/untag"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-gateway-route
@@ -13452,7 +13606,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'gateway-route-name))))
                                                         "UpdateGatewayRoute"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-gateway-route))
 (common-lisp:progn
  (common-lisp:defun update-mesh
@@ -13479,7 +13633,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'mesh-name))))
                                                         "UpdateMesh"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-mesh))
 (common-lisp:progn
  (common-lisp:defun update-route
@@ -13517,7 +13671,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'route-name))))
                                                         "UpdateRoute"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-route))
 (common-lisp:progn
  (common-lisp:defun update-virtual-gateway
@@ -13551,7 +13705,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'virtual-gateway-name))))
                                                         "UpdateVirtualGateway"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-virtual-gateway))
 (common-lisp:progn
  (common-lisp:defun update-virtual-node
@@ -13585,7 +13739,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'virtual-node-name))))
                                                         "UpdateVirtualNode"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-virtual-node))
 (common-lisp:progn
  (common-lisp:defun update-virtual-router
@@ -13619,7 +13773,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'virtual-router-name))))
                                                         "UpdateVirtualRouter"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-virtual-router))
 (common-lisp:progn
  (common-lisp:defun update-virtual-service
@@ -13653,5 +13807,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'virtual-service-name))))
                                                         "UpdateVirtualService"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-virtual-service))

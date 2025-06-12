@@ -967,7 +967,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "DescribeJobExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-job-execution))
 (common-lisp:progn
  (common-lisp:defun get-pending-job-executions
@@ -995,7 +995,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'thing-name))))
                                                         "GetPendingJobExecutions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-pending-job-executions))
 (common-lisp:progn
  (common-lisp:defun start-next-pending-job-execution
@@ -1025,7 +1025,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'thing-name))))
                                                         "StartNextPendingJobExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-next-pending-job-execution))
 (common-lisp:progn
  (common-lisp:defun update-job-execution
@@ -1062,5 +1062,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "UpdateJobExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-job-execution))

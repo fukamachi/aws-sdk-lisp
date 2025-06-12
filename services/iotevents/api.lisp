@@ -6835,7 +6835,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/alarm-models"
                                                         "CreateAlarmModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-alarm-model))
 (common-lisp:progn
  (common-lisp:defun create-detector-model
@@ -6857,7 +6857,7 @@
                                                         "POST"
                                                         "/detector-models"
                                                         "CreateDetectorModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-detector-model))
 (common-lisp:progn
  (common-lisp:defun create-input
@@ -6876,7 +6876,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/inputs"
                                                         "CreateInput"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-input))
 (common-lisp:progn
  (common-lisp:defun delete-alarm-model
@@ -6903,7 +6903,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'alarm-model-name))))
                                                         "DeleteAlarmModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-alarm-model))
 (common-lisp:progn
  (common-lisp:defun delete-detector-model
@@ -6930,7 +6930,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'detector-model-name))))
                                                         "DeleteDetectorModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-detector-model))
 (common-lisp:progn
  (common-lisp:defun delete-input
@@ -6957,7 +6957,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'input-name))))
                                                         "DeleteInput"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-input))
 (common-lisp:progn
  (common-lisp:defun describe-alarm-model
@@ -6985,7 +6985,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'alarm-model-name))))
                                                         "DescribeAlarmModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-alarm-model))
 (common-lisp:progn
  (common-lisp:defun describe-detector-model
@@ -7014,7 +7014,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'detector-model-name))))
                                                         "DescribeDetectorModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-detector-model))
 (common-lisp:progn
  (common-lisp:defun describe-detector-model-analysis
@@ -7042,7 +7042,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'analysis-id))))
                                                         "DescribeDetectorModelAnalysis"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-detector-model-analysis))
 (common-lisp:progn
  (common-lisp:defun describe-input
@@ -7069,7 +7069,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'input-name))))
                                                         "DescribeInput"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-input))
 (common-lisp:progn
  (common-lisp:defun describe-logging-options ()
@@ -7107,7 +7107,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'analysis-id))))
                                                         "GetDetectorModelAnalysisResults"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-detector-model-analysis-results))
 (common-lisp:progn
  (common-lisp:defun list-alarm-model-versions
@@ -7136,7 +7136,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'alarm-model-name))))
                                                         "ListAlarmModelVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-alarm-model-versions))
 (common-lisp:progn
  (common-lisp:defun list-alarm-models
@@ -7153,7 +7153,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/alarm-models"
                                                         "ListAlarmModels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-alarm-models))
 (common-lisp:progn
  (common-lisp:defun list-detector-model-versions
@@ -7183,7 +7183,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'detector-model-name))))
                                                         "ListDetectorModelVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-detector-model-versions))
 (common-lisp:progn
  (common-lisp:defun list-detector-models
@@ -7201,7 +7201,7 @@
                                                         "GET"
                                                         "/detector-models"
                                                         "ListDetectorModels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-detector-models))
 (common-lisp:progn
  (common-lisp:defun list-input-routings
@@ -7220,7 +7220,7 @@
                                                         "POST"
                                                         "/input-routings"
                                                         "ListInputRoutings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-input-routings))
 (common-lisp:progn
  (common-lisp:defun list-inputs
@@ -7237,7 +7237,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/inputs"
                                                         "ListInputs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-inputs))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -7254,7 +7254,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/tags"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-logging-options
@@ -7271,7 +7271,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/logging"
                                                         "PutLoggingOptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-logging-options))
 (common-lisp:progn
  (common-lisp:defun start-detector-model-analysis
@@ -7290,7 +7290,7 @@
                                                         "POST"
                                                         "/analysis/detector-models/"
                                                         "StartDetectorModelAnalysis"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-detector-model-analysis))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -7307,7 +7307,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/tags"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -7324,7 +7324,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "DELETE" "/tags"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-alarm-model
@@ -7356,7 +7356,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'alarm-model-name))))
                                                         "UpdateAlarmModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-alarm-model))
 (common-lisp:progn
  (common-lisp:defun update-detector-model
@@ -7387,7 +7387,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'detector-model-name))))
                                                         "UpdateDetectorModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-detector-model))
 (common-lisp:progn
  (common-lisp:defun update-input
@@ -7416,5 +7416,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'input-name))))
                                                         "UpdateInput"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-input))

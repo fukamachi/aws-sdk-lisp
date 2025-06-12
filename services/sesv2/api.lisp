@@ -15521,7 +15521,7 @@
                                                         "POST"
                                                         "/v2/email/metrics/batch"
                                                         "BatchGetMetricData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-metric-data))
 (common-lisp:progn
  (common-lisp:defun cancel-export-job
@@ -15548,7 +15548,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "CancelExportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-export-job))
 (common-lisp:progn
  (common-lisp:defun create-configuration-set
@@ -15571,7 +15571,7 @@
                                                         "POST"
                                                         "/v2/email/configuration-sets"
                                                         "CreateConfigurationSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-configuration-set))
 (common-lisp:progn
  (common-lisp:defun create-configuration-set-event-destination
@@ -15602,7 +15602,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-set-name))))
                                                         "CreateConfigurationSetEventDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-configuration-set-event-destination))
 (common-lisp:progn
  (common-lisp:defun create-contact
@@ -15632,7 +15632,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'contact-list-name))))
                                                         "CreateContact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-contact))
 (common-lisp:progn
  (common-lisp:defun create-contact-list
@@ -15652,7 +15652,7 @@
                                                         "POST"
                                                         "/v2/email/contact-lists"
                                                         "CreateContactList"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-contact-list))
 (common-lisp:progn
  (common-lisp:defun create-custom-verification-email-template
@@ -15675,7 +15675,7 @@
                                                         "POST"
                                                         "/v2/email/custom-verification-email-templates"
                                                         "CreateCustomVerificationEmailTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-custom-verification-email-template))
 (common-lisp:progn
  (common-lisp:defun create-dedicated-ip-pool
@@ -15693,7 +15693,7 @@
                                                         "POST"
                                                         "/v2/email/dedicated-ip-pools"
                                                         "CreateDedicatedIpPool"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-dedicated-ip-pool))
 (common-lisp:progn
  (common-lisp:defun create-deliverability-test-report
@@ -15714,7 +15714,7 @@
                                                         "POST"
                                                         "/v2/email/deliverability-dashboard/test"
                                                         "CreateDeliverabilityTestReport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-deliverability-test-report))
 (common-lisp:progn
  (common-lisp:defun create-email-identity
@@ -15735,7 +15735,7 @@
                                                         "POST"
                                                         "/v2/email/identities"
                                                         "CreateEmailIdentity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-email-identity))
 (common-lisp:progn
  (common-lisp:defun create-email-identity-policy
@@ -15768,7 +15768,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'policy-name))))
                                                         "CreateEmailIdentityPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-email-identity-policy))
 (common-lisp:progn
  (common-lisp:defun create-email-template
@@ -15786,7 +15786,7 @@
                                                         "POST"
                                                         "/v2/email/templates"
                                                         "CreateEmailTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-email-template))
 (common-lisp:progn
  (common-lisp:defun create-export-job
@@ -15805,7 +15805,7 @@
                                                         "POST"
                                                         "/v2/email/export-jobs"
                                                         "CreateExportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-export-job))
 (common-lisp:progn
  (common-lisp:defun create-import-job
@@ -15824,7 +15824,7 @@
                                                         "POST"
                                                         "/v2/email/import-jobs"
                                                         "CreateImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-import-job))
 (common-lisp:progn
  (common-lisp:defun delete-configuration-set
@@ -15851,7 +15851,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-set-name))))
                                                         "DeleteConfigurationSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-configuration-set))
 (common-lisp:progn
  (common-lisp:defun delete-configuration-set-event-destination
@@ -15885,7 +15885,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'event-destination-name))))
                                                         "DeleteConfigurationSetEventDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-configuration-set-event-destination))
 (common-lisp:progn
  (common-lisp:defun delete-contact
@@ -15917,7 +15917,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'email-address))))
                                                         "DeleteContact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-contact))
 (common-lisp:progn
  (common-lisp:defun delete-contact-list
@@ -15944,7 +15944,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'contact-list-name))))
                                                         "DeleteContactList"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-contact-list))
 (common-lisp:progn
  (common-lisp:defun delete-custom-verification-email-template
@@ -15972,7 +15972,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "DeleteCustomVerificationEmailTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-custom-verification-email-template))
 (common-lisp:progn
  (common-lisp:defun delete-dedicated-ip-pool
@@ -15999,7 +15999,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'pool-name))))
                                                         "DeleteDedicatedIpPool"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-dedicated-ip-pool))
 (common-lisp:progn
  (common-lisp:defun delete-email-identity
@@ -16026,7 +16026,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'email-identity))))
                                                         "DeleteEmailIdentity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-email-identity))
 (common-lisp:progn
  (common-lisp:defun delete-email-identity-policy
@@ -16058,7 +16058,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'policy-name))))
                                                         "DeleteEmailIdentityPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-email-identity-policy))
 (common-lisp:progn
  (common-lisp:defun delete-email-template
@@ -16085,7 +16085,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "DeleteEmailTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-email-template))
 (common-lisp:progn
  (common-lisp:defun delete-suppressed-destination
@@ -16113,7 +16113,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'email-address))))
                                                         "DeleteSuppressedDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-suppressed-destination))
 (common-lisp:progn
  (common-lisp:defun get-account ()
@@ -16139,7 +16139,7 @@
                                                         "GET"
                                                         "/v2/email/deliverability-dashboard/blacklist-report"
                                                         "GetBlacklistReports"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-blacklist-reports))
 (common-lisp:progn
  (common-lisp:defun get-configuration-set
@@ -16166,7 +16166,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-set-name))))
                                                         "GetConfigurationSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-configuration-set))
 (common-lisp:progn
  (common-lisp:defun get-configuration-set-event-destinations
@@ -16194,7 +16194,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-set-name))))
                                                         "GetConfigurationSetEventDestinations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-configuration-set-event-destinations))
 (common-lisp:progn
  (common-lisp:defun get-contact
@@ -16226,7 +16226,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'email-address))))
                                                         "GetContact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-contact))
 (common-lisp:progn
  (common-lisp:defun get-contact-list
@@ -16253,7 +16253,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'contact-list-name))))
                                                         "GetContactList"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-contact-list))
 (common-lisp:progn
  (common-lisp:defun get-custom-verification-email-template
@@ -16281,7 +16281,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "GetCustomVerificationEmailTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-custom-verification-email-template))
 (common-lisp:progn
  (common-lisp:defun get-dedicated-ip
@@ -16308,7 +16308,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'ip))))
                                                         "GetDedicatedIp"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-dedicated-ip))
 (common-lisp:progn
  (common-lisp:defun get-dedicated-ip-pool
@@ -16335,7 +16335,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'pool-name))))
                                                         "GetDedicatedIpPool"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-dedicated-ip-pool))
 (common-lisp:progn
  (common-lisp:defun get-dedicated-ips
@@ -16353,7 +16353,7 @@
                                                         "GET"
                                                         "/v2/email/dedicated-ips"
                                                         "GetDedicatedIps"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-dedicated-ips))
 (common-lisp:progn
  (common-lisp:defun get-deliverability-dashboard-options ()
@@ -16390,7 +16390,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'report-id))))
                                                         "GetDeliverabilityTestReport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-deliverability-test-report))
 (common-lisp:progn
  (common-lisp:defun get-domain-deliverability-campaign
@@ -16418,7 +16418,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'campaign-id))))
                                                         "GetDomainDeliverabilityCampaign"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-domain-deliverability-campaign))
 (common-lisp:progn
  (common-lisp:defun get-domain-statistics-report
@@ -16446,7 +16446,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain))))
                                                         "GetDomainStatisticsReport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-domain-statistics-report))
 (common-lisp:progn
  (common-lisp:defun get-email-identity
@@ -16473,7 +16473,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'email-identity))))
                                                         "GetEmailIdentity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-email-identity))
 (common-lisp:progn
  (common-lisp:defun get-email-identity-policies
@@ -16501,7 +16501,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'email-identity))))
                                                         "GetEmailIdentityPolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-email-identity-policies))
 (common-lisp:progn
  (common-lisp:defun get-email-template
@@ -16528,7 +16528,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "GetEmailTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-email-template))
 (common-lisp:progn
  (common-lisp:defun get-export-job
@@ -16555,7 +16555,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "GetExportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-export-job))
 (common-lisp:progn
  (common-lisp:defun get-import-job
@@ -16582,7 +16582,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "GetImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-import-job))
 (common-lisp:progn
  (common-lisp:defun get-message-insights
@@ -16609,7 +16609,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'message-id))))
                                                         "GetMessageInsights"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-message-insights))
 (common-lisp:progn
  (common-lisp:defun get-suppressed-destination
@@ -16637,7 +16637,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'email-address))))
                                                         "GetSuppressedDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-suppressed-destination))
 (common-lisp:progn
  (common-lisp:defun list-configuration-sets
@@ -16655,7 +16655,7 @@
                                                         "GET"
                                                         "/v2/email/configuration-sets"
                                                         "ListConfigurationSets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-configuration-sets))
 (common-lisp:progn
  (common-lisp:defun list-contact-lists
@@ -16673,7 +16673,7 @@
                                                         "GET"
                                                         "/v2/email/contact-lists"
                                                         "ListContactLists"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-contact-lists))
 (common-lisp:progn
  (common-lisp:defun list-contacts
@@ -16702,7 +16702,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'contact-list-name))))
                                                         "ListContacts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-contacts))
 (common-lisp:progn
  (common-lisp:defun list-custom-verification-email-templates
@@ -16721,7 +16721,7 @@
                                                         "GET"
                                                         "/v2/email/custom-verification-email-templates"
                                                         "ListCustomVerificationEmailTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-custom-verification-email-templates))
 (common-lisp:progn
  (common-lisp:defun list-dedicated-ip-pools
@@ -16739,7 +16739,7 @@
                                                         "GET"
                                                         "/v2/email/dedicated-ip-pools"
                                                         "ListDedicatedIpPools"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-dedicated-ip-pools))
 (common-lisp:progn
  (common-lisp:defun list-deliverability-test-reports
@@ -16758,7 +16758,7 @@
                                                         "GET"
                                                         "/v2/email/deliverability-dashboard/test-reports"
                                                         "ListDeliverabilityTestReports"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-deliverability-test-reports))
 (common-lisp:progn
  (common-lisp:defun list-domain-deliverability-campaigns
@@ -16789,7 +16789,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'subscribed-domain))))
                                                         "ListDomainDeliverabilityCampaigns"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-domain-deliverability-campaigns))
 (common-lisp:progn
  (common-lisp:defun list-email-identities
@@ -16807,7 +16807,7 @@
                                                         "GET"
                                                         "/v2/email/identities"
                                                         "ListEmailIdentities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-email-identities))
 (common-lisp:progn
  (common-lisp:defun list-email-templates
@@ -16825,7 +16825,7 @@
                                                         "GET"
                                                         "/v2/email/templates"
                                                         "ListEmailTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-email-templates))
 (common-lisp:progn
  (common-lisp:defun list-export-jobs
@@ -16845,7 +16845,7 @@
                                                         "POST"
                                                         "/v2/email/list-export-jobs"
                                                         "ListExportJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-export-jobs))
 (common-lisp:progn
  (common-lisp:defun list-import-jobs
@@ -16865,7 +16865,7 @@
                                                         "GET"
                                                         "/v2/email/import-jobs"
                                                         "ListImportJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-import-jobs))
 (common-lisp:progn
  (common-lisp:defun list-recommendations
@@ -16883,7 +16883,7 @@
                                                         "POST"
                                                         "/v2/email/vdm/recommendations"
                                                         "ListRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-recommendations))
 (common-lisp:progn
  (common-lisp:defun list-suppressed-destinations
@@ -16904,7 +16904,7 @@
                                                         "GET"
                                                         "/v2/email/suppression/addresses"
                                                         "ListSuppressedDestinations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-suppressed-destinations))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -16921,7 +16921,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v2/email/tags"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-account-dedicated-ip-warmup-attributes
@@ -16940,7 +16940,7 @@
                                                         "PUT"
                                                         "/v2/email/account/dedicated-ips/warmup"
                                                         "PutAccountDedicatedIpWarmupAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-account-dedicated-ip-warmup-attributes))
 (common-lisp:progn
  (common-lisp:defun put-account-details
@@ -16963,7 +16963,7 @@
                                                         "POST"
                                                         "/v2/email/account/details"
                                                         "PutAccountDetails"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-account-details))
 (common-lisp:progn
  (common-lisp:defun put-account-sending-attributes
@@ -16982,7 +16982,7 @@
                                                         "PUT"
                                                         "/v2/email/account/sending"
                                                         "PutAccountSendingAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-account-sending-attributes))
 (common-lisp:progn
  (common-lisp:defun put-account-suppression-attributes
@@ -17001,7 +17001,7 @@
                                                         "PUT"
                                                         "/v2/email/account/suppression"
                                                         "PutAccountSuppressionAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-account-suppression-attributes))
 (common-lisp:progn
  (common-lisp:defun put-account-vdm-attributes
@@ -17020,7 +17020,7 @@
                                                         "PUT"
                                                         "/v2/email/account/vdm"
                                                         "PutAccountVdmAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-account-vdm-attributes))
 (common-lisp:progn
  (common-lisp:defun put-configuration-set-delivery-options
@@ -17051,7 +17051,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-set-name))))
                                                         "PutConfigurationSetDeliveryOptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-configuration-set-delivery-options))
 (common-lisp:progn
  (common-lisp:defun put-configuration-set-reputation-options
@@ -17081,7 +17081,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-set-name))))
                                                         "PutConfigurationSetReputationOptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-configuration-set-reputation-options))
 (common-lisp:progn
  (common-lisp:defun put-configuration-set-sending-options
@@ -17110,7 +17110,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-set-name))))
                                                         "PutConfigurationSetSendingOptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-configuration-set-sending-options))
 (common-lisp:progn
  (common-lisp:defun put-configuration-set-suppression-options
@@ -17140,7 +17140,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-set-name))))
                                                         "PutConfigurationSetSuppressionOptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-configuration-set-suppression-options))
 (common-lisp:progn
  (common-lisp:defun put-configuration-set-tracking-options
@@ -17170,7 +17170,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-set-name))))
                                                         "PutConfigurationSetTrackingOptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-configuration-set-tracking-options))
 (common-lisp:progn
  (common-lisp:defun put-configuration-set-vdm-options
@@ -17199,7 +17199,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-set-name))))
                                                         "PutConfigurationSetVdmOptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-configuration-set-vdm-options))
 (common-lisp:progn
  (common-lisp:defun put-dedicated-ip-in-pool
@@ -17226,7 +17226,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'ip))))
                                                         "PutDedicatedIpInPool"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-dedicated-ip-in-pool))
 (common-lisp:progn
  (common-lisp:defun put-dedicated-ip-pool-scaling-attributes
@@ -17254,7 +17254,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'pool-name))))
                                                         "PutDedicatedIpPoolScalingAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-dedicated-ip-pool-scaling-attributes))
 (common-lisp:progn
  (common-lisp:defun put-dedicated-ip-warmup-attributes
@@ -17282,7 +17282,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'ip))))
                                                         "PutDedicatedIpWarmupAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-dedicated-ip-warmup-attributes))
 (common-lisp:progn
  (common-lisp:defun put-deliverability-dashboard-option
@@ -17302,7 +17302,7 @@
                                                         "PUT"
                                                         "/v2/email/deliverability-dashboard"
                                                         "PutDeliverabilityDashboardOption"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-deliverability-dashboard-option))
 (common-lisp:progn
  (common-lisp:defun put-email-identity-configuration-set-attributes
@@ -17331,7 +17331,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'email-identity))))
                                                         "PutEmailIdentityConfigurationSetAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-email-identity-configuration-set-attributes))
 (common-lisp:progn
  (common-lisp:defun put-email-identity-dkim-attributes
@@ -17359,7 +17359,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'email-identity))))
                                                         "PutEmailIdentityDkimAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-email-identity-dkim-attributes))
 (common-lisp:progn
  (common-lisp:defun put-email-identity-dkim-signing-attributes
@@ -17390,7 +17390,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'email-identity))))
                                                         "PutEmailIdentityDkimSigningAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-email-identity-dkim-signing-attributes))
 (common-lisp:progn
  (common-lisp:defun put-email-identity-feedback-attributes
@@ -17419,7 +17419,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'email-identity))))
                                                         "PutEmailIdentityFeedbackAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-email-identity-feedback-attributes))
 (common-lisp:progn
  (common-lisp:defun put-email-identity-mail-from-attributes
@@ -17450,7 +17450,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'email-identity))))
                                                         "PutEmailIdentityMailFromAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-email-identity-mail-from-attributes))
 (common-lisp:progn
  (common-lisp:defun put-suppressed-destination
@@ -17469,7 +17469,7 @@
                                                         "PUT"
                                                         "/v2/email/suppression/addresses"
                                                         "PutSuppressedDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-suppressed-destination))
 (common-lisp:progn
  (common-lisp:defun send-bulk-email
@@ -17496,7 +17496,7 @@
                                                         "POST"
                                                         "/v2/email/outbound-bulk-emails"
                                                         "SendBulkEmail"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-bulk-email))
 (common-lisp:progn
  (common-lisp:defun send-custom-verification-email
@@ -17517,7 +17517,7 @@
                                                         "POST"
                                                         "/v2/email/outbound-custom-verification-emails"
                                                         "SendCustomVerificationEmail"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-custom-verification-email))
 (common-lisp:progn
  (common-lisp:defun send-email
@@ -17543,7 +17543,7 @@
                                                         "POST"
                                                         "/v2/email/outbound-emails"
                                                         "SendEmail"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-email))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -17560,7 +17560,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v2/email/tags"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun test-render-email-template
@@ -17588,7 +17588,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "TestRenderEmailTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'test-render-email-template))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -17606,7 +17606,7 @@
                                                         "DELETE"
                                                         "/v2/email/tags"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-configuration-set-event-destination
@@ -17641,7 +17641,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'event-destination-name))))
                                                         "UpdateConfigurationSetEventDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-configuration-set-event-destination))
 (common-lisp:progn
  (common-lisp:defun update-contact
@@ -17675,7 +17675,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'email-address))))
                                                         "UpdateContact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-contact))
 (common-lisp:progn
  (common-lisp:defun update-contact-list
@@ -17703,7 +17703,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'contact-list-name))))
                                                         "UpdateContactList"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-contact-list))
 (common-lisp:progn
  (common-lisp:defun update-custom-verification-email-template
@@ -17735,7 +17735,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "UpdateCustomVerificationEmailTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-custom-verification-email-template))
 (common-lisp:progn
  (common-lisp:defun update-email-identity-policy
@@ -17768,7 +17768,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'policy-name))))
                                                         "UpdateEmailIdentityPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-email-identity-policy))
 (common-lisp:progn
  (common-lisp:defun update-email-template
@@ -17795,5 +17795,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "UpdateEmailTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-email-template))

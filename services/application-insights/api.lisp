@@ -5991,7 +5991,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "AddWorkload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-workload))
 (common-lisp:progn
  (common-lisp:defun create-application
@@ -6013,7 +6013,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "CreateApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-application))
 (common-lisp:progn
  (common-lisp:defun create-component
@@ -6031,7 +6031,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "CreateComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-component))
 (common-lisp:progn
  (common-lisp:defun create-log-pattern
@@ -6050,7 +6050,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "CreateLogPattern"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-log-pattern))
 (common-lisp:progn
  (common-lisp:defun delete-application
@@ -6066,7 +6066,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-application))
 (common-lisp:progn
  (common-lisp:defun delete-component
@@ -6083,7 +6083,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-component))
 (common-lisp:progn
  (common-lisp:defun delete-log-pattern
@@ -6101,7 +6101,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteLogPattern"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-log-pattern))
 (common-lisp:progn
  (common-lisp:defun describe-application
@@ -6117,7 +6117,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-application))
 (common-lisp:progn
  (common-lisp:defun describe-component
@@ -6135,7 +6135,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-component))
 (common-lisp:progn
  (common-lisp:defun describe-component-configuration
@@ -6154,7 +6154,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeComponentConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-component-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-component-configuration-recommendation
@@ -6174,7 +6174,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeComponentConfigurationRecommendation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-component-configuration-recommendation))
 (common-lisp:progn
  (common-lisp:defun describe-log-pattern
@@ -6193,7 +6193,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeLogPattern"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-log-pattern))
 (common-lisp:progn
  (common-lisp:defun describe-observation
@@ -6209,7 +6209,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeObservation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-observation))
 (common-lisp:progn
  (common-lisp:defun describe-problem
@@ -6225,7 +6225,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeProblem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-problem))
 (common-lisp:progn
  (common-lisp:defun describe-problem-observations
@@ -6242,7 +6242,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeProblemObservations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-problem-observations))
 (common-lisp:progn
  (common-lisp:defun describe-workload
@@ -6261,7 +6261,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeWorkload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-workload))
 (common-lisp:progn
  (common-lisp:defun list-applications
@@ -6278,7 +6278,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "ListApplications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-applications))
 (common-lisp:progn
  (common-lisp:defun list-components
@@ -6297,7 +6297,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "ListComponents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-components))
 (common-lisp:progn
  (common-lisp:defun list-configuration-history
@@ -6317,7 +6317,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "ListConfigurationHistory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-configuration-history))
 (common-lisp:progn
  (common-lisp:defun list-log-pattern-sets
@@ -6336,7 +6336,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "ListLogPatternSets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-log-pattern-sets))
 (common-lisp:progn
  (common-lisp:defun list-log-patterns
@@ -6355,7 +6355,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "ListLogPatterns"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-log-patterns))
 (common-lisp:progn
  (common-lisp:defun list-problems
@@ -6374,7 +6374,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "ListProblems"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-problems))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -6390,7 +6390,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-workloads
@@ -6409,7 +6409,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "ListWorkloads"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-workloads))
 (common-lisp:progn
  (common-lisp:defun remove-workload
@@ -6427,7 +6427,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "RemoveWorkload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-workload))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -6443,7 +6443,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -6459,7 +6459,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-application
@@ -6480,7 +6480,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-application))
 (common-lisp:progn
  (common-lisp:defun update-component
@@ -6499,7 +6499,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-component))
 (common-lisp:progn
  (common-lisp:defun update-component-configuration
@@ -6519,7 +6519,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateComponentConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-component-configuration))
 (common-lisp:progn
  (common-lisp:defun update-log-pattern
@@ -6538,7 +6538,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateLogPattern"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-log-pattern))
 (common-lisp:progn
  (common-lisp:defun update-problem
@@ -6555,7 +6555,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateProblem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-problem))
 (common-lisp:progn
  (common-lisp:defun update-workload
@@ -6574,5 +6574,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-insights-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateWorkload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-workload))

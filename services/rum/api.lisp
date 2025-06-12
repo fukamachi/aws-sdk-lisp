@@ -3192,7 +3192,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-monitor-name))))
                                                         "BatchCreateRumMetricDefinitions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-create-rum-metric-definitions))
 (common-lisp:progn
  (common-lisp:defun batch-delete-rum-metric-definitions
@@ -3223,7 +3223,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-monitor-name))))
                                                         "BatchDeleteRumMetricDefinitions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-delete-rum-metric-definitions))
 (common-lisp:progn
  (common-lisp:defun batch-get-rum-metric-definitions
@@ -3254,7 +3254,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-monitor-name))))
                                                         "BatchGetRumMetricDefinitions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-rum-metric-definitions))
 (common-lisp:progn
  (common-lisp:defun create-app-monitor
@@ -3274,7 +3274,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/appmonitor"
                                                         "CreateAppMonitor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-app-monitor))
 (common-lisp:progn
  (common-lisp:defun delete-app-monitor
@@ -3301,7 +3301,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteAppMonitor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-app-monitor))
 (common-lisp:progn
  (common-lisp:defun delete-rum-metrics-destination
@@ -3331,7 +3331,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-monitor-name))))
                                                         "DeleteRumMetricsDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-rum-metrics-destination))
 (common-lisp:progn
  (common-lisp:defun get-app-monitor
@@ -3358,7 +3358,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetAppMonitor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-app-monitor))
 (common-lisp:progn
  (common-lisp:defun get-app-monitor-data
@@ -3387,7 +3387,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetAppMonitorData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-app-monitor-data))
 (common-lisp:progn
  (common-lisp:defun list-app-monitors
@@ -3404,7 +3404,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/appmonitors"
                                                         "ListAppMonitors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-app-monitors))
 (common-lisp:progn
  (common-lisp:defun list-rum-metrics-destinations
@@ -3433,7 +3433,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-monitor-name))))
                                                         "ListRumMetricsDestinations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-rum-metrics-destinations))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -3460,7 +3460,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-rum-events
@@ -3490,7 +3490,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "PutRumEvents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-rum-events))
 (common-lisp:progn
  (common-lisp:defun put-rum-metrics-destination
@@ -3521,7 +3521,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-monitor-name))))
                                                         "PutRumMetricsDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-rum-metrics-destination))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3548,7 +3548,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3575,7 +3575,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-app-monitor
@@ -3605,7 +3605,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateAppMonitor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-app-monitor))
 (common-lisp:progn
  (common-lisp:defun update-rum-metric-definition
@@ -3636,5 +3636,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-monitor-name))))
                                                         "UpdateRumMetricDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-rum-metric-definition))

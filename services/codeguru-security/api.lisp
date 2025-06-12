@@ -2815,7 +2815,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codeguru-security-request aws-sdk/generator/operation::input "POST"
         "/batchGetFindings" "BatchGetFindings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-findings))
 (common-lisp:progn
  (common-lisp:defun create-scan
@@ -2834,7 +2834,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codeguru-security-request aws-sdk/generator/operation::input "POST"
         "/scans" "CreateScan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-scan))
 (common-lisp:progn
  (common-lisp:defun create-upload-url
@@ -2850,7 +2850,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codeguru-security-request aws-sdk/generator/operation::input "POST"
         "/uploadUrl" "CreateUploadUrl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-upload-url))
 (common-lisp:progn
  (common-lisp:defun get-account-configuration ()
@@ -2882,7 +2882,7 @@
                                 aws-sdk/generator/operation::input
                                 'scan-name))))
         "GetFindings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-findings))
 (common-lisp:progn
  (common-lisp:defun get-metrics-summary
@@ -2898,7 +2898,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codeguru-security-request aws-sdk/generator/operation::input "GET"
         "/metrics/summary" "GetMetricsSummary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-metrics-summary))
 (common-lisp:progn
  (common-lisp:defun get-scan
@@ -2920,7 +2920,7 @@
                                 aws-sdk/generator/operation::input
                                 'scan-name))))
         "GetScan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-scan))
 (common-lisp:progn
  (common-lisp:defun list-findings-metrics
@@ -2938,7 +2938,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codeguru-security-request aws-sdk/generator/operation::input "GET"
         "/metrics/findings" "ListFindingsMetrics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-findings-metrics))
 (common-lisp:progn
  (common-lisp:defun list-scans
@@ -2954,7 +2954,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codeguru-security-request aws-sdk/generator/operation::input "GET"
         "/scans" "ListScans"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-scans))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -2976,7 +2976,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -2998,7 +2998,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3020,7 +3020,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-account-configuration
@@ -3037,5 +3037,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codeguru-security-request aws-sdk/generator/operation::input "PUT"
         "/updateAccountConfiguration" "UpdateAccountConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-account-configuration))

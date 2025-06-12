@@ -3292,7 +3292,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'organization-recommendation-identifier))))
                                                         "GetOrganizationRecommendation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-organization-recommendation))
 (common-lisp:progn
  (common-lisp:defun get-recommendation
@@ -3319,7 +3319,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'recommendation-identifier))))
                                                         "GetRecommendation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-recommendation))
 (common-lisp:progn
  (common-lisp:defun list-checks
@@ -3339,7 +3339,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/checks"
                                                         "ListChecks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-checks))
 (common-lisp:progn
  (common-lisp:defun list-organization-recommendation-accounts
@@ -3370,7 +3370,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'organization-recommendation-identifier))))
                                                         "ListOrganizationRecommendationAccounts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-organization-recommendation-accounts))
 (common-lisp:progn
  (common-lisp:defun list-organization-recommendation-resources
@@ -3402,7 +3402,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'organization-recommendation-identifier))))
                                                         "ListOrganizationRecommendationResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-organization-recommendation-resources))
 (common-lisp:progn
  (common-lisp:defun list-organization-recommendations
@@ -3426,7 +3426,7 @@
                                                         "GET"
                                                         "/v1/organization-recommendations"
                                                         "ListOrganizationRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-organization-recommendations))
 (common-lisp:progn
  (common-lisp:defun list-recommendation-resources
@@ -3457,7 +3457,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'recommendation-identifier))))
                                                         "ListRecommendationResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-recommendation-resources))
 (common-lisp:progn
  (common-lisp:defun list-recommendations
@@ -3480,7 +3480,7 @@
                                                         "GET"
                                                         "/v1/recommendations"
                                                         "ListRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-recommendations))
 (common-lisp:progn
  (common-lisp:defun update-organization-recommendation-lifecycle
@@ -3512,7 +3512,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'organization-recommendation-identifier))))
                                                         "UpdateOrganizationRecommendationLifecycle"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-organization-recommendation-lifecycle))
 (common-lisp:progn
  (common-lisp:defun update-recommendation-lifecycle
@@ -3543,5 +3543,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'recommendation-identifier))))
                                                         "UpdateRecommendationLifecycle"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-recommendation-lifecycle))

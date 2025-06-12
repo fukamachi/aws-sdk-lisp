@@ -408,7 +408,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           invoke-endpoint-input))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          invoke-endpoint-input))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass invoke-endpoint-output common-lisp:nil
                        ((body :initarg :body :initform
@@ -481,7 +487,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           invoke-endpoint-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          invoke-endpoint-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass invoke-endpoint-with-response-stream-input
                        common-lisp:nil
@@ -619,7 +631,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           invoke-endpoint-with-response-stream-input))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          invoke-endpoint-with-response-stream-input))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass invoke-endpoint-with-response-stream-output
                        common-lisp:nil
@@ -697,7 +715,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           invoke-endpoint-with-response-stream-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          invoke-endpoint-with-response-stream-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:deftype log-stream-arn () 'common-lisp:string)
 (common-lisp:deftype message () 'common-lisp:string)
 (common-lisp:progn
@@ -871,7 +895,7 @@
                                 'endpoint-name))))
         "InvokeEndpoint")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'invoke-endpoint))
 (common-lisp:progn
  (common-lisp:defun invoke-endpoint-async
@@ -898,7 +922,7 @@
                                 aws-sdk/generator/operation::input
                                 'endpoint-name))))
         "InvokeEndpointAsync"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'invoke-endpoint-async))
 (common-lisp:progn
  (common-lisp:defun invoke-endpoint-with-response-stream
@@ -927,5 +951,5 @@
                                 aws-sdk/generator/operation::input
                                 'endpoint-name))))
         "InvokeEndpointWithResponseStream"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'invoke-endpoint-with-response-stream))

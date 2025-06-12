@@ -5799,7 +5799,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateConfigurationItemsToApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-configuration-items-to-application))
 (common-lisp:progn
  (common-lisp:defun batch-delete-agents
@@ -5816,7 +5816,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchDeleteAgents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-delete-agents))
 (common-lisp:progn
  (common-lisp:defun batch-delete-import-data
@@ -5833,7 +5833,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchDeleteImportData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-delete-import-data))
 (common-lisp:progn
  (common-lisp:defun create-application
@@ -5850,7 +5850,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-application))
 (common-lisp:progn
  (common-lisp:defun create-tags
@@ -5867,7 +5867,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-tags))
 (common-lisp:progn
  (common-lisp:defun delete-applications
@@ -5884,7 +5884,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteApplications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-applications))
 (common-lisp:progn
  (common-lisp:defun delete-tags
@@ -5901,7 +5901,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-tags))
 (common-lisp:progn
  (common-lisp:defun describe-agents
@@ -5919,7 +5919,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAgents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-agents))
 (common-lisp:progn
  (common-lisp:defun describe-batch-delete-configuration-task
@@ -5937,7 +5937,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeBatchDeleteConfigurationTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-batch-delete-configuration-task))
 (common-lisp:progn
  (common-lisp:defun describe-configurations
@@ -5954,7 +5954,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-configurations))
 (common-lisp:progn
  (common-lisp:defun describe-continuous-exports
@@ -5973,7 +5973,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeContinuousExports"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-continuous-exports))
 (common-lisp:progn
  (common-lisp:defun describe-export-configurations
@@ -5992,7 +5992,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeExportConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-export-configurations))
 (common-lisp:progn
  (common-lisp:defun describe-export-tasks
@@ -6011,7 +6011,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeExportTasks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-export-tasks))
 (common-lisp:progn
  (common-lisp:defun describe-import-tasks
@@ -6028,7 +6028,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeImportTasks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-import-tasks))
 (common-lisp:progn
  (common-lisp:defun describe-tags
@@ -6045,7 +6045,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-tags))
 (common-lisp:progn
  (common-lisp:defun disassociate-configuration-items-from-application
@@ -6065,7 +6065,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateConfigurationItemsFromApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-configuration-items-from-application))
 (common-lisp:progn
  (common-lisp:defun export-configurations ()
@@ -6101,7 +6101,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-configurations))
 (common-lisp:progn
  (common-lisp:defun list-server-neighbors
@@ -6121,7 +6121,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListServerNeighbors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-server-neighbors))
 (common-lisp:progn
  (common-lisp:defun start-batch-delete-configuration-task
@@ -6140,7 +6140,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartBatchDeleteConfigurationTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-batch-delete-configuration-task))
 (common-lisp:progn
  (common-lisp:defun start-continuous-export ()
@@ -6166,7 +6166,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartDataCollectionByAgentIds"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-data-collection-by-agent-ids))
 (common-lisp:progn
  (common-lisp:defun start-export-task
@@ -6186,7 +6186,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartExportTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-export-task))
 (common-lisp:progn
  (common-lisp:defun start-import-task
@@ -6204,7 +6204,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartImportTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-import-task))
 (common-lisp:progn
  (common-lisp:defun stop-continuous-export
@@ -6221,7 +6221,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopContinuousExport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-continuous-export))
 (common-lisp:progn
  (common-lisp:defun stop-data-collection-by-agent-ids
@@ -6239,7 +6239,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopDataCollectionByAgentIds"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-data-collection-by-agent-ids))
 (common-lisp:progn
  (common-lisp:defun update-application
@@ -6257,5 +6257,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-application))

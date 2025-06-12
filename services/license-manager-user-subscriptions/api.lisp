@@ -2192,7 +2192,7 @@
         'license-manager-user-subscriptions-request
         aws-sdk/generator/operation::input "POST" "/user/AssociateUser"
         "AssociateUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-user))
 (common-lisp:progn
  (common-lisp:defun deregister-identity-provider
@@ -2211,7 +2211,7 @@
         aws-sdk/generator/operation::input "POST"
         "/identity-provider/DeregisterIdentityProvider"
         "DeregisterIdentityProvider"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deregister-identity-provider))
 (common-lisp:progn
  (common-lisp:defun disassociate-user
@@ -2230,7 +2230,7 @@
         'license-manager-user-subscriptions-request
         aws-sdk/generator/operation::input "POST" "/user/DisassociateUser"
         "DisassociateUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-user))
 (common-lisp:progn
  (common-lisp:defun list-identity-providers
@@ -2247,7 +2247,7 @@
         'license-manager-user-subscriptions-request
         aws-sdk/generator/operation::input "POST"
         "/identity-provider/ListIdentityProviders" "ListIdentityProviders"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-identity-providers))
 (common-lisp:progn
  (common-lisp:defun list-instances
@@ -2264,7 +2264,7 @@
         'license-manager-user-subscriptions-request
         aws-sdk/generator/operation::input "POST" "/instance/ListInstances"
         "ListInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-instances))
 (common-lisp:progn
  (common-lisp:defun list-product-subscriptions
@@ -2285,7 +2285,7 @@
         'license-manager-user-subscriptions-request
         aws-sdk/generator/operation::input "POST"
         "/user/ListProductSubscriptions" "ListProductSubscriptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-product-subscriptions))
 (common-lisp:progn
  (common-lisp:defun list-user-associations
@@ -2305,7 +2305,7 @@
         'license-manager-user-subscriptions-request
         aws-sdk/generator/operation::input "POST" "/user/ListUserAssociations"
         "ListUserAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-user-associations))
 (common-lisp:progn
  (common-lisp:defun register-identity-provider
@@ -2325,7 +2325,7 @@
         aws-sdk/generator/operation::input "POST"
         "/identity-provider/RegisterIdentityProvider"
         "RegisterIdentityProvider"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-identity-provider))
 (common-lisp:progn
  (common-lisp:defun start-product-subscription
@@ -2345,7 +2345,7 @@
         'license-manager-user-subscriptions-request
         aws-sdk/generator/operation::input "POST"
         "/user/StartProductSubscription" "StartProductSubscription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-product-subscription))
 (common-lisp:progn
  (common-lisp:defun stop-product-subscription
@@ -2365,7 +2365,7 @@
         'license-manager-user-subscriptions-request
         aws-sdk/generator/operation::input "POST"
         "/user/StopProductSubscription" "StopProductSubscription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-product-subscription))
 (common-lisp:progn
  (common-lisp:defun update-identity-provider-settings
@@ -2386,5 +2386,5 @@
         aws-sdk/generator/operation::input "POST"
         "/identity-provider/UpdateIdentityProviderSettings"
         "UpdateIdentityProviderSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-identity-provider-settings))

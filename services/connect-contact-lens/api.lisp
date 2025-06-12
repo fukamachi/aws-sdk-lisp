@@ -663,5 +663,5 @@
         'connect-contact-lens-request aws-sdk/generator/operation::input "POST"
         "/realtime-contact-analysis/analysis-segments"
         "ListRealtimeContactAnalysisSegments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-realtime-contact-analysis-segments))

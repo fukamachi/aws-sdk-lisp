@@ -856,7 +856,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'personalize-runtime-request aws-sdk/generator/operation::input "POST"
         "/action-recommendations" "GetActionRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-action-recommendations))
 (common-lisp:progn
  (common-lisp:defun get-personalized-ranking
@@ -875,7 +875,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'personalize-runtime-request aws-sdk/generator/operation::input "POST"
         "/personalize-ranking" "GetPersonalizedRanking"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-personalized-ranking))
 (common-lisp:progn
  (common-lisp:defun get-recommendations
@@ -895,5 +895,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'personalize-runtime-request aws-sdk/generator/operation::input "POST"
         "/recommendations" "GetRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-recommendations))

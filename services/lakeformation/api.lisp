@@ -4703,7 +4703,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-work-unit-results-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'result-stream)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'result-stream))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-work-unit-results-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-work-units-request common-lisp:nil
                        ((next-token :initarg :next-token :initform
@@ -9588,7 +9594,7 @@
                                                         "POST"
                                                         "/AddLFTagsToResource"
                                                         "AddLFTagsToResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-lftags-to-resource))
 (common-lisp:progn
  (common-lisp:defun assume-decorated-role-with-saml
@@ -9610,7 +9616,7 @@
                                                         "POST"
                                                         "/AssumeDecoratedRoleWithSAML"
                                                         "AssumeDecoratedRoleWithSAML"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'assume-decorated-role-with-saml))
 (common-lisp:progn
  (common-lisp:defun batch-grant-permissions
@@ -9628,7 +9634,7 @@
                                                         "POST"
                                                         "/BatchGrantPermissions"
                                                         "BatchGrantPermissions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-grant-permissions))
 (common-lisp:progn
  (common-lisp:defun batch-revoke-permissions
@@ -9646,7 +9652,7 @@
                                                         "POST"
                                                         "/BatchRevokePermissions"
                                                         "BatchRevokePermissions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-revoke-permissions))
 (common-lisp:progn
  (common-lisp:defun cancel-transaction
@@ -9664,7 +9670,7 @@
                                                         "POST"
                                                         "/CancelTransaction"
                                                         "CancelTransaction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-transaction))
 (common-lisp:progn
  (common-lisp:defun commit-transaction
@@ -9682,7 +9688,7 @@
                                                         "POST"
                                                         "/CommitTransaction"
                                                         "CommitTransaction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'commit-transaction))
 (common-lisp:progn
  (common-lisp:defun create-data-cells-filter
@@ -9700,7 +9706,7 @@
                                                         "POST"
                                                         "/CreateDataCellsFilter"
                                                         "CreateDataCellsFilter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-data-cells-filter))
 (common-lisp:progn
  (common-lisp:defun create-lftag
@@ -9717,7 +9723,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/CreateLFTag"
                                                         "CreateLFTag"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-lftag))
 (common-lisp:progn
  (common-lisp:defun create-lake-formation-identity-center-configuration
@@ -9738,7 +9744,7 @@
                                                         "POST"
                                                         "/CreateLakeFormationIdentityCenterConfiguration"
                                                         "CreateLakeFormationIdentityCenterConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-lake-formation-identity-center-configuration))
 (common-lisp:progn
  (common-lisp:defun create-lake-formation-opt-in
@@ -9757,7 +9763,7 @@
                                                         "POST"
                                                         "/CreateLakeFormationOptIn"
                                                         "CreateLakeFormationOptIn"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-lake-formation-opt-in))
 (common-lisp:progn
  (common-lisp:defun delete-data-cells-filter
@@ -9777,7 +9783,7 @@
                                                         "POST"
                                                         "/DeleteDataCellsFilter"
                                                         "DeleteDataCellsFilter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-data-cells-filter))
 (common-lisp:progn
  (common-lisp:defun delete-lftag
@@ -9794,7 +9800,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/DeleteLFTag"
                                                         "DeleteLFTag"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-lftag))
 (common-lisp:progn
  (common-lisp:defun delete-lake-formation-identity-center-configuration
@@ -9813,7 +9819,7 @@
                                                         "POST"
                                                         "/DeleteLakeFormationIdentityCenterConfiguration"
                                                         "DeleteLakeFormationIdentityCenterConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-lake-formation-identity-center-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-lake-formation-opt-in
@@ -9832,7 +9838,7 @@
                                                         "POST"
                                                         "/DeleteLakeFormationOptIn"
                                                         "DeleteLakeFormationOptIn"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-lake-formation-opt-in))
 (common-lisp:progn
  (common-lisp:defun delete-objects-on-cancel
@@ -9853,7 +9859,7 @@
                                                         "POST"
                                                         "/DeleteObjectsOnCancel"
                                                         "DeleteObjectsOnCancel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-objects-on-cancel))
 (common-lisp:progn
  (common-lisp:defun deregister-resource
@@ -9871,7 +9877,7 @@
                                                         "POST"
                                                         "/DeregisterResource"
                                                         "DeregisterResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deregister-resource))
 (common-lisp:progn
  (common-lisp:defun describe-lake-formation-identity-center-configuration
@@ -9890,7 +9896,7 @@
                                                         "POST"
                                                         "/DescribeLakeFormationIdentityCenterConfiguration"
                                                         "DescribeLakeFormationIdentityCenterConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-lake-formation-identity-center-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-resource
@@ -9908,7 +9914,7 @@
                                                         "POST"
                                                         "/DescribeResource"
                                                         "DescribeResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-resource))
 (common-lisp:progn
  (common-lisp:defun describe-transaction
@@ -9926,7 +9932,7 @@
                                                         "POST"
                                                         "/DescribeTransaction"
                                                         "DescribeTransaction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-transaction))
 (common-lisp:progn
  (common-lisp:defun extend-transaction
@@ -9944,7 +9950,7 @@
                                                         "POST"
                                                         "/ExtendTransaction"
                                                         "ExtendTransaction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'extend-transaction))
 (common-lisp:progn
  (common-lisp:defun get-data-cells-filter
@@ -9964,7 +9970,7 @@
                                                         "POST"
                                                         "/GetDataCellsFilter"
                                                         "GetDataCellsFilter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-data-cells-filter))
 (common-lisp:progn
  (common-lisp:defun get-data-lake-settings
@@ -9982,7 +9988,7 @@
                                                         "POST"
                                                         "/GetDataLakeSettings"
                                                         "GetDataLakeSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-data-lake-settings))
 (common-lisp:progn
  (common-lisp:defun get-effective-permissions-for-path
@@ -10003,7 +10009,7 @@
                                                         "POST"
                                                         "/GetEffectivePermissionsForPath"
                                                         "GetEffectivePermissionsForPath"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-effective-permissions-for-path))
 (common-lisp:progn
  (common-lisp:defun get-lftag
@@ -10020,7 +10026,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/GetLFTag"
                                                         "GetLFTag"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-lftag))
 (common-lisp:progn
  (common-lisp:defun get-query-state
@@ -10037,7 +10043,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/GetQueryState"
                                                         "GetQueryState"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-query-state))
 (common-lisp:progn
  (common-lisp:defun get-query-statistics
@@ -10055,7 +10061,7 @@
                                                         "POST"
                                                         "/GetQueryStatistics"
                                                         "GetQueryStatistics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-query-statistics))
 (common-lisp:progn
  (common-lisp:defun get-resource-lftags
@@ -10074,7 +10080,7 @@
                                                         "POST"
                                                         "/GetResourceLFTags"
                                                         "GetResourceLFTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-lftags))
 (common-lisp:progn
  (common-lisp:defun get-table-objects
@@ -10096,7 +10102,7 @@
                                                         "POST"
                                                         "/GetTableObjects"
                                                         "GetTableObjects"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-table-objects))
 (common-lisp:progn
  (common-lisp:defun get-temporary-glue-partition-credentials
@@ -10118,7 +10124,7 @@
                                                         "POST"
                                                         "/GetTemporaryGluePartitionCredentials"
                                                         "GetTemporaryGluePartitionCredentials"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-temporary-glue-partition-credentials))
 (common-lisp:progn
  (common-lisp:defun get-temporary-glue-table-credentials
@@ -10141,7 +10147,7 @@
                                                         "POST"
                                                         "/GetTemporaryGlueTableCredentials"
                                                         "GetTemporaryGlueTableCredentials"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-temporary-glue-table-credentials))
 (common-lisp:progn
  (common-lisp:defun get-work-unit-results
@@ -10161,7 +10167,7 @@
                                                         "/GetWorkUnitResults"
                                                         "GetWorkUnitResults")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-work-unit-results))
 (common-lisp:progn
  (common-lisp:defun get-work-units
@@ -10178,7 +10184,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/GetWorkUnits"
                                                         "GetWorkUnits"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-work-units))
 (common-lisp:progn
  (common-lisp:defun grant-permissions
@@ -10199,7 +10205,7 @@
                                                         "POST"
                                                         "/GrantPermissions"
                                                         "GrantPermissions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'grant-permissions))
 (common-lisp:progn
  (common-lisp:defun list-data-cells-filter
@@ -10217,7 +10223,7 @@
                                                         "POST"
                                                         "/ListDataCellsFilter"
                                                         "ListDataCellsFilter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-data-cells-filter))
 (common-lisp:progn
  (common-lisp:defun list-lftags
@@ -10237,7 +10243,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/ListLFTags"
                                                         "ListLFTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-lftags))
 (common-lisp:progn
  (common-lisp:defun list-lake-formation-opt-ins
@@ -10258,7 +10264,7 @@
                                                         "POST"
                                                         "/ListLakeFormationOptIns"
                                                         "ListLakeFormationOptIns"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-lake-formation-opt-ins))
 (common-lisp:progn
  (common-lisp:defun list-permissions
@@ -10279,7 +10285,7 @@
                                                         "POST"
                                                         "/ListPermissions"
                                                         "ListPermissions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-permissions))
 (common-lisp:progn
  (common-lisp:defun list-resources
@@ -10298,7 +10304,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/ListResources"
                                                         "ListResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-resources))
 (common-lisp:progn
  (common-lisp:defun list-table-storage-optimizers
@@ -10320,7 +10326,7 @@
                                                         "POST"
                                                         "/ListTableStorageOptimizers"
                                                         "ListTableStorageOptimizers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-table-storage-optimizers))
 (common-lisp:progn
  (common-lisp:defun list-transactions
@@ -10340,7 +10346,7 @@
                                                         "POST"
                                                         "/ListTransactions"
                                                         "ListTransactions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-transactions))
 (common-lisp:progn
  (common-lisp:defun put-data-lake-settings
@@ -10358,7 +10364,7 @@
                                                         "POST"
                                                         "/PutDataLakeSettings"
                                                         "PutDataLakeSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-data-lake-settings))
 (common-lisp:progn
  (common-lisp:defun register-resource
@@ -10379,7 +10385,7 @@
                                                         "POST"
                                                         "/RegisterResource"
                                                         "RegisterResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-resource))
 (common-lisp:progn
  (common-lisp:defun remove-lftags-from-resource
@@ -10398,7 +10404,7 @@
                                                         "POST"
                                                         "/RemoveLFTagsFromResource"
                                                         "RemoveLFTagsFromResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-lftags-from-resource))
 (common-lisp:progn
  (common-lisp:defun revoke-permissions
@@ -10419,7 +10425,7 @@
                                                         "POST"
                                                         "/RevokePermissions"
                                                         "RevokePermissions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'revoke-permissions))
 (common-lisp:progn
  (common-lisp:defun search-databases-by-lftags
@@ -10440,7 +10446,7 @@
                                                         "POST"
                                                         "/SearchDatabasesByLFTags"
                                                         "SearchDatabasesByLFTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-databases-by-lftags))
 (common-lisp:progn
  (common-lisp:defun search-tables-by-lftags
@@ -10460,7 +10466,7 @@
                                                         "POST"
                                                         "/SearchTablesByLFTags"
                                                         "SearchTablesByLFTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-tables-by-lftags))
 (common-lisp:progn
  (common-lisp:defun start-query-planning
@@ -10479,7 +10485,7 @@
                                                         "POST"
                                                         "/StartQueryPlanning"
                                                         "StartQueryPlanning"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-query-planning))
 (common-lisp:progn
  (common-lisp:defun start-transaction
@@ -10497,7 +10503,7 @@
                                                         "POST"
                                                         "/StartTransaction"
                                                         "StartTransaction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-transaction))
 (common-lisp:progn
  (common-lisp:defun update-data-cells-filter
@@ -10515,7 +10521,7 @@
                                                         "POST"
                                                         "/UpdateDataCellsFilter"
                                                         "UpdateDataCellsFilter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-data-cells-filter))
 (common-lisp:progn
  (common-lisp:defun update-lftag
@@ -10535,7 +10541,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/UpdateLFTag"
                                                         "UpdateLFTag"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-lftag))
 (common-lisp:progn
  (common-lisp:defun update-lake-formation-identity-center-configuration
@@ -10556,7 +10562,7 @@
                                                         "POST"
                                                         "/UpdateLakeFormationIdentityCenterConfiguration"
                                                         "UpdateLakeFormationIdentityCenterConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-lake-formation-identity-center-configuration))
 (common-lisp:progn
  (common-lisp:defun update-resource
@@ -10577,7 +10583,7 @@
                                                         "POST"
                                                         "/UpdateResource"
                                                         "UpdateResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-resource))
 (common-lisp:progn
  (common-lisp:defun update-table-objects
@@ -10598,7 +10604,7 @@
                                                         "POST"
                                                         "/UpdateTableObjects"
                                                         "UpdateTableObjects"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-table-objects))
 (common-lisp:progn
  (common-lisp:defun update-table-storage-optimizer
@@ -10620,5 +10626,5 @@
                                                         "POST"
                                                         "/UpdateTableStorageOptimizer"
                                                         "UpdateTableStorageOptimizer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-table-storage-optimizer))

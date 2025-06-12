@@ -15235,7 +15235,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'connection-id))))
                                                         "AcceptInboundConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'accept-inbound-connection))
 (common-lisp:progn
  (common-lisp:defun add-data-source
@@ -15264,7 +15264,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "AddDataSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-data-source))
 (common-lisp:progn
  (common-lisp:defun add-tags
@@ -15282,7 +15282,7 @@
                                                         "POST"
                                                         "/2021-01-01/tags"
                                                         "AddTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-tags))
 (common-lisp:progn
  (common-lisp:defun associate-package
@@ -15313,7 +15313,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "AssociatePackage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-package))
 (common-lisp:progn
  (common-lisp:defun authorize-vpc-endpoint-access
@@ -15341,7 +15341,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "AuthorizeVpcEndpointAccess"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'authorize-vpc-endpoint-access))
 (common-lisp:progn
  (common-lisp:defun cancel-domain-config-change
@@ -15369,7 +15369,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "CancelDomainConfigChange"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-domain-config-change))
 (common-lisp:progn
  (common-lisp:defun cancel-service-software-update
@@ -15388,7 +15388,7 @@
                                                         "POST"
                                                         "/2021-01-01/opensearch/serviceSoftwareUpdate/cancel"
                                                         "CancelServiceSoftwareUpdate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-service-software-update))
 (common-lisp:progn
  (common-lisp:defun create-domain
@@ -15418,7 +15418,7 @@
                                                         "POST"
                                                         "/2021-01-01/opensearch/domain"
                                                         "CreateDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-domain))
 (common-lisp:progn
  (common-lisp:defun create-outbound-connection
@@ -15440,7 +15440,7 @@
                                                         "POST"
                                                         "/2021-01-01/opensearch/cc/outboundConnection"
                                                         "CreateOutboundConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-outbound-connection))
 (common-lisp:progn
  (common-lisp:defun create-package
@@ -15461,7 +15461,7 @@
                                                         "POST"
                                                         "/2021-01-01/packages"
                                                         "CreatePackage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-package))
 (common-lisp:progn
  (common-lisp:defun create-vpc-endpoint
@@ -15480,7 +15480,7 @@
                                                         "POST"
                                                         "/2021-01-01/opensearch/vpcEndpoints"
                                                         "CreateVpcEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-vpc-endpoint))
 (common-lisp:progn
  (common-lisp:defun delete-data-source
@@ -15511,7 +15511,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'data-source-name))))
                                                         "DeleteDataSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-data-source))
 (common-lisp:progn
  (common-lisp:defun delete-domain
@@ -15538,7 +15538,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "DeleteDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-domain))
 (common-lisp:progn
  (common-lisp:defun delete-inbound-connection
@@ -15566,7 +15566,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'connection-id))))
                                                         "DeleteInboundConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-inbound-connection))
 (common-lisp:progn
  (common-lisp:defun delete-outbound-connection
@@ -15594,7 +15594,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'connection-id))))
                                                         "DeleteOutboundConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-outbound-connection))
 (common-lisp:progn
  (common-lisp:defun delete-package
@@ -15621,7 +15621,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'package-id))))
                                                         "DeletePackage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-package))
 (common-lisp:progn
  (common-lisp:defun delete-vpc-endpoint
@@ -15648,7 +15648,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'vpc-endpoint-id))))
                                                         "DeleteVpcEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-vpc-endpoint))
 (common-lisp:progn
  (common-lisp:defun describe-domain
@@ -15675,7 +15675,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "DescribeDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-domain))
 (common-lisp:progn
  (common-lisp:defun describe-domain-auto-tunes
@@ -15704,7 +15704,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "DescribeDomainAutoTunes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-domain-auto-tunes))
 (common-lisp:progn
  (common-lisp:defun describe-domain-change-progress
@@ -15732,7 +15732,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "DescribeDomainChangeProgress"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-domain-change-progress))
 (common-lisp:progn
  (common-lisp:defun describe-domain-config
@@ -15759,7 +15759,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "DescribeDomainConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-domain-config))
 (common-lisp:progn
  (common-lisp:defun describe-domain-health
@@ -15786,7 +15786,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "DescribeDomainHealth"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-domain-health))
 (common-lisp:progn
  (common-lisp:defun describe-domain-nodes
@@ -15813,7 +15813,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "DescribeDomainNodes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-domain-nodes))
 (common-lisp:progn
  (common-lisp:defun describe-domains
@@ -15831,7 +15831,7 @@
                                                         "POST"
                                                         "/2021-01-01/opensearch/domain-info"
                                                         "DescribeDomains"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-domains))
 (common-lisp:progn
  (common-lisp:defun describe-dry-run-progress
@@ -15861,7 +15861,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "DescribeDryRunProgress"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-dry-run-progress))
 (common-lisp:progn
  (common-lisp:defun describe-inbound-connections
@@ -15880,7 +15880,7 @@
                                                         "POST"
                                                         "/2021-01-01/opensearch/cc/inboundConnection/search"
                                                         "DescribeInboundConnections"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-inbound-connections))
 (common-lisp:progn
  (common-lisp:defun describe-instance-type-limits
@@ -15913,7 +15913,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'instance-type))))
                                                         "DescribeInstanceTypeLimits"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-instance-type-limits))
 (common-lisp:progn
  (common-lisp:defun describe-outbound-connections
@@ -15932,7 +15932,7 @@
                                                         "POST"
                                                         "/2021-01-01/opensearch/cc/outboundConnection/search"
                                                         "DescribeOutboundConnections"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-outbound-connections))
 (common-lisp:progn
  (common-lisp:defun describe-packages
@@ -15950,7 +15950,7 @@
                                                         "POST"
                                                         "/2021-01-01/packages/describe"
                                                         "DescribePackages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-packages))
 (common-lisp:progn
  (common-lisp:defun describe-reserved-instance-offerings
@@ -15972,7 +15972,7 @@
                                                         "GET"
                                                         "/2021-01-01/opensearch/reservedInstanceOfferings"
                                                         "DescribeReservedInstanceOfferings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-reserved-instance-offerings))
 (common-lisp:progn
  (common-lisp:defun describe-reserved-instances
@@ -15993,7 +15993,7 @@
                                                         "GET"
                                                         "/2021-01-01/opensearch/reservedInstances"
                                                         "DescribeReservedInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-reserved-instances))
 (common-lisp:progn
  (common-lisp:defun describe-vpc-endpoints
@@ -16011,7 +16011,7 @@
                                                         "POST"
                                                         "/2021-01-01/opensearch/vpcEndpoints/describe"
                                                         "DescribeVpcEndpoints"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-vpc-endpoints))
 (common-lisp:progn
  (common-lisp:defun dissociate-package
@@ -16042,7 +16042,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "DissociatePackage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'dissociate-package))
 (common-lisp:progn
  (common-lisp:defun get-compatible-versions
@@ -16060,7 +16060,7 @@
                                                         "GET"
                                                         "/2021-01-01/opensearch/compatibleVersions"
                                                         "GetCompatibleVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-compatible-versions))
 (common-lisp:progn
  (common-lisp:defun get-data-source
@@ -16091,7 +16091,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'data-source-name))))
                                                         "GetDataSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-data-source))
 (common-lisp:progn
  (common-lisp:defun get-domain-maintenance-status
@@ -16119,7 +16119,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "GetDomainMaintenanceStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-domain-maintenance-status))
 (common-lisp:progn
  (common-lisp:defun get-package-version-history
@@ -16148,7 +16148,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'package-id))))
                                                         "GetPackageVersionHistory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-package-version-history))
 (common-lisp:progn
  (common-lisp:defun get-upgrade-history
@@ -16176,7 +16176,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "GetUpgradeHistory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-upgrade-history))
 (common-lisp:progn
  (common-lisp:defun get-upgrade-status
@@ -16203,7 +16203,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "GetUpgradeStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-upgrade-status))
 (common-lisp:progn
  (common-lisp:defun list-data-sources
@@ -16230,7 +16230,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "ListDataSources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-data-sources))
 (common-lisp:progn
  (common-lisp:defun list-domain-maintenances
@@ -16259,7 +16259,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "ListDomainMaintenances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-domain-maintenances))
 (common-lisp:progn
  (common-lisp:defun list-domain-names
@@ -16277,7 +16277,7 @@
                                                         "GET"
                                                         "/2021-01-01/domain"
                                                         "ListDomainNames"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-domain-names))
 (common-lisp:progn
  (common-lisp:defun list-domains-for-package
@@ -16305,7 +16305,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'package-id))))
                                                         "ListDomainsForPackage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-domains-for-package))
 (common-lisp:progn
  (common-lisp:defun list-instance-type-details
@@ -16336,7 +16336,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'engine-version))))
                                                         "ListInstanceTypeDetails"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-instance-type-details))
 (common-lisp:progn
  (common-lisp:defun list-packages-for-domain
@@ -16364,7 +16364,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "ListPackagesForDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-packages-for-domain))
 (common-lisp:progn
  (common-lisp:defun list-scheduled-actions
@@ -16392,7 +16392,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "ListScheduledActions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-scheduled-actions))
 (common-lisp:progn
  (common-lisp:defun list-tags
@@ -16410,7 +16410,7 @@
                                                         "GET"
                                                         "/2021-01-01/tags/"
                                                         "ListTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags))
 (common-lisp:progn
  (common-lisp:defun list-versions
@@ -16428,7 +16428,7 @@
                                                         "GET"
                                                         "/2021-01-01/opensearch/versions"
                                                         "ListVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-versions))
 (common-lisp:progn
  (common-lisp:defun list-vpc-endpoint-access
@@ -16455,7 +16455,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "ListVpcEndpointAccess"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-vpc-endpoint-access))
 (common-lisp:progn
  (common-lisp:defun list-vpc-endpoints
@@ -16473,7 +16473,7 @@
                                                         "GET"
                                                         "/2021-01-01/opensearch/vpcEndpoints"
                                                         "ListVpcEndpoints"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-vpc-endpoints))
 (common-lisp:progn
  (common-lisp:defun list-vpc-endpoints-for-domain
@@ -16501,7 +16501,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "ListVpcEndpointsForDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-vpc-endpoints-for-domain))
 (common-lisp:progn
  (common-lisp:defun purchase-reserved-instance-offering
@@ -16523,7 +16523,7 @@
                                                         "POST"
                                                         "/2021-01-01/opensearch/purchaseReservedInstanceOffering"
                                                         "PurchaseReservedInstanceOffering"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'purchase-reserved-instance-offering))
 (common-lisp:progn
  (common-lisp:defun reject-inbound-connection
@@ -16551,7 +16551,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'connection-id))))
                                                         "RejectInboundConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reject-inbound-connection))
 (common-lisp:progn
  (common-lisp:defun remove-tags
@@ -16569,7 +16569,7 @@
                                                         "POST"
                                                         "/2021-01-01/tags-removal"
                                                         "RemoveTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-tags))
 (common-lisp:progn
  (common-lisp:defun revoke-vpc-endpoint-access
@@ -16597,7 +16597,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "RevokeVpcEndpointAccess"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'revoke-vpc-endpoint-access))
 (common-lisp:progn
  (common-lisp:defun start-domain-maintenance
@@ -16624,7 +16624,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "StartDomainMaintenance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-domain-maintenance))
 (common-lisp:progn
  (common-lisp:defun start-service-software-update
@@ -16645,7 +16645,7 @@
                                                         "POST"
                                                         "/2021-01-01/opensearch/serviceSoftwareUpdate/start"
                                                         "StartServiceSoftwareUpdate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-service-software-update))
 (common-lisp:progn
  (common-lisp:defun update-data-source
@@ -16678,7 +16678,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'data-source-name))))
                                                         "UpdateDataSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-data-source))
 (common-lisp:progn
  (common-lisp:defun update-domain-config
@@ -16719,7 +16719,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "UpdateDomainConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-domain-config))
 (common-lisp:progn
  (common-lisp:defun update-package
@@ -16740,7 +16740,7 @@
                                                         "POST"
                                                         "/2021-01-01/packages/update"
                                                         "UpdatePackage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-package))
 (common-lisp:progn
  (common-lisp:defun update-scheduled-action
@@ -16770,7 +16770,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "UpdateScheduledAction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-scheduled-action))
 (common-lisp:progn
  (common-lisp:defun update-vpc-endpoint
@@ -16788,7 +16788,7 @@
                                                         "POST"
                                                         "/2021-01-01/opensearch/vpcEndpoints/update"
                                                         "UpdateVpcEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-vpc-endpoint))
 (common-lisp:progn
  (common-lisp:defun upgrade-domain
@@ -16809,5 +16809,5 @@
                                                         "POST"
                                                         "/2021-01-01/opensearch/upgradeDomain"
                                                         "UpgradeDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'upgrade-domain))

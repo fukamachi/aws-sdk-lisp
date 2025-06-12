@@ -1614,7 +1614,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           synthesize-speech-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'audio-stream)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'audio-stream))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          synthesize-speech-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:deftype task-id () 'common-lisp:string)
 (common-lisp:deftype task-status () 'common-lisp:string)
 (common-lisp:deftype task-status-reason () 'common-lisp:string)
@@ -1783,7 +1789,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'lexicon-name))))
                                                         "DeleteLexicon"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-lexicon))
 (common-lisp:progn
  (common-lisp:defun describe-voices
@@ -1803,7 +1809,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/voices"
                                                         "DescribeVoices"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-voices))
 (common-lisp:progn
  (common-lisp:defun get-lexicon
@@ -1830,7 +1836,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'lexicon-name))))
                                                         "GetLexicon"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-lexicon))
 (common-lisp:progn
  (common-lisp:defun get-speech-synthesis-task
@@ -1857,7 +1863,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'task-id))))
                                                         "GetSpeechSynthesisTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-speech-synthesis-task))
 (common-lisp:progn
  (common-lisp:defun list-lexicons
@@ -1874,7 +1880,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/lexicons"
                                                         "ListLexicons"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-lexicons))
 (common-lisp:progn
  (common-lisp:defun list-speech-synthesis-tasks
@@ -1893,7 +1899,7 @@
                                                         "GET"
                                                         "/v1/synthesisTasks"
                                                         "ListSpeechSynthesisTasks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-speech-synthesis-tasks))
 (common-lisp:progn
  (common-lisp:defun put-lexicon
@@ -1920,7 +1926,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'lexicon-name))))
                                                         "PutLexicon"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-lexicon))
 (common-lisp:progn
  (common-lisp:defun start-speech-synthesis-task
@@ -1945,7 +1951,7 @@
                                                         "POST"
                                                         "/v1/synthesisTasks"
                                                         "StartSpeechSynthesisTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-speech-synthesis-task))
 (common-lisp:progn
  (common-lisp:defun synthesize-speech
@@ -1967,5 +1973,5 @@
                                                         "POST" "/v1/speech"
                                                         "SynthesizeSpeech")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'synthesize-speech))

@@ -12124,7 +12124,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/environment"
                                                         "CreateEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-environment))
 (common-lisp:progn
  (common-lisp:defun create-kx-changeset
@@ -12158,7 +12158,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'database-name))))
                                                         "CreateKxChangeset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-kx-changeset))
 (common-lisp:progn
  (common-lisp:defun create-kx-cluster
@@ -12199,7 +12199,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-id))))
                                                         "CreateKxCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-kx-cluster))
 (common-lisp:progn
  (common-lisp:defun create-kx-database
@@ -12229,7 +12229,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-id))))
                                                         "CreateKxDatabase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-kx-database))
 (common-lisp:progn
  (common-lisp:defun create-kx-dataview
@@ -12266,7 +12266,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'database-name))))
                                                         "CreateKxDataview"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-kx-dataview))
 (common-lisp:progn
  (common-lisp:defun create-kx-environment
@@ -12286,7 +12286,7 @@
                                                         "POST"
                                                         "/kx/environments"
                                                         "CreateKxEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-kx-environment))
 (common-lisp:progn
  (common-lisp:defun create-kx-scaling-group
@@ -12316,7 +12316,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-id))))
                                                         "CreateKxScalingGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-kx-scaling-group))
 (common-lisp:progn
  (common-lisp:defun create-kx-user
@@ -12346,7 +12346,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-id))))
                                                         "CreateKxUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-kx-user))
 (common-lisp:progn
  (common-lisp:defun create-kx-volume
@@ -12377,7 +12377,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-id))))
                                                         "CreateKxVolume"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-kx-volume))
 (common-lisp:progn
  (common-lisp:defun delete-environment
@@ -12404,7 +12404,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-id))))
                                                         "DeleteEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-environment))
 (common-lisp:progn
  (common-lisp:defun delete-kx-cluster
@@ -12436,7 +12436,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-name))))
                                                         "DeleteKxCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-kx-cluster))
 (common-lisp:progn
  (common-lisp:defun delete-kx-database
@@ -12469,7 +12469,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'database-name))))
                                                         "DeleteKxDatabase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-kx-database))
 (common-lisp:progn
  (common-lisp:defun delete-kx-dataview
@@ -12507,7 +12507,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataview-name))))
                                                         "DeleteKxDataview"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-kx-dataview))
 (common-lisp:progn
  (common-lisp:defun delete-kx-environment
@@ -12534,7 +12534,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-id))))
                                                         "DeleteKxEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-kx-environment))
 (common-lisp:progn
  (common-lisp:defun delete-kx-scaling-group
@@ -12567,7 +12567,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'scaling-group-name))))
                                                         "DeleteKxScalingGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-kx-scaling-group))
 (common-lisp:progn
  (common-lisp:defun delete-kx-user
@@ -12599,7 +12599,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'user-name))))
                                                         "DeleteKxUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-kx-user))
 (common-lisp:progn
  (common-lisp:defun delete-kx-volume
@@ -12631,7 +12631,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'volume-name))))
                                                         "DeleteKxVolume"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-kx-volume))
 (common-lisp:progn
  (common-lisp:defun get-environment
@@ -12658,7 +12658,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-id))))
                                                         "GetEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-environment))
 (common-lisp:progn
  (common-lisp:defun get-kx-changeset
@@ -12695,7 +12695,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'changeset-id))))
                                                         "GetKxChangeset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-kx-changeset))
 (common-lisp:progn
  (common-lisp:defun get-kx-cluster
@@ -12726,7 +12726,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-name))))
                                                         "GetKxCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-kx-cluster))
 (common-lisp:progn
  (common-lisp:defun get-kx-connection-string
@@ -12754,7 +12754,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-id))))
                                                         "GetKxConnectionString"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-kx-connection-string))
 (common-lisp:progn
  (common-lisp:defun get-kx-database
@@ -12785,7 +12785,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'database-name))))
                                                         "GetKxDatabase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-kx-database))
 (common-lisp:progn
  (common-lisp:defun get-kx-dataview
@@ -12822,7 +12822,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataview-name))))
                                                         "GetKxDataview"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-kx-dataview))
 (common-lisp:progn
  (common-lisp:defun get-kx-environment
@@ -12849,7 +12849,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-id))))
                                                         "GetKxEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-kx-environment))
 (common-lisp:progn
  (common-lisp:defun get-kx-scaling-group
@@ -12881,7 +12881,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'scaling-group-name))))
                                                         "GetKxScalingGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-kx-scaling-group))
 (common-lisp:progn
  (common-lisp:defun get-kx-user
@@ -12912,7 +12912,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'user-name))))
                                                         "GetKxUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-kx-user))
 (common-lisp:progn
  (common-lisp:defun get-kx-volume
@@ -12943,7 +12943,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'volume-name))))
                                                         "GetKxVolume"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-kx-volume))
 (common-lisp:progn
  (common-lisp:defun list-environments
@@ -12960,7 +12960,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/environment"
                                                         "ListEnvironments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-environments))
 (common-lisp:progn
  (common-lisp:defun list-kx-changesets
@@ -12994,7 +12994,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'database-name))))
                                                         "ListKxChangesets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-kx-changesets))
 (common-lisp:progn
  (common-lisp:defun list-kx-cluster-nodes
@@ -13027,7 +13027,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-name))))
                                                         "ListKxClusterNodes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-kx-cluster-nodes))
 (common-lisp:progn
  (common-lisp:defun list-kx-clusters
@@ -13056,7 +13056,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-id))))
                                                         "ListKxClusters"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-kx-clusters))
 (common-lisp:progn
  (common-lisp:defun list-kx-databases
@@ -13084,7 +13084,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-id))))
                                                         "ListKxDatabases"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-kx-databases))
 (common-lisp:progn
  (common-lisp:defun list-kx-dataviews
@@ -13118,7 +13118,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'database-name))))
                                                         "ListKxDataviews"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-kx-dataviews))
 (common-lisp:progn
  (common-lisp:defun list-kx-environments
@@ -13136,7 +13136,7 @@
                                                         "GET"
                                                         "/kx/environments"
                                                         "ListKxEnvironments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-kx-environments))
 (common-lisp:progn
  (common-lisp:defun list-kx-scaling-groups
@@ -13164,7 +13164,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-id))))
                                                         "ListKxScalingGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-kx-scaling-groups))
 (common-lisp:progn
  (common-lisp:defun list-kx-users
@@ -13192,7 +13192,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-id))))
                                                         "ListKxUsers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-kx-users))
 (common-lisp:progn
  (common-lisp:defun list-kx-volumes
@@ -13221,7 +13221,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-id))))
                                                         "ListKxVolumes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-kx-volumes))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -13248,7 +13248,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -13275,7 +13275,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -13302,7 +13302,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-environment
@@ -13332,7 +13332,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-id))))
                                                         "UpdateEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-environment))
 (common-lisp:progn
  (common-lisp:defun update-kx-cluster-code-configuration
@@ -13368,7 +13368,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-name))))
                                                         "UpdateKxClusterCodeConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-kx-cluster-code-configuration))
 (common-lisp:progn
  (common-lisp:defun update-kx-cluster-databases
@@ -13403,7 +13403,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-name))))
                                                         "UpdateKxClusterDatabases"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-kx-cluster-databases))
 (common-lisp:progn
  (common-lisp:defun update-kx-database
@@ -13437,7 +13437,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'database-name))))
                                                         "UpdateKxDatabase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-kx-database))
 (common-lisp:progn
  (common-lisp:defun update-kx-dataview
@@ -13476,7 +13476,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataview-name))))
                                                         "UpdateKxDataview"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-kx-dataview))
 (common-lisp:progn
  (common-lisp:defun update-kx-environment
@@ -13505,7 +13505,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-id))))
                                                         "UpdateKxEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-kx-environment))
 (common-lisp:progn
  (common-lisp:defun update-kx-environment-network
@@ -13537,7 +13537,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-id))))
                                                         "UpdateKxEnvironmentNetwork"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-kx-environment-network))
 (common-lisp:progn
  (common-lisp:defun update-kx-user
@@ -13570,7 +13570,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'user-name))))
                                                         "UpdateKxUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-kx-user))
 (common-lisp:progn
  (common-lisp:defun update-kx-volume
@@ -13604,5 +13604,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'volume-name))))
                                                         "UpdateKxVolume"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-kx-volume))

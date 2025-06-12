@@ -4454,7 +4454,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'privatenetworks-request aws-sdk/generator/operation::input "POST"
         "/v1/orders/acknowledge" "AcknowledgeOrderReceipt"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'acknowledge-order-receipt))
 (common-lisp:progn
  (common-lisp:defun activate-device-identifier
@@ -4472,7 +4472,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'privatenetworks-request aws-sdk/generator/operation::input "POST"
         "/v1/device-identifiers/activate" "ActivateDeviceIdentifier"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'activate-device-identifier))
 (common-lisp:progn
  (common-lisp:defun activate-network-site
@@ -4491,7 +4491,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'privatenetworks-request aws-sdk/generator/operation::input "POST"
         "/v1/network-sites/activate" "ActivateNetworkSite"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'activate-network-site))
 (common-lisp:progn
  (common-lisp:defun configure-access-point
@@ -4510,7 +4510,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'privatenetworks-request aws-sdk/generator/operation::input "POST"
         "/v1/network-resources/configure" "ConfigureAccessPoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'configure-access-point))
 (common-lisp:progn
  (common-lisp:defun create-network
@@ -4528,7 +4528,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'privatenetworks-request aws-sdk/generator/operation::input "POST"
         "/v1/networks" "CreateNetwork"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-network))
 (common-lisp:progn
  (common-lisp:defun create-network-site
@@ -4548,7 +4548,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'privatenetworks-request aws-sdk/generator/operation::input "POST"
         "/v1/network-sites" "CreateNetworkSite"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-network-site))
 (common-lisp:progn
  (common-lisp:defun deactivate-device-identifier
@@ -4566,7 +4566,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'privatenetworks-request aws-sdk/generator/operation::input "POST"
         "/v1/device-identifiers/deactivate" "DeactivateDeviceIdentifier"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deactivate-device-identifier))
 (common-lisp:progn
  (common-lisp:defun delete-network
@@ -4588,7 +4588,7 @@
                                 aws-sdk/generator/operation::input
                                 'network-arn))))
         "DeleteNetwork"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-network))
 (common-lisp:progn
  (common-lisp:defun delete-network-site
@@ -4610,7 +4610,7 @@
                                 aws-sdk/generator/operation::input
                                 'network-site-arn))))
         "DeleteNetworkSite"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-network-site))
 (common-lisp:progn
  (common-lisp:defun get-device-identifier
@@ -4632,7 +4632,7 @@
                                 aws-sdk/generator/operation::input
                                 'device-identifier-arn))))
         "GetDeviceIdentifier"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-device-identifier))
 (common-lisp:progn
  (common-lisp:defun get-network
@@ -4654,7 +4654,7 @@
                                 aws-sdk/generator/operation::input
                                 'network-arn))))
         "GetNetwork"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-network))
 (common-lisp:progn
  (common-lisp:defun get-network-resource
@@ -4676,7 +4676,7 @@
                                 aws-sdk/generator/operation::input
                                 'network-resource-arn))))
         "GetNetworkResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-network-resource))
 (common-lisp:progn
  (common-lisp:defun get-network-site
@@ -4698,7 +4698,7 @@
                                 aws-sdk/generator/operation::input
                                 'network-site-arn))))
         "GetNetworkSite"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-network-site))
 (common-lisp:progn
  (common-lisp:defun get-order
@@ -4720,7 +4720,7 @@
                                 aws-sdk/generator/operation::input
                                 'order-arn))))
         "GetOrder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-order))
 (common-lisp:progn
  (common-lisp:defun list-device-identifiers
@@ -4738,7 +4738,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'privatenetworks-request aws-sdk/generator/operation::input "POST"
         "/v1/device-identifiers/list" "ListDeviceIdentifiers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-device-identifiers))
 (common-lisp:progn
  (common-lisp:defun list-network-resources
@@ -4756,7 +4756,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'privatenetworks-request aws-sdk/generator/operation::input "POST"
         "/v1/network-resources" "ListNetworkResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-network-resources))
 (common-lisp:progn
  (common-lisp:defun list-network-sites
@@ -4774,7 +4774,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'privatenetworks-request aws-sdk/generator/operation::input "POST"
         "/v1/network-sites/list" "ListNetworkSites"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-network-sites))
 (common-lisp:progn
  (common-lisp:defun list-networks
@@ -4791,7 +4791,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'privatenetworks-request aws-sdk/generator/operation::input "POST"
         "/v1/networks/list" "ListNetworks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-networks))
 (common-lisp:progn
  (common-lisp:defun list-orders
@@ -4809,7 +4809,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'privatenetworks-request aws-sdk/generator/operation::input "POST"
         "/v1/orders/list" "ListOrders"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-orders))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -4831,7 +4831,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun ping ()
@@ -4860,7 +4860,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'privatenetworks-request aws-sdk/generator/operation::input "POST"
         "/v1/network-resources/update" "StartNetworkResourceUpdate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-network-resource-update))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4882,7 +4882,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4904,7 +4904,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-network-site
@@ -4922,7 +4922,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'privatenetworks-request aws-sdk/generator/operation::input "PUT"
         "/v1/network-sites/site" "UpdateNetworkSite"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-network-site))
 (common-lisp:progn
  (common-lisp:defun update-network-site-plan
@@ -4940,5 +4940,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'privatenetworks-request aws-sdk/generator/operation::input "PUT"
         "/v1/network-sites/plan" "UpdateNetworkSitePlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-network-site-plan))

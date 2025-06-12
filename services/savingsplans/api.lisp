@@ -2819,7 +2819,7 @@
                                                         "POST"
                                                         "/CreateSavingsPlan"
                                                         "CreateSavingsPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-savings-plan))
 (common-lisp:progn
  (common-lisp:defun delete-queued-savings-plan
@@ -2838,7 +2838,7 @@
                                                         "POST"
                                                         "/DeleteQueuedSavingsPlan"
                                                         "DeleteQueuedSavingsPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-queued-savings-plan))
 (common-lisp:progn
  (common-lisp:defun describe-savings-plan-rates
@@ -2859,7 +2859,7 @@
                                                         "POST"
                                                         "/DescribeSavingsPlanRates"
                                                         "DescribeSavingsPlanRates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-savings-plan-rates))
 (common-lisp:progn
  (common-lisp:defun describe-savings-plans
@@ -2880,7 +2880,7 @@
                                                         "POST"
                                                         "/DescribeSavingsPlans"
                                                         "DescribeSavingsPlans"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-savings-plans))
 (common-lisp:progn
  (common-lisp:defun describe-savings-plans-offering-rates
@@ -2905,7 +2905,7 @@
                                                         "POST"
                                                         "/DescribeSavingsPlansOfferingRates"
                                                         "DescribeSavingsPlansOfferingRates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-savings-plans-offering-rates))
 (common-lisp:progn
  (common-lisp:defun describe-savings-plans-offerings
@@ -2929,7 +2929,7 @@
                                                         "POST"
                                                         "/DescribeSavingsPlansOfferings"
                                                         "DescribeSavingsPlansOfferings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-savings-plans-offerings))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -2947,7 +2947,7 @@
                                                         "POST"
                                                         "/ListTagsForResource"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -2964,7 +2964,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/TagResource"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -2981,5 +2981,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/UntagResource"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))

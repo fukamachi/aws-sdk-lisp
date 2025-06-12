@@ -16431,7 +16431,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "AssociateOriginationIdentity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-origination-identity))
 (common-lisp:progn
  (common-lisp:defun create-configuration-set
@@ -16448,7 +16448,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "CreateConfigurationSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-configuration-set))
 (common-lisp:progn
  (common-lisp:defun create-event-destination
@@ -16470,7 +16470,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "CreateEventDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-event-destination))
 (common-lisp:progn
  (common-lisp:defun create-opt-out-list
@@ -16487,7 +16487,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "CreateOptOutList"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-opt-out-list))
 (common-lisp:progn
  (common-lisp:defun create-pool
@@ -16507,7 +16507,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "CreatePool"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-pool))
 (common-lisp:progn
  (common-lisp:defun create-registration
@@ -16524,7 +16524,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "CreateRegistration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-registration))
 (common-lisp:progn
  (common-lisp:defun create-registration-association
@@ -16541,7 +16541,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "CreateRegistrationAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-registration-association))
 (common-lisp:progn
  (common-lisp:defun create-registration-attachment
@@ -16560,7 +16560,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "CreateRegistrationAttachment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-registration-attachment))
 (common-lisp:progn
  (common-lisp:defun create-registration-version
@@ -16577,7 +16577,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "CreateRegistrationVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-registration-version))
 (common-lisp:progn
  (common-lisp:defun create-verified-destination-number
@@ -16596,7 +16596,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "CreateVerifiedDestinationNumber"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-verified-destination-number))
 (common-lisp:progn
  (common-lisp:defun delete-configuration-set
@@ -16612,7 +16612,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DeleteConfigurationSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-configuration-set))
 (common-lisp:progn
  (common-lisp:defun delete-default-message-type
@@ -16629,7 +16629,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DeleteDefaultMessageType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-default-message-type))
 (common-lisp:progn
  (common-lisp:defun delete-default-sender-id
@@ -16645,7 +16645,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DeleteDefaultSenderId"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-default-sender-id))
 (common-lisp:progn
  (common-lisp:defun delete-event-destination
@@ -16663,7 +16663,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DeleteEventDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-event-destination))
 (common-lisp:progn
  (common-lisp:defun delete-keyword
@@ -16679,7 +16679,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DeleteKeyword"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-keyword))
 (common-lisp:progn
  (common-lisp:defun delete-opt-out-list
@@ -16695,7 +16695,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DeleteOptOutList"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-opt-out-list))
 (common-lisp:progn
  (common-lisp:defun delete-opted-out-number
@@ -16712,7 +16712,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DeleteOptedOutNumber"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-opted-out-number))
 (common-lisp:progn
  (common-lisp:defun delete-pool
@@ -16728,7 +16728,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DeletePool"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-pool))
 (common-lisp:progn
  (common-lisp:defun delete-registration
@@ -16744,7 +16744,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DeleteRegistration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-registration))
 (common-lisp:progn
  (common-lisp:defun delete-registration-attachment
@@ -16761,7 +16761,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DeleteRegistrationAttachment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-registration-attachment))
 (common-lisp:progn
  (common-lisp:defun delete-registration-field-value
@@ -16778,7 +16778,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DeleteRegistrationFieldValue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-registration-field-value))
 (common-lisp:progn
  (common-lisp:defun delete-text-message-spend-limit-override ()
@@ -16804,7 +16804,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DeleteVerifiedDestinationNumber"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-verified-destination-number))
 (common-lisp:progn
  (common-lisp:defun delete-voice-message-spend-limit-override ()
@@ -16830,7 +16830,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeAccountAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-account-attributes))
 (common-lisp:progn
  (common-lisp:defun describe-account-limits
@@ -16846,7 +16846,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeAccountLimits"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-account-limits))
 (common-lisp:progn
  (common-lisp:defun describe-configuration-sets
@@ -16866,7 +16866,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeConfigurationSets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-configuration-sets))
 (common-lisp:progn
  (common-lisp:defun describe-keywords
@@ -16885,7 +16885,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeKeywords"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-keywords))
 (common-lisp:progn
  (common-lisp:defun describe-opt-out-lists
@@ -16903,7 +16903,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeOptOutLists"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-opt-out-lists))
 (common-lisp:progn
  (common-lisp:defun describe-opted-out-numbers
@@ -16923,7 +16923,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeOptedOutNumbers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-opted-out-numbers))
 (common-lisp:progn
  (common-lisp:defun describe-phone-numbers
@@ -16941,7 +16941,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribePhoneNumbers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-phone-numbers))
 (common-lisp:progn
  (common-lisp:defun describe-pools
@@ -16958,7 +16958,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribePools"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-pools))
 (common-lisp:progn
  (common-lisp:defun describe-registration-attachments
@@ -16978,7 +16978,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeRegistrationAttachments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-registration-attachments))
 (common-lisp:progn
  (common-lisp:defun describe-registration-field-definitions
@@ -16998,7 +16998,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeRegistrationFieldDefinitions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-registration-field-definitions))
 (common-lisp:progn
  (common-lisp:defun describe-registration-field-values
@@ -17018,7 +17018,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeRegistrationFieldValues"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-registration-field-values))
 (common-lisp:progn
  (common-lisp:defun describe-registration-section-definitions
@@ -17038,7 +17038,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeRegistrationSectionDefinitions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-registration-section-definitions))
 (common-lisp:progn
  (common-lisp:defun describe-registration-type-definitions
@@ -17057,7 +17057,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeRegistrationTypeDefinitions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-registration-type-definitions))
 (common-lisp:progn
  (common-lisp:defun describe-registration-versions
@@ -17077,7 +17077,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeRegistrationVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-registration-versions))
 (common-lisp:progn
  (common-lisp:defun describe-registrations
@@ -17095,7 +17095,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeRegistrations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-registrations))
 (common-lisp:progn
  (common-lisp:defun describe-sender-ids
@@ -17113,7 +17113,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeSenderIds"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-sender-ids))
 (common-lisp:progn
  (common-lisp:defun describe-spend-limits
@@ -17129,7 +17129,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeSpendLimits"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-spend-limits))
 (common-lisp:progn
  (common-lisp:defun describe-verified-destination-numbers
@@ -17149,7 +17149,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeVerifiedDestinationNumbers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-verified-destination-numbers))
 (common-lisp:progn
  (common-lisp:defun disassociate-origination-identity
@@ -17169,7 +17169,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DisassociateOriginationIdentity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-origination-identity))
 (common-lisp:progn
  (common-lisp:defun discard-registration-version
@@ -17186,7 +17186,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "DiscardRegistrationVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'discard-registration-version))
 (common-lisp:progn
  (common-lisp:defun list-pool-origination-identities
@@ -17204,7 +17204,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "ListPoolOriginationIdentities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-pool-origination-identities))
 (common-lisp:progn
  (common-lisp:defun list-registration-associations
@@ -17223,7 +17223,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "ListRegistrationAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-registration-associations))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -17239,7 +17239,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-keyword
@@ -17258,7 +17258,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "PutKeyword"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-keyword))
 (common-lisp:progn
  (common-lisp:defun put-opted-out-number
@@ -17275,7 +17275,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "PutOptedOutNumber"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-opted-out-number))
 (common-lisp:progn
  (common-lisp:defun put-registration-field-value
@@ -17295,7 +17295,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "PutRegistrationFieldValue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-registration-field-value))
 (common-lisp:progn
  (common-lisp:defun release-phone-number
@@ -17311,7 +17311,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "ReleasePhoneNumber"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'release-phone-number))
 (common-lisp:progn
  (common-lisp:defun release-sender-id
@@ -17327,7 +17327,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "ReleaseSenderId"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'release-sender-id))
 (common-lisp:progn
  (common-lisp:defun request-phone-number
@@ -17349,7 +17349,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "RequestPhoneNumber"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'request-phone-number))
 (common-lisp:progn
  (common-lisp:defun request-sender-id
@@ -17368,7 +17368,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "RequestSenderId"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'request-sender-id))
 (common-lisp:progn
  (common-lisp:defun send-destination-number-verification-code
@@ -17391,7 +17391,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "SendDestinationNumberVerificationCode"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-destination-number-verification-code))
 (common-lisp:progn
  (common-lisp:defun send-text-message
@@ -17413,7 +17413,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "SendTextMessage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-text-message))
 (common-lisp:progn
  (common-lisp:defun send-voice-message
@@ -17435,7 +17435,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "SendVoiceMessage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-voice-message))
 (common-lisp:progn
  (common-lisp:defun set-default-message-type
@@ -17452,7 +17452,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "SetDefaultMessageType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'set-default-message-type))
 (common-lisp:progn
  (common-lisp:defun set-default-sender-id
@@ -17469,7 +17469,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "SetDefaultSenderId"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'set-default-sender-id))
 (common-lisp:progn
  (common-lisp:defun set-text-message-spend-limit-override
@@ -17486,7 +17486,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "SetTextMessageSpendLimitOverride"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'set-text-message-spend-limit-override))
 (common-lisp:progn
  (common-lisp:defun set-voice-message-spend-limit-override
@@ -17503,7 +17503,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "SetVoiceMessageSpendLimitOverride"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'set-voice-message-spend-limit-override))
 (common-lisp:progn
  (common-lisp:defun submit-registration-version
@@ -17520,7 +17520,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "SubmitRegistrationVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'submit-registration-version))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -17536,7 +17536,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -17552,7 +17552,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-event-destination
@@ -17574,7 +17574,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "UpdateEventDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-event-destination))
 (common-lisp:progn
  (common-lisp:defun update-phone-number
@@ -17596,7 +17596,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "UpdatePhoneNumber"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-phone-number))
 (common-lisp:progn
  (common-lisp:defun update-pool
@@ -17618,7 +17618,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "UpdatePool"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-pool))
 (common-lisp:progn
  (common-lisp:defun update-sender-id
@@ -17637,7 +17637,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "UpdateSenderId"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-sender-id))
 (common-lisp:progn
  (common-lisp:defun verify-destination-number
@@ -17656,5 +17656,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pinpoint-sms-voice-v2-request aws-sdk/generator/operation::input
         "POST" "/" "VerifyDestinationNumber"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'verify-destination-number))

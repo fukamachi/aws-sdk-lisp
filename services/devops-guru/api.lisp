@@ -10746,7 +10746,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/channels"
                                                         "AddNotificationChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-notification-channel))
 (common-lisp:progn
  (common-lisp:defun delete-insight
@@ -10773,7 +10773,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteInsight"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-insight))
 (common-lisp:progn
  (common-lisp:defun describe-account-health ()
@@ -10801,7 +10801,7 @@
                                                         "POST"
                                                         "/accounts/overview"
                                                         "DescribeAccountOverview"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-account-overview))
 (common-lisp:progn
  (common-lisp:defun describe-anomaly
@@ -10828,7 +10828,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DescribeAnomaly"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-anomaly))
 (common-lisp:progn
  (common-lisp:defun describe-event-sources-config ()
@@ -10854,7 +10854,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/feedback"
                                                         "DescribeFeedback"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-feedback))
 (common-lisp:progn
  (common-lisp:defun describe-insight
@@ -10881,7 +10881,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DescribeInsight"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-insight))
 (common-lisp:progn
  (common-lisp:defun describe-organization-health
@@ -10901,7 +10901,7 @@
                                                         "POST"
                                                         "/organization/health"
                                                         "DescribeOrganizationHealth"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-organization-health))
 (common-lisp:progn
  (common-lisp:defun describe-organization-overview
@@ -10923,7 +10923,7 @@
                                                         "POST"
                                                         "/organization/overview"
                                                         "DescribeOrganizationOverview"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-organization-overview))
 (common-lisp:progn
  (common-lisp:defun describe-organization-resource-collection-health
@@ -10946,7 +10946,7 @@
                                                         "POST"
                                                         "/organization/health/resource-collection"
                                                         "DescribeOrganizationResourceCollectionHealth"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-organization-resource-collection-health))
 (common-lisp:progn
  (common-lisp:defun describe-resource-collection-health
@@ -10975,7 +10975,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-collection-type))))
                                                         "DescribeResourceCollectionHealth"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-resource-collection-health))
 (common-lisp:progn
  (common-lisp:defun describe-service-integration ()
@@ -11002,7 +11002,7 @@
                                                         "GET"
                                                         "/cost-estimation"
                                                         "GetCostEstimation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-cost-estimation))
 (common-lisp:progn
  (common-lisp:defun get-resource-collection
@@ -11030,7 +11030,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-collection-type))))
                                                         "GetResourceCollection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-collection))
 (common-lisp:progn
  (common-lisp:defun list-anomalies-for-insight
@@ -11061,7 +11061,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'insight-id))))
                                                         "ListAnomaliesForInsight"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-anomalies-for-insight))
 (common-lisp:progn
  (common-lisp:defun list-anomalous-log-groups
@@ -11081,7 +11081,7 @@
                                                         "POST"
                                                         "/list-log-anomalies"
                                                         "ListAnomalousLogGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-anomalous-log-groups))
 (common-lisp:progn
  (common-lisp:defun list-events
@@ -11100,7 +11100,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/events"
                                                         "ListEvents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-events))
 (common-lisp:progn
  (common-lisp:defun list-insights
@@ -11118,7 +11118,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/insights"
                                                         "ListInsights"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-insights))
 (common-lisp:progn
  (common-lisp:defun list-monitored-resources
@@ -11136,7 +11136,7 @@
                                                         "POST"
                                                         "/monitoredResources"
                                                         "ListMonitoredResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-monitored-resources))
 (common-lisp:progn
  (common-lisp:defun list-notification-channels
@@ -11154,7 +11154,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/channels"
                                                         "ListNotificationChannels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-notification-channels))
 (common-lisp:progn
  (common-lisp:defun list-organization-insights
@@ -11176,7 +11176,7 @@
                                                         "POST"
                                                         "/organization/insights"
                                                         "ListOrganizationInsights"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-organization-insights))
 (common-lisp:progn
  (common-lisp:defun list-recommendations
@@ -11195,7 +11195,7 @@
                                                         "POST"
                                                         "/recommendations"
                                                         "ListRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-recommendations))
 (common-lisp:progn
  (common-lisp:defun put-feedback
@@ -11212,7 +11212,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/feedback"
                                                         "PutFeedback"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-feedback))
 (common-lisp:progn
  (common-lisp:defun remove-notification-channel
@@ -11240,7 +11240,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "RemoveNotificationChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-notification-channel))
 (common-lisp:progn
  (common-lisp:defun search-insights
@@ -11261,7 +11261,7 @@
                                                         "POST"
                                                         "/insights/search"
                                                         "SearchInsights"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-insights))
 (common-lisp:progn
  (common-lisp:defun search-organization-insights
@@ -11283,7 +11283,7 @@
                                                         "POST"
                                                         "/organization/insights/search"
                                                         "SearchOrganizationInsights"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-organization-insights))
 (common-lisp:progn
  (common-lisp:defun start-cost-estimation
@@ -11302,7 +11302,7 @@
                                                         "PUT"
                                                         "/cost-estimation"
                                                         "StartCostEstimation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-cost-estimation))
 (common-lisp:progn
  (common-lisp:defun update-event-sources-config
@@ -11320,7 +11320,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/event-sources"
                                                         "UpdateEventSourcesConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-event-sources-config))
 (common-lisp:progn
  (common-lisp:defun update-resource-collection
@@ -11339,7 +11339,7 @@
                                                         "PUT"
                                                         "/resource-collections"
                                                         "UpdateResourceCollection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-resource-collection))
 (common-lisp:progn
  (common-lisp:defun update-service-integration
@@ -11358,5 +11358,5 @@
                                                         "PUT"
                                                         "/service-integrations"
                                                         "UpdateServiceIntegration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-service-integration))

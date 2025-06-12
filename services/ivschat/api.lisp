@@ -3097,7 +3097,7 @@
                                                         "POST"
                                                         "/CreateChatToken"
                                                         "CreateChatToken"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-chat-token))
 (common-lisp:progn
  (common-lisp:defun create-logging-configuration
@@ -3117,7 +3117,7 @@
                                                         "POST"
                                                         "/CreateLoggingConfiguration"
                                                         "CreateLoggingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-logging-configuration))
 (common-lisp:progn
  (common-lisp:defun create-room
@@ -3139,7 +3139,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/CreateRoom"
                                                         "CreateRoom"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-room))
 (common-lisp:progn
  (common-lisp:defun delete-logging-configuration
@@ -3158,7 +3158,7 @@
                                                         "POST"
                                                         "/DeleteLoggingConfiguration"
                                                         "DeleteLoggingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-logging-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-message
@@ -3175,7 +3175,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/DeleteMessage"
                                                         "DeleteMessage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-message))
 (common-lisp:progn
  (common-lisp:defun delete-room
@@ -3192,7 +3192,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/DeleteRoom"
                                                         "DeleteRoom"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-room))
 (common-lisp:progn
  (common-lisp:defun disconnect-user
@@ -3210,7 +3210,7 @@
                                                         "POST"
                                                         "/DisconnectUser"
                                                         "DisconnectUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disconnect-user))
 (common-lisp:progn
  (common-lisp:defun get-logging-configuration
@@ -3229,7 +3229,7 @@
                                                         "POST"
                                                         "/GetLoggingConfiguration"
                                                         "GetLoggingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-logging-configuration))
 (common-lisp:progn
  (common-lisp:defun get-room
@@ -3246,7 +3246,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/GetRoom"
                                                         "GetRoom"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-room))
 (common-lisp:progn
  (common-lisp:defun list-logging-configurations
@@ -3265,7 +3265,7 @@
                                                         "POST"
                                                         "/ListLoggingConfigurations"
                                                         "ListLoggingConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-logging-configurations))
 (common-lisp:progn
  (common-lisp:defun list-rooms
@@ -3285,7 +3285,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/ListRooms"
                                                         "ListRooms"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-rooms))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -3312,7 +3312,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun send-event
@@ -3330,7 +3330,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/SendEvent"
                                                         "SendEvent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-event))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3357,7 +3357,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3384,7 +3384,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-logging-configuration
@@ -3405,7 +3405,7 @@
                                                         "POST"
                                                         "/UpdateLoggingConfiguration"
                                                         "UpdateLoggingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-logging-configuration))
 (common-lisp:progn
  (common-lisp:defun update-room
@@ -3428,5 +3428,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/UpdateRoom"
                                                         "UpdateRoom"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-room))

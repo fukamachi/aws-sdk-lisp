@@ -9871,7 +9871,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/assistants"
                                                         "CreateAssistant"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-assistant))
 (common-lisp:progn
  (common-lisp:defun create-assistant-association
@@ -9902,7 +9902,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'assistant-id))))
                                                         "CreateAssistantAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-assistant-association))
 (common-lisp:progn
  (common-lisp:defun create-content
@@ -9932,7 +9932,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'knowledge-base-id))))
                                                         "CreateContent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-content))
 (common-lisp:progn
  (common-lisp:defun create-knowledge-base
@@ -9956,7 +9956,7 @@
                                                         "POST"
                                                         "/knowledgeBases"
                                                         "CreateKnowledgeBase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-knowledge-base))
 (common-lisp:progn
  (common-lisp:defun create-quick-response
@@ -9988,7 +9988,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'knowledge-base-id))))
                                                         "CreateQuickResponse"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-quick-response))
 (common-lisp:progn
  (common-lisp:defun create-session
@@ -10017,7 +10017,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'assistant-id))))
                                                         "CreateSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-session))
 (common-lisp:progn
  (common-lisp:defun delete-assistant
@@ -10044,7 +10044,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'assistant-id))))
                                                         "DeleteAssistant"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-assistant))
 (common-lisp:progn
  (common-lisp:defun delete-assistant-association
@@ -10077,7 +10077,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'assistant-association-id))))
                                                         "DeleteAssistantAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-assistant-association))
 (common-lisp:progn
  (common-lisp:defun delete-content
@@ -10108,7 +10108,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'content-id))))
                                                         "DeleteContent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-content))
 (common-lisp:progn
  (common-lisp:defun delete-import-job
@@ -10140,7 +10140,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'import-job-id))))
                                                         "DeleteImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-import-job))
 (common-lisp:progn
  (common-lisp:defun delete-knowledge-base
@@ -10167,7 +10167,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'knowledge-base-id))))
                                                         "DeleteKnowledgeBase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-knowledge-base))
 (common-lisp:progn
  (common-lisp:defun delete-quick-response
@@ -10199,7 +10199,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'quick-response-id))))
                                                         "DeleteQuickResponse"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-quick-response))
 (common-lisp:progn
  (common-lisp:defun get-assistant
@@ -10226,7 +10226,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'assistant-id))))
                                                         "GetAssistant"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-assistant))
 (common-lisp:progn
  (common-lisp:defun get-assistant-association
@@ -10259,7 +10259,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'assistant-association-id))))
                                                         "GetAssistantAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-assistant-association))
 (common-lisp:progn
  (common-lisp:defun get-content
@@ -10290,7 +10290,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'content-id))))
                                                         "GetContent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-content))
 (common-lisp:progn
  (common-lisp:defun get-content-summary
@@ -10321,7 +10321,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'content-id))))
                                                         "GetContentSummary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-content-summary))
 (common-lisp:progn
  (common-lisp:defun get-import-job
@@ -10353,7 +10353,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'import-job-id))))
                                                         "GetImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-import-job))
 (common-lisp:progn
  (common-lisp:defun get-knowledge-base
@@ -10380,7 +10380,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'knowledge-base-id))))
                                                         "GetKnowledgeBase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-knowledge-base))
 (common-lisp:progn
  (common-lisp:defun get-quick-response
@@ -10412,7 +10412,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'quick-response-id))))
                                                         "GetQuickResponse"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-quick-response))
 (common-lisp:progn
  (common-lisp:defun get-recommendations
@@ -10446,7 +10446,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'session-id))))
                                                         "GetRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-recommendations))
 (common-lisp:progn
  (common-lisp:defun get-session
@@ -10477,7 +10477,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'session-id))))
                                                         "GetSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-session))
 (common-lisp:progn
  (common-lisp:defun list-assistant-associations
@@ -10506,7 +10506,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'assistant-id))))
                                                         "ListAssistantAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-assistant-associations))
 (common-lisp:progn
  (common-lisp:defun list-assistants
@@ -10523,7 +10523,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/assistants"
                                                         "ListAssistants"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-assistants))
 (common-lisp:progn
  (common-lisp:defun list-contents
@@ -10551,7 +10551,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'knowledge-base-id))))
                                                         "ListContents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-contents))
 (common-lisp:progn
  (common-lisp:defun list-import-jobs
@@ -10579,7 +10579,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'knowledge-base-id))))
                                                         "ListImportJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-import-jobs))
 (common-lisp:progn
  (common-lisp:defun list-knowledge-bases
@@ -10596,7 +10596,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/knowledgeBases"
                                                         "ListKnowledgeBases"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-knowledge-bases))
 (common-lisp:progn
  (common-lisp:defun list-quick-responses
@@ -10624,7 +10624,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'knowledge-base-id))))
                                                         "ListQuickResponses"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-quick-responses))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -10651,7 +10651,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun notify-recommendations-received
@@ -10685,7 +10685,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'session-id))))
                                                         "NotifyRecommendationsReceived"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'notify-recommendations-received))
 (common-lisp:progn
  (common-lisp:defun put-feedback
@@ -10715,7 +10715,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'assistant-id))))
                                                         "PutFeedback"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-feedback))
 (common-lisp:progn
  (common-lisp:defun query-assistant
@@ -10745,7 +10745,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'assistant-id))))
                                                         "QueryAssistant"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'query-assistant))
 (common-lisp:progn
  (common-lisp:defun remove-knowledge-base-template-uri
@@ -10773,7 +10773,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'knowledge-base-id))))
                                                         "RemoveKnowledgeBaseTemplateUri"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-knowledge-base-template-uri))
 (common-lisp:progn
  (common-lisp:defun search-content
@@ -10803,7 +10803,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'knowledge-base-id))))
                                                         "SearchContent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-content))
 (common-lisp:progn
  (common-lisp:defun search-quick-responses
@@ -10833,7 +10833,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'knowledge-base-id))))
                                                         "SearchQuickResponses"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-quick-responses))
 (common-lisp:progn
  (common-lisp:defun search-sessions
@@ -10863,7 +10863,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'assistant-id))))
                                                         "SearchSessions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-sessions))
 (common-lisp:progn
  (common-lisp:defun start-content-upload
@@ -10893,7 +10893,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'knowledge-base-id))))
                                                         "StartContentUpload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-content-upload))
 (common-lisp:progn
  (common-lisp:defun start-import-job
@@ -10924,7 +10924,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'knowledge-base-id))))
                                                         "StartImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-import-job))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -10951,7 +10951,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -10978,7 +10978,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-content
@@ -11014,7 +11014,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'content-id))))
                                                         "UpdateContent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-content))
 (common-lisp:progn
  (common-lisp:defun update-knowledge-base-template-uri
@@ -11042,7 +11042,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'knowledge-base-id))))
                                                         "UpdateKnowledgeBaseTemplateUri"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-knowledge-base-template-uri))
 (common-lisp:progn
  (common-lisp:defun update-quick-response
@@ -11081,5 +11081,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'quick-response-id))))
                                                         "UpdateQuickResponse"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-quick-response))

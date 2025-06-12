@@ -11435,7 +11435,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateVehicleFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-vehicle-fleet))
 (common-lisp:progn
  (common-lisp:defun batch-create-vehicle
@@ -11452,7 +11452,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchCreateVehicle"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-create-vehicle))
 (common-lisp:progn
  (common-lisp:defun batch-update-vehicle
@@ -11469,7 +11469,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchUpdateVehicle"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-update-vehicle))
 (common-lisp:progn
  (common-lisp:defun create-campaign
@@ -11495,7 +11495,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateCampaign"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-campaign))
 (common-lisp:progn
  (common-lisp:defun create-decoder-manifest
@@ -11515,7 +11515,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDecoderManifest"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-decoder-manifest))
 (common-lisp:progn
  (common-lisp:defun create-fleet
@@ -11534,7 +11534,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-fleet))
 (common-lisp:progn
  (common-lisp:defun create-model-manifest
@@ -11553,7 +11553,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateModelManifest"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-model-manifest))
 (common-lisp:progn
  (common-lisp:defun create-signal-catalog
@@ -11570,7 +11570,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateSignalCatalog"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-signal-catalog))
 (common-lisp:progn
  (common-lisp:defun create-vehicle
@@ -11590,7 +11590,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateVehicle"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-vehicle))
 (common-lisp:progn
  (common-lisp:defun delete-campaign
@@ -11607,7 +11607,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteCampaign"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-campaign))
 (common-lisp:progn
  (common-lisp:defun delete-decoder-manifest
@@ -11624,7 +11624,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDecoderManifest"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-decoder-manifest))
 (common-lisp:progn
  (common-lisp:defun delete-fleet
@@ -11641,7 +11641,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-fleet))
 (common-lisp:progn
  (common-lisp:defun delete-model-manifest
@@ -11658,7 +11658,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteModelManifest"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-model-manifest))
 (common-lisp:progn
  (common-lisp:defun delete-signal-catalog
@@ -11675,7 +11675,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteSignalCatalog"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-signal-catalog))
 (common-lisp:progn
  (common-lisp:defun delete-vehicle
@@ -11692,7 +11692,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteVehicle"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-vehicle))
 (common-lisp:progn
  (common-lisp:defun disassociate-vehicle-fleet
@@ -11710,7 +11710,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateVehicleFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-vehicle-fleet))
 (common-lisp:progn
  (common-lisp:defun get-campaign
@@ -11727,7 +11727,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCampaign"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-campaign))
 (common-lisp:progn
  (common-lisp:defun get-decoder-manifest
@@ -11744,7 +11744,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDecoderManifest"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-decoder-manifest))
 (common-lisp:progn
  (common-lisp:defun get-encryption-configuration ()
@@ -11768,7 +11768,7 @@ common-lisp:nil
        (aws-sdk/generator/shape:make-request-with-input 'iotfleetwise-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "GetFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-fleet))
 (common-lisp:progn
  (common-lisp:defun get-logging-options ()
@@ -11793,7 +11793,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetModelManifest"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-model-manifest))
 (common-lisp:progn
  (common-lisp:defun get-register-account-status ()
@@ -11818,7 +11818,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetSignalCatalog"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-signal-catalog))
 (common-lisp:progn
  (common-lisp:defun get-vehicle
@@ -11835,7 +11835,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetVehicle"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-vehicle))
 (common-lisp:progn
  (common-lisp:defun get-vehicle-status
@@ -11853,7 +11853,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetVehicleStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-vehicle-status))
 (common-lisp:progn
  (common-lisp:defun import-decoder-manifest
@@ -11870,7 +11870,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ImportDecoderManifest"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-decoder-manifest))
 (common-lisp:progn
  (common-lisp:defun import-signal-catalog
@@ -11887,7 +11887,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ImportSignalCatalog"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-signal-catalog))
 (common-lisp:progn
  (common-lisp:defun list-campaigns
@@ -11904,7 +11904,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListCampaigns"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-campaigns))
 (common-lisp:progn
  (common-lisp:defun list-decoder-manifest-network-interfaces
@@ -11922,7 +11922,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDecoderManifestNetworkInterfaces"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-decoder-manifest-network-interfaces))
 (common-lisp:progn
  (common-lisp:defun list-decoder-manifest-signals
@@ -11940,7 +11940,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDecoderManifestSignals"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-decoder-manifest-signals))
 (common-lisp:progn
  (common-lisp:defun list-decoder-manifests
@@ -11959,7 +11959,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDecoderManifests"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-decoder-manifests))
 (common-lisp:progn
  (common-lisp:defun list-fleets
@@ -11976,7 +11976,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListFleets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-fleets))
 (common-lisp:progn
  (common-lisp:defun list-fleets-for-vehicle
@@ -11994,7 +11994,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListFleetsForVehicle"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-fleets-for-vehicle))
 (common-lisp:progn
  (common-lisp:defun list-model-manifest-nodes
@@ -12012,7 +12012,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListModelManifestNodes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-model-manifest-nodes))
 (common-lisp:progn
  (common-lisp:defun list-model-manifests
@@ -12031,7 +12031,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListModelManifests"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-model-manifests))
 (common-lisp:progn
  (common-lisp:defun list-signal-catalog-nodes
@@ -12051,7 +12051,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListSignalCatalogNodes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-signal-catalog-nodes))
 (common-lisp:progn
  (common-lisp:defun list-signal-catalogs
@@ -12068,7 +12068,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListSignalCatalogs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-signal-catalogs))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -12085,7 +12085,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-vehicles
@@ -12104,7 +12104,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListVehicles"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-vehicles))
 (common-lisp:progn
  (common-lisp:defun list-vehicles-in-fleet
@@ -12122,7 +12122,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListVehiclesInFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-vehicles-in-fleet))
 (common-lisp:progn
  (common-lisp:defun put-encryption-configuration
@@ -12140,7 +12140,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutEncryptionConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-encryption-configuration))
 (common-lisp:progn
  (common-lisp:defun put-logging-options
@@ -12157,7 +12157,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutLoggingOptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-logging-options))
 (common-lisp:progn
  (common-lisp:defun register-account
@@ -12175,7 +12175,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RegisterAccount"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-account))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -12192,7 +12192,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -12209,7 +12209,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-campaign
@@ -12228,7 +12228,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateCampaign"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-campaign))
 (common-lisp:progn
  (common-lisp:defun update-decoder-manifest
@@ -12252,7 +12252,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateDecoderManifest"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-decoder-manifest))
 (common-lisp:progn
  (common-lisp:defun update-fleet
@@ -12269,7 +12269,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-fleet))
 (common-lisp:progn
  (common-lisp:defun update-model-manifest
@@ -12289,7 +12289,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateModelManifest"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-model-manifest))
 (common-lisp:progn
  (common-lisp:defun update-signal-catalog
@@ -12309,7 +12309,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateSignalCatalog"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-signal-catalog))
 (common-lisp:progn
  (common-lisp:defun update-vehicle
@@ -12329,5 +12329,5 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateVehicle"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-vehicle))

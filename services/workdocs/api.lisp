@@ -7268,7 +7268,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'version-id))))
                                                         "AbortDocumentVersionUpload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'abort-document-version-upload))
 (common-lisp:progn
  (common-lisp:defun activate-user
@@ -7295,7 +7295,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'user-id))))
                                                         "ActivateUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'activate-user))
 (common-lisp:progn
  (common-lisp:defun add-resource-permissions
@@ -7325,7 +7325,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-id))))
                                                         "AddResourcePermissions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-resource-permissions))
 (common-lisp:progn
  (common-lisp:defun create-comment
@@ -7360,7 +7360,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'version-id))))
                                                         "CreateComment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-comment))
 (common-lisp:progn
  (common-lisp:defun create-custom-metadata
@@ -7390,7 +7390,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-id))))
                                                         "CreateCustomMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-custom-metadata))
 (common-lisp:progn
  (common-lisp:defun create-folder
@@ -7410,7 +7410,7 @@
                                                         "POST"
                                                         "/api/v1/folders"
                                                         "CreateFolder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-folder))
 (common-lisp:progn
  (common-lisp:defun create-labels
@@ -7438,7 +7438,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-id))))
                                                         "CreateLabels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-labels))
 (common-lisp:progn
  (common-lisp:defun create-notification-subscription
@@ -7469,7 +7469,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'organization-id))))
                                                         "CreateNotificationSubscription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-notification-subscription))
 (common-lisp:progn
  (common-lisp:defun create-user
@@ -7490,7 +7490,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/api/v1/users"
                                                         "CreateUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-user))
 (common-lisp:progn
  (common-lisp:defun deactivate-user
@@ -7517,7 +7517,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'user-id))))
                                                         "DeactivateUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deactivate-user))
 (common-lisp:progn
  (common-lisp:defun delete-comment
@@ -7555,7 +7555,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'comment-id))))
                                                         "DeleteComment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-comment))
 (common-lisp:progn
  (common-lisp:defun delete-custom-metadata
@@ -7585,7 +7585,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-id))))
                                                         "DeleteCustomMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-custom-metadata))
 (common-lisp:progn
  (common-lisp:defun delete-document
@@ -7613,7 +7613,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'document-id))))
                                                         "DeleteDocument"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-document))
 (common-lisp:progn
  (common-lisp:defun delete-document-version
@@ -7647,7 +7647,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'version-id))))
                                                         "DeleteDocumentVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-document-version))
 (common-lisp:progn
  (common-lisp:defun delete-folder
@@ -7674,7 +7674,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'folder-id))))
                                                         "DeleteFolder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-folder))
 (common-lisp:progn
  (common-lisp:defun delete-folder-contents
@@ -7701,7 +7701,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'folder-id))))
                                                         "DeleteFolderContents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-folder-contents))
 (common-lisp:progn
  (common-lisp:defun delete-labels
@@ -7730,7 +7730,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-id))))
                                                         "DeleteLabels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-labels))
 (common-lisp:progn
  (common-lisp:defun delete-notification-subscription
@@ -7763,7 +7763,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'subscription-id))))
                                                         "DeleteNotificationSubscription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-notification-subscription))
 (common-lisp:progn
  (common-lisp:defun delete-user
@@ -7790,7 +7790,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'user-id))))
                                                         "DeleteUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-user))
 (common-lisp:progn
  (common-lisp:defun describe-activities
@@ -7813,7 +7813,7 @@
                                                         "GET"
                                                         "/api/v1/activities"
                                                         "DescribeActivities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-activities))
 (common-lisp:progn
  (common-lisp:defun describe-comments
@@ -7847,7 +7847,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'version-id))))
                                                         "DescribeComments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-comments))
 (common-lisp:progn
  (common-lisp:defun describe-document-versions
@@ -7878,7 +7878,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'document-id))))
                                                         "DescribeDocumentVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-document-versions))
 (common-lisp:progn
  (common-lisp:defun describe-folder-contents
@@ -7908,7 +7908,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'folder-id))))
                                                         "DescribeFolderContents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-folder-contents))
 (common-lisp:progn
  (common-lisp:defun describe-groups
@@ -7928,7 +7928,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/api/v1/groups"
                                                         "DescribeGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-groups))
 (common-lisp:progn
  (common-lisp:defun describe-notification-subscriptions
@@ -7956,7 +7956,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'organization-id))))
                                                         "DescribeNotificationSubscriptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-notification-subscriptions))
 (common-lisp:progn
  (common-lisp:defun describe-resource-permissions
@@ -7987,7 +7987,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-id))))
                                                         "DescribeResourcePermissions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-resource-permissions))
 (common-lisp:progn
  (common-lisp:defun describe-root-folders
@@ -8005,7 +8005,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/api/v1/me/root"
                                                         "DescribeRootFolders"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-root-folders))
 (common-lisp:progn
  (common-lisp:defun describe-users
@@ -8025,7 +8025,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/api/v1/users"
                                                         "DescribeUsers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-users))
 (common-lisp:progn
  (common-lisp:defun get-current-user
@@ -8042,7 +8042,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/api/v1/me"
                                                         "GetCurrentUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-current-user))
 (common-lisp:progn
  (common-lisp:defun get-document
@@ -8072,7 +8072,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'document-id))))
                                                         "GetDocument"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-document))
 (common-lisp:progn
  (common-lisp:defun get-document-path
@@ -8102,7 +8102,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'document-id))))
                                                         "GetDocumentPath"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-document-path))
 (common-lisp:progn
  (common-lisp:defun get-document-version
@@ -8136,7 +8136,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'version-id))))
                                                         "GetDocumentVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-document-version))
 (common-lisp:progn
  (common-lisp:defun get-folder
@@ -8166,7 +8166,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'folder-id))))
                                                         "GetFolder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-folder))
 (common-lisp:progn
  (common-lisp:defun get-folder-path
@@ -8195,7 +8195,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'folder-id))))
                                                         "GetFolderPath"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-folder-path))
 (common-lisp:progn
  (common-lisp:defun get-resources
@@ -8216,7 +8216,7 @@
                                                         "GET"
                                                         "/api/v1/resources"
                                                         "GetResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resources))
 (common-lisp:progn
  (common-lisp:defun initiate-document-version-upload
@@ -8240,7 +8240,7 @@
                                                         "POST"
                                                         "/api/v1/documents"
                                                         "InitiateDocumentVersionUpload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'initiate-document-version-upload))
 (common-lisp:progn
  (common-lisp:defun remove-all-resource-permissions
@@ -8269,7 +8269,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-id))))
                                                         "RemoveAllResourcePermissions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-all-resource-permissions))
 (common-lisp:progn
  (common-lisp:defun remove-resource-permission
@@ -8304,7 +8304,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'principal-id))))
                                                         "RemoveResourcePermission"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-resource-permission))
 (common-lisp:progn
  (common-lisp:defun restore-document-versions
@@ -8333,7 +8333,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'document-id))))
                                                         "RestoreDocumentVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'restore-document-versions))
 (common-lisp:progn
  (common-lisp:defun search-resources
@@ -8354,7 +8354,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/api/v1/search"
                                                         "SearchResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-resources))
 (common-lisp:progn
  (common-lisp:defun update-document
@@ -8384,7 +8384,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'document-id))))
                                                         "UpdateDocument"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-document))
 (common-lisp:progn
  (common-lisp:defun update-document-version
@@ -8418,7 +8418,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'version-id))))
                                                         "UpdateDocumentVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-document-version))
 (common-lisp:progn
  (common-lisp:defun update-folder
@@ -8448,7 +8448,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'folder-id))))
                                                         "UpdateFolder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-folder))
 (common-lisp:progn
  (common-lisp:defun update-user
@@ -8479,5 +8479,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'user-id))))
                                                         "UpdateUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-user))

@@ -5345,7 +5345,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cost-optimization-hub-request aws-sdk/generator/operation::input
         "POST" "/" "GetRecommendation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-recommendation))
 (common-lisp:progn
  (common-lisp:defun list-enrollment-statuses
@@ -5364,7 +5364,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cost-optimization-hub-request aws-sdk/generator/operation::input
         "POST" "/" "ListEnrollmentStatuses"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-enrollment-statuses))
 (common-lisp:progn
  (common-lisp:defun list-recommendation-summaries
@@ -5382,7 +5382,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cost-optimization-hub-request aws-sdk/generator/operation::input
         "POST" "/" "ListRecommendationSummaries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-recommendation-summaries))
 (common-lisp:progn
  (common-lisp:defun list-recommendations
@@ -5401,7 +5401,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cost-optimization-hub-request aws-sdk/generator/operation::input
         "POST" "/" "ListRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-recommendations))
 (common-lisp:progn
  (common-lisp:defun update-enrollment-status
@@ -5417,7 +5417,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cost-optimization-hub-request aws-sdk/generator/operation::input
         "POST" "/" "UpdateEnrollmentStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-enrollment-status))
 (common-lisp:progn
  (common-lisp:defun update-preferences
@@ -5436,5 +5436,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cost-optimization-hub-request aws-sdk/generator/operation::input
         "POST" "/" "UpdatePreferences"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-preferences))

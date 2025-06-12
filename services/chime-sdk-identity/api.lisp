@@ -4270,7 +4270,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-identity-request aws-sdk/generator/operation::input "POST"
         "/app-instances" "CreateAppInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-app-instance))
 (common-lisp:progn
  (common-lisp:defun create-app-instance-admin
@@ -4294,7 +4294,7 @@
                                 aws-sdk/generator/operation::input
                                 'app-instance-arn))))
         "CreateAppInstanceAdmin"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-app-instance-admin))
 (common-lisp:progn
  (common-lisp:defun create-app-instance-bot
@@ -4313,7 +4313,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-identity-request aws-sdk/generator/operation::input "POST"
         "/app-instance-bots" "CreateAppInstanceBot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-app-instance-bot))
 (common-lisp:progn
  (common-lisp:defun create-app-instance-user
@@ -4333,7 +4333,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-identity-request aws-sdk/generator/operation::input "POST"
         "/app-instance-users" "CreateAppInstanceUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-app-instance-user))
 (common-lisp:progn
  (common-lisp:defun delete-app-instance
@@ -4355,7 +4355,7 @@
                                 aws-sdk/generator/operation::input
                                 'app-instance-arn))))
         "DeleteAppInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-app-instance))
 (common-lisp:progn
  (common-lisp:defun delete-app-instance-admin
@@ -4383,7 +4383,7 @@
                                 aws-sdk/generator/operation::input
                                 'app-instance-admin-arn))))
         "DeleteAppInstanceAdmin"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-app-instance-admin))
 (common-lisp:progn
  (common-lisp:defun delete-app-instance-bot
@@ -4405,7 +4405,7 @@
                                 aws-sdk/generator/operation::input
                                 'app-instance-bot-arn))))
         "DeleteAppInstanceBot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-app-instance-bot))
 (common-lisp:progn
  (common-lisp:defun delete-app-instance-user
@@ -4427,7 +4427,7 @@
                                 aws-sdk/generator/operation::input
                                 'app-instance-user-arn))))
         "DeleteAppInstanceUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-app-instance-user))
 (common-lisp:progn
  (common-lisp:defun deregister-app-instance-user-endpoint
@@ -4456,7 +4456,7 @@
                                 aws-sdk/generator/operation::input
                                 'endpoint-id))))
         "DeregisterAppInstanceUserEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deregister-app-instance-user-endpoint))
 (common-lisp:progn
  (common-lisp:defun describe-app-instance
@@ -4478,7 +4478,7 @@
                                 aws-sdk/generator/operation::input
                                 'app-instance-arn))))
         "DescribeAppInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-app-instance))
 (common-lisp:progn
  (common-lisp:defun describe-app-instance-admin
@@ -4506,7 +4506,7 @@
                                 aws-sdk/generator/operation::input
                                 'app-instance-admin-arn))))
         "DescribeAppInstanceAdmin"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-app-instance-admin))
 (common-lisp:progn
  (common-lisp:defun describe-app-instance-bot
@@ -4529,7 +4529,7 @@
                                 aws-sdk/generator/operation::input
                                 'app-instance-bot-arn))))
         "DescribeAppInstanceBot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-app-instance-bot))
 (common-lisp:progn
  (common-lisp:defun describe-app-instance-user
@@ -4552,7 +4552,7 @@
                                 aws-sdk/generator/operation::input
                                 'app-instance-user-arn))))
         "DescribeAppInstanceUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-app-instance-user))
 (common-lisp:progn
  (common-lisp:defun describe-app-instance-user-endpoint
@@ -4581,7 +4581,7 @@
                                 aws-sdk/generator/operation::input
                                 'endpoint-id))))
         "DescribeAppInstanceUserEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-app-instance-user-endpoint))
 (common-lisp:progn
  (common-lisp:defun get-app-instance-retention-settings
@@ -4605,7 +4605,7 @@
                                 aws-sdk/generator/operation::input
                                 'app-instance-arn))))
         "GetAppInstanceRetentionSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-app-instance-retention-settings))
 (common-lisp:progn
  (common-lisp:defun list-app-instance-admins
@@ -4628,7 +4628,7 @@
                                 aws-sdk/generator/operation::input
                                 'app-instance-arn))))
         "ListAppInstanceAdmins"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-app-instance-admins))
 (common-lisp:progn
  (common-lisp:defun list-app-instance-bots
@@ -4645,7 +4645,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-identity-request aws-sdk/generator/operation::input "GET"
         "/app-instance-bots" "ListAppInstanceBots"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-app-instance-bots))
 (common-lisp:progn
  (common-lisp:defun list-app-instance-user-endpoints
@@ -4671,7 +4671,7 @@
                                 aws-sdk/generator/operation::input
                                 'app-instance-user-arn))))
         "ListAppInstanceUserEndpoints"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-app-instance-user-endpoints))
 (common-lisp:progn
  (common-lisp:defun list-app-instance-users
@@ -4688,7 +4688,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-identity-request aws-sdk/generator/operation::input "GET"
         "/app-instance-users" "ListAppInstanceUsers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-app-instance-users))
 (common-lisp:progn
  (common-lisp:defun list-app-instances
@@ -4704,7 +4704,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-identity-request aws-sdk/generator/operation::input "GET"
         "/app-instances" "ListAppInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-app-instances))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -4720,7 +4720,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-identity-request aws-sdk/generator/operation::input "GET"
         "/tags" "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-app-instance-retention-settings
@@ -4746,7 +4746,7 @@
                                 aws-sdk/generator/operation::input
                                 'app-instance-arn))))
         "PutAppInstanceRetentionSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-app-instance-retention-settings))
 (common-lisp:progn
  (common-lisp:defun put-app-instance-user-expiration-settings
@@ -4772,7 +4772,7 @@
                                 aws-sdk/generator/operation::input
                                 'app-instance-user-arn))))
         "PutAppInstanceUserExpirationSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-app-instance-user-expiration-settings))
 (common-lisp:progn
  (common-lisp:defun register-app-instance-user-endpoint
@@ -4800,7 +4800,7 @@
                                 aws-sdk/generator/operation::input
                                 'app-instance-user-arn))))
         "RegisterAppInstanceUserEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-app-instance-user-endpoint))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4816,7 +4816,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-identity-request aws-sdk/generator/operation::input "POST"
         "/tags?operation=tag-resource" "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4832,7 +4832,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-identity-request aws-sdk/generator/operation::input "POST"
         "/tags?operation=untag-resource" "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-app-instance
@@ -4854,7 +4854,7 @@
                                 aws-sdk/generator/operation::input
                                 'app-instance-arn))))
         "UpdateAppInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-app-instance))
 (common-lisp:progn
  (common-lisp:defun update-app-instance-bot
@@ -4878,7 +4878,7 @@
                                 aws-sdk/generator/operation::input
                                 'app-instance-bot-arn))))
         "UpdateAppInstanceBot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-app-instance-bot))
 (common-lisp:progn
  (common-lisp:defun update-app-instance-user
@@ -4901,7 +4901,7 @@
                                 aws-sdk/generator/operation::input
                                 'app-instance-user-arn))))
         "UpdateAppInstanceUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-app-instance-user))
 (common-lisp:progn
  (common-lisp:defun update-app-instance-user-endpoint
@@ -4932,5 +4932,5 @@
                                 aws-sdk/generator/operation::input
                                 'endpoint-id))))
         "UpdateAppInstanceUserEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-app-instance-user-endpoint))

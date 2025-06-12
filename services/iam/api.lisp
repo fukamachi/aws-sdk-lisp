@@ -19507,7 +19507,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AddClientIDToOpenIDConnectProvider"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'add-client-idto-open-idconnect-provider))
 (common-lisp:progn
  (common-lisp:defun add-role-to-instance-profile
@@ -19526,7 +19526,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AddRoleToInstanceProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'add-role-to-instance-profile))
 (common-lisp:progn
  (common-lisp:defun add-user-to-group
@@ -19543,7 +19543,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AddUserToGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'add-user-to-group))
 (common-lisp:progn
  (common-lisp:defun attach-group-policy
@@ -19560,7 +19560,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AttachGroupPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'attach-group-policy))
 (common-lisp:progn
  (common-lisp:defun attach-role-policy
@@ -19577,7 +19577,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AttachRolePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'attach-role-policy))
 (common-lisp:progn
  (common-lisp:defun attach-user-policy
@@ -19594,7 +19594,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AttachUserPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'attach-user-policy))
 (common-lisp:progn
  (common-lisp:defun change-password
@@ -19611,7 +19611,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ChangePassword"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'change-password))
 (common-lisp:progn
  (common-lisp:defun create-access-key
@@ -19628,7 +19628,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateAccessKey"))
-      common-lisp:nil "CreateAccessKeyResult" *error-map*)))
+      common-lisp:nil "CreateAccessKeyResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-access-key))
 (common-lisp:progn
  (common-lisp:defun create-account-alias
@@ -19645,7 +19645,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateAccountAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'create-account-alias))
 (common-lisp:progn
  (common-lisp:defun create-group
@@ -19662,7 +19662,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateGroup"))
-      common-lisp:nil "CreateGroupResult" *error-map*)))
+      common-lisp:nil "CreateGroupResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-group))
 (common-lisp:progn
  (common-lisp:defun create-instance-profile
@@ -19680,7 +19680,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateInstanceProfile"))
-      common-lisp:nil "CreateInstanceProfileResult" *error-map*)))
+      common-lisp:nil "CreateInstanceProfileResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-instance-profile))
 (common-lisp:progn
  (common-lisp:defun create-login-profile
@@ -19699,7 +19700,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateLoginProfile"))
-      common-lisp:nil "CreateLoginProfileResult" *error-map*)))
+      common-lisp:nil "CreateLoginProfileResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-login-profile))
 (common-lisp:progn
  (common-lisp:defun create-open-idconnect-provider
@@ -19718,7 +19719,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateOpenIDConnectProvider"))
-      common-lisp:nil "CreateOpenIDConnectProviderResult" *error-map*)))
+      common-lisp:nil "CreateOpenIDConnectProviderResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-open-idconnect-provider))
 (common-lisp:progn
  (common-lisp:defun create-policy
@@ -19737,7 +19739,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreatePolicy"))
-      common-lisp:nil "CreatePolicyResult" *error-map*)))
+      common-lisp:nil "CreatePolicyResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-policy))
 (common-lisp:progn
  (common-lisp:defun create-policy-version
@@ -19756,7 +19758,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreatePolicyVersion"))
-      common-lisp:nil "CreatePolicyVersionResult" *error-map*)))
+      common-lisp:nil "CreatePolicyVersionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-policy-version))
 (common-lisp:progn
  (common-lisp:defun create-role
@@ -19777,7 +19780,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateRole"))
-      common-lisp:nil "CreateRoleResult" *error-map*)))
+      common-lisp:nil "CreateRoleResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-role))
 (common-lisp:progn
  (common-lisp:defun create-samlprovider
@@ -19795,7 +19798,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateSAMLProvider"))
-      common-lisp:nil "CreateSAMLProviderResult" *error-map*)))
+      common-lisp:nil "CreateSAMLProviderResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-samlprovider))
 (common-lisp:progn
  (common-lisp:defun create-service-linked-role
@@ -19815,7 +19818,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateServiceLinkedRole"))
-      common-lisp:nil "CreateServiceLinkedRoleResult" *error-map*)))
+      common-lisp:nil "CreateServiceLinkedRoleResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-service-linked-role))
 (common-lisp:progn
  (common-lisp:defun create-service-specific-credential
@@ -19833,7 +19837,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateServiceSpecificCredential"))
-      common-lisp:nil "CreateServiceSpecificCredentialResult" *error-map*)))
+      common-lisp:nil "CreateServiceSpecificCredentialResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-service-specific-credential))
 (common-lisp:progn
  (common-lisp:defun create-user
@@ -19851,7 +19856,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateUser"))
-      common-lisp:nil "CreateUserResult" *error-map*)))
+      common-lisp:nil "CreateUserResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-user))
 (common-lisp:progn
  (common-lisp:defun create-virtual-mfadevice
@@ -19869,7 +19874,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateVirtualMFADevice"))
-      common-lisp:nil "CreateVirtualMFADeviceResult" *error-map*)))
+      common-lisp:nil "CreateVirtualMFADeviceResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-virtual-mfadevice))
 (common-lisp:progn
  (common-lisp:defun deactivate-mfadevice
@@ -19886,7 +19892,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeactivateMFADevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'deactivate-mfadevice))
 (common-lisp:progn
  (common-lisp:defun delete-access-key
@@ -19903,7 +19909,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAccessKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-access-key))
 (common-lisp:progn
  (common-lisp:defun delete-account-alias
@@ -19920,7 +19926,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAccountAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-account-alias))
 (common-lisp:progn
  (common-lisp:defun delete-account-password-policy ()
@@ -19945,7 +19951,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-group))
 (common-lisp:progn
  (common-lisp:defun delete-group-policy
@@ -19962,7 +19968,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteGroupPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-group-policy))
 (common-lisp:progn
  (common-lisp:defun delete-instance-profile
@@ -19979,7 +19985,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteInstanceProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-instance-profile))
 (common-lisp:progn
  (common-lisp:defun delete-login-profile
@@ -19996,7 +20002,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteLoginProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-login-profile))
 (common-lisp:progn
  (common-lisp:defun delete-open-idconnect-provider
@@ -20014,7 +20020,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteOpenIDConnectProvider"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-open-idconnect-provider))
 (common-lisp:progn
  (common-lisp:defun delete-policy
@@ -20031,7 +20037,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeletePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-policy))
 (common-lisp:progn
  (common-lisp:defun delete-policy-version
@@ -20048,7 +20054,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeletePolicyVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-policy-version))
 (common-lisp:progn
  (common-lisp:defun delete-role
@@ -20065,7 +20071,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteRole"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-role))
 (common-lisp:progn
  (common-lisp:defun delete-role-permissions-boundary
@@ -20083,7 +20089,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteRolePermissionsBoundary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-role-permissions-boundary))
 (common-lisp:progn
  (common-lisp:defun delete-role-policy
@@ -20100,7 +20106,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteRolePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-role-policy))
 (common-lisp:progn
  (common-lisp:defun delete-samlprovider
@@ -20117,7 +20123,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteSAMLProvider"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-samlprovider))
 (common-lisp:progn
  (common-lisp:defun delete-sshpublic-key
@@ -20134,7 +20140,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteSSHPublicKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-sshpublic-key))
 (common-lisp:progn
  (common-lisp:defun delete-server-certificate
@@ -20152,7 +20158,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteServerCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-server-certificate))
 (common-lisp:progn
  (common-lisp:defun delete-service-linked-role
@@ -20170,7 +20176,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteServiceLinkedRole"))
-      common-lisp:nil "DeleteServiceLinkedRoleResult" *error-map*)))
+      common-lisp:nil "DeleteServiceLinkedRoleResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-service-linked-role))
 (common-lisp:progn
  (common-lisp:defun delete-service-specific-credential
@@ -20189,7 +20196,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteServiceSpecificCredential"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-service-specific-credential))
 (common-lisp:progn
  (common-lisp:defun delete-signing-certificate
@@ -20207,7 +20214,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteSigningCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-signing-certificate))
 (common-lisp:progn
  (common-lisp:defun delete-user
@@ -20224,7 +20231,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-user))
 (common-lisp:progn
  (common-lisp:defun delete-user-permissions-boundary
@@ -20242,7 +20249,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteUserPermissionsBoundary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-user-permissions-boundary))
 (common-lisp:progn
  (common-lisp:defun delete-user-policy
@@ -20259,7 +20266,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteUserPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-user-policy))
 (common-lisp:progn
  (common-lisp:defun delete-virtual-mfadevice
@@ -20276,7 +20283,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteVirtualMFADevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-virtual-mfadevice))
 (common-lisp:progn
  (common-lisp:defun detach-group-policy
@@ -20293,7 +20300,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetachGroupPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'detach-group-policy))
 (common-lisp:progn
  (common-lisp:defun detach-role-policy
@@ -20310,7 +20317,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetachRolePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'detach-role-policy))
 (common-lisp:progn
  (common-lisp:defun detach-user-policy
@@ -20327,7 +20334,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetachUserPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'detach-user-policy))
 (common-lisp:progn
  (common-lisp:defun enable-mfadevice
@@ -20347,7 +20354,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "EnableMFADevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'enable-mfadevice))
 (common-lisp:progn
  (common-lisp:defun generate-credential-report ()
@@ -20374,7 +20381,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GenerateOrganizationsAccessReport"))
-      common-lisp:nil "GenerateOrganizationsAccessReportResult" *error-map*)))
+      common-lisp:nil "GenerateOrganizationsAccessReportResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'generate-organizations-access-report))
 (common-lisp:progn
  (common-lisp:defun generate-service-last-accessed-details
@@ -20392,7 +20400,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GenerateServiceLastAccessedDetails"))
-      common-lisp:nil "GenerateServiceLastAccessedDetailsResult" *error-map*)))
+      common-lisp:nil "GenerateServiceLastAccessedDetailsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'generate-service-last-accessed-details))
 (common-lisp:progn
  (common-lisp:defun get-access-key-last-used
@@ -20409,7 +20418,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAccessKeyLastUsed"))
-      common-lisp:nil "GetAccessKeyLastUsedResult" *error-map*)))
+      common-lisp:nil "GetAccessKeyLastUsedResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-access-key-last-used))
 (common-lisp:progn
  (common-lisp:defun get-account-authorization-details
@@ -20427,7 +20437,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAccountAuthorizationDetails"))
-      common-lisp:nil "GetAccountAuthorizationDetailsResult" *error-map*)))
+      common-lisp:nil "GetAccountAuthorizationDetailsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-account-authorization-details))
 (common-lisp:progn
  (common-lisp:defun get-account-password-policy ()
@@ -20461,7 +20472,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetContextKeysForCustomPolicy"))
-      common-lisp:nil "GetContextKeysForCustomPolicyResult" *error-map*)))
+      common-lisp:nil "GetContextKeysForCustomPolicyResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-context-keys-for-custom-policy))
 (common-lisp:progn
  (common-lisp:defun get-context-keys-for-principal-policy
@@ -20480,7 +20492,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetContextKeysForPrincipalPolicy"))
-      common-lisp:nil "GetContextKeysForPrincipalPolicyResult" *error-map*)))
+      common-lisp:nil "GetContextKeysForPrincipalPolicyResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-context-keys-for-principal-policy))
 (common-lisp:progn
  (common-lisp:defun get-credential-report ()
@@ -20504,7 +20517,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'iam-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "GetGroup"))
-      common-lisp:nil "GetGroupResult" *error-map*)))
+      common-lisp:nil "GetGroupResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-group))
 (common-lisp:progn
  (common-lisp:defun get-group-policy
@@ -20521,7 +20534,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetGroupPolicy"))
-      common-lisp:nil "GetGroupPolicyResult" *error-map*)))
+      common-lisp:nil "GetGroupPolicyResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-group-policy))
 (common-lisp:progn
  (common-lisp:defun get-instance-profile
@@ -20538,7 +20551,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetInstanceProfile"))
-      common-lisp:nil "GetInstanceProfileResult" *error-map*)))
+      common-lisp:nil "GetInstanceProfileResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-instance-profile))
 (common-lisp:progn
  (common-lisp:defun get-login-profile
@@ -20555,7 +20568,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetLoginProfile"))
-      common-lisp:nil "GetLoginProfileResult" *error-map*)))
+      common-lisp:nil "GetLoginProfileResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-login-profile))
 (common-lisp:progn
  (common-lisp:defun get-mfadevice
@@ -20572,7 +20585,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetMFADevice"))
-      common-lisp:nil "GetMFADeviceResult" *error-map*)))
+      common-lisp:nil "GetMFADeviceResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-mfadevice))
 (common-lisp:progn
  (common-lisp:defun get-open-idconnect-provider
@@ -20590,7 +20603,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetOpenIDConnectProvider"))
-      common-lisp:nil "GetOpenIDConnectProviderResult" *error-map*)))
+      common-lisp:nil "GetOpenIDConnectProviderResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-open-idconnect-provider))
 (common-lisp:progn
  (common-lisp:defun get-organizations-access-report
@@ -20609,7 +20623,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetOrganizationsAccessReport"))
-      common-lisp:nil "GetOrganizationsAccessReportResult" *error-map*)))
+      common-lisp:nil "GetOrganizationsAccessReportResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-organizations-access-report))
 (common-lisp:progn
  (common-lisp:defun get-policy
@@ -20626,7 +20641,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetPolicy"))
-      common-lisp:nil "GetPolicyResult" *error-map*)))
+      common-lisp:nil "GetPolicyResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-policy))
 (common-lisp:progn
  (common-lisp:defun get-policy-version
@@ -20643,7 +20658,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetPolicyVersion"))
-      common-lisp:nil "GetPolicyVersionResult" *error-map*)))
+      common-lisp:nil "GetPolicyVersionResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-policy-version))
 (common-lisp:progn
  (common-lisp:defun get-role
@@ -20659,7 +20674,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'iam-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "GetRole"))
-      common-lisp:nil "GetRoleResult" *error-map*)))
+      common-lisp:nil "GetRoleResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-role))
 (common-lisp:progn
  (common-lisp:defun get-role-policy
@@ -20676,7 +20691,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetRolePolicy"))
-      common-lisp:nil "GetRolePolicyResult" *error-map*)))
+      common-lisp:nil "GetRolePolicyResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-role-policy))
 (common-lisp:progn
  (common-lisp:defun get-samlprovider
@@ -20693,7 +20708,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetSAMLProvider"))
-      common-lisp:nil "GetSAMLProviderResult" *error-map*)))
+      common-lisp:nil "GetSAMLProviderResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-samlprovider))
 (common-lisp:progn
  (common-lisp:defun get-sshpublic-key
@@ -20711,7 +20726,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetSSHPublicKey"))
-      common-lisp:nil "GetSSHPublicKeyResult" *error-map*)))
+      common-lisp:nil "GetSSHPublicKeyResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-sshpublic-key))
 (common-lisp:progn
  (common-lisp:defun get-server-certificate
@@ -20728,7 +20743,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetServerCertificate"))
-      common-lisp:nil "GetServerCertificateResult" *error-map*)))
+      common-lisp:nil "GetServerCertificateResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-server-certificate))
 (common-lisp:progn
  (common-lisp:defun get-service-last-accessed-details
@@ -20746,7 +20762,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetServiceLastAccessedDetails"))
-      common-lisp:nil "GetServiceLastAccessedDetailsResult" *error-map*)))
+      common-lisp:nil "GetServiceLastAccessedDetailsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-service-last-accessed-details))
 (common-lisp:progn
  (common-lisp:defun get-service-last-accessed-details-with-entities
@@ -20767,7 +20784,7 @@
                                                         "POST" "/"
                                                         "GetServiceLastAccessedDetailsWithEntities"))
       common-lisp:nil "GetServiceLastAccessedDetailsWithEntitiesResult"
-      *error-map*)))
+      *error-map* common-lisp:nil)))
  (common-lisp:export 'get-service-last-accessed-details-with-entities))
 (common-lisp:progn
  (common-lisp:defun get-service-linked-role-deletion-status
@@ -20785,7 +20802,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetServiceLinkedRoleDeletionStatus"))
-      common-lisp:nil "GetServiceLinkedRoleDeletionStatusResult" *error-map*)))
+      common-lisp:nil "GetServiceLinkedRoleDeletionStatusResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-service-linked-role-deletion-status))
 (common-lisp:progn
  (common-lisp:defun get-user
@@ -20801,7 +20819,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'iam-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "GetUser"))
-      common-lisp:nil "GetUserResult" *error-map*)))
+      common-lisp:nil "GetUserResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-user))
 (common-lisp:progn
  (common-lisp:defun get-user-policy
@@ -20818,7 +20836,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetUserPolicy"))
-      common-lisp:nil "GetUserPolicyResult" *error-map*)))
+      common-lisp:nil "GetUserPolicyResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-user-policy))
 (common-lisp:progn
  (common-lisp:defun list-access-keys
@@ -20835,7 +20853,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAccessKeys"))
-      common-lisp:nil "ListAccessKeysResult" *error-map*)))
+      common-lisp:nil "ListAccessKeysResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-access-keys))
 (common-lisp:progn
  (common-lisp:defun list-account-aliases
@@ -20852,7 +20870,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAccountAliases"))
-      common-lisp:nil "ListAccountAliasesResult" *error-map*)))
+      common-lisp:nil "ListAccountAliasesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-account-aliases))
 (common-lisp:progn
  (common-lisp:defun list-attached-group-policies
@@ -20871,7 +20889,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAttachedGroupPolicies"))
-      common-lisp:nil "ListAttachedGroupPoliciesResult" *error-map*)))
+      common-lisp:nil "ListAttachedGroupPoliciesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-attached-group-policies))
 (common-lisp:progn
  (common-lisp:defun list-attached-role-policies
@@ -20890,7 +20909,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAttachedRolePolicies"))
-      common-lisp:nil "ListAttachedRolePoliciesResult" *error-map*)))
+      common-lisp:nil "ListAttachedRolePoliciesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-attached-role-policies))
 (common-lisp:progn
  (common-lisp:defun list-attached-user-policies
@@ -20909,7 +20929,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAttachedUserPolicies"))
-      common-lisp:nil "ListAttachedUserPoliciesResult" *error-map*)))
+      common-lisp:nil "ListAttachedUserPoliciesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-attached-user-policies))
 (common-lisp:progn
  (common-lisp:defun list-entities-for-policy
@@ -20929,7 +20950,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListEntitiesForPolicy"))
-      common-lisp:nil "ListEntitiesForPolicyResult" *error-map*)))
+      common-lisp:nil "ListEntitiesForPolicyResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-entities-for-policy))
 (common-lisp:progn
  (common-lisp:defun list-group-policies
@@ -20946,7 +20968,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListGroupPolicies"))
-      common-lisp:nil "ListGroupPoliciesResult" *error-map*)))
+      common-lisp:nil "ListGroupPoliciesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-group-policies))
 (common-lisp:progn
  (common-lisp:defun list-groups
@@ -20963,7 +20985,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListGroups"))
-      common-lisp:nil "ListGroupsResult" *error-map*)))
+      common-lisp:nil "ListGroupsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-groups))
 (common-lisp:progn
  (common-lisp:defun list-groups-for-user
@@ -20980,7 +21002,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListGroupsForUser"))
-      common-lisp:nil "ListGroupsForUserResult" *error-map*)))
+      common-lisp:nil "ListGroupsForUserResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-groups-for-user))
 (common-lisp:progn
  (common-lisp:defun list-instance-profile-tags
@@ -20999,7 +21021,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListInstanceProfileTags"))
-      common-lisp:nil "ListInstanceProfileTagsResult" *error-map*)))
+      common-lisp:nil "ListInstanceProfileTagsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-instance-profile-tags))
 (common-lisp:progn
  (common-lisp:defun list-instance-profiles
@@ -21016,7 +21039,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListInstanceProfiles"))
-      common-lisp:nil "ListInstanceProfilesResult" *error-map*)))
+      common-lisp:nil "ListInstanceProfilesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-instance-profiles))
 (common-lisp:progn
  (common-lisp:defun list-instance-profiles-for-role
@@ -21034,7 +21058,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListInstanceProfilesForRole"))
-      common-lisp:nil "ListInstanceProfilesForRoleResult" *error-map*)))
+      common-lisp:nil "ListInstanceProfilesForRoleResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-instance-profiles-for-role))
 (common-lisp:progn
  (common-lisp:defun list-mfadevice-tags
@@ -21051,7 +21076,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListMFADeviceTags"))
-      common-lisp:nil "ListMFADeviceTagsResult" *error-map*)))
+      common-lisp:nil "ListMFADeviceTagsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-mfadevice-tags))
 (common-lisp:progn
  (common-lisp:defun list-mfadevices
@@ -21068,7 +21093,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListMFADevices"))
-      common-lisp:nil "ListMFADevicesResult" *error-map*)))
+      common-lisp:nil "ListMFADevicesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-mfadevices))
 (common-lisp:progn
  (common-lisp:defun list-open-idconnect-provider-tags
@@ -21088,7 +21113,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListOpenIDConnectProviderTags"))
-      common-lisp:nil "ListOpenIDConnectProviderTagsResult" *error-map*)))
+      common-lisp:nil "ListOpenIDConnectProviderTagsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-open-idconnect-provider-tags))
 (common-lisp:progn
  (common-lisp:defun list-open-idconnect-providers ()
@@ -21116,7 +21142,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPolicies"))
-      common-lisp:nil "ListPoliciesResult" *error-map*)))
+      common-lisp:nil "ListPoliciesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-policies))
 (common-lisp:progn
  (common-lisp:defun list-policies-granting-service-access
@@ -21134,7 +21160,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPoliciesGrantingServiceAccess"))
-      common-lisp:nil "ListPoliciesGrantingServiceAccessResult" *error-map*)))
+      common-lisp:nil "ListPoliciesGrantingServiceAccessResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-policies-granting-service-access))
 (common-lisp:progn
  (common-lisp:defun list-policy-tags
@@ -21151,7 +21178,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPolicyTags"))
-      common-lisp:nil "ListPolicyTagsResult" *error-map*)))
+      common-lisp:nil "ListPolicyTagsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-policy-tags))
 (common-lisp:progn
  (common-lisp:defun list-policy-versions
@@ -21168,7 +21195,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPolicyVersions"))
-      common-lisp:nil "ListPolicyVersionsResult" *error-map*)))
+      common-lisp:nil "ListPolicyVersionsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-policy-versions))
 (common-lisp:progn
  (common-lisp:defun list-role-policies
@@ -21185,7 +21212,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListRolePolicies"))
-      common-lisp:nil "ListRolePoliciesResult" *error-map*)))
+      common-lisp:nil "ListRolePoliciesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-role-policies))
 (common-lisp:progn
  (common-lisp:defun list-role-tags
@@ -21202,7 +21229,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListRoleTags"))
-      common-lisp:nil "ListRoleTagsResult" *error-map*)))
+      common-lisp:nil "ListRoleTagsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-role-tags))
 (common-lisp:progn
  (common-lisp:defun list-roles
@@ -21219,7 +21246,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListRoles"))
-      common-lisp:nil "ListRolesResult" *error-map*)))
+      common-lisp:nil "ListRolesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-roles))
 (common-lisp:progn
  (common-lisp:defun list-samlprovider-tags
@@ -21237,7 +21264,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListSAMLProviderTags"))
-      common-lisp:nil "ListSAMLProviderTagsResult" *error-map*)))
+      common-lisp:nil "ListSAMLProviderTagsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-samlprovider-tags))
 (common-lisp:progn
  (common-lisp:defun list-samlproviders ()
@@ -21262,7 +21290,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListSSHPublicKeys"))
-      common-lisp:nil "ListSSHPublicKeysResult" *error-map*)))
+      common-lisp:nil "ListSSHPublicKeysResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-sshpublic-keys))
 (common-lisp:progn
  (common-lisp:defun list-server-certificate-tags
@@ -21281,7 +21309,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListServerCertificateTags"))
-      common-lisp:nil "ListServerCertificateTagsResult" *error-map*)))
+      common-lisp:nil "ListServerCertificateTagsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-server-certificate-tags))
 (common-lisp:progn
  (common-lisp:defun list-server-certificates
@@ -21298,7 +21327,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListServerCertificates"))
-      common-lisp:nil "ListServerCertificatesResult" *error-map*)))
+      common-lisp:nil "ListServerCertificatesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-server-certificates))
 (common-lisp:progn
  (common-lisp:defun list-service-specific-credentials
@@ -21316,7 +21346,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListServiceSpecificCredentials"))
-      common-lisp:nil "ListServiceSpecificCredentialsResult" *error-map*)))
+      common-lisp:nil "ListServiceSpecificCredentialsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-service-specific-credentials))
 (common-lisp:progn
  (common-lisp:defun list-signing-certificates
@@ -21334,7 +21365,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListSigningCertificates"))
-      common-lisp:nil "ListSigningCertificatesResult" *error-map*)))
+      common-lisp:nil "ListSigningCertificatesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-signing-certificates))
 (common-lisp:progn
  (common-lisp:defun list-user-policies
@@ -21351,7 +21383,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListUserPolicies"))
-      common-lisp:nil "ListUserPoliciesResult" *error-map*)))
+      common-lisp:nil "ListUserPoliciesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-user-policies))
 (common-lisp:progn
  (common-lisp:defun list-user-tags
@@ -21368,7 +21400,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListUserTags"))
-      common-lisp:nil "ListUserTagsResult" *error-map*)))
+      common-lisp:nil "ListUserTagsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-user-tags))
 (common-lisp:progn
  (common-lisp:defun list-users
@@ -21385,7 +21417,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListUsers"))
-      common-lisp:nil "ListUsersResult" *error-map*)))
+      common-lisp:nil "ListUsersResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-users))
 (common-lisp:progn
  (common-lisp:defun list-virtual-mfadevices
@@ -21403,7 +21435,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListVirtualMFADevices"))
-      common-lisp:nil "ListVirtualMFADevicesResult" *error-map*)))
+      common-lisp:nil "ListVirtualMFADevicesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-virtual-mfadevices))
 (common-lisp:progn
  (common-lisp:defun put-group-policy
@@ -21421,7 +21454,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutGroupPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'put-group-policy))
 (common-lisp:progn
  (common-lisp:defun put-role-permissions-boundary
@@ -21439,7 +21472,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutRolePermissionsBoundary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'put-role-permissions-boundary))
 (common-lisp:progn
  (common-lisp:defun put-role-policy
@@ -21457,7 +21490,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutRolePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'put-role-policy))
 (common-lisp:progn
  (common-lisp:defun put-user-permissions-boundary
@@ -21475,7 +21508,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutUserPermissionsBoundary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'put-user-permissions-boundary))
 (common-lisp:progn
  (common-lisp:defun put-user-policy
@@ -21493,7 +21526,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutUserPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'put-user-policy))
 (common-lisp:progn
  (common-lisp:defun remove-client-idfrom-open-idconnect-provider
@@ -21512,7 +21545,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RemoveClientIDFromOpenIDConnectProvider"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'remove-client-idfrom-open-idconnect-provider))
 (common-lisp:progn
  (common-lisp:defun remove-role-from-instance-profile
@@ -21531,7 +21564,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RemoveRoleFromInstanceProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'remove-role-from-instance-profile))
 (common-lisp:progn
  (common-lisp:defun remove-user-from-group
@@ -21548,7 +21581,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RemoveUserFromGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'remove-user-from-group))
 (common-lisp:progn
  (common-lisp:defun reset-service-specific-credential
@@ -21567,7 +21600,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ResetServiceSpecificCredential"))
-      common-lisp:nil "ResetServiceSpecificCredentialResult" *error-map*)))
+      common-lisp:nil "ResetServiceSpecificCredentialResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'reset-service-specific-credential))
 (common-lisp:progn
  (common-lisp:defun resync-mfadevice
@@ -21587,7 +21621,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ResyncMFADevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'resync-mfadevice))
 (common-lisp:progn
  (common-lisp:defun set-default-policy-version
@@ -21605,7 +21639,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetDefaultPolicyVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'set-default-policy-version))
 (common-lisp:progn
  (common-lisp:defun set-security-token-service-preferences
@@ -21623,7 +21657,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetSecurityTokenServicePreferences"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'set-security-token-service-preferences))
 (common-lisp:progn
  (common-lisp:defun simulate-custom-policy
@@ -21647,7 +21681,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SimulateCustomPolicy"))
-      common-lisp:nil "SimulateCustomPolicyResult" *error-map*)))
+      common-lisp:nil "SimulateCustomPolicyResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'simulate-custom-policy))
 (common-lisp:progn
  (common-lisp:defun simulate-principal-policy
@@ -21672,7 +21707,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SimulatePrincipalPolicy"))
-      common-lisp:nil "SimulatePrincipalPolicyResult" *error-map*)))
+      common-lisp:nil "SimulatePrincipalPolicyResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'simulate-principal-policy))
 (common-lisp:progn
  (common-lisp:defun tag-instance-profile
@@ -21689,7 +21725,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagInstanceProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'tag-instance-profile))
 (common-lisp:progn
  (common-lisp:defun tag-mfadevice
@@ -21706,7 +21742,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagMFADevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'tag-mfadevice))
 (common-lisp:progn
  (common-lisp:defun tag-open-idconnect-provider
@@ -21725,7 +21761,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagOpenIDConnectProvider"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'tag-open-idconnect-provider))
 (common-lisp:progn
  (common-lisp:defun tag-policy
@@ -21742,7 +21778,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'tag-policy))
 (common-lisp:progn
  (common-lisp:defun tag-role
@@ -21758,7 +21794,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'iam-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "TagRole"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'tag-role))
 (common-lisp:progn
  (common-lisp:defun tag-samlprovider
@@ -21775,7 +21811,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagSAMLProvider"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'tag-samlprovider))
 (common-lisp:progn
  (common-lisp:defun tag-server-certificate
@@ -21792,7 +21828,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagServerCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'tag-server-certificate))
 (common-lisp:progn
  (common-lisp:defun tag-user
@@ -21808,7 +21844,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'iam-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "TagUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'tag-user))
 (common-lisp:progn
  (common-lisp:defun untag-instance-profile
@@ -21825,7 +21861,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagInstanceProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'untag-instance-profile))
 (common-lisp:progn
  (common-lisp:defun untag-mfadevice
@@ -21842,7 +21878,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagMFADevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'untag-mfadevice))
 (common-lisp:progn
  (common-lisp:defun untag-open-idconnect-provider
@@ -21861,7 +21897,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagOpenIDConnectProvider"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'untag-open-idconnect-provider))
 (common-lisp:progn
  (common-lisp:defun untag-policy
@@ -21878,7 +21914,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'untag-policy))
 (common-lisp:progn
  (common-lisp:defun untag-role
@@ -21895,7 +21931,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagRole"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'untag-role))
 (common-lisp:progn
  (common-lisp:defun untag-samlprovider
@@ -21912,7 +21948,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagSAMLProvider"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'untag-samlprovider))
 (common-lisp:progn
  (common-lisp:defun untag-server-certificate
@@ -21930,7 +21966,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagServerCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'untag-server-certificate))
 (common-lisp:progn
  (common-lisp:defun untag-user
@@ -21947,7 +21983,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'untag-user))
 (common-lisp:progn
  (common-lisp:defun update-access-key
@@ -21964,7 +22000,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateAccessKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'update-access-key))
 (common-lisp:progn
  (common-lisp:defun update-account-password-policy
@@ -21990,7 +22026,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateAccountPasswordPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'update-account-password-policy))
 (common-lisp:progn
  (common-lisp:defun update-assume-role-policy
@@ -22008,7 +22044,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateAssumeRolePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'update-assume-role-policy))
 (common-lisp:progn
  (common-lisp:defun update-group
@@ -22026,7 +22062,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'update-group))
 (common-lisp:progn
  (common-lisp:defun update-login-profile
@@ -22045,7 +22081,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateLoginProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'update-login-profile))
 (common-lisp:progn
  (common-lisp:defun update-open-idconnect-provider-thumbprint
@@ -22065,7 +22101,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateOpenIDConnectProviderThumbprint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'update-open-idconnect-provider-thumbprint))
 (common-lisp:progn
  (common-lisp:defun update-role
@@ -22084,7 +22120,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateRole"))
-      common-lisp:nil "UpdateRoleResult" *error-map*)))
+      common-lisp:nil "UpdateRoleResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'update-role))
 (common-lisp:progn
  (common-lisp:defun update-role-description
@@ -22101,7 +22137,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateRoleDescription"))
-      common-lisp:nil "UpdateRoleDescriptionResult" *error-map*)))
+      common-lisp:nil "UpdateRoleDescriptionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'update-role-description))
 (common-lisp:progn
  (common-lisp:defun update-samlprovider
@@ -22119,7 +22156,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateSAMLProvider"))
-      common-lisp:nil "UpdateSAMLProviderResult" *error-map*)))
+      common-lisp:nil "UpdateSAMLProviderResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'update-samlprovider))
 (common-lisp:progn
  (common-lisp:defun update-sshpublic-key
@@ -22137,7 +22174,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateSSHPublicKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'update-sshpublic-key))
 (common-lisp:progn
  (common-lisp:defun update-server-certificate
@@ -22158,7 +22195,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateServerCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'update-server-certificate))
 (common-lisp:progn
  (common-lisp:defun update-service-specific-credential
@@ -22178,7 +22215,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateServiceSpecificCredential"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'update-service-specific-credential))
 (common-lisp:progn
  (common-lisp:defun update-signing-certificate
@@ -22197,7 +22234,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateSigningCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'update-signing-certificate))
 (common-lisp:progn
  (common-lisp:defun update-user
@@ -22215,7 +22252,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'update-user))
 (common-lisp:progn
  (common-lisp:defun upload-sshpublic-key
@@ -22232,7 +22269,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UploadSSHPublicKey"))
-      common-lisp:nil "UploadSSHPublicKeyResult" *error-map*)))
+      common-lisp:nil "UploadSSHPublicKeyResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'upload-sshpublic-key))
 (common-lisp:progn
  (common-lisp:defun upload-server-certificate
@@ -22253,7 +22290,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UploadServerCertificate"))
-      common-lisp:nil "UploadServerCertificateResult" *error-map*)))
+      common-lisp:nil "UploadServerCertificateResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'upload-server-certificate))
 (common-lisp:progn
  (common-lisp:defun upload-signing-certificate
@@ -22271,5 +22309,6 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UploadSigningCertificate"))
-      common-lisp:nil "UploadSigningCertificateResult" *error-map*)))
+      common-lisp:nil "UploadSigningCertificateResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'upload-signing-certificate))

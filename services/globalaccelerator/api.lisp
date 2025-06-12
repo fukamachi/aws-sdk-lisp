@@ -8269,7 +8269,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "AddCustomRoutingEndpoints"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-custom-routing-endpoints))
 (common-lisp:progn
  (common-lisp:defun add-endpoints
@@ -8287,7 +8287,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "AddEndpoints"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-endpoints))
 (common-lisp:progn
  (common-lisp:defun advertise-byoip-cidr
@@ -8303,7 +8303,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "AdvertiseByoipCidr"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'advertise-byoip-cidr))
 (common-lisp:progn
  (common-lisp:defun allow-custom-routing-traffic
@@ -8324,7 +8324,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "AllowCustomRoutingTraffic"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'allow-custom-routing-traffic))
 (common-lisp:progn
  (common-lisp:defun create-accelerator
@@ -8343,7 +8343,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "CreateAccelerator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-accelerator))
 (common-lisp:progn
  (common-lisp:defun create-cross-account-attachment
@@ -8362,7 +8362,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "CreateCrossAccountAttachment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-cross-account-attachment))
 (common-lisp:progn
  (common-lisp:defun create-custom-routing-accelerator
@@ -8382,7 +8382,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "CreateCustomRoutingAccelerator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-custom-routing-accelerator))
 (common-lisp:progn
  (common-lisp:defun create-custom-routing-endpoint-group
@@ -8402,7 +8402,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "CreateCustomRoutingEndpointGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-custom-routing-endpoint-group))
 (common-lisp:progn
  (common-lisp:defun create-custom-routing-listener
@@ -8421,7 +8421,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "CreateCustomRoutingListener"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-custom-routing-listener))
 (common-lisp:progn
  (common-lisp:defun create-endpoint-group
@@ -8445,7 +8445,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "CreateEndpointGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-endpoint-group))
 (common-lisp:progn
  (common-lisp:defun create-listener
@@ -8464,7 +8464,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "CreateListener"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-listener))
 (common-lisp:progn
  (common-lisp:defun delete-accelerator
@@ -8480,7 +8480,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteAccelerator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-accelerator))
 (common-lisp:progn
  (common-lisp:defun delete-cross-account-attachment
@@ -8497,7 +8497,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteCrossAccountAttachment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-cross-account-attachment))
 (common-lisp:progn
  (common-lisp:defun delete-custom-routing-accelerator
@@ -8514,7 +8514,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteCustomRoutingAccelerator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-custom-routing-accelerator))
 (common-lisp:progn
  (common-lisp:defun delete-custom-routing-endpoint-group
@@ -8531,7 +8531,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteCustomRoutingEndpointGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-custom-routing-endpoint-group))
 (common-lisp:progn
  (common-lisp:defun delete-custom-routing-listener
@@ -8548,7 +8548,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteCustomRoutingListener"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-custom-routing-listener))
 (common-lisp:progn
  (common-lisp:defun delete-endpoint-group
@@ -8564,7 +8564,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteEndpointGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-endpoint-group))
 (common-lisp:progn
  (common-lisp:defun delete-listener
@@ -8580,7 +8580,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteListener"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-listener))
 (common-lisp:progn
  (common-lisp:defun deny-custom-routing-traffic
@@ -8601,7 +8601,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "DenyCustomRoutingTraffic"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deny-custom-routing-traffic))
 (common-lisp:progn
  (common-lisp:defun deprovision-byoip-cidr
@@ -8617,7 +8617,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "DeprovisionByoipCidr"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deprovision-byoip-cidr))
 (common-lisp:progn
  (common-lisp:defun describe-accelerator
@@ -8633,7 +8633,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeAccelerator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-accelerator))
 (common-lisp:progn
  (common-lisp:defun describe-accelerator-attributes
@@ -8650,7 +8650,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeAcceleratorAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-accelerator-attributes))
 (common-lisp:progn
  (common-lisp:defun describe-cross-account-attachment
@@ -8667,7 +8667,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeCrossAccountAttachment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-cross-account-attachment))
 (common-lisp:progn
  (common-lisp:defun describe-custom-routing-accelerator
@@ -8684,7 +8684,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeCustomRoutingAccelerator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-custom-routing-accelerator))
 (common-lisp:progn
  (common-lisp:defun describe-custom-routing-accelerator-attributes
@@ -8701,7 +8701,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeCustomRoutingAcceleratorAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-custom-routing-accelerator-attributes))
 (common-lisp:progn
  (common-lisp:defun describe-custom-routing-endpoint-group
@@ -8718,7 +8718,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeCustomRoutingEndpointGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-custom-routing-endpoint-group))
 (common-lisp:progn
  (common-lisp:defun describe-custom-routing-listener
@@ -8735,7 +8735,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeCustomRoutingListener"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-custom-routing-listener))
 (common-lisp:progn
  (common-lisp:defun describe-endpoint-group
@@ -8751,7 +8751,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeEndpointGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-endpoint-group))
 (common-lisp:progn
  (common-lisp:defun describe-listener
@@ -8767,7 +8767,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeListener"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-listener))
 (common-lisp:progn
  (common-lisp:defun list-accelerators
@@ -8783,7 +8783,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "ListAccelerators"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-accelerators))
 (common-lisp:progn
  (common-lisp:defun list-byoip-cidrs
@@ -8799,7 +8799,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "ListByoipCidrs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-byoip-cidrs))
 (common-lisp:progn
  (common-lisp:defun list-cross-account-attachments
@@ -8816,7 +8816,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "ListCrossAccountAttachments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-cross-account-attachments))
 (common-lisp:progn
  (common-lisp:defun list-cross-account-resource-accounts ()
@@ -8845,7 +8845,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "ListCrossAccountResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-cross-account-resources))
 (common-lisp:progn
  (common-lisp:defun list-custom-routing-accelerators
@@ -8862,7 +8862,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "ListCustomRoutingAccelerators"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-custom-routing-accelerators))
 (common-lisp:progn
  (common-lisp:defun list-custom-routing-endpoint-groups
@@ -8880,7 +8880,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "ListCustomRoutingEndpointGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-custom-routing-endpoint-groups))
 (common-lisp:progn
  (common-lisp:defun list-custom-routing-listeners
@@ -8898,7 +8898,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "ListCustomRoutingListeners"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-custom-routing-listeners))
 (common-lisp:progn
  (common-lisp:defun list-custom-routing-port-mappings
@@ -8918,7 +8918,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "ListCustomRoutingPortMappings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-custom-routing-port-mappings))
 (common-lisp:progn
  (common-lisp:defun list-custom-routing-port-mappings-by-destination
@@ -8938,7 +8938,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "ListCustomRoutingPortMappingsByDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-custom-routing-port-mappings-by-destination))
 (common-lisp:progn
  (common-lisp:defun list-endpoint-groups
@@ -8955,7 +8955,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "ListEndpointGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-endpoint-groups))
 (common-lisp:progn
  (common-lisp:defun list-listeners
@@ -8972,7 +8972,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "ListListeners"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-listeners))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -8988,7 +8988,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun provision-byoip-cidr
@@ -9005,7 +9005,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "ProvisionByoipCidr"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'provision-byoip-cidr))
 (common-lisp:progn
  (common-lisp:defun remove-custom-routing-endpoints
@@ -9023,7 +9023,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "RemoveCustomRoutingEndpoints"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-custom-routing-endpoints))
 (common-lisp:progn
  (common-lisp:defun remove-endpoints
@@ -9040,7 +9040,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "RemoveEndpoints"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-endpoints))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -9056,7 +9056,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -9072,7 +9072,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-accelerator
@@ -9090,7 +9090,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateAccelerator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-accelerator))
 (common-lisp:progn
  (common-lisp:defun update-accelerator-attributes
@@ -9110,7 +9110,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateAcceleratorAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-accelerator-attributes))
 (common-lisp:progn
  (common-lisp:defun update-cross-account-attachment
@@ -9130,7 +9130,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateCrossAccountAttachment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-cross-account-attachment))
 (common-lisp:progn
  (common-lisp:defun update-custom-routing-accelerator
@@ -9149,7 +9149,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateCustomRoutingAccelerator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-custom-routing-accelerator))
 (common-lisp:progn
  (common-lisp:defun update-custom-routing-accelerator-attributes
@@ -9169,7 +9169,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateCustomRoutingAcceleratorAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-custom-routing-accelerator-attributes))
 (common-lisp:progn
  (common-lisp:defun update-custom-routing-listener
@@ -9186,7 +9186,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateCustomRoutingListener"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-custom-routing-listener))
 (common-lisp:progn
  (common-lisp:defun update-endpoint-group
@@ -9210,7 +9210,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateEndpointGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-endpoint-group))
 (common-lisp:progn
  (common-lisp:defun update-listener
@@ -9228,7 +9228,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateListener"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-listener))
 (common-lisp:progn
  (common-lisp:defun withdraw-byoip-cidr
@@ -9244,5 +9244,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'globalaccelerator-request aws-sdk/generator/operation::input "POST"
         "/" "WithdrawByoipCidr"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'withdraw-byoip-cidr))

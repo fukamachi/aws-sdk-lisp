@@ -7984,7 +7984,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchUpdateCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-update-cluster))
 (common-lisp:progn
  (common-lisp:defun copy-snapshot
@@ -8004,7 +8004,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CopySnapshot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'copy-snapshot))
 (common-lisp:progn
  (common-lisp:defun create-acl
@@ -8021,7 +8021,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateACL"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-acl))
 (common-lisp:progn
  (common-lisp:defun create-cluster
@@ -8050,7 +8050,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-cluster))
 (common-lisp:progn
  (common-lisp:defun create-parameter-group
@@ -8069,7 +8069,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateParameterGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-parameter-group))
 (common-lisp:progn
  (common-lisp:defun create-snapshot
@@ -8088,7 +8088,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateSnapshot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-snapshot))
 (common-lisp:progn
  (common-lisp:defun create-subnet-group
@@ -8107,7 +8107,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateSubnetGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-subnet-group))
 (common-lisp:progn
  (common-lisp:defun create-user
@@ -8126,7 +8126,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-user))
 (common-lisp:progn
  (common-lisp:defun delete-acl
@@ -8143,7 +8143,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteACL"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-acl))
 (common-lisp:progn
  (common-lisp:defun delete-cluster
@@ -8161,7 +8161,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-cluster))
 (common-lisp:progn
  (common-lisp:defun delete-parameter-group
@@ -8178,7 +8178,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteParameterGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-parameter-group))
 (common-lisp:progn
  (common-lisp:defun delete-snapshot
@@ -8195,7 +8195,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteSnapshot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-snapshot))
 (common-lisp:progn
  (common-lisp:defun delete-subnet-group
@@ -8212,7 +8212,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteSubnetGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-subnet-group))
 (common-lisp:progn
  (common-lisp:defun delete-user
@@ -8229,7 +8229,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-user))
 (common-lisp:progn
  (common-lisp:defun describe-acls
@@ -8246,7 +8246,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeACLs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-acls))
 (common-lisp:progn
  (common-lisp:defun describe-clusters
@@ -8266,7 +8266,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeClusters"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-clusters))
 (common-lisp:progn
  (common-lisp:defun describe-engine-versions
@@ -8286,7 +8286,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEngineVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-engine-versions))
 (common-lisp:progn
  (common-lisp:defun describe-events
@@ -8306,7 +8306,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEvents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-events))
 (common-lisp:progn
  (common-lisp:defun describe-parameter-groups
@@ -8326,7 +8326,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeParameterGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-parameter-groups))
 (common-lisp:progn
  (common-lisp:defun describe-parameters
@@ -8345,7 +8345,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeParameters"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-parameters))
 (common-lisp:progn
  (common-lisp:defun describe-reserved-nodes
@@ -8365,7 +8365,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeReservedNodes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-reserved-nodes))
 (common-lisp:progn
  (common-lisp:defun describe-reserved-nodes-offerings
@@ -8386,7 +8386,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeReservedNodesOfferings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-reserved-nodes-offerings))
 (common-lisp:progn
  (common-lisp:defun describe-service-updates
@@ -8406,7 +8406,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeServiceUpdates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-service-updates))
 (common-lisp:progn
  (common-lisp:defun describe-snapshots
@@ -8426,7 +8426,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeSnapshots"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-snapshots))
 (common-lisp:progn
  (common-lisp:defun describe-subnet-groups
@@ -8444,7 +8444,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeSubnetGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-subnet-groups))
 (common-lisp:progn
  (common-lisp:defun describe-users
@@ -8462,7 +8462,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeUsers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-users))
 (common-lisp:progn
  (common-lisp:defun failover-shard
@@ -8479,7 +8479,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "FailoverShard"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'failover-shard))
 (common-lisp:progn
  (common-lisp:defun list-allowed-node-type-updates
@@ -8497,7 +8497,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAllowedNodeTypeUpdates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-allowed-node-type-updates))
 (common-lisp:progn
  (common-lisp:defun list-tags
@@ -8513,7 +8513,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'memorydb-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "ListTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags))
 (common-lisp:progn
  (common-lisp:defun purchase-reserved-nodes-offering
@@ -8534,7 +8534,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PurchaseReservedNodesOffering"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'purchase-reserved-nodes-offering))
 (common-lisp:progn
  (common-lisp:defun reset-parameter-group
@@ -8554,7 +8554,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ResetParameterGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reset-parameter-group))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -8571,7 +8571,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -8588,7 +8588,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-acl
@@ -8607,7 +8607,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateACL"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-acl))
 (common-lisp:progn
  (common-lisp:defun update-cluster
@@ -8632,7 +8632,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-cluster))
 (common-lisp:progn
  (common-lisp:defun update-parameter-group
@@ -8651,7 +8651,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateParameterGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-parameter-group))
 (common-lisp:progn
  (common-lisp:defun update-subnet-group
@@ -8669,7 +8669,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateSubnetGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-subnet-group))
 (common-lisp:progn
  (common-lisp:defun update-user
@@ -8688,5 +8688,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-user))

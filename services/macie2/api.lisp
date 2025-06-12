@@ -17943,7 +17943,7 @@
                                                         "POST"
                                                         "/invitations/accept"
                                                         "AcceptInvitation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'accept-invitation))
 (common-lisp:progn
  (common-lisp:defun batch-get-custom-data-identifiers
@@ -17962,7 +17962,7 @@
                                                         "POST"
                                                         "/custom-data-identifiers/get"
                                                         "BatchGetCustomDataIdentifiers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-custom-data-identifiers))
 (common-lisp:progn
  (common-lisp:defun create-allow-list
@@ -17981,7 +17981,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/allow-lists"
                                                         "CreateAllowList"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-allow-list))
 (common-lisp:progn
  (common-lisp:defun create-classification-job
@@ -18007,7 +18007,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/jobs"
                                                         "CreateClassificationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-classification-job))
 (common-lisp:progn
  (common-lisp:defun create-custom-data-identifier
@@ -18030,7 +18030,7 @@
                                                         "POST"
                                                         "/custom-data-identifiers"
                                                         "CreateCustomDataIdentifier"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-custom-data-identifier))
 (common-lisp:progn
  (common-lisp:defun create-findings-filter
@@ -18051,7 +18051,7 @@
                                                         "POST"
                                                         "/findingsfilters"
                                                         "CreateFindingsFilter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-findings-filter))
 (common-lisp:progn
  (common-lisp:defun create-invitations
@@ -18070,7 +18070,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/invitations"
                                                         "CreateInvitations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-invitations))
 (common-lisp:progn
  (common-lisp:defun create-member
@@ -18087,7 +18087,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/members"
                                                         "CreateMember"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-member))
 (common-lisp:progn
  (common-lisp:defun create-sample-findings
@@ -18105,7 +18105,7 @@
                                                         "POST"
                                                         "/findings/sample"
                                                         "CreateSampleFindings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-sample-findings))
 (common-lisp:progn
  (common-lisp:defun decline-invitations
@@ -18123,7 +18123,7 @@
                                                         "POST"
                                                         "/invitations/decline"
                                                         "DeclineInvitations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'decline-invitations))
 (common-lisp:progn
  (common-lisp:defun delete-allow-list
@@ -18150,7 +18150,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteAllowList"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-allow-list))
 (common-lisp:progn
  (common-lisp:defun delete-custom-data-identifier
@@ -18178,7 +18178,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteCustomDataIdentifier"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-custom-data-identifier))
 (common-lisp:progn
  (common-lisp:defun delete-findings-filter
@@ -18205,7 +18205,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteFindingsFilter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-findings-filter))
 (common-lisp:progn
  (common-lisp:defun delete-invitations
@@ -18223,7 +18223,7 @@
                                                         "POST"
                                                         "/invitations/delete"
                                                         "DeleteInvitations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-invitations))
 (common-lisp:progn
  (common-lisp:defun delete-member
@@ -18250,7 +18250,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteMember"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-member))
 (common-lisp:progn
  (common-lisp:defun describe-buckets
@@ -18270,7 +18270,7 @@
                                                         "POST"
                                                         "/datasources/s3"
                                                         "DescribeBuckets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-buckets))
 (common-lisp:progn
  (common-lisp:defun describe-classification-job
@@ -18298,7 +18298,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "DescribeClassificationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-classification-job))
 (common-lisp:progn
  (common-lisp:defun describe-organization-configuration ()
@@ -18333,7 +18333,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "DELETE" "/admin"
                                                         "DisableOrganizationAdminAccount"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disable-organization-admin-account))
 (common-lisp:progn
  (common-lisp:defun disassociate-from-administrator-account ()
@@ -18378,7 +18378,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DisassociateMember"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-member))
 (common-lisp:progn
  (common-lisp:defun enable-macie
@@ -18397,7 +18397,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/macie"
                                                         "EnableMacie"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-macie))
 (common-lisp:progn
  (common-lisp:defun enable-organization-admin-account
@@ -18415,7 +18415,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/admin"
                                                         "EnableOrganizationAdminAccount"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-organization-admin-account))
 (common-lisp:progn
  (common-lisp:defun get-administrator-account ()
@@ -18451,7 +18451,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetAllowList"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-allow-list))
 (common-lisp:progn
  (common-lisp:defun get-automated-discovery-configuration ()
@@ -18478,7 +18478,7 @@
                                                         "POST"
                                                         "/datasources/s3/statistics"
                                                         "GetBucketStatistics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-bucket-statistics))
 (common-lisp:progn
  (common-lisp:defun get-classification-export-configuration ()
@@ -18515,7 +18515,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetClassificationScope"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-classification-scope))
 (common-lisp:progn
  (common-lisp:defun get-custom-data-identifier
@@ -18543,7 +18543,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetCustomDataIdentifier"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-custom-data-identifier))
 (common-lisp:progn
  (common-lisp:defun get-finding-statistics
@@ -18563,7 +18563,7 @@
                                                         "POST"
                                                         "/findings/statistics"
                                                         "GetFindingStatistics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-finding-statistics))
 (common-lisp:progn
  (common-lisp:defun get-findings
@@ -18581,7 +18581,7 @@
                                                         "POST"
                                                         "/findings/describe"
                                                         "GetFindings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-findings))
 (common-lisp:progn
  (common-lisp:defun get-findings-filter
@@ -18608,7 +18608,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetFindingsFilter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-findings-filter))
 (common-lisp:progn
  (common-lisp:defun get-findings-publication-configuration ()
@@ -18670,7 +18670,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetMember"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-member))
 (common-lisp:progn
  (common-lisp:defun get-resource-profile
@@ -18688,7 +18688,7 @@
                                                         "GET"
                                                         "/resource-profiles"
                                                         "GetResourceProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-profile))
 (common-lisp:progn
  (common-lisp:defun get-reveal-configuration ()
@@ -18725,7 +18725,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'finding-id))))
                                                         "GetSensitiveDataOccurrences"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sensitive-data-occurrences))
 (common-lisp:progn
  (common-lisp:defun get-sensitive-data-occurrences-availability
@@ -18753,7 +18753,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'finding-id))))
                                                         "GetSensitiveDataOccurrencesAvailability"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sensitive-data-occurrences-availability))
 (common-lisp:progn
  (common-lisp:defun get-sensitivity-inspection-template
@@ -18781,7 +18781,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetSensitivityInspectionTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sensitivity-inspection-template))
 (common-lisp:progn
  (common-lisp:defun get-usage-statistics
@@ -18802,7 +18802,7 @@
                                                         "POST"
                                                         "/usage/statistics"
                                                         "GetUsageStatistics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-usage-statistics))
 (common-lisp:progn
  (common-lisp:defun get-usage-totals
@@ -18819,7 +18819,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/usage"
                                                         "GetUsageTotals"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-usage-totals))
 (common-lisp:progn
  (common-lisp:defun list-allow-lists
@@ -18836,7 +18836,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/allow-lists"
                                                         "ListAllowLists"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-allow-lists))
 (common-lisp:progn
  (common-lisp:defun list-classification-jobs
@@ -18856,7 +18856,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/jobs/list"
                                                         "ListClassificationJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-classification-jobs))
 (common-lisp:progn
  (common-lisp:defun list-classification-scopes
@@ -18875,7 +18875,7 @@
                                                         "GET"
                                                         "/classification-scopes"
                                                         "ListClassificationScopes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-classification-scopes))
 (common-lisp:progn
  (common-lisp:defun list-custom-data-identifiers
@@ -18894,7 +18894,7 @@
                                                         "POST"
                                                         "/custom-data-identifiers/list"
                                                         "ListCustomDataIdentifiers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-custom-data-identifiers))
 (common-lisp:progn
  (common-lisp:defun list-findings
@@ -18914,7 +18914,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/findings"
                                                         "ListFindings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-findings))
 (common-lisp:progn
  (common-lisp:defun list-findings-filters
@@ -18932,7 +18932,7 @@
                                                         "GET"
                                                         "/findingsfilters"
                                                         "ListFindingsFilters"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-findings-filters))
 (common-lisp:progn
  (common-lisp:defun list-invitations
@@ -18949,7 +18949,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/invitations"
                                                         "ListInvitations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-invitations))
 (common-lisp:progn
  (common-lisp:defun list-managed-data-identifiers
@@ -18968,7 +18968,7 @@
                                                         "POST"
                                                         "/managed-data-identifiers/list"
                                                         "ListManagedDataIdentifiers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-managed-data-identifiers))
 (common-lisp:progn
  (common-lisp:defun list-members
@@ -18986,7 +18986,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/members"
                                                         "ListMembers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-members))
 (common-lisp:progn
  (common-lisp:defun list-organization-admin-accounts
@@ -19004,7 +19004,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/admin"
                                                         "ListOrganizationAdminAccounts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-organization-admin-accounts))
 (common-lisp:progn
  (common-lisp:defun list-resource-profile-artifacts
@@ -19023,7 +19023,7 @@
                                                         "GET"
                                                         "/resource-profiles/artifacts"
                                                         "ListResourceProfileArtifacts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-resource-profile-artifacts))
 (common-lisp:progn
  (common-lisp:defun list-resource-profile-detections
@@ -19043,7 +19043,7 @@
                                                         "GET"
                                                         "/resource-profiles/detections"
                                                         "ListResourceProfileDetections"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-resource-profile-detections))
 (common-lisp:progn
  (common-lisp:defun list-sensitivity-inspection-templates
@@ -19062,7 +19062,7 @@
                                                         "GET"
                                                         "/templates/sensitivity-inspections"
                                                         "ListSensitivityInspectionTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-sensitivity-inspection-templates))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -19089,7 +19089,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-classification-export-configuration
@@ -19108,7 +19108,7 @@
                                                         "PUT"
                                                         "/classification-export-configuration"
                                                         "PutClassificationExportConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-classification-export-configuration))
 (common-lisp:progn
  (common-lisp:defun put-findings-publication-configuration
@@ -19128,7 +19128,7 @@
                                                         "PUT"
                                                         "/findings-publication-configuration"
                                                         "PutFindingsPublicationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-findings-publication-configuration))
 (common-lisp:progn
  (common-lisp:defun search-resources
@@ -19149,7 +19149,7 @@
                                                         "POST"
                                                         "/datasources/search-resources"
                                                         "SearchResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-resources))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -19176,7 +19176,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun test-custom-data-identifier
@@ -19198,7 +19198,7 @@
                                                         "POST"
                                                         "/custom-data-identifiers/test"
                                                         "TestCustomDataIdentifier"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'test-custom-data-identifier))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -19225,7 +19225,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-allow-list
@@ -19252,7 +19252,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateAllowList"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-allow-list))
 (common-lisp:progn
  (common-lisp:defun update-automated-discovery-configuration
@@ -19271,7 +19271,7 @@
                                                         "PUT"
                                                         "/automated-discovery/configuration"
                                                         "UpdateAutomatedDiscoveryConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-automated-discovery-configuration))
 (common-lisp:progn
  (common-lisp:defun update-classification-job
@@ -19299,7 +19299,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "UpdateClassificationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-classification-job))
 (common-lisp:progn
  (common-lisp:defun update-classification-scope
@@ -19327,7 +19327,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateClassificationScope"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-classification-scope))
 (common-lisp:progn
  (common-lisp:defun update-findings-filter
@@ -19357,7 +19357,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateFindingsFilter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-findings-filter))
 (common-lisp:progn
  (common-lisp:defun update-macie-session
@@ -19375,7 +19375,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PATCH" "/macie"
                                                         "UpdateMacieSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-macie-session))
 (common-lisp:progn
  (common-lisp:defun update-member-session
@@ -19402,7 +19402,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateMemberSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-member-session))
 (common-lisp:progn
  (common-lisp:defun update-organization-configuration
@@ -19421,7 +19421,7 @@
                                                         "PATCH"
                                                         "/admin/configuration"
                                                         "UpdateOrganizationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-organization-configuration))
 (common-lisp:progn
  (common-lisp:defun update-resource-profile
@@ -19440,7 +19440,7 @@
                                                         "PATCH"
                                                         "/resource-profiles"
                                                         "UpdateResourceProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-resource-profile))
 (common-lisp:progn
  (common-lisp:defun update-resource-profile-detections
@@ -19460,7 +19460,7 @@
                                                         "PATCH"
                                                         "/resource-profiles/detections"
                                                         "UpdateResourceProfileDetections"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-resource-profile-detections))
 (common-lisp:progn
  (common-lisp:defun update-reveal-configuration
@@ -19480,7 +19480,7 @@
                                                         "PUT"
                                                         "/reveal-configuration"
                                                         "UpdateRevealConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-reveal-configuration))
 (common-lisp:progn
  (common-lisp:defun update-sensitivity-inspection-template
@@ -19509,5 +19509,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateSensitivityInspectionTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-sensitivity-inspection-template))

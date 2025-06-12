@@ -8294,7 +8294,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/Traces"
                                                         "BatchGetTraces"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-traces))
 (common-lisp:progn
  (common-lisp:defun create-group
@@ -8314,7 +8314,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/CreateGroup"
                                                         "CreateGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-group))
 (common-lisp:progn
  (common-lisp:defun create-sampling-rule
@@ -8332,7 +8332,7 @@
                                                         "POST"
                                                         "/CreateSamplingRule"
                                                         "CreateSamplingRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-sampling-rule))
 (common-lisp:progn
  (common-lisp:defun delete-group
@@ -8349,7 +8349,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/DeleteGroup"
                                                         "DeleteGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-group))
 (common-lisp:progn
  (common-lisp:defun delete-resource-policy
@@ -8367,7 +8367,7 @@
                                                         "POST"
                                                         "/DeleteResourcePolicy"
                                                         "DeleteResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resource-policy))
 (common-lisp:progn
  (common-lisp:defun delete-sampling-rule
@@ -8385,7 +8385,7 @@
                                                         "POST"
                                                         "/DeleteSamplingRule"
                                                         "DeleteSamplingRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-sampling-rule))
 (common-lisp:progn
  (common-lisp:defun get-encryption-config ()
@@ -8411,7 +8411,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/GetGroup"
                                                         "GetGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-group))
 (common-lisp:progn
  (common-lisp:defun get-groups
@@ -8428,7 +8428,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/Groups"
                                                         "GetGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-groups))
 (common-lisp:progn
  (common-lisp:defun get-insight
@@ -8445,7 +8445,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/Insight"
                                                         "GetInsight"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-insight))
 (common-lisp:progn
  (common-lisp:defun get-insight-events
@@ -8463,7 +8463,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/InsightEvents"
                                                         "GetInsightEvents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-insight-events))
 (common-lisp:progn
  (common-lisp:defun get-insight-impact-graph
@@ -8483,7 +8483,7 @@
                                                         "POST"
                                                         "/InsightImpactGraph"
                                                         "GetInsightImpactGraph"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-insight-impact-graph))
 (common-lisp:progn
  (common-lisp:defun get-insight-summaries
@@ -8504,7 +8504,7 @@
                                                         "POST"
                                                         "/InsightSummaries"
                                                         "GetInsightSummaries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-insight-summaries))
 (common-lisp:progn
  (common-lisp:defun get-sampling-rules
@@ -8522,7 +8522,7 @@
                                                         "POST"
                                                         "/GetSamplingRules"
                                                         "GetSamplingRules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sampling-rules))
 (common-lisp:progn
  (common-lisp:defun get-sampling-statistic-summaries
@@ -8541,7 +8541,7 @@
                                                         "POST"
                                                         "/SamplingStatisticSummaries"
                                                         "GetSamplingStatisticSummaries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sampling-statistic-summaries))
 (common-lisp:progn
  (common-lisp:defun get-sampling-targets
@@ -8559,7 +8559,7 @@
                                                         "POST"
                                                         "/SamplingTargets"
                                                         "GetSamplingTargets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sampling-targets))
 (common-lisp:progn
  (common-lisp:defun get-service-graph
@@ -8579,7 +8579,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/ServiceGraph"
                                                         "GetServiceGraph"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-service-graph))
 (common-lisp:progn
  (common-lisp:defun get-time-series-service-statistics
@@ -8602,7 +8602,7 @@
                                                         "POST"
                                                         "/TimeSeriesServiceStatistics"
                                                         "GetTimeSeriesServiceStatistics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-time-series-service-statistics))
 (common-lisp:progn
  (common-lisp:defun get-trace-graph
@@ -8619,7 +8619,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/TraceGraph"
                                                         "GetTraceGraph"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-trace-graph))
 (common-lisp:progn
  (common-lisp:defun get-trace-summaries
@@ -8640,7 +8640,7 @@
                                                         "POST"
                                                         "/TraceSummaries"
                                                         "GetTraceSummaries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-trace-summaries))
 (common-lisp:progn
  (common-lisp:defun list-resource-policies
@@ -8658,7 +8658,7 @@
                                                         "POST"
                                                         "/ListResourcePolicies"
                                                         "ListResourcePolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-resource-policies))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -8676,7 +8676,7 @@
                                                         "POST"
                                                         "/ListTagsForResource"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-encryption-config
@@ -8694,7 +8694,7 @@
                                                         "POST"
                                                         "/PutEncryptionConfig"
                                                         "PutEncryptionConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-encryption-config))
 (common-lisp:progn
  (common-lisp:defun put-resource-policy
@@ -8715,7 +8715,7 @@
                                                         "POST"
                                                         "/PutResourcePolicy"
                                                         "PutResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-resource-policy))
 (common-lisp:progn
  (common-lisp:defun put-telemetry-records
@@ -8736,7 +8736,7 @@
                                                         "POST"
                                                         "/TelemetryRecords"
                                                         "PutTelemetryRecords"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-telemetry-records))
 (common-lisp:progn
  (common-lisp:defun put-trace-segments
@@ -8753,7 +8753,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/TraceSegments"
                                                         "PutTraceSegments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-trace-segments))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -8770,7 +8770,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/TagResource"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -8787,7 +8787,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/UntagResource"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-group
@@ -8807,7 +8807,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/UpdateGroup"
                                                         "UpdateGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-group))
 (common-lisp:progn
  (common-lisp:defun update-sampling-rule
@@ -8825,5 +8825,5 @@
                                                         "POST"
                                                         "/UpdateSamplingRule"
                                                         "UpdateSamplingRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-sampling-rule))

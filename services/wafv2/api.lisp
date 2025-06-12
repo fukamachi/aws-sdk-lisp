@@ -14659,7 +14659,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateWebACL"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-web-acl))
 (common-lisp:progn
  (common-lisp:defun check-capacity
@@ -14676,7 +14676,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CheckCapacity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'check-capacity))
 (common-lisp:progn
  (common-lisp:defun create-apikey
@@ -14693,7 +14693,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateAPIKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-apikey))
 (common-lisp:progn
  (common-lisp:defun create-ipset
@@ -14713,7 +14713,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateIPSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-ipset))
 (common-lisp:progn
  (common-lisp:defun create-regex-pattern-set
@@ -14733,7 +14733,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateRegexPatternSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-regex-pattern-set))
 (common-lisp:progn
  (common-lisp:defun create-rule-group
@@ -14753,7 +14753,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateRuleGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-rule-group))
 (common-lisp:progn
  (common-lisp:defun create-web-acl
@@ -14776,7 +14776,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateWebACL"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-web-acl))
 (common-lisp:progn
  (common-lisp:defun delete-apikey
@@ -14793,7 +14793,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAPIKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-apikey))
 (common-lisp:progn
  (common-lisp:defun delete-firewall-manager-rule-groups
@@ -14811,7 +14811,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteFirewallManagerRuleGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-firewall-manager-rule-groups))
 (common-lisp:progn
  (common-lisp:defun delete-ipset
@@ -14828,7 +14828,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteIPSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-ipset))
 (common-lisp:progn
  (common-lisp:defun delete-logging-configuration
@@ -14846,7 +14846,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteLoggingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-logging-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-permission-policy
@@ -14863,7 +14863,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeletePermissionPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-permission-policy))
 (common-lisp:progn
  (common-lisp:defun delete-regex-pattern-set
@@ -14880,7 +14880,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteRegexPatternSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-regex-pattern-set))
 (common-lisp:progn
  (common-lisp:defun delete-rule-group
@@ -14897,7 +14897,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteRuleGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-rule-group))
 (common-lisp:progn
  (common-lisp:defun delete-web-acl
@@ -14914,7 +14914,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteWebACL"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-web-acl))
 (common-lisp:progn
  (common-lisp:defun describe-all-managed-products
@@ -14932,7 +14932,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAllManagedProducts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-all-managed-products))
 (common-lisp:progn
  (common-lisp:defun describe-managed-products-by-vendor
@@ -14950,7 +14950,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeManagedProductsByVendor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-managed-products-by-vendor))
 (common-lisp:progn
  (common-lisp:defun describe-managed-rule-group
@@ -14969,7 +14969,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeManagedRuleGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-managed-rule-group))
 (common-lisp:progn
  (common-lisp:defun disassociate-web-acl
@@ -14986,7 +14986,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateWebACL"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-web-acl))
 (common-lisp:progn
  (common-lisp:defun generate-mobile-sdk-release-url
@@ -15004,7 +15004,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GenerateMobileSdkReleaseUrl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'generate-mobile-sdk-release-url))
 (common-lisp:progn
  (common-lisp:defun get-decrypted-apikey
@@ -15021,7 +15021,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDecryptedAPIKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-decrypted-apikey))
 (common-lisp:progn
  (common-lisp:defun get-ipset
@@ -15037,7 +15037,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'wafv2-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "GetIPSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-ipset))
 (common-lisp:progn
  (common-lisp:defun get-logging-configuration
@@ -15055,7 +15055,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetLoggingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-logging-configuration))
 (common-lisp:progn
  (common-lisp:defun get-managed-rule-set
@@ -15072,7 +15072,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetManagedRuleSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-managed-rule-set))
 (common-lisp:progn
  (common-lisp:defun get-mobile-sdk-release
@@ -15089,7 +15089,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetMobileSdkRelease"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-mobile-sdk-release))
 (common-lisp:progn
  (common-lisp:defun get-permission-policy
@@ -15106,7 +15106,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetPermissionPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-permission-policy))
 (common-lisp:progn
  (common-lisp:defun get-rate-based-statement-managed-keys
@@ -15127,7 +15127,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetRateBasedStatementManagedKeys"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-rate-based-statement-managed-keys))
 (common-lisp:progn
  (common-lisp:defun get-regex-pattern-set
@@ -15144,7 +15144,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetRegexPatternSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-regex-pattern-set))
 (common-lisp:progn
  (common-lisp:defun get-rule-group
@@ -15161,7 +15161,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetRuleGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-rule-group))
 (common-lisp:progn
  (common-lisp:defun get-sampled-requests
@@ -15181,7 +15181,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetSampledRequests"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sampled-requests))
 (common-lisp:progn
  (common-lisp:defun get-web-acl
@@ -15198,7 +15198,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetWebACL"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-web-acl))
 (common-lisp:progn
  (common-lisp:defun get-web-aclfor-resource
@@ -15215,7 +15215,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetWebACLForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-web-aclfor-resource))
 (common-lisp:progn
  (common-lisp:defun list-apikeys
@@ -15232,7 +15232,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAPIKeys"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-apikeys))
 (common-lisp:progn
  (common-lisp:defun list-available-managed-rule-group-versions
@@ -15251,7 +15251,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAvailableManagedRuleGroupVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-available-managed-rule-group-versions))
 (common-lisp:progn
  (common-lisp:defun list-available-managed-rule-groups
@@ -15269,7 +15269,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAvailableManagedRuleGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-available-managed-rule-groups))
 (common-lisp:progn
  (common-lisp:defun list-ipsets
@@ -15286,7 +15286,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListIPSets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-ipsets))
 (common-lisp:progn
  (common-lisp:defun list-logging-configurations
@@ -15304,7 +15304,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListLoggingConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-logging-configurations))
 (common-lisp:progn
  (common-lisp:defun list-managed-rule-sets
@@ -15321,7 +15321,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListManagedRuleSets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-managed-rule-sets))
 (common-lisp:progn
  (common-lisp:defun list-mobile-sdk-releases
@@ -15338,7 +15338,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListMobileSdkReleases"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-mobile-sdk-releases))
 (common-lisp:progn
  (common-lisp:defun list-regex-pattern-sets
@@ -15355,7 +15355,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListRegexPatternSets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-regex-pattern-sets))
 (common-lisp:progn
  (common-lisp:defun list-resources-for-web-acl
@@ -15373,7 +15373,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListResourcesForWebACL"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-resources-for-web-acl))
 (common-lisp:progn
  (common-lisp:defun list-rule-groups
@@ -15390,7 +15390,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListRuleGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-rule-groups))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -15407,7 +15407,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-web-acls
@@ -15424,7 +15424,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListWebACLs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-web-acls))
 (common-lisp:progn
  (common-lisp:defun put-logging-configuration
@@ -15442,7 +15442,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutLoggingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-logging-configuration))
 (common-lisp:progn
  (common-lisp:defun put-managed-rule-set-versions
@@ -15463,7 +15463,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutManagedRuleSetVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-managed-rule-set-versions))
 (common-lisp:progn
  (common-lisp:defun put-permission-policy
@@ -15480,7 +15480,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutPermissionPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-permission-policy))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -15497,7 +15497,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -15514,7 +15514,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-ipset
@@ -15533,7 +15533,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateIPSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-ipset))
 (common-lisp:progn
  (common-lisp:defun update-managed-rule-set-version-expiry-date
@@ -15554,7 +15554,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateManagedRuleSetVersionExpiryDate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-managed-rule-set-version-expiry-date))
 (common-lisp:progn
  (common-lisp:defun update-regex-pattern-set
@@ -15574,7 +15574,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateRegexPatternSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-regex-pattern-set))
 (common-lisp:progn
  (common-lisp:defun update-rule-group
@@ -15594,7 +15594,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateRuleGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-rule-group))
 (common-lisp:progn
  (common-lisp:defun update-web-acl
@@ -15617,5 +15617,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateWebACL"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-web-acl))

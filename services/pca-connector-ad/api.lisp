@@ -5956,7 +5956,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pca-connector-ad-request aws-sdk/generator/operation::input "POST"
         "/connectors" "CreateConnector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-connector))
 (common-lisp:progn
  (common-lisp:defun create-directory-registration
@@ -5973,7 +5973,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pca-connector-ad-request aws-sdk/generator/operation::input "POST"
         "/directoryRegistrations" "CreateDirectoryRegistration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-directory-registration))
 (common-lisp:progn
  (common-lisp:defun create-service-principal-name
@@ -6004,7 +6004,7 @@
                                 aws-sdk/generator/operation::input
                                 'connector-arn))))
         "CreateServicePrincipalName"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-service-principal-name))
 (common-lisp:progn
  (common-lisp:defun create-template
@@ -6022,7 +6022,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pca-connector-ad-request aws-sdk/generator/operation::input "POST"
         "/templates" "CreateTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-template))
 (common-lisp:progn
  (common-lisp:defun create-template-group-access-control-entry
@@ -6049,7 +6049,7 @@
                                 aws-sdk/generator/operation::input
                                 'template-arn))))
         "CreateTemplateGroupAccessControlEntry"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-template-group-access-control-entry))
 (common-lisp:progn
  (common-lisp:defun delete-connector
@@ -6071,7 +6071,7 @@
                                 aws-sdk/generator/operation::input
                                 'connector-arn))))
         "DeleteConnector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-connector))
 (common-lisp:progn
  (common-lisp:defun delete-directory-registration
@@ -6094,7 +6094,7 @@
                                 aws-sdk/generator/operation::input
                                 'directory-registration-arn))))
         "DeleteDirectoryRegistration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-directory-registration))
 (common-lisp:progn
  (common-lisp:defun delete-service-principal-name
@@ -6123,7 +6123,7 @@
                                 aws-sdk/generator/operation::input
                                 'connector-arn))))
         "DeleteServicePrincipalName"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-service-principal-name))
 (common-lisp:progn
  (common-lisp:defun delete-template
@@ -6145,7 +6145,7 @@
                                 aws-sdk/generator/operation::input
                                 'template-arn))))
         "DeleteTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-template))
 (common-lisp:progn
  (common-lisp:defun delete-template-group-access-control-entry
@@ -6174,7 +6174,7 @@
                                 aws-sdk/generator/operation::input
                                 'group-security-identifier))))
         "DeleteTemplateGroupAccessControlEntry"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-template-group-access-control-entry))
 (common-lisp:progn
  (common-lisp:defun get-connector
@@ -6196,7 +6196,7 @@
                                 aws-sdk/generator/operation::input
                                 'connector-arn))))
         "GetConnector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-connector))
 (common-lisp:progn
  (common-lisp:defun get-directory-registration
@@ -6219,7 +6219,7 @@
                                 aws-sdk/generator/operation::input
                                 'directory-registration-arn))))
         "GetDirectoryRegistration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-directory-registration))
 (common-lisp:progn
  (common-lisp:defun get-service-principal-name
@@ -6248,7 +6248,7 @@
                                 aws-sdk/generator/operation::input
                                 'connector-arn))))
         "GetServicePrincipalName"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-service-principal-name))
 (common-lisp:progn
  (common-lisp:defun get-template
@@ -6270,7 +6270,7 @@
                                 aws-sdk/generator/operation::input
                                 'template-arn))))
         "GetTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-template))
 (common-lisp:progn
  (common-lisp:defun get-template-group-access-control-entry
@@ -6299,7 +6299,7 @@
                                 aws-sdk/generator/operation::input
                                 'group-security-identifier))))
         "GetTemplateGroupAccessControlEntry"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-template-group-access-control-entry))
 (common-lisp:progn
  (common-lisp:defun list-connectors
@@ -6315,7 +6315,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pca-connector-ad-request aws-sdk/generator/operation::input "GET"
         "/connectors" "ListConnectors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-connectors))
 (common-lisp:progn
  (common-lisp:defun list-directory-registrations
@@ -6332,7 +6332,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pca-connector-ad-request aws-sdk/generator/operation::input "GET"
         "/directoryRegistrations" "ListDirectoryRegistrations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-directory-registrations))
 (common-lisp:progn
  (common-lisp:defun list-service-principal-names
@@ -6358,7 +6358,7 @@
                                 aws-sdk/generator/operation::input
                                 'directory-registration-arn))))
         "ListServicePrincipalNames"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-service-principal-names))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -6380,7 +6380,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-template-group-access-control-entries
@@ -6405,7 +6405,7 @@
                                 aws-sdk/generator/operation::input
                                 'template-arn))))
         "ListTemplateGroupAccessControlEntries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-template-group-access-control-entries))
 (common-lisp:progn
  (common-lisp:defun list-templates
@@ -6422,7 +6422,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'pca-connector-ad-request aws-sdk/generator/operation::input "GET"
         "/templates" "ListTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-templates))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -6444,7 +6444,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -6466,7 +6466,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-template
@@ -6491,7 +6491,7 @@
                                 aws-sdk/generator/operation::input
                                 'template-arn))))
         "UpdateTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-template))
 (common-lisp:progn
  (common-lisp:defun update-template-group-access-control-entry
@@ -6522,5 +6522,5 @@
                                 aws-sdk/generator/operation::input
                                 'group-security-identifier))))
         "UpdateTemplateGroupAccessControlEntry"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-template-group-access-control-entry))

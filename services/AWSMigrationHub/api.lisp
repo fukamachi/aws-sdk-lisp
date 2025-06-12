@@ -2664,7 +2664,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'awsmigrationhub-request aws-sdk/generator/operation::input "POST" "/"
         "AssociateCreatedArtifact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-created-artifact))
 (common-lisp:progn
  (common-lisp:defun associate-discovered-resource
@@ -2684,7 +2684,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'awsmigrationhub-request aws-sdk/generator/operation::input "POST" "/"
         "AssociateDiscoveredResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-discovered-resource))
 (common-lisp:progn
  (common-lisp:defun create-progress-update-stream
@@ -2702,7 +2702,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'awsmigrationhub-request aws-sdk/generator/operation::input "POST" "/"
         "CreateProgressUpdateStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-progress-update-stream))
 (common-lisp:progn
  (common-lisp:defun delete-progress-update-stream
@@ -2720,7 +2720,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'awsmigrationhub-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteProgressUpdateStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-progress-update-stream))
 (common-lisp:progn
  (common-lisp:defun describe-application-state
@@ -2737,7 +2737,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'awsmigrationhub-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeApplicationState"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-application-state))
 (common-lisp:progn
  (common-lisp:defun describe-migration-task
@@ -2755,7 +2755,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'awsmigrationhub-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeMigrationTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-migration-task))
 (common-lisp:progn
  (common-lisp:defun disassociate-created-artifact
@@ -2775,7 +2775,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'awsmigrationhub-request aws-sdk/generator/operation::input "POST" "/"
         "DisassociateCreatedArtifact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-created-artifact))
 (common-lisp:progn
  (common-lisp:defun disassociate-discovered-resource
@@ -2795,7 +2795,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'awsmigrationhub-request aws-sdk/generator/operation::input "POST" "/"
         "DisassociateDiscoveredResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-discovered-resource))
 (common-lisp:progn
  (common-lisp:defun import-migration-task
@@ -2813,7 +2813,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'awsmigrationhub-request aws-sdk/generator/operation::input "POST" "/"
         "ImportMigrationTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-migration-task))
 (common-lisp:progn
  (common-lisp:defun list-application-states
@@ -2830,7 +2830,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'awsmigrationhub-request aws-sdk/generator/operation::input "POST" "/"
         "ListApplicationStates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-application-states))
 (common-lisp:progn
  (common-lisp:defun list-created-artifacts
@@ -2849,7 +2849,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'awsmigrationhub-request aws-sdk/generator/operation::input "POST" "/"
         "ListCreatedArtifacts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-created-artifacts))
 (common-lisp:progn
  (common-lisp:defun list-discovered-resources
@@ -2869,7 +2869,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'awsmigrationhub-request aws-sdk/generator/operation::input "POST" "/"
         "ListDiscoveredResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-discovered-resources))
 (common-lisp:progn
  (common-lisp:defun list-migration-tasks
@@ -2886,7 +2886,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'awsmigrationhub-request aws-sdk/generator/operation::input "POST" "/"
         "ListMigrationTasks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-migration-tasks))
 (common-lisp:progn
  (common-lisp:defun list-progress-update-streams
@@ -2903,7 +2903,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'awsmigrationhub-request aws-sdk/generator/operation::input "POST" "/"
         "ListProgressUpdateStreams"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-progress-update-streams))
 (common-lisp:progn
  (common-lisp:defun notify-application-state
@@ -2921,7 +2921,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'awsmigrationhub-request aws-sdk/generator/operation::input "POST" "/"
         "NotifyApplicationState"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'notify-application-state))
 (common-lisp:progn
  (common-lisp:defun notify-migration-task-state
@@ -2942,7 +2942,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'awsmigrationhub-request aws-sdk/generator/operation::input "POST" "/"
         "NotifyMigrationTaskState"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'notify-migration-task-state))
 (common-lisp:progn
  (common-lisp:defun put-resource-attributes
@@ -2961,5 +2961,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'awsmigrationhub-request aws-sdk/generator/operation::input "POST" "/"
         "PutResourceAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-resource-attributes))

@@ -2029,7 +2029,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/BatchExecute"
                                                         "BatchExecuteStatement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-execute-statement))
 (common-lisp:progn
  (common-lisp:defun begin-transaction
@@ -2048,7 +2048,7 @@
                                                         "POST"
                                                         "/BeginTransaction"
                                                         "BeginTransaction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'begin-transaction))
 (common-lisp:progn
  (common-lisp:defun commit-transaction
@@ -2067,7 +2067,7 @@
                                                         "POST"
                                                         "/CommitTransaction"
                                                         "CommitTransaction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'commit-transaction))
 (common-lisp:progn
  (common-lisp:defun execute-sql
@@ -2087,7 +2087,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/ExecuteSql"
                                                         "ExecuteSql"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'execute-sql))
 (common-lisp:progn
  (common-lisp:defun execute-statement
@@ -2110,7 +2110,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/Execute"
                                                         "ExecuteStatement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'execute-statement))
 (common-lisp:progn
  (common-lisp:defun rollback-transaction
@@ -2129,5 +2129,5 @@
                                                         "POST"
                                                         "/RollbackTransaction"
                                                         "RollbackTransaction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'rollback-transaction))

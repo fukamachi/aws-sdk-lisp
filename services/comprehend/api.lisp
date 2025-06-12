@@ -20149,7 +20149,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchDetectDominantLanguage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-detect-dominant-language))
 (common-lisp:progn
  (common-lisp:defun batch-detect-entities
@@ -20166,7 +20166,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchDetectEntities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-detect-entities))
 (common-lisp:progn
  (common-lisp:defun batch-detect-key-phrases
@@ -20183,7 +20183,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchDetectKeyPhrases"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-detect-key-phrases))
 (common-lisp:progn
  (common-lisp:defun batch-detect-sentiment
@@ -20200,7 +20200,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchDetectSentiment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-detect-sentiment))
 (common-lisp:progn
  (common-lisp:defun batch-detect-syntax
@@ -20217,7 +20217,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchDetectSyntax"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-detect-syntax))
 (common-lisp:progn
  (common-lisp:defun batch-detect-targeted-sentiment
@@ -20235,7 +20235,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchDetectTargetedSentiment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-detect-targeted-sentiment))
 (common-lisp:progn
  (common-lisp:defun classify-document
@@ -20254,7 +20254,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ClassifyDocument"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'classify-document))
 (common-lisp:progn
  (common-lisp:defun contains-pii-entities
@@ -20271,7 +20271,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ContainsPiiEntities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'contains-pii-entities))
 (common-lisp:progn
  (common-lisp:defun create-dataset
@@ -20291,7 +20291,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-dataset))
 (common-lisp:progn
  (common-lisp:defun create-document-classifier
@@ -20317,7 +20317,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDocumentClassifier"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-document-classifier))
 (common-lisp:progn
  (common-lisp:defun create-endpoint
@@ -20338,7 +20338,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-endpoint))
 (common-lisp:progn
  (common-lisp:defun create-entity-recognizer
@@ -20361,7 +20361,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateEntityRecognizer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-entity-recognizer))
 (common-lisp:progn
  (common-lisp:defun create-flywheel
@@ -20384,7 +20384,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateFlywheel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-flywheel))
 (common-lisp:progn
  (common-lisp:defun delete-document-classifier
@@ -20402,7 +20402,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDocumentClassifier"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-document-classifier))
 (common-lisp:progn
  (common-lisp:defun delete-endpoint
@@ -20419,7 +20419,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-endpoint))
 (common-lisp:progn
  (common-lisp:defun delete-entity-recognizer
@@ -20436,7 +20436,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteEntityRecognizer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-entity-recognizer))
 (common-lisp:progn
  (common-lisp:defun delete-flywheel
@@ -20453,7 +20453,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteFlywheel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-flywheel))
 (common-lisp:progn
  (common-lisp:defun delete-resource-policy
@@ -20471,7 +20471,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resource-policy))
 (common-lisp:progn
  (common-lisp:defun describe-dataset
@@ -20488,7 +20488,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-dataset))
 (common-lisp:progn
  (common-lisp:defun describe-document-classification-job
@@ -20506,7 +20506,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDocumentClassificationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-document-classification-job))
 (common-lisp:progn
  (common-lisp:defun describe-document-classifier
@@ -20524,7 +20524,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDocumentClassifier"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-document-classifier))
 (common-lisp:progn
  (common-lisp:defun describe-dominant-language-detection-job
@@ -20542,7 +20542,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDominantLanguageDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-dominant-language-detection-job))
 (common-lisp:progn
  (common-lisp:defun describe-endpoint
@@ -20559,7 +20559,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-endpoint))
 (common-lisp:progn
  (common-lisp:defun describe-entities-detection-job
@@ -20577,7 +20577,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEntitiesDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-entities-detection-job))
 (common-lisp:progn
  (common-lisp:defun describe-entity-recognizer
@@ -20595,7 +20595,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEntityRecognizer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-entity-recognizer))
 (common-lisp:progn
  (common-lisp:defun describe-events-detection-job
@@ -20613,7 +20613,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEventsDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-events-detection-job))
 (common-lisp:progn
  (common-lisp:defun describe-flywheel
@@ -20630,7 +20630,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeFlywheel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-flywheel))
 (common-lisp:progn
  (common-lisp:defun describe-flywheel-iteration
@@ -20649,7 +20649,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeFlywheelIteration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-flywheel-iteration))
 (common-lisp:progn
  (common-lisp:defun describe-key-phrases-detection-job
@@ -20667,7 +20667,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeKeyPhrasesDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-key-phrases-detection-job))
 (common-lisp:progn
  (common-lisp:defun describe-pii-entities-detection-job
@@ -20685,7 +20685,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribePiiEntitiesDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-pii-entities-detection-job))
 (common-lisp:progn
  (common-lisp:defun describe-resource-policy
@@ -20702,7 +20702,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-resource-policy))
 (common-lisp:progn
  (common-lisp:defun describe-sentiment-detection-job
@@ -20720,7 +20720,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeSentimentDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-sentiment-detection-job))
 (common-lisp:progn
  (common-lisp:defun describe-targeted-sentiment-detection-job
@@ -20738,7 +20738,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTargetedSentimentDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-targeted-sentiment-detection-job))
 (common-lisp:progn
  (common-lisp:defun describe-topics-detection-job
@@ -20756,7 +20756,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTopicsDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-topics-detection-job))
 (common-lisp:progn
  (common-lisp:defun detect-dominant-language
@@ -20773,7 +20773,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetectDominantLanguage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detect-dominant-language))
 (common-lisp:progn
  (common-lisp:defun detect-entities
@@ -20793,7 +20793,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetectEntities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detect-entities))
 (common-lisp:progn
  (common-lisp:defun detect-key-phrases
@@ -20810,7 +20810,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetectKeyPhrases"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detect-key-phrases))
 (common-lisp:progn
  (common-lisp:defun detect-pii-entities
@@ -20827,7 +20827,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetectPiiEntities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detect-pii-entities))
 (common-lisp:progn
  (common-lisp:defun detect-sentiment
@@ -20844,7 +20844,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetectSentiment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detect-sentiment))
 (common-lisp:progn
  (common-lisp:defun detect-syntax
@@ -20861,7 +20861,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetectSyntax"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detect-syntax))
 (common-lisp:progn
  (common-lisp:defun detect-targeted-sentiment
@@ -20879,7 +20879,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetectTargetedSentiment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detect-targeted-sentiment))
 (common-lisp:progn
  (common-lisp:defun detect-toxic-content
@@ -20896,7 +20896,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetectToxicContent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detect-toxic-content))
 (common-lisp:progn
  (common-lisp:defun import-model
@@ -20916,7 +20916,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ImportModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-model))
 (common-lisp:progn
  (common-lisp:defun list-datasets
@@ -20935,7 +20935,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDatasets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-datasets))
 (common-lisp:progn
  (common-lisp:defun list-document-classification-jobs
@@ -20953,7 +20953,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDocumentClassificationJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-document-classification-jobs))
 (common-lisp:progn
  (common-lisp:defun list-document-classifier-summaries
@@ -20971,7 +20971,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDocumentClassifierSummaries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-document-classifier-summaries))
 (common-lisp:progn
  (common-lisp:defun list-document-classifiers
@@ -20989,7 +20989,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDocumentClassifiers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-document-classifiers))
 (common-lisp:progn
  (common-lisp:defun list-dominant-language-detection-jobs
@@ -21007,7 +21007,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDominantLanguageDetectionJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-dominant-language-detection-jobs))
 (common-lisp:progn
  (common-lisp:defun list-endpoints
@@ -21024,7 +21024,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListEndpoints"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-endpoints))
 (common-lisp:progn
  (common-lisp:defun list-entities-detection-jobs
@@ -21042,7 +21042,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListEntitiesDetectionJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-entities-detection-jobs))
 (common-lisp:progn
  (common-lisp:defun list-entity-recognizer-summaries
@@ -21060,7 +21060,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListEntityRecognizerSummaries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-entity-recognizer-summaries))
 (common-lisp:progn
  (common-lisp:defun list-entity-recognizers
@@ -21077,7 +21077,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListEntityRecognizers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-entity-recognizers))
 (common-lisp:progn
  (common-lisp:defun list-events-detection-jobs
@@ -21095,7 +21095,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListEventsDetectionJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-events-detection-jobs))
 (common-lisp:progn
  (common-lisp:defun list-flywheel-iteration-history
@@ -21115,7 +21115,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListFlywheelIterationHistory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-flywheel-iteration-history))
 (common-lisp:progn
  (common-lisp:defun list-flywheels
@@ -21132,7 +21132,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListFlywheels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-flywheels))
 (common-lisp:progn
  (common-lisp:defun list-key-phrases-detection-jobs
@@ -21150,7 +21150,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListKeyPhrasesDetectionJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-key-phrases-detection-jobs))
 (common-lisp:progn
  (common-lisp:defun list-pii-entities-detection-jobs
@@ -21168,7 +21168,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPiiEntitiesDetectionJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-pii-entities-detection-jobs))
 (common-lisp:progn
  (common-lisp:defun list-sentiment-detection-jobs
@@ -21186,7 +21186,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListSentimentDetectionJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-sentiment-detection-jobs))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -21203,7 +21203,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-targeted-sentiment-detection-jobs
@@ -21221,7 +21221,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTargetedSentimentDetectionJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-targeted-sentiment-detection-jobs))
 (common-lisp:progn
  (common-lisp:defun list-topics-detection-jobs
@@ -21239,7 +21239,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTopicsDetectionJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-topics-detection-jobs))
 (common-lisp:progn
  (common-lisp:defun put-resource-policy
@@ -21258,7 +21258,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-resource-policy))
 (common-lisp:progn
  (common-lisp:defun start-document-classification-job
@@ -21282,7 +21282,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartDocumentClassificationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-document-classification-job))
 (common-lisp:progn
  (common-lisp:defun start-dominant-language-detection-job
@@ -21305,7 +21305,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartDominantLanguageDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-dominant-language-detection-job))
 (common-lisp:progn
  (common-lisp:defun start-entities-detection-job
@@ -21329,7 +21329,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartEntitiesDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-entities-detection-job))
 (common-lisp:progn
  (common-lisp:defun start-events-detection-job
@@ -21352,7 +21352,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartEventsDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-events-detection-job))
 (common-lisp:progn
  (common-lisp:defun start-flywheel-iteration
@@ -21370,7 +21370,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartFlywheelIteration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-flywheel-iteration))
 (common-lisp:progn
  (common-lisp:defun start-key-phrases-detection-job
@@ -21393,7 +21393,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartKeyPhrasesDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-key-phrases-detection-job))
 (common-lisp:progn
  (common-lisp:defun start-pii-entities-detection-job
@@ -21416,7 +21416,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartPiiEntitiesDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-pii-entities-detection-job))
 (common-lisp:progn
  (common-lisp:defun start-sentiment-detection-job
@@ -21439,7 +21439,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartSentimentDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-sentiment-detection-job))
 (common-lisp:progn
  (common-lisp:defun start-targeted-sentiment-detection-job
@@ -21462,7 +21462,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartTargetedSentimentDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-targeted-sentiment-detection-job))
 (common-lisp:progn
  (common-lisp:defun start-topics-detection-job
@@ -21485,7 +21485,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartTopicsDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-topics-detection-job))
 (common-lisp:progn
  (common-lisp:defun stop-dominant-language-detection-job
@@ -21503,7 +21503,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopDominantLanguageDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-dominant-language-detection-job))
 (common-lisp:progn
  (common-lisp:defun stop-entities-detection-job
@@ -21521,7 +21521,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopEntitiesDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-entities-detection-job))
 (common-lisp:progn
  (common-lisp:defun stop-events-detection-job
@@ -21539,7 +21539,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopEventsDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-events-detection-job))
 (common-lisp:progn
  (common-lisp:defun stop-key-phrases-detection-job
@@ -21557,7 +21557,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopKeyPhrasesDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-key-phrases-detection-job))
 (common-lisp:progn
  (common-lisp:defun stop-pii-entities-detection-job
@@ -21575,7 +21575,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopPiiEntitiesDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-pii-entities-detection-job))
 (common-lisp:progn
  (common-lisp:defun stop-sentiment-detection-job
@@ -21593,7 +21593,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopSentimentDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-sentiment-detection-job))
 (common-lisp:progn
  (common-lisp:defun stop-targeted-sentiment-detection-job
@@ -21611,7 +21611,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopTargetedSentimentDetectionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-targeted-sentiment-detection-job))
 (common-lisp:progn
  (common-lisp:defun stop-training-document-classifier
@@ -21629,7 +21629,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopTrainingDocumentClassifier"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-training-document-classifier))
 (common-lisp:progn
  (common-lisp:defun stop-training-entity-recognizer
@@ -21647,7 +21647,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopTrainingEntityRecognizer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-training-entity-recognizer))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -21664,7 +21664,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -21681,7 +21681,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-endpoint
@@ -21702,7 +21702,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-endpoint))
 (common-lisp:progn
  (common-lisp:defun update-flywheel
@@ -21722,5 +21722,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateFlywheel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-flywheel))

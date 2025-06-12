@@ -5662,7 +5662,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-introspection-schema-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'schema)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'schema))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-introspection-schema-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-resolver-request common-lisp:nil
                        ((api-id :initarg :api-id :initform
@@ -10850,7 +10856,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "AssociateApi"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-api))
 (common-lisp:progn
  (common-lisp:defun associate-merged-graphql-api
@@ -10882,7 +10888,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'source-api-identifier))))
                                                         "AssociateMergedGraphqlApi"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-merged-graphql-api))
 (common-lisp:progn
  (common-lisp:defun associate-source-graphql-api
@@ -10914,7 +10920,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'merged-api-identifier))))
                                                         "AssociateSourceGraphqlApi"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-source-graphql-api))
 (common-lisp:progn
  (common-lisp:defun create-api-cache
@@ -10946,7 +10952,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "CreateApiCache"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-api-cache))
 (common-lisp:progn
  (common-lisp:defun create-api-key
@@ -10973,7 +10979,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "CreateApiKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-api-key))
 (common-lisp:progn
  (common-lisp:defun create-data-source
@@ -11008,7 +11014,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "CreateDataSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-data-source))
 (common-lisp:progn
  (common-lisp:defun create-domain-name
@@ -11027,7 +11033,7 @@
                                                         "POST"
                                                         "/v1/domainnames"
                                                         "CreateDomainName"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-domain-name))
 (common-lisp:progn
  (common-lisp:defun create-function
@@ -11059,7 +11065,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "CreateFunction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-function))
 (common-lisp:progn
  (common-lisp:defun create-graphql-api
@@ -11087,7 +11093,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v1/apis"
                                                         "CreateGraphqlApi"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-graphql-api))
 (common-lisp:progn
  (common-lisp:defun create-resolver
@@ -11124,7 +11130,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'type-name))))
                                                         "CreateResolver"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-resolver))
 (common-lisp:progn
  (common-lisp:defun create-type
@@ -11151,7 +11157,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "CreateType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-type))
 (common-lisp:progn
  (common-lisp:defun delete-api-cache
@@ -11178,7 +11184,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "DeleteApiCache"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-api-cache))
 (common-lisp:progn
  (common-lisp:defun delete-api-key
@@ -11209,7 +11215,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteApiKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-api-key))
 (common-lisp:progn
  (common-lisp:defun delete-data-source
@@ -11240,7 +11246,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteDataSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-data-source))
 (common-lisp:progn
  (common-lisp:defun delete-domain-name
@@ -11267,7 +11273,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "DeleteDomainName"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-domain-name))
 (common-lisp:progn
  (common-lisp:defun delete-function
@@ -11298,7 +11304,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-id))))
                                                         "DeleteFunction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-function))
 (common-lisp:progn
  (common-lisp:defun delete-graphql-api
@@ -11325,7 +11331,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "DeleteGraphqlApi"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-graphql-api))
 (common-lisp:progn
  (common-lisp:defun delete-resolver
@@ -11360,7 +11366,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'field-name))))
                                                         "DeleteResolver"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resolver))
 (common-lisp:progn
  (common-lisp:defun delete-type
@@ -11391,7 +11397,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'type-name))))
                                                         "DeleteType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-type))
 (common-lisp:progn
  (common-lisp:defun disassociate-api
@@ -11418,7 +11424,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "DisassociateApi"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-api))
 (common-lisp:progn
  (common-lisp:defun disassociate-merged-graphql-api
@@ -11451,7 +11457,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'association-id))))
                                                         "DisassociateMergedGraphqlApi"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-merged-graphql-api))
 (common-lisp:progn
  (common-lisp:defun disassociate-source-graphql-api
@@ -11484,7 +11490,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'association-id))))
                                                         "DisassociateSourceGraphqlApi"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-source-graphql-api))
 (common-lisp:progn
  (common-lisp:defun evaluate-code
@@ -11502,7 +11508,7 @@
                                                         "POST"
                                                         "/v1/dataplane-evaluatecode"
                                                         "EvaluateCode"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'evaluate-code))
 (common-lisp:progn
  (common-lisp:defun evaluate-mapping-template
@@ -11521,7 +11527,7 @@
                                                         "POST"
                                                         "/v1/dataplane-evaluatetemplate"
                                                         "EvaluateMappingTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'evaluate-mapping-template))
 (common-lisp:progn
  (common-lisp:defun flush-api-cache
@@ -11548,7 +11554,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "FlushApiCache"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'flush-api-cache))
 (common-lisp:progn
  (common-lisp:defun get-api-association
@@ -11575,7 +11581,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "GetApiAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-api-association))
 (common-lisp:progn
  (common-lisp:defun get-api-cache
@@ -11602,7 +11608,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "GetApiCache"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-api-cache))
 (common-lisp:progn
  (common-lisp:defun get-data-source
@@ -11633,7 +11639,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetDataSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-data-source))
 (common-lisp:progn
  (common-lisp:defun get-data-source-introspection
@@ -11664,7 +11670,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'introspection-id))))
                                                         "GetDataSourceIntrospection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-data-source-introspection))
 (common-lisp:progn
  (common-lisp:defun get-domain-name
@@ -11691,7 +11697,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "GetDomainName"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-domain-name))
 (common-lisp:progn
  (common-lisp:defun get-function
@@ -11722,7 +11728,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-id))))
                                                         "GetFunction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-function))
 (common-lisp:progn
  (common-lisp:defun get-graphql-api
@@ -11749,7 +11755,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "GetGraphqlApi"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-graphql-api))
 (common-lisp:progn
  (common-lisp:defun get-graphql-api-environment-variables
@@ -11777,7 +11783,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "GetGraphqlApiEnvironmentVariables"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-graphql-api-environment-variables))
 (common-lisp:progn
  (common-lisp:defun get-introspection-schema
@@ -11806,7 +11812,7 @@
                                                              'api-id))))
                                                         "GetIntrospectionSchema")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-introspection-schema))
 (common-lisp:progn
  (common-lisp:defun get-resolver
@@ -11841,7 +11847,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'field-name))))
                                                         "GetResolver"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resolver))
 (common-lisp:progn
  (common-lisp:defun get-schema-creation-status
@@ -11869,7 +11875,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "GetSchemaCreationStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-schema-creation-status))
 (common-lisp:progn
  (common-lisp:defun get-source-api-association
@@ -11902,7 +11908,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'association-id))))
                                                         "GetSourceApiAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-source-api-association))
 (common-lisp:progn
  (common-lisp:defun get-type
@@ -11933,7 +11939,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'type-name))))
                                                         "GetType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-type))
 (common-lisp:progn
  (common-lisp:defun list-api-keys
@@ -11960,7 +11966,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "ListApiKeys"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-api-keys))
 (common-lisp:progn
  (common-lisp:defun list-data-sources
@@ -11987,7 +11993,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "ListDataSources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-data-sources))
 (common-lisp:progn
  (common-lisp:defun list-domain-names
@@ -12004,7 +12010,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/domainnames"
                                                         "ListDomainNames"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-domain-names))
 (common-lisp:progn
  (common-lisp:defun list-functions
@@ -12031,7 +12037,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "ListFunctions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-functions))
 (common-lisp:progn
  (common-lisp:defun list-graphql-apis
@@ -12049,7 +12055,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/apis"
                                                         "ListGraphqlApis"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-graphql-apis))
 (common-lisp:progn
  (common-lisp:defun list-resolvers
@@ -12081,7 +12087,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'type-name))))
                                                         "ListResolvers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-resolvers))
 (common-lisp:progn
  (common-lisp:defun list-resolvers-by-function
@@ -12115,7 +12121,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-id))))
                                                         "ListResolversByFunction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-resolvers-by-function))
 (common-lisp:progn
  (common-lisp:defun list-source-api-associations
@@ -12143,7 +12149,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "ListSourceApiAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-source-api-associations))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -12170,7 +12176,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-types
@@ -12198,7 +12204,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "ListTypes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-types))
 (common-lisp:progn
  (common-lisp:defun list-types-by-association
@@ -12233,7 +12239,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'association-id))))
                                                         "ListTypesByAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-types-by-association))
 (common-lisp:progn
  (common-lisp:defun put-graphql-api-environment-variables
@@ -12261,7 +12267,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "PutGraphqlApiEnvironmentVariables"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-graphql-api-environment-variables))
 (common-lisp:progn
  (common-lisp:defun start-data-source-introspection
@@ -12280,7 +12286,7 @@
                                                         "POST"
                                                         "/v1/datasources/introspections"
                                                         "StartDataSourceIntrospection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-data-source-introspection))
 (common-lisp:progn
  (common-lisp:defun start-schema-creation
@@ -12307,7 +12313,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "StartSchemaCreation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-schema-creation))
 (common-lisp:progn
  (common-lisp:defun start-schema-merge
@@ -12339,7 +12345,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'association-id))))
                                                         "StartSchemaMerge"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-schema-merge))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -12366,7 +12372,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -12393,7 +12399,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-api-cache
@@ -12423,7 +12429,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "UpdateApiCache"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-api-cache))
 (common-lisp:progn
  (common-lisp:defun update-api-key
@@ -12454,7 +12460,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateApiKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-api-key))
 (common-lisp:progn
  (common-lisp:defun update-data-source
@@ -12493,7 +12499,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateDataSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-data-source))
 (common-lisp:progn
  (common-lisp:defun update-domain-name
@@ -12520,7 +12526,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "UpdateDomainName"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-domain-name))
 (common-lisp:progn
  (common-lisp:defun update-function
@@ -12557,7 +12563,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-id))))
                                                         "UpdateFunction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-function))
 (common-lisp:progn
  (common-lisp:defun update-graphql-api
@@ -12594,7 +12600,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "UpdateGraphqlApi"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-graphql-api))
 (common-lisp:progn
  (common-lisp:defun update-resolver
@@ -12635,7 +12641,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'field-name))))
                                                         "UpdateResolver"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-resolver))
 (common-lisp:progn
  (common-lisp:defun update-source-api-association
@@ -12670,7 +12676,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'association-id))))
                                                         "UpdateSourceApiAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-source-api-association))
 (common-lisp:progn
  (common-lisp:defun update-type
@@ -12702,5 +12708,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'type-name))))
                                                         "UpdateType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-type))

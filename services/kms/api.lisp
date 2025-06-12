@@ -7678,7 +7678,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CancelKeyDeletion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-key-deletion))
 (common-lisp:progn
  (common-lisp:defun connect-custom-key-store
@@ -7695,7 +7695,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ConnectCustomKeyStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'connect-custom-key-store))
 (common-lisp:progn
  (common-lisp:defun create-alias
@@ -7712,7 +7712,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-alias))
 (common-lisp:progn
  (common-lisp:defun create-custom-key-store
@@ -7740,7 +7740,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateCustomKeyStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-custom-key-store))
 (common-lisp:progn
  (common-lisp:defun create-grant
@@ -7761,7 +7761,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateGrant"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-grant))
 (common-lisp:progn
  (common-lisp:defun create-key
@@ -7784,7 +7784,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-key))
 (common-lisp:progn
  (common-lisp:defun decrypt
@@ -7804,7 +7804,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'kms-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "Decrypt"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'decrypt))
 (common-lisp:progn
  (common-lisp:defun delete-alias
@@ -7821,7 +7821,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-alias))
 (common-lisp:progn
  (common-lisp:defun delete-custom-key-store
@@ -7838,7 +7838,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteCustomKeyStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-custom-key-store))
 (common-lisp:progn
  (common-lisp:defun delete-imported-key-material
@@ -7856,7 +7856,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteImportedKeyMaterial"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-imported-key-material))
 (common-lisp:progn
  (common-lisp:defun describe-custom-key-stores
@@ -7877,7 +7877,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeCustomKeyStores"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-custom-key-stores))
 (common-lisp:progn
  (common-lisp:defun describe-key
@@ -7894,7 +7894,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-key))
 (common-lisp:progn
  (common-lisp:defun disable-key
@@ -7911,7 +7911,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisableKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disable-key))
 (common-lisp:progn
  (common-lisp:defun disable-key-rotation
@@ -7928,7 +7928,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisableKeyRotation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disable-key-rotation))
 (common-lisp:progn
  (common-lisp:defun disconnect-custom-key-store
@@ -7946,7 +7946,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisconnectCustomKeyStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disconnect-custom-key-store))
 (common-lisp:progn
  (common-lisp:defun enable-key
@@ -7963,7 +7963,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "EnableKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-key))
 (common-lisp:progn
  (common-lisp:defun enable-key-rotation
@@ -7980,7 +7980,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "EnableKeyRotation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-key-rotation))
 (common-lisp:progn
  (common-lisp:defun encrypt
@@ -7999,7 +7999,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'kms-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "Encrypt"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'encrypt))
 (common-lisp:progn
  (common-lisp:defun generate-data-key
@@ -8019,7 +8019,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GenerateDataKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'generate-data-key))
 (common-lisp:progn
  (common-lisp:defun generate-data-key-pair
@@ -8039,7 +8039,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GenerateDataKeyPair"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'generate-data-key-pair))
 (common-lisp:progn
  (common-lisp:defun generate-data-key-pair-without-plaintext
@@ -8060,7 +8060,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GenerateDataKeyPairWithoutPlaintext"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'generate-data-key-pair-without-plaintext))
 (common-lisp:progn
  (common-lisp:defun generate-data-key-without-plaintext
@@ -8081,7 +8081,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GenerateDataKeyWithoutPlaintext"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'generate-data-key-without-plaintext))
 (common-lisp:progn
  (common-lisp:defun generate-mac
@@ -8100,7 +8100,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GenerateMac"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'generate-mac))
 (common-lisp:progn
  (common-lisp:defun generate-random
@@ -8119,7 +8119,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GenerateRandom"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'generate-random))
 (common-lisp:progn
  (common-lisp:defun get-key-policy
@@ -8136,7 +8136,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetKeyPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-key-policy))
 (common-lisp:progn
  (common-lisp:defun get-key-rotation-status
@@ -8153,7 +8153,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetKeyRotationStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-key-rotation-status))
 (common-lisp:progn
  (common-lisp:defun get-parameters-for-import
@@ -8173,7 +8173,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetParametersForImport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-parameters-for-import))
 (common-lisp:progn
  (common-lisp:defun get-public-key
@@ -8190,7 +8190,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetPublicKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-public-key))
 (common-lisp:progn
  (common-lisp:defun import-key-material
@@ -8210,7 +8210,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ImportKeyMaterial"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-key-material))
 (common-lisp:progn
  (common-lisp:defun list-aliases
@@ -8227,7 +8227,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAliases"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-aliases))
 (common-lisp:progn
  (common-lisp:defun list-grants
@@ -8246,7 +8246,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListGrants"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-grants))
 (common-lisp:progn
  (common-lisp:defun list-key-policies
@@ -8263,7 +8263,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListKeyPolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-key-policies))
 (common-lisp:progn
  (common-lisp:defun list-keys
@@ -8279,7 +8279,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'kms-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "ListKeys"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-keys))
 (common-lisp:progn
  (common-lisp:defun list-resource-tags
@@ -8296,7 +8296,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListResourceTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-resource-tags))
 (common-lisp:progn
  (common-lisp:defun list-retirable-grants
@@ -8314,7 +8314,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListRetirableGrants"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-retirable-grants))
 (common-lisp:progn
  (common-lisp:defun put-key-policy
@@ -8334,7 +8334,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutKeyPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-key-policy))
 (common-lisp:progn
  (common-lisp:defun re-encrypt
@@ -8358,7 +8358,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ReEncrypt"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 're-encrypt))
 (common-lisp:progn
  (common-lisp:defun replicate-key
@@ -8378,7 +8378,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ReplicateKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'replicate-key))
 (common-lisp:progn
  (common-lisp:defun retire-grant
@@ -8396,7 +8396,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RetireGrant"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'retire-grant))
 (common-lisp:progn
  (common-lisp:defun revoke-grant
@@ -8413,7 +8413,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RevokeGrant"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'revoke-grant))
 (common-lisp:progn
  (common-lisp:defun schedule-key-deletion
@@ -8430,7 +8430,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ScheduleKeyDeletion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'schedule-key-deletion))
 (common-lisp:progn
  (common-lisp:defun sign
@@ -8449,7 +8449,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'kms-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "Sign"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'sign))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -8466,7 +8466,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -8483,7 +8483,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-alias
@@ -8500,7 +8500,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-alias))
 (common-lisp:progn
  (common-lisp:defun update-custom-key-store
@@ -8526,7 +8526,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateCustomKeyStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-custom-key-store))
 (common-lisp:progn
  (common-lisp:defun update-key-description
@@ -8543,7 +8543,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateKeyDescription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-key-description))
 (common-lisp:progn
  (common-lisp:defun update-primary-region
@@ -8560,7 +8560,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdatePrimaryRegion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-primary-region))
 (common-lisp:progn
  (common-lisp:defun verify
@@ -8579,7 +8579,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'kms-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "Verify"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'verify))
 (common-lisp:progn
  (common-lisp:defun verify-mac
@@ -8599,5 +8599,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "VerifyMac"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'verify-mac))

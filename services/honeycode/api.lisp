@@ -3347,7 +3347,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'table-id))))
                                                         "BatchCreateTableRows"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-create-table-rows))
 (common-lisp:progn
  (common-lisp:defun batch-delete-table-rows
@@ -3380,7 +3380,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'table-id))))
                                                         "BatchDeleteTableRows"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-delete-table-rows))
 (common-lisp:progn
  (common-lisp:defun batch-update-table-rows
@@ -3414,7 +3414,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'table-id))))
                                                         "BatchUpdateTableRows"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-update-table-rows))
 (common-lisp:progn
  (common-lisp:defun batch-upsert-table-rows
@@ -3448,7 +3448,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'table-id))))
                                                         "BatchUpsertTableRows"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-upsert-table-rows))
 (common-lisp:progn
  (common-lisp:defun describe-table-data-import-job
@@ -3484,7 +3484,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "DescribeTableDataImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-table-data-import-job))
 (common-lisp:progn
  (common-lisp:defun get-screen-data
@@ -3504,7 +3504,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/screendata"
                                                         "GetScreenData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-screen-data))
 (common-lisp:progn
  (common-lisp:defun invoke-screen-automation
@@ -3547,7 +3547,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'automation-id))))
                                                         "InvokeScreenAutomation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'invoke-screen-automation))
 (common-lisp:progn
  (common-lisp:defun list-table-columns
@@ -3579,7 +3579,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'table-id))))
                                                         "ListTableColumns"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-table-columns))
 (common-lisp:progn
  (common-lisp:defun list-table-rows
@@ -3613,7 +3613,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'table-id))))
                                                         "ListTableRows"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-table-rows))
 (common-lisp:progn
  (common-lisp:defun list-tables
@@ -3641,7 +3641,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workbook-id))))
                                                         "ListTables"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tables))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -3668,7 +3668,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun query-table-rows
@@ -3702,7 +3702,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'table-id))))
                                                         "QueryTableRows"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'query-table-rows))
 (common-lisp:progn
  (common-lisp:defun start-table-data-import-job
@@ -3737,7 +3737,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'table-id))))
                                                         "StartTableDataImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-table-data-import-job))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3764,7 +3764,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3791,5 +3791,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))

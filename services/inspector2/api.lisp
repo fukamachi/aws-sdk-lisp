@@ -19389,7 +19389,7 @@
                                                         "POST"
                                                         "/members/associate"
                                                         "AssociateMember"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-member))
 (common-lisp:progn
  (common-lisp:defun batch-get-account-status
@@ -19407,7 +19407,7 @@
                                                         "POST"
                                                         "/status/batch/get"
                                                         "BatchGetAccountStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-account-status))
 (common-lisp:progn
  (common-lisp:defun batch-get-code-snippet
@@ -19425,7 +19425,7 @@
                                                         "POST"
                                                         "/codesnippet/batchget"
                                                         "BatchGetCodeSnippet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-code-snippet))
 (common-lisp:progn
  (common-lisp:defun batch-get-finding-details
@@ -19444,7 +19444,7 @@
                                                         "POST"
                                                         "/findings/details/batch/get"
                                                         "BatchGetFindingDetails"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-finding-details))
 (common-lisp:progn
  (common-lisp:defun batch-get-free-trial-info
@@ -19463,7 +19463,7 @@
                                                         "POST"
                                                         "/freetrialinfo/batchget"
                                                         "BatchGetFreeTrialInfo"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-free-trial-info))
 (common-lisp:progn
  (common-lisp:defun batch-get-member-ec2deep-inspection-status
@@ -19482,7 +19482,7 @@
                                                         "POST"
                                                         "/ec2deepinspectionstatus/member/batch/get"
                                                         "BatchGetMemberEc2DeepInspectionStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-member-ec2deep-inspection-status))
 (common-lisp:progn
  (common-lisp:defun batch-update-member-ec2deep-inspection-status
@@ -19501,7 +19501,7 @@
                                                         "POST"
                                                         "/ec2deepinspectionstatus/member/batch/update"
                                                         "BatchUpdateMemberEc2DeepInspectionStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-update-member-ec2deep-inspection-status))
 (common-lisp:progn
  (common-lisp:defun cancel-findings-report
@@ -19519,7 +19519,7 @@
                                                         "POST"
                                                         "/reporting/cancel"
                                                         "CancelFindingsReport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-findings-report))
 (common-lisp:progn
  (common-lisp:defun cancel-sbom-export
@@ -19537,7 +19537,7 @@
                                                         "POST"
                                                         "/sbomexport/cancel"
                                                         "CancelSbomExport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-sbom-export))
 (common-lisp:progn
  (common-lisp:defun create-cis-scan-configuration
@@ -19558,7 +19558,7 @@
                                                         "POST"
                                                         "/cis/scan-configuration/create"
                                                         "CreateCisScanConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-cis-scan-configuration))
 (common-lisp:progn
  (common-lisp:defun create-filter
@@ -19579,7 +19579,7 @@
                                                         "POST"
                                                         "/filters/create"
                                                         "CreateFilter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-filter))
 (common-lisp:progn
  (common-lisp:defun create-findings-report
@@ -19599,7 +19599,7 @@
                                                         "POST"
                                                         "/reporting/create"
                                                         "CreateFindingsReport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-findings-report))
 (common-lisp:progn
  (common-lisp:defun create-sbom-export
@@ -19620,7 +19620,7 @@
                                                         "POST"
                                                         "/sbomexport/create"
                                                         "CreateSbomExport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-sbom-export))
 (common-lisp:progn
  (common-lisp:defun delete-cis-scan-configuration
@@ -19639,7 +19639,7 @@
                                                         "POST"
                                                         "/cis/scan-configuration/delete"
                                                         "DeleteCisScanConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-cis-scan-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-filter
@@ -19657,7 +19657,7 @@
                                                         "POST"
                                                         "/filters/delete"
                                                         "DeleteFilter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-filter))
 (common-lisp:progn
  (common-lisp:defun describe-organization-configuration ()
@@ -19684,7 +19684,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/disable"
                                                         "Disable"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disable))
 (common-lisp:progn
  (common-lisp:defun disable-delegated-admin-account
@@ -19703,7 +19703,7 @@
                                                         "POST"
                                                         "/delegatedadminaccounts/disable"
                                                         "DisableDelegatedAdminAccount"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disable-delegated-admin-account))
 (common-lisp:progn
  (common-lisp:defun disassociate-member
@@ -19721,7 +19721,7 @@
                                                         "POST"
                                                         "/members/disassociate"
                                                         "DisassociateMember"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-member))
 (common-lisp:progn
  (common-lisp:defun enable
@@ -19739,7 +19739,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/enable"
                                                         "Enable"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable))
 (common-lisp:progn
  (common-lisp:defun enable-delegated-admin-account
@@ -19759,7 +19759,7 @@
                                                         "POST"
                                                         "/delegatedadminaccounts/enable"
                                                         "EnableDelegatedAdminAccount"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-delegated-admin-account))
 (common-lisp:progn
  (common-lisp:defun get-cis-scan-report
@@ -19777,7 +19777,7 @@
                                                         "POST"
                                                         "/cis/scan/report/get"
                                                         "GetCisScanReport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-cis-scan-report))
 (common-lisp:progn
  (common-lisp:defun get-cis-scan-result-details
@@ -19799,7 +19799,7 @@
                                                         "POST"
                                                         "/cis/scan-result/details/get"
                                                         "GetCisScanResultDetails"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-cis-scan-result-details))
 (common-lisp:progn
  (common-lisp:defun get-configuration ()
@@ -19845,7 +19845,7 @@
                                                         "GET"
                                                         "/encryptionkey/get"
                                                         "GetEncryptionKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-encryption-key))
 (common-lisp:progn
  (common-lisp:defun get-findings-report-status
@@ -19864,7 +19864,7 @@
                                                         "POST"
                                                         "/reporting/status/get"
                                                         "GetFindingsReportStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-findings-report-status))
 (common-lisp:progn
  (common-lisp:defun get-member
@@ -19881,7 +19881,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/members/get"
                                                         "GetMember"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-member))
 (common-lisp:progn
  (common-lisp:defun get-sbom-export
@@ -19899,7 +19899,7 @@
                                                         "POST"
                                                         "/sbomexport/get"
                                                         "GetSbomExport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sbom-export))
 (common-lisp:progn
  (common-lisp:defun list-account-permissions
@@ -19917,7 +19917,7 @@
                                                         "POST"
                                                         "/accountpermissions/list"
                                                         "ListAccountPermissions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-account-permissions))
 (common-lisp:progn
  (common-lisp:defun list-cis-scan-configurations
@@ -19939,7 +19939,7 @@
                                                         "POST"
                                                         "/cis/scan-configuration/list"
                                                         "ListCisScanConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-cis-scan-configurations))
 (common-lisp:progn
  (common-lisp:defun list-cis-scan-results-aggregated-by-checks
@@ -19961,7 +19961,7 @@
                                                         "POST"
                                                         "/cis/scan-result/check/list"
                                                         "ListCisScanResultsAggregatedByChecks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-cis-scan-results-aggregated-by-checks))
 (common-lisp:progn
  (common-lisp:defun list-cis-scan-results-aggregated-by-target-resource
@@ -19983,7 +19983,7 @@
                                                         "POST"
                                                         "/cis/scan-result/resource/list"
                                                         "ListCisScanResultsAggregatedByTargetResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-cis-scan-results-aggregated-by-target-resource))
 (common-lisp:progn
  (common-lisp:defun list-cis-scans
@@ -20003,7 +20003,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/cis/scan/list"
                                                         "ListCisScans"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-cis-scans))
 (common-lisp:progn
  (common-lisp:defun list-coverage
@@ -20021,7 +20021,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/coverage/list"
                                                         "ListCoverage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-coverage))
 (common-lisp:progn
  (common-lisp:defun list-coverage-statistics
@@ -20040,7 +20040,7 @@
                                                         "POST"
                                                         "/coverage/statistics/list"
                                                         "ListCoverageStatistics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-coverage-statistics))
 (common-lisp:progn
  (common-lisp:defun list-delegated-admin-accounts
@@ -20059,7 +20059,7 @@
                                                         "POST"
                                                         "/delegatedadminaccounts/list"
                                                         "ListDelegatedAdminAccounts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-delegated-admin-accounts))
 (common-lisp:progn
  (common-lisp:defun list-filters
@@ -20077,7 +20077,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/filters/list"
                                                         "ListFilters"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-filters))
 (common-lisp:progn
  (common-lisp:defun list-finding-aggregations
@@ -20099,7 +20099,7 @@
                                                         "POST"
                                                         "/findings/aggregation/list"
                                                         "ListFindingAggregations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-finding-aggregations))
 (common-lisp:progn
  (common-lisp:defun list-findings
@@ -20119,7 +20119,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/findings/list"
                                                         "ListFindings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-findings))
 (common-lisp:progn
  (common-lisp:defun list-members
@@ -20137,7 +20137,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/members/list"
                                                         "ListMembers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-members))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -20164,7 +20164,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-usage-totals
@@ -20182,7 +20182,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/usage/list"
                                                         "ListUsageTotals"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-usage-totals))
 (common-lisp:progn
  (common-lisp:defun reset-encryption-key
@@ -20200,7 +20200,7 @@
                                                         "PUT"
                                                         "/encryptionkey/reset"
                                                         "ResetEncryptionKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reset-encryption-key))
 (common-lisp:progn
  (common-lisp:defun search-vulnerabilities
@@ -20218,7 +20218,7 @@
                                                         "POST"
                                                         "/vulnerabilities/search"
                                                         "SearchVulnerabilities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-vulnerabilities))
 (common-lisp:progn
  (common-lisp:defun send-cis-session-health
@@ -20236,7 +20236,7 @@
                                                         "PUT"
                                                         "/cissession/health/send"
                                                         "SendCisSessionHealth"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-cis-session-health))
 (common-lisp:progn
  (common-lisp:defun send-cis-session-telemetry
@@ -20256,7 +20256,7 @@
                                                         "PUT"
                                                         "/cissession/telemetry/send"
                                                         "SendCisSessionTelemetry"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-cis-session-telemetry))
 (common-lisp:progn
  (common-lisp:defun start-cis-session
@@ -20274,7 +20274,7 @@
                                                         "PUT"
                                                         "/cissession/start"
                                                         "StartCisSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-cis-session))
 (common-lisp:progn
  (common-lisp:defun stop-cis-session
@@ -20293,7 +20293,7 @@
                                                         "PUT"
                                                         "/cissession/stop"
                                                         "StopCisSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-cis-session))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -20320,7 +20320,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -20347,7 +20347,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-cis-scan-configuration
@@ -20369,7 +20369,7 @@
                                                         "POST"
                                                         "/cis/scan-configuration/update"
                                                         "UpdateCisScanConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-cis-scan-configuration))
 (common-lisp:progn
  (common-lisp:defun update-configuration
@@ -20387,7 +20387,7 @@
                                                         "POST"
                                                         "/configuration/update"
                                                         "UpdateConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-configuration))
 (common-lisp:progn
  (common-lisp:defun update-ec2deep-inspection-configuration
@@ -20407,7 +20407,7 @@
                                                         "POST"
                                                         "/ec2deepinspectionconfiguration/update"
                                                         "UpdateEc2DeepInspectionConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-ec2deep-inspection-configuration))
 (common-lisp:progn
  (common-lisp:defun update-encryption-key
@@ -20426,7 +20426,7 @@
                                                         "PUT"
                                                         "/encryptionkey/update"
                                                         "UpdateEncryptionKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-encryption-key))
 (common-lisp:progn
  (common-lisp:defun update-filter
@@ -20447,7 +20447,7 @@
                                                         "POST"
                                                         "/filters/update"
                                                         "UpdateFilter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-filter))
 (common-lisp:progn
  (common-lisp:defun update-org-ec2deep-inspection-configuration
@@ -20466,7 +20466,7 @@
                                                         "POST"
                                                         "/ec2deepinspectionconfiguration/org/update"
                                                         "UpdateOrgEc2DeepInspectionConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-org-ec2deep-inspection-configuration))
 (common-lisp:progn
  (common-lisp:defun update-organization-configuration
@@ -20485,5 +20485,5 @@
                                                         "POST"
                                                         "/organizationconfiguration/update"
                                                         "UpdateOrganizationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-organization-configuration))

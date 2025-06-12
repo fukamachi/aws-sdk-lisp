@@ -349,7 +349,13 @@
                          (aws-sdk/generator/shape::input
                           copy-image-set-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'copy-image-set-information)))
+                           'copy-image-set-information))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          copy-image-set-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass copy-image-set-response common-lisp:nil
                        ((datastore-id :initarg :datastore-id :initform
@@ -1973,7 +1979,13 @@
                          (aws-sdk/generator/shape::input
                           get-image-frame-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'image-frame-information)))
+                           'image-frame-information))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-image-frame-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-image-frame-response common-lisp:nil
                        ((image-frame-blob :initarg :image-frame-blob :initform
@@ -2021,7 +2033,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-image-frame-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'image-frame-blob)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'image-frame-blob))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-image-frame-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-image-set-metadata-request common-lisp:nil
                        ((datastore-id :initarg :datastore-id :initform
@@ -2135,7 +2153,13 @@
                          (aws-sdk/generator/shape::input
                           get-image-set-metadata-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'image-set-metadata-blob)))
+                           'image-set-metadata-blob))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-image-set-metadata-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-image-set-request common-lisp:nil
                        ((datastore-id :initarg :datastore-id :initform
@@ -3347,7 +3371,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           search-image-sets-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'search-criteria)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'search-criteria))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          search-image-sets-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:deftype search-image-sets-request-max-results-integer ()
   'common-lisp:integer)
 (common-lisp:progn
@@ -3808,7 +3838,13 @@
                          (aws-sdk/generator/shape::input
                           update-image-set-metadata-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'update-image-set-metadata-updates)))
+                           'update-image-set-metadata-updates))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-image-set-metadata-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-image-set-metadata-response common-lisp:nil
                        ((datastore-id :initarg :datastore-id :initform
@@ -3985,7 +4021,7 @@
                                 aws-sdk/generator/operation::input
                                 'source-image-set-id))))
         "CopyImageSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'copy-image-set))
 (common-lisp:progn
  (common-lisp:defun create-datastore
@@ -4003,7 +4039,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'medical-imaging-request aws-sdk/generator/operation::input "POST"
         "/datastore" "CreateDatastore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-datastore))
 (common-lisp:progn
  (common-lisp:defun delete-datastore
@@ -4025,7 +4061,7 @@
                                 aws-sdk/generator/operation::input
                                 'datastore-id))))
         "DeleteDatastore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-datastore))
 (common-lisp:progn
  (common-lisp:defun delete-image-set
@@ -4052,7 +4088,7 @@
                                 aws-sdk/generator/operation::input
                                 'image-set-id))))
         "DeleteImageSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-image-set))
 (common-lisp:progn
  (common-lisp:defun get-dicomimport-job
@@ -4078,7 +4114,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'job-id))))
         "GetDICOMImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-dicomimport-job))
 (common-lisp:progn
  (common-lisp:defun get-datastore
@@ -4100,7 +4136,7 @@
                                 aws-sdk/generator/operation::input
                                 'datastore-id))))
         "GetDatastore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-datastore))
 (common-lisp:progn
  (common-lisp:defun get-image-frame
@@ -4130,7 +4166,7 @@
                                 'image-set-id))))
         "GetImageFrame")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-image-frame))
 (common-lisp:progn
  (common-lisp:defun get-image-set
@@ -4158,7 +4194,7 @@
                                 aws-sdk/generator/operation::input
                                 'image-set-id))))
         "GetImageSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-image-set))
 (common-lisp:progn
  (common-lisp:defun get-image-set-metadata
@@ -4187,7 +4223,7 @@
                                 'image-set-id))))
         "GetImageSetMetadata")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-image-set-metadata))
 (common-lisp:progn
  (common-lisp:defun list-dicomimport-jobs
@@ -4212,7 +4248,7 @@
                                 aws-sdk/generator/operation::input
                                 'datastore-id))))
         "ListDICOMImportJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-dicomimport-jobs))
 (common-lisp:progn
  (common-lisp:defun list-datastores
@@ -4229,7 +4265,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'medical-imaging-request aws-sdk/generator/operation::input "GET"
         "/datastore" "ListDatastores"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-datastores))
 (common-lisp:progn
  (common-lisp:defun list-image-set-versions
@@ -4258,7 +4294,7 @@
                                 aws-sdk/generator/operation::input
                                 'image-set-id))))
         "ListImageSetVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-image-set-versions))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -4280,7 +4316,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun search-image-sets
@@ -4305,7 +4341,7 @@
                                 aws-sdk/generator/operation::input
                                 'datastore-id))))
         "SearchImageSets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-image-sets))
 (common-lisp:progn
  (common-lisp:defun start-dicomimport-job
@@ -4331,7 +4367,7 @@
                                 aws-sdk/generator/operation::input
                                 'datastore-id))))
         "StartDICOMImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-dicomimport-job))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4353,7 +4389,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4375,7 +4411,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-image-set-metadata
@@ -4406,5 +4442,5 @@
                                 aws-sdk/generator/operation::input
                                 'image-set-id))))
         "UpdateImageSetMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-image-set-metadata))

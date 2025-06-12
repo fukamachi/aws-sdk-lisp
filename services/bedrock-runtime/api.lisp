@@ -112,7 +112,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input invoke-model-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input invoke-model-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass invoke-model-response common-lisp:nil
                        ((body :initarg :body :initform
@@ -159,7 +163,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           invoke-model-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          invoke-model-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass invoke-model-with-response-stream-request
                        common-lisp:nil
@@ -228,7 +238,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           invoke-model-with-response-stream-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          invoke-model-with-response-stream-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass invoke-model-with-response-stream-response
                        common-lisp:nil
@@ -280,7 +296,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           invoke-model-with-response-stream-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          invoke-model-with-response-stream-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:deftype mime-type () 'common-lisp:string)
 (common-lisp:progn
  (common-lisp:define-condition model-error-exception
@@ -520,7 +542,7 @@
                                 'model-id))))
         "InvokeModel")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'invoke-model))
 (common-lisp:progn
  (common-lisp:defun invoke-model-with-response-stream
@@ -545,5 +567,5 @@
                                 aws-sdk/generator/operation::input
                                 'model-id))))
         "InvokeModelWithResponseStream"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'invoke-model-with-response-stream))

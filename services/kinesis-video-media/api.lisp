@@ -149,7 +149,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input get-media-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input get-media-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:define-condition invalid-argument-exception
      (kinesis-video-media-error)
@@ -280,5 +284,5 @@
         'kinesis-video-media-request aws-sdk/generator/operation::input "POST"
         "/getMedia" "GetMedia")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-media))

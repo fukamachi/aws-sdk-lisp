@@ -451,7 +451,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "QueryForecast"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'query-forecast))
 (common-lisp:progn
  (common-lisp:defun query-what-if-forecast
@@ -471,5 +471,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "QueryWhatIfForecast"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'query-what-if-forecast))

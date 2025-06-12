@@ -2367,7 +2367,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AddTagsToResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-tags-to-resource))
 (common-lisp:progn
  (common-lisp:defun create-hapg
@@ -2384,7 +2384,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateHapg"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-hapg))
 (common-lisp:progn
  (common-lisp:defun create-hsm
@@ -2404,7 +2404,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateHsm"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-hsm))
 (common-lisp:progn
  (common-lisp:defun create-luna-client
@@ -2421,7 +2421,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateLunaClient"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-luna-client))
 (common-lisp:progn
  (common-lisp:defun delete-hapg
@@ -2438,7 +2438,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteHapg"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-hapg))
 (common-lisp:progn
  (common-lisp:defun delete-hsm
@@ -2455,7 +2455,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteHsm"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-hsm))
 (common-lisp:progn
  (common-lisp:defun delete-luna-client
@@ -2472,7 +2472,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteLunaClient"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-luna-client))
 (common-lisp:progn
  (common-lisp:defun describe-hapg
@@ -2489,7 +2489,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeHapg"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-hapg))
 (common-lisp:progn
  (common-lisp:defun describe-hsm
@@ -2506,7 +2506,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeHsm"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-hsm))
 (common-lisp:progn
  (common-lisp:defun describe-luna-client
@@ -2524,7 +2524,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeLunaClient"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-luna-client))
 (common-lisp:progn
  (common-lisp:defun get-config
@@ -2542,7 +2542,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-config))
 (common-lisp:progn
  (common-lisp:defun list-available-zones ()
@@ -2567,7 +2567,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListHapgs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-hapgs))
 (common-lisp:progn
  (common-lisp:defun list-hsms
@@ -2583,7 +2583,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'cloudhsm-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "ListHsms"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-hsms))
 (common-lisp:progn
  (common-lisp:defun list-luna-clients
@@ -2600,7 +2600,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListLunaClients"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-luna-clients))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -2617,7 +2617,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun modify-hapg
@@ -2635,7 +2635,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyHapg"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'modify-hapg))
 (common-lisp:progn
  (common-lisp:defun modify-hsm
@@ -2655,7 +2655,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyHsm"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'modify-hsm))
 (common-lisp:progn
  (common-lisp:defun modify-luna-client
@@ -2672,7 +2672,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyLunaClient"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'modify-luna-client))
 (common-lisp:progn
  (common-lisp:defun remove-tags-from-resource
@@ -2690,5 +2690,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RemoveTagsFromResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-tags-from-resource))

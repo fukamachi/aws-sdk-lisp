@@ -1115,7 +1115,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-sol-function-package-content-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'package-content)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'package-content))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-sol-function-package-content-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-sol-function-package-descriptor-input
                        common-lisp:nil
@@ -1211,7 +1217,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-sol-function-package-descriptor-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'vnfd)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'vnfd))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-sol-function-package-descriptor-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-sol-function-package-input common-lisp:nil
                        ((vnf-pkg-id :initarg :vnf-pkg-id :initform
@@ -2237,7 +2249,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-sol-network-package-content-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'nsd-content)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'nsd-content))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-sol-network-package-content-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-sol-network-package-descriptor-input common-lisp:nil
                        ((nsd-info-id :initarg :nsd-info-id :initform
@@ -2321,7 +2339,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-sol-network-package-descriptor-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'nsd)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'nsd))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-sol-network-package-descriptor-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-sol-network-package-input common-lisp:nil
                        ((nsd-info-id :initarg :nsd-info-id :initform
@@ -4739,7 +4763,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           put-sol-function-package-content-input))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'file)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'file))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-sol-function-package-content-input))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass put-sol-function-package-content-metadata
                        common-lisp:nil
@@ -4946,7 +4976,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           put-sol-network-package-content-input))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'file)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'file))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-sol-network-package-content-input))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass put-sol-network-package-content-metadata common-lisp:nil
                        ((nsd :initarg :nsd :initform common-lisp:nil :type
@@ -5764,7 +5800,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           validate-sol-function-package-content-input))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'file)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'file))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          validate-sol-function-package-content-input))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass validate-sol-function-package-content-metadata
                        common-lisp:nil
@@ -5973,7 +6015,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           validate-sol-network-package-content-input))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'file)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'file))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          validate-sol-network-package-content-input))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass validate-sol-network-package-content-metadata
                        common-lisp:nil
@@ -6188,7 +6236,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'ns-lcm-op-occ-id))))
                                                         "CancelSolNetworkOperation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-sol-network-operation))
 (common-lisp:progn
  (common-lisp:defun create-sol-function-package
@@ -6207,7 +6255,7 @@
                                                         "POST"
                                                         "/sol/vnfpkgm/v1/vnf_packages"
                                                         "CreateSolFunctionPackage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-sol-function-package))
 (common-lisp:progn
  (common-lisp:defun create-sol-network-instance
@@ -6227,7 +6275,7 @@
                                                         "POST"
                                                         "/sol/nslcm/v1/ns_instances"
                                                         "CreateSolNetworkInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-sol-network-instance))
 (common-lisp:progn
  (common-lisp:defun create-sol-network-package
@@ -6245,7 +6293,7 @@
                                                         "POST"
                                                         "/sol/nsd/v1/ns_descriptors"
                                                         "CreateSolNetworkPackage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-sol-network-package))
 (common-lisp:progn
  (common-lisp:defun delete-sol-function-package
@@ -6273,7 +6321,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'vnf-pkg-id))))
                                                         "DeleteSolFunctionPackage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-sol-function-package))
 (common-lisp:progn
  (common-lisp:defun delete-sol-network-instance
@@ -6301,7 +6349,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'ns-instance-id))))
                                                         "DeleteSolNetworkInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-sol-network-instance))
 (common-lisp:progn
  (common-lisp:defun delete-sol-network-package
@@ -6328,7 +6376,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'nsd-info-id))))
                                                         "DeleteSolNetworkPackage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-sol-network-package))
 (common-lisp:progn
  (common-lisp:defun get-sol-function-instance
@@ -6355,7 +6403,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'vnf-instance-id))))
                                                         "GetSolFunctionInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sol-function-instance))
 (common-lisp:progn
  (common-lisp:defun get-sol-function-package
@@ -6382,7 +6430,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'vnf-pkg-id))))
                                                         "GetSolFunctionPackage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sol-function-package))
 (common-lisp:progn
  (common-lisp:defun get-sol-function-package-content
@@ -6411,7 +6459,7 @@
                                                              'vnf-pkg-id))))
                                                         "GetSolFunctionPackageContent")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sol-function-package-content))
 (common-lisp:progn
  (common-lisp:defun get-sol-function-package-descriptor
@@ -6440,7 +6488,7 @@
                                                              'vnf-pkg-id))))
                                                         "GetSolFunctionPackageDescriptor")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sol-function-package-descriptor))
 (common-lisp:progn
  (common-lisp:defun get-sol-network-instance
@@ -6467,7 +6515,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'ns-instance-id))))
                                                         "GetSolNetworkInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sol-network-instance))
 (common-lisp:progn
  (common-lisp:defun get-sol-network-operation
@@ -6494,7 +6542,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'ns-lcm-op-occ-id))))
                                                         "GetSolNetworkOperation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sol-network-operation))
 (common-lisp:progn
  (common-lisp:defun get-sol-network-package
@@ -6521,7 +6569,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'nsd-info-id))))
                                                         "GetSolNetworkPackage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sol-network-package))
 (common-lisp:progn
  (common-lisp:defun get-sol-network-package-content
@@ -6550,7 +6598,7 @@
                                                              'nsd-info-id))))
                                                         "GetSolNetworkPackageContent")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sol-network-package-content))
 (common-lisp:progn
  (common-lisp:defun get-sol-network-package-descriptor
@@ -6579,7 +6627,7 @@
                                                              'nsd-info-id))))
                                                         "GetSolNetworkPackageDescriptor")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sol-network-package-descriptor))
 (common-lisp:progn
  (common-lisp:defun instantiate-sol-network-instance
@@ -6607,7 +6655,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'ns-instance-id))))
                                                         "InstantiateSolNetworkInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'instantiate-sol-network-instance))
 (common-lisp:progn
  (common-lisp:defun list-sol-function-instances
@@ -6626,7 +6674,7 @@
                                                         "GET"
                                                         "/sol/vnflcm/v1/vnf_instances"
                                                         "ListSolFunctionInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-sol-function-instances))
 (common-lisp:progn
  (common-lisp:defun list-sol-function-packages
@@ -6644,7 +6692,7 @@
                                                         "GET"
                                                         "/sol/vnfpkgm/v1/vnf_packages"
                                                         "ListSolFunctionPackages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-sol-function-packages))
 (common-lisp:progn
  (common-lisp:defun list-sol-network-instances
@@ -6662,7 +6710,7 @@
                                                         "GET"
                                                         "/sol/nslcm/v1/ns_instances"
                                                         "ListSolNetworkInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-sol-network-instances))
 (common-lisp:progn
  (common-lisp:defun list-sol-network-operations
@@ -6681,7 +6729,7 @@
                                                         "GET"
                                                         "/sol/nslcm/v1/ns_lcm_op_occs"
                                                         "ListSolNetworkOperations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-sol-network-operations))
 (common-lisp:progn
  (common-lisp:defun list-sol-network-packages
@@ -6699,7 +6747,7 @@
                                                         "GET"
                                                         "/sol/nsd/v1/ns_descriptors"
                                                         "ListSolNetworkPackages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-sol-network-packages))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -6726,7 +6774,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-sol-function-package-content
@@ -6754,7 +6802,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'vnf-pkg-id))))
                                                         "PutSolFunctionPackageContent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-sol-function-package-content))
 (common-lisp:progn
  (common-lisp:defun put-sol-network-package-content
@@ -6782,7 +6830,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'nsd-info-id))))
                                                         "PutSolNetworkPackageContent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-sol-network-package-content))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -6809,7 +6857,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun terminate-sol-network-instance
@@ -6837,7 +6885,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'ns-instance-id))))
                                                         "TerminateSolNetworkInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'terminate-sol-network-instance))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -6864,7 +6912,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-sol-function-package
@@ -6892,7 +6940,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'vnf-pkg-id))))
                                                         "UpdateSolFunctionPackage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-sol-function-package))
 (common-lisp:progn
  (common-lisp:defun update-sol-network-instance
@@ -6921,7 +6969,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'ns-instance-id))))
                                                         "UpdateSolNetworkInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-sol-network-instance))
 (common-lisp:progn
  (common-lisp:defun update-sol-network-package
@@ -6949,7 +6997,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'nsd-info-id))))
                                                         "UpdateSolNetworkPackage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-sol-network-package))
 (common-lisp:progn
  (common-lisp:defun validate-sol-function-package-content
@@ -6977,7 +7025,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'vnf-pkg-id))))
                                                         "ValidateSolFunctionPackageContent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'validate-sol-function-package-content))
 (common-lisp:progn
  (common-lisp:defun validate-sol-network-package-content
@@ -7005,5 +7053,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'nsd-info-id))))
                                                         "ValidateSolNetworkPackageContent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'validate-sol-network-package-content))

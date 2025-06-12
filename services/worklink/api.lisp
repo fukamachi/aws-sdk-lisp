@@ -3873,7 +3873,7 @@
                                                         "POST"
                                                         "/associateDomain"
                                                         "AssociateDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-domain))
 (common-lisp:progn
  (common-lisp:defun associate-website-authorization-provider
@@ -3894,7 +3894,7 @@
                                                         "POST"
                                                         "/associateWebsiteAuthorizationProvider"
                                                         "AssociateWebsiteAuthorizationProvider"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-website-authorization-provider))
 (common-lisp:progn
  (common-lisp:defun associate-website-certificate-authority
@@ -3914,7 +3914,7 @@
                                                         "POST"
                                                         "/associateWebsiteCertificateAuthority"
                                                         "AssociateWebsiteCertificateAuthority"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-website-certificate-authority))
 (common-lisp:progn
  (common-lisp:defun create-fleet
@@ -3934,7 +3934,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/createFleet"
                                                         "CreateFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-fleet))
 (common-lisp:progn
  (common-lisp:defun delete-fleet
@@ -3951,7 +3951,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/deleteFleet"
                                                         "DeleteFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-fleet))
 (common-lisp:progn
  (common-lisp:defun describe-audit-stream-configuration
@@ -3970,7 +3970,7 @@
                                                         "POST"
                                                         "/describeAuditStreamConfiguration"
                                                         "DescribeAuditStreamConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-audit-stream-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-company-network-configuration
@@ -3989,7 +3989,7 @@
                                                         "POST"
                                                         "/describeCompanyNetworkConfiguration"
                                                         "DescribeCompanyNetworkConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-company-network-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-device
@@ -4007,7 +4007,7 @@
                                                         "POST"
                                                         "/describeDevice"
                                                         "DescribeDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-device))
 (common-lisp:progn
  (common-lisp:defun describe-device-policy-configuration
@@ -4026,7 +4026,7 @@
                                                         "POST"
                                                         "/describeDevicePolicyConfiguration"
                                                         "DescribeDevicePolicyConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-device-policy-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-domain
@@ -4044,7 +4044,7 @@
                                                         "POST"
                                                         "/describeDomain"
                                                         "DescribeDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-domain))
 (common-lisp:progn
  (common-lisp:defun describe-fleet-metadata
@@ -4062,7 +4062,7 @@
                                                         "POST"
                                                         "/describeFleetMetadata"
                                                         "DescribeFleetMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-fleet-metadata))
 (common-lisp:progn
  (common-lisp:defun describe-identity-provider-configuration
@@ -4081,7 +4081,7 @@
                                                         "POST"
                                                         "/describeIdentityProviderConfiguration"
                                                         "DescribeIdentityProviderConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-identity-provider-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-website-certificate-authority
@@ -4100,7 +4100,7 @@
                                                         "POST"
                                                         "/describeWebsiteCertificateAuthority"
                                                         "DescribeWebsiteCertificateAuthority"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-website-certificate-authority))
 (common-lisp:progn
  (common-lisp:defun disassociate-domain
@@ -4118,7 +4118,7 @@
                                                         "POST"
                                                         "/disassociateDomain"
                                                         "DisassociateDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-domain))
 (common-lisp:progn
  (common-lisp:defun disassociate-website-authorization-provider
@@ -4138,7 +4138,7 @@
                                                         "POST"
                                                         "/disassociateWebsiteAuthorizationProvider"
                                                         "DisassociateWebsiteAuthorizationProvider"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-website-authorization-provider))
 (common-lisp:progn
  (common-lisp:defun disassociate-website-certificate-authority
@@ -4157,7 +4157,7 @@
                                                         "POST"
                                                         "/disassociateWebsiteCertificateAuthority"
                                                         "DisassociateWebsiteCertificateAuthority"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-website-certificate-authority))
 (common-lisp:progn
  (common-lisp:defun list-devices
@@ -4175,7 +4175,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/listDevices"
                                                         "ListDevices"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-devices))
 (common-lisp:progn
  (common-lisp:defun list-domains
@@ -4193,7 +4193,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/listDomains"
                                                         "ListDomains"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-domains))
 (common-lisp:progn
  (common-lisp:defun list-fleets
@@ -4210,7 +4210,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/listFleets"
                                                         "ListFleets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-fleets))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -4237,7 +4237,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-website-authorization-providers
@@ -4257,7 +4257,7 @@
                                                         "POST"
                                                         "/listWebsiteAuthorizationProviders"
                                                         "ListWebsiteAuthorizationProviders"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-website-authorization-providers))
 (common-lisp:progn
  (common-lisp:defun list-website-certificate-authorities
@@ -4277,7 +4277,7 @@
                                                         "POST"
                                                         "/listWebsiteCertificateAuthorities"
                                                         "ListWebsiteCertificateAuthorities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-website-certificate-authorities))
 (common-lisp:progn
  (common-lisp:defun restore-domain-access
@@ -4295,7 +4295,7 @@
                                                         "POST"
                                                         "/restoreDomainAccess"
                                                         "RestoreDomainAccess"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'restore-domain-access))
 (common-lisp:progn
  (common-lisp:defun revoke-domain-access
@@ -4313,7 +4313,7 @@
                                                         "POST"
                                                         "/revokeDomainAccess"
                                                         "RevokeDomainAccess"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'revoke-domain-access))
 (common-lisp:progn
  (common-lisp:defun sign-out-user
@@ -4330,7 +4330,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/signOutUser"
                                                         "SignOutUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'sign-out-user))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4357,7 +4357,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4384,7 +4384,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-audit-stream-configuration
@@ -4403,7 +4403,7 @@
                                                         "POST"
                                                         "/updateAuditStreamConfiguration"
                                                         "UpdateAuditStreamConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-audit-stream-configuration))
 (common-lisp:progn
  (common-lisp:defun update-company-network-configuration
@@ -4424,7 +4424,7 @@
                                                         "POST"
                                                         "/updateCompanyNetworkConfiguration"
                                                         "UpdateCompanyNetworkConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-company-network-configuration))
 (common-lisp:progn
  (common-lisp:defun update-device-policy-configuration
@@ -4444,7 +4444,7 @@
                                                         "POST"
                                                         "/updateDevicePolicyConfiguration"
                                                         "UpdateDevicePolicyConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-device-policy-configuration))
 (common-lisp:progn
  (common-lisp:defun update-domain-metadata
@@ -4463,7 +4463,7 @@
                                                         "POST"
                                                         "/updateDomainMetadata"
                                                         "UpdateDomainMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-domain-metadata))
 (common-lisp:progn
  (common-lisp:defun update-fleet-metadata
@@ -4484,7 +4484,7 @@
                                                         "POST"
                                                         "/UpdateFleetMetadata"
                                                         "UpdateFleetMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-fleet-metadata))
 (common-lisp:progn
  (common-lisp:defun update-identity-provider-configuration
@@ -4506,5 +4506,5 @@
                                                         "POST"
                                                         "/updateIdentityProviderConfiguration"
                                                         "UpdateIdentityProviderConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-identity-provider-configuration))

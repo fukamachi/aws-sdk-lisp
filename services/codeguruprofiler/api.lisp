@@ -779,7 +779,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           configure-agent-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'configuration)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          configure-agent-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:define-condition conflict-exception
      (codeguruprofiler-error)
@@ -921,7 +927,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-profiling-group-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'profiling-group)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'profiling-group))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-profiling-group-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-profiling-group-request common-lisp:nil
                        ((profiling-group-name :initarg :profiling-group-name
@@ -1060,7 +1072,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           describe-profiling-group-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'profiling-group)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'profiling-group))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          describe-profiling-group-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:deftype double () 'common-lisp:double-float)
 (common-lisp:deftype event-publisher () 'common-lisp:string)
 (common-lisp:progn
@@ -1661,7 +1679,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input get-profile-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'profile)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'profile))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input get-profile-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-recommendations-request common-lisp:nil
                        ((end-time :initarg :end-time :initform
@@ -2615,7 +2637,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           post-agent-profile-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'agent-profile)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'agent-profile))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          post-agent-profile-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass post-agent-profile-response common-lisp:nil
                        common-lisp:nil
@@ -3728,7 +3756,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-profiling-group-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'profiling-group)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'profiling-group))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-profiling-group-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass user-feedback common-lisp:nil
                        ((type :initarg :type :initform
@@ -3788,7 +3822,7 @@
                                 aws-sdk/generator/operation::input
                                 'profiling-group-name))))
         "AddNotificationChannels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-notification-channels))
 (common-lisp:progn
  (common-lisp:defun batch-get-frame-metric-data
@@ -3815,7 +3849,7 @@
                                 aws-sdk/generator/operation::input
                                 'profiling-group-name))))
         "BatchGetFrameMetricData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-frame-metric-data))
 (common-lisp:progn
  (common-lisp:defun configure-agent
@@ -3840,7 +3874,7 @@
                                 aws-sdk/generator/operation::input
                                 'profiling-group-name))))
         "ConfigureAgent"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'configure-agent))
 (common-lisp:progn
  (common-lisp:defun create-profiling-group
@@ -3859,7 +3893,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codeguruprofiler-request aws-sdk/generator/operation::input "POST"
         "/profilingGroups" "CreateProfilingGroup"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-profiling-group))
 (common-lisp:progn
  (common-lisp:defun delete-profiling-group
@@ -3881,7 +3915,7 @@
                                 aws-sdk/generator/operation::input
                                 'profiling-group-name))))
         "DeleteProfilingGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-profiling-group))
 (common-lisp:progn
  (common-lisp:defun describe-profiling-group
@@ -3903,7 +3937,7 @@
                                 aws-sdk/generator/operation::input
                                 'profiling-group-name))))
         "DescribeProfilingGroup"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-profiling-group))
 (common-lisp:progn
  (common-lisp:defun get-findings-report-account-summary
@@ -3922,7 +3956,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codeguruprofiler-request aws-sdk/generator/operation::input "GET"
         "/internal/findingsReports" "GetFindingsReportAccountSummary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-findings-report-account-summary))
 (common-lisp:progn
  (common-lisp:defun get-notification-configuration
@@ -3946,7 +3980,7 @@
                                 aws-sdk/generator/operation::input
                                 'profiling-group-name))))
         "GetNotificationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-notification-configuration))
 (common-lisp:progn
  (common-lisp:defun get-policy
@@ -3968,7 +4002,7 @@
                                 aws-sdk/generator/operation::input
                                 'profiling-group-name))))
         "GetPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-policy))
 (common-lisp:progn
  (common-lisp:defun get-profile
@@ -3994,7 +4028,7 @@
                                 'profiling-group-name))))
         "GetProfile")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-profile))
 (common-lisp:progn
  (common-lisp:defun get-recommendations
@@ -4019,7 +4053,7 @@
                                 aws-sdk/generator/operation::input
                                 'profiling-group-name))))
         "GetRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-recommendations))
 (common-lisp:progn
  (common-lisp:defun list-findings-reports
@@ -4045,7 +4079,7 @@
                                 aws-sdk/generator/operation::input
                                 'profiling-group-name))))
         "ListFindingsReports"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-findings-reports))
 (common-lisp:progn
  (common-lisp:defun list-profile-times
@@ -4071,7 +4105,7 @@
                                 aws-sdk/generator/operation::input
                                 'profiling-group-name))))
         "ListProfileTimes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-profile-times))
 (common-lisp:progn
  (common-lisp:defun list-profiling-groups
@@ -4089,7 +4123,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codeguruprofiler-request aws-sdk/generator/operation::input "GET"
         "/profilingGroups" "ListProfilingGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-profiling-groups))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -4111,7 +4145,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun post-agent-profile
@@ -4137,7 +4171,7 @@
                                 aws-sdk/generator/operation::input
                                 'profiling-group-name))))
         "PostAgentProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'post-agent-profile))
 (common-lisp:progn
  (common-lisp:defun put-permission
@@ -4166,7 +4200,7 @@
                                 aws-sdk/generator/operation::input
                                 'action-group))))
         "PutPermission"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-permission))
 (common-lisp:progn
  (common-lisp:defun remove-notification-channel
@@ -4195,7 +4229,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-id))))
         "RemoveNotificationChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-notification-channel))
 (common-lisp:progn
  (common-lisp:defun remove-permission
@@ -4223,7 +4257,7 @@
                                 aws-sdk/generator/operation::input
                                 'action-group))))
         "RemovePermission"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-permission))
 (common-lisp:progn
  (common-lisp:defun submit-feedback
@@ -4253,7 +4287,7 @@
                                 aws-sdk/generator/operation::input
                                 'anomaly-instance-id))))
         "SubmitFeedback"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'submit-feedback))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4275,7 +4309,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4297,7 +4331,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-profiling-group
@@ -4321,5 +4355,5 @@
                                 aws-sdk/generator/operation::input
                                 'profiling-group-name))))
         "UpdateProfilingGroup"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-profiling-group))

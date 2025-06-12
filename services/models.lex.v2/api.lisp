@@ -36388,7 +36388,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'locale-id))))
                                                         "BatchCreateCustomVocabularyItem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-create-custom-vocabulary-item))
 (common-lisp:progn
  (common-lisp:defun batch-delete-custom-vocabulary-item
@@ -36427,7 +36427,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'locale-id))))
                                                         "BatchDeleteCustomVocabularyItem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-delete-custom-vocabulary-item))
 (common-lisp:progn
  (common-lisp:defun batch-update-custom-vocabulary-item
@@ -36466,7 +36466,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'locale-id))))
                                                         "BatchUpdateCustomVocabularyItem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-update-custom-vocabulary-item))
 (common-lisp:progn
  (common-lisp:defun build-bot-locale
@@ -36501,7 +36501,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'locale-id))))
                                                         "BuildBotLocale"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'build-bot-locale))
 (common-lisp:progn
  (common-lisp:defun create-bot
@@ -36523,7 +36523,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/bots/"
                                                         "CreateBot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-bot))
 (common-lisp:progn
  (common-lisp:defun create-bot-alias
@@ -36555,7 +36555,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-id))))
                                                         "CreateBotAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-bot-alias))
 (common-lisp:progn
  (common-lisp:defun create-bot-locale
@@ -36590,7 +36590,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-version))))
                                                         "CreateBotLocale"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-bot-locale))
 (common-lisp:progn
  (common-lisp:defun create-bot-replica
@@ -36617,7 +36617,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-id))))
                                                         "CreateBotReplica"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-bot-replica))
 (common-lisp:progn
  (common-lisp:defun create-bot-version
@@ -36647,7 +36647,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-id))))
                                                         "CreateBotVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-bot-version))
 (common-lisp:progn
  (common-lisp:defun create-export
@@ -36666,7 +36666,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/exports/"
                                                         "CreateExport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-export))
 (common-lisp:progn
  (common-lisp:defun create-intent
@@ -36711,7 +36711,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'locale-id))))
                                                         "CreateIntent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-intent))
 (common-lisp:progn
  (common-lisp:defun create-resource-policy
@@ -36738,7 +36738,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "CreateResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-resource-policy))
 (common-lisp:progn
  (common-lisp:defun create-resource-policy-statement
@@ -36769,7 +36769,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "CreateResourcePolicyStatement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-resource-policy-statement))
 (common-lisp:progn
  (common-lisp:defun create-slot
@@ -36814,7 +36814,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'intent-id))))
                                                         "CreateSlot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-slot))
 (common-lisp:progn
  (common-lisp:defun create-slot-type
@@ -36855,7 +36855,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'locale-id))))
                                                         "CreateSlotType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-slot-type))
 (common-lisp:progn
  (common-lisp:defun create-test-set-discrepancy-report
@@ -36883,7 +36883,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'test-set-id))))
                                                         "CreateTestSetDiscrepancyReport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-test-set-discrepancy-report))
 (common-lisp:progn
  (common-lisp:defun create-upload-url ()
@@ -36920,7 +36920,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-id))))
                                                         "DeleteBot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-bot))
 (common-lisp:progn
  (common-lisp:defun delete-bot-alias
@@ -36953,7 +36953,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-alias-id))))
                                                         "DeleteBotAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-bot-alias))
 (common-lisp:progn
  (common-lisp:defun delete-bot-locale
@@ -36988,7 +36988,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'locale-id))))
                                                         "DeleteBotLocale"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-bot-locale))
 (common-lisp:progn
  (common-lisp:defun delete-bot-replica
@@ -37019,7 +37019,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'replica-region))))
                                                         "DeleteBotReplica"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-bot-replica))
 (common-lisp:progn
  (common-lisp:defun delete-bot-version
@@ -37052,7 +37052,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-version))))
                                                         "DeleteBotVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-bot-version))
 (common-lisp:progn
  (common-lisp:defun delete-custom-vocabulary
@@ -37087,7 +37087,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'locale-id))))
                                                         "DeleteCustomVocabulary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-custom-vocabulary))
 (common-lisp:progn
  (common-lisp:defun delete-export
@@ -37114,7 +37114,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'export-id))))
                                                         "DeleteExport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-export))
 (common-lisp:progn
  (common-lisp:defun delete-import
@@ -37141,7 +37141,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'import-id))))
                                                         "DeleteImport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-import))
 (common-lisp:progn
  (common-lisp:defun delete-intent
@@ -37181,7 +37181,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'intent-id))))
                                                         "DeleteIntent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-intent))
 (common-lisp:progn
  (common-lisp:defun delete-resource-policy
@@ -37209,7 +37209,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "DeleteResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resource-policy))
 (common-lisp:progn
  (common-lisp:defun delete-resource-policy-statement
@@ -37243,7 +37243,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'statement-id))))
                                                         "DeleteResourcePolicyStatement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resource-policy-statement))
 (common-lisp:progn
  (common-lisp:defun delete-slot
@@ -37288,7 +37288,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'slot-id))))
                                                         "DeleteSlot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-slot))
 (common-lisp:progn
  (common-lisp:defun delete-slot-type
@@ -37330,7 +37330,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'slot-type-id))))
                                                         "DeleteSlotType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-slot-type))
 (common-lisp:progn
  (common-lisp:defun delete-test-set
@@ -37357,7 +37357,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'test-set-id))))
                                                         "DeleteTestSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-test-set))
 (common-lisp:progn
  (common-lisp:defun delete-utterances
@@ -37384,7 +37384,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-id))))
                                                         "DeleteUtterances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-utterances))
 (common-lisp:progn
  (common-lisp:defun describe-bot
@@ -37411,7 +37411,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-id))))
                                                         "DescribeBot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-bot))
 (common-lisp:progn
  (common-lisp:defun describe-bot-alias
@@ -37442,7 +37442,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-alias-id))))
                                                         "DescribeBotAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-bot-alias))
 (common-lisp:progn
  (common-lisp:defun describe-bot-locale
@@ -37477,7 +37477,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'locale-id))))
                                                         "DescribeBotLocale"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-bot-locale))
 (common-lisp:progn
  (common-lisp:defun describe-bot-recommendation
@@ -37519,7 +37519,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-recommendation-id))))
                                                         "DescribeBotRecommendation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-bot-recommendation))
 (common-lisp:progn
  (common-lisp:defun describe-bot-replica
@@ -37550,7 +37550,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'replica-region))))
                                                         "DescribeBotReplica"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-bot-replica))
 (common-lisp:progn
  (common-lisp:defun describe-bot-resource-generation
@@ -37592,7 +37592,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'generation-id))))
                                                         "DescribeBotResourceGeneration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-bot-resource-generation))
 (common-lisp:progn
  (common-lisp:defun describe-bot-version
@@ -37623,7 +37623,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-version))))
                                                         "DescribeBotVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-bot-version))
 (common-lisp:progn
  (common-lisp:defun describe-custom-vocabulary-metadata
@@ -37659,7 +37659,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'locale-id))))
                                                         "DescribeCustomVocabularyMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-custom-vocabulary-metadata))
 (common-lisp:progn
  (common-lisp:defun describe-export
@@ -37686,7 +37686,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'export-id))))
                                                         "DescribeExport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-export))
 (common-lisp:progn
  (common-lisp:defun describe-import
@@ -37713,7 +37713,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'import-id))))
                                                         "DescribeImport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-import))
 (common-lisp:progn
  (common-lisp:defun describe-intent
@@ -37753,7 +37753,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'intent-id))))
                                                         "DescribeIntent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-intent))
 (common-lisp:progn
  (common-lisp:defun describe-resource-policy
@@ -37780,7 +37780,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "DescribeResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-resource-policy))
 (common-lisp:progn
  (common-lisp:defun describe-slot
@@ -37825,7 +37825,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'slot-id))))
                                                         "DescribeSlot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-slot))
 (common-lisp:progn
  (common-lisp:defun describe-slot-type
@@ -37866,7 +37866,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'slot-type-id))))
                                                         "DescribeSlotType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-slot-type))
 (common-lisp:progn
  (common-lisp:defun describe-test-execution
@@ -37893,7 +37893,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'test-execution-id))))
                                                         "DescribeTestExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-test-execution))
 (common-lisp:progn
  (common-lisp:defun describe-test-set
@@ -37920,7 +37920,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'test-set-id))))
                                                         "DescribeTestSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-test-set))
 (common-lisp:progn
  (common-lisp:defun describe-test-set-discrepancy-report
@@ -37948,7 +37948,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'test-set-discrepancy-report-id))))
                                                         "DescribeTestSetDiscrepancyReport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-test-set-discrepancy-report))
 (common-lisp:progn
  (common-lisp:defun describe-test-set-generation
@@ -37976,7 +37976,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'test-set-generation-id))))
                                                         "DescribeTestSetGeneration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-test-set-generation))
 (common-lisp:progn
  (common-lisp:defun generate-bot-element
@@ -38012,7 +38012,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'locale-id))))
                                                         "GenerateBotElement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'generate-bot-element))
 (common-lisp:progn
  (common-lisp:defun get-test-execution-artifacts-url
@@ -38040,7 +38040,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'test-execution-id))))
                                                         "GetTestExecutionArtifactsUrl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-test-execution-artifacts-url))
 (common-lisp:progn
  (common-lisp:defun list-aggregated-utterances
@@ -38072,7 +38072,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-id))))
                                                         "ListAggregatedUtterances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-aggregated-utterances))
 (common-lisp:progn
  (common-lisp:defun list-bot-alias-replicas
@@ -38105,7 +38105,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'replica-region))))
                                                         "ListBotAliasReplicas"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-bot-alias-replicas))
 (common-lisp:progn
  (common-lisp:defun list-bot-aliases
@@ -38132,7 +38132,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-id))))
                                                         "ListBotAliases"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-bot-aliases))
 (common-lisp:progn
  (common-lisp:defun list-bot-locales
@@ -38166,7 +38166,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-version))))
                                                         "ListBotLocales"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-bot-locales))
 (common-lisp:progn
  (common-lisp:defun list-bot-recommendations
@@ -38204,7 +38204,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'locale-id))))
                                                         "ListBotRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-bot-recommendations))
 (common-lisp:progn
  (common-lisp:defun list-bot-replicas
@@ -38231,7 +38231,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-id))))
                                                         "ListBotReplicas"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-bot-replicas))
 (common-lisp:progn
  (common-lisp:defun list-bot-resource-generations
@@ -38270,7 +38270,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'locale-id))))
                                                         "ListBotResourceGenerations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-bot-resource-generations))
 (common-lisp:progn
  (common-lisp:defun list-bot-version-replicas
@@ -38305,7 +38305,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'replica-region))))
                                                         "ListBotVersionReplicas"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-bot-version-replicas))
 (common-lisp:progn
  (common-lisp:defun list-bot-versions
@@ -38333,7 +38333,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-id))))
                                                         "ListBotVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-bot-versions))
 (common-lisp:progn
  (common-lisp:defun list-bots
@@ -38351,7 +38351,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/bots/"
                                                         "ListBots"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-bots))
 (common-lisp:progn
  (common-lisp:defun list-built-in-intents
@@ -38379,7 +38379,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'locale-id))))
                                                         "ListBuiltInIntents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-built-in-intents))
 (common-lisp:progn
  (common-lisp:defun list-built-in-slot-types
@@ -38407,7 +38407,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'locale-id))))
                                                         "ListBuiltInSlotTypes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-built-in-slot-types))
 (common-lisp:progn
  (common-lisp:defun list-custom-vocabulary-items
@@ -38446,7 +38446,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'locale-id))))
                                                         "ListCustomVocabularyItems"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-custom-vocabulary-items))
 (common-lisp:progn
  (common-lisp:defun list-exports
@@ -38466,7 +38466,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/exports/"
                                                         "ListExports"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-exports))
 (common-lisp:progn
  (common-lisp:defun list-imports
@@ -38486,7 +38486,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/imports/"
                                                         "ListImports"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-imports))
 (common-lisp:progn
  (common-lisp:defun list-intent-metrics
@@ -38516,7 +38516,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-id))))
                                                         "ListIntentMetrics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-intent-metrics))
 (common-lisp:progn
  (common-lisp:defun list-intent-paths
@@ -38546,7 +38546,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-id))))
                                                         "ListIntentPaths"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-intent-paths))
 (common-lisp:progn
  (common-lisp:defun list-intent-stage-metrics
@@ -38577,7 +38577,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-id))))
                                                         "ListIntentStageMetrics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-intent-stage-metrics))
 (common-lisp:progn
  (common-lisp:defun list-intents
@@ -38615,7 +38615,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'locale-id))))
                                                         "ListIntents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-intents))
 (common-lisp:progn
  (common-lisp:defun list-recommended-intents
@@ -38657,7 +38657,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-recommendation-id))))
                                                         "ListRecommendedIntents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-recommended-intents))
 (common-lisp:progn
  (common-lisp:defun list-session-analytics-data
@@ -38688,7 +38688,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-id))))
                                                         "ListSessionAnalyticsData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-session-analytics-data))
 (common-lisp:progn
  (common-lisp:defun list-session-metrics
@@ -38718,7 +38718,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-id))))
                                                         "ListSessionMetrics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-session-metrics))
 (common-lisp:progn
  (common-lisp:defun list-slot-types
@@ -38756,7 +38756,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'locale-id))))
                                                         "ListSlotTypes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-slot-types))
 (common-lisp:progn
  (common-lisp:defun list-slots
@@ -38798,7 +38798,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'intent-id))))
                                                         "ListSlots"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-slots))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -38825,7 +38825,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-test-execution-result-items
@@ -38856,7 +38856,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'test-execution-id))))
                                                         "ListTestExecutionResultItems"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-test-execution-result-items))
 (common-lisp:progn
  (common-lisp:defun list-test-executions
@@ -38874,7 +38874,7 @@
                                                         "POST"
                                                         "/testexecutions"
                                                         "ListTestExecutions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-test-executions))
 (common-lisp:progn
  (common-lisp:defun list-test-set-records
@@ -38902,7 +38902,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'test-set-id))))
                                                         "ListTestSetRecords"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-test-set-records))
 (common-lisp:progn
  (common-lisp:defun list-test-sets
@@ -38919,7 +38919,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/testsets"
                                                         "ListTestSets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-test-sets))
 (common-lisp:progn
  (common-lisp:defun list-utterance-analytics-data
@@ -38950,7 +38950,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-id))))
                                                         "ListUtteranceAnalyticsData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-utterance-analytics-data))
 (common-lisp:progn
  (common-lisp:defun list-utterance-metrics
@@ -38981,7 +38981,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-id))))
                                                         "ListUtteranceMetrics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-utterance-metrics))
 (common-lisp:progn
  (common-lisp:defun search-associated-transcripts
@@ -39025,7 +39025,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-recommendation-id))))
                                                         "SearchAssociatedTranscripts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-associated-transcripts))
 (common-lisp:progn
  (common-lisp:defun start-bot-recommendation
@@ -39063,7 +39063,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'locale-id))))
                                                         "StartBotRecommendation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-bot-recommendation))
 (common-lisp:progn
  (common-lisp:defun start-bot-resource-generation
@@ -39102,7 +39102,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'locale-id))))
                                                         "StartBotResourceGeneration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-bot-resource-generation))
 (common-lisp:progn
  (common-lisp:defun start-import
@@ -39122,7 +39122,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/imports/"
                                                         "StartImport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-import))
 (common-lisp:progn
  (common-lisp:defun start-test-execution
@@ -39152,7 +39152,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'test-set-id))))
                                                         "StartTestExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-test-execution))
 (common-lisp:progn
  (common-lisp:defun start-test-set-generation
@@ -39175,7 +39175,7 @@
                                                         "PUT"
                                                         "/testsetgenerations"
                                                         "StartTestSetGeneration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-test-set-generation))
 (common-lisp:progn
  (common-lisp:defun stop-bot-recommendation
@@ -39216,7 +39216,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-recommendation-id))))
                                                         "StopBotRecommendation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-bot-recommendation))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -39243,7 +39243,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -39270,7 +39270,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-bot
@@ -39301,7 +39301,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-id))))
                                                         "UpdateBot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-bot))
 (common-lisp:progn
  (common-lisp:defun update-bot-alias
@@ -39338,7 +39338,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-alias-id))))
                                                         "UpdateBotAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-bot-alias))
 (common-lisp:progn
  (common-lisp:defun update-bot-locale
@@ -39377,7 +39377,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'locale-id))))
                                                         "UpdateBotLocale"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-bot-locale))
 (common-lisp:progn
  (common-lisp:defun update-bot-recommendation
@@ -39420,7 +39420,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bot-recommendation-id))))
                                                         "UpdateBotRecommendation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-bot-recommendation))
 (common-lisp:progn
  (common-lisp:defun update-export
@@ -39447,7 +39447,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'export-id))))
                                                         "UpdateExport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-export))
 (common-lisp:progn
  (common-lisp:defun update-intent
@@ -39498,7 +39498,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'intent-id))))
                                                         "UpdateIntent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-intent))
 (common-lisp:progn
  (common-lisp:defun update-resource-policy
@@ -39526,7 +39526,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UpdateResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-resource-policy))
 (common-lisp:progn
  (common-lisp:defun update-slot
@@ -39575,7 +39575,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'slot-id))))
                                                         "UpdateSlot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-slot))
 (common-lisp:progn
  (common-lisp:defun update-slot-type
@@ -39621,7 +39621,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'slot-type-id))))
                                                         "UpdateSlotType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-slot-type))
 (common-lisp:progn
  (common-lisp:defun update-test-set
@@ -39649,5 +39649,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'test-set-id))))
                                                         "UpdateTestSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-test-set))

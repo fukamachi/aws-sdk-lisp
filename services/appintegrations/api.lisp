@@ -3583,7 +3583,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'appintegrations-request aws-sdk/generator/operation::input "POST"
         "/applications" "CreateApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-application))
 (common-lisp:progn
  (common-lisp:defun create-data-integration
@@ -3603,7 +3603,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'appintegrations-request aws-sdk/generator/operation::input "POST"
         "/dataIntegrations" "CreateDataIntegration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-data-integration))
 (common-lisp:progn
  (common-lisp:defun create-event-integration
@@ -3622,7 +3622,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'appintegrations-request aws-sdk/generator/operation::input "POST"
         "/eventIntegrations" "CreateEventIntegration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-event-integration))
 (common-lisp:progn
  (common-lisp:defun delete-application
@@ -3644,7 +3644,7 @@
                                 aws-sdk/generator/operation::input
                                 'application-identifier))))
         "DeleteApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-application))
 (common-lisp:progn
  (common-lisp:defun delete-data-integration
@@ -3666,7 +3666,7 @@
                                 aws-sdk/generator/operation::input
                                 'identifier))))
         "DeleteDataIntegration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-data-integration))
 (common-lisp:progn
  (common-lisp:defun delete-event-integration
@@ -3687,7 +3687,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'name))))
         "DeleteEventIntegration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-event-integration))
 (common-lisp:progn
  (common-lisp:defun get-application
@@ -3709,7 +3709,7 @@
                                 aws-sdk/generator/operation::input
                                 'application-identifier))))
         "GetApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-application))
 (common-lisp:progn
  (common-lisp:defun get-data-integration
@@ -3731,7 +3731,7 @@
                                 aws-sdk/generator/operation::input
                                 'identifier))))
         "GetDataIntegration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-data-integration))
 (common-lisp:progn
  (common-lisp:defun get-event-integration
@@ -3752,7 +3752,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'name))))
         "GetEventIntegration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-event-integration))
 (common-lisp:progn
  (common-lisp:defun list-application-associations
@@ -3776,7 +3776,7 @@
                                 aws-sdk/generator/operation::input
                                 'application-identifier))))
         "ListApplicationAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-application-associations))
 (common-lisp:progn
  (common-lisp:defun list-applications
@@ -3792,7 +3792,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'appintegrations-request aws-sdk/generator/operation::input "GET"
         "/applications" "ListApplications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-applications))
 (common-lisp:progn
  (common-lisp:defun list-data-integration-associations
@@ -3818,7 +3818,7 @@
                                 aws-sdk/generator/operation::input
                                 'identifier))))
         "ListDataIntegrationAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-data-integration-associations))
 (common-lisp:progn
  (common-lisp:defun list-data-integrations
@@ -3834,7 +3834,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'appintegrations-request aws-sdk/generator/operation::input "GET"
         "/dataIntegrations" "ListDataIntegrations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-data-integrations))
 (common-lisp:progn
  (common-lisp:defun list-event-integration-associations
@@ -3859,7 +3859,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'name))))
         "ListEventIntegrationAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-event-integration-associations))
 (common-lisp:progn
  (common-lisp:defun list-event-integrations
@@ -3875,7 +3875,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'appintegrations-request aws-sdk/generator/operation::input "GET"
         "/eventIntegrations" "ListEventIntegrations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-event-integrations))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -3897,7 +3897,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3919,7 +3919,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3941,7 +3941,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-application
@@ -3967,7 +3967,7 @@
                                 aws-sdk/generator/operation::input
                                 'application-identifier))))
         "UpdateApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-application))
 (common-lisp:progn
  (common-lisp:defun update-data-integration
@@ -3989,7 +3989,7 @@
                                 aws-sdk/generator/operation::input
                                 'identifier))))
         "UpdateDataIntegration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-data-integration))
 (common-lisp:progn
  (common-lisp:defun update-event-integration
@@ -4010,5 +4010,5 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'name))))
         "UpdateEventIntegration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-event-integration))

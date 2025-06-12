@@ -11332,7 +11332,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "BatchPutPropertyValues"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-put-property-values))
 (common-lisp:progn
  (common-lisp:defun cancel-metadata-transfer-job
@@ -11360,7 +11360,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'metadata-transfer-job-id))))
                                                         "CancelMetadataTransferJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-metadata-transfer-job))
 (common-lisp:progn
  (common-lisp:defun create-component-type
@@ -11397,7 +11397,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'component-type-id))))
                                                         "CreateComponentType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-component-type))
 (common-lisp:progn
  (common-lisp:defun create-entity
@@ -11428,7 +11428,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "CreateEntity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-entity))
 (common-lisp:progn
  (common-lisp:defun create-metadata-transfer-job
@@ -11450,7 +11450,7 @@
                                                         "POST"
                                                         "/metadata-transfer-jobs"
                                                         "CreateMetadataTransferJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-metadata-transfer-job))
 (common-lisp:progn
  (common-lisp:defun create-scene
@@ -11480,7 +11480,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "CreateScene"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-scene))
 (common-lisp:progn
  (common-lisp:defun create-sync-job
@@ -11512,7 +11512,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'sync-source))))
                                                         "CreateSyncJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-sync-job))
 (common-lisp:progn
  (common-lisp:defun create-workspace
@@ -11541,7 +11541,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "CreateWorkspace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-workspace))
 (common-lisp:progn
  (common-lisp:defun delete-component-type
@@ -11572,7 +11572,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'component-type-id))))
                                                         "DeleteComponentType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-component-type))
 (common-lisp:progn
  (common-lisp:defun delete-entity
@@ -11604,7 +11604,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'entity-id))))
                                                         "DeleteEntity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-entity))
 (common-lisp:progn
  (common-lisp:defun delete-scene
@@ -11635,7 +11635,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'scene-id))))
                                                         "DeleteScene"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-scene))
 (common-lisp:progn
  (common-lisp:defun delete-sync-job
@@ -11666,7 +11666,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'sync-source))))
                                                         "DeleteSyncJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-sync-job))
 (common-lisp:progn
  (common-lisp:defun delete-workspace
@@ -11693,7 +11693,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "DeleteWorkspace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-workspace))
 (common-lisp:progn
  (common-lisp:defun execute-query
@@ -11714,7 +11714,7 @@
                                                         "POST"
                                                         "/queries/execution"
                                                         "ExecuteQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'execute-query))
 (common-lisp:progn
  (common-lisp:defun get-component-type
@@ -11745,7 +11745,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'component-type-id))))
                                                         "GetComponentType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-component-type))
 (common-lisp:progn
  (common-lisp:defun get-entity
@@ -11776,7 +11776,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'entity-id))))
                                                         "GetEntity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-entity))
 (common-lisp:progn
  (common-lisp:defun get-metadata-transfer-job
@@ -11804,7 +11804,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'metadata-transfer-job-id))))
                                                         "GetMetadataTransferJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-metadata-transfer-job))
 (common-lisp:progn
  (common-lisp:defun get-pricing-plan ()
@@ -11845,7 +11845,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "GetPropertyValue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-property-value))
 (common-lisp:progn
  (common-lisp:defun get-property-value-history
@@ -11881,7 +11881,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "GetPropertyValueHistory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-property-value-history))
 (common-lisp:progn
  (common-lisp:defun get-scene
@@ -11912,7 +11912,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'scene-id))))
                                                         "GetScene"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-scene))
 (common-lisp:progn
  (common-lisp:defun get-sync-job
@@ -11939,7 +11939,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'sync-source))))
                                                         "GetSyncJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sync-job))
 (common-lisp:progn
  (common-lisp:defun get-workspace
@@ -11966,7 +11966,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "GetWorkspace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-workspace))
 (common-lisp:progn
  (common-lisp:defun list-component-types
@@ -11995,7 +11995,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "ListComponentTypes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-component-types))
 (common-lisp:progn
  (common-lisp:defun list-components
@@ -12029,7 +12029,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'entity-id))))
                                                         "ListComponents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-components))
 (common-lisp:progn
  (common-lisp:defun list-entities
@@ -12058,7 +12058,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "ListEntities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-entities))
 (common-lisp:progn
  (common-lisp:defun list-metadata-transfer-jobs
@@ -12080,7 +12080,7 @@
                                                         "POST"
                                                         "/metadata-transfer-jobs-list"
                                                         "ListMetadataTransferJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-metadata-transfer-jobs))
 (common-lisp:progn
  (common-lisp:defun list-properties
@@ -12110,7 +12110,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "ListProperties"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-properties))
 (common-lisp:progn
  (common-lisp:defun list-scenes
@@ -12138,7 +12138,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "ListScenes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-scenes))
 (common-lisp:progn
  (common-lisp:defun list-sync-jobs
@@ -12166,7 +12166,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "ListSyncJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-sync-jobs))
 (common-lisp:progn
  (common-lisp:defun list-sync-resources
@@ -12200,7 +12200,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'sync-source))))
                                                         "ListSyncResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-sync-resources))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -12218,7 +12218,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/tags-list"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-workspaces
@@ -12236,7 +12236,7 @@
                                                         "POST"
                                                         "/workspaces-list"
                                                         "ListWorkspaces"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-workspaces))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -12253,7 +12253,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/tags"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -12270,7 +12270,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "DELETE" "/tags"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-component-type
@@ -12307,7 +12307,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'component-type-id))))
                                                         "UpdateComponentType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-component-type))
 (common-lisp:progn
  (common-lisp:defun update-entity
@@ -12342,7 +12342,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'entity-id))))
                                                         "UpdateEntity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-entity))
 (common-lisp:progn
  (common-lisp:defun update-pricing-plan
@@ -12359,7 +12359,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/pricingplan"
                                                         "UpdatePricingPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-pricing-plan))
 (common-lisp:progn
  (common-lisp:defun update-scene
@@ -12393,7 +12393,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'scene-id))))
                                                         "UpdateScene"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-scene))
 (common-lisp:progn
  (common-lisp:defun update-workspace
@@ -12421,5 +12421,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "UpdateWorkspace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-workspace))

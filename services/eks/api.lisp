@@ -11531,7 +11531,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'principal-arn))))
                                                         "AssociateAccessPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-access-policy))
 (common-lisp:progn
  (common-lisp:defun associate-encryption-config
@@ -11562,7 +11562,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "AssociateEncryptionConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-encryption-config))
 (common-lisp:progn
  (common-lisp:defun associate-identity-provider-config
@@ -11592,7 +11592,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "AssociateIdentityProviderConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-identity-provider-config))
 (common-lisp:progn
  (common-lisp:defun create-access-entry
@@ -11622,7 +11622,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "CreateAccessEntry"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-access-entry))
 (common-lisp:progn
  (common-lisp:defun create-addon
@@ -11654,7 +11654,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "CreateAddon"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-addon))
 (common-lisp:progn
  (common-lisp:defun create-cluster
@@ -11677,7 +11677,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/clusters"
                                                         "CreateCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-cluster))
 (common-lisp:progn
  (common-lisp:defun create-eks-anywhere-subscription
@@ -11699,7 +11699,7 @@
                                                         "POST"
                                                         "/eks-anywhere-subscriptions"
                                                         "CreateEksAnywhereSubscription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-eks-anywhere-subscription))
 (common-lisp:progn
  (common-lisp:defun create-fargate-profile
@@ -11730,7 +11730,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "CreateFargateProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-fargate-profile))
 (common-lisp:progn
  (common-lisp:defun create-nodegroup
@@ -11765,7 +11765,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "CreateNodegroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-nodegroup))
 (common-lisp:progn
  (common-lisp:defun create-pod-identity-association
@@ -11796,7 +11796,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "CreatePodIdentityAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-pod-identity-association))
 (common-lisp:progn
  (common-lisp:defun delete-access-entry
@@ -11827,7 +11827,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'principal-arn))))
                                                         "DeleteAccessEntry"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-access-entry))
 (common-lisp:progn
  (common-lisp:defun delete-addon
@@ -11859,7 +11859,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'addon-name))))
                                                         "DeleteAddon"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-addon))
 (common-lisp:progn
  (common-lisp:defun delete-cluster
@@ -11886,7 +11886,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-cluster))
 (common-lisp:progn
  (common-lisp:defun delete-eks-anywhere-subscription
@@ -11914,7 +11914,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteEksAnywhereSubscription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-eks-anywhere-subscription))
 (common-lisp:progn
  (common-lisp:defun delete-fargate-profile
@@ -11946,7 +11946,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'fargate-profile-name))))
                                                         "DeleteFargateProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-fargate-profile))
 (common-lisp:progn
  (common-lisp:defun delete-nodegroup
@@ -11977,7 +11977,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'nodegroup-name))))
                                                         "DeleteNodegroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-nodegroup))
 (common-lisp:progn
  (common-lisp:defun delete-pod-identity-association
@@ -12009,7 +12009,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'association-id))))
                                                         "DeletePodIdentityAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-pod-identity-association))
 (common-lisp:progn
  (common-lisp:defun deregister-cluster
@@ -12036,7 +12036,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeregisterCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deregister-cluster))
 (common-lisp:progn
  (common-lisp:defun describe-access-entry
@@ -12067,7 +12067,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'principal-arn))))
                                                         "DescribeAccessEntry"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-access-entry))
 (common-lisp:progn
  (common-lisp:defun describe-addon
@@ -12098,7 +12098,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'addon-name))))
                                                         "DescribeAddon"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-addon))
 (common-lisp:progn
  (common-lisp:defun describe-addon-configuration
@@ -12117,7 +12117,7 @@
                                                         "GET"
                                                         "/addons/configuration-schemas"
                                                         "DescribeAddonConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-addon-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-addon-versions
@@ -12138,7 +12138,7 @@
                                                         "GET"
                                                         "/addons/supported-versions"
                                                         "DescribeAddonVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-addon-versions))
 (common-lisp:progn
  (common-lisp:defun describe-cluster
@@ -12165,7 +12165,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DescribeCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-cluster))
 (common-lisp:progn
  (common-lisp:defun describe-eks-anywhere-subscription
@@ -12193,7 +12193,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DescribeEksAnywhereSubscription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-eks-anywhere-subscription))
 (common-lisp:progn
  (common-lisp:defun describe-fargate-profile
@@ -12225,7 +12225,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'fargate-profile-name))))
                                                         "DescribeFargateProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-fargate-profile))
 (common-lisp:progn
  (common-lisp:defun describe-identity-provider-config
@@ -12254,7 +12254,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DescribeIdentityProviderConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-identity-provider-config))
 (common-lisp:progn
  (common-lisp:defun describe-insight
@@ -12285,7 +12285,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DescribeInsight"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-insight))
 (common-lisp:progn
  (common-lisp:defun describe-nodegroup
@@ -12316,7 +12316,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'nodegroup-name))))
                                                         "DescribeNodegroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-nodegroup))
 (common-lisp:progn
  (common-lisp:defun describe-pod-identity-association
@@ -12348,7 +12348,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'association-id))))
                                                         "DescribePodIdentityAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-pod-identity-association))
 (common-lisp:progn
  (common-lisp:defun describe-update
@@ -12380,7 +12380,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'update-id))))
                                                         "DescribeUpdate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-update))
 (common-lisp:progn
  (common-lisp:defun disassociate-access-policy
@@ -12417,7 +12417,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'policy-arn))))
                                                         "DisassociateAccessPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-access-policy))
 (common-lisp:progn
  (common-lisp:defun disassociate-identity-provider-config
@@ -12448,7 +12448,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DisassociateIdentityProviderConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-identity-provider-config))
 (common-lisp:progn
  (common-lisp:defun list-access-entries
@@ -12478,7 +12478,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "ListAccessEntries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-access-entries))
 (common-lisp:progn
  (common-lisp:defun list-access-policies
@@ -12496,7 +12496,7 @@
                                                         "GET"
                                                         "/access-policies"
                                                         "ListAccessPolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-access-policies))
 (common-lisp:progn
  (common-lisp:defun list-addons
@@ -12524,7 +12524,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "ListAddons"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-addons))
 (common-lisp:progn
  (common-lisp:defun list-associated-access-policies
@@ -12558,7 +12558,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'principal-arn))))
                                                         "ListAssociatedAccessPolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-associated-access-policies))
 (common-lisp:progn
  (common-lisp:defun list-clusters
@@ -12575,7 +12575,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/clusters"
                                                         "ListClusters"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-clusters))
 (common-lisp:progn
  (common-lisp:defun list-eks-anywhere-subscriptions
@@ -12595,7 +12595,7 @@
                                                         "GET"
                                                         "/eks-anywhere-subscriptions"
                                                         "ListEksAnywhereSubscriptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-eks-anywhere-subscriptions))
 (common-lisp:progn
  (common-lisp:defun list-fargate-profiles
@@ -12623,7 +12623,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "ListFargateProfiles"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-fargate-profiles))
 (common-lisp:progn
  (common-lisp:defun list-identity-provider-configs
@@ -12652,7 +12652,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "ListIdentityProviderConfigs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-identity-provider-configs))
 (common-lisp:progn
  (common-lisp:defun list-insights
@@ -12681,7 +12681,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "ListInsights"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-insights))
 (common-lisp:progn
  (common-lisp:defun list-nodegroups
@@ -12709,7 +12709,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "ListNodegroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-nodegroups))
 (common-lisp:progn
  (common-lisp:defun list-pod-identity-associations
@@ -12740,7 +12740,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "ListPodIdentityAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-pod-identity-associations))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -12767,7 +12767,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-updates
@@ -12797,7 +12797,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "ListUpdates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-updates))
 (common-lisp:progn
  (common-lisp:defun register-cluster
@@ -12817,7 +12817,7 @@
                                                         "POST"
                                                         "/cluster-registrations"
                                                         "RegisterCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-cluster))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -12844,7 +12844,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -12871,7 +12871,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-access-entry
@@ -12905,7 +12905,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'principal-arn))))
                                                         "UpdateAccessEntry"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-access-entry))
 (common-lisp:progn
  (common-lisp:defun update-addon
@@ -12941,7 +12941,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'addon-name))))
                                                         "UpdateAddon"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-addon))
 (common-lisp:progn
  (common-lisp:defun update-cluster-config
@@ -12971,7 +12971,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateClusterConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-cluster-config))
 (common-lisp:progn
  (common-lisp:defun update-cluster-version
@@ -12999,7 +12999,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateClusterVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-cluster-version))
 (common-lisp:progn
  (common-lisp:defun update-eks-anywhere-subscription
@@ -13028,7 +13028,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateEksAnywhereSubscription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-eks-anywhere-subscription))
 (common-lisp:progn
  (common-lisp:defun update-nodegroup-config
@@ -13062,7 +13062,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'nodegroup-name))))
                                                         "UpdateNodegroupConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-nodegroup-config))
 (common-lisp:progn
  (common-lisp:defun update-nodegroup-version
@@ -13097,7 +13097,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'nodegroup-name))))
                                                         "UpdateNodegroupVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-nodegroup-version))
 (common-lisp:progn
  (common-lisp:defun update-pod-identity-association
@@ -13132,5 +13132,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'association-id))))
                                                         "UpdatePodIdentityAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-pod-identity-association))

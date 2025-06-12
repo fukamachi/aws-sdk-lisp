@@ -947,7 +947,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           upload-documents-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'documents)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'documents))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          upload-documents-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass upload-documents-response common-lisp:nil
                        ((status :initarg :status :initform common-lisp:nil
@@ -1044,7 +1050,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cloudsearchdomain-request aws-sdk/generator/operation::input "GET"
         "/2013-01-01/search?format=sdk&pretty=true" "Search"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search))
 (common-lisp:progn
  (common-lisp:defun suggest
@@ -1060,7 +1066,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cloudsearchdomain-request aws-sdk/generator/operation::input "GET"
         "/2013-01-01/suggest?format=sdk&pretty=true" "Suggest"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'suggest))
 (common-lisp:progn
  (common-lisp:defun upload-documents
@@ -1076,5 +1082,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cloudsearchdomain-request aws-sdk/generator/operation::input "POST"
         "/2013-01-01/documents/batch?format=sdk" "UploadDocuments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'upload-documents))

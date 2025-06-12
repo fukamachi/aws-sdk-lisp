@@ -924,7 +924,7 @@
                                                         "POST"
                                                         "/S3Outposts/CreateEndpoint"
                                                         "CreateEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-endpoint))
 (common-lisp:progn
  (common-lisp:defun delete-endpoint
@@ -942,7 +942,7 @@
                                                         "DELETE"
                                                         "/S3Outposts/DeleteEndpoint"
                                                         "DeleteEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-endpoint))
 (common-lisp:progn
  (common-lisp:defun list-endpoints
@@ -960,7 +960,7 @@
                                                         "GET"
                                                         "/S3Outposts/ListEndpoints"
                                                         "ListEndpoints"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-endpoints))
 (common-lisp:progn
  (common-lisp:defun list-outposts-with-s3
@@ -978,7 +978,7 @@
                                                         "GET"
                                                         "/S3Outposts/ListOutpostsWithS3"
                                                         "ListOutpostsWithS3"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-outposts-with-s3))
 (common-lisp:progn
  (common-lisp:defun list-shared-endpoints
@@ -997,5 +997,5 @@
                                                         "GET"
                                                         "/S3Outposts/ListSharedEndpoints"
                                                         "ListSharedEndpoints"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-shared-endpoints))

@@ -3485,7 +3485,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-query-request aws-sdk/generator/operation::input "POST" "/"
         "CancelQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-query))
 (common-lisp:progn
  (common-lisp:defun create-scheduled-query
@@ -3508,7 +3508,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-query-request aws-sdk/generator/operation::input "POST" "/"
         "CreateScheduledQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-scheduled-query))
 (common-lisp:progn
  (common-lisp:defun delete-scheduled-query
@@ -3524,7 +3524,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-query-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteScheduledQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-scheduled-query))
 (common-lisp:progn
  (common-lisp:defun describe-endpoints ()
@@ -3548,7 +3548,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-query-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeScheduledQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-scheduled-query))
 (common-lisp:progn
  (common-lisp:defun execute-scheduled-query
@@ -3566,7 +3566,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-query-request aws-sdk/generator/operation::input "POST" "/"
         "ExecuteScheduledQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'execute-scheduled-query))
 (common-lisp:progn
  (common-lisp:defun list-scheduled-queries
@@ -3582,7 +3582,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-query-request aws-sdk/generator/operation::input "POST" "/"
         "ListScheduledQueries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-scheduled-queries))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -3599,7 +3599,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-query-request aws-sdk/generator/operation::input "POST" "/"
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun prepare-query
@@ -3615,7 +3615,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-query-request aws-sdk/generator/operation::input "POST" "/"
         "PrepareQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'prepare-query))
 (common-lisp:progn
  (common-lisp:defun query
@@ -3633,7 +3633,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-query-request aws-sdk/generator/operation::input "POST" "/"
         "Query"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'query))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3649,7 +3649,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-query-request aws-sdk/generator/operation::input "POST" "/"
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3665,7 +3665,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-query-request aws-sdk/generator/operation::input "POST" "/"
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-scheduled-query
@@ -3681,5 +3681,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-query-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateScheduledQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-scheduled-query))

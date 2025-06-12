@@ -3776,7 +3776,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'group-identifier))))
                                                         "AssociateResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-resource))
 (common-lisp:progn
  (common-lisp:defun create-canary
@@ -3801,7 +3801,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/canary"
                                                         "CreateCanary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-canary))
 (common-lisp:progn
  (common-lisp:defun create-group
@@ -3818,7 +3818,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/group"
                                                         "CreateGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-group))
 (common-lisp:progn
  (common-lisp:defun delete-canary
@@ -3845,7 +3845,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteCanary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-canary))
 (common-lisp:progn
  (common-lisp:defun delete-group
@@ -3872,7 +3872,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'group-identifier))))
                                                         "DeleteGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-group))
 (common-lisp:progn
  (common-lisp:defun describe-canaries
@@ -3889,7 +3889,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/canaries"
                                                         "DescribeCanaries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-canaries))
 (common-lisp:progn
  (common-lisp:defun describe-canaries-last-run
@@ -3908,7 +3908,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/canaries/last-run"
                                                         "DescribeCanariesLastRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-canaries-last-run))
 (common-lisp:progn
  (common-lisp:defun describe-runtime-versions
@@ -3927,7 +3927,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/runtime-versions"
                                                         "DescribeRuntimeVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-runtime-versions))
 (common-lisp:progn
  (common-lisp:defun disassociate-resource
@@ -3954,7 +3954,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'group-identifier))))
                                                         "DisassociateResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-resource))
 (common-lisp:progn
  (common-lisp:defun get-canary
@@ -3981,7 +3981,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetCanary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-canary))
 (common-lisp:progn
  (common-lisp:defun get-canary-runs
@@ -4008,7 +4008,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetCanaryRuns"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-canary-runs))
 (common-lisp:progn
  (common-lisp:defun get-group
@@ -4035,7 +4035,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'group-identifier))))
                                                         "GetGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-group))
 (common-lisp:progn
  (common-lisp:defun list-associated-groups
@@ -4063,7 +4063,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListAssociatedGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-associated-groups))
 (common-lisp:progn
  (common-lisp:defun list-group-resources
@@ -4091,7 +4091,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'group-identifier))))
                                                         "ListGroupResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-group-resources))
 (common-lisp:progn
  (common-lisp:defun list-groups
@@ -4108,7 +4108,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/groups"
                                                         "ListGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-groups))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -4135,7 +4135,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun start-canary
@@ -4162,7 +4162,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "StartCanary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-canary))
 (common-lisp:progn
  (common-lisp:defun stop-canary
@@ -4189,7 +4189,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "StopCanary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-canary))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4216,7 +4216,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4243,7 +4243,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-canary
@@ -4278,5 +4278,5 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateCanary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-canary))

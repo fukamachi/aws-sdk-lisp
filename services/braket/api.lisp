@@ -3590,7 +3590,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-arn))))
                                                         "CancelJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-job))
 (common-lisp:progn
  (common-lisp:defun cancel-quantum-task
@@ -3617,7 +3617,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'quantum-task-arn))))
                                                         "CancelQuantumTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-quantum-task))
 (common-lisp:progn
  (common-lisp:defun create-job
@@ -3642,7 +3642,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/job"
                                                         "CreateJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-job))
 (common-lisp:progn
  (common-lisp:defun create-quantum-task
@@ -3664,7 +3664,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/quantum-task"
                                                         "CreateQuantumTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-quantum-task))
 (common-lisp:progn
  (common-lisp:defun get-device
@@ -3691,7 +3691,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'device-arn))))
                                                         "GetDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-device))
 (common-lisp:progn
  (common-lisp:defun get-job
@@ -3719,7 +3719,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-arn))))
                                                         "GetJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-job))
 (common-lisp:progn
  (common-lisp:defun get-quantum-task
@@ -3748,7 +3748,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'quantum-task-arn))))
                                                         "GetQuantumTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-quantum-task))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -3775,7 +3775,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun search-devices
@@ -3792,7 +3792,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/devices"
                                                         "SearchDevices"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-devices))
 (common-lisp:progn
  (common-lisp:defun search-jobs
@@ -3809,7 +3809,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/jobs"
                                                         "SearchJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-jobs))
 (common-lisp:progn
  (common-lisp:defun search-quantum-tasks
@@ -3826,7 +3826,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/quantum-tasks"
                                                         "SearchQuantumTasks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-quantum-tasks))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3853,7 +3853,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3880,5 +3880,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))

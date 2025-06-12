@@ -2489,7 +2489,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'snapshot-arn))))
                                                         "CopyClusterSnapshot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'copy-cluster-snapshot))
 (common-lisp:progn
  (common-lisp:defun create-cluster
@@ -2515,7 +2515,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/cluster"
                                                         "CreateCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-cluster))
 (common-lisp:progn
  (common-lisp:defun create-cluster-snapshot
@@ -2533,7 +2533,7 @@
                                                         "POST"
                                                         "/cluster-snapshot"
                                                         "CreateClusterSnapshot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-cluster-snapshot))
 (common-lisp:progn
  (common-lisp:defun delete-cluster
@@ -2560,7 +2560,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "DeleteCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-cluster))
 (common-lisp:progn
  (common-lisp:defun delete-cluster-snapshot
@@ -2587,7 +2587,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'snapshot-arn))))
                                                         "DeleteClusterSnapshot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-cluster-snapshot))
 (common-lisp:progn
  (common-lisp:defun get-cluster
@@ -2614,7 +2614,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "GetCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-cluster))
 (common-lisp:progn
  (common-lisp:defun get-cluster-snapshot
@@ -2641,7 +2641,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'snapshot-arn))))
                                                         "GetClusterSnapshot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-cluster-snapshot))
 (common-lisp:progn
  (common-lisp:defun list-cluster-snapshots
@@ -2661,7 +2661,7 @@
                                                         "GET"
                                                         "/cluster-snapshots"
                                                         "ListClusterSnapshots"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-cluster-snapshots))
 (common-lisp:progn
  (common-lisp:defun list-clusters
@@ -2678,7 +2678,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/clusters"
                                                         "ListClusters"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-clusters))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -2705,7 +2705,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun restore-cluster-from-snapshot
@@ -2737,7 +2737,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'snapshot-arn))))
                                                         "RestoreClusterFromSnapshot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'restore-cluster-from-snapshot))
 (common-lisp:progn
  (common-lisp:defun start-cluster
@@ -2764,7 +2764,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "StartCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-cluster))
 (common-lisp:progn
  (common-lisp:defun stop-cluster
@@ -2791,7 +2791,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "StopCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-cluster))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -2818,7 +2818,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -2845,7 +2845,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-cluster
@@ -2880,5 +2880,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "UpdateCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-cluster))

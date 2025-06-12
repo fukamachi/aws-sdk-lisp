@@ -8152,7 +8152,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-arn))))
         "AssociateChannelFlow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-channel-flow))
 (common-lisp:progn
  (common-lisp:defun batch-create-channel-membership
@@ -8179,7 +8179,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-arn))))
         "BatchCreateChannelMembership"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-create-channel-membership))
 (common-lisp:progn
  (common-lisp:defun channel-flow-callback
@@ -8205,7 +8205,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-arn))))
         "ChannelFlowCallback"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'channel-flow-callback))
 (common-lisp:progn
  (common-lisp:defun create-channel
@@ -8227,7 +8227,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-messaging-request aws-sdk/generator/operation::input "POST"
         "/channels" "CreateChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-channel))
 (common-lisp:progn
  (common-lisp:defun create-channel-ban
@@ -8250,7 +8250,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-arn))))
         "CreateChannelBan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-channel-ban))
 (common-lisp:progn
  (common-lisp:defun create-channel-flow
@@ -8269,7 +8269,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-messaging-request aws-sdk/generator/operation::input "POST"
         "/channel-flows" "CreateChannelFlow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-channel-flow))
 (common-lisp:progn
  (common-lisp:defun create-channel-membership
@@ -8295,7 +8295,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-arn))))
         "CreateChannelMembership"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-channel-membership))
 (common-lisp:progn
  (common-lisp:defun create-channel-moderator
@@ -8319,7 +8319,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-arn))))
         "CreateChannelModerator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-channel-moderator))
 (common-lisp:progn
  (common-lisp:defun delete-channel
@@ -8342,7 +8342,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-arn))))
         "DeleteChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-channel))
 (common-lisp:progn
  (common-lisp:defun delete-channel-ban
@@ -8370,7 +8370,7 @@
                                 aws-sdk/generator/operation::input
                                 'member-arn))))
         "DeleteChannelBan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-channel-ban))
 (common-lisp:progn
  (common-lisp:defun delete-channel-flow
@@ -8393,7 +8393,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-flow-arn))))
         "DeleteChannelFlow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-channel-flow))
 (common-lisp:progn
  (common-lisp:defun delete-channel-membership
@@ -8423,7 +8423,7 @@
                                 aws-sdk/generator/operation::input
                                 'member-arn))))
         "DeleteChannelMembership"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-channel-membership))
 (common-lisp:progn
  (common-lisp:defun delete-channel-message
@@ -8452,7 +8452,7 @@
                                 aws-sdk/generator/operation::input
                                 'message-id))))
         "DeleteChannelMessage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-channel-message))
 (common-lisp:progn
  (common-lisp:defun delete-channel-moderator
@@ -8481,7 +8481,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-moderator-arn))))
         "DeleteChannelModerator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-channel-moderator))
 (common-lisp:progn
  (common-lisp:defun delete-messaging-streaming-configurations
@@ -8506,7 +8506,7 @@
                                 aws-sdk/generator/operation::input
                                 'app-instance-arn))))
         "DeleteMessagingStreamingConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-messaging-streaming-configurations))
 (common-lisp:progn
  (common-lisp:defun describe-channel
@@ -8528,7 +8528,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-arn))))
         "DescribeChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-channel))
 (common-lisp:progn
  (common-lisp:defun describe-channel-ban
@@ -8555,7 +8555,7 @@
                                 aws-sdk/generator/operation::input
                                 'member-arn))))
         "DescribeChannelBan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-channel-ban))
 (common-lisp:progn
  (common-lisp:defun describe-channel-flow
@@ -8577,7 +8577,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-flow-arn))))
         "DescribeChannelFlow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-channel-flow))
 (common-lisp:progn
  (common-lisp:defun describe-channel-membership
@@ -8606,7 +8606,7 @@
                                 aws-sdk/generator/operation::input
                                 'member-arn))))
         "DescribeChannelMembership"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-channel-membership))
 (common-lisp:progn
  (common-lisp:defun describe-channel-membership-for-app-instance-user
@@ -8632,7 +8632,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-arn))))
         "DescribeChannelMembershipForAppInstanceUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-channel-membership-for-app-instance-user))
 (common-lisp:progn
  (common-lisp:defun describe-channel-moderated-by-app-instance-user
@@ -8658,7 +8658,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-arn))))
         "DescribeChannelModeratedByAppInstanceUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-channel-moderated-by-app-instance-user))
 (common-lisp:progn
  (common-lisp:defun describe-channel-moderator
@@ -8687,7 +8687,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-moderator-arn))))
         "DescribeChannelModerator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-channel-moderator))
 (common-lisp:progn
  (common-lisp:defun disassociate-channel-flow
@@ -8717,7 +8717,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-flow-arn))))
         "DisassociateChannelFlow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-channel-flow))
 (common-lisp:progn
  (common-lisp:defun get-channel-membership-preferences
@@ -8746,7 +8746,7 @@
                                 aws-sdk/generator/operation::input
                                 'member-arn))))
         "GetChannelMembershipPreferences"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-channel-membership-preferences))
 (common-lisp:progn
  (common-lisp:defun get-channel-message
@@ -8774,7 +8774,7 @@
                                 aws-sdk/generator/operation::input
                                 'message-id))))
         "GetChannelMessage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-channel-message))
 (common-lisp:progn
  (common-lisp:defun get-channel-message-status
@@ -8804,7 +8804,7 @@
                                 aws-sdk/generator/operation::input
                                 'message-id))))
         "GetChannelMessageStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-channel-message-status))
 (common-lisp:progn
  (common-lisp:defun get-messaging-session-endpoint ()
@@ -8837,7 +8837,7 @@
                                 aws-sdk/generator/operation::input
                                 'app-instance-arn))))
         "GetMessagingStreamingConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-messaging-streaming-configurations))
 (common-lisp:progn
  (common-lisp:defun list-channel-bans
@@ -8861,7 +8861,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-arn))))
         "ListChannelBans"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-channel-bans))
 (common-lisp:progn
  (common-lisp:defun list-channel-flows
@@ -8878,7 +8878,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-messaging-request aws-sdk/generator/operation::input "GET"
         "/channel-flows" "ListChannelFlows"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-channel-flows))
 (common-lisp:progn
  (common-lisp:defun list-channel-memberships
@@ -8903,7 +8903,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-arn))))
         "ListChannelMemberships"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-channel-memberships))
 (common-lisp:progn
  (common-lisp:defun list-channel-memberships-for-app-instance-user
@@ -8924,7 +8924,7 @@
         'chime-sdk-messaging-request aws-sdk/generator/operation::input "GET"
         "/channels?scope=app-instance-user-memberships"
         "ListChannelMembershipsForAppInstanceUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-channel-memberships-for-app-instance-user))
 (common-lisp:progn
  (common-lisp:defun list-channel-messages
@@ -8950,7 +8950,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-arn))))
         "ListChannelMessages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-channel-messages))
 (common-lisp:progn
  (common-lisp:defun list-channel-moderators
@@ -8974,7 +8974,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-arn))))
         "ListChannelModerators"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-channel-moderators))
 (common-lisp:progn
  (common-lisp:defun list-channels
@@ -8993,7 +8993,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-messaging-request aws-sdk/generator/operation::input "GET"
         "/channels" "ListChannels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-channels))
 (common-lisp:progn
  (common-lisp:defun list-channels-associated-with-channel-flow
@@ -9012,7 +9012,7 @@
         'chime-sdk-messaging-request aws-sdk/generator/operation::input "GET"
         "/channels?scope=channel-flow-associations"
         "ListChannelsAssociatedWithChannelFlow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-channels-associated-with-channel-flow))
 (common-lisp:progn
  (common-lisp:defun list-channels-moderated-by-app-instance-user
@@ -9033,7 +9033,7 @@
         'chime-sdk-messaging-request aws-sdk/generator/operation::input "GET"
         "/channels?scope=app-instance-user-moderated-channels"
         "ListChannelsModeratedByAppInstanceUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-channels-moderated-by-app-instance-user))
 (common-lisp:progn
  (common-lisp:defun list-sub-channels
@@ -9057,7 +9057,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-arn))))
         "ListSubChannels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-sub-channels))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -9073,7 +9073,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-messaging-request aws-sdk/generator/operation::input "GET"
         "/tags" "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-channel-expiration-settings
@@ -9099,7 +9099,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-arn))))
         "PutChannelExpirationSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-channel-expiration-settings))
 (common-lisp:progn
  (common-lisp:defun put-channel-membership-preferences
@@ -9129,7 +9129,7 @@
                                 aws-sdk/generator/operation::input
                                 'member-arn))))
         "PutChannelMembershipPreferences"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-channel-membership-preferences))
 (common-lisp:progn
  (common-lisp:defun put-messaging-streaming-configurations
@@ -9155,7 +9155,7 @@
                                 aws-sdk/generator/operation::input
                                 'app-instance-arn))))
         "PutMessagingStreamingConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-messaging-streaming-configurations))
 (common-lisp:progn
  (common-lisp:defun redact-channel-message
@@ -9184,7 +9184,7 @@
                                 aws-sdk/generator/operation::input
                                 'message-id))))
         "RedactChannelMessage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'redact-channel-message))
 (common-lisp:progn
  (common-lisp:defun search-channels
@@ -9202,7 +9202,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-messaging-request aws-sdk/generator/operation::input "POST"
         "/channels?operation=search" "SearchChannels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-channels))
 (common-lisp:progn
  (common-lisp:defun send-channel-message
@@ -9230,7 +9230,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-arn))))
         "SendChannelMessage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-channel-message))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -9246,7 +9246,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-messaging-request aws-sdk/generator/operation::input "POST"
         "/tags?operation=tag-resource" "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -9262,7 +9262,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-messaging-request aws-sdk/generator/operation::input "POST"
         "/tags?operation=untag-resource" "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-channel
@@ -9286,7 +9286,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-arn))))
         "UpdateChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-channel))
 (common-lisp:progn
  (common-lisp:defun update-channel-flow
@@ -9309,7 +9309,7 @@
                                 aws-sdk/generator/operation::input
                                 'channel-flow-arn))))
         "UpdateChannelFlow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-channel-flow))
 (common-lisp:progn
  (common-lisp:defun update-channel-message
@@ -9338,7 +9338,7 @@
                                 aws-sdk/generator/operation::input
                                 'message-id))))
         "UpdateChannelMessage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-channel-message))
 (common-lisp:progn
  (common-lisp:defun update-channel-read-marker
@@ -9361,5 +9361,5 @@
                                 aws-sdk/generator/operation::input
                                 'channel-arn))))
         "UpdateChannelReadMarker"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-channel-read-marker))

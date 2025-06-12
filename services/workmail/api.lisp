@@ -13549,7 +13549,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateDelegateToResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-delegate-to-resource))
 (common-lisp:progn
  (common-lisp:defun associate-member-to-group
@@ -13568,7 +13568,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateMemberToGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-member-to-group))
 (common-lisp:progn
  (common-lisp:defun assume-impersonation-role
@@ -13587,7 +13587,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssumeImpersonationRole"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'assume-impersonation-role))
 (common-lisp:progn
  (common-lisp:defun cancel-mailbox-export-job
@@ -13606,7 +13606,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CancelMailboxExportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-mailbox-export-job))
 (common-lisp:progn
  (common-lisp:defun create-alias
@@ -13624,7 +13624,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-alias))
 (common-lisp:progn
  (common-lisp:defun create-availability-configuration
@@ -13645,7 +13645,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateAvailabilityConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-availability-configuration))
 (common-lisp:progn
  (common-lisp:defun create-group
@@ -13665,7 +13665,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-group))
 (common-lisp:progn
  (common-lisp:defun create-impersonation-role
@@ -13686,7 +13686,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateImpersonationRole"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-impersonation-role))
 (common-lisp:progn
  (common-lisp:defun create-mobile-device-access-rule
@@ -13712,7 +13712,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateMobileDeviceAccessRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-mobile-device-access-rule))
 (common-lisp:progn
  (common-lisp:defun create-organization
@@ -13732,7 +13732,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateOrganization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-organization))
 (common-lisp:progn
  (common-lisp:defun create-resource
@@ -13752,7 +13752,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-resource))
 (common-lisp:progn
  (common-lisp:defun create-user
@@ -13773,7 +13773,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-user))
 (common-lisp:progn
  (common-lisp:defun delete-access-control-rule
@@ -13791,7 +13791,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAccessControlRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-access-control-rule))
 (common-lisp:progn
  (common-lisp:defun delete-alias
@@ -13809,7 +13809,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-alias))
 (common-lisp:progn
  (common-lisp:defun delete-availability-configuration
@@ -13827,7 +13827,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAvailabilityConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-availability-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-email-monitoring-configuration
@@ -13845,7 +13845,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteEmailMonitoringConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-email-monitoring-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-group
@@ -13862,7 +13862,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-group))
 (common-lisp:progn
  (common-lisp:defun delete-impersonation-role
@@ -13881,7 +13881,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteImpersonationRole"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-impersonation-role))
 (common-lisp:progn
  (common-lisp:defun delete-mailbox-permissions
@@ -13900,7 +13900,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteMailboxPermissions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-mailbox-permissions))
 (common-lisp:progn
  (common-lisp:defun delete-mobile-device-access-override
@@ -13919,7 +13919,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteMobileDeviceAccessOverride"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-mobile-device-access-override))
 (common-lisp:progn
  (common-lisp:defun delete-mobile-device-access-rule
@@ -13939,7 +13939,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteMobileDeviceAccessRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-mobile-device-access-rule))
 (common-lisp:progn
  (common-lisp:defun delete-organization
@@ -13959,7 +13959,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteOrganization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-organization))
 (common-lisp:progn
  (common-lisp:defun delete-resource
@@ -13976,7 +13976,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resource))
 (common-lisp:progn
  (common-lisp:defun delete-retention-policy
@@ -13993,7 +13993,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteRetentionPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-retention-policy))
 (common-lisp:progn
  (common-lisp:defun delete-user
@@ -14010,7 +14010,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-user))
 (common-lisp:progn
  (common-lisp:defun deregister-from-work-mail
@@ -14028,7 +14028,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeregisterFromWorkMail"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deregister-from-work-mail))
 (common-lisp:progn
  (common-lisp:defun deregister-mail-domain
@@ -14045,7 +14045,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeregisterMailDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deregister-mail-domain))
 (common-lisp:progn
  (common-lisp:defun describe-email-monitoring-configuration
@@ -14063,7 +14063,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEmailMonitoringConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-email-monitoring-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-entity
@@ -14080,7 +14080,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEntity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-entity))
 (common-lisp:progn
  (common-lisp:defun describe-group
@@ -14097,7 +14097,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-group))
 (common-lisp:progn
  (common-lisp:defun describe-inbound-dmarc-settings
@@ -14115,7 +14115,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeInboundDmarcSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-inbound-dmarc-settings))
 (common-lisp:progn
  (common-lisp:defun describe-mailbox-export-job
@@ -14133,7 +14133,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeMailboxExportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-mailbox-export-job))
 (common-lisp:progn
  (common-lisp:defun describe-organization
@@ -14150,7 +14150,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeOrganization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-organization))
 (common-lisp:progn
  (common-lisp:defun describe-resource
@@ -14167,7 +14167,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-resource))
 (common-lisp:progn
  (common-lisp:defun describe-user
@@ -14184,7 +14184,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-user))
 (common-lisp:progn
  (common-lisp:defun disassociate-delegate-from-resource
@@ -14203,7 +14203,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateDelegateFromResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-delegate-from-resource))
 (common-lisp:progn
  (common-lisp:defun disassociate-member-from-group
@@ -14222,7 +14222,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateMemberFromGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-member-from-group))
 (common-lisp:progn
  (common-lisp:defun get-access-control-effect
@@ -14243,7 +14243,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAccessControlEffect"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-access-control-effect))
 (common-lisp:progn
  (common-lisp:defun get-default-retention-policy
@@ -14261,7 +14261,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDefaultRetentionPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-default-retention-policy))
 (common-lisp:progn
  (common-lisp:defun get-impersonation-role
@@ -14279,7 +14279,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetImpersonationRole"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-impersonation-role))
 (common-lisp:progn
  (common-lisp:defun get-impersonation-role-effect
@@ -14299,7 +14299,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetImpersonationRoleEffect"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-impersonation-role-effect))
 (common-lisp:progn
  (common-lisp:defun get-mail-domain
@@ -14316,7 +14316,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetMailDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-mail-domain))
 (common-lisp:progn
  (common-lisp:defun get-mailbox-details
@@ -14333,7 +14333,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetMailboxDetails"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-mailbox-details))
 (common-lisp:progn
  (common-lisp:defun get-mobile-device-access-effect
@@ -14354,7 +14354,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetMobileDeviceAccessEffect"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-mobile-device-access-effect))
 (common-lisp:progn
  (common-lisp:defun get-mobile-device-access-override
@@ -14373,7 +14373,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetMobileDeviceAccessOverride"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-mobile-device-access-override))
 (common-lisp:progn
  (common-lisp:defun list-access-control-rules
@@ -14391,7 +14391,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAccessControlRules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-access-control-rules))
 (common-lisp:progn
  (common-lisp:defun list-aliases
@@ -14410,7 +14410,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAliases"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-aliases))
 (common-lisp:progn
  (common-lisp:defun list-availability-configurations
@@ -14429,7 +14429,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAvailabilityConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-availability-configurations))
 (common-lisp:progn
  (common-lisp:defun list-group-members
@@ -14448,7 +14448,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListGroupMembers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-group-members))
 (common-lisp:progn
  (common-lisp:defun list-groups
@@ -14467,7 +14467,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-groups))
 (common-lisp:progn
  (common-lisp:defun list-groups-for-entity
@@ -14487,7 +14487,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListGroupsForEntity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-groups-for-entity))
 (common-lisp:progn
  (common-lisp:defun list-impersonation-roles
@@ -14505,7 +14505,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListImpersonationRoles"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-impersonation-roles))
 (common-lisp:progn
  (common-lisp:defun list-mail-domains
@@ -14523,7 +14523,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListMailDomains"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-mail-domains))
 (common-lisp:progn
  (common-lisp:defun list-mailbox-export-jobs
@@ -14541,7 +14541,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListMailboxExportJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-mailbox-export-jobs))
 (common-lisp:progn
  (common-lisp:defun list-mailbox-permissions
@@ -14560,7 +14560,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListMailboxPermissions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-mailbox-permissions))
 (common-lisp:progn
  (common-lisp:defun list-mobile-device-access-overrides
@@ -14581,7 +14581,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListMobileDeviceAccessOverrides"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-mobile-device-access-overrides))
 (common-lisp:progn
  (common-lisp:defun list-mobile-device-access-rules
@@ -14599,7 +14599,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListMobileDeviceAccessRules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-mobile-device-access-rules))
 (common-lisp:progn
  (common-lisp:defun list-organizations
@@ -14616,7 +14616,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListOrganizations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-organizations))
 (common-lisp:progn
  (common-lisp:defun list-resource-delegates
@@ -14635,7 +14635,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListResourceDelegates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-resource-delegates))
 (common-lisp:progn
  (common-lisp:defun list-resources
@@ -14654,7 +14654,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-resources))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -14671,7 +14671,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-users
@@ -14690,7 +14690,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListUsers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-users))
 (common-lisp:progn
  (common-lisp:defun put-access-control-rule
@@ -14713,7 +14713,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutAccessControlRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-access-control-rule))
 (common-lisp:progn
  (common-lisp:defun put-email-monitoring-configuration
@@ -14732,7 +14732,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutEmailMonitoringConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-email-monitoring-configuration))
 (common-lisp:progn
  (common-lisp:defun put-inbound-dmarc-settings
@@ -14750,7 +14750,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutInboundDmarcSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-inbound-dmarc-settings))
 (common-lisp:progn
  (common-lisp:defun put-mailbox-permissions
@@ -14770,7 +14770,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutMailboxPermissions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-mailbox-permissions))
 (common-lisp:progn
  (common-lisp:defun put-mobile-device-access-override
@@ -14791,7 +14791,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutMobileDeviceAccessOverride"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-mobile-device-access-override))
 (common-lisp:progn
  (common-lisp:defun put-retention-policy
@@ -14811,7 +14811,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutRetentionPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-retention-policy))
 (common-lisp:progn
  (common-lisp:defun register-mail-domain
@@ -14829,7 +14829,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RegisterMailDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-mail-domain))
 (common-lisp:progn
  (common-lisp:defun register-to-work-mail
@@ -14847,7 +14847,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RegisterToWorkMail"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-to-work-mail))
 (common-lisp:progn
  (common-lisp:defun reset-password
@@ -14865,7 +14865,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ResetPassword"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reset-password))
 (common-lisp:progn
  (common-lisp:defun start-mailbox-export-job
@@ -14885,7 +14885,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartMailboxExportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-mailbox-export-job))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -14902,7 +14902,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun test-availability-configuration
@@ -14923,7 +14923,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TestAvailabilityConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'test-availability-configuration))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -14940,7 +14940,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-availability-configuration
@@ -14961,7 +14961,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateAvailabilityConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-availability-configuration))
 (common-lisp:progn
  (common-lisp:defun update-default-mail-domain
@@ -14979,7 +14979,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateDefaultMailDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-default-mail-domain))
 (common-lisp:progn
  (common-lisp:defun update-group
@@ -14999,7 +14999,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-group))
 (common-lisp:progn
  (common-lisp:defun update-impersonation-role
@@ -15020,7 +15020,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateImpersonationRole"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-impersonation-role))
 (common-lisp:progn
  (common-lisp:defun update-mailbox-quota
@@ -15038,7 +15038,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateMailboxQuota"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-mailbox-quota))
 (common-lisp:progn
  (common-lisp:defun update-mobile-device-access-rule
@@ -15065,7 +15065,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateMobileDeviceAccessRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-mobile-device-access-rule))
 (common-lisp:progn
  (common-lisp:defun update-primary-email-address
@@ -15084,7 +15084,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdatePrimaryEmailAddress"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-primary-email-address))
 (common-lisp:progn
  (common-lisp:defun update-resource
@@ -15105,7 +15105,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-resource))
 (common-lisp:progn
  (common-lisp:defun update-user
@@ -15128,5 +15128,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-user))

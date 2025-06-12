@@ -10911,7 +10911,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateKmsKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-kms-key))
 (common-lisp:progn
  (common-lisp:defun cancel-export-task
@@ -10928,7 +10928,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CancelExportTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-export-task))
 (common-lisp:progn
  (common-lisp:defun create-delivery
@@ -10947,7 +10947,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDelivery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-delivery))
 (common-lisp:progn
  (common-lisp:defun create-export-task
@@ -10968,7 +10968,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateExportTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-export-task))
 (common-lisp:progn
  (common-lisp:defun create-log-anomaly-detector
@@ -10991,7 +10991,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateLogAnomalyDetector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-log-anomaly-detector))
 (common-lisp:progn
  (common-lisp:defun create-log-group
@@ -11010,7 +11010,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateLogGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-log-group))
 (common-lisp:progn
  (common-lisp:defun create-log-stream
@@ -11027,7 +11027,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateLogStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-log-stream))
 (common-lisp:progn
  (common-lisp:defun delete-account-policy
@@ -11044,7 +11044,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAccountPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-account-policy))
 (common-lisp:progn
  (common-lisp:defun delete-data-protection-policy
@@ -11062,7 +11062,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDataProtectionPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-data-protection-policy))
 (common-lisp:progn
  (common-lisp:defun delete-delivery
@@ -11079,7 +11079,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDelivery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-delivery))
 (common-lisp:progn
  (common-lisp:defun delete-delivery-destination
@@ -11097,7 +11097,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDeliveryDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-delivery-destination))
 (common-lisp:progn
  (common-lisp:defun delete-delivery-destination-policy
@@ -11115,7 +11115,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDeliveryDestinationPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-delivery-destination-policy))
 (common-lisp:progn
  (common-lisp:defun delete-delivery-source
@@ -11132,7 +11132,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDeliverySource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-delivery-source))
 (common-lisp:progn
  (common-lisp:defun delete-destination
@@ -11149,7 +11149,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-destination))
 (common-lisp:progn
  (common-lisp:defun delete-log-anomaly-detector
@@ -11167,7 +11167,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteLogAnomalyDetector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-log-anomaly-detector))
 (common-lisp:progn
  (common-lisp:defun delete-log-group
@@ -11184,7 +11184,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteLogGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-log-group))
 (common-lisp:progn
  (common-lisp:defun delete-log-stream
@@ -11201,7 +11201,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteLogStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-log-stream))
 (common-lisp:progn
  (common-lisp:defun delete-metric-filter
@@ -11218,7 +11218,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteMetricFilter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-metric-filter))
 (common-lisp:progn
  (common-lisp:defun delete-query-definition
@@ -11235,7 +11235,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteQueryDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-query-definition))
 (common-lisp:progn
  (common-lisp:defun delete-resource-policy
@@ -11252,7 +11252,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resource-policy))
 (common-lisp:progn
  (common-lisp:defun delete-retention-policy
@@ -11269,7 +11269,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteRetentionPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-retention-policy))
 (common-lisp:progn
  (common-lisp:defun delete-subscription-filter
@@ -11287,7 +11287,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteSubscriptionFilter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-subscription-filter))
 (common-lisp:progn
  (common-lisp:defun describe-account-policies
@@ -11307,7 +11307,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAccountPolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-account-policies))
 (common-lisp:progn
  (common-lisp:defun describe-deliveries
@@ -11324,7 +11324,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDeliveries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-deliveries))
 (common-lisp:progn
  (common-lisp:defun describe-delivery-destinations
@@ -11342,7 +11342,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDeliveryDestinations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-delivery-destinations))
 (common-lisp:progn
  (common-lisp:defun describe-delivery-sources
@@ -11360,7 +11360,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDeliverySources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-delivery-sources))
 (common-lisp:progn
  (common-lisp:defun describe-destinations
@@ -11378,7 +11378,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDestinations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-destinations))
 (common-lisp:progn
  (common-lisp:defun describe-export-tasks
@@ -11396,7 +11396,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeExportTasks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-export-tasks))
 (common-lisp:progn
  (common-lisp:defun describe-log-groups
@@ -11418,7 +11418,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeLogGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-log-groups))
 (common-lisp:progn
  (common-lisp:defun describe-log-streams
@@ -11439,7 +11439,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeLogStreams"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-log-streams))
 (common-lisp:progn
  (common-lisp:defun describe-metric-filters
@@ -11459,7 +11459,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeMetricFilters"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-metric-filters))
 (common-lisp:progn
  (common-lisp:defun describe-queries
@@ -11478,7 +11478,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeQueries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-queries))
 (common-lisp:progn
  (common-lisp:defun describe-query-definitions
@@ -11499,7 +11499,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeQueryDefinitions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-query-definitions))
 (common-lisp:progn
  (common-lisp:defun describe-resource-policies
@@ -11517,7 +11517,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeResourcePolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-resource-policies))
 (common-lisp:progn
  (common-lisp:defun describe-subscription-filters
@@ -11537,7 +11537,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeSubscriptionFilters"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-subscription-filters))
 (common-lisp:progn
  (common-lisp:defun disassociate-kms-key
@@ -11555,7 +11555,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateKmsKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-kms-key))
 (common-lisp:progn
  (common-lisp:defun filter-log-events
@@ -11578,7 +11578,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "FilterLogEvents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'filter-log-events))
 (common-lisp:progn
  (common-lisp:defun get-data-protection-policy
@@ -11596,7 +11596,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDataProtectionPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-data-protection-policy))
 (common-lisp:progn
  (common-lisp:defun get-delivery
@@ -11613,7 +11613,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDelivery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-delivery))
 (common-lisp:progn
  (common-lisp:defun get-delivery-destination
@@ -11630,7 +11630,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDeliveryDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-delivery-destination))
 (common-lisp:progn
  (common-lisp:defun get-delivery-destination-policy
@@ -11648,7 +11648,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDeliveryDestinationPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-delivery-destination-policy))
 (common-lisp:progn
  (common-lisp:defun get-delivery-source
@@ -11665,7 +11665,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDeliverySource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-delivery-source))
 (common-lisp:progn
  (common-lisp:defun get-log-anomaly-detector
@@ -11682,7 +11682,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetLogAnomalyDetector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-log-anomaly-detector))
 (common-lisp:progn
  (common-lisp:defun get-log-events
@@ -11703,7 +11703,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetLogEvents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-log-events))
 (common-lisp:progn
  (common-lisp:defun get-log-group-fields
@@ -11721,7 +11721,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetLogGroupFields"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-log-group-fields))
 (common-lisp:progn
  (common-lisp:defun get-log-record
@@ -11738,7 +11738,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetLogRecord"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-log-record))
 (common-lisp:progn
  (common-lisp:defun get-query-results
@@ -11755,7 +11755,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetQueryResults"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-query-results))
 (common-lisp:progn
  (common-lisp:defun list-anomalies
@@ -11775,7 +11775,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAnomalies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-anomalies))
 (common-lisp:progn
  (common-lisp:defun list-log-anomaly-detectors
@@ -11794,7 +11794,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListLogAnomalyDetectors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-log-anomaly-detectors))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -11811,7 +11811,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-tags-log-group
@@ -11828,7 +11828,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsLogGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-log-group))
 (common-lisp:progn
  (common-lisp:defun put-account-policy
@@ -11848,7 +11848,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutAccountPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-account-policy))
 (common-lisp:progn
  (common-lisp:defun put-data-protection-policy
@@ -11867,7 +11867,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutDataProtectionPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-data-protection-policy))
 (common-lisp:progn
  (common-lisp:defun put-delivery-destination
@@ -11887,7 +11887,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutDeliveryDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-delivery-destination))
 (common-lisp:progn
  (common-lisp:defun put-delivery-destination-policy
@@ -11908,7 +11908,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutDeliveryDestinationPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-delivery-destination-policy))
 (common-lisp:progn
  (common-lisp:defun put-delivery-source
@@ -11926,7 +11926,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutDeliverySource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-delivery-source))
 (common-lisp:progn
  (common-lisp:defun put-destination
@@ -11945,7 +11945,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-destination))
 (common-lisp:progn
  (common-lisp:defun put-destination-policy
@@ -11964,7 +11964,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutDestinationPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-destination-policy))
 (common-lisp:progn
  (common-lisp:defun put-log-events
@@ -11984,7 +11984,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutLogEvents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-log-events))
 (common-lisp:progn
  (common-lisp:defun put-metric-filter
@@ -12004,7 +12004,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutMetricFilter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-metric-filter))
 (common-lisp:progn
  (common-lisp:defun put-query-definition
@@ -12024,7 +12024,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutQueryDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-query-definition))
 (common-lisp:progn
  (common-lisp:defun put-resource-policy
@@ -12041,7 +12041,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-resource-policy))
 (common-lisp:progn
  (common-lisp:defun put-retention-policy
@@ -12059,7 +12059,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutRetentionPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-retention-policy))
 (common-lisp:progn
  (common-lisp:defun put-subscription-filter
@@ -12079,7 +12079,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutSubscriptionFilter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-subscription-filter))
 (common-lisp:progn
  (common-lisp:defun start-live-tail
@@ -12099,7 +12099,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartLiveTail"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-live-tail))
 (common-lisp:progn
  (common-lisp:defun start-query
@@ -12120,7 +12120,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-query))
 (common-lisp:progn
  (common-lisp:defun stop-query
@@ -12137,7 +12137,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-query))
 (common-lisp:progn
  (common-lisp:defun tag-log-group
@@ -12154,7 +12154,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagLogGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-log-group))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -12171,7 +12171,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun test-metric-filter
@@ -12189,7 +12189,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TestMetricFilter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'test-metric-filter))
 (common-lisp:progn
  (common-lisp:defun untag-log-group
@@ -12206,7 +12206,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagLogGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-log-group))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -12223,7 +12223,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-anomaly
@@ -12243,7 +12243,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateAnomaly"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-anomaly))
 (common-lisp:progn
  (common-lisp:defun update-log-anomaly-detector
@@ -12264,5 +12264,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateLogAnomalyDetector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-log-anomaly-detector))

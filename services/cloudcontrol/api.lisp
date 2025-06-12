@@ -1484,7 +1484,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CancelResourceRequest"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-resource-request))
 (common-lisp:progn
  (common-lisp:defun create-resource
@@ -1504,7 +1504,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-resource))
 (common-lisp:progn
  (common-lisp:defun delete-resource
@@ -1524,7 +1524,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resource))
 (common-lisp:progn
  (common-lisp:defun get-resource
@@ -1543,7 +1543,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource))
 (common-lisp:progn
  (common-lisp:defun get-resource-request-status
@@ -1561,7 +1561,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetResourceRequestStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-request-status))
 (common-lisp:progn
  (common-lisp:defun list-resource-requests
@@ -1581,7 +1581,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListResourceRequests"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-resource-requests))
 (common-lisp:progn
  (common-lisp:defun list-resources
@@ -1601,7 +1601,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-resources))
 (common-lisp:progn
  (common-lisp:defun update-resource
@@ -1621,5 +1621,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-resource))

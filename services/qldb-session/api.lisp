@@ -1189,5 +1189,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SendCommand"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-command))

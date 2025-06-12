@@ -3139,7 +3139,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteServiceQuotaIncreaseRequestFromTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-service-quota-increase-request-from-template))
 (common-lisp:progn
  (common-lisp:defun disassociate-service-quota-template ()
@@ -3166,7 +3166,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAWSDefaultServiceQuota"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-awsdefault-service-quota))
 (common-lisp:progn
  (common-lisp:defun get-association-for-service-quota-template ()
@@ -3193,7 +3193,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetRequestedServiceQuotaChange"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-requested-service-quota-change))
 (common-lisp:progn
  (common-lisp:defun get-service-quota
@@ -3211,7 +3211,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetServiceQuota"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-service-quota))
 (common-lisp:progn
  (common-lisp:defun get-service-quota-increase-request-from-template
@@ -3230,7 +3230,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetServiceQuotaIncreaseRequestFromTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-service-quota-increase-request-from-template))
 (common-lisp:progn
  (common-lisp:defun list-awsdefault-service-quotas
@@ -3249,7 +3249,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAWSDefaultServiceQuotas"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-awsdefault-service-quotas))
 (common-lisp:progn
  (common-lisp:defun list-requested-service-quota-change-history
@@ -3270,7 +3270,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListRequestedServiceQuotaChangeHistory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-requested-service-quota-change-history))
 (common-lisp:progn
  (common-lisp:defun list-requested-service-quota-change-history-by-quota
@@ -3291,7 +3291,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListRequestedServiceQuotaChangeHistoryByQuota"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-requested-service-quota-change-history-by-quota))
 (common-lisp:progn
  (common-lisp:defun list-service-quota-increase-requests-in-template
@@ -3311,7 +3311,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListServiceQuotaIncreaseRequestsInTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-service-quota-increase-requests-in-template))
 (common-lisp:progn
  (common-lisp:defun list-service-quotas
@@ -3331,7 +3331,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListServiceQuotas"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-service-quotas))
 (common-lisp:progn
  (common-lisp:defun list-services
@@ -3348,7 +3348,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListServices"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-services))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -3365,7 +3365,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-service-quota-increase-request-into-template
@@ -3385,7 +3385,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutServiceQuotaIncreaseRequestIntoTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-service-quota-increase-request-into-template))
 (common-lisp:progn
  (common-lisp:defun request-service-quota-increase
@@ -3405,7 +3405,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RequestServiceQuotaIncrease"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'request-service-quota-increase))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3422,7 +3422,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3439,5 +3439,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))

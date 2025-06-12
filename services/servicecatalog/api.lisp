@@ -17839,7 +17839,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AcceptPortfolioShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'accept-portfolio-share))
 (common-lisp:progn
  (common-lisp:defun associate-budget-with-resource
@@ -17857,7 +17857,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateBudgetWithResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-budget-with-resource))
 (common-lisp:progn
  (common-lisp:defun associate-principal-with-portfolio
@@ -17878,7 +17878,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociatePrincipalWithPortfolio"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-principal-with-portfolio))
 (common-lisp:progn
  (common-lisp:defun associate-product-with-portfolio
@@ -17899,7 +17899,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateProductWithPortfolio"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-product-with-portfolio))
 (common-lisp:progn
  (common-lisp:defun associate-service-action-with-provisioning-artifact
@@ -17920,7 +17920,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateServiceActionWithProvisioningArtifact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-service-action-with-provisioning-artifact))
 (common-lisp:progn
  (common-lisp:defun associate-tag-option-with-resource
@@ -17938,7 +17938,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateTagOptionWithResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-tag-option-with-resource))
 (common-lisp:progn
  (common-lisp:defun batch-associate-service-action-with-provisioning-artifact
@@ -17958,7 +17958,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchAssociateServiceActionWithProvisioningArtifact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export
   'batch-associate-service-action-with-provisioning-artifact))
 (common-lisp:progn
@@ -17979,7 +17979,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchDisassociateServiceActionFromProvisioningArtifact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export
   'batch-disassociate-service-action-from-provisioning-artifact))
 (common-lisp:progn
@@ -18003,7 +18003,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CopyProduct"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'copy-product))
 (common-lisp:progn
  (common-lisp:defun create-constraint
@@ -18023,7 +18023,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateConstraint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-constraint))
 (common-lisp:progn
  (common-lisp:defun create-portfolio
@@ -18043,7 +18043,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreatePortfolio"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-portfolio))
 (common-lisp:progn
  (common-lisp:defun create-portfolio-share
@@ -18063,7 +18063,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreatePortfolioShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-portfolio-share))
 (common-lisp:progn
  (common-lisp:defun create-product
@@ -18086,7 +18086,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateProduct"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-product))
 (common-lisp:progn
  (common-lisp:defun create-provisioned-product-plan
@@ -18110,7 +18110,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateProvisionedProductPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-provisioned-product-plan))
 (common-lisp:progn
  (common-lisp:defun create-provisioning-artifact
@@ -18131,7 +18131,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateProvisioningArtifact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-provisioning-artifact))
 (common-lisp:progn
  (common-lisp:defun create-service-action
@@ -18151,7 +18151,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateServiceAction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-service-action))
 (common-lisp:progn
  (common-lisp:defun create-tag-option
@@ -18168,7 +18168,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateTagOption"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-tag-option))
 (common-lisp:progn
  (common-lisp:defun delete-constraint
@@ -18185,7 +18185,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteConstraint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-constraint))
 (common-lisp:progn
  (common-lisp:defun delete-portfolio
@@ -18202,7 +18202,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeletePortfolio"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-portfolio))
 (common-lisp:progn
  (common-lisp:defun delete-portfolio-share
@@ -18222,7 +18222,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeletePortfolioShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-portfolio-share))
 (common-lisp:progn
  (common-lisp:defun delete-product
@@ -18239,7 +18239,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteProduct"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-product))
 (common-lisp:progn
  (common-lisp:defun delete-provisioned-product-plan
@@ -18258,7 +18258,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteProvisionedProductPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-provisioned-product-plan))
 (common-lisp:progn
  (common-lisp:defun delete-provisioning-artifact
@@ -18279,7 +18279,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteProvisioningArtifact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-provisioning-artifact))
 (common-lisp:progn
  (common-lisp:defun delete-service-action
@@ -18297,7 +18297,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteServiceAction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-service-action))
 (common-lisp:progn
  (common-lisp:defun delete-tag-option
@@ -18314,7 +18314,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteTagOption"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-tag-option))
 (common-lisp:progn
  (common-lisp:defun describe-constraint
@@ -18331,7 +18331,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeConstraint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-constraint))
 (common-lisp:progn
  (common-lisp:defun describe-copy-product-status
@@ -18350,7 +18350,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeCopyProductStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-copy-product-status))
 (common-lisp:progn
  (common-lisp:defun describe-portfolio
@@ -18367,7 +18367,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribePortfolio"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-portfolio))
 (common-lisp:progn
  (common-lisp:defun describe-portfolio-share-status
@@ -18385,7 +18385,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribePortfolioShareStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-portfolio-share-status))
 (common-lisp:progn
  (common-lisp:defun describe-portfolio-shares
@@ -18403,7 +18403,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribePortfolioShares"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-portfolio-shares))
 (common-lisp:progn
  (common-lisp:defun describe-product
@@ -18420,7 +18420,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeProduct"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-product))
 (common-lisp:progn
  (common-lisp:defun describe-product-as-admin
@@ -18439,7 +18439,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeProductAsAdmin"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-product-as-admin))
 (common-lisp:progn
  (common-lisp:defun describe-product-view
@@ -18456,7 +18456,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeProductView"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-product-view))
 (common-lisp:progn
  (common-lisp:defun describe-provisioned-product
@@ -18474,7 +18474,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeProvisionedProduct"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-provisioned-product))
 (common-lisp:progn
  (common-lisp:defun describe-provisioned-product-plan
@@ -18494,7 +18494,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeProvisionedProductPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-provisioned-product-plan))
 (common-lisp:progn
  (common-lisp:defun describe-provisioning-artifact
@@ -18517,7 +18517,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeProvisioningArtifact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-provisioning-artifact))
 (common-lisp:progn
  (common-lisp:defun describe-provisioning-parameters
@@ -18539,7 +18539,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeProvisioningParameters"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-provisioning-parameters))
 (common-lisp:progn
  (common-lisp:defun describe-record
@@ -18557,7 +18557,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeRecord"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-record))
 (common-lisp:progn
  (common-lisp:defun describe-service-action
@@ -18574,7 +18574,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeServiceAction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-service-action))
 (common-lisp:progn
  (common-lisp:defun describe-service-action-execution-parameters
@@ -18595,7 +18595,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeServiceActionExecutionParameters"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-service-action-execution-parameters))
 (common-lisp:progn
  (common-lisp:defun describe-tag-option
@@ -18612,7 +18612,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTagOption"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-tag-option))
 (common-lisp:progn
  (common-lisp:defun disable-awsorganizations-access ()
@@ -18639,7 +18639,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateBudgetFromResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-budget-from-resource))
 (common-lisp:progn
  (common-lisp:defun disassociate-principal-from-portfolio
@@ -18660,7 +18660,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociatePrincipalFromPortfolio"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-principal-from-portfolio))
 (common-lisp:progn
  (common-lisp:defun disassociate-product-from-portfolio
@@ -18679,7 +18679,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateProductFromPortfolio"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-product-from-portfolio))
 (common-lisp:progn
  (common-lisp:defun disassociate-service-action-from-provisioning-artifact
@@ -18700,7 +18700,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateServiceActionFromProvisioningArtifact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-service-action-from-provisioning-artifact))
 (common-lisp:progn
  (common-lisp:defun disassociate-tag-option-from-resource
@@ -18718,7 +18718,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateTagOptionFromResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-tag-option-from-resource))
 (common-lisp:progn
  (common-lisp:defun enable-awsorganizations-access ()
@@ -18746,7 +18746,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ExecuteProvisionedProductPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'execute-provisioned-product-plan))
 (common-lisp:progn
  (common-lisp:defun execute-provisioned-product-service-action
@@ -18767,7 +18767,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ExecuteProvisionedProductServiceAction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'execute-provisioned-product-service-action))
 (common-lisp:progn
  (common-lisp:defun get-awsorganizations-access-status ()
@@ -18797,7 +18797,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetProvisionedProductOutputs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-provisioned-product-outputs))
 (common-lisp:progn
  (common-lisp:defun import-as-provisioned-product
@@ -18819,7 +18819,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ImportAsProvisionedProduct"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-as-provisioned-product))
 (common-lisp:progn
  (common-lisp:defun list-accepted-portfolio-shares
@@ -18840,7 +18840,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAcceptedPortfolioShares"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-accepted-portfolio-shares))
 (common-lisp:progn
  (common-lisp:defun list-budgets-for-resource
@@ -18859,7 +18859,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListBudgetsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-budgets-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-constraints-for-portfolio
@@ -18880,7 +18880,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListConstraintsForPortfolio"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-constraints-for-portfolio))
 (common-lisp:progn
  (common-lisp:defun list-launch-paths
@@ -18899,7 +18899,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListLaunchPaths"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-launch-paths))
 (common-lisp:progn
  (common-lisp:defun list-organization-portfolio-access
@@ -18920,7 +18920,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListOrganizationPortfolioAccess"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-organization-portfolio-access))
 (common-lisp:progn
  (common-lisp:defun list-portfolio-access
@@ -18940,7 +18940,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPortfolioAccess"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-portfolio-access))
 (common-lisp:progn
  (common-lisp:defun list-portfolios
@@ -18958,7 +18958,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPortfolios"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-portfolios))
 (common-lisp:progn
  (common-lisp:defun list-portfolios-for-product
@@ -18978,7 +18978,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPortfoliosForProduct"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-portfolios-for-product))
 (common-lisp:progn
  (common-lisp:defun list-principals-for-portfolio
@@ -18998,7 +18998,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPrincipalsForPortfolio"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-principals-for-portfolio))
 (common-lisp:progn
  (common-lisp:defun list-provisioned-product-plans
@@ -19019,7 +19019,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListProvisionedProductPlans"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-provisioned-product-plans))
 (common-lisp:progn
  (common-lisp:defun list-provisioning-artifacts
@@ -19037,7 +19037,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListProvisioningArtifacts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-provisioning-artifacts))
 (common-lisp:progn
  (common-lisp:defun list-provisioning-artifacts-for-service-action
@@ -19058,7 +19058,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListProvisioningArtifactsForServiceAction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-provisioning-artifacts-for-service-action))
 (common-lisp:progn
  (common-lisp:defun list-record-history
@@ -19078,7 +19078,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListRecordHistory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-record-history))
 (common-lisp:progn
  (common-lisp:defun list-resources-for-tag-option
@@ -19098,7 +19098,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListResourcesForTagOption"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-resources-for-tag-option))
 (common-lisp:progn
  (common-lisp:defun list-service-actions
@@ -19116,7 +19116,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListServiceActions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-service-actions))
 (common-lisp:progn
  (common-lisp:defun list-service-actions-for-provisioning-artifact
@@ -19137,7 +19137,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListServiceActionsForProvisioningArtifact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-service-actions-for-provisioning-artifact))
 (common-lisp:progn
  (common-lisp:defun list-stack-instances-for-provisioned-product
@@ -19158,7 +19158,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListStackInstancesForProvisionedProduct"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-stack-instances-for-provisioned-product))
 (common-lisp:progn
  (common-lisp:defun list-tag-options
@@ -19175,7 +19175,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagOptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tag-options))
 (common-lisp:progn
  (common-lisp:defun notify-provision-product-engine-workflow-result
@@ -19197,7 +19197,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "NotifyProvisionProductEngineWorkflowResult"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'notify-provision-product-engine-workflow-result))
 (common-lisp:progn
  (common-lisp:defun notify-terminate-provisioned-product-engine-workflow-result
@@ -19218,7 +19218,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "NotifyTerminateProvisionedProductEngineWorkflowResult"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export
   'notify-terminate-provisioned-product-engine-workflow-result))
 (common-lisp:progn
@@ -19240,7 +19240,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "NotifyUpdateProvisionedProductEngineWorkflowResult"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'notify-update-provisioned-product-engine-workflow-result))
 (common-lisp:progn
  (common-lisp:defun provision-product
@@ -19265,7 +19265,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ProvisionProduct"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'provision-product))
 (common-lisp:progn
  (common-lisp:defun reject-portfolio-share
@@ -19284,7 +19284,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RejectPortfolioShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reject-portfolio-share))
 (common-lisp:progn
  (common-lisp:defun scan-provisioned-products
@@ -19304,7 +19304,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ScanProvisionedProducts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'scan-provisioned-products))
 (common-lisp:progn
  (common-lisp:defun search-products
@@ -19324,7 +19324,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SearchProducts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-products))
 (common-lisp:progn
  (common-lisp:defun search-products-as-admin
@@ -19344,7 +19344,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SearchProductsAsAdmin"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-products-as-admin))
 (common-lisp:progn
  (common-lisp:defun search-provisioned-products
@@ -19365,7 +19365,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SearchProvisionedProducts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-provisioned-products))
 (common-lisp:progn
  (common-lisp:defun terminate-provisioned-product
@@ -19387,7 +19387,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TerminateProvisionedProduct"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'terminate-provisioned-product))
 (common-lisp:progn
  (common-lisp:defun update-constraint
@@ -19406,7 +19406,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateConstraint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-constraint))
 (common-lisp:progn
  (common-lisp:defun update-portfolio
@@ -19426,7 +19426,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdatePortfolio"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-portfolio))
 (common-lisp:progn
  (common-lisp:defun update-portfolio-share
@@ -19446,7 +19446,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdatePortfolioShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-portfolio-share))
 (common-lisp:progn
  (common-lisp:defun update-product
@@ -19468,7 +19468,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateProduct"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-product))
 (common-lisp:progn
  (common-lisp:defun update-provisioned-product
@@ -19493,7 +19493,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateProvisionedProduct"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-provisioned-product))
 (common-lisp:progn
  (common-lisp:defun update-provisioned-product-properties
@@ -19514,7 +19514,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateProvisionedProductProperties"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-provisioned-product-properties))
 (common-lisp:progn
  (common-lisp:defun update-provisioning-artifact
@@ -19535,7 +19535,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateProvisioningArtifact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-provisioning-artifact))
 (common-lisp:progn
  (common-lisp:defun update-service-action
@@ -19554,7 +19554,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateServiceAction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-service-action))
 (common-lisp:progn
  (common-lisp:defun update-tag-option
@@ -19571,5 +19571,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateTagOption"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-tag-option))

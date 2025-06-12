@@ -489,5 +489,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-name))))
                                                         "AssumeRoleForPodIdentity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'assume-role-for-pod-identity))

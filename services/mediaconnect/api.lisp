@@ -12430,7 +12430,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bridge-arn))))
                                                         "AddBridgeOutputs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-bridge-outputs))
 (common-lisp:progn
  (common-lisp:defun add-bridge-sources
@@ -12457,7 +12457,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bridge-arn))))
                                                         "AddBridgeSources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-bridge-sources))
 (common-lisp:progn
  (common-lisp:defun add-flow-media-streams
@@ -12484,7 +12484,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'flow-arn))))
                                                         "AddFlowMediaStreams"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-flow-media-streams))
 (common-lisp:progn
  (common-lisp:defun add-flow-outputs
@@ -12511,7 +12511,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'flow-arn))))
                                                         "AddFlowOutputs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-flow-outputs))
 (common-lisp:progn
  (common-lisp:defun add-flow-sources
@@ -12538,7 +12538,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'flow-arn))))
                                                         "AddFlowSources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-flow-sources))
 (common-lisp:progn
  (common-lisp:defun add-flow-vpc-interfaces
@@ -12565,7 +12565,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'flow-arn))))
                                                         "AddFlowVpcInterfaces"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-flow-vpc-interfaces))
 (common-lisp:progn
  (common-lisp:defun create-bridge
@@ -12586,7 +12586,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v1/bridges"
                                                         "CreateBridge"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-bridge))
 (common-lisp:progn
  (common-lisp:defun create-flow
@@ -12607,7 +12607,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v1/flows"
                                                         "CreateFlow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-flow))
 (common-lisp:progn
  (common-lisp:defun create-gateway
@@ -12625,7 +12625,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v1/gateways"
                                                         "CreateGateway"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-gateway))
 (common-lisp:progn
  (common-lisp:defun delete-bridge
@@ -12652,7 +12652,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bridge-arn))))
                                                         "DeleteBridge"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-bridge))
 (common-lisp:progn
  (common-lisp:defun delete-flow
@@ -12679,7 +12679,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'flow-arn))))
                                                         "DeleteFlow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-flow))
 (common-lisp:progn
  (common-lisp:defun delete-gateway
@@ -12706,7 +12706,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'gateway-arn))))
                                                         "DeleteGateway"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-gateway))
 (common-lisp:progn
  (common-lisp:defun deregister-gateway-instance
@@ -12734,7 +12734,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'gateway-instance-arn))))
                                                         "DeregisterGatewayInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deregister-gateway-instance))
 (common-lisp:progn
  (common-lisp:defun describe-bridge
@@ -12761,7 +12761,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bridge-arn))))
                                                         "DescribeBridge"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-bridge))
 (common-lisp:progn
  (common-lisp:defun describe-flow
@@ -12788,7 +12788,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'flow-arn))))
                                                         "DescribeFlow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-flow))
 (common-lisp:progn
  (common-lisp:defun describe-flow-source-metadata
@@ -12816,7 +12816,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'flow-arn))))
                                                         "DescribeFlowSourceMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-flow-source-metadata))
 (common-lisp:progn
  (common-lisp:defun describe-gateway
@@ -12843,7 +12843,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'gateway-arn))))
                                                         "DescribeGateway"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-gateway))
 (common-lisp:progn
  (common-lisp:defun describe-gateway-instance
@@ -12871,7 +12871,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'gateway-instance-arn))))
                                                         "DescribeGatewayInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-gateway-instance))
 (common-lisp:progn
  (common-lisp:defun describe-offering
@@ -12898,7 +12898,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'offering-arn))))
                                                         "DescribeOffering"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-offering))
 (common-lisp:progn
  (common-lisp:defun describe-reservation
@@ -12925,7 +12925,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'reservation-arn))))
                                                         "DescribeReservation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-reservation))
 (common-lisp:progn
  (common-lisp:defun grant-flow-entitlements
@@ -12952,7 +12952,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'flow-arn))))
                                                         "GrantFlowEntitlements"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'grant-flow-entitlements))
 (common-lisp:progn
  (common-lisp:defun list-bridges
@@ -12970,7 +12970,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/bridges"
                                                         "ListBridges"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-bridges))
 (common-lisp:progn
  (common-lisp:defun list-entitlements
@@ -12988,7 +12988,7 @@
                                                         "GET"
                                                         "/v1/entitlements"
                                                         "ListEntitlements"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-entitlements))
 (common-lisp:progn
  (common-lisp:defun list-flows
@@ -13005,7 +13005,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/flows"
                                                         "ListFlows"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-flows))
 (common-lisp:progn
  (common-lisp:defun list-gateway-instances
@@ -13024,7 +13024,7 @@
                                                         "GET"
                                                         "/v1/gateway-instances"
                                                         "ListGatewayInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-gateway-instances))
 (common-lisp:progn
  (common-lisp:defun list-gateways
@@ -13041,7 +13041,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/gateways"
                                                         "ListGateways"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-gateways))
 (common-lisp:progn
  (common-lisp:defun list-offerings
@@ -13058,7 +13058,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/offerings"
                                                         "ListOfferings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-offerings))
 (common-lisp:progn
  (common-lisp:defun list-reservations
@@ -13076,7 +13076,7 @@
                                                         "GET"
                                                         "/v1/reservations"
                                                         "ListReservations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-reservations))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -13103,7 +13103,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun purchase-offering
@@ -13131,7 +13131,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'offering-arn))))
                                                         "PurchaseOffering"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'purchase-offering))
 (common-lisp:progn
  (common-lisp:defun remove-bridge-output
@@ -13162,7 +13162,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'output-name))))
                                                         "RemoveBridgeOutput"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-bridge-output))
 (common-lisp:progn
  (common-lisp:defun remove-bridge-source
@@ -13193,7 +13193,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'source-name))))
                                                         "RemoveBridgeSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-bridge-source))
 (common-lisp:progn
  (common-lisp:defun remove-flow-media-stream
@@ -13224,7 +13224,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'media-stream-name))))
                                                         "RemoveFlowMediaStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-flow-media-stream))
 (common-lisp:progn
  (common-lisp:defun remove-flow-output
@@ -13255,7 +13255,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'output-arn))))
                                                         "RemoveFlowOutput"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-flow-output))
 (common-lisp:progn
  (common-lisp:defun remove-flow-source
@@ -13286,7 +13286,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'source-arn))))
                                                         "RemoveFlowSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-flow-source))
 (common-lisp:progn
  (common-lisp:defun remove-flow-vpc-interface
@@ -13318,7 +13318,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'vpc-interface-name))))
                                                         "RemoveFlowVpcInterface"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-flow-vpc-interface))
 (common-lisp:progn
  (common-lisp:defun revoke-flow-entitlement
@@ -13349,7 +13349,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'entitlement-arn))))
                                                         "RevokeFlowEntitlement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'revoke-flow-entitlement))
 (common-lisp:progn
  (common-lisp:defun start-flow
@@ -13376,7 +13376,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'flow-arn))))
                                                         "StartFlow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-flow))
 (common-lisp:progn
  (common-lisp:defun stop-flow
@@ -13403,7 +13403,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'flow-arn))))
                                                         "StopFlow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-flow))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -13430,7 +13430,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -13457,7 +13457,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-bridge
@@ -13487,7 +13487,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bridge-arn))))
                                                         "UpdateBridge"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-bridge))
 (common-lisp:progn
  (common-lisp:defun update-bridge-output
@@ -13519,7 +13519,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'output-name))))
                                                         "UpdateBridgeOutput"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-bridge-output))
 (common-lisp:progn
  (common-lisp:defun update-bridge-source
@@ -13552,7 +13552,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'source-name))))
                                                         "UpdateBridgeSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-bridge-source))
 (common-lisp:progn
  (common-lisp:defun update-bridge-state
@@ -13579,7 +13579,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bridge-arn))))
                                                         "UpdateBridgeState"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-bridge-state))
 (common-lisp:progn
  (common-lisp:defun update-flow
@@ -13608,7 +13608,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'flow-arn))))
                                                         "UpdateFlow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-flow))
 (common-lisp:progn
  (common-lisp:defun update-flow-entitlement
@@ -13642,7 +13642,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'entitlement-arn))))
                                                         "UpdateFlowEntitlement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-flow-entitlement))
 (common-lisp:progn
  (common-lisp:defun update-flow-media-stream
@@ -13676,7 +13676,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'media-stream-name))))
                                                         "UpdateFlowMediaStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-flow-media-stream))
 (common-lisp:progn
  (common-lisp:defun update-flow-output
@@ -13716,7 +13716,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'output-arn))))
                                                         "UpdateFlowOutput"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-flow-output))
 (common-lisp:progn
  (common-lisp:defun update-flow-source
@@ -13759,7 +13759,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'source-arn))))
                                                         "UpdateFlowSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-flow-source))
 (common-lisp:progn
  (common-lisp:defun update-gateway-instance
@@ -13787,5 +13787,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'gateway-instance-arn))))
                                                         "UpdateGatewayInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-gateway-instance))

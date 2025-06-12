@@ -379,7 +379,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input get-chunk-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'data)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'data))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input get-chunk-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-object-metadata-input common-lisp:nil
                        ((storage-job-id :initarg :storage-job-id :initform
@@ -510,7 +514,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-object-metadata-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'metadata-blob)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'metadata-blob))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-object-metadata-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:define-condition illegal-argument-exception
      (backupstorage-error)
@@ -836,7 +846,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           notify-object-complete-input))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'metadata-blob)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'metadata-blob))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          notify-object-complete-input))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass notify-object-complete-output common-lisp:nil
                        ((object-checksum :initarg :object-checksum :initform
@@ -977,7 +993,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input put-chunk-input))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'data)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'data))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input put-chunk-input))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass put-chunk-output common-lisp:nil
                        ((chunk-checksum :initarg :chunk-checksum :initform
@@ -1124,7 +1144,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input put-object-input))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'inline-chunk)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'inline-chunk))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input put-object-input))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass put-object-output common-lisp:nil
                        ((inline-chunk-checksum :initarg :inline-chunk-checksum
@@ -1362,7 +1386,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'object-name))))
                                                         "DeleteObject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-object))
 (common-lisp:progn
  (common-lisp:defun get-chunk
@@ -1394,7 +1418,7 @@ common-lisp:nil
                                                              'chunk-token))))
                                                         "GetChunk")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-chunk))
 (common-lisp:progn
  (common-lisp:defun get-object-metadata
@@ -1426,7 +1450,7 @@ common-lisp:nil
                                                              'object-token))))
                                                         "GetObjectMetadata")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-object-metadata))
 (common-lisp:progn
  (common-lisp:defun list-chunks
@@ -1459,7 +1483,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'object-token))))
                                                         "ListChunks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-chunks))
 (common-lisp:progn
  (common-lisp:defun list-objects
@@ -1491,7 +1515,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "ListObjects"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-objects))
 (common-lisp:progn
  (common-lisp:defun notify-object-complete
@@ -1529,7 +1553,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'upload-id))))
                                                         "NotifyObjectComplete"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'notify-object-complete))
 (common-lisp:progn
  (common-lisp:defun put-chunk
@@ -1567,7 +1591,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'chunk-index))))
                                                         "PutChunk"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-chunk))
 (common-lisp:progn
  (common-lisp:defun put-object
@@ -1605,7 +1629,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'object-name))))
                                                         "PutObject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-object))
 (common-lisp:progn
  (common-lisp:defun start-object
@@ -1638,5 +1662,5 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'object-name))))
                                                         "StartObject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-object))

@@ -2771,7 +2771,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-groups-request aws-sdk/generator/operation::input "POST"
         "/groups" "CreateGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-group))
 (common-lisp:progn
  (common-lisp:defun delete-group
@@ -2787,7 +2787,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-groups-request aws-sdk/generator/operation::input "POST"
         "/delete-group" "DeleteGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-group))
 (common-lisp:progn
  (common-lisp:defun get-account-settings ()
@@ -2812,7 +2812,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-groups-request aws-sdk/generator/operation::input "POST"
         "/get-group" "GetGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-group))
 (common-lisp:progn
  (common-lisp:defun get-group-configuration
@@ -2828,7 +2828,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-groups-request aws-sdk/generator/operation::input "POST"
         "/get-group-configuration" "GetGroupConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-group-configuration))
 (common-lisp:progn
  (common-lisp:defun get-group-query
@@ -2844,7 +2844,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-groups-request aws-sdk/generator/operation::input "POST"
         "/get-group-query" "GetGroupQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-group-query))
 (common-lisp:progn
  (common-lisp:defun get-tags
@@ -2865,7 +2865,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'arn))))
         "GetTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-tags))
 (common-lisp:progn
  (common-lisp:defun group-resources
@@ -2881,7 +2881,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-groups-request aws-sdk/generator/operation::input "POST"
         "/group-resources" "GroupResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'group-resources))
 (common-lisp:progn
  (common-lisp:defun list-group-resources
@@ -2899,7 +2899,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-groups-request aws-sdk/generator/operation::input "POST"
         "/list-group-resources" "ListGroupResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-group-resources))
 (common-lisp:progn
  (common-lisp:defun list-groups
@@ -2915,7 +2915,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-groups-request aws-sdk/generator/operation::input "POST"
         "/groups-list" "ListGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-groups))
 (common-lisp:progn
  (common-lisp:defun put-group-configuration
@@ -2931,7 +2931,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-groups-request aws-sdk/generator/operation::input "POST"
         "/put-group-configuration" "PutGroupConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-group-configuration))
 (common-lisp:progn
  (common-lisp:defun search-resources
@@ -2948,7 +2948,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-groups-request aws-sdk/generator/operation::input "POST"
         "/resources/search" "SearchResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-resources))
 (common-lisp:progn
  (common-lisp:defun tag
@@ -2969,7 +2969,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'arn))))
         "Tag"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag))
 (common-lisp:progn
  (common-lisp:defun ungroup-resources
@@ -2985,7 +2985,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-groups-request aws-sdk/generator/operation::input "POST"
         "/ungroup-resources" "UngroupResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'ungroup-resources))
 (common-lisp:progn
  (common-lisp:defun untag
@@ -3006,7 +3006,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'arn))))
         "Untag"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag))
 (common-lisp:progn
  (common-lisp:defun update-account-settings
@@ -3023,7 +3023,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-groups-request aws-sdk/generator/operation::input "POST"
         "/update-account-settings" "UpdateAccountSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-account-settings))
 (common-lisp:progn
  (common-lisp:defun update-group
@@ -3039,7 +3039,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-groups-request aws-sdk/generator/operation::input "POST"
         "/update-group" "UpdateGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-group))
 (common-lisp:progn
  (common-lisp:defun update-group-query
@@ -3056,5 +3056,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-groups-request aws-sdk/generator/operation::input "POST"
         "/update-group-query" "UpdateGroupQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-group-query))

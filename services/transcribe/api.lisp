@@ -9615,7 +9615,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateCallAnalyticsCategory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-call-analytics-category))
 (common-lisp:progn
  (common-lisp:defun create-language-model
@@ -9635,7 +9635,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateLanguageModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-language-model))
 (common-lisp:progn
  (common-lisp:defun create-medical-vocabulary
@@ -9656,7 +9656,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateMedicalVocabulary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-medical-vocabulary))
 (common-lisp:progn
  (common-lisp:defun create-vocabulary
@@ -9676,7 +9676,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateVocabulary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-vocabulary))
 (common-lisp:progn
  (common-lisp:defun create-vocabulary-filter
@@ -9697,7 +9697,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateVocabularyFilter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-vocabulary-filter))
 (common-lisp:progn
  (common-lisp:defun delete-call-analytics-category
@@ -9715,7 +9715,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteCallAnalyticsCategory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-call-analytics-category))
 (common-lisp:progn
  (common-lisp:defun delete-call-analytics-job
@@ -9733,7 +9733,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteCallAnalyticsJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-call-analytics-job))
 (common-lisp:progn
  (common-lisp:defun delete-language-model
@@ -9750,7 +9750,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteLanguageModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-language-model))
 (common-lisp:progn
  (common-lisp:defun delete-medical-scribe-job
@@ -9768,7 +9768,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteMedicalScribeJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-medical-scribe-job))
 (common-lisp:progn
  (common-lisp:defun delete-medical-transcription-job
@@ -9786,7 +9786,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteMedicalTranscriptionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-medical-transcription-job))
 (common-lisp:progn
  (common-lisp:defun delete-medical-vocabulary
@@ -9804,7 +9804,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteMedicalVocabulary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-medical-vocabulary))
 (common-lisp:progn
  (common-lisp:defun delete-transcription-job
@@ -9821,7 +9821,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteTranscriptionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-transcription-job))
 (common-lisp:progn
  (common-lisp:defun delete-vocabulary
@@ -9838,7 +9838,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteVocabulary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-vocabulary))
 (common-lisp:progn
  (common-lisp:defun delete-vocabulary-filter
@@ -9855,7 +9855,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteVocabularyFilter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-vocabulary-filter))
 (common-lisp:progn
  (common-lisp:defun describe-language-model
@@ -9872,7 +9872,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeLanguageModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-language-model))
 (common-lisp:progn
  (common-lisp:defun get-call-analytics-category
@@ -9890,7 +9890,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCallAnalyticsCategory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-call-analytics-category))
 (common-lisp:progn
  (common-lisp:defun get-call-analytics-job
@@ -9907,7 +9907,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCallAnalyticsJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-call-analytics-job))
 (common-lisp:progn
  (common-lisp:defun get-medical-scribe-job
@@ -9924,7 +9924,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetMedicalScribeJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-medical-scribe-job))
 (common-lisp:progn
  (common-lisp:defun get-medical-transcription-job
@@ -9942,7 +9942,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetMedicalTranscriptionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-medical-transcription-job))
 (common-lisp:progn
  (common-lisp:defun get-medical-vocabulary
@@ -9959,7 +9959,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetMedicalVocabulary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-medical-vocabulary))
 (common-lisp:progn
  (common-lisp:defun get-transcription-job
@@ -9976,7 +9976,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetTranscriptionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-transcription-job))
 (common-lisp:progn
  (common-lisp:defun get-vocabulary
@@ -9993,7 +9993,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetVocabulary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-vocabulary))
 (common-lisp:progn
  (common-lisp:defun get-vocabulary-filter
@@ -10010,7 +10010,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetVocabularyFilter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-vocabulary-filter))
 (common-lisp:progn
  (common-lisp:defun list-call-analytics-categories
@@ -10028,7 +10028,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListCallAnalyticsCategories"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-call-analytics-categories))
 (common-lisp:progn
  (common-lisp:defun list-call-analytics-jobs
@@ -10047,7 +10047,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListCallAnalyticsJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-call-analytics-jobs))
 (common-lisp:progn
  (common-lisp:defun list-language-models
@@ -10066,7 +10066,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListLanguageModels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-language-models))
 (common-lisp:progn
  (common-lisp:defun list-medical-scribe-jobs
@@ -10085,7 +10085,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListMedicalScribeJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-medical-scribe-jobs))
 (common-lisp:progn
  (common-lisp:defun list-medical-transcription-jobs
@@ -10105,7 +10105,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListMedicalTranscriptionJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-medical-transcription-jobs))
 (common-lisp:progn
  (common-lisp:defun list-medical-vocabularies
@@ -10125,7 +10125,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListMedicalVocabularies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-medical-vocabularies))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -10142,7 +10142,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-transcription-jobs
@@ -10161,7 +10161,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTranscriptionJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-transcription-jobs))
 (common-lisp:progn
  (common-lisp:defun list-vocabularies
@@ -10180,7 +10180,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListVocabularies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-vocabularies))
 (common-lisp:progn
  (common-lisp:defun list-vocabulary-filters
@@ -10198,7 +10198,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListVocabularyFilters"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-vocabulary-filters))
 (common-lisp:progn
  (common-lisp:defun start-call-analytics-job
@@ -10220,7 +10220,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartCallAnalyticsJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-call-analytics-job))
 (common-lisp:progn
  (common-lisp:defun start-medical-scribe-job
@@ -10243,7 +10243,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartMedicalScribeJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-medical-scribe-job))
 (common-lisp:progn
  (common-lisp:defun start-medical-transcription-job
@@ -10269,7 +10269,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartMedicalTranscriptionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-medical-transcription-job))
 (common-lisp:progn
  (common-lisp:defun start-transcription-job
@@ -10298,7 +10298,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartTranscriptionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-transcription-job))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -10315,7 +10315,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -10332,7 +10332,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-call-analytics-category
@@ -10350,7 +10350,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateCallAnalyticsCategory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-call-analytics-category))
 (common-lisp:progn
  (common-lisp:defun update-medical-vocabulary
@@ -10370,7 +10370,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateMedicalVocabulary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-medical-vocabulary))
 (common-lisp:progn
  (common-lisp:defun update-vocabulary
@@ -10390,7 +10390,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateVocabulary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-vocabulary))
 (common-lisp:progn
  (common-lisp:defun update-vocabulary-filter
@@ -10410,5 +10410,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateVocabularyFilter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-vocabulary-filter))

@@ -2018,7 +2018,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-notifications-request aws-sdk/generator/operation::input
         "POST" "/createNotificationRule" "CreateNotificationRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-notification-rule))
 (common-lisp:progn
  (common-lisp:defun delete-notification-rule
@@ -2034,7 +2034,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-notifications-request aws-sdk/generator/operation::input
         "POST" "/deleteNotificationRule" "DeleteNotificationRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-notification-rule))
 (common-lisp:progn
  (common-lisp:defun delete-target
@@ -2051,7 +2051,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-notifications-request aws-sdk/generator/operation::input
         "POST" "/deleteTarget" "DeleteTarget"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-target))
 (common-lisp:progn
  (common-lisp:defun describe-notification-rule
@@ -2068,7 +2068,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-notifications-request aws-sdk/generator/operation::input
         "POST" "/describeNotificationRule" "DescribeNotificationRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-notification-rule))
 (common-lisp:progn
  (common-lisp:defun list-event-types
@@ -2084,7 +2084,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-notifications-request aws-sdk/generator/operation::input
         "POST" "/listEventTypes" "ListEventTypes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-event-types))
 (common-lisp:progn
  (common-lisp:defun list-notification-rules
@@ -2100,7 +2100,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-notifications-request aws-sdk/generator/operation::input
         "POST" "/listNotificationRules" "ListNotificationRules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-notification-rules))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -2116,7 +2116,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-notifications-request aws-sdk/generator/operation::input
         "POST" "/listTagsForResource" "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-targets
@@ -2132,7 +2132,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-notifications-request aws-sdk/generator/operation::input
         "POST" "/listTargets" "ListTargets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-targets))
 (common-lisp:progn
  (common-lisp:defun subscribe
@@ -2149,7 +2149,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-notifications-request aws-sdk/generator/operation::input
         "POST" "/subscribe" "Subscribe"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'subscribe))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -2165,7 +2165,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-notifications-request aws-sdk/generator/operation::input
         "POST" "/tagResource" "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun unsubscribe
@@ -2181,7 +2181,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-notifications-request aws-sdk/generator/operation::input
         "POST" "/unsubscribe" "Unsubscribe"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'unsubscribe))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -2204,7 +2204,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-notification-rule
@@ -2222,5 +2222,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-notifications-request aws-sdk/generator/operation::input
         "POST" "/updateNotificationRule" "UpdateNotificationRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-notification-rule))

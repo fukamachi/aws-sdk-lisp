@@ -15303,7 +15303,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ActivateGateway"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'activate-gateway))
 (common-lisp:progn
  (common-lisp:defun add-cache
@@ -15319,7 +15319,7 @@ common-lisp:nil
        (aws-sdk/generator/shape:make-request-with-input 'storagegateway-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "AddCache"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-cache))
 (common-lisp:progn
  (common-lisp:defun add-tags-to-resource
@@ -15336,7 +15336,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AddTagsToResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-tags-to-resource))
 (common-lisp:progn
  (common-lisp:defun add-upload-buffer
@@ -15353,7 +15353,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AddUploadBuffer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-upload-buffer))
 (common-lisp:progn
  (common-lisp:defun add-working-storage
@@ -15370,7 +15370,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AddWorkingStorage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-working-storage))
 (common-lisp:progn
  (common-lisp:defun assign-tape-pool
@@ -15389,7 +15389,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssignTapePool"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'assign-tape-pool))
 (common-lisp:progn
  (common-lisp:defun associate-file-system
@@ -15411,7 +15411,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateFileSystem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-file-system))
 (common-lisp:progn
  (common-lisp:defun attach-volume
@@ -15431,7 +15431,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AttachVolume"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'attach-volume))
 (common-lisp:progn
  (common-lisp:defun cancel-archival
@@ -15448,7 +15448,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CancelArchival"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-archival))
 (common-lisp:progn
  (common-lisp:defun cancel-retrieval
@@ -15465,7 +15465,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CancelRetrieval"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-retrieval))
 (common-lisp:progn
  (common-lisp:defun create-cachedi-scsivolume
@@ -15488,7 +15488,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateCachediSCSIVolume"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-cachedi-scsivolume))
 (common-lisp:progn
  (common-lisp:defun create-nfsfile-share
@@ -15515,7 +15515,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateNFSFileShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-nfsfile-share))
 (common-lisp:progn
  (common-lisp:defun create-smbfile-share
@@ -15546,7 +15546,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateSMBFileShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-smbfile-share))
 (common-lisp:progn
  (common-lisp:defun create-snapshot
@@ -15564,7 +15564,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateSnapshot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-snapshot))
 (common-lisp:progn
  (common-lisp:defun create-snapshot-from-volume-recovery-point
@@ -15583,7 +15583,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateSnapshotFromVolumeRecoveryPoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-snapshot-from-volume-recovery-point))
 (common-lisp:progn
  (common-lisp:defun create-storedi-scsivolume
@@ -15605,7 +15605,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateStorediSCSIVolume"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-storedi-scsivolume))
 (common-lisp:progn
  (common-lisp:defun create-tape-pool
@@ -15625,7 +15625,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateTapePool"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-tape-pool))
 (common-lisp:progn
  (common-lisp:defun create-tape-with-barcode
@@ -15645,7 +15645,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateTapeWithBarcode"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-tape-with-barcode))
 (common-lisp:progn
  (common-lisp:defun create-tapes
@@ -15667,7 +15667,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateTapes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-tapes))
 (common-lisp:progn
  (common-lisp:defun delete-automatic-tape-creation-policy
@@ -15685,7 +15685,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAutomaticTapeCreationPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-automatic-tape-creation-policy))
 (common-lisp:progn
  (common-lisp:defun delete-bandwidth-rate-limit
@@ -15703,7 +15703,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteBandwidthRateLimit"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-bandwidth-rate-limit))
 (common-lisp:progn
  (common-lisp:defun delete-chap-credentials
@@ -15720,7 +15720,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteChapCredentials"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-chap-credentials))
 (common-lisp:progn
  (common-lisp:defun delete-file-share
@@ -15737,7 +15737,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteFileShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-file-share))
 (common-lisp:progn
  (common-lisp:defun delete-gateway
@@ -15754,7 +15754,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteGateway"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-gateway))
 (common-lisp:progn
  (common-lisp:defun delete-snapshot-schedule
@@ -15771,7 +15771,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteSnapshotSchedule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-snapshot-schedule))
 (common-lisp:progn
  (common-lisp:defun delete-tape
@@ -15790,7 +15790,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteTape"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-tape))
 (common-lisp:progn
  (common-lisp:defun delete-tape-archive
@@ -15808,7 +15808,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteTapeArchive"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-tape-archive))
 (common-lisp:progn
  (common-lisp:defun delete-tape-pool
@@ -15825,7 +15825,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteTapePool"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-tape-pool))
 (common-lisp:progn
  (common-lisp:defun delete-volume
@@ -15842,7 +15842,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteVolume"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-volume))
 (common-lisp:progn
  (common-lisp:defun describe-availability-monitor-test
@@ -15860,7 +15860,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAvailabilityMonitorTest"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-availability-monitor-test))
 (common-lisp:progn
  (common-lisp:defun describe-bandwidth-rate-limit
@@ -15878,7 +15878,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeBandwidthRateLimit"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-bandwidth-rate-limit))
 (common-lisp:progn
  (common-lisp:defun describe-bandwidth-rate-limit-schedule
@@ -15896,7 +15896,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeBandwidthRateLimitSchedule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-bandwidth-rate-limit-schedule))
 (common-lisp:progn
  (common-lisp:defun describe-cache
@@ -15913,7 +15913,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeCache"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-cache))
 (common-lisp:progn
  (common-lisp:defun describe-cachedi-scsivolumes
@@ -15931,7 +15931,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeCachediSCSIVolumes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-cachedi-scsivolumes))
 (common-lisp:progn
  (common-lisp:defun describe-chap-credentials
@@ -15948,7 +15948,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeChapCredentials"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-chap-credentials))
 (common-lisp:progn
  (common-lisp:defun describe-file-system-associations
@@ -15967,7 +15967,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeFileSystemAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-file-system-associations))
 (common-lisp:progn
  (common-lisp:defun describe-gateway-information
@@ -15985,7 +15985,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeGatewayInformation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-gateway-information))
 (common-lisp:progn
  (common-lisp:defun describe-maintenance-start-time
@@ -16003,7 +16003,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeMaintenanceStartTime"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-maintenance-start-time))
 (common-lisp:progn
  (common-lisp:defun describe-nfsfile-shares
@@ -16020,7 +16020,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeNFSFileShares"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-nfsfile-shares))
 (common-lisp:progn
  (common-lisp:defun describe-smbfile-shares
@@ -16037,7 +16037,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeSMBFileShares"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-smbfile-shares))
 (common-lisp:progn
  (common-lisp:defun describe-smbsettings
@@ -16054,7 +16054,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeSMBSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-smbsettings))
 (common-lisp:progn
  (common-lisp:defun describe-snapshot-schedule
@@ -16071,7 +16071,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeSnapshotSchedule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-snapshot-schedule))
 (common-lisp:progn
  (common-lisp:defun describe-storedi-scsivolumes
@@ -16089,7 +16089,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeStorediSCSIVolumes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-storedi-scsivolumes))
 (common-lisp:progn
  (common-lisp:defun describe-tape-archives
@@ -16106,7 +16106,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTapeArchives"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-tape-archives))
 (common-lisp:progn
  (common-lisp:defun describe-tape-recovery-points
@@ -16124,7 +16124,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTapeRecoveryPoints"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-tape-recovery-points))
 (common-lisp:progn
  (common-lisp:defun describe-tapes
@@ -16142,7 +16142,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTapes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-tapes))
 (common-lisp:progn
  (common-lisp:defun describe-upload-buffer
@@ -16159,7 +16159,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeUploadBuffer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-upload-buffer))
 (common-lisp:progn
  (common-lisp:defun describe-vtldevices
@@ -16177,7 +16177,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeVTLDevices"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-vtldevices))
 (common-lisp:progn
  (common-lisp:defun describe-working-storage
@@ -16194,7 +16194,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeWorkingStorage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-working-storage))
 (common-lisp:progn
  (common-lisp:defun detach-volume
@@ -16211,7 +16211,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetachVolume"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detach-volume))
 (common-lisp:progn
  (common-lisp:defun disable-gateway
@@ -16228,7 +16228,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisableGateway"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disable-gateway))
 (common-lisp:progn
  (common-lisp:defun disassociate-file-system
@@ -16246,7 +16246,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateFileSystem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-file-system))
 (common-lisp:progn
  (common-lisp:defun join-domain
@@ -16267,7 +16267,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "JoinDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'join-domain))
 (common-lisp:progn
  (common-lisp:defun list-automatic-tape-creation-policies
@@ -16285,7 +16285,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAutomaticTapeCreationPolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-automatic-tape-creation-policies))
 (common-lisp:progn
  (common-lisp:defun list-file-shares
@@ -16302,7 +16302,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListFileShares"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-file-shares))
 (common-lisp:progn
  (common-lisp:defun list-file-system-associations
@@ -16320,7 +16320,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListFileSystemAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-file-system-associations))
 (common-lisp:progn
  (common-lisp:defun list-gateways
@@ -16337,7 +16337,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListGateways"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-gateways))
 (common-lisp:progn
  (common-lisp:defun list-local-disks
@@ -16354,7 +16354,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListLocalDisks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-local-disks))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -16371,7 +16371,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-tape-pools
@@ -16388,7 +16388,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTapePools"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tape-pools))
 (common-lisp:progn
  (common-lisp:defun list-tapes
@@ -16405,7 +16405,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTapes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tapes))
 (common-lisp:progn
  (common-lisp:defun list-volume-initiators
@@ -16422,7 +16422,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListVolumeInitiators"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-volume-initiators))
 (common-lisp:progn
  (common-lisp:defun list-volume-recovery-points
@@ -16440,7 +16440,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListVolumeRecoveryPoints"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-volume-recovery-points))
 (common-lisp:progn
  (common-lisp:defun list-volumes
@@ -16457,7 +16457,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListVolumes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-volumes))
 (common-lisp:progn
  (common-lisp:defun notify-when-uploaded
@@ -16474,7 +16474,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "NotifyWhenUploaded"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'notify-when-uploaded))
 (common-lisp:progn
  (common-lisp:defun refresh-cache
@@ -16492,7 +16492,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RefreshCache"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'refresh-cache))
 (common-lisp:progn
  (common-lisp:defun remove-tags-from-resource
@@ -16509,7 +16509,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RemoveTagsFromResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-tags-from-resource))
 (common-lisp:progn
  (common-lisp:defun reset-cache
@@ -16526,7 +16526,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ResetCache"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reset-cache))
 (common-lisp:progn
  (common-lisp:defun retrieve-tape-archive
@@ -16543,7 +16543,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RetrieveTapeArchive"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'retrieve-tape-archive))
 (common-lisp:progn
  (common-lisp:defun retrieve-tape-recovery-point
@@ -16561,7 +16561,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RetrieveTapeRecoveryPoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'retrieve-tape-recovery-point))
 (common-lisp:progn
  (common-lisp:defun set-local-console-password
@@ -16579,7 +16579,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetLocalConsolePassword"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'set-local-console-password))
 (common-lisp:progn
  (common-lisp:defun set-smbguest-password
@@ -16596,7 +16596,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetSMBGuestPassword"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'set-smbguest-password))
 (common-lisp:progn
  (common-lisp:defun shutdown-gateway
@@ -16613,7 +16613,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ShutdownGateway"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'shutdown-gateway))
 (common-lisp:progn
  (common-lisp:defun start-availability-monitor-test
@@ -16631,7 +16631,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartAvailabilityMonitorTest"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-availability-monitor-test))
 (common-lisp:progn
  (common-lisp:defun start-gateway
@@ -16648,7 +16648,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartGateway"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-gateway))
 (common-lisp:progn
  (common-lisp:defun update-automatic-tape-creation-policy
@@ -16668,7 +16668,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateAutomaticTapeCreationPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-automatic-tape-creation-policy))
 (common-lisp:progn
  (common-lisp:defun update-bandwidth-rate-limit
@@ -16691,7 +16691,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateBandwidthRateLimit"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-bandwidth-rate-limit))
 (common-lisp:progn
  (common-lisp:defun update-bandwidth-rate-limit-schedule
@@ -16711,7 +16711,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateBandwidthRateLimitSchedule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-bandwidth-rate-limit-schedule))
 (common-lisp:progn
  (common-lisp:defun update-chap-credentials
@@ -16732,7 +16732,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateChapCredentials"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-chap-credentials))
 (common-lisp:progn
  (common-lisp:defun update-file-system-association
@@ -16753,7 +16753,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateFileSystemAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-file-system-association))
 (common-lisp:progn
  (common-lisp:defun update-gateway-information
@@ -16773,7 +16773,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateGatewayInformation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-gateway-information))
 (common-lisp:progn
  (common-lisp:defun update-gateway-software-now
@@ -16791,7 +16791,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateGatewaySoftwareNow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-gateway-software-now))
 (common-lisp:progn
  (common-lisp:defun update-maintenance-start-time
@@ -16812,7 +16812,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateMaintenanceStartTime"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-maintenance-start-time))
 (common-lisp:progn
  (common-lisp:defun update-nfsfile-share
@@ -16837,7 +16837,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateNFSFileShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-nfsfile-share))
 (common-lisp:progn
  (common-lisp:defun update-smbfile-share
@@ -16865,7 +16865,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateSMBFileShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-smbfile-share))
 (common-lisp:progn
  (common-lisp:defun update-smbfile-share-visibility
@@ -16884,7 +16884,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateSMBFileShareVisibility"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-smbfile-share-visibility))
 (common-lisp:progn
  (common-lisp:defun update-smblocal-groups
@@ -16901,7 +16901,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateSMBLocalGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-smblocal-groups))
 (common-lisp:progn
  (common-lisp:defun update-smbsecurity-strategy
@@ -16920,7 +16920,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateSMBSecurityStrategy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-smbsecurity-strategy))
 (common-lisp:progn
  (common-lisp:defun update-snapshot-schedule
@@ -16940,7 +16940,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateSnapshotSchedule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-snapshot-schedule))
 (common-lisp:progn
  (common-lisp:defun update-vtldevice-type
@@ -16957,5 +16957,5 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateVTLDeviceType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-vtldevice-type))

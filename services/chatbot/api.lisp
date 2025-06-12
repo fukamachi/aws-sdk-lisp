@@ -4016,7 +4016,7 @@
                                                         "POST"
                                                         "/create-chime-webhook-configuration"
                                                         "CreateChimeWebhookConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-chime-webhook-configuration))
 (common-lisp:progn
  (common-lisp:defun create-microsoft-teams-channel-configuration
@@ -4041,7 +4041,7 @@
                                                         "POST"
                                                         "/create-ms-teams-channel-configuration"
                                                         "CreateMicrosoftTeamsChannelConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-microsoft-teams-channel-configuration))
 (common-lisp:progn
  (common-lisp:defun create-slack-channel-configuration
@@ -4066,7 +4066,7 @@
                                                         "POST"
                                                         "/create-slack-channel-configuration"
                                                         "CreateSlackChannelConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-slack-channel-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-chime-webhook-configuration
@@ -4085,7 +4085,7 @@
                                                         "POST"
                                                         "/delete-chime-webhook-configuration"
                                                         "DeleteChimeWebhookConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-chime-webhook-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-microsoft-teams-channel-configuration
@@ -4104,7 +4104,7 @@
                                                         "POST"
                                                         "/delete-ms-teams-channel-configuration"
                                                         "DeleteMicrosoftTeamsChannelConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-microsoft-teams-channel-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-microsoft-teams-configured-team
@@ -4123,7 +4123,7 @@
                                                         "POST"
                                                         "/delete-ms-teams-configured-teams"
                                                         "DeleteMicrosoftTeamsConfiguredTeam"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-microsoft-teams-configured-team))
 (common-lisp:progn
  (common-lisp:defun delete-microsoft-teams-user-identity
@@ -4142,7 +4142,7 @@
                                                         "POST"
                                                         "/delete-ms-teams-user-identity"
                                                         "DeleteMicrosoftTeamsUserIdentity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-microsoft-teams-user-identity))
 (common-lisp:progn
  (common-lisp:defun delete-slack-channel-configuration
@@ -4161,7 +4161,7 @@
                                                         "POST"
                                                         "/delete-slack-channel-configuration"
                                                         "DeleteSlackChannelConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-slack-channel-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-slack-user-identity
@@ -4182,7 +4182,7 @@
                                                         "POST"
                                                         "/delete-slack-user-identity"
                                                         "DeleteSlackUserIdentity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-slack-user-identity))
 (common-lisp:progn
  (common-lisp:defun delete-slack-workspace-authorization
@@ -4201,7 +4201,7 @@
                                                         "POST"
                                                         "/delete-slack-workspace-authorization"
                                                         "DeleteSlackWorkspaceAuthorization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-slack-workspace-authorization))
 (common-lisp:progn
  (common-lisp:defun describe-chime-webhook-configurations
@@ -4222,7 +4222,7 @@
                                                         "POST"
                                                         "/describe-chime-webhook-configurations"
                                                         "DescribeChimeWebhookConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-chime-webhook-configurations))
 (common-lisp:progn
  (common-lisp:defun describe-slack-channel-configurations
@@ -4243,7 +4243,7 @@
                                                         "POST"
                                                         "/describe-slack-channel-configurations"
                                                         "DescribeSlackChannelConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-slack-channel-configurations))
 (common-lisp:progn
  (common-lisp:defun describe-slack-user-identities
@@ -4264,7 +4264,7 @@
                                                         "POST"
                                                         "/describe-slack-user-identities"
                                                         "DescribeSlackUserIdentities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-slack-user-identities))
 (common-lisp:progn
  (common-lisp:defun describe-slack-workspaces
@@ -4283,7 +4283,7 @@
                                                         "POST"
                                                         "/describe-slack-workspaces"
                                                         "DescribeSlackWorkspaces"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-slack-workspaces))
 (common-lisp:progn
  (common-lisp:defun get-account-preferences ()
@@ -4311,7 +4311,7 @@
                                                         "POST"
                                                         "/get-ms-teams-channel-configuration"
                                                         "GetMicrosoftTeamsChannelConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-microsoft-teams-channel-configuration))
 (common-lisp:progn
  (common-lisp:defun list-microsoft-teams-channel-configurations
@@ -4330,7 +4330,7 @@
                                                         "POST"
                                                         "/list-ms-teams-channel-configurations"
                                                         "ListMicrosoftTeamsChannelConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-microsoft-teams-channel-configurations))
 (common-lisp:progn
  (common-lisp:defun list-microsoft-teams-configured-teams
@@ -4349,7 +4349,7 @@
                                                         "POST"
                                                         "/list-ms-teams-configured-teams"
                                                         "ListMicrosoftTeamsConfiguredTeams"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-microsoft-teams-configured-teams))
 (common-lisp:progn
  (common-lisp:defun list-microsoft-teams-user-identities
@@ -4370,7 +4370,7 @@
                                                         "POST"
                                                         "/list-ms-teams-user-identities"
                                                         "ListMicrosoftTeamsUserIdentities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-microsoft-teams-user-identities))
 (common-lisp:progn
  (common-lisp:defun update-account-preferences
@@ -4392,7 +4392,7 @@
                                                         "POST"
                                                         "/update-account-preferences"
                                                         "UpdateAccountPreferences"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-account-preferences))
 (common-lisp:progn
  (common-lisp:defun update-chime-webhook-configuration
@@ -4415,7 +4415,7 @@
                                                         "POST"
                                                         "/update-chime-webhook-configuration"
                                                         "UpdateChimeWebhookConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-chime-webhook-configuration))
 (common-lisp:progn
  (common-lisp:defun update-microsoft-teams-channel-configuration
@@ -4439,7 +4439,7 @@
                                                         "POST"
                                                         "/update-ms-teams-channel-configuration"
                                                         "UpdateMicrosoftTeamsChannelConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-microsoft-teams-channel-configuration))
 (common-lisp:progn
  (common-lisp:defun update-slack-channel-configuration
@@ -4464,5 +4464,5 @@
                                                         "POST"
                                                         "/update-slack-channel-configuration"
                                                         "UpdateSlackChannelConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-slack-channel-configuration))

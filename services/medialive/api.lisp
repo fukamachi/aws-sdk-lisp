@@ -8721,7 +8721,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           describe-input-device-thumbnail-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          describe-input-device-thumbnail-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "body")))
 (common-lisp:progn
  (common-lisp:defclass describe-input-request common-lisp:nil
                        ((input-id :initarg :input-id :initform
@@ -34445,7 +34451,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'input-device-id))))
                                                         "AcceptInputDeviceTransfer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'accept-input-device-transfer))
 (common-lisp:progn
  (common-lisp:defun batch-delete
@@ -34466,7 +34472,7 @@
                                                         "POST"
                                                         "/prod/batch/delete"
                                                         "BatchDelete"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-delete))
 (common-lisp:progn
  (common-lisp:defun batch-start
@@ -34484,7 +34490,7 @@
                                                         "POST"
                                                         "/prod/batch/start"
                                                         "BatchStart"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-start))
 (common-lisp:progn
  (common-lisp:defun batch-stop
@@ -34502,7 +34508,7 @@
                                                         "POST"
                                                         "/prod/batch/stop"
                                                         "BatchStop"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-stop))
 (common-lisp:progn
  (common-lisp:defun batch-update-schedule
@@ -34529,7 +34535,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-id))))
                                                         "BatchUpdateSchedule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-update-schedule))
 (common-lisp:progn
  (common-lisp:defun cancel-input-device-transfer
@@ -34557,7 +34563,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'input-device-id))))
                                                         "CancelInputDeviceTransfer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-input-device-transfer))
 (common-lisp:progn
  (common-lisp:defun claim-device
@@ -34575,7 +34581,7 @@
                                                         "POST"
                                                         "/prod/claimDevice"
                                                         "ClaimDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'claim-device))
 (common-lisp:progn
  (common-lisp:defun create-channel
@@ -34598,7 +34604,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/prod/channels"
                                                         "CreateChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-channel))
 (common-lisp:progn
  (common-lisp:defun create-input
@@ -34619,7 +34625,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/prod/inputs"
                                                         "CreateInput"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-input))
 (common-lisp:progn
  (common-lisp:defun create-input-security-group
@@ -34638,7 +34644,7 @@
                                                         "POST"
                                                         "/prod/inputSecurityGroups"
                                                         "CreateInputSecurityGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-input-security-group))
 (common-lisp:progn
  (common-lisp:defun create-multiplex
@@ -34659,7 +34665,7 @@
                                                         "POST"
                                                         "/prod/multiplexes"
                                                         "CreateMultiplex"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-multiplex))
 (common-lisp:progn
  (common-lisp:defun create-multiplex-program
@@ -34689,7 +34695,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'multiplex-id))))
                                                         "CreateMultiplexProgram"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-multiplex-program))
 (common-lisp:progn
  (common-lisp:defun create-partner-input
@@ -34716,7 +34722,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'input-id))))
                                                         "CreatePartnerInput"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-partner-input))
 (common-lisp:progn
  (common-lisp:defun create-tags
@@ -34743,7 +34749,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "CreateTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-tags))
 (common-lisp:progn
  (common-lisp:defun delete-channel
@@ -34770,7 +34776,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-id))))
                                                         "DeleteChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-channel))
 (common-lisp:progn
  (common-lisp:defun delete-input
@@ -34797,7 +34803,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'input-id))))
                                                         "DeleteInput"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-input))
 (common-lisp:progn
  (common-lisp:defun delete-input-security-group
@@ -34825,7 +34831,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'input-security-group-id))))
                                                         "DeleteInputSecurityGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-input-security-group))
 (common-lisp:progn
  (common-lisp:defun delete-multiplex
@@ -34852,7 +34858,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'multiplex-id))))
                                                         "DeleteMultiplex"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-multiplex))
 (common-lisp:progn
  (common-lisp:defun delete-multiplex-program
@@ -34883,7 +34889,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'program-name))))
                                                         "DeleteMultiplexProgram"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-multiplex-program))
 (common-lisp:progn
  (common-lisp:defun delete-reservation
@@ -34910,7 +34916,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'reservation-id))))
                                                         "DeleteReservation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-reservation))
 (common-lisp:progn
  (common-lisp:defun delete-schedule
@@ -34937,7 +34943,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-id))))
                                                         "DeleteSchedule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-schedule))
 (common-lisp:progn
  (common-lisp:defun delete-tags
@@ -34964,7 +34970,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "DeleteTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-tags))
 (common-lisp:progn
  (common-lisp:defun describe-account-configuration ()
@@ -35000,7 +35006,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-id))))
                                                         "DescribeChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-channel))
 (common-lisp:progn
  (common-lisp:defun describe-input
@@ -35027,7 +35033,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'input-id))))
                                                         "DescribeInput"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-input))
 (common-lisp:progn
  (common-lisp:defun describe-input-device
@@ -35054,7 +35060,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'input-device-id))))
                                                         "DescribeInputDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-input-device))
 (common-lisp:progn
  (common-lisp:defun describe-input-device-thumbnail
@@ -35083,7 +35089,7 @@
                                                              'input-device-id))))
                                                         "DescribeInputDeviceThumbnail")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-input-device-thumbnail))
 (common-lisp:progn
  (common-lisp:defun describe-input-security-group
@@ -35111,7 +35117,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'input-security-group-id))))
                                                         "DescribeInputSecurityGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-input-security-group))
 (common-lisp:progn
  (common-lisp:defun describe-multiplex
@@ -35138,7 +35144,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'multiplex-id))))
                                                         "DescribeMultiplex"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-multiplex))
 (common-lisp:progn
  (common-lisp:defun describe-multiplex-program
@@ -35170,7 +35176,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'program-name))))
                                                         "DescribeMultiplexProgram"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-multiplex-program))
 (common-lisp:progn
  (common-lisp:defun describe-offering
@@ -35197,7 +35203,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'offering-id))))
                                                         "DescribeOffering"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-offering))
 (common-lisp:progn
  (common-lisp:defun describe-reservation
@@ -35224,7 +35230,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'reservation-id))))
                                                         "DescribeReservation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-reservation))
 (common-lisp:progn
  (common-lisp:defun describe-schedule
@@ -35252,7 +35258,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-id))))
                                                         "DescribeSchedule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-schedule))
 (common-lisp:progn
  (common-lisp:defun describe-thumbnails
@@ -35280,7 +35286,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-id))))
                                                         "DescribeThumbnails"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-thumbnails))
 (common-lisp:progn
  (common-lisp:defun list-channels
@@ -35297,7 +35303,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/prod/channels"
                                                         "ListChannels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-channels))
 (common-lisp:progn
  (common-lisp:defun list-input-device-transfers
@@ -35317,7 +35323,7 @@
                                                         "GET"
                                                         "/prod/inputDeviceTransfers"
                                                         "ListInputDeviceTransfers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-input-device-transfers))
 (common-lisp:progn
  (common-lisp:defun list-input-devices
@@ -35335,7 +35341,7 @@
                                                         "GET"
                                                         "/prod/inputDevices"
                                                         "ListInputDevices"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-input-devices))
 (common-lisp:progn
  (common-lisp:defun list-input-security-groups
@@ -35354,7 +35360,7 @@
                                                         "GET"
                                                         "/prod/inputSecurityGroups"
                                                         "ListInputSecurityGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-input-security-groups))
 (common-lisp:progn
  (common-lisp:defun list-inputs
@@ -35371,7 +35377,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/prod/inputs"
                                                         "ListInputs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-inputs))
 (common-lisp:progn
  (common-lisp:defun list-multiplex-programs
@@ -35399,7 +35405,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'multiplex-id))))
                                                         "ListMultiplexPrograms"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-multiplex-programs))
 (common-lisp:progn
  (common-lisp:defun list-multiplexes
@@ -35417,7 +35423,7 @@
                                                         "GET"
                                                         "/prod/multiplexes"
                                                         "ListMultiplexes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-multiplexes))
 (common-lisp:progn
  (common-lisp:defun list-offerings
@@ -35440,7 +35446,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/prod/offerings"
                                                         "ListOfferings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-offerings))
 (common-lisp:progn
  (common-lisp:defun list-reservations
@@ -35463,7 +35469,7 @@
                                                         "GET"
                                                         "/prod/reservations"
                                                         "ListReservations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-reservations))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -35490,7 +35496,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun purchase-offering
@@ -35520,7 +35526,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'offering-id))))
                                                         "PurchaseOffering"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'purchase-offering))
 (common-lisp:progn
  (common-lisp:defun reboot-input-device
@@ -35547,7 +35553,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'input-device-id))))
                                                         "RebootInputDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reboot-input-device))
 (common-lisp:progn
  (common-lisp:defun reject-input-device-transfer
@@ -35575,7 +35581,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'input-device-id))))
                                                         "RejectInputDeviceTransfer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reject-input-device-transfer))
 (common-lisp:progn
  (common-lisp:defun start-channel
@@ -35602,7 +35608,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-id))))
                                                         "StartChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-channel))
 (common-lisp:progn
  (common-lisp:defun start-input-device
@@ -35629,7 +35635,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'input-device-id))))
                                                         "StartInputDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-input-device))
 (common-lisp:progn
  (common-lisp:defun start-input-device-maintenance-window
@@ -35657,7 +35663,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'input-device-id))))
                                                         "StartInputDeviceMaintenanceWindow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-input-device-maintenance-window))
 (common-lisp:progn
  (common-lisp:defun start-multiplex
@@ -35684,7 +35690,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'multiplex-id))))
                                                         "StartMultiplex"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-multiplex))
 (common-lisp:progn
  (common-lisp:defun stop-channel
@@ -35711,7 +35717,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-id))))
                                                         "StopChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-channel))
 (common-lisp:progn
  (common-lisp:defun stop-input-device
@@ -35738,7 +35744,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'input-device-id))))
                                                         "StopInputDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-input-device))
 (common-lisp:progn
  (common-lisp:defun stop-multiplex
@@ -35765,7 +35771,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'multiplex-id))))
                                                         "StopMultiplex"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-multiplex))
 (common-lisp:progn
  (common-lisp:defun transfer-input-device
@@ -35795,7 +35801,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'input-device-id))))
                                                         "TransferInputDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'transfer-input-device))
 (common-lisp:progn
  (common-lisp:defun update-account-configuration
@@ -35814,7 +35820,7 @@
                                                         "PUT"
                                                         "/prod/accountConfiguration"
                                                         "UpdateAccountConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-account-configuration))
 (common-lisp:progn
  (common-lisp:defun update-channel
@@ -35846,7 +35852,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-id))))
                                                         "UpdateChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-channel))
 (common-lisp:progn
  (common-lisp:defun update-channel-class
@@ -35874,7 +35880,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-id))))
                                                         "UpdateChannelClass"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-channel-class))
 (common-lisp:progn
  (common-lisp:defun update-input
@@ -35905,7 +35911,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'input-id))))
                                                         "UpdateInput"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-input))
 (common-lisp:progn
  (common-lisp:defun update-input-device
@@ -35935,7 +35941,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'input-device-id))))
                                                         "UpdateInputDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-input-device))
 (common-lisp:progn
  (common-lisp:defun update-input-security-group
@@ -35965,7 +35971,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'input-security-group-id))))
                                                         "UpdateInputSecurityGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-input-security-group))
 (common-lisp:progn
  (common-lisp:defun update-multiplex
@@ -35993,7 +35999,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'multiplex-id))))
                                                         "UpdateMultiplex"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-multiplex))
 (common-lisp:progn
  (common-lisp:defun update-multiplex-program
@@ -36027,7 +36033,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'program-name))))
                                                         "UpdateMultiplexProgram"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-multiplex-program))
 (common-lisp:progn
  (common-lisp:defun update-reservation
@@ -36055,7 +36061,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'reservation-id))))
                                                         "UpdateReservation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-reservation))
 (common-lisp:progn
  (common-lisp:defun restart-channel-pipelines
@@ -36083,5 +36089,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-id))))
                                                         "RestartChannelPipelines"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'restart-channel-pipelines))

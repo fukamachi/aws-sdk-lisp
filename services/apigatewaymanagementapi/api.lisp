@@ -262,7 +262,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           post-to-connection-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'data)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'data))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          post-to-connection-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:define-condition limit-exceeded-exception
      (apigatewaymanagementapi-error)
@@ -291,7 +297,7 @@
                                 aws-sdk/generator/operation::input
                                 'connection-id))))
         "DeleteConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-connection))
 (common-lisp:progn
  (common-lisp:defun get-connection
@@ -314,7 +320,7 @@
                                 aws-sdk/generator/operation::input
                                 'connection-id))))
         "GetConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-connection))
 (common-lisp:progn
  (common-lisp:defun post-to-connection
@@ -337,5 +343,5 @@
                                 aws-sdk/generator/operation::input
                                 'connection-id))))
         "PostToConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'post-to-connection))

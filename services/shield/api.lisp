@@ -5189,7 +5189,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateDRTLogBucket"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-drtlog-bucket))
 (common-lisp:progn
  (common-lisp:defun associate-drtrole
@@ -5206,7 +5206,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateDRTRole"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-drtrole))
 (common-lisp:progn
  (common-lisp:defun associate-health-check
@@ -5223,7 +5223,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateHealthCheck"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-health-check))
 (common-lisp:progn
  (common-lisp:defun associate-proactive-engagement-details
@@ -5241,7 +5241,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateProactiveEngagementDetails"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-proactive-engagement-details))
 (common-lisp:progn
  (common-lisp:defun create-protection
@@ -5258,7 +5258,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateProtection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-protection))
 (common-lisp:progn
  (common-lisp:defun create-protection-group
@@ -5278,7 +5278,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateProtectionGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-protection-group))
 (common-lisp:progn
  (common-lisp:defun create-subscription ()
@@ -5303,7 +5303,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteProtection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-protection))
 (common-lisp:progn
  (common-lisp:defun delete-protection-group
@@ -5320,7 +5320,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteProtectionGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-protection-group))
 (common-lisp:progn
  (common-lisp:defun delete-subscription ()
@@ -5345,7 +5345,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAttack"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-attack))
 (common-lisp:progn
  (common-lisp:defun describe-attack-statistics ()
@@ -5386,7 +5386,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeProtection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-protection))
 (common-lisp:progn
  (common-lisp:defun describe-protection-group
@@ -5404,7 +5404,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeProtectionGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-protection-group))
 (common-lisp:progn
  (common-lisp:defun describe-subscription ()
@@ -5430,7 +5430,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisableApplicationLayerAutomaticResponse"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disable-application-layer-automatic-response))
 (common-lisp:progn
  (common-lisp:defun disable-proactive-engagement ()
@@ -5456,7 +5456,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateDRTLogBucket"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-drtlog-bucket))
 (common-lisp:progn
  (common-lisp:defun disassociate-drtrole ()
@@ -5482,7 +5482,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateHealthCheck"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-health-check))
 (common-lisp:progn
  (common-lisp:defun enable-application-layer-automatic-response
@@ -5500,7 +5500,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "EnableApplicationLayerAutomaticResponse"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-application-layer-automatic-response))
 (common-lisp:progn
  (common-lisp:defun enable-proactive-engagement ()
@@ -5536,7 +5536,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAttacks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-attacks))
 (common-lisp:progn
  (common-lisp:defun list-protection-groups
@@ -5554,7 +5554,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListProtectionGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-protection-groups))
 (common-lisp:progn
  (common-lisp:defun list-protections
@@ -5572,7 +5572,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListProtections"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-protections))
 (common-lisp:progn
  (common-lisp:defun list-resources-in-protection-group
@@ -5592,7 +5592,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListResourcesInProtectionGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-resources-in-protection-group))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -5609,7 +5609,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -5626,7 +5626,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -5643,7 +5643,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-application-layer-automatic-response
@@ -5661,7 +5661,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateApplicationLayerAutomaticResponse"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-application-layer-automatic-response))
 (common-lisp:progn
  (common-lisp:defun update-emergency-contact-settings
@@ -5679,7 +5679,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateEmergencyContactSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-emergency-contact-settings))
 (common-lisp:progn
  (common-lisp:defun update-protection-group
@@ -5699,7 +5699,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateProtectionGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-protection-group))
 (common-lisp:progn
  (common-lisp:defun update-subscription
@@ -5716,5 +5716,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateSubscription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-subscription))

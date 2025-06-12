@@ -1032,7 +1032,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elastic-inference-request aws-sdk/generator/operation::input "POST"
         "/describe-accelerator-offerings" "DescribeAcceleratorOfferings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-accelerator-offerings))
 (common-lisp:progn
  (common-lisp:defun describe-accelerator-types ()
@@ -1059,7 +1059,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elastic-inference-request aws-sdk/generator/operation::input "POST"
         "/describe-accelerators" "DescribeAccelerators"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-accelerators))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -1081,7 +1081,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -1103,7 +1103,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -1125,5 +1125,5 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))

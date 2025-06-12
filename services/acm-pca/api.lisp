@@ -4270,7 +4270,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateCertificateAuthority"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-certificate-authority))
 (common-lisp:progn
  (common-lisp:defun create-certificate-authority-audit-report
@@ -4291,7 +4291,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateCertificateAuthorityAuditReport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-certificate-authority-audit-report))
 (common-lisp:progn
  (common-lisp:defun create-permission
@@ -4311,7 +4311,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreatePermission"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-permission))
 (common-lisp:progn
  (common-lisp:defun delete-certificate-authority
@@ -4332,7 +4332,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteCertificateAuthority"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-certificate-authority))
 (common-lisp:progn
  (common-lisp:defun delete-permission
@@ -4351,7 +4351,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeletePermission"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-permission))
 (common-lisp:progn
  (common-lisp:defun delete-policy
@@ -4368,7 +4368,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeletePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-policy))
 (common-lisp:progn
  (common-lisp:defun describe-certificate-authority
@@ -4386,7 +4386,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeCertificateAuthority"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-certificate-authority))
 (common-lisp:progn
  (common-lisp:defun describe-certificate-authority-audit-report
@@ -4406,7 +4406,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeCertificateAuthorityAuditReport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-certificate-authority-audit-report))
 (common-lisp:progn
  (common-lisp:defun get-certificate
@@ -4425,7 +4425,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-certificate))
 (common-lisp:progn
  (common-lisp:defun get-certificate-authority-certificate
@@ -4443,7 +4443,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCertificateAuthorityCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-certificate-authority-certificate))
 (common-lisp:progn
  (common-lisp:defun get-certificate-authority-csr
@@ -4461,7 +4461,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCertificateAuthorityCsr"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-certificate-authority-csr))
 (common-lisp:progn
  (common-lisp:defun get-policy
@@ -4478,7 +4478,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-policy))
 (common-lisp:progn
  (common-lisp:defun import-certificate-authority-certificate
@@ -4499,7 +4499,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ImportCertificateAuthorityCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-certificate-authority-certificate))
 (common-lisp:progn
  (common-lisp:defun issue-certificate
@@ -4521,7 +4521,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "IssueCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'issue-certificate))
 (common-lisp:progn
  (common-lisp:defun list-certificate-authorities
@@ -4540,7 +4540,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListCertificateAuthorities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-certificate-authorities))
 (common-lisp:progn
  (common-lisp:defun list-permissions
@@ -4559,7 +4559,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPermissions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-permissions))
 (common-lisp:progn
  (common-lisp:defun list-tags
@@ -4577,7 +4577,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'acm-pca-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "ListTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags))
 (common-lisp:progn
  (common-lisp:defun put-policy
@@ -4594,7 +4594,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-policy))
 (common-lisp:progn
  (common-lisp:defun restore-certificate-authority
@@ -4612,7 +4612,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RestoreCertificateAuthority"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'restore-certificate-authority))
 (common-lisp:progn
  (common-lisp:defun revoke-certificate
@@ -4632,7 +4632,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RevokeCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'revoke-certificate))
 (common-lisp:progn
  (common-lisp:defun tag-certificate-authority
@@ -4650,7 +4650,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagCertificateAuthority"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-certificate-authority))
 (common-lisp:progn
  (common-lisp:defun untag-certificate-authority
@@ -4668,7 +4668,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagCertificateAuthority"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-certificate-authority))
 (common-lisp:progn
  (common-lisp:defun update-certificate-authority
@@ -4689,5 +4689,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateCertificateAuthority"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-certificate-authority))

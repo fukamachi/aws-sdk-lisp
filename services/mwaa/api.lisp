@@ -2785,7 +2785,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "CreateCliToken"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-cli-token))
 (common-lisp:progn
  (common-lisp:defun create-environment
@@ -2827,7 +2827,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "CreateEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-environment))
 (common-lisp:progn
  (common-lisp:defun create-web-login-token
@@ -2854,7 +2854,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "CreateWebLoginToken"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-web-login-token))
 (common-lisp:progn
  (common-lisp:defun delete-environment
@@ -2881,7 +2881,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-environment))
 (common-lisp:progn
  (common-lisp:defun get-environment
@@ -2908,7 +2908,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-environment))
 (common-lisp:progn
  (common-lisp:defun list-environments
@@ -2925,7 +2925,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/environments"
                                                         "ListEnvironments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-environments))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -2952,7 +2952,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun publish-metrics
@@ -2979,7 +2979,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-name))))
                                                         "PublishMetrics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'publish-metrics))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3006,7 +3006,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3033,7 +3033,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-environment
@@ -3075,5 +3075,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-environment))

@@ -4423,7 +4423,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "CreateConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-connection))
 (common-lisp:progn
  (common-lisp:defun create-host
@@ -4442,7 +4442,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "CreateHost"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-host))
 (common-lisp:progn
  (common-lisp:defun create-repository-link
@@ -4461,7 +4461,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "CreateRepositoryLink"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-repository-link))
 (common-lisp:progn
  (common-lisp:defun create-sync-configuration
@@ -4480,7 +4480,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "CreateSyncConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-sync-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-connection
@@ -4496,7 +4496,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-connection))
 (common-lisp:progn
  (common-lisp:defun delete-host
@@ -4512,7 +4512,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteHost"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-host))
 (common-lisp:progn
  (common-lisp:defun delete-repository-link
@@ -4528,7 +4528,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteRepositoryLink"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-repository-link))
 (common-lisp:progn
  (common-lisp:defun delete-sync-configuration
@@ -4544,7 +4544,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteSyncConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-sync-configuration))
 (common-lisp:progn
  (common-lisp:defun get-connection
@@ -4560,7 +4560,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "GetConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-connection))
 (common-lisp:progn
  (common-lisp:defun get-host
@@ -4576,7 +4576,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "GetHost"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-host))
 (common-lisp:progn
  (common-lisp:defun get-repository-link
@@ -4592,7 +4592,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "GetRepositoryLink"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-repository-link))
 (common-lisp:progn
  (common-lisp:defun get-repository-sync-status
@@ -4609,7 +4609,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "GetRepositorySyncStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-repository-sync-status))
 (common-lisp:progn
  (common-lisp:defun get-resource-sync-status
@@ -4625,7 +4625,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "GetResourceSyncStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-sync-status))
 (common-lisp:progn
  (common-lisp:defun get-sync-blocker-summary
@@ -4641,7 +4641,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "GetSyncBlockerSummary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sync-blocker-summary))
 (common-lisp:progn
  (common-lisp:defun get-sync-configuration
@@ -4657,7 +4657,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "GetSyncConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sync-configuration))
 (common-lisp:progn
  (common-lisp:defun list-connections
@@ -4676,7 +4676,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "ListConnections"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-connections))
 (common-lisp:progn
  (common-lisp:defun list-hosts
@@ -4692,7 +4692,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "ListHosts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-hosts))
 (common-lisp:progn
  (common-lisp:defun list-repository-links
@@ -4708,7 +4708,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "ListRepositoryLinks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-repository-links))
 (common-lisp:progn
  (common-lisp:defun list-repository-sync-definitions
@@ -4725,7 +4725,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "ListRepositorySyncDefinitions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-repository-sync-definitions))
 (common-lisp:progn
  (common-lisp:defun list-sync-configurations
@@ -4744,7 +4744,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "ListSyncConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-sync-configurations))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -4760,7 +4760,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4776,7 +4776,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4792,7 +4792,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-host
@@ -4810,7 +4810,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateHost"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-host))
 (common-lisp:progn
  (common-lisp:defun update-repository-link
@@ -4829,7 +4829,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateRepositoryLink"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-repository-link))
 (common-lisp:progn
  (common-lisp:defun update-sync-blocker
@@ -4847,7 +4847,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateSyncBlocker"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-sync-blocker))
 (common-lisp:progn
  (common-lisp:defun update-sync-configuration
@@ -4866,5 +4866,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codestar-connections-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateSyncConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-sync-configuration))

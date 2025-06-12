@@ -3499,7 +3499,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-request aws-sdk/generator/operation::input "POST"
         "/" "CreateAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-alias))
 (common-lisp:progn
  (common-lisp:defun create-key
@@ -3518,7 +3518,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-request aws-sdk/generator/operation::input "POST"
         "/" "CreateKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-key))
 (common-lisp:progn
  (common-lisp:defun delete-alias
@@ -3534,7 +3534,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-alias))
 (common-lisp:progn
  (common-lisp:defun delete-key
@@ -3551,7 +3551,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-key))
 (common-lisp:progn
  (common-lisp:defun export-key
@@ -3570,7 +3570,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-request aws-sdk/generator/operation::input "POST"
         "/" "ExportKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'export-key))
 (common-lisp:progn
  (common-lisp:defun get-alias
@@ -3586,7 +3586,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-request aws-sdk/generator/operation::input "POST"
         "/" "GetAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-alias))
 (common-lisp:progn
  (common-lisp:defun get-key
@@ -3602,7 +3602,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-request aws-sdk/generator/operation::input "POST"
         "/" "GetKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-key))
 (common-lisp:progn
  (common-lisp:defun get-parameters-for-export
@@ -3619,7 +3619,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-request aws-sdk/generator/operation::input "POST"
         "/" "GetParametersForExport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-parameters-for-export))
 (common-lisp:progn
  (common-lisp:defun get-parameters-for-import
@@ -3636,7 +3636,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-request aws-sdk/generator/operation::input "POST"
         "/" "GetParametersForImport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-parameters-for-import))
 (common-lisp:progn
  (common-lisp:defun get-public-key-certificate
@@ -3652,7 +3652,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-request aws-sdk/generator/operation::input "POST"
         "/" "GetPublicKeyCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-public-key-certificate))
 (common-lisp:progn
  (common-lisp:defun import-key
@@ -3671,7 +3671,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-request aws-sdk/generator/operation::input "POST"
         "/" "ImportKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-key))
 (common-lisp:progn
  (common-lisp:defun list-aliases
@@ -3687,7 +3687,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-request aws-sdk/generator/operation::input "POST"
         "/" "ListAliases"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-aliases))
 (common-lisp:progn
  (common-lisp:defun list-keys
@@ -3704,7 +3704,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-request aws-sdk/generator/operation::input "POST"
         "/" "ListKeys"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-keys))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -3721,7 +3721,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-request aws-sdk/generator/operation::input "POST"
         "/" "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun restore-key
@@ -3737,7 +3737,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-request aws-sdk/generator/operation::input "POST"
         "/" "RestoreKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'restore-key))
 (common-lisp:progn
  (common-lisp:defun start-key-usage
@@ -3753,7 +3753,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-request aws-sdk/generator/operation::input "POST"
         "/" "StartKeyUsage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-key-usage))
 (common-lisp:progn
  (common-lisp:defun stop-key-usage
@@ -3769,7 +3769,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-request aws-sdk/generator/operation::input "POST"
         "/" "StopKeyUsage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-key-usage))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3785,7 +3785,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-request aws-sdk/generator/operation::input "POST"
         "/" "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3801,7 +3801,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-request aws-sdk/generator/operation::input "POST"
         "/" "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-alias
@@ -3817,5 +3817,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-alias))

@@ -20128,7 +20128,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchGetAggregateResourceConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-aggregate-resource-config))
 (common-lisp:progn
  (common-lisp:defun batch-get-resource-config
@@ -20146,7 +20146,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchGetResourceConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-resource-config))
 (common-lisp:progn
  (common-lisp:defun delete-aggregation-authorization
@@ -20166,7 +20166,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAggregationAuthorization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-aggregation-authorization))
 (common-lisp:progn
  (common-lisp:defun delete-config-rule
@@ -20183,7 +20183,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteConfigRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-config-rule))
 (common-lisp:progn
  (common-lisp:defun delete-configuration-aggregator
@@ -20201,7 +20201,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteConfigurationAggregator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-configuration-aggregator))
 (common-lisp:progn
  (common-lisp:defun delete-configuration-recorder
@@ -20219,7 +20219,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteConfigurationRecorder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-configuration-recorder))
 (common-lisp:progn
  (common-lisp:defun delete-conformance-pack
@@ -20236,7 +20236,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteConformancePack"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-conformance-pack))
 (common-lisp:progn
  (common-lisp:defun delete-delivery-channel
@@ -20253,7 +20253,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDeliveryChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-delivery-channel))
 (common-lisp:progn
  (common-lisp:defun delete-evaluation-results
@@ -20271,7 +20271,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteEvaluationResults"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-evaluation-results))
 (common-lisp:progn
  (common-lisp:defun delete-organization-config-rule
@@ -20289,7 +20289,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteOrganizationConfigRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-organization-config-rule))
 (common-lisp:progn
  (common-lisp:defun delete-organization-conformance-pack
@@ -20308,7 +20308,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteOrganizationConformancePack"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-organization-conformance-pack))
 (common-lisp:progn
  (common-lisp:defun delete-pending-aggregation-request
@@ -20328,7 +20328,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeletePendingAggregationRequest"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-pending-aggregation-request))
 (common-lisp:progn
  (common-lisp:defun delete-remediation-configuration
@@ -20346,7 +20346,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteRemediationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-remediation-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-remediation-exceptions
@@ -20364,7 +20364,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteRemediationExceptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-remediation-exceptions))
 (common-lisp:progn
  (common-lisp:defun delete-resource-config
@@ -20381,7 +20381,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteResourceConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resource-config))
 (common-lisp:progn
  (common-lisp:defun delete-retention-configuration
@@ -20399,7 +20399,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteRetentionConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-retention-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-stored-query
@@ -20416,7 +20416,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteStoredQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-stored-query))
 (common-lisp:progn
  (common-lisp:defun deliver-config-snapshot
@@ -20433,7 +20433,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeliverConfigSnapshot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deliver-config-snapshot))
 (common-lisp:progn
  (common-lisp:defun describe-aggregate-compliance-by-config-rules
@@ -20454,7 +20454,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAggregateComplianceByConfigRules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-aggregate-compliance-by-config-rules))
 (common-lisp:progn
  (common-lisp:defun describe-aggregate-compliance-by-conformance-packs
@@ -20475,7 +20475,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAggregateComplianceByConformancePacks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-aggregate-compliance-by-conformance-packs))
 (common-lisp:progn
  (common-lisp:defun describe-aggregation-authorizations
@@ -20493,7 +20493,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAggregationAuthorizations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-aggregation-authorizations))
 (common-lisp:progn
  (common-lisp:defun describe-compliance-by-config-rule
@@ -20513,7 +20513,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeComplianceByConfigRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-compliance-by-config-rule))
 (common-lisp:progn
  (common-lisp:defun describe-compliance-by-resource
@@ -20534,7 +20534,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeComplianceByResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-compliance-by-resource))
 (common-lisp:progn
  (common-lisp:defun describe-config-rule-evaluation-status
@@ -20553,7 +20553,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeConfigRuleEvaluationStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-config-rule-evaluation-status))
 (common-lisp:progn
  (common-lisp:defun describe-config-rules
@@ -20571,7 +20571,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeConfigRules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-config-rules))
 (common-lisp:progn
  (common-lisp:defun describe-configuration-aggregator-sources-status
@@ -20592,7 +20592,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeConfigurationAggregatorSourcesStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-configuration-aggregator-sources-status))
 (common-lisp:progn
  (common-lisp:defun describe-configuration-aggregators
@@ -20612,7 +20612,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeConfigurationAggregators"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-configuration-aggregators))
 (common-lisp:progn
  (common-lisp:defun describe-configuration-recorder-status
@@ -20630,7 +20630,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeConfigurationRecorderStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-configuration-recorder-status))
 (common-lisp:progn
  (common-lisp:defun describe-configuration-recorders
@@ -20648,7 +20648,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeConfigurationRecorders"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-configuration-recorders))
 (common-lisp:progn
  (common-lisp:defun describe-conformance-pack-compliance
@@ -20668,7 +20668,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeConformancePackCompliance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-conformance-pack-compliance))
 (common-lisp:progn
  (common-lisp:defun describe-conformance-pack-status
@@ -20687,7 +20687,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeConformancePackStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-conformance-pack-status))
 (common-lisp:progn
  (common-lisp:defun describe-conformance-packs
@@ -20706,7 +20706,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeConformancePacks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-conformance-packs))
 (common-lisp:progn
  (common-lisp:defun describe-delivery-channel-status
@@ -20724,7 +20724,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDeliveryChannelStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-delivery-channel-status))
 (common-lisp:progn
  (common-lisp:defun describe-delivery-channels
@@ -20742,7 +20742,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDeliveryChannels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-delivery-channels))
 (common-lisp:progn
  (common-lisp:defun describe-organization-config-rule-statuses
@@ -20762,7 +20762,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeOrganizationConfigRuleStatuses"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-organization-config-rule-statuses))
 (common-lisp:progn
  (common-lisp:defun describe-organization-config-rules
@@ -20782,7 +20782,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeOrganizationConfigRules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-organization-config-rules))
 (common-lisp:progn
  (common-lisp:defun describe-organization-conformance-pack-statuses
@@ -20803,7 +20803,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeOrganizationConformancePackStatuses"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-organization-conformance-pack-statuses))
 (common-lisp:progn
  (common-lisp:defun describe-organization-conformance-packs
@@ -20824,7 +20824,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeOrganizationConformancePacks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-organization-conformance-packs))
 (common-lisp:progn
  (common-lisp:defun describe-pending-aggregation-requests
@@ -20842,7 +20842,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribePendingAggregationRequests"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-pending-aggregation-requests))
 (common-lisp:progn
  (common-lisp:defun describe-remediation-configurations
@@ -20860,7 +20860,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeRemediationConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-remediation-configurations))
 (common-lisp:progn
  (common-lisp:defun describe-remediation-exceptions
@@ -20880,7 +20880,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeRemediationExceptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-remediation-exceptions))
 (common-lisp:progn
  (common-lisp:defun describe-remediation-execution-status
@@ -20900,7 +20900,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeRemediationExecutionStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-remediation-execution-status))
 (common-lisp:progn
  (common-lisp:defun describe-retention-configurations
@@ -20919,7 +20919,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeRetentionConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-retention-configurations))
 (common-lisp:progn
  (common-lisp:defun get-aggregate-compliance-details-by-config-rule
@@ -20941,7 +20941,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAggregateComplianceDetailsByConfigRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-aggregate-compliance-details-by-config-rule))
 (common-lisp:progn
  (common-lisp:defun get-aggregate-config-rule-compliance-summary
@@ -20962,7 +20962,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAggregateConfigRuleComplianceSummary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-aggregate-config-rule-compliance-summary))
 (common-lisp:progn
  (common-lisp:defun get-aggregate-conformance-pack-compliance-summary
@@ -20983,7 +20983,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAggregateConformancePackComplianceSummary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-aggregate-conformance-pack-compliance-summary))
 (common-lisp:progn
  (common-lisp:defun get-aggregate-discovered-resource-counts
@@ -21004,7 +21004,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAggregateDiscoveredResourceCounts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-aggregate-discovered-resource-counts))
 (common-lisp:progn
  (common-lisp:defun get-aggregate-resource-config
@@ -21024,7 +21024,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAggregateResourceConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-aggregate-resource-config))
 (common-lisp:progn
  (common-lisp:defun get-compliance-details-by-config-rule
@@ -21044,7 +21044,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetComplianceDetailsByConfigRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-compliance-details-by-config-rule))
 (common-lisp:progn
  (common-lisp:defun get-compliance-details-by-resource
@@ -21065,7 +21065,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetComplianceDetailsByResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-compliance-details-by-resource))
 (common-lisp:progn
  (common-lisp:defun get-compliance-summary-by-config-rule ()
@@ -21091,7 +21091,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetComplianceSummaryByResourceType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-compliance-summary-by-resource-type))
 (common-lisp:progn
  (common-lisp:defun get-conformance-pack-compliance-details
@@ -21111,7 +21111,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetConformancePackComplianceDetails"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-conformance-pack-compliance-details))
 (common-lisp:progn
  (common-lisp:defun get-conformance-pack-compliance-summary
@@ -21130,7 +21130,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetConformancePackComplianceSummary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-conformance-pack-compliance-summary))
 (common-lisp:progn
  (common-lisp:defun get-custom-rule-policy
@@ -21147,7 +21147,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCustomRulePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-custom-rule-policy))
 (common-lisp:progn
  (common-lisp:defun get-discovered-resource-counts
@@ -21166,7 +21166,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDiscoveredResourceCounts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-discovered-resource-counts))
 (common-lisp:progn
  (common-lisp:defun get-organization-config-rule-detailed-status
@@ -21187,7 +21187,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetOrganizationConfigRuleDetailedStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-organization-config-rule-detailed-status))
 (common-lisp:progn
  (common-lisp:defun get-organization-conformance-pack-detailed-status
@@ -21208,7 +21208,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetOrganizationConformancePackDetailedStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-organization-conformance-pack-detailed-status))
 (common-lisp:progn
  (common-lisp:defun get-organization-custom-rule-policy
@@ -21226,7 +21226,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetOrganizationCustomRulePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-organization-custom-rule-policy))
 (common-lisp:progn
  (common-lisp:defun get-resource-config-history
@@ -21247,7 +21247,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetResourceConfigHistory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-config-history))
 (common-lisp:progn
  (common-lisp:defun get-resource-evaluation-summary
@@ -21265,7 +21265,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetResourceEvaluationSummary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-evaluation-summary))
 (common-lisp:progn
  (common-lisp:defun get-stored-query
@@ -21282,7 +21282,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetStoredQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-stored-query))
 (common-lisp:progn
  (common-lisp:defun list-aggregate-discovered-resources
@@ -21303,7 +21303,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAggregateDiscoveredResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-aggregate-discovered-resources))
 (common-lisp:progn
  (common-lisp:defun list-conformance-pack-compliance-scores
@@ -21323,7 +21323,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListConformancePackComplianceScores"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-conformance-pack-compliance-scores))
 (common-lisp:progn
  (common-lisp:defun list-discovered-resources
@@ -21344,7 +21344,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDiscoveredResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-discovered-resources))
 (common-lisp:progn
  (common-lisp:defun list-resource-evaluations
@@ -21362,7 +21362,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListResourceEvaluations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-resource-evaluations))
 (common-lisp:progn
  (common-lisp:defun list-stored-queries
@@ -21379,7 +21379,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListStoredQueries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-stored-queries))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -21396,7 +21396,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-aggregation-authorization
@@ -21416,7 +21416,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutAggregationAuthorization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-aggregation-authorization))
 (common-lisp:progn
  (common-lisp:defun put-config-rule
@@ -21433,7 +21433,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutConfigRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-config-rule))
 (common-lisp:progn
  (common-lisp:defun put-configuration-aggregator
@@ -21455,7 +21455,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutConfigurationAggregator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-configuration-aggregator))
 (common-lisp:progn
  (common-lisp:defun put-configuration-recorder
@@ -21473,7 +21473,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutConfigurationRecorder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-configuration-recorder))
 (common-lisp:progn
  (common-lisp:defun put-conformance-pack
@@ -21496,7 +21496,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutConformancePack"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-conformance-pack))
 (common-lisp:progn
  (common-lisp:defun put-delivery-channel
@@ -21513,7 +21513,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutDeliveryChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-delivery-channel))
 (common-lisp:progn
  (common-lisp:defun put-evaluations
@@ -21531,7 +21531,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutEvaluations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-evaluations))
 (common-lisp:progn
  (common-lisp:defun put-external-evaluation
@@ -21549,7 +21549,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutExternalEvaluation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-external-evaluation))
 (common-lisp:progn
  (common-lisp:defun put-organization-config-rule
@@ -21573,7 +21573,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutOrganizationConfigRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-organization-config-rule))
 (common-lisp:progn
  (common-lisp:defun put-organization-conformance-pack
@@ -21597,7 +21597,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutOrganizationConformancePack"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-organization-conformance-pack))
 (common-lisp:progn
  (common-lisp:defun put-remediation-configurations
@@ -21615,7 +21615,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutRemediationConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-remediation-configurations))
 (common-lisp:progn
  (common-lisp:defun put-remediation-exceptions
@@ -21636,7 +21636,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutRemediationExceptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-remediation-exceptions))
 (common-lisp:progn
  (common-lisp:defun put-resource-config
@@ -21656,7 +21656,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutResourceConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-resource-config))
 (common-lisp:progn
  (common-lisp:defun put-retention-configuration
@@ -21674,7 +21674,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutRetentionConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-retention-configuration))
 (common-lisp:progn
  (common-lisp:defun put-stored-query
@@ -21691,7 +21691,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutStoredQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-stored-query))
 (common-lisp:progn
  (common-lisp:defun select-aggregate-resource-config
@@ -21712,7 +21712,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SelectAggregateResourceConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'select-aggregate-resource-config))
 (common-lisp:progn
  (common-lisp:defun select-resource-config
@@ -21729,7 +21729,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SelectResourceConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'select-resource-config))
 (common-lisp:progn
  (common-lisp:defun start-config-rules-evaluation
@@ -21747,7 +21747,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartConfigRulesEvaluation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-config-rules-evaluation))
 (common-lisp:progn
  (common-lisp:defun start-configuration-recorder
@@ -21765,7 +21765,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartConfigurationRecorder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-configuration-recorder))
 (common-lisp:progn
  (common-lisp:defun start-remediation-execution
@@ -21783,7 +21783,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartRemediationExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-remediation-execution))
 (common-lisp:progn
  (common-lisp:defun start-resource-evaluation
@@ -21804,7 +21804,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartResourceEvaluation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-resource-evaluation))
 (common-lisp:progn
  (common-lisp:defun stop-configuration-recorder
@@ -21822,7 +21822,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopConfigurationRecorder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-configuration-recorder))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -21839,7 +21839,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -21856,5 +21856,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))

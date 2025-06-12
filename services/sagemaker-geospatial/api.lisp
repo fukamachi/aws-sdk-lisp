@@ -1940,7 +1940,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input get-tile-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'binary-file)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'binary-file))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input get-tile-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-vector-enrichment-job-input common-lisp:nil
                        ((arn :initarg :arn :initform
@@ -6610,7 +6614,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'arn))))
         "DeleteEarthObservationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-earth-observation-job))
 (common-lisp:progn
  (common-lisp:defun delete-vector-enrichment-job
@@ -6633,7 +6637,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'arn))))
         "DeleteVectorEnrichmentJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-vector-enrichment-job))
 (common-lisp:progn
  (common-lisp:defun export-earth-observation-job
@@ -6653,7 +6657,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'sagemaker-geospatial-request aws-sdk/generator/operation::input "POST"
         "/export-earth-observation-job" "ExportEarthObservationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'export-earth-observation-job))
 (common-lisp:progn
  (common-lisp:defun export-vector-enrichment-job
@@ -6672,7 +6676,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'sagemaker-geospatial-request aws-sdk/generator/operation::input "POST"
         "/export-vector-enrichment-jobs" "ExportVectorEnrichmentJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'export-vector-enrichment-job))
 (common-lisp:progn
  (common-lisp:defun get-earth-observation-job
@@ -6693,7 +6697,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'arn))))
         "GetEarthObservationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-earth-observation-job))
 (common-lisp:progn
  (common-lisp:defun get-raster-data-collection
@@ -6714,7 +6718,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'arn))))
         "GetRasterDataCollection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-raster-data-collection))
 (common-lisp:progn
  (common-lisp:defun get-tile
@@ -6747,7 +6751,7 @@
                                 aws-sdk/generator/operation::input 'y))))
         "GetTile")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-tile))
 (common-lisp:progn
  (common-lisp:defun get-vector-enrichment-job
@@ -6768,7 +6772,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'arn))))
         "GetVectorEnrichmentJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-vector-enrichment-job))
 (common-lisp:progn
  (common-lisp:defun list-earth-observation-jobs
@@ -6787,7 +6791,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'sagemaker-geospatial-request aws-sdk/generator/operation::input "POST"
         "/list-earth-observation-jobs" "ListEarthObservationJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-earth-observation-jobs))
 (common-lisp:progn
  (common-lisp:defun list-raster-data-collections
@@ -6804,7 +6808,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'sagemaker-geospatial-request aws-sdk/generator/operation::input "GET"
         "/raster-data-collections" "ListRasterDataCollections"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-raster-data-collections))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -6826,7 +6830,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-vector-enrichment-jobs
@@ -6845,7 +6849,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'sagemaker-geospatial-request aws-sdk/generator/operation::input "POST"
         "/list-vector-enrichment-jobs" "ListVectorEnrichmentJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-vector-enrichment-jobs))
 (common-lisp:progn
  (common-lisp:defun search-raster-data-collection
@@ -6864,7 +6868,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'sagemaker-geospatial-request aws-sdk/generator/operation::input "POST"
         "/search-raster-data-collection" "SearchRasterDataCollection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-raster-data-collection))
 (common-lisp:progn
  (common-lisp:defun start-earth-observation-job
@@ -6884,7 +6888,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'sagemaker-geospatial-request aws-sdk/generator/operation::input "POST"
         "/earth-observation-jobs" "StartEarthObservationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-earth-observation-job))
 (common-lisp:progn
  (common-lisp:defun start-vector-enrichment-job
@@ -6904,7 +6908,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'sagemaker-geospatial-request aws-sdk/generator/operation::input "POST"
         "/vector-enrichment-jobs" "StartVectorEnrichmentJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-vector-enrichment-job))
 (common-lisp:progn
  (common-lisp:defun stop-earth-observation-job
@@ -6920,7 +6924,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'sagemaker-geospatial-request aws-sdk/generator/operation::input "POST"
         "/earth-observation-jobs/stop" "StopEarthObservationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-earth-observation-job))
 (common-lisp:progn
  (common-lisp:defun stop-vector-enrichment-job
@@ -6936,7 +6940,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'sagemaker-geospatial-request aws-sdk/generator/operation::input "POST"
         "/vector-enrichment-jobs/stop" "StopVectorEnrichmentJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-vector-enrichment-job))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -6958,7 +6962,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -6981,5 +6985,5 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))

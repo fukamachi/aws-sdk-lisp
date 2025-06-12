@@ -3727,7 +3727,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-autoscaling-request aws-sdk/generator/operation::input
         "POST" "/" "DeleteScalingPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-scaling-policy))
 (common-lisp:progn
  (common-lisp:defun delete-scheduled-action
@@ -3746,7 +3746,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-autoscaling-request aws-sdk/generator/operation::input
         "POST" "/" "DeleteScheduledAction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-scheduled-action))
 (common-lisp:progn
  (common-lisp:defun deregister-scalable-target
@@ -3765,7 +3765,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-autoscaling-request aws-sdk/generator/operation::input
         "POST" "/" "DeregisterScalableTarget"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deregister-scalable-target))
 (common-lisp:progn
  (common-lisp:defun describe-scalable-targets
@@ -3785,7 +3785,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-autoscaling-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeScalableTargets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-scalable-targets))
 (common-lisp:progn
  (common-lisp:defun describe-scaling-activities
@@ -3806,7 +3806,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-autoscaling-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeScalingActivities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-scaling-activities))
 (common-lisp:progn
  (common-lisp:defun describe-scaling-policies
@@ -3826,7 +3826,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-autoscaling-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeScalingPolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-scaling-policies))
 (common-lisp:progn
  (common-lisp:defun describe-scheduled-actions
@@ -3846,7 +3846,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-autoscaling-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeScheduledActions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-scheduled-actions))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -3862,7 +3862,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-autoscaling-request aws-sdk/generator/operation::input
         "POST" "/" "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-scaling-policy
@@ -3884,7 +3884,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-autoscaling-request aws-sdk/generator/operation::input
         "POST" "/" "PutScalingPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-scaling-policy))
 (common-lisp:progn
  (common-lisp:defun put-scheduled-action
@@ -3905,7 +3905,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-autoscaling-request aws-sdk/generator/operation::input
         "POST" "/" "PutScheduledAction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-scheduled-action))
 (common-lisp:progn
  (common-lisp:defun register-scalable-target
@@ -3925,7 +3925,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-autoscaling-request aws-sdk/generator/operation::input
         "POST" "/" "RegisterScalableTarget"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-scalable-target))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3941,7 +3941,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-autoscaling-request aws-sdk/generator/operation::input
         "POST" "/" "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3957,5 +3957,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'application-autoscaling-request aws-sdk/generator/operation::input
         "POST" "/" "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))

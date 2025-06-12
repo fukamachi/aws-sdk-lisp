@@ -282,5 +282,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'sagemaker-metrics-request aws-sdk/generator/operation::input "PUT"
         "/BatchPutMetrics" "BatchPutMetrics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-put-metrics))

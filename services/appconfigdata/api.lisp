@@ -197,7 +197,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-latest-configuration-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'configuration)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-latest-configuration-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:deftype identifier () 'common-lisp:string)
 (common-lisp:deftype integer () 'common-lisp:integer)
 (common-lisp:progn
@@ -441,7 +447,7 @@
                                                         "GET" "/configuration"
                                                         "GetLatestConfiguration")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-latest-configuration))
 (common-lisp:progn
  (common-lisp:defun start-configuration-session
@@ -465,5 +471,5 @@
                                                         "POST"
                                                         "/configurationsessions"
                                                         "StartConfigurationSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-configuration-session))

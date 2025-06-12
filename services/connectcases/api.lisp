@@ -5877,7 +5877,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-id))))
                                                         "BatchGetField"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-field))
 (common-lisp:progn
  (common-lisp:defun batch-put-field-options
@@ -5908,7 +5908,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'field-id))))
                                                         "BatchPutFieldOptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-put-field-options))
 (common-lisp:progn
  (common-lisp:defun create-case
@@ -5938,7 +5938,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-id))))
                                                         "CreateCase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-case))
 (common-lisp:progn
  (common-lisp:defun create-domain
@@ -5955,7 +5955,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/domains"
                                                         "CreateDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-domain))
 (common-lisp:progn
  (common-lisp:defun create-field
@@ -5983,7 +5983,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-id))))
                                                         "CreateField"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-field))
 (common-lisp:progn
  (common-lisp:defun create-layout
@@ -6010,7 +6010,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-id))))
                                                         "CreateLayout"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-layout))
 (common-lisp:progn
  (common-lisp:defun create-related-item
@@ -6043,7 +6043,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'case-id))))
                                                         "CreateRelatedItem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-related-item))
 (common-lisp:progn
  (common-lisp:defun create-template
@@ -6073,7 +6073,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-id))))
                                                         "CreateTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-template))
 (common-lisp:progn
  (common-lisp:defun delete-domain
@@ -6100,7 +6100,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-id))))
                                                         "DeleteDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-domain))
 (common-lisp:progn
  (common-lisp:defun get-case
@@ -6132,7 +6132,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'case-id))))
                                                         "GetCase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-case))
 (common-lisp:progn
  (common-lisp:defun get-case-audit-events
@@ -6164,7 +6164,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'case-id))))
                                                         "GetCaseAuditEvents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-case-audit-events))
 (common-lisp:progn
  (common-lisp:defun get-case-event-configuration
@@ -6192,7 +6192,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-id))))
                                                         "GetCaseEventConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-case-event-configuration))
 (common-lisp:progn
  (common-lisp:defun get-domain
@@ -6219,7 +6219,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-id))))
                                                         "GetDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-domain))
 (common-lisp:progn
  (common-lisp:defun get-layout
@@ -6250,7 +6250,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'layout-id))))
                                                         "GetLayout"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-layout))
 (common-lisp:progn
  (common-lisp:defun get-template
@@ -6281,7 +6281,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-id))))
                                                         "GetTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-template))
 (common-lisp:progn
  (common-lisp:defun list-cases-for-contact
@@ -6310,7 +6310,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-id))))
                                                         "ListCasesForContact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-cases-for-contact))
 (common-lisp:progn
  (common-lisp:defun list-domains
@@ -6327,7 +6327,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/domains-list"
                                                         "ListDomains"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-domains))
 (common-lisp:progn
  (common-lisp:defun list-field-options
@@ -6360,7 +6360,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'field-id))))
                                                         "ListFieldOptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-field-options))
 (common-lisp:progn
  (common-lisp:defun list-fields
@@ -6388,7 +6388,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-id))))
                                                         "ListFields"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-fields))
 (common-lisp:progn
  (common-lisp:defun list-layouts
@@ -6416,7 +6416,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-id))))
                                                         "ListLayouts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-layouts))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -6443,7 +6443,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-templates
@@ -6471,7 +6471,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-id))))
                                                         "ListTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-templates))
 (common-lisp:progn
  (common-lisp:defun put-case-event-configuration
@@ -6499,7 +6499,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-id))))
                                                         "PutCaseEventConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-case-event-configuration))
 (common-lisp:progn
  (common-lisp:defun search-cases
@@ -6529,7 +6529,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-id))))
                                                         "SearchCases"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-cases))
 (common-lisp:progn
  (common-lisp:defun search-related-items
@@ -6562,7 +6562,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'case-id))))
                                                         "SearchRelatedItems"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-related-items))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -6589,7 +6589,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -6616,7 +6616,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-case
@@ -6648,7 +6648,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'case-id))))
                                                         "UpdateCase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-case))
 (common-lisp:progn
  (common-lisp:defun update-field
@@ -6680,7 +6680,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'field-id))))
                                                         "UpdateField"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-field))
 (common-lisp:progn
  (common-lisp:defun update-layout
@@ -6712,7 +6712,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'layout-id))))
                                                         "UpdateLayout"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-layout))
 (common-lisp:progn
  (common-lisp:defun update-template
@@ -6747,5 +6747,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-id))))
                                                         "UpdateTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-template))

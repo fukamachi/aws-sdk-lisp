@@ -9207,7 +9207,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "AssociateFirewallPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-firewall-policy))
 (common-lisp:progn
  (common-lisp:defun associate-subnets
@@ -9226,7 +9226,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "AssociateSubnets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-subnets))
 (common-lisp:progn
  (common-lisp:defun create-firewall
@@ -9249,7 +9249,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "CreateFirewall"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-firewall))
 (common-lisp:progn
  (common-lisp:defun create-firewall-policy
@@ -9268,7 +9268,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "CreateFirewallPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-firewall-policy))
 (common-lisp:progn
  (common-lisp:defun create-rule-group
@@ -9289,7 +9289,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "CreateRuleGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-rule-group))
 (common-lisp:progn
  (common-lisp:defun create-tlsinspection-configuration
@@ -9310,7 +9310,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "CreateTLSInspectionConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-tlsinspection-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-firewall
@@ -9326,7 +9326,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteFirewall"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-firewall))
 (common-lisp:progn
  (common-lisp:defun delete-firewall-policy
@@ -9343,7 +9343,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteFirewallPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-firewall-policy))
 (common-lisp:progn
  (common-lisp:defun delete-resource-policy
@@ -9359,7 +9359,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resource-policy))
 (common-lisp:progn
  (common-lisp:defun delete-rule-group
@@ -9376,7 +9376,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteRuleGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-rule-group))
 (common-lisp:progn
  (common-lisp:defun delete-tlsinspection-configuration
@@ -9396,7 +9396,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteTLSInspectionConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-tlsinspection-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-firewall
@@ -9412,7 +9412,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeFirewall"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-firewall))
 (common-lisp:progn
  (common-lisp:defun describe-firewall-policy
@@ -9429,7 +9429,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeFirewallPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-firewall-policy))
 (common-lisp:progn
  (common-lisp:defun describe-logging-configuration
@@ -9446,7 +9446,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeLoggingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-logging-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-resource-policy
@@ -9462,7 +9462,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-resource-policy))
 (common-lisp:progn
  (common-lisp:defun describe-rule-group
@@ -9481,7 +9481,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeRuleGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-rule-group))
 (common-lisp:progn
  (common-lisp:defun describe-rule-group-metadata
@@ -9499,7 +9499,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeRuleGroupMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-rule-group-metadata))
 (common-lisp:progn
  (common-lisp:defun describe-tlsinspection-configuration
@@ -9519,7 +9519,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeTLSInspectionConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-tlsinspection-configuration))
 (common-lisp:progn
  (common-lisp:defun disassociate-subnets
@@ -9537,7 +9537,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "DisassociateSubnets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-subnets))
 (common-lisp:progn
  (common-lisp:defun list-firewall-policies
@@ -9553,7 +9553,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "ListFirewallPolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-firewall-policies))
 (common-lisp:progn
  (common-lisp:defun list-firewalls
@@ -9569,7 +9569,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "ListFirewalls"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-firewalls))
 (common-lisp:progn
  (common-lisp:defun list-rule-groups
@@ -9587,7 +9587,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "ListRuleGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-rule-groups))
 (common-lisp:progn
  (common-lisp:defun list-tlsinspection-configurations
@@ -9604,7 +9604,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "ListTLSInspectionConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tlsinspection-configurations))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -9621,7 +9621,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-resource-policy
@@ -9637,7 +9637,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "PutResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-resource-policy))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -9653,7 +9653,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -9669,7 +9669,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-firewall-delete-protection
@@ -9689,7 +9689,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateFirewallDeleteProtection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-firewall-delete-protection))
 (common-lisp:progn
  (common-lisp:defun update-firewall-description
@@ -9709,7 +9709,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateFirewallDescription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-firewall-description))
 (common-lisp:progn
  (common-lisp:defun update-firewall-encryption-configuration
@@ -9729,7 +9729,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateFirewallEncryptionConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-firewall-encryption-configuration))
 (common-lisp:progn
  (common-lisp:defun update-firewall-policy
@@ -9750,7 +9750,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateFirewallPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-firewall-policy))
 (common-lisp:progn
  (common-lisp:defun update-firewall-policy-change-protection
@@ -9770,7 +9770,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateFirewallPolicyChangeProtection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-firewall-policy-change-protection))
 (common-lisp:progn
  (common-lisp:defun update-logging-configuration
@@ -9789,7 +9789,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateLoggingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-logging-configuration))
 (common-lisp:progn
  (common-lisp:defun update-rule-group
@@ -9811,7 +9811,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateRuleGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-rule-group))
 (common-lisp:progn
  (common-lisp:defun update-subnet-change-protection
@@ -9831,7 +9831,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateSubnetChangeProtection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-subnet-change-protection))
 (common-lisp:progn
  (common-lisp:defun update-tlsinspection-configuration
@@ -9854,5 +9854,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'network-firewall-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateTLSInspectionConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-tlsinspection-configuration))

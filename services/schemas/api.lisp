@@ -2146,7 +2146,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-code-binding-source-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-code-binding-source-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-discovered-schema-input common-lisp:nil
                        ((events :initarg :events :initform
@@ -5532,7 +5538,7 @@
                                                         "POST"
                                                         "/v1/discoverers"
                                                         "CreateDiscoverer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-discoverer))
 (common-lisp:progn
  (common-lisp:defun create-registry
@@ -5559,7 +5565,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'registry-name))))
                                                         "CreateRegistry"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-registry))
 (common-lisp:progn
  (common-lisp:defun create-schema
@@ -5593,7 +5599,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'schema-name))))
                                                         "CreateSchema"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-schema))
 (common-lisp:progn
  (common-lisp:defun delete-discoverer
@@ -5620,7 +5626,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'discoverer-id))))
                                                         "DeleteDiscoverer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-discoverer))
 (common-lisp:progn
  (common-lisp:defun delete-registry
@@ -5647,7 +5653,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'registry-name))))
                                                         "DeleteRegistry"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-registry))
 (common-lisp:progn
  (common-lisp:defun delete-resource-policy
@@ -5664,7 +5670,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "DELETE" "/v1/policy"
                                                         "DeleteResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resource-policy))
 (common-lisp:progn
  (common-lisp:defun delete-schema
@@ -5695,7 +5701,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'schema-name))))
                                                         "DeleteSchema"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-schema))
 (common-lisp:progn
  (common-lisp:defun delete-schema-version
@@ -5731,7 +5737,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'schema-version))))
                                                         "DeleteSchemaVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-schema-version))
 (common-lisp:progn
  (common-lisp:defun describe-code-binding
@@ -5768,7 +5774,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'language))))
                                                         "DescribeCodeBinding"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-code-binding))
 (common-lisp:progn
  (common-lisp:defun describe-discoverer
@@ -5795,7 +5801,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'discoverer-id))))
                                                         "DescribeDiscoverer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-discoverer))
 (common-lisp:progn
  (common-lisp:defun describe-registry
@@ -5822,7 +5828,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'registry-name))))
                                                         "DescribeRegistry"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-registry))
 (common-lisp:progn
  (common-lisp:defun describe-schema
@@ -5854,7 +5860,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'schema-name))))
                                                         "DescribeSchema"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-schema))
 (common-lisp:progn
  (common-lisp:defun get-code-binding-source
@@ -5892,7 +5898,7 @@
                                                              'language))))
                                                         "GetCodeBindingSource")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-code-binding-source))
 (common-lisp:progn
  (common-lisp:defun get-discovered-schema
@@ -5909,7 +5915,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v1/discover"
                                                         "GetDiscoveredSchema"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-discovered-schema))
 (common-lisp:progn
  (common-lisp:defun get-resource-policy
@@ -5926,7 +5932,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/policy"
                                                         "GetResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-policy))
 (common-lisp:progn
  (common-lisp:defun list-discoverers
@@ -5946,7 +5952,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/discoverers"
                                                         "ListDiscoverers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-discoverers))
 (common-lisp:progn
  (common-lisp:defun list-registries
@@ -5965,7 +5971,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/registries"
                                                         "ListRegistries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-registries))
 (common-lisp:progn
  (common-lisp:defun list-schema-versions
@@ -5998,7 +6004,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'schema-name))))
                                                         "ListSchemaVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-schema-versions))
 (common-lisp:progn
  (common-lisp:defun list-schemas
@@ -6027,7 +6033,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'registry-name))))
                                                         "ListSchemas"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-schemas))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -6054,7 +6060,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-code-binding
@@ -6091,7 +6097,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'language))))
                                                         "PutCodeBinding"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-code-binding))
 (common-lisp:progn
  (common-lisp:defun put-resource-policy
@@ -6109,7 +6115,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/v1/policy"
                                                         "PutResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-resource-policy))
 (common-lisp:progn
  (common-lisp:defun search-schemas
@@ -6137,7 +6143,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'registry-name))))
                                                         "SearchSchemas"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-schemas))
 (common-lisp:progn
  (common-lisp:defun start-discoverer
@@ -6164,7 +6170,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'discoverer-id))))
                                                         "StartDiscoverer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-discoverer))
 (common-lisp:progn
  (common-lisp:defun stop-discoverer
@@ -6191,7 +6197,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'discoverer-id))))
                                                         "StopDiscoverer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-discoverer))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -6218,7 +6224,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -6245,7 +6251,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-discoverer
@@ -6273,7 +6279,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'discoverer-id))))
                                                         "UpdateDiscoverer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-discoverer))
 (common-lisp:progn
  (common-lisp:defun update-registry
@@ -6300,7 +6306,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'registry-name))))
                                                         "UpdateRegistry"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-registry))
 (common-lisp:progn
  (common-lisp:defun update-schema
@@ -6334,7 +6340,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'schema-name))))
                                                         "UpdateSchema"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-schema))
 (common-lisp:progn
  (common-lisp:defun export-schema
@@ -6367,5 +6373,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'schema-name))))
                                                         "ExportSchema"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'export-schema))

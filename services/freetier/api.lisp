@@ -493,5 +493,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetFreeTierUsage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-free-tier-usage))

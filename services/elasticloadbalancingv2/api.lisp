@@ -9152,7 +9152,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "AddListenerCertificates"))
-      common-lisp:nil "AddListenerCertificatesResult" *error-map*)))
+      common-lisp:nil "AddListenerCertificatesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'add-listener-certificates))
 (common-lisp:progn
  (common-lisp:defun add-tags
@@ -9168,7 +9169,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "AddTags"))
-      common-lisp:nil "AddTagsResult" *error-map*)))
+      common-lisp:nil "AddTagsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'add-tags))
 (common-lisp:progn
  (common-lisp:defun add-trust-store-revocations
@@ -9186,7 +9187,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "AddTrustStoreRevocations"))
-      common-lisp:nil "AddTrustStoreRevocationsResult" *error-map*)))
+      common-lisp:nil "AddTrustStoreRevocationsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'add-trust-store-revocations))
 (common-lisp:progn
  (common-lisp:defun create-listener
@@ -9206,7 +9208,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "CreateListener"))
-      common-lisp:nil "CreateListenerResult" *error-map*)))
+      common-lisp:nil "CreateListenerResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-listener))
 (common-lisp:progn
  (common-lisp:defun create-load-balancer
@@ -9226,7 +9228,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "CreateLoadBalancer"))
-      common-lisp:nil "CreateLoadBalancerResult" *error-map*)))
+      common-lisp:nil "CreateLoadBalancerResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-load-balancer))
 (common-lisp:progn
  (common-lisp:defun create-rule
@@ -9244,7 +9246,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "CreateRule"))
-      common-lisp:nil "CreateRuleResult" *error-map*)))
+      common-lisp:nil "CreateRuleResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-rule))
 (common-lisp:progn
  (common-lisp:defun create-target-group
@@ -9270,7 +9272,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "CreateTargetGroup"))
-      common-lisp:nil "CreateTargetGroupResult" *error-map*)))
+      common-lisp:nil "CreateTargetGroupResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-target-group))
 (common-lisp:progn
  (common-lisp:defun create-trust-store
@@ -9291,7 +9293,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "CreateTrustStore"))
-      common-lisp:nil "CreateTrustStoreResult" *error-map*)))
+      common-lisp:nil "CreateTrustStoreResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-trust-store))
 (common-lisp:progn
  (common-lisp:defun delete-listener
@@ -9307,7 +9309,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "DeleteListener"))
-      common-lisp:nil "DeleteListenerResult" *error-map*)))
+      common-lisp:nil "DeleteListenerResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-listener))
 (common-lisp:progn
  (common-lisp:defun delete-load-balancer
@@ -9323,7 +9325,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "DeleteLoadBalancer"))
-      common-lisp:nil "DeleteLoadBalancerResult" *error-map*)))
+      common-lisp:nil "DeleteLoadBalancerResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-load-balancer))
 (common-lisp:progn
  (common-lisp:defun delete-rule
@@ -9339,7 +9341,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "DeleteRule"))
-      common-lisp:nil "DeleteRuleResult" *error-map*)))
+      common-lisp:nil "DeleteRuleResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-rule))
 (common-lisp:progn
  (common-lisp:defun delete-target-group
@@ -9355,7 +9357,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "DeleteTargetGroup"))
-      common-lisp:nil "DeleteTargetGroupResult" *error-map*)))
+      common-lisp:nil "DeleteTargetGroupResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-target-group))
 (common-lisp:progn
  (common-lisp:defun delete-trust-store
@@ -9371,7 +9373,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "DeleteTrustStore"))
-      common-lisp:nil "DeleteTrustStoreResult" *error-map*)))
+      common-lisp:nil "DeleteTrustStoreResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-trust-store))
 (common-lisp:progn
  (common-lisp:defun deregister-targets
@@ -9387,7 +9389,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "DeregisterTargets"))
-      common-lisp:nil "DeregisterTargetsResult" *error-map*)))
+      common-lisp:nil "DeregisterTargetsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'deregister-targets))
 (common-lisp:progn
  (common-lisp:defun describe-account-limits
@@ -9403,7 +9405,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeAccountLimits"))
-      common-lisp:nil "DescribeAccountLimitsResult" *error-map*)))
+      common-lisp:nil "DescribeAccountLimitsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-account-limits))
 (common-lisp:progn
  (common-lisp:defun describe-listener-certificates
@@ -9420,7 +9423,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeListenerCertificates"))
-      common-lisp:nil "DescribeListenerCertificatesResult" *error-map*)))
+      common-lisp:nil "DescribeListenerCertificatesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-listener-certificates))
 (common-lisp:progn
  (common-lisp:defun describe-listeners
@@ -9438,7 +9442,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeListeners"))
-      common-lisp:nil "DescribeListenersResult" *error-map*)))
+      common-lisp:nil "DescribeListenersResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-listeners))
 (common-lisp:progn
  (common-lisp:defun describe-load-balancer-attributes
@@ -9455,7 +9459,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeLoadBalancerAttributes"))
-      common-lisp:nil "DescribeLoadBalancerAttributesResult" *error-map*)))
+      common-lisp:nil "DescribeLoadBalancerAttributesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-load-balancer-attributes))
 (common-lisp:progn
  (common-lisp:defun describe-load-balancers
@@ -9473,7 +9478,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeLoadBalancers"))
-      common-lisp:nil "DescribeLoadBalancersResult" *error-map*)))
+      common-lisp:nil "DescribeLoadBalancersResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-load-balancers))
 (common-lisp:progn
  (common-lisp:defun describe-rules
@@ -9490,7 +9496,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeRules"))
-      common-lisp:nil "DescribeRulesResult" *error-map*)))
+      common-lisp:nil "DescribeRulesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-rules))
 (common-lisp:progn
  (common-lisp:defun describe-sslpolicies
@@ -9508,7 +9514,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeSSLPolicies"))
-      common-lisp:nil "DescribeSSLPoliciesResult" *error-map*)))
+      common-lisp:nil "DescribeSSLPoliciesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-sslpolicies))
 (common-lisp:progn
  (common-lisp:defun describe-tags
@@ -9524,7 +9531,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeTags"))
-      common-lisp:nil "DescribeTagsResult" *error-map*)))
+      common-lisp:nil "DescribeTagsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-tags))
 (common-lisp:progn
  (common-lisp:defun describe-target-group-attributes
@@ -9541,7 +9548,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeTargetGroupAttributes"))
-      common-lisp:nil "DescribeTargetGroupAttributesResult" *error-map*)))
+      common-lisp:nil "DescribeTargetGroupAttributesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-target-group-attributes))
 (common-lisp:progn
  (common-lisp:defun describe-target-groups
@@ -9560,7 +9568,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeTargetGroups"))
-      common-lisp:nil "DescribeTargetGroupsResult" *error-map*)))
+      common-lisp:nil "DescribeTargetGroupsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-target-groups))
 (common-lisp:progn
  (common-lisp:defun describe-target-health
@@ -9577,7 +9586,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeTargetHealth"))
-      common-lisp:nil "DescribeTargetHealthResult" *error-map*)))
+      common-lisp:nil "DescribeTargetHealthResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-target-health))
 (common-lisp:progn
  (common-lisp:defun describe-trust-store-associations
@@ -9595,7 +9605,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeTrustStoreAssociations"))
-      common-lisp:nil "DescribeTrustStoreAssociationsResult" *error-map*)))
+      common-lisp:nil "DescribeTrustStoreAssociationsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-trust-store-associations))
 (common-lisp:progn
  (common-lisp:defun describe-trust-store-revocations
@@ -9614,7 +9625,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeTrustStoreRevocations"))
-      common-lisp:nil "DescribeTrustStoreRevocationsResult" *error-map*)))
+      common-lisp:nil "DescribeTrustStoreRevocationsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-trust-store-revocations))
 (common-lisp:progn
  (common-lisp:defun describe-trust-stores
@@ -9631,7 +9643,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeTrustStores"))
-      common-lisp:nil "DescribeTrustStoresResult" *error-map*)))
+      common-lisp:nil "DescribeTrustStoresResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-trust-stores))
 (common-lisp:progn
  (common-lisp:defun get-trust-store-ca-certificates-bundle
@@ -9648,7 +9661,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "GetTrustStoreCaCertificatesBundle"))
-      common-lisp:nil "GetTrustStoreCaCertificatesBundleResult" *error-map*)))
+      common-lisp:nil "GetTrustStoreCaCertificatesBundleResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-trust-store-ca-certificates-bundle))
 (common-lisp:progn
  (common-lisp:defun get-trust-store-revocation-content
@@ -9665,7 +9679,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "GetTrustStoreRevocationContent"))
-      common-lisp:nil "GetTrustStoreRevocationContentResult" *error-map*)))
+      common-lisp:nil "GetTrustStoreRevocationContentResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-trust-store-revocation-content))
 (common-lisp:progn
  (common-lisp:defun modify-listener
@@ -9685,7 +9700,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "ModifyListener"))
-      common-lisp:nil "ModifyListenerResult" *error-map*)))
+      common-lisp:nil "ModifyListenerResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'modify-listener))
 (common-lisp:progn
  (common-lisp:defun modify-load-balancer-attributes
@@ -9702,7 +9717,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "ModifyLoadBalancerAttributes"))
-      common-lisp:nil "ModifyLoadBalancerAttributesResult" *error-map*)))
+      common-lisp:nil "ModifyLoadBalancerAttributesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'modify-load-balancer-attributes))
 (common-lisp:progn
  (common-lisp:defun modify-rule
@@ -9718,7 +9734,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "ModifyRule"))
-      common-lisp:nil "ModifyRuleResult" *error-map*)))
+      common-lisp:nil "ModifyRuleResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'modify-rule))
 (common-lisp:progn
  (common-lisp:defun modify-target-group
@@ -9741,7 +9757,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "ModifyTargetGroup"))
-      common-lisp:nil "ModifyTargetGroupResult" *error-map*)))
+      common-lisp:nil "ModifyTargetGroupResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'modify-target-group))
 (common-lisp:progn
  (common-lisp:defun modify-target-group-attributes
@@ -9758,7 +9774,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "ModifyTargetGroupAttributes"))
-      common-lisp:nil "ModifyTargetGroupAttributesResult" *error-map*)))
+      common-lisp:nil "ModifyTargetGroupAttributesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'modify-target-group-attributes))
 (common-lisp:progn
  (common-lisp:defun modify-trust-store
@@ -9779,7 +9796,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "ModifyTrustStore"))
-      common-lisp:nil "ModifyTrustStoreResult" *error-map*)))
+      common-lisp:nil "ModifyTrustStoreResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'modify-trust-store))
 (common-lisp:progn
  (common-lisp:defun register-targets
@@ -9795,7 +9812,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "RegisterTargets"))
-      common-lisp:nil "RegisterTargetsResult" *error-map*)))
+      common-lisp:nil "RegisterTargetsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'register-targets))
 (common-lisp:progn
  (common-lisp:defun remove-listener-certificates
@@ -9812,7 +9829,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "RemoveListenerCertificates"))
-      common-lisp:nil "RemoveListenerCertificatesResult" *error-map*)))
+      common-lisp:nil "RemoveListenerCertificatesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'remove-listener-certificates))
 (common-lisp:progn
  (common-lisp:defun remove-tags
@@ -9828,7 +9846,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "RemoveTags"))
-      common-lisp:nil "RemoveTagsResult" *error-map*)))
+      common-lisp:nil "RemoveTagsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'remove-tags))
 (common-lisp:progn
  (common-lisp:defun remove-trust-store-revocations
@@ -9845,7 +9863,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "RemoveTrustStoreRevocations"))
-      common-lisp:nil "RemoveTrustStoreRevocationsResult" *error-map*)))
+      common-lisp:nil "RemoveTrustStoreRevocationsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'remove-trust-store-revocations))
 (common-lisp:progn
  (common-lisp:defun set-ip-address-type
@@ -9862,7 +9881,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "SetIpAddressType"))
-      common-lisp:nil "SetIpAddressTypeResult" *error-map*)))
+      common-lisp:nil "SetIpAddressTypeResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'set-ip-address-type))
 (common-lisp:progn
  (common-lisp:defun set-rule-priorities
@@ -9878,7 +9897,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "SetRulePriorities"))
-      common-lisp:nil "SetRulePrioritiesResult" *error-map*)))
+      common-lisp:nil "SetRulePrioritiesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'set-rule-priorities))
 (common-lisp:progn
  (common-lisp:defun set-security-groups
@@ -9897,7 +9916,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "SetSecurityGroups"))
-      common-lisp:nil "SetSecurityGroupsResult" *error-map*)))
+      common-lisp:nil "SetSecurityGroupsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'set-security-groups))
 (common-lisp:progn
  (common-lisp:defun set-subnets
@@ -9916,5 +9935,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticloadbalancingv2-request aws-sdk/generator/operation::input
         "POST" "/" "SetSubnets"))
-      common-lisp:nil "SetSubnetsResult" *error-map*)))
+      common-lisp:nil "SetSubnetsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'set-subnets))

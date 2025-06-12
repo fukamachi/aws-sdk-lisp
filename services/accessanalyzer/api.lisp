@@ -8443,7 +8443,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/archive-rule"
                                                         "ApplyArchiveRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'apply-archive-rule))
 (common-lisp:progn
  (common-lisp:defun cancel-policy-generation
@@ -8470,7 +8470,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "CancelPolicyGeneration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-policy-generation))
 (common-lisp:progn
  (common-lisp:defun check-access-not-granted
@@ -8489,7 +8489,7 @@
                                                         "POST"
                                                         "/policy/check-access-not-granted"
                                                         "CheckAccessNotGranted"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'check-access-not-granted))
 (common-lisp:progn
  (common-lisp:defun check-no-new-access
@@ -8510,7 +8510,7 @@
                                                         "POST"
                                                         "/policy/check-no-new-access"
                                                         "CheckNoNewAccess"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'check-no-new-access))
 (common-lisp:progn
  (common-lisp:defun create-access-preview
@@ -8528,7 +8528,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/access-preview"
                                                         "CreateAccessPreview"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-access-preview))
 (common-lisp:progn
  (common-lisp:defun create-analyzer
@@ -8548,7 +8548,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/analyzer"
                                                         "CreateAnalyzer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-analyzer))
 (common-lisp:progn
  (common-lisp:defun create-archive-rule
@@ -8577,7 +8577,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'analyzer-name))))
                                                         "CreateArchiveRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-archive-rule))
 (common-lisp:progn
  (common-lisp:defun delete-analyzer
@@ -8604,7 +8604,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'analyzer-name))))
                                                         "DeleteAnalyzer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-analyzer))
 (common-lisp:progn
  (common-lisp:defun delete-archive-rule
@@ -8636,7 +8636,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'rule-name))))
                                                         "DeleteArchiveRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-archive-rule))
 (common-lisp:progn
  (common-lisp:defun get-access-preview
@@ -8663,7 +8663,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'access-preview-id))))
                                                         "GetAccessPreview"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-access-preview))
 (common-lisp:progn
  (common-lisp:defun get-analyzed-resource
@@ -8681,7 +8681,7 @@
                                                         "GET"
                                                         "/analyzed-resource"
                                                         "GetAnalyzedResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-analyzed-resource))
 (common-lisp:progn
  (common-lisp:defun get-analyzer
@@ -8708,7 +8708,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'analyzer-name))))
                                                         "GetAnalyzer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-analyzer))
 (common-lisp:progn
  (common-lisp:defun get-archive-rule
@@ -8739,7 +8739,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'rule-name))))
                                                         "GetArchiveRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-archive-rule))
 (common-lisp:progn
  (common-lisp:defun get-finding
@@ -8766,7 +8766,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetFinding"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-finding))
 (common-lisp:progn
  (common-lisp:defun get-finding-v2
@@ -8794,7 +8794,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetFindingV2"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-finding-v2))
 (common-lisp:progn
  (common-lisp:defun get-generated-policy
@@ -8824,7 +8824,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "GetGeneratedPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-generated-policy))
 (common-lisp:progn
  (common-lisp:defun list-access-preview-findings
@@ -8855,7 +8855,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'access-preview-id))))
                                                         "ListAccessPreviewFindings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-access-preview-findings))
 (common-lisp:progn
  (common-lisp:defun list-access-previews
@@ -8873,7 +8873,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/access-preview"
                                                         "ListAccessPreviews"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-access-previews))
 (common-lisp:progn
  (common-lisp:defun list-analyzed-resources
@@ -8893,7 +8893,7 @@
                                                         "POST"
                                                         "/analyzed-resource"
                                                         "ListAnalyzedResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-analyzed-resources))
 (common-lisp:progn
  (common-lisp:defun list-analyzers
@@ -8910,7 +8910,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/analyzer"
                                                         "ListAnalyzers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-analyzers))
 (common-lisp:progn
  (common-lisp:defun list-archive-rules
@@ -8938,7 +8938,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'analyzer-name))))
                                                         "ListArchiveRules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-archive-rules))
 (common-lisp:progn
  (common-lisp:defun list-findings
@@ -8957,7 +8957,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/finding"
                                                         "ListFindings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-findings))
 (common-lisp:progn
  (common-lisp:defun list-findings-v2
@@ -8976,7 +8976,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/findingv2"
                                                         "ListFindingsV2"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-findings-v2))
 (common-lisp:progn
  (common-lisp:defun list-policy-generations
@@ -8995,7 +8995,7 @@
                                                         "GET"
                                                         "/policy/generation"
                                                         "ListPolicyGenerations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-policy-generations))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -9022,7 +9022,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun start-policy-generation
@@ -9043,7 +9043,7 @@
                                                         "PUT"
                                                         "/policy/generation"
                                                         "StartPolicyGeneration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-policy-generation))
 (common-lisp:progn
  (common-lisp:defun start-resource-scan
@@ -9062,7 +9062,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/resource/scan"
                                                         "StartResourceScan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-resource-scan))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -9089,7 +9089,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -9116,7 +9116,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-archive-rule
@@ -9149,7 +9149,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'rule-name))))
                                                         "UpdateArchiveRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-archive-rule))
 (common-lisp:progn
  (common-lisp:defun update-findings
@@ -9168,7 +9168,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/finding"
                                                         "UpdateFindings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-findings))
 (common-lisp:progn
  (common-lisp:defun validate-policy
@@ -9189,5 +9189,5 @@
                                                         "POST"
                                                         "/policy/validation"
                                                         "ValidatePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'validate-policy))

@@ -14158,7 +14158,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateAnomalyMonitor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-anomaly-monitor))
 (common-lisp:progn
  (common-lisp:defun create-anomaly-subscription
@@ -14177,7 +14177,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateAnomalySubscription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-anomaly-subscription))
 (common-lisp:progn
  (common-lisp:defun create-cost-category-definition
@@ -14198,7 +14198,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateCostCategoryDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-cost-category-definition))
 (common-lisp:progn
  (common-lisp:defun delete-anomaly-monitor
@@ -14215,7 +14215,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAnomalyMonitor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-anomaly-monitor))
 (common-lisp:progn
  (common-lisp:defun delete-anomaly-subscription
@@ -14233,7 +14233,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAnomalySubscription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-anomaly-subscription))
 (common-lisp:progn
  (common-lisp:defun delete-cost-category-definition
@@ -14251,7 +14251,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteCostCategoryDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-cost-category-definition))
 (common-lisp:progn
  (common-lisp:defun describe-cost-category-definition
@@ -14269,7 +14269,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeCostCategoryDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-cost-category-definition))
 (common-lisp:progn
  (common-lisp:defun get-anomalies
@@ -14289,7 +14289,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAnomalies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-anomalies))
 (common-lisp:progn
  (common-lisp:defun get-anomaly-monitors
@@ -14308,7 +14308,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAnomalyMonitors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-anomaly-monitors))
 (common-lisp:progn
  (common-lisp:defun get-anomaly-subscriptions
@@ -14329,7 +14329,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAnomalySubscriptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-anomaly-subscriptions))
 (common-lisp:progn
  (common-lisp:defun get-approximate-usage-records
@@ -14349,7 +14349,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetApproximateUsageRecords"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-approximate-usage-records))
 (common-lisp:progn
  (common-lisp:defun get-cost-and-usage
@@ -14369,7 +14369,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCostAndUsage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-cost-and-usage))
 (common-lisp:progn
  (common-lisp:defun get-cost-and-usage-with-resources
@@ -14390,7 +14390,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCostAndUsageWithResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-cost-and-usage-with-resources))
 (common-lisp:progn
  (common-lisp:defun get-cost-categories
@@ -14411,7 +14411,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCostCategories"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-cost-categories))
 (common-lisp:progn
  (common-lisp:defun get-cost-forecast
@@ -14431,7 +14431,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCostForecast"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-cost-forecast))
 (common-lisp:progn
  (common-lisp:defun get-dimension-values
@@ -14451,7 +14451,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDimensionValues"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-dimension-values))
 (common-lisp:progn
  (common-lisp:defun get-reservation-coverage
@@ -14471,7 +14471,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetReservationCoverage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-reservation-coverage))
 (common-lisp:progn
  (common-lisp:defun get-reservation-purchase-recommendation
@@ -14494,7 +14494,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetReservationPurchaseRecommendation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-reservation-purchase-recommendation))
 (common-lisp:progn
  (common-lisp:defun get-reservation-utilization
@@ -14515,7 +14515,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetReservationUtilization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-reservation-utilization))
 (common-lisp:progn
  (common-lisp:defun get-rightsizing-recommendation
@@ -14536,7 +14536,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetRightsizingRecommendation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-rightsizing-recommendation))
 (common-lisp:progn
  (common-lisp:defun get-savings-plan-purchase-recommendation-details
@@ -14554,7 +14554,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetSavingsPlanPurchaseRecommendationDetails"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-savings-plan-purchase-recommendation-details))
 (common-lisp:progn
  (common-lisp:defun get-savings-plans-coverage
@@ -14575,7 +14575,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetSavingsPlansCoverage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-savings-plans-coverage))
 (common-lisp:progn
  (common-lisp:defun get-savings-plans-purchase-recommendation
@@ -14597,7 +14597,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetSavingsPlansPurchaseRecommendation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-savings-plans-purchase-recommendation))
 (common-lisp:progn
  (common-lisp:defun get-savings-plans-utilization
@@ -14616,7 +14616,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetSavingsPlansUtilization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-savings-plans-utilization))
 (common-lisp:progn
  (common-lisp:defun get-savings-plans-utilization-details
@@ -14637,7 +14637,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetSavingsPlansUtilizationDetails"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-savings-plans-utilization-details))
 (common-lisp:progn
  (common-lisp:defun get-tags
@@ -14656,7 +14656,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'ce-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "GetTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-tags))
 (common-lisp:progn
  (common-lisp:defun get-usage-forecast
@@ -14676,7 +14676,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetUsageForecast"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-usage-forecast))
 (common-lisp:progn
  (common-lisp:defun list-cost-allocation-tags
@@ -14696,7 +14696,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListCostAllocationTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-cost-allocation-tags))
 (common-lisp:progn
  (common-lisp:defun list-cost-category-definitions
@@ -14715,7 +14715,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListCostCategoryDefinitions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-cost-category-definitions))
 (common-lisp:progn
  (common-lisp:defun list-savings-plans-purchase-recommendation-generation
@@ -14736,7 +14736,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListSavingsPlansPurchaseRecommendationGeneration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-savings-plans-purchase-recommendation-generation))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -14753,7 +14753,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun provide-anomaly-feedback
@@ -14770,7 +14770,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ProvideAnomalyFeedback"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'provide-anomaly-feedback))
 (common-lisp:progn
  (common-lisp:defun start-savings-plans-purchase-recommendation-generation ()
@@ -14795,7 +14795,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -14812,7 +14812,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-anomaly-monitor
@@ -14829,7 +14829,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateAnomalyMonitor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-anomaly-monitor))
 (common-lisp:progn
  (common-lisp:defun update-anomaly-subscription
@@ -14851,7 +14851,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateAnomalySubscription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-anomaly-subscription))
 (common-lisp:progn
  (common-lisp:defun update-cost-allocation-tags-status
@@ -14869,7 +14869,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateCostAllocationTagsStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-cost-allocation-tags-status))
 (common-lisp:progn
  (common-lisp:defun update-cost-category-definition
@@ -14890,5 +14890,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateCostCategoryDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-cost-category-definition))

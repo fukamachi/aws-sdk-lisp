@@ -10065,7 +10065,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'backend-environment-name))))
                                                         "CloneBackend"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'clone-backend))
 (common-lisp:progn
  (common-lisp:defun create-backend
@@ -10085,7 +10085,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/backend"
                                                         "CreateBackend"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-backend))
 (common-lisp:progn
  (common-lisp:defun create-backend-api
@@ -10115,7 +10115,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-id))))
                                                         "CreateBackendAPI"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-backend-api))
 (common-lisp:progn
  (common-lisp:defun create-backend-auth
@@ -10145,7 +10145,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-id))))
                                                         "CreateBackendAuth"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-backend-auth))
 (common-lisp:progn
  (common-lisp:defun create-backend-config
@@ -10172,7 +10172,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-id))))
                                                         "CreateBackendConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-backend-config))
 (common-lisp:progn
  (common-lisp:defun create-backend-storage
@@ -10202,7 +10202,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-id))))
                                                         "CreateBackendStorage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-backend-storage))
 (common-lisp:progn
  (common-lisp:defun create-token
@@ -10229,7 +10229,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-id))))
                                                         "CreateToken"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-token))
 (common-lisp:progn
  (common-lisp:defun delete-backend
@@ -10261,7 +10261,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'backend-environment-name))))
                                                         "DeleteBackend"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-backend))
 (common-lisp:progn
  (common-lisp:defun delete-backend-api
@@ -10295,7 +10295,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'backend-environment-name))))
                                                         "DeleteBackendAPI"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-backend-api))
 (common-lisp:progn
  (common-lisp:defun delete-backend-auth
@@ -10328,7 +10328,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'backend-environment-name))))
                                                         "DeleteBackendAuth"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-backend-auth))
 (common-lisp:progn
  (common-lisp:defun delete-backend-storage
@@ -10362,7 +10362,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'backend-environment-name))))
                                                         "DeleteBackendStorage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-backend-storage))
 (common-lisp:progn
  (common-lisp:defun delete-token
@@ -10393,7 +10393,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'session-id))))
                                                         "DeleteToken"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-token))
 (common-lisp:progn
  (common-lisp:defun generate-backend-apimodels
@@ -10427,7 +10427,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'backend-environment-name))))
                                                         "GenerateBackendAPIModels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'generate-backend-apimodels))
 (common-lisp:progn
  (common-lisp:defun get-backend
@@ -10455,7 +10455,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-id))))
                                                         "GetBackend"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-backend))
 (common-lisp:progn
  (common-lisp:defun get-backend-api
@@ -10489,7 +10489,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'backend-environment-name))))
                                                         "GetBackendAPI"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-backend-api))
 (common-lisp:progn
  (common-lisp:defun get-backend-apimodels
@@ -10522,7 +10522,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'backend-environment-name))))
                                                         "GetBackendAPIModels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-backend-apimodels))
 (common-lisp:progn
  (common-lisp:defun get-backend-auth
@@ -10555,7 +10555,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'backend-environment-name))))
                                                         "GetBackendAuth"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-backend-auth))
 (common-lisp:progn
  (common-lisp:defun get-backend-job
@@ -10591,7 +10591,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "GetBackendJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-backend-job))
 (common-lisp:progn
  (common-lisp:defun get-backend-storage
@@ -10624,7 +10624,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'backend-environment-name))))
                                                         "GetBackendStorage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-backend-storage))
 (common-lisp:progn
  (common-lisp:defun get-token
@@ -10655,7 +10655,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'session-id))))
                                                         "GetToken"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-token))
 (common-lisp:progn
  (common-lisp:defun import-backend-auth
@@ -10690,7 +10690,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'backend-environment-name))))
                                                         "ImportBackendAuth"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-backend-auth))
 (common-lisp:progn
  (common-lisp:defun import-backend-storage
@@ -10724,7 +10724,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'backend-environment-name))))
                                                         "ImportBackendStorage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-backend-storage))
 (common-lisp:progn
  (common-lisp:defun list-backend-jobs
@@ -10758,7 +10758,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'backend-environment-name))))
                                                         "ListBackendJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-backend-jobs))
 (common-lisp:progn
  (common-lisp:defun list-s3buckets
@@ -10775,7 +10775,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/s3Buckets"
                                                         "ListS3Buckets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-s3buckets))
 (common-lisp:progn
  (common-lisp:defun remove-all-backends
@@ -10802,7 +10802,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-id))))
                                                         "RemoveAllBackends"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-all-backends))
 (common-lisp:progn
  (common-lisp:defun remove-backend-config
@@ -10829,7 +10829,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-id))))
                                                         "RemoveBackendConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-backend-config))
 (common-lisp:progn
  (common-lisp:defun update-backend-api
@@ -10863,7 +10863,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'backend-environment-name))))
                                                         "UpdateBackendAPI"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-backend-api))
 (common-lisp:progn
  (common-lisp:defun update-backend-auth
@@ -10897,7 +10897,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'backend-environment-name))))
                                                         "UpdateBackendAuth"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-backend-auth))
 (common-lisp:progn
  (common-lisp:defun update-backend-config
@@ -10924,7 +10924,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-id))))
                                                         "UpdateBackendConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-backend-config))
 (common-lisp:progn
  (common-lisp:defun update-backend-job
@@ -10962,7 +10962,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "UpdateBackendJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-backend-job))
 (common-lisp:progn
  (common-lisp:defun update-backend-storage
@@ -10996,5 +10996,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'backend-environment-name))))
                                                         "UpdateBackendStorage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-backend-storage))

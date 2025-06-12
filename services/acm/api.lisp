@@ -2746,7 +2746,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AddTagsToCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-tags-to-certificate))
 (common-lisp:progn
  (common-lisp:defun delete-certificate
@@ -2763,7 +2763,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-certificate))
 (common-lisp:progn
  (common-lisp:defun describe-certificate
@@ -2780,7 +2780,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-certificate))
 (common-lisp:progn
  (common-lisp:defun export-certificate
@@ -2797,7 +2797,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ExportCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'export-certificate))
 (common-lisp:progn
  (common-lisp:defun get-account-configuration ()
@@ -2822,7 +2822,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-certificate))
 (common-lisp:progn
  (common-lisp:defun import-certificate
@@ -2842,7 +2842,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ImportCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-certificate))
 (common-lisp:progn
  (common-lisp:defun list-certificates
@@ -2862,7 +2862,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListCertificates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-certificates))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-certificate
@@ -2880,7 +2880,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-certificate))
 (common-lisp:progn
  (common-lisp:defun put-account-configuration
@@ -2899,7 +2899,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutAccountConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-account-configuration))
 (common-lisp:progn
  (common-lisp:defun remove-tags-from-certificate
@@ -2917,7 +2917,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RemoveTagsFromCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-tags-from-certificate))
 (common-lisp:progn
  (common-lisp:defun renew-certificate
@@ -2934,7 +2934,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RenewCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'renew-certificate))
 (common-lisp:progn
  (common-lisp:defun request-certificate
@@ -2957,7 +2957,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RequestCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'request-certificate))
 (common-lisp:progn
  (common-lisp:defun resend-validation-email
@@ -2975,7 +2975,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ResendValidationEmail"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'resend-validation-email))
 (common-lisp:progn
  (common-lisp:defun update-certificate-options
@@ -2993,5 +2993,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateCertificateOptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-certificate-options))

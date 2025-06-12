@@ -934,7 +934,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'meteringmarketplace-request aws-sdk/generator/operation::input "POST"
         "/" "BatchMeterUsage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-meter-usage))
 (common-lisp:progn
  (common-lisp:defun meter-usage
@@ -953,7 +953,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'meteringmarketplace-request aws-sdk/generator/operation::input "POST"
         "/" "MeterUsage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'meter-usage))
 (common-lisp:progn
  (common-lisp:defun register-usage
@@ -970,7 +970,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'meteringmarketplace-request aws-sdk/generator/operation::input "POST"
         "/" "RegisterUsage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-usage))
 (common-lisp:progn
  (common-lisp:defun resolve-customer
@@ -986,5 +986,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'meteringmarketplace-request aws-sdk/generator/operation::input "POST"
         "/" "ResolveCustomer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'resolve-customer))

@@ -12460,7 +12460,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CountClosedWorkflowExecutions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'count-closed-workflow-executions))
 (common-lisp:progn
  (common-lisp:defun count-open-workflow-executions
@@ -12481,7 +12481,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CountOpenWorkflowExecutions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'count-open-workflow-executions))
 (common-lisp:progn
  (common-lisp:defun count-pending-activity-tasks
@@ -12499,7 +12499,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CountPendingActivityTasks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'count-pending-activity-tasks))
 (common-lisp:progn
  (common-lisp:defun count-pending-decision-tasks
@@ -12517,7 +12517,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CountPendingDecisionTasks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'count-pending-decision-tasks))
 (common-lisp:progn
  (common-lisp:defun deprecate-activity-type
@@ -12534,7 +12534,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeprecateActivityType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deprecate-activity-type))
 (common-lisp:progn
  (common-lisp:defun deprecate-domain
@@ -12551,7 +12551,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeprecateDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deprecate-domain))
 (common-lisp:progn
  (common-lisp:defun deprecate-workflow-type
@@ -12568,7 +12568,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeprecateWorkflowType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deprecate-workflow-type))
 (common-lisp:progn
  (common-lisp:defun describe-activity-type
@@ -12585,7 +12585,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeActivityType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-activity-type))
 (common-lisp:progn
  (common-lisp:defun describe-domain
@@ -12602,7 +12602,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-domain))
 (common-lisp:progn
  (common-lisp:defun describe-workflow-execution
@@ -12620,7 +12620,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeWorkflowExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-workflow-execution))
 (common-lisp:progn
  (common-lisp:defun describe-workflow-type
@@ -12637,7 +12637,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeWorkflowType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-workflow-type))
 (common-lisp:progn
  (common-lisp:defun get-workflow-execution-history
@@ -12658,7 +12658,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetWorkflowExecutionHistory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-workflow-execution-history))
 (common-lisp:progn
  (common-lisp:defun list-activity-types
@@ -12678,7 +12678,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListActivityTypes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-activity-types))
 (common-lisp:progn
  (common-lisp:defun list-closed-workflow-executions
@@ -12702,7 +12702,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListClosedWorkflowExecutions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-closed-workflow-executions))
 (common-lisp:progn
  (common-lisp:defun list-domains
@@ -12722,7 +12722,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDomains"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-domains))
 (common-lisp:progn
  (common-lisp:defun list-open-workflow-executions
@@ -12744,7 +12744,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListOpenWorkflowExecutions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-open-workflow-executions))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -12761,7 +12761,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-workflow-types
@@ -12781,7 +12781,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListWorkflowTypes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-workflow-types))
 (common-lisp:progn
  (common-lisp:defun poll-for-activity-task
@@ -12798,7 +12798,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PollForActivityTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'poll-for-activity-task))
 (common-lisp:progn
  (common-lisp:defun poll-for-decision-task
@@ -12819,7 +12819,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PollForDecisionTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'poll-for-decision-task))
 (common-lisp:progn
  (common-lisp:defun record-activity-task-heartbeat
@@ -12837,7 +12837,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RecordActivityTaskHeartbeat"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'record-activity-task-heartbeat))
 (common-lisp:progn
  (common-lisp:defun register-activity-type
@@ -12864,7 +12864,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RegisterActivityType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-activity-type))
 (common-lisp:progn
  (common-lisp:defun register-domain
@@ -12884,7 +12884,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RegisterDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-domain))
 (common-lisp:progn
  (common-lisp:defun register-workflow-type
@@ -12909,7 +12909,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RegisterWorkflowType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-workflow-type))
 (common-lisp:progn
  (common-lisp:defun request-cancel-workflow-execution
@@ -12927,7 +12927,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RequestCancelWorkflowExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'request-cancel-workflow-execution))
 (common-lisp:progn
  (common-lisp:defun respond-activity-task-canceled
@@ -12945,7 +12945,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RespondActivityTaskCanceled"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'respond-activity-task-canceled))
 (common-lisp:progn
  (common-lisp:defun respond-activity-task-completed
@@ -12963,7 +12963,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RespondActivityTaskCompleted"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'respond-activity-task-completed))
 (common-lisp:progn
  (common-lisp:defun respond-activity-task-failed
@@ -12981,7 +12981,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RespondActivityTaskFailed"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'respond-activity-task-failed))
 (common-lisp:progn
  (common-lisp:defun respond-decision-task-completed
@@ -13002,7 +13002,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RespondDecisionTaskCompleted"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'respond-decision-task-completed))
 (common-lisp:progn
  (common-lisp:defun signal-workflow-execution
@@ -13021,7 +13021,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SignalWorkflowExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'signal-workflow-execution))
 (common-lisp:progn
  (common-lisp:defun start-workflow-execution
@@ -13044,7 +13044,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartWorkflowExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-workflow-execution))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -13061,7 +13061,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun terminate-workflow-execution
@@ -13082,7 +13082,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TerminateWorkflowExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'terminate-workflow-execution))
 (common-lisp:progn
  (common-lisp:defun undeprecate-activity-type
@@ -13099,7 +13099,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UndeprecateActivityType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'undeprecate-activity-type))
 (common-lisp:progn
  (common-lisp:defun undeprecate-domain
@@ -13116,7 +13116,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UndeprecateDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'undeprecate-domain))
 (common-lisp:progn
  (common-lisp:defun undeprecate-workflow-type
@@ -13133,7 +13133,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UndeprecateWorkflowType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'undeprecate-workflow-type))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -13150,5 +13150,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))

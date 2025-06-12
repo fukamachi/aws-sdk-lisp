@@ -10350,7 +10350,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "AbortEnvironmentUpdate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'abort-environment-update))
 (common-lisp:progn
  (common-lisp:defun apply-environment-managed-action
@@ -10369,7 +10369,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "ApplyEnvironmentManagedAction"))
-      common-lisp:nil "ApplyEnvironmentManagedActionResult" *error-map*)))
+      common-lisp:nil "ApplyEnvironmentManagedActionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'apply-environment-managed-action))
 (common-lisp:progn
  (common-lisp:defun associate-environment-operations-role
@@ -10387,7 +10388,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "AssociateEnvironmentOperationsRole"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'associate-environment-operations-role))
 (common-lisp:progn
  (common-lisp:defun check-dnsavailability
@@ -10403,7 +10404,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "CheckDNSAvailability"))
-      common-lisp:nil "CheckDNSAvailabilityResult" *error-map*)))
+      common-lisp:nil "CheckDNSAvailabilityResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'check-dnsavailability))
 (common-lisp:progn
  (common-lisp:defun compose-environments
@@ -10421,7 +10423,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "ComposeEnvironments"))
-      common-lisp:nil "ComposeEnvironmentsResult" *error-map*)))
+      common-lisp:nil "ComposeEnvironmentsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'compose-environments))
 (common-lisp:progn
  (common-lisp:defun create-application
@@ -10440,7 +10443,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "CreateApplication"))
-      common-lisp:nil "CreateApplicationResult" *error-map*)))
+      common-lisp:nil "CreateApplicationResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-application))
 (common-lisp:progn
  (common-lisp:defun create-application-version
@@ -10462,7 +10465,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "CreateApplicationVersion"))
-      common-lisp:nil "CreateApplicationVersionResult" *error-map*)))
+      common-lisp:nil "CreateApplicationVersionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-application-version))
 (common-lisp:progn
  (common-lisp:defun create-configuration-template
@@ -10484,7 +10488,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "CreateConfigurationTemplate"))
-      common-lisp:nil "CreateConfigurationTemplateResult" *error-map*)))
+      common-lisp:nil "CreateConfigurationTemplateResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-configuration-template))
 (common-lisp:progn
  (common-lisp:defun create-environment
@@ -10507,7 +10512,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "CreateEnvironment"))
-      common-lisp:nil "CreateEnvironmentResult" *error-map*)))
+      common-lisp:nil "CreateEnvironmentResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-environment))
 (common-lisp:progn
  (common-lisp:defun create-platform-version
@@ -10527,7 +10532,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "CreatePlatformVersion"))
-      common-lisp:nil "CreatePlatformVersionResult" *error-map*)))
+      common-lisp:nil "CreatePlatformVersionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-platform-version))
 (common-lisp:progn
  (common-lisp:defun create-storage-location ()
@@ -10552,7 +10558,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-application))
 (common-lisp:progn
  (common-lisp:defun delete-application-version
@@ -10572,7 +10578,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteApplicationVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-application-version))
 (common-lisp:progn
  (common-lisp:defun delete-configuration-template
@@ -10589,7 +10595,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteConfigurationTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-configuration-template))
 (common-lisp:progn
  (common-lisp:defun delete-environment-configuration
@@ -10607,7 +10613,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteEnvironmentConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-environment-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-platform-version
@@ -10623,7 +10629,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "DeletePlatformVersion"))
-      common-lisp:nil "DeletePlatformVersionResult" *error-map*)))
+      common-lisp:nil "DeletePlatformVersionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-platform-version))
 (common-lisp:progn
  (common-lisp:defun describe-account-attributes ()
@@ -10651,7 +10658,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeApplicationVersions"))
-      common-lisp:nil "DescribeApplicationVersionsResult" *error-map*)))
+      common-lisp:nil "DescribeApplicationVersionsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-application-versions))
 (common-lisp:progn
  (common-lisp:defun describe-applications
@@ -10667,7 +10675,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeApplications"))
-      common-lisp:nil "DescribeApplicationsResult" *error-map*)))
+      common-lisp:nil "DescribeApplicationsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-applications))
 (common-lisp:progn
  (common-lisp:defun describe-configuration-options
@@ -10687,7 +10696,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeConfigurationOptions"))
-      common-lisp:nil "DescribeConfigurationOptionsResult" *error-map*)))
+      common-lisp:nil "DescribeConfigurationOptionsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-configuration-options))
 (common-lisp:progn
  (common-lisp:defun describe-configuration-settings
@@ -10706,7 +10716,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeConfigurationSettings"))
-      common-lisp:nil "DescribeConfigurationSettingsResult" *error-map*)))
+      common-lisp:nil "DescribeConfigurationSettingsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-configuration-settings))
 (common-lisp:progn
  (common-lisp:defun describe-environment-health
@@ -10725,7 +10736,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeEnvironmentHealth"))
-      common-lisp:nil "DescribeEnvironmentHealthResult" *error-map*)))
+      common-lisp:nil "DescribeEnvironmentHealthResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-environment-health))
 (common-lisp:progn
  (common-lisp:defun describe-environment-managed-action-history
@@ -10746,7 +10758,7 @@
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeEnvironmentManagedActionHistory"))
       common-lisp:nil "DescribeEnvironmentManagedActionHistoryResult"
-      *error-map*)))
+      *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-environment-managed-action-history))
 (common-lisp:progn
  (common-lisp:defun describe-environment-managed-actions
@@ -10764,7 +10776,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeEnvironmentManagedActions"))
-      common-lisp:nil "DescribeEnvironmentManagedActionsResult" *error-map*)))
+      common-lisp:nil "DescribeEnvironmentManagedActionsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-environment-managed-actions))
 (common-lisp:progn
  (common-lisp:defun describe-environment-resources
@@ -10782,7 +10795,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeEnvironmentResources"))
-      common-lisp:nil "DescribeEnvironmentResourcesResult" *error-map*)))
+      common-lisp:nil "DescribeEnvironmentResourcesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-environment-resources))
 (common-lisp:progn
  (common-lisp:defun describe-environments
@@ -10803,7 +10817,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeEnvironments"))
-      common-lisp:nil "DescribeEnvironmentsResult" *error-map*)))
+      common-lisp:nil "DescribeEnvironmentsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-environments))
 (common-lisp:progn
  (common-lisp:defun describe-events
@@ -10825,7 +10840,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeEvents"))
-      common-lisp:nil "DescribeEventsResult" *error-map*)))
+      common-lisp:nil "DescribeEventsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-events))
 (common-lisp:progn
  (common-lisp:defun describe-instances-health
@@ -10845,7 +10860,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeInstancesHealth"))
-      common-lisp:nil "DescribeInstancesHealthResult" *error-map*)))
+      common-lisp:nil "DescribeInstancesHealthResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-instances-health))
 (common-lisp:progn
  (common-lisp:defun describe-platform-version
@@ -10862,7 +10878,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "DescribePlatformVersion"))
-      common-lisp:nil "DescribePlatformVersionResult" *error-map*)))
+      common-lisp:nil "DescribePlatformVersionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-platform-version))
 (common-lisp:progn
  (common-lisp:defun disassociate-environment-operations-role
@@ -10879,7 +10896,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "DisassociateEnvironmentOperationsRole"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'disassociate-environment-operations-role))
 (common-lisp:progn
  (common-lisp:defun list-available-solution-stacks ()
@@ -10903,7 +10920,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "ListPlatformBranches"))
-      common-lisp:nil "ListPlatformBranchesResult" *error-map*)))
+      common-lisp:nil "ListPlatformBranchesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-platform-branches))
 (common-lisp:progn
  (common-lisp:defun list-platform-versions
@@ -10919,7 +10937,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "ListPlatformVersions"))
-      common-lisp:nil "ListPlatformVersionsResult" *error-map*)))
+      common-lisp:nil "ListPlatformVersionsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-platform-versions))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -10935,7 +10954,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "ListTagsForResource"))
-      common-lisp:nil "ListTagsForResourceResult" *error-map*)))
+      common-lisp:nil "ListTagsForResourceResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun rebuild-environment
@@ -10952,7 +10972,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "RebuildEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'rebuild-environment))
 (common-lisp:progn
  (common-lisp:defun request-environment-info
@@ -10970,7 +10990,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "RequestEnvironmentInfo"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'request-environment-info))
 (common-lisp:progn
  (common-lisp:defun restart-app-server
@@ -10987,7 +11007,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "RestartAppServer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'restart-app-server))
 (common-lisp:progn
  (common-lisp:defun retrieve-environment-info
@@ -11006,7 +11026,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "RetrieveEnvironmentInfo"))
-      common-lisp:nil "RetrieveEnvironmentInfoResult" *error-map*)))
+      common-lisp:nil "RetrieveEnvironmentInfoResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'retrieve-environment-info))
 (common-lisp:progn
  (common-lisp:defun swap-environment-cnames
@@ -11026,7 +11047,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "SwapEnvironmentCNAMEs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'swap-environment-cnames))
 (common-lisp:progn
  (common-lisp:defun terminate-environment
@@ -11045,7 +11066,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "TerminateEnvironment"))
-      common-lisp:nil "TerminateEnvironmentResult" *error-map*)))
+      common-lisp:nil "TerminateEnvironmentResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'terminate-environment))
 (common-lisp:progn
  (common-lisp:defun update-application
@@ -11061,7 +11083,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateApplication"))
-      common-lisp:nil "UpdateApplicationResult" *error-map*)))
+      common-lisp:nil "UpdateApplicationResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'update-application))
 (common-lisp:progn
  (common-lisp:defun update-application-resource-lifecycle
@@ -11080,7 +11102,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateApplicationResourceLifecycle"))
-      common-lisp:nil "UpdateApplicationResourceLifecycleResult" *error-map*)))
+      common-lisp:nil "UpdateApplicationResourceLifecycleResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'update-application-resource-lifecycle))
 (common-lisp:progn
  (common-lisp:defun update-application-version
@@ -11099,7 +11122,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateApplicationVersion"))
-      common-lisp:nil "UpdateApplicationVersionResult" *error-map*)))
+      common-lisp:nil "UpdateApplicationVersionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'update-application-version))
 (common-lisp:progn
  (common-lisp:defun update-configuration-template
@@ -11119,7 +11143,8 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateConfigurationTemplate"))
-      common-lisp:nil "UpdateConfigurationTemplateResult" *error-map*)))
+      common-lisp:nil "UpdateConfigurationTemplateResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'update-configuration-template))
 (common-lisp:progn
  (common-lisp:defun update-environment
@@ -11141,7 +11166,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateEnvironment"))
-      common-lisp:nil "UpdateEnvironmentResult" *error-map*)))
+      common-lisp:nil "UpdateEnvironmentResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'update-environment))
 (common-lisp:progn
  (common-lisp:defun update-tags-for-resource
@@ -11158,7 +11183,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'update-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun validate-configuration-settings
@@ -11178,5 +11203,6 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticbeanstalk-request aws-sdk/generator/operation::input "POST" "/"
         "ValidateConfigurationSettings"))
-      common-lisp:nil "ValidateConfigurationSettingsResult" *error-map*)))
+      common-lisp:nil "ValidateConfigurationSettingsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'validate-configuration-settings))

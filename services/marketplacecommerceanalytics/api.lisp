@@ -429,7 +429,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'marketplacecommerceanalytics-request
         aws-sdk/generator/operation::input "POST" "/" "GenerateDataSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'generate-data-set))
 (common-lisp:progn
  (common-lisp:defun start-support-data-export
@@ -452,5 +452,5 @@
         'marketplacecommerceanalytics-request
         aws-sdk/generator/operation::input "POST" "/"
         "StartSupportDataExport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-support-data-export))

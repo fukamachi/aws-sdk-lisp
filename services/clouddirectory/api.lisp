@@ -13909,7 +13909,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/object/facets"
                                                         "AddFacetToObject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-facet-to-object))
 (common-lisp:progn
  (common-lisp:defun apply-schema
@@ -13928,7 +13928,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/schema/apply"
                                                         "ApplySchema"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'apply-schema))
 (common-lisp:progn
  (common-lisp:defun attach-object
@@ -13949,7 +13949,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/object/attach"
                                                         "AttachObject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'attach-object))
 (common-lisp:progn
  (common-lisp:defun attach-policy
@@ -13969,7 +13969,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/policy/attach"
                                                         "AttachPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'attach-policy))
 (common-lisp:progn
  (common-lisp:defun attach-to-index
@@ -13989,7 +13989,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/index/attach"
                                                         "AttachToIndex"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'attach-to-index))
 (common-lisp:progn
  (common-lisp:defun attach-typed-link
@@ -14010,7 +14010,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/typedlink/attach"
                                                         "AttachTypedLink"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'attach-typed-link))
 (common-lisp:progn
  (common-lisp:defun batch-read
@@ -14030,7 +14030,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/batchread"
                                                         "BatchRead"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-read))
 (common-lisp:progn
  (common-lisp:defun batch-write
@@ -14048,7 +14048,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/batchwrite"
                                                         "BatchWrite"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-write))
 (common-lisp:progn
  (common-lisp:defun create-directory
@@ -14066,7 +14066,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/directory/create"
                                                         "CreateDirectory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-directory))
 (common-lisp:progn
  (common-lisp:defun create-facet
@@ -14086,7 +14086,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/facet/create"
                                                         "CreateFacet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-facet))
 (common-lisp:progn
  (common-lisp:defun create-index
@@ -14108,7 +14108,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/index"
                                                         "CreateIndex"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-index))
 (common-lisp:progn
  (common-lisp:defun create-object
@@ -14129,7 +14129,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/object"
                                                         "CreateObject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-object))
 (common-lisp:progn
  (common-lisp:defun create-schema
@@ -14147,7 +14147,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/schema/create"
                                                         "CreateSchema"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-schema))
 (common-lisp:progn
  (common-lisp:defun create-typed-link-facet
@@ -14165,7 +14165,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/typedlink/facet/create"
                                                         "CreateTypedLinkFacet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-typed-link-facet))
 (common-lisp:progn
  (common-lisp:defun delete-directory
@@ -14183,7 +14183,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/directory"
                                                         "DeleteDirectory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-directory))
 (common-lisp:progn
  (common-lisp:defun delete-facet
@@ -14201,7 +14201,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/facet/delete"
                                                         "DeleteFacet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-facet))
 (common-lisp:progn
  (common-lisp:defun delete-object
@@ -14219,7 +14219,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/object/delete"
                                                         "DeleteObject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-object))
 (common-lisp:progn
  (common-lisp:defun delete-schema
@@ -14237,7 +14237,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/schema"
                                                         "DeleteSchema"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-schema))
 (common-lisp:progn
  (common-lisp:defun delete-typed-link-facet
@@ -14255,7 +14255,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/typedlink/facet/delete"
                                                         "DeleteTypedLinkFacet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-typed-link-facet))
 (common-lisp:progn
  (common-lisp:defun detach-from-index
@@ -14275,7 +14275,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/index/detach"
                                                         "DetachFromIndex"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detach-from-index))
 (common-lisp:progn
  (common-lisp:defun detach-object
@@ -14294,7 +14294,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/object/detach"
                                                         "DetachObject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detach-object))
 (common-lisp:progn
  (common-lisp:defun detach-policy
@@ -14314,7 +14314,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/policy/detach"
                                                         "DetachPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detach-policy))
 (common-lisp:progn
  (common-lisp:defun detach-typed-link
@@ -14333,7 +14333,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/typedlink/detach"
                                                         "DetachTypedLink"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detach-typed-link))
 (common-lisp:progn
  (common-lisp:defun disable-directory
@@ -14351,7 +14351,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/directory/disable"
                                                         "DisableDirectory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disable-directory))
 (common-lisp:progn
  (common-lisp:defun enable-directory
@@ -14369,7 +14369,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/directory/enable"
                                                         "EnableDirectory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-directory))
 (common-lisp:progn
  (common-lisp:defun get-applied-schema-version
@@ -14388,7 +14388,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/schema/getappliedschema"
                                                         "GetAppliedSchemaVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-applied-schema-version))
 (common-lisp:progn
  (common-lisp:defun get-directory
@@ -14406,7 +14406,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/directory/get"
                                                         "GetDirectory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-directory))
 (common-lisp:progn
  (common-lisp:defun get-facet
@@ -14424,7 +14424,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/facet"
                                                         "GetFacet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-facet))
 (common-lisp:progn
  (common-lisp:defun get-link-attributes
@@ -14445,7 +14445,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/typedlink/attributes/get"
                                                         "GetLinkAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-link-attributes))
 (common-lisp:progn
  (common-lisp:defun get-object-attributes
@@ -14466,7 +14466,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/object/attributes/get"
                                                         "GetObjectAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-object-attributes))
 (common-lisp:progn
  (common-lisp:defun get-object-information
@@ -14486,7 +14486,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/object/information"
                                                         "GetObjectInformation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-object-information))
 (common-lisp:progn
  (common-lisp:defun get-schema-as-json
@@ -14504,7 +14504,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/schema/json"
                                                         "GetSchemaAsJson"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-schema-as-json))
 (common-lisp:progn
  (common-lisp:defun get-typed-link-facet-information
@@ -14523,7 +14523,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/typedlink/facet/get"
                                                         "GetTypedLinkFacetInformation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-typed-link-facet-information))
 (common-lisp:progn
  (common-lisp:defun list-applied-schema-arns
@@ -14543,7 +14543,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/schema/applied"
                                                         "ListAppliedSchemaArns"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-applied-schema-arns))
 (common-lisp:progn
  (common-lisp:defun list-attached-indices
@@ -14564,7 +14564,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/object/indices"
                                                         "ListAttachedIndices"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-attached-indices))
 (common-lisp:progn
  (common-lisp:defun list-development-schema-arns
@@ -14583,7 +14583,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/schema/development"
                                                         "ListDevelopmentSchemaArns"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-development-schema-arns))
 (common-lisp:progn
  (common-lisp:defun list-directories
@@ -14601,7 +14601,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/directory/list"
                                                         "ListDirectories"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-directories))
 (common-lisp:progn
  (common-lisp:defun list-facet-attributes
@@ -14620,7 +14620,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/facet/attributes"
                                                         "ListFacetAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-facet-attributes))
 (common-lisp:progn
  (common-lisp:defun list-facet-names
@@ -14639,7 +14639,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/facet/list"
                                                         "ListFacetNames"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-facet-names))
 (common-lisp:progn
  (common-lisp:defun list-incoming-typed-links
@@ -14663,7 +14663,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/typedlink/incoming"
                                                         "ListIncomingTypedLinks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-incoming-typed-links))
 (common-lisp:progn
  (common-lisp:defun list-index
@@ -14684,7 +14684,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/index/targets"
                                                         "ListIndex"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-index))
 (common-lisp:progn
  (common-lisp:defun list-managed-schema-arns
@@ -14703,7 +14703,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/schema/managed"
                                                         "ListManagedSchemaArns"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-managed-schema-arns))
 (common-lisp:progn
  (common-lisp:defun list-object-attributes
@@ -14724,7 +14724,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/object/attributes"
                                                         "ListObjectAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-object-attributes))
 (common-lisp:progn
  (common-lisp:defun list-object-children
@@ -14745,7 +14745,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/object/children"
                                                         "ListObjectChildren"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-object-children))
 (common-lisp:progn
  (common-lisp:defun list-object-parent-paths
@@ -14766,7 +14766,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/object/parentpaths"
                                                         "ListObjectParentPaths"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-object-parent-paths))
 (common-lisp:progn
  (common-lisp:defun list-object-parents
@@ -14788,7 +14788,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/object/parent"
                                                         "ListObjectParents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-object-parents))
 (common-lisp:progn
  (common-lisp:defun list-object-policies
@@ -14809,7 +14809,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/object/policy"
                                                         "ListObjectPolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-object-policies))
 (common-lisp:progn
  (common-lisp:defun list-outgoing-typed-links
@@ -14833,7 +14833,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/typedlink/outgoing"
                                                         "ListOutgoingTypedLinks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-outgoing-typed-links))
 (common-lisp:progn
  (common-lisp:defun list-policy-attachments
@@ -14854,7 +14854,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/policy/attachment"
                                                         "ListPolicyAttachments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-policy-attachments))
 (common-lisp:progn
  (common-lisp:defun list-published-schema-arns
@@ -14874,7 +14874,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/schema/published"
                                                         "ListPublishedSchemaArns"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-published-schema-arns))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -14893,7 +14893,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/tags"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-typed-link-facet-attributes
@@ -14913,7 +14913,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/typedlink/facet/attributes"
                                                         "ListTypedLinkFacetAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-typed-link-facet-attributes))
 (common-lisp:progn
  (common-lisp:defun list-typed-link-facet-names
@@ -14933,7 +14933,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/typedlink/facet/list"
                                                         "ListTypedLinkFacetNames"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-typed-link-facet-names))
 (common-lisp:progn
  (common-lisp:defun lookup-policy
@@ -14954,7 +14954,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/policy/lookup"
                                                         "LookupPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'lookup-policy))
 (common-lisp:progn
  (common-lisp:defun publish-schema
@@ -14974,7 +14974,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/schema/publish"
                                                         "PublishSchema"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'publish-schema))
 (common-lisp:progn
  (common-lisp:defun put-schema-from-json
@@ -14992,7 +14992,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/schema/json"
                                                         "PutSchemaFromJson"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-schema-from-json))
 (common-lisp:progn
  (common-lisp:defun remove-facet-from-object
@@ -15012,7 +15012,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/object/facets/delete"
                                                         "RemoveFacetFromObject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-facet-from-object))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -15030,7 +15030,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/tags/add"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -15048,7 +15048,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/tags/remove"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-facet
@@ -15068,7 +15068,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/facet"
                                                         "UpdateFacet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-facet))
 (common-lisp:progn
  (common-lisp:defun update-link-attributes
@@ -15089,7 +15089,7 @@
                                                         "POST"
                                                         "/amazonclouddirectory/2017-01-11/typedlink/attributes/update"
                                                         "UpdateLinkAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-link-attributes))
 (common-lisp:progn
  (common-lisp:defun update-object-attributes
@@ -15109,7 +15109,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/object/update"
                                                         "UpdateObjectAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-object-attributes))
 (common-lisp:progn
  (common-lisp:defun update-schema
@@ -15127,7 +15127,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/schema/update"
                                                         "UpdateSchema"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-schema))
 (common-lisp:progn
  (common-lisp:defun update-typed-link-facet
@@ -15148,7 +15148,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/typedlink/facet"
                                                         "UpdateTypedLinkFacet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-typed-link-facet))
 (common-lisp:progn
  (common-lisp:defun upgrade-applied-schema
@@ -15168,7 +15168,7 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/schema/upgradeapplied"
                                                         "UpgradeAppliedSchema"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'upgrade-applied-schema))
 (common-lisp:progn
  (common-lisp:defun upgrade-published-schema
@@ -15189,5 +15189,5 @@
                                                         "PUT"
                                                         "/amazonclouddirectory/2017-01-11/schema/upgradepublished"
                                                         "UpgradePublishedSchema"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'upgrade-published-schema))

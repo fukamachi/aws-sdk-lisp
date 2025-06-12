@@ -11145,7 +11145,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "CreateDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-dataset))
 (common-lisp:progn
  (common-lisp:defun create-inference-scheduler
@@ -11169,7 +11169,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "CreateInferenceScheduler"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-inference-scheduler))
 (common-lisp:progn
  (common-lisp:defun create-label
@@ -11188,7 +11188,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "CreateLabel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-label))
 (common-lisp:progn
  (common-lisp:defun create-label-group
@@ -11206,7 +11206,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "CreateLabelGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-label-group))
 (common-lisp:progn
  (common-lisp:defun create-model
@@ -11233,7 +11233,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "CreateModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-model))
 (common-lisp:progn
  (common-lisp:defun create-retraining-scheduler
@@ -11254,7 +11254,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "CreateRetrainingScheduler"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-retraining-scheduler))
 (common-lisp:progn
  (common-lisp:defun delete-dataset
@@ -11270,7 +11270,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-dataset))
 (common-lisp:progn
  (common-lisp:defun delete-inference-scheduler
@@ -11287,7 +11287,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteInferenceScheduler"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-inference-scheduler))
 (common-lisp:progn
  (common-lisp:defun delete-label
@@ -11303,7 +11303,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteLabel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-label))
 (common-lisp:progn
  (common-lisp:defun delete-label-group
@@ -11319,7 +11319,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteLabelGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-label-group))
 (common-lisp:progn
  (common-lisp:defun delete-model
@@ -11335,7 +11335,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-model))
 (common-lisp:progn
  (common-lisp:defun delete-resource-policy
@@ -11351,7 +11351,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resource-policy))
 (common-lisp:progn
  (common-lisp:defun delete-retraining-scheduler
@@ -11368,7 +11368,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteRetrainingScheduler"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-retraining-scheduler))
 (common-lisp:progn
  (common-lisp:defun describe-data-ingestion-job
@@ -11385,7 +11385,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeDataIngestionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-data-ingestion-job))
 (common-lisp:progn
  (common-lisp:defun describe-dataset
@@ -11401,7 +11401,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-dataset))
 (common-lisp:progn
  (common-lisp:defun describe-inference-scheduler
@@ -11418,7 +11418,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeInferenceScheduler"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-inference-scheduler))
 (common-lisp:progn
  (common-lisp:defun describe-label
@@ -11434,7 +11434,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeLabel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-label))
 (common-lisp:progn
  (common-lisp:defun describe-label-group
@@ -11450,7 +11450,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeLabelGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-label-group))
 (common-lisp:progn
  (common-lisp:defun describe-model
@@ -11466,7 +11466,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-model))
 (common-lisp:progn
  (common-lisp:defun describe-model-version
@@ -11482,7 +11482,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeModelVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-model-version))
 (common-lisp:progn
  (common-lisp:defun describe-resource-policy
@@ -11498,7 +11498,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-resource-policy))
 (common-lisp:progn
  (common-lisp:defun describe-retraining-scheduler
@@ -11515,7 +11515,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeRetrainingScheduler"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-retraining-scheduler))
 (common-lisp:progn
  (common-lisp:defun import-dataset
@@ -11534,7 +11534,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "ImportDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-dataset))
 (common-lisp:progn
  (common-lisp:defun import-model-version
@@ -11556,7 +11556,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "ImportModelVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-model-version))
 (common-lisp:progn
  (common-lisp:defun list-data-ingestion-jobs
@@ -11574,7 +11574,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "ListDataIngestionJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-data-ingestion-jobs))
 (common-lisp:progn
  (common-lisp:defun list-datasets
@@ -11592,7 +11592,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "ListDatasets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-datasets))
 (common-lisp:progn
  (common-lisp:defun list-inference-events
@@ -11612,7 +11612,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "ListInferenceEvents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-inference-events))
 (common-lisp:progn
  (common-lisp:defun list-inference-executions
@@ -11633,7 +11633,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "ListInferenceExecutions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-inference-executions))
 (common-lisp:progn
  (common-lisp:defun list-inference-schedulers
@@ -11653,7 +11653,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "ListInferenceSchedulers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-inference-schedulers))
 (common-lisp:progn
  (common-lisp:defun list-label-groups
@@ -11672,7 +11672,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "ListLabelGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-label-groups))
 (common-lisp:progn
  (common-lisp:defun list-labels
@@ -11692,7 +11692,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "ListLabels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-labels))
 (common-lisp:progn
  (common-lisp:defun list-model-versions
@@ -11713,7 +11713,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "ListModelVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-model-versions))
 (common-lisp:progn
  (common-lisp:defun list-models
@@ -11732,7 +11732,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "ListModels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-models))
 (common-lisp:progn
  (common-lisp:defun list-retraining-schedulers
@@ -11752,7 +11752,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "ListRetrainingSchedulers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-retraining-schedulers))
 (common-lisp:progn
  (common-lisp:defun list-sensor-statistics
@@ -11771,7 +11771,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "ListSensorStatistics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-sensor-statistics))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -11787,7 +11787,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-resource-policy
@@ -11806,7 +11806,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "PutResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-resource-policy))
 (common-lisp:progn
  (common-lisp:defun start-data-ingestion-job
@@ -11825,7 +11825,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "StartDataIngestionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-data-ingestion-job))
 (common-lisp:progn
  (common-lisp:defun start-inference-scheduler
@@ -11842,7 +11842,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "StartInferenceScheduler"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-inference-scheduler))
 (common-lisp:progn
  (common-lisp:defun start-retraining-scheduler
@@ -11859,7 +11859,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "StartRetrainingScheduler"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-retraining-scheduler))
 (common-lisp:progn
  (common-lisp:defun stop-inference-scheduler
@@ -11875,7 +11875,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "StopInferenceScheduler"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-inference-scheduler))
 (common-lisp:progn
  (common-lisp:defun stop-retraining-scheduler
@@ -11892,7 +11892,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "StopRetrainingScheduler"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-retraining-scheduler))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -11908,7 +11908,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -11924,7 +11924,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-active-model-version
@@ -11941,7 +11941,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateActiveModelVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-active-model-version))
 (common-lisp:progn
  (common-lisp:defun update-inference-scheduler
@@ -11964,7 +11964,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateInferenceScheduler"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-inference-scheduler))
 (common-lisp:progn
  (common-lisp:defun update-label-group
@@ -11980,7 +11980,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateLabelGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-label-group))
 (common-lisp:progn
  (common-lisp:defun update-model
@@ -11999,7 +11999,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-model))
 (common-lisp:progn
  (common-lisp:defun update-retraining-scheduler
@@ -12019,5 +12019,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'lookoutequipment-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateRetrainingScheduler"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-retraining-scheduler))

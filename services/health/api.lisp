@@ -3637,7 +3637,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAffectedAccountsForOrganization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-affected-accounts-for-organization))
 (common-lisp:progn
  (common-lisp:defun describe-affected-entities
@@ -3656,7 +3656,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAffectedEntities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-affected-entities))
 (common-lisp:progn
  (common-lisp:defun describe-affected-entities-for-organization
@@ -3678,7 +3678,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAffectedEntitiesForOrganization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-affected-entities-for-organization))
 (common-lisp:progn
  (common-lisp:defun describe-entity-aggregates
@@ -3696,7 +3696,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEntityAggregates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-entity-aggregates))
 (common-lisp:progn
  (common-lisp:defun describe-entity-aggregates-for-organization
@@ -3714,7 +3714,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEntityAggregatesForOrganization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-entity-aggregates-for-organization))
 (common-lisp:progn
  (common-lisp:defun describe-event-aggregates
@@ -3734,7 +3734,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEventAggregates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-event-aggregates))
 (common-lisp:progn
  (common-lisp:defun describe-event-details
@@ -3751,7 +3751,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEventDetails"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-event-details))
 (common-lisp:progn
  (common-lisp:defun describe-event-details-for-organization
@@ -3770,7 +3770,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEventDetailsForOrganization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-event-details-for-organization))
 (common-lisp:progn
  (common-lisp:defun describe-event-types
@@ -3788,7 +3788,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEventTypes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-event-types))
 (common-lisp:progn
  (common-lisp:defun describe-events
@@ -3806,7 +3806,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEvents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-events))
 (common-lisp:progn
  (common-lisp:defun describe-events-for-organization
@@ -3825,7 +3825,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEventsForOrganization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-events-for-organization))
 (common-lisp:progn
  (common-lisp:defun describe-health-service-status-for-organization ()

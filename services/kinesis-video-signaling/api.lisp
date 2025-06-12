@@ -413,7 +413,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesis-video-signaling-request aws-sdk/generator/operation::input
         "POST" "/v1/get-ice-server-config" "GetIceServerConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-ice-server-config))
 (common-lisp:progn
  (common-lisp:defun send-alexa-offer-to-master
@@ -432,5 +432,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesis-video-signaling-request aws-sdk/generator/operation::input
         "POST" "/v1/send-alexa-offer-to-master" "SendAlexaOfferToMaster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-alexa-offer-to-master))

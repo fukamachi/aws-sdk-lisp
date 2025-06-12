@@ -5301,7 +5301,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'managedblockchain-request aws-sdk/generator/operation::input "POST"
         "/accessors" "CreateAccessor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-accessor))
 (common-lisp:progn
  (common-lisp:defun create-member
@@ -5326,7 +5326,7 @@
                                 aws-sdk/generator/operation::input
                                 'network-id))))
         "CreateMember"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-member))
 (common-lisp:progn
  (common-lisp:defun create-network
@@ -5347,7 +5347,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'managedblockchain-request aws-sdk/generator/operation::input "POST"
         "/networks" "CreateNetwork"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-network))
 (common-lisp:progn
  (common-lisp:defun create-node
@@ -5372,7 +5372,7 @@
                                 aws-sdk/generator/operation::input
                                 'network-id))))
         "CreateNode"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-node))
 (common-lisp:progn
  (common-lisp:defun create-proposal
@@ -5397,7 +5397,7 @@
                                 aws-sdk/generator/operation::input
                                 'network-id))))
         "CreateProposal"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-proposal))
 (common-lisp:progn
  (common-lisp:defun delete-accessor
@@ -5419,7 +5419,7 @@
                                 aws-sdk/generator/operation::input
                                 'accessor-id))))
         "DeleteAccessor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-accessor))
 (common-lisp:progn
  (common-lisp:defun delete-member
@@ -5445,7 +5445,7 @@
                                 aws-sdk/generator/operation::input
                                 'member-id))))
         "DeleteMember"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-member))
 (common-lisp:progn
  (common-lisp:defun delete-node
@@ -5470,7 +5470,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'node-id))))
         "DeleteNode"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-node))
 (common-lisp:progn
  (common-lisp:defun get-accessor
@@ -5492,7 +5492,7 @@
                                 aws-sdk/generator/operation::input
                                 'accessor-id))))
         "GetAccessor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-accessor))
 (common-lisp:progn
  (common-lisp:defun get-member
@@ -5518,7 +5518,7 @@
                                 aws-sdk/generator/operation::input
                                 'member-id))))
         "GetMember"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-member))
 (common-lisp:progn
  (common-lisp:defun get-network
@@ -5540,7 +5540,7 @@
                                 aws-sdk/generator/operation::input
                                 'network-id))))
         "GetNetwork"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-network))
 (common-lisp:progn
  (common-lisp:defun get-node
@@ -5565,7 +5565,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'node-id))))
         "GetNode"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-node))
 (common-lisp:progn
  (common-lisp:defun get-proposal
@@ -5591,7 +5591,7 @@
                                 aws-sdk/generator/operation::input
                                 'proposal-id))))
         "GetProposal"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-proposal))
 (common-lisp:progn
  (common-lisp:defun list-accessors
@@ -5608,7 +5608,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'managedblockchain-request aws-sdk/generator/operation::input "GET"
         "/accessors" "ListAccessors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-accessors))
 (common-lisp:progn
  (common-lisp:defun list-invitations
@@ -5624,7 +5624,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'managedblockchain-request aws-sdk/generator/operation::input "GET"
         "/invitations" "ListInvitations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-invitations))
 (common-lisp:progn
  (common-lisp:defun list-members
@@ -5649,7 +5649,7 @@
                                 aws-sdk/generator/operation::input
                                 'network-id))))
         "ListMembers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-members))
 (common-lisp:progn
  (common-lisp:defun list-networks
@@ -5667,7 +5667,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'managedblockchain-request aws-sdk/generator/operation::input "GET"
         "/networks" "ListNetworks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-networks))
 (common-lisp:progn
  (common-lisp:defun list-nodes
@@ -5691,7 +5691,7 @@
                                 aws-sdk/generator/operation::input
                                 'network-id))))
         "ListNodes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-nodes))
 (common-lisp:progn
  (common-lisp:defun list-proposal-votes
@@ -5719,7 +5719,7 @@
                                 aws-sdk/generator/operation::input
                                 'proposal-id))))
         "ListProposalVotes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-proposal-votes))
 (common-lisp:progn
  (common-lisp:defun list-proposals
@@ -5742,7 +5742,7 @@
                                 aws-sdk/generator/operation::input
                                 'network-id))))
         "ListProposals"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-proposals))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -5764,7 +5764,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun reject-invitation
@@ -5786,7 +5786,7 @@
                                 aws-sdk/generator/operation::input
                                 'invitation-id))))
         "RejectInvitation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reject-invitation))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -5808,7 +5808,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -5830,7 +5830,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-member
@@ -5858,7 +5858,7 @@
                                 aws-sdk/generator/operation::input
                                 'member-id))))
         "UpdateMember"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-member))
 (common-lisp:progn
  (common-lisp:defun update-node
@@ -5886,7 +5886,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'node-id))))
         "UpdateNode"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-node))
 (common-lisp:progn
  (common-lisp:defun vote-on-proposal
@@ -5914,5 +5914,5 @@
                                 aws-sdk/generator/operation::input
                                 'proposal-id))))
         "VoteOnProposal"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'vote-on-proposal))

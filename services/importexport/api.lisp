@@ -1391,7 +1391,7 @@
                                                         "POST"
                                                         "/?Operation=CancelJob"
                                                         "CancelJob"))
-      common-lisp:nil "CancelJobResult" *error-map*)))
+      common-lisp:nil "CancelJobResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'cancel-job))
 (common-lisp:progn
  (common-lisp:defun create-job
@@ -1412,7 +1412,7 @@
                                                         "POST"
                                                         "/?Operation=CreateJob"
                                                         "CreateJob"))
-      common-lisp:nil "CreateJobResult" *error-map*)))
+      common-lisp:nil "CreateJobResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-job))
 (common-lisp:progn
  (common-lisp:defun get-shipping-label
@@ -1434,7 +1434,7 @@
                                                         "POST"
                                                         "/?Operation=GetShippingLabel"
                                                         "GetShippingLabel"))
-      common-lisp:nil "GetShippingLabelResult" *error-map*)))
+      common-lisp:nil "GetShippingLabelResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-shipping-label))
 (common-lisp:progn
  (common-lisp:defun get-status
@@ -1452,7 +1452,7 @@
                                                         "POST"
                                                         "/?Operation=GetStatus"
                                                         "GetStatus"))
-      common-lisp:nil "GetStatusResult" *error-map*)))
+      common-lisp:nil "GetStatusResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-status))
 (common-lisp:progn
  (common-lisp:defun list-jobs
@@ -1470,7 +1470,7 @@
                                                         "POST"
                                                         "/?Operation=ListJobs"
                                                         "ListJobs"))
-      common-lisp:nil "ListJobsResult" *error-map*)))
+      common-lisp:nil "ListJobsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-jobs))
 (common-lisp:progn
  (common-lisp:defun update-job
@@ -1490,5 +1490,5 @@
                                                         "POST"
                                                         "/?Operation=UpdateJob"
                                                         "UpdateJob"))
-      common-lisp:nil "UpdateJobResult" *error-map*)))
+      common-lisp:nil "UpdateJobResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'update-job))

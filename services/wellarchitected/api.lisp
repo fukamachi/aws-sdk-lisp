@@ -14025,7 +14025,7 @@
                                 aws-sdk/generator/operation::input
                                 'workload-id))))
         "AssociateLenses"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-lenses))
 (common-lisp:progn
  (common-lisp:defun associate-profiles
@@ -14047,7 +14047,7 @@
                                 aws-sdk/generator/operation::input
                                 'workload-id))))
         "AssociateProfiles"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-profiles))
 (common-lisp:progn
  (common-lisp:defun create-lens-share
@@ -14071,7 +14071,7 @@
                                 aws-sdk/generator/operation::input
                                 'lens-alias))))
         "CreateLensShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-lens-share))
 (common-lisp:progn
  (common-lisp:defun create-lens-version
@@ -14096,7 +14096,7 @@
                                 aws-sdk/generator/operation::input
                                 'lens-alias))))
         "CreateLensVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-lens-version))
 (common-lisp:progn
  (common-lisp:defun create-milestone
@@ -14120,7 +14120,7 @@
                                 aws-sdk/generator/operation::input
                                 'workload-id))))
         "CreateMilestone"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-milestone))
 (common-lisp:progn
  (common-lisp:defun create-profile
@@ -14139,7 +14139,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'wellarchitected-request aws-sdk/generator/operation::input "POST"
         "/profiles" "CreateProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-profile))
 (common-lisp:progn
  (common-lisp:defun create-profile-share
@@ -14163,7 +14163,7 @@
                                 aws-sdk/generator/operation::input
                                 'profile-arn))))
         "CreateProfileShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-profile-share))
 (common-lisp:progn
  (common-lisp:defun create-review-template
@@ -14182,7 +14182,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'wellarchitected-request aws-sdk/generator/operation::input "POST"
         "/reviewTemplates" "CreateReviewTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-review-template))
 (common-lisp:progn
  (common-lisp:defun create-template-share
@@ -14206,7 +14206,7 @@
                                 aws-sdk/generator/operation::input
                                 'template-arn))))
         "CreateTemplateShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-template-share))
 (common-lisp:progn
  (common-lisp:defun create-workload
@@ -14230,7 +14230,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'wellarchitected-request aws-sdk/generator/operation::input "POST"
         "/workloads" "CreateWorkload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-workload))
 (common-lisp:progn
  (common-lisp:defun create-workload-share
@@ -14255,7 +14255,7 @@
                                 aws-sdk/generator/operation::input
                                 'workload-id))))
         "CreateWorkloadShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-workload-share))
 (common-lisp:progn
  (common-lisp:defun delete-lens
@@ -14279,7 +14279,7 @@
                                 aws-sdk/generator/operation::input
                                 'lens-alias))))
         "DeleteLens"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-lens))
 (common-lisp:progn
  (common-lisp:defun delete-lens-share
@@ -14306,7 +14306,7 @@
                                 aws-sdk/generator/operation::input
                                 'share-id))))
         "DeleteLensShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-lens-share))
 (common-lisp:progn
  (common-lisp:defun delete-profile
@@ -14329,7 +14329,7 @@
                                 aws-sdk/generator/operation::input
                                 'profile-arn))))
         "DeleteProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-profile))
 (common-lisp:progn
  (common-lisp:defun delete-profile-share
@@ -14357,7 +14357,7 @@
                                 aws-sdk/generator/operation::input
                                 'share-id))))
         "DeleteProfileShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-profile-share))
 (common-lisp:progn
  (common-lisp:defun delete-review-template
@@ -14380,7 +14380,7 @@
                                 aws-sdk/generator/operation::input
                                 'template-arn))))
         "DeleteReviewTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-review-template))
 (common-lisp:progn
  (common-lisp:defun delete-template-share
@@ -14408,7 +14408,7 @@
                                 aws-sdk/generator/operation::input
                                 'share-id))))
         "DeleteTemplateShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-template-share))
 (common-lisp:progn
  (common-lisp:defun delete-workload
@@ -14431,7 +14431,7 @@
                                 aws-sdk/generator/operation::input
                                 'workload-id))))
         "DeleteWorkload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-workload))
 (common-lisp:progn
  (common-lisp:defun delete-workload-share
@@ -14459,7 +14459,7 @@
                                 aws-sdk/generator/operation::input
                                 'share-id))))
         "DeleteWorkloadShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-workload-share))
 (common-lisp:progn
  (common-lisp:defun disassociate-lenses
@@ -14482,7 +14482,7 @@
                                 aws-sdk/generator/operation::input
                                 'workload-id))))
         "DisassociateLenses"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-lenses))
 (common-lisp:progn
  (common-lisp:defun disassociate-profiles
@@ -14505,7 +14505,7 @@
                                 aws-sdk/generator/operation::input
                                 'workload-id))))
         "DisassociateProfiles"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-profiles))
 (common-lisp:progn
  (common-lisp:defun export-lens
@@ -14527,7 +14527,7 @@
                                 aws-sdk/generator/operation::input
                                 'lens-alias))))
         "ExportLens"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'export-lens))
 (common-lisp:progn
  (common-lisp:defun get-answer
@@ -14561,7 +14561,7 @@
                                 aws-sdk/generator/operation::input
                                 'question-id))))
         "GetAnswer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-answer))
 (common-lisp:progn
  (common-lisp:defun get-consolidated-report
@@ -14580,7 +14580,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'wellarchitected-request aws-sdk/generator/operation::input "GET"
         "/consolidatedReport" "GetConsolidatedReport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-consolidated-report))
 (common-lisp:progn
  (common-lisp:defun get-lens
@@ -14602,7 +14602,7 @@
                                 aws-sdk/generator/operation::input
                                 'lens-alias))))
         "GetLens"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-lens))
 (common-lisp:progn
  (common-lisp:defun get-lens-review
@@ -14629,7 +14629,7 @@
                                 aws-sdk/generator/operation::input
                                 'lens-alias))))
         "GetLensReview"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-lens-review))
 (common-lisp:progn
  (common-lisp:defun get-lens-review-report
@@ -14657,7 +14657,7 @@
                                 aws-sdk/generator/operation::input
                                 'lens-alias))))
         "GetLensReviewReport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-lens-review-report))
 (common-lisp:progn
  (common-lisp:defun get-lens-version-difference
@@ -14682,7 +14682,7 @@
                                 aws-sdk/generator/operation::input
                                 'lens-alias))))
         "GetLensVersionDifference"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-lens-version-difference))
 (common-lisp:progn
  (common-lisp:defun get-milestone
@@ -14708,7 +14708,7 @@
                                 aws-sdk/generator/operation::input
                                 'milestone-number))))
         "GetMilestone"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-milestone))
 (common-lisp:progn
  (common-lisp:defun get-profile
@@ -14730,7 +14730,7 @@
                                 aws-sdk/generator/operation::input
                                 'profile-arn))))
         "GetProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-profile))
 (common-lisp:progn
  (common-lisp:defun get-profile-template ()
@@ -14761,7 +14761,7 @@
                                 aws-sdk/generator/operation::input
                                 'template-arn))))
         "GetReviewTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-review-template))
 (common-lisp:progn
  (common-lisp:defun get-review-template-answer
@@ -14793,7 +14793,7 @@
                                 aws-sdk/generator/operation::input
                                 'question-id))))
         "GetReviewTemplateAnswer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-review-template-answer))
 (common-lisp:progn
  (common-lisp:defun get-review-template-lens-review
@@ -14821,7 +14821,7 @@
                                 aws-sdk/generator/operation::input
                                 'lens-alias))))
         "GetReviewTemplateLensReview"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-review-template-lens-review))
 (common-lisp:progn
  (common-lisp:defun get-workload
@@ -14843,7 +14843,7 @@
                                 aws-sdk/generator/operation::input
                                 'workload-id))))
         "GetWorkload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-workload))
 (common-lisp:progn
  (common-lisp:defun import-lens
@@ -14861,7 +14861,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'wellarchitected-request aws-sdk/generator/operation::input "PUT"
         "/importLens" "ImportLens"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-lens))
 (common-lisp:progn
  (common-lisp:defun list-answers
@@ -14891,7 +14891,7 @@
                                 aws-sdk/generator/operation::input
                                 'lens-alias))))
         "ListAnswers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-answers))
 (common-lisp:progn
  (common-lisp:defun list-check-details
@@ -14916,7 +14916,7 @@
                                 aws-sdk/generator/operation::input
                                 'workload-id))))
         "ListCheckDetails"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-check-details))
 (common-lisp:progn
  (common-lisp:defun list-check-summaries
@@ -14941,7 +14941,7 @@
                                 aws-sdk/generator/operation::input
                                 'workload-id))))
         "ListCheckSummaries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-check-summaries))
 (common-lisp:progn
  (common-lisp:defun list-lens-review-improvements
@@ -14972,7 +14972,7 @@
                                 aws-sdk/generator/operation::input
                                 'lens-alias))))
         "ListLensReviewImprovements"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-lens-review-improvements))
 (common-lisp:progn
  (common-lisp:defun list-lens-reviews
@@ -14997,7 +14997,7 @@
                                 aws-sdk/generator/operation::input
                                 'workload-id))))
         "ListLensReviews"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-lens-reviews))
 (common-lisp:progn
  (common-lisp:defun list-lens-shares
@@ -15022,7 +15022,7 @@
                                 aws-sdk/generator/operation::input
                                 'lens-alias))))
         "ListLensShares"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-lens-shares))
 (common-lisp:progn
  (common-lisp:defun list-lenses
@@ -15041,7 +15041,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'wellarchitected-request aws-sdk/generator/operation::input "GET"
         "/lenses" "ListLenses"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-lenses))
 (common-lisp:progn
  (common-lisp:defun list-milestones
@@ -15065,7 +15065,7 @@
                                 aws-sdk/generator/operation::input
                                 'workload-id))))
         "ListMilestones"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-milestones))
 (common-lisp:progn
  (common-lisp:defun list-notifications
@@ -15083,7 +15083,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'wellarchitected-request aws-sdk/generator/operation::input "POST"
         "/notifications" "ListNotifications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-notifications))
 (common-lisp:progn
  (common-lisp:defun list-profile-notifications
@@ -15100,7 +15100,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'wellarchitected-request aws-sdk/generator/operation::input "GET"
         "/profileNotifications/" "ListProfileNotifications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-profile-notifications))
 (common-lisp:progn
  (common-lisp:defun list-profile-shares
@@ -15125,7 +15125,7 @@
                                 aws-sdk/generator/operation::input
                                 'profile-arn))))
         "ListProfileShares"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-profile-shares))
 (common-lisp:progn
  (common-lisp:defun list-profiles
@@ -15144,7 +15144,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'wellarchitected-request aws-sdk/generator/operation::input "GET"
         "/profileSummaries" "ListProfiles"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-profiles))
 (common-lisp:progn
  (common-lisp:defun list-review-template-answers
@@ -15175,7 +15175,7 @@
                                 aws-sdk/generator/operation::input
                                 'lens-alias))))
         "ListReviewTemplateAnswers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-review-template-answers))
 (common-lisp:progn
  (common-lisp:defun list-review-templates
@@ -15191,7 +15191,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'wellarchitected-request aws-sdk/generator/operation::input "GET"
         "/reviewTemplates" "ListReviewTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-review-templates))
 (common-lisp:progn
  (common-lisp:defun list-share-invitations
@@ -15212,7 +15212,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'wellarchitected-request aws-sdk/generator/operation::input "GET"
         "/shareInvitations" "ListShareInvitations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-share-invitations))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -15234,7 +15234,7 @@
                                 aws-sdk/generator/operation::input
                                 'workload-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-template-shares
@@ -15259,7 +15259,7 @@
                                 aws-sdk/generator/operation::input
                                 'template-arn))))
         "ListTemplateShares"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-template-shares))
 (common-lisp:progn
  (common-lisp:defun list-workload-shares
@@ -15284,7 +15284,7 @@
                                 aws-sdk/generator/operation::input
                                 'workload-id))))
         "ListWorkloadShares"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-workload-shares))
 (common-lisp:progn
  (common-lisp:defun list-workloads
@@ -15302,7 +15302,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'wellarchitected-request aws-sdk/generator/operation::input "POST"
         "/workloadsSummaries" "ListWorkloads"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-workloads))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -15324,7 +15324,7 @@
                                 aws-sdk/generator/operation::input
                                 'workload-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -15346,7 +15346,7 @@
                                 aws-sdk/generator/operation::input
                                 'workload-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-answer
@@ -15381,7 +15381,7 @@
                                 aws-sdk/generator/operation::input
                                 'question-id))))
         "UpdateAnswer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-answer))
 (common-lisp:progn
  (common-lisp:defun update-global-settings
@@ -15400,7 +15400,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'wellarchitected-request aws-sdk/generator/operation::input "PATCH"
         "/global-settings" "UpdateGlobalSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-global-settings))
 (common-lisp:progn
  (common-lisp:defun update-lens-review
@@ -15428,7 +15428,7 @@
                                 aws-sdk/generator/operation::input
                                 'lens-alias))))
         "UpdateLensReview"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-lens-review))
 (common-lisp:progn
  (common-lisp:defun update-profile
@@ -15452,7 +15452,7 @@
                                 aws-sdk/generator/operation::input
                                 'profile-arn))))
         "UpdateProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-profile))
 (common-lisp:progn
  (common-lisp:defun update-review-template
@@ -15477,7 +15477,7 @@
                                 aws-sdk/generator/operation::input
                                 'template-arn))))
         "UpdateReviewTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-review-template))
 (common-lisp:progn
  (common-lisp:defun update-review-template-answer
@@ -15513,7 +15513,7 @@
                                 aws-sdk/generator/operation::input
                                 'question-id))))
         "UpdateReviewTemplateAnswer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-review-template-answer))
 (common-lisp:progn
  (common-lisp:defun update-review-template-lens-review
@@ -15543,7 +15543,7 @@
                                 aws-sdk/generator/operation::input
                                 'lens-alias))))
         "UpdateReviewTemplateLensReview"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-review-template-lens-review))
 (common-lisp:progn
  (common-lisp:defun update-share-invitation
@@ -15567,7 +15567,7 @@
                                 aws-sdk/generator/operation::input
                                 'share-invitation-id))))
         "UpdateShareInvitation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-share-invitation))
 (common-lisp:progn
  (common-lisp:defun update-workload
@@ -15598,7 +15598,7 @@
                                 aws-sdk/generator/operation::input
                                 'workload-id))))
         "UpdateWorkload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-workload))
 (common-lisp:progn
  (common-lisp:defun update-workload-share
@@ -15625,7 +15625,7 @@
                                 aws-sdk/generator/operation::input
                                 'share-id))))
         "UpdateWorkloadShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-workload-share))
 (common-lisp:progn
  (common-lisp:defun upgrade-lens-review
@@ -15655,7 +15655,7 @@
                                 aws-sdk/generator/operation::input
                                 'lens-alias))))
         "UpgradeLensReview"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'upgrade-lens-review))
 (common-lisp:progn
  (common-lisp:defun upgrade-profile-version
@@ -15685,7 +15685,7 @@
                                 aws-sdk/generator/operation::input
                                 'profile-arn))))
         "UpgradeProfileVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'upgrade-profile-version))
 (common-lisp:progn
  (common-lisp:defun upgrade-review-template-lens-review
@@ -15715,5 +15715,5 @@
                                 aws-sdk/generator/operation::input
                                 'lens-alias))))
         "UpgradeReviewTemplateLensReview"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'upgrade-review-template-lens-review))

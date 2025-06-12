@@ -14589,7 +14589,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'attachment-id))))
                                                         "AcceptAttachment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'accept-attachment))
 (common-lisp:progn
  (common-lisp:defun associate-connect-peer
@@ -14619,7 +14619,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "AssociateConnectPeer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-connect-peer))
 (common-lisp:progn
  (common-lisp:defun associate-customer-gateway
@@ -14650,7 +14650,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "AssociateCustomerGateway"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-customer-gateway))
 (common-lisp:progn
  (common-lisp:defun associate-link
@@ -14678,7 +14678,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "AssociateLink"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-link))
 (common-lisp:progn
  (common-lisp:defun associate-transit-gateway-connect-peer
@@ -14709,7 +14709,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "AssociateTransitGatewayConnectPeer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-transit-gateway-connect-peer))
 (common-lisp:progn
  (common-lisp:defun create-connect-attachment
@@ -14731,7 +14731,7 @@
                                                         "POST"
                                                         "/connect-attachments"
                                                         "CreateConnectAttachment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-connect-attachment))
 (common-lisp:progn
  (common-lisp:defun create-connect-peer
@@ -14752,7 +14752,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/connect-peers"
                                                         "CreateConnectPeer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-connect-peer))
 (common-lisp:progn
  (common-lisp:defun create-connection
@@ -14783,7 +14783,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "CreateConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-connection))
 (common-lisp:progn
  (common-lisp:defun create-core-network
@@ -14803,7 +14803,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/core-networks"
                                                         "CreateCoreNetwork"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-core-network))
 (common-lisp:progn
  (common-lisp:defun create-device
@@ -14833,7 +14833,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "CreateDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-device))
 (common-lisp:progn
  (common-lisp:defun create-global-network
@@ -14851,7 +14851,7 @@
                                                         "POST"
                                                         "/global-networks"
                                                         "CreateGlobalNetwork"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-global-network))
 (common-lisp:progn
  (common-lisp:defun create-link
@@ -14881,7 +14881,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "CreateLink"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-link))
 (common-lisp:progn
  (common-lisp:defun create-site
@@ -14910,7 +14910,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "CreateSite"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-site))
 (common-lisp:progn
  (common-lisp:defun create-site-to-site-vpn-attachment
@@ -14932,7 +14932,7 @@
                                                         "POST"
                                                         "/site-to-site-vpn-attachments"
                                                         "CreateSiteToSiteVpnAttachment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-site-to-site-vpn-attachment))
 (common-lisp:progn
  (common-lisp:defun create-transit-gateway-peering
@@ -14954,7 +14954,7 @@
                                                         "POST"
                                                         "/transit-gateway-peerings"
                                                         "CreateTransitGatewayPeering"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-transit-gateway-peering))
 (common-lisp:progn
  (common-lisp:defun create-transit-gateway-route-table-attachment
@@ -14976,7 +14976,7 @@
                                                         "POST"
                                                         "/transit-gateway-route-table-attachments"
                                                         "CreateTransitGatewayRouteTableAttachment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-transit-gateway-route-table-attachment))
 (common-lisp:progn
  (common-lisp:defun create-vpc-attachment
@@ -14997,7 +14997,7 @@
                                                         "POST"
                                                         "/vpc-attachments"
                                                         "CreateVpcAttachment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-vpc-attachment))
 (common-lisp:progn
  (common-lisp:defun delete-attachment
@@ -15024,7 +15024,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'attachment-id))))
                                                         "DeleteAttachment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-attachment))
 (common-lisp:progn
  (common-lisp:defun delete-connect-peer
@@ -15051,7 +15051,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'connect-peer-id))))
                                                         "DeleteConnectPeer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-connect-peer))
 (common-lisp:progn
  (common-lisp:defun delete-connection
@@ -15083,7 +15083,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'connection-id))))
                                                         "DeleteConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-connection))
 (common-lisp:progn
  (common-lisp:defun delete-core-network
@@ -15110,7 +15110,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'core-network-id))))
                                                         "DeleteCoreNetwork"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-core-network))
 (common-lisp:progn
  (common-lisp:defun delete-core-network-policy-version
@@ -15143,7 +15143,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'policy-version-id))))
                                                         "DeleteCoreNetworkPolicyVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-core-network-policy-version))
 (common-lisp:progn
  (common-lisp:defun delete-device
@@ -15174,7 +15174,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'device-id))))
                                                         "DeleteDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-device))
 (common-lisp:progn
  (common-lisp:defun delete-global-network
@@ -15201,7 +15201,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "DeleteGlobalNetwork"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-global-network))
 (common-lisp:progn
  (common-lisp:defun delete-link
@@ -15232,7 +15232,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'link-id))))
                                                         "DeleteLink"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-link))
 (common-lisp:progn
  (common-lisp:defun delete-peering
@@ -15259,7 +15259,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'peering-id))))
                                                         "DeletePeering"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-peering))
 (common-lisp:progn
  (common-lisp:defun delete-resource-policy
@@ -15286,7 +15286,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "DeleteResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resource-policy))
 (common-lisp:progn
  (common-lisp:defun delete-site
@@ -15317,7 +15317,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'site-id))))
                                                         "DeleteSite"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-site))
 (common-lisp:progn
  (common-lisp:defun deregister-transit-gateway
@@ -15350,7 +15350,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'transit-gateway-arn))))
                                                         "DeregisterTransitGateway"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deregister-transit-gateway))
 (common-lisp:progn
  (common-lisp:defun describe-global-networks
@@ -15370,7 +15370,7 @@
                                                         "GET"
                                                         "/global-networks"
                                                         "DescribeGlobalNetworks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-global-networks))
 (common-lisp:progn
  (common-lisp:defun disassociate-connect-peer
@@ -15403,7 +15403,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'connect-peer-id))))
                                                         "DisassociateConnectPeer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-connect-peer))
 (common-lisp:progn
  (common-lisp:defun disassociate-customer-gateway
@@ -15436,7 +15436,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'customer-gateway-arn))))
                                                         "DisassociateCustomerGateway"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-customer-gateway))
 (common-lisp:progn
  (common-lisp:defun disassociate-link
@@ -15464,7 +15464,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "DisassociateLink"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-link))
 (common-lisp:progn
  (common-lisp:defun disassociate-transit-gateway-connect-peer
@@ -15498,7 +15498,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'transit-gateway-connect-peer-arn))))
                                                         "DisassociateTransitGatewayConnectPeer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-transit-gateway-connect-peer))
 (common-lisp:progn
  (common-lisp:defun execute-core-network-change-set
@@ -15531,7 +15531,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'policy-version-id))))
                                                         "ExecuteCoreNetworkChangeSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'execute-core-network-change-set))
 (common-lisp:progn
  (common-lisp:defun get-connect-attachment
@@ -15558,7 +15558,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'attachment-id))))
                                                         "GetConnectAttachment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-connect-attachment))
 (common-lisp:progn
  (common-lisp:defun get-connect-peer
@@ -15585,7 +15585,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'connect-peer-id))))
                                                         "GetConnectPeer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-connect-peer))
 (common-lisp:progn
  (common-lisp:defun get-connect-peer-associations
@@ -15616,7 +15616,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "GetConnectPeerAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-connect-peer-associations))
 (common-lisp:progn
  (common-lisp:defun get-connections
@@ -15646,7 +15646,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "GetConnections"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-connections))
 (common-lisp:progn
  (common-lisp:defun get-core-network
@@ -15673,7 +15673,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'core-network-id))))
                                                         "GetCoreNetwork"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-core-network))
 (common-lisp:progn
  (common-lisp:defun get-core-network-change-events
@@ -15708,7 +15708,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'policy-version-id))))
                                                         "GetCoreNetworkChangeEvents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-core-network-change-events))
 (common-lisp:progn
  (common-lisp:defun get-core-network-change-set
@@ -15743,7 +15743,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'policy-version-id))))
                                                         "GetCoreNetworkChangeSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-core-network-change-set))
 (common-lisp:progn
  (common-lisp:defun get-core-network-policy
@@ -15771,7 +15771,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'core-network-id))))
                                                         "GetCoreNetworkPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-core-network-policy))
 (common-lisp:progn
  (common-lisp:defun get-customer-gateway-associations
@@ -15802,7 +15802,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "GetCustomerGatewayAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-customer-gateway-associations))
 (common-lisp:progn
  (common-lisp:defun get-devices
@@ -15832,7 +15832,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "GetDevices"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-devices))
 (common-lisp:progn
  (common-lisp:defun get-link-associations
@@ -15862,7 +15862,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "GetLinkAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-link-associations))
 (common-lisp:progn
  (common-lisp:defun get-links
@@ -15892,7 +15892,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "GetLinks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-links))
 (common-lisp:progn
  (common-lisp:defun get-network-resource-counts
@@ -15923,7 +15923,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "GetNetworkResourceCounts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-network-resource-counts))
 (common-lisp:progn
  (common-lisp:defun get-network-resource-relationships
@@ -15956,7 +15956,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "GetNetworkResourceRelationships"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-network-resource-relationships))
 (common-lisp:progn
  (common-lisp:defun get-network-resources
@@ -15988,7 +15988,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "GetNetworkResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-network-resources))
 (common-lisp:progn
  (common-lisp:defun get-network-routes
@@ -16021,7 +16021,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "GetNetworkRoutes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-network-routes))
 (common-lisp:progn
  (common-lisp:defun get-network-telemetry
@@ -16053,7 +16053,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "GetNetworkTelemetry"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-network-telemetry))
 (common-lisp:progn
  (common-lisp:defun get-resource-policy
@@ -16080,7 +16080,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "GetResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-policy))
 (common-lisp:progn
  (common-lisp:defun get-route-analysis
@@ -16112,7 +16112,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'route-analysis-id))))
                                                         "GetRouteAnalysis"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-route-analysis))
 (common-lisp:progn
  (common-lisp:defun get-site-to-site-vpn-attachment
@@ -16140,7 +16140,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'attachment-id))))
                                                         "GetSiteToSiteVpnAttachment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-site-to-site-vpn-attachment))
 (common-lisp:progn
  (common-lisp:defun get-sites
@@ -16169,7 +16169,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "GetSites"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sites))
 (common-lisp:progn
  (common-lisp:defun get-transit-gateway-connect-peer-associations
@@ -16200,7 +16200,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "GetTransitGatewayConnectPeerAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-transit-gateway-connect-peer-associations))
 (common-lisp:progn
  (common-lisp:defun get-transit-gateway-peering
@@ -16228,7 +16228,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'peering-id))))
                                                         "GetTransitGatewayPeering"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-transit-gateway-peering))
 (common-lisp:progn
  (common-lisp:defun get-transit-gateway-registrations
@@ -16259,7 +16259,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "GetTransitGatewayRegistrations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-transit-gateway-registrations))
 (common-lisp:progn
  (common-lisp:defun get-transit-gateway-route-table-attachment
@@ -16287,7 +16287,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'attachment-id))))
                                                         "GetTransitGatewayRouteTableAttachment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-transit-gateway-route-table-attachment))
 (common-lisp:progn
  (common-lisp:defun get-vpc-attachment
@@ -16314,7 +16314,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'attachment-id))))
                                                         "GetVpcAttachment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-vpc-attachment))
 (common-lisp:progn
  (common-lisp:defun list-attachments
@@ -16334,7 +16334,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/attachments"
                                                         "ListAttachments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-attachments))
 (common-lisp:progn
  (common-lisp:defun list-connect-peers
@@ -16354,7 +16354,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/connect-peers"
                                                         "ListConnectPeers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-connect-peers))
 (common-lisp:progn
  (common-lisp:defun list-core-network-policy-versions
@@ -16383,7 +16383,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'core-network-id))))
                                                         "ListCoreNetworkPolicyVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-core-network-policy-versions))
 (common-lisp:progn
  (common-lisp:defun list-core-networks
@@ -16400,7 +16400,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/core-networks"
                                                         "ListCoreNetworks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-core-networks))
 (common-lisp:progn
  (common-lisp:defun list-organization-service-access-status
@@ -16419,7 +16419,7 @@
                                                         "GET"
                                                         "/organizations/service-access"
                                                         "ListOrganizationServiceAccessStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-organization-service-access-status))
 (common-lisp:progn
  (common-lisp:defun list-peerings
@@ -16439,7 +16439,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/peerings"
                                                         "ListPeerings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-peerings))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -16466,7 +16466,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-core-network-policy
@@ -16496,7 +16496,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'core-network-id))))
                                                         "PutCoreNetworkPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-core-network-policy))
 (common-lisp:progn
  (common-lisp:defun put-resource-policy
@@ -16523,7 +16523,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "PutResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-resource-policy))
 (common-lisp:progn
  (common-lisp:defun register-transit-gateway
@@ -16551,7 +16551,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "RegisterTransitGateway"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-transit-gateway))
 (common-lisp:progn
  (common-lisp:defun reject-attachment
@@ -16578,7 +16578,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'attachment-id))))
                                                         "RejectAttachment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reject-attachment))
 (common-lisp:progn
  (common-lisp:defun restore-core-network-policy-version
@@ -16611,7 +16611,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'policy-version-id))))
                                                         "RestoreCoreNetworkPolicyVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'restore-core-network-policy-version))
 (common-lisp:progn
  (common-lisp:defun start-organization-service-access-update
@@ -16630,7 +16630,7 @@
                                                         "POST"
                                                         "/organizations/service-access"
                                                         "StartOrganizationServiceAccessUpdate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-organization-service-access-update))
 (common-lisp:progn
  (common-lisp:defun start-route-analysis
@@ -16660,7 +16660,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "StartRouteAnalysis"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-route-analysis))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -16687,7 +16687,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -16714,7 +16714,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-connection
@@ -16748,7 +16748,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'connection-id))))
                                                         "UpdateConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-connection))
 (common-lisp:progn
  (common-lisp:defun update-core-network
@@ -16775,7 +16775,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'core-network-id))))
                                                         "UpdateCoreNetwork"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-core-network))
 (common-lisp:progn
  (common-lisp:defun update-device
@@ -16810,7 +16810,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'device-id))))
                                                         "UpdateDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-device))
 (common-lisp:progn
  (common-lisp:defun update-global-network
@@ -16837,7 +16837,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'global-network-id))))
                                                         "UpdateGlobalNetwork"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-global-network))
 (common-lisp:progn
  (common-lisp:defun update-link
@@ -16871,7 +16871,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'link-id))))
                                                         "UpdateLink"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-link))
 (common-lisp:progn
  (common-lisp:defun update-network-resource-metadata
@@ -16904,7 +16904,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UpdateNetworkResourceMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-network-resource-metadata))
 (common-lisp:progn
  (common-lisp:defun update-site
@@ -16937,7 +16937,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'site-id))))
                                                         "UpdateSite"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-site))
 (common-lisp:progn
  (common-lisp:defun update-vpc-attachment
@@ -16967,5 +16967,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'attachment-id))))
                                                         "UpdateVpcAttachment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-vpc-attachment))

@@ -299,5 +299,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'mobileanalytics-request aws-sdk/generator/operation::input "POST"
         "/2014-06-05/events" "PutEvents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-events))

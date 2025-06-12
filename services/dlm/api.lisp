@@ -3177,7 +3177,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/policies"
                                                         "CreateLifecyclePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-lifecycle-policy))
 (common-lisp:progn
  (common-lisp:defun delete-lifecycle-policy
@@ -3204,7 +3204,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'policy-id))))
                                                         "DeleteLifecyclePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-lifecycle-policy))
 (common-lisp:progn
  (common-lisp:defun get-lifecycle-policies
@@ -3224,7 +3224,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/policies"
                                                         "GetLifecyclePolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-lifecycle-policies))
 (common-lisp:progn
  (common-lisp:defun get-lifecycle-policy
@@ -3251,7 +3251,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'policy-id))))
                                                         "GetLifecyclePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-lifecycle-policy))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -3278,7 +3278,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3305,7 +3305,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3332,7 +3332,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-lifecycle-policy
@@ -3365,5 +3365,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'policy-id))))
                                                         "UpdateLifecyclePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-lifecycle-policy))

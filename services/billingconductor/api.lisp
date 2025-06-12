@@ -7949,7 +7949,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "POST"
         "/associate-accounts" "AssociateAccounts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-accounts))
 (common-lisp:progn
  (common-lisp:defun associate-pricing-rules
@@ -7965,7 +7965,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "PUT"
         "/associate-pricing-rules" "AssociatePricingRules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-pricing-rules))
 (common-lisp:progn
  (common-lisp:defun batch-associate-resources-to-custom-line-item
@@ -7985,7 +7985,7 @@
         'billingconductor-request aws-sdk/generator/operation::input "PUT"
         "/batch-associate-resources-to-custom-line-item"
         "BatchAssociateResourcesToCustomLineItem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-associate-resources-to-custom-line-item))
 (common-lisp:progn
  (common-lisp:defun batch-disassociate-resources-from-custom-line-item
@@ -8005,7 +8005,7 @@
         'billingconductor-request aws-sdk/generator/operation::input "PUT"
         "/batch-disassociate-resources-from-custom-line-item"
         "BatchDisassociateResourcesFromCustomLineItem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-disassociate-resources-from-custom-line-item))
 (common-lisp:progn
  (common-lisp:defun create-billing-group
@@ -8025,7 +8025,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "POST"
         "/create-billing-group" "CreateBillingGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-billing-group))
 (common-lisp:progn
  (common-lisp:defun create-custom-line-item
@@ -8045,7 +8045,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "POST"
         "/create-custom-line-item" "CreateCustomLineItem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-custom-line-item))
 (common-lisp:progn
  (common-lisp:defun create-pricing-plan
@@ -8064,7 +8064,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "POST"
         "/create-pricing-plan" "CreatePricingPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-pricing-plan))
 (common-lisp:progn
  (common-lisp:defun create-pricing-rule
@@ -8085,7 +8085,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "POST"
         "/create-pricing-rule" "CreatePricingRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-pricing-rule))
 (common-lisp:progn
  (common-lisp:defun delete-billing-group
@@ -8101,7 +8101,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "POST"
         "/delete-billing-group" "DeleteBillingGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-billing-group))
 (common-lisp:progn
  (common-lisp:defun delete-custom-line-item
@@ -8117,7 +8117,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "POST"
         "/delete-custom-line-item" "DeleteCustomLineItem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-custom-line-item))
 (common-lisp:progn
  (common-lisp:defun delete-pricing-plan
@@ -8133,7 +8133,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "POST"
         "/delete-pricing-plan" "DeletePricingPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-pricing-plan))
 (common-lisp:progn
  (common-lisp:defun delete-pricing-rule
@@ -8149,7 +8149,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "POST"
         "/delete-pricing-rule" "DeletePricingRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-pricing-rule))
 (common-lisp:progn
  (common-lisp:defun disassociate-accounts
@@ -8165,7 +8165,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "POST"
         "/disassociate-accounts" "DisassociateAccounts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-accounts))
 (common-lisp:progn
  (common-lisp:defun disassociate-pricing-rules
@@ -8181,7 +8181,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "PUT"
         "/disassociate-pricing-rules" "DisassociatePricingRules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-pricing-rules))
 (common-lisp:progn
  (common-lisp:defun get-billing-group-cost-report
@@ -8201,7 +8201,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "POST"
         "/get-billing-group-cost-report" "GetBillingGroupCostReport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-billing-group-cost-report))
 (common-lisp:progn
  (common-lisp:defun list-account-associations
@@ -8218,7 +8218,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "POST"
         "/list-account-associations" "ListAccountAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-account-associations))
 (common-lisp:progn
  (common-lisp:defun list-billing-group-cost-reports
@@ -8237,7 +8237,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "POST"
         "/list-billing-group-cost-reports" "ListBillingGroupCostReports"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-billing-group-cost-reports))
 (common-lisp:progn
  (common-lisp:defun list-billing-groups
@@ -8255,7 +8255,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "POST"
         "/list-billing-groups" "ListBillingGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-billing-groups))
 (common-lisp:progn
  (common-lisp:defun list-custom-line-item-versions
@@ -8273,7 +8273,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "POST"
         "/list-custom-line-item-versions" "ListCustomLineItemVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-custom-line-item-versions))
 (common-lisp:progn
  (common-lisp:defun list-custom-line-items
@@ -8291,7 +8291,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "POST"
         "/list-custom-line-items" "ListCustomLineItems"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-custom-line-items))
 (common-lisp:progn
  (common-lisp:defun list-pricing-plans
@@ -8309,7 +8309,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "POST"
         "/list-pricing-plans" "ListPricingPlans"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-pricing-plans))
 (common-lisp:progn
  (common-lisp:defun list-pricing-plans-associated-with-pricing-rule
@@ -8330,7 +8330,7 @@
         'billingconductor-request aws-sdk/generator/operation::input "POST"
         "/list-pricing-plans-associated-with-pricing-rule"
         "ListPricingPlansAssociatedWithPricingRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-pricing-plans-associated-with-pricing-rule))
 (common-lisp:progn
  (common-lisp:defun list-pricing-rules
@@ -8348,7 +8348,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "POST"
         "/list-pricing-rules" "ListPricingRules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-pricing-rules))
 (common-lisp:progn
  (common-lisp:defun list-pricing-rules-associated-to-pricing-plan
@@ -8369,7 +8369,7 @@
         'billingconductor-request aws-sdk/generator/operation::input "POST"
         "/list-pricing-rules-associated-to-pricing-plan"
         "ListPricingRulesAssociatedToPricingPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-pricing-rules-associated-to-pricing-plan))
 (common-lisp:progn
  (common-lisp:defun list-resources-associated-to-custom-line-item
@@ -8389,7 +8389,7 @@
         'billingconductor-request aws-sdk/generator/operation::input "POST"
         "/list-resources-associated-to-custom-line-item"
         "ListResourcesAssociatedToCustomLineItem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-resources-associated-to-custom-line-item))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -8411,7 +8411,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -8433,7 +8433,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -8455,7 +8455,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-billing-group
@@ -8474,7 +8474,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "POST"
         "/update-billing-group" "UpdateBillingGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-billing-group))
 (common-lisp:progn
  (common-lisp:defun update-custom-line-item
@@ -8493,7 +8493,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "POST"
         "/update-custom-line-item" "UpdateCustomLineItem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-custom-line-item))
 (common-lisp:progn
  (common-lisp:defun update-pricing-plan
@@ -8509,7 +8509,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "PUT"
         "/update-pricing-plan" "UpdatePricingPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-pricing-plan))
 (common-lisp:progn
  (common-lisp:defun update-pricing-rule
@@ -8528,5 +8528,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'billingconductor-request aws-sdk/generator/operation::input "PUT"
         "/update-pricing-rule" "UpdatePricingRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-pricing-rule))

@@ -6301,7 +6301,7 @@
                                                         "POST"
                                                         "/experimentTemplates"
                                                         "CreateExperimentTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-experiment-template))
 (common-lisp:progn
  (common-lisp:defun create-target-account-configuration
@@ -6336,7 +6336,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'account-id))))
                                                         "CreateTargetAccountConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-target-account-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-experiment-template
@@ -6364,7 +6364,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteExperimentTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-experiment-template))
 (common-lisp:progn
  (common-lisp:defun delete-target-account-configuration
@@ -6397,7 +6397,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'account-id))))
                                                         "DeleteTargetAccountConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-target-account-configuration))
 (common-lisp:progn
  (common-lisp:defun get-action
@@ -6424,7 +6424,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetAction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-action))
 (common-lisp:progn
  (common-lisp:defun get-experiment
@@ -6451,7 +6451,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetExperiment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-experiment))
 (common-lisp:progn
  (common-lisp:defun get-experiment-target-account-configuration
@@ -6483,7 +6483,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'account-id))))
                                                         "GetExperimentTargetAccountConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-experiment-target-account-configuration))
 (common-lisp:progn
  (common-lisp:defun get-experiment-template
@@ -6510,7 +6510,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetExperimentTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-experiment-template))
 (common-lisp:progn
  (common-lisp:defun get-target-account-configuration
@@ -6543,7 +6543,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'account-id))))
                                                         "GetTargetAccountConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-target-account-configuration))
 (common-lisp:progn
  (common-lisp:defun get-target-resource-type
@@ -6570,7 +6570,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-type))))
                                                         "GetTargetResourceType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-target-resource-type))
 (common-lisp:progn
  (common-lisp:defun list-actions
@@ -6587,7 +6587,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/actions"
                                                         "ListActions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-actions))
 (common-lisp:progn
  (common-lisp:defun list-experiment-resolved-targets
@@ -6617,7 +6617,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "ListExperimentResolvedTargets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-experiment-resolved-targets))
 (common-lisp:progn
  (common-lisp:defun list-experiment-target-account-configurations
@@ -6645,7 +6645,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "ListExperimentTargetAccountConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-experiment-target-account-configurations))
 (common-lisp:progn
  (common-lisp:defun list-experiment-templates
@@ -6664,7 +6664,7 @@
                                                         "GET"
                                                         "/experimentTemplates"
                                                         "ListExperimentTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-experiment-templates))
 (common-lisp:progn
  (common-lisp:defun list-experiments
@@ -6681,7 +6681,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/experiments"
                                                         "ListExperiments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-experiments))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -6708,7 +6708,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-target-account-configurations
@@ -6738,7 +6738,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "ListTargetAccountConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-target-account-configurations))
 (common-lisp:progn
  (common-lisp:defun list-target-resource-types
@@ -6757,7 +6757,7 @@
                                                         "GET"
                                                         "/targetResourceTypes"
                                                         "ListTargetResourceTypes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-target-resource-types))
 (common-lisp:progn
  (common-lisp:defun start-experiment
@@ -6775,7 +6775,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/experiments"
                                                         "StartExperiment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-experiment))
 (common-lisp:progn
  (common-lisp:defun stop-experiment
@@ -6802,7 +6802,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "StopExperiment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-experiment))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -6829,7 +6829,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -6856,7 +6856,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-experiment-template
@@ -6887,7 +6887,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateExperimentTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-experiment-template))
 (common-lisp:progn
  (common-lisp:defun update-target-account-configuration
@@ -6922,5 +6922,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'account-id))))
                                                         "UpdateTargetAccountConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-target-account-configuration))

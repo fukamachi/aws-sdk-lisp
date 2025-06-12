@@ -2976,7 +2976,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "CreateSchedule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-schedule))
 (common-lisp:progn
  (common-lisp:defun create-schedule-group
@@ -3003,7 +3003,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "CreateScheduleGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-schedule-group))
 (common-lisp:progn
  (common-lisp:defun delete-schedule
@@ -3030,7 +3030,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteSchedule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-schedule))
 (common-lisp:progn
  (common-lisp:defun delete-schedule-group
@@ -3057,7 +3057,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteScheduleGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-schedule-group))
 (common-lisp:progn
  (common-lisp:defun get-schedule
@@ -3084,7 +3084,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetSchedule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-schedule))
 (common-lisp:progn
  (common-lisp:defun get-schedule-group
@@ -3111,7 +3111,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetScheduleGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-schedule-group))
 (common-lisp:progn
  (common-lisp:defun list-schedule-groups
@@ -3130,7 +3130,7 @@
                                                         "GET"
                                                         "/schedule-groups"
                                                         "ListScheduleGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-schedule-groups))
 (common-lisp:progn
  (common-lisp:defun list-schedules
@@ -3150,7 +3150,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/schedules"
                                                         "ListSchedules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-schedules))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -3177,7 +3177,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3204,7 +3204,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3231,7 +3231,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-schedule
@@ -3264,5 +3264,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateSchedule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-schedule))

@@ -9002,7 +9002,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-media-pipelines-request aws-sdk/generator/operation::input
         "POST" "/sdk-media-capture-pipelines" "CreateMediaCapturePipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-media-capture-pipeline))
 (common-lisp:progn
  (common-lisp:defun create-media-concatenation-pipeline
@@ -9021,7 +9021,7 @@
         'chime-sdk-media-pipelines-request aws-sdk/generator/operation::input
         "POST" "/sdk-media-concatenation-pipelines"
         "CreateMediaConcatenationPipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-media-concatenation-pipeline))
 (common-lisp:progn
  (common-lisp:defun create-media-insights-pipeline
@@ -9048,7 +9048,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-media-pipelines-request aws-sdk/generator/operation::input
         "POST" "/media-insights-pipelines" "CreateMediaInsightsPipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-media-insights-pipeline))
 (common-lisp:progn
  (common-lisp:defun create-media-insights-pipeline-configuration
@@ -9072,7 +9072,7 @@
         'chime-sdk-media-pipelines-request aws-sdk/generator/operation::input
         "POST" "/media-insights-pipeline-configurations"
         "CreateMediaInsightsPipelineConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-media-insights-pipeline-configuration))
 (common-lisp:progn
  (common-lisp:defun create-media-live-connector-pipeline
@@ -9091,7 +9091,7 @@
         'chime-sdk-media-pipelines-request aws-sdk/generator/operation::input
         "POST" "/sdk-media-live-connector-pipelines"
         "CreateMediaLiveConnectorPipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-media-live-connector-pipeline))
 (common-lisp:progn
  (common-lisp:defun create-media-pipeline-kinesis-video-stream-pool
@@ -9112,7 +9112,7 @@
         'chime-sdk-media-pipelines-request aws-sdk/generator/operation::input
         "POST" "/media-pipeline-kinesis-video-stream-pools"
         "CreateMediaPipelineKinesisVideoStreamPool"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-media-pipeline-kinesis-video-stream-pool))
 (common-lisp:progn
  (common-lisp:defun create-media-stream-pipeline
@@ -9130,7 +9130,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-media-pipelines-request aws-sdk/generator/operation::input
         "POST" "/sdk-media-stream-pipelines" "CreateMediaStreamPipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-media-stream-pipeline))
 (common-lisp:progn
  (common-lisp:defun delete-media-capture-pipeline
@@ -9154,7 +9154,7 @@
                                 aws-sdk/generator/operation::input
                                 'media-pipeline-id))))
         "DeleteMediaCapturePipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-media-capture-pipeline))
 (common-lisp:progn
  (common-lisp:defun delete-media-insights-pipeline-configuration
@@ -9179,7 +9179,7 @@
                                 aws-sdk/generator/operation::input
                                 'identifier))))
         "DeleteMediaInsightsPipelineConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-media-insights-pipeline-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-media-pipeline
@@ -9202,7 +9202,7 @@
                                 aws-sdk/generator/operation::input
                                 'media-pipeline-id))))
         "DeleteMediaPipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-media-pipeline))
 (common-lisp:progn
  (common-lisp:defun delete-media-pipeline-kinesis-video-stream-pool
@@ -9227,7 +9227,7 @@
                                 aws-sdk/generator/operation::input
                                 'identifier))))
         "DeleteMediaPipelineKinesisVideoStreamPool"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-media-pipeline-kinesis-video-stream-pool))
 (common-lisp:progn
  (common-lisp:defun get-media-capture-pipeline
@@ -9251,7 +9251,7 @@
                                 aws-sdk/generator/operation::input
                                 'media-pipeline-id))))
         "GetMediaCapturePipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-media-capture-pipeline))
 (common-lisp:progn
  (common-lisp:defun get-media-insights-pipeline-configuration
@@ -9276,7 +9276,7 @@
                                 aws-sdk/generator/operation::input
                                 'identifier))))
         "GetMediaInsightsPipelineConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-media-insights-pipeline-configuration))
 (common-lisp:progn
  (common-lisp:defun get-media-pipeline
@@ -9299,7 +9299,7 @@
                                 aws-sdk/generator/operation::input
                                 'media-pipeline-id))))
         "GetMediaPipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-media-pipeline))
 (common-lisp:progn
  (common-lisp:defun get-media-pipeline-kinesis-video-stream-pool
@@ -9324,7 +9324,7 @@
                                 aws-sdk/generator/operation::input
                                 'identifier))))
         "GetMediaPipelineKinesisVideoStreamPool"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-media-pipeline-kinesis-video-stream-pool))
 (common-lisp:progn
  (common-lisp:defun get-speaker-search-task
@@ -9353,7 +9353,7 @@
                                 aws-sdk/generator/operation::input
                                 'speaker-search-task-id))))
         "GetSpeakerSearchTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-speaker-search-task))
 (common-lisp:progn
  (common-lisp:defun get-voice-tone-analysis-task
@@ -9383,7 +9383,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-tone-analysis-task-id))))
         "GetVoiceToneAnalysisTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-voice-tone-analysis-task))
 (common-lisp:progn
  (common-lisp:defun list-media-capture-pipelines
@@ -9400,7 +9400,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-media-pipelines-request aws-sdk/generator/operation::input
         "GET" "/sdk-media-capture-pipelines" "ListMediaCapturePipelines"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-media-capture-pipelines))
 (common-lisp:progn
  (common-lisp:defun list-media-insights-pipeline-configurations
@@ -9418,7 +9418,7 @@
         'chime-sdk-media-pipelines-request aws-sdk/generator/operation::input
         "GET" "/media-insights-pipeline-configurations"
         "ListMediaInsightsPipelineConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-media-insights-pipeline-configurations))
 (common-lisp:progn
  (common-lisp:defun list-media-pipeline-kinesis-video-stream-pools
@@ -9436,7 +9436,7 @@
         'chime-sdk-media-pipelines-request aws-sdk/generator/operation::input
         "GET" "/media-pipeline-kinesis-video-stream-pools"
         "ListMediaPipelineKinesisVideoStreamPools"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-media-pipeline-kinesis-video-stream-pools))
 (common-lisp:progn
  (common-lisp:defun list-media-pipelines
@@ -9452,7 +9452,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-media-pipelines-request aws-sdk/generator/operation::input
         "GET" "/sdk-media-pipelines" "ListMediaPipelines"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-media-pipelines))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -9468,7 +9468,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-media-pipelines-request aws-sdk/generator/operation::input
         "GET" "/tags" "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun start-speaker-search-task
@@ -9497,7 +9497,7 @@
                                 aws-sdk/generator/operation::input
                                 'identifier))))
         "StartSpeakerSearchTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-speaker-search-task))
 (common-lisp:progn
  (common-lisp:defun start-voice-tone-analysis-task
@@ -9526,7 +9526,7 @@
                                 aws-sdk/generator/operation::input
                                 'identifier))))
         "StartVoiceToneAnalysisTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-voice-tone-analysis-task))
 (common-lisp:progn
  (common-lisp:defun stop-speaker-search-task
@@ -9555,7 +9555,7 @@
                                 aws-sdk/generator/operation::input
                                 'speaker-search-task-id))))
         "StopSpeakerSearchTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-speaker-search-task))
 (common-lisp:progn
  (common-lisp:defun stop-voice-tone-analysis-task
@@ -9585,7 +9585,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-tone-analysis-task-id))))
         "StopVoiceToneAnalysisTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-voice-tone-analysis-task))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -9601,7 +9601,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-media-pipelines-request aws-sdk/generator/operation::input
         "POST" "/tags?operation=tag-resource" "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -9617,7 +9617,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-media-pipelines-request aws-sdk/generator/operation::input
         "POST" "/tags?operation=untag-resource" "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-media-insights-pipeline-configuration
@@ -9645,7 +9645,7 @@
                                 aws-sdk/generator/operation::input
                                 'identifier))))
         "UpdateMediaInsightsPipelineConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-media-insights-pipeline-configuration))
 (common-lisp:progn
  (common-lisp:defun update-media-insights-pipeline-status
@@ -9670,7 +9670,7 @@
                                 aws-sdk/generator/operation::input
                                 'identifier))))
         "UpdateMediaInsightsPipelineStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-media-insights-pipeline-status))
 (common-lisp:progn
  (common-lisp:defun update-media-pipeline-kinesis-video-stream-pool
@@ -9696,5 +9696,5 @@
                                 aws-sdk/generator/operation::input
                                 'identifier))))
         "UpdateMediaPipelineKinesisVideoStreamPool"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-media-pipeline-kinesis-video-stream-pool))

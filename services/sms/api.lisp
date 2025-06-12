@@ -6261,7 +6261,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateApp"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-app))
 (common-lisp:progn
  (common-lisp:defun create-replication-job
@@ -6283,7 +6283,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateReplicationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-replication-job))
 (common-lisp:progn
  (common-lisp:defun delete-app
@@ -6303,7 +6303,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteApp"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-app))
 (common-lisp:progn
  (common-lisp:defun delete-app-launch-configuration
@@ -6321,7 +6321,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAppLaunchConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-app-launch-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-app-replication-configuration
@@ -6339,7 +6339,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAppReplicationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-app-replication-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-app-validation-configuration
@@ -6357,7 +6357,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAppValidationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-app-validation-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-replication-job
@@ -6374,7 +6374,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteReplicationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-replication-job))
 (common-lisp:progn
  (common-lisp:defun delete-server-catalog ()
@@ -6399,7 +6399,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateConnector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-connector))
 (common-lisp:progn
  (common-lisp:defun generate-change-set
@@ -6416,7 +6416,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GenerateChangeSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'generate-change-set))
 (common-lisp:progn
  (common-lisp:defun generate-template
@@ -6433,7 +6433,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GenerateTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'generate-template))
 (common-lisp:progn
  (common-lisp:defun get-app
@@ -6449,7 +6449,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'sms-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "GetApp"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-app))
 (common-lisp:progn
  (common-lisp:defun get-app-launch-configuration
@@ -6467,7 +6467,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAppLaunchConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-app-launch-configuration))
 (common-lisp:progn
  (common-lisp:defun get-app-replication-configuration
@@ -6485,7 +6485,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAppReplicationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-app-replication-configuration))
 (common-lisp:progn
  (common-lisp:defun get-app-validation-configuration
@@ -6503,7 +6503,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAppValidationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-app-validation-configuration))
 (common-lisp:progn
  (common-lisp:defun get-app-validation-output
@@ -6521,7 +6521,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAppValidationOutput"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-app-validation-output))
 (common-lisp:progn
  (common-lisp:defun get-connectors
@@ -6538,7 +6538,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetConnectors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-connectors))
 (common-lisp:progn
  (common-lisp:defun get-replication-jobs
@@ -6557,7 +6557,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetReplicationJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-replication-jobs))
 (common-lisp:progn
  (common-lisp:defun get-replication-runs
@@ -6576,7 +6576,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetReplicationRuns"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-replication-runs))
 (common-lisp:progn
  (common-lisp:defun get-servers
@@ -6595,7 +6595,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetServers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-servers))
 (common-lisp:progn
  (common-lisp:defun import-app-catalog
@@ -6612,7 +6612,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ImportAppCatalog"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-app-catalog))
 (common-lisp:progn
  (common-lisp:defun import-server-catalog ()
@@ -6637,7 +6637,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "LaunchApp"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'launch-app))
 (common-lisp:progn
  (common-lisp:defun list-apps
@@ -6653,7 +6653,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'sms-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "ListApps"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-apps))
 (common-lisp:progn
  (common-lisp:defun notify-app-validation-output
@@ -6671,7 +6671,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "NotifyAppValidationOutput"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'notify-app-validation-output))
 (common-lisp:progn
  (common-lisp:defun put-app-launch-configuration
@@ -6692,7 +6692,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutAppLaunchConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-app-launch-configuration))
 (common-lisp:progn
  (common-lisp:defun put-app-replication-configuration
@@ -6712,7 +6712,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutAppReplicationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-app-replication-configuration))
 (common-lisp:progn
  (common-lisp:defun put-app-validation-configuration
@@ -6733,7 +6733,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutAppValidationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-app-validation-configuration))
 (common-lisp:progn
  (common-lisp:defun start-app-replication
@@ -6750,7 +6750,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartAppReplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-app-replication))
 (common-lisp:progn
  (common-lisp:defun start-on-demand-app-replication
@@ -6768,7 +6768,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartOnDemandAppReplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-on-demand-app-replication))
 (common-lisp:progn
  (common-lisp:defun start-on-demand-replication-run
@@ -6786,7 +6786,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartOnDemandReplicationRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-on-demand-replication-run))
 (common-lisp:progn
  (common-lisp:defun stop-app-replication
@@ -6803,7 +6803,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopAppReplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-app-replication))
 (common-lisp:progn
  (common-lisp:defun terminate-app
@@ -6820,7 +6820,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TerminateApp"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'terminate-app))
 (common-lisp:progn
  (common-lisp:defun update-app
@@ -6840,7 +6840,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateApp"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-app))
 (common-lisp:progn
  (common-lisp:defun update-replication-job
@@ -6863,5 +6863,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateReplicationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-replication-job))

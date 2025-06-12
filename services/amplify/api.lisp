@@ -6605,7 +6605,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/apps"
                                                         "CreateApp"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-app))
 (common-lisp:progn
  (common-lisp:defun create-backend-environment
@@ -6636,7 +6636,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-id))))
                                                         "CreateBackendEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-backend-environment))
 (common-lisp:progn
  (common-lisp:defun create-branch
@@ -6674,7 +6674,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-id))))
                                                         "CreateBranch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-branch))
 (common-lisp:progn
  (common-lisp:defun create-deployment
@@ -6705,7 +6705,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'branch-name))))
                                                         "CreateDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-deployment))
 (common-lisp:progn
  (common-lisp:defun create-domain-association
@@ -6738,7 +6738,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-id))))
                                                         "CreateDomainAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-domain-association))
 (common-lisp:progn
  (common-lisp:defun create-webhook
@@ -6765,7 +6765,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-id))))
                                                         "CreateWebhook"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-webhook))
 (common-lisp:progn
  (common-lisp:defun delete-app
@@ -6792,7 +6792,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-id))))
                                                         "DeleteApp"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-app))
 (common-lisp:progn
  (common-lisp:defun delete-backend-environment
@@ -6824,7 +6824,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-name))))
                                                         "DeleteBackendEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-backend-environment))
 (common-lisp:progn
  (common-lisp:defun delete-branch
@@ -6855,7 +6855,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'branch-name))))
                                                         "DeleteBranch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-branch))
 (common-lisp:progn
  (common-lisp:defun delete-domain-association
@@ -6887,7 +6887,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "DeleteDomainAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-domain-association))
 (common-lisp:progn
  (common-lisp:defun delete-job
@@ -6922,7 +6922,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "DeleteJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-job))
 (common-lisp:progn
  (common-lisp:defun delete-webhook
@@ -6949,7 +6949,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'webhook-id))))
                                                         "DeleteWebhook"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-webhook))
 (common-lisp:progn
  (common-lisp:defun generate-access-logs
@@ -6977,7 +6977,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-id))))
                                                         "GenerateAccessLogs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'generate-access-logs))
 (common-lisp:progn
  (common-lisp:defun get-app
@@ -7004,7 +7004,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-id))))
                                                         "GetApp"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-app))
 (common-lisp:progn
  (common-lisp:defun get-artifact-url
@@ -7031,7 +7031,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'artifact-id))))
                                                         "GetArtifactUrl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-artifact-url))
 (common-lisp:progn
  (common-lisp:defun get-backend-environment
@@ -7062,7 +7062,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-name))))
                                                         "GetBackendEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-backend-environment))
 (common-lisp:progn
  (common-lisp:defun get-branch
@@ -7093,7 +7093,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'branch-name))))
                                                         "GetBranch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-branch))
 (common-lisp:progn
  (common-lisp:defun get-domain-association
@@ -7124,7 +7124,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "GetDomainAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-domain-association))
 (common-lisp:progn
  (common-lisp:defun get-job
@@ -7159,7 +7159,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "GetJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-job))
 (common-lisp:progn
  (common-lisp:defun get-webhook
@@ -7186,7 +7186,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'webhook-id))))
                                                         "GetWebhook"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-webhook))
 (common-lisp:progn
  (common-lisp:defun list-apps
@@ -7203,7 +7203,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/apps"
                                                         "ListApps"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-apps))
 (common-lisp:progn
  (common-lisp:defun list-artifacts
@@ -7240,7 +7240,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "ListArtifacts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-artifacts))
 (common-lisp:progn
  (common-lisp:defun list-backend-environments
@@ -7270,7 +7270,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-id))))
                                                         "ListBackendEnvironments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-backend-environments))
 (common-lisp:progn
  (common-lisp:defun list-branches
@@ -7297,7 +7297,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-id))))
                                                         "ListBranches"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-branches))
 (common-lisp:progn
  (common-lisp:defun list-domain-associations
@@ -7324,7 +7324,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-id))))
                                                         "ListDomainAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-domain-associations))
 (common-lisp:progn
  (common-lisp:defun list-jobs
@@ -7357,7 +7357,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'branch-name))))
                                                         "ListJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-jobs))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -7384,7 +7384,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-webhooks
@@ -7411,7 +7411,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-id))))
                                                         "ListWebhooks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-webhooks))
 (common-lisp:progn
  (common-lisp:defun start-deployment
@@ -7443,7 +7443,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'branch-name))))
                                                         "StartDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-deployment))
 (common-lisp:progn
  (common-lisp:defun start-job
@@ -7477,7 +7477,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'branch-name))))
                                                         "StartJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-job))
 (common-lisp:progn
  (common-lisp:defun stop-job
@@ -7512,7 +7512,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "StopJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-job))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -7539,7 +7539,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -7566,7 +7566,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-app
@@ -7605,7 +7605,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-id))))
                                                         "UpdateApp"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-app))
 (common-lisp:progn
  (common-lisp:defun update-branch
@@ -7647,7 +7647,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'branch-name))))
                                                         "UpdateBranch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-branch))
 (common-lisp:progn
  (common-lisp:defun update-domain-association
@@ -7684,7 +7684,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "UpdateDomainAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-domain-association))
 (common-lisp:progn
  (common-lisp:defun update-webhook
@@ -7712,5 +7712,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'webhook-id))))
                                                         "UpdateWebhook"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-webhook))

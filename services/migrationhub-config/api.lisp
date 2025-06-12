@@ -610,7 +610,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'migrationhub-config-request aws-sdk/generator/operation::input "POST"
         "/" "CreateHomeRegionControl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-home-region-control))
 (common-lisp:progn
  (common-lisp:defun delete-home-region-control
@@ -627,7 +627,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'migrationhub-config-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteHomeRegionControl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-home-region-control))
 (common-lisp:progn
  (common-lisp:defun describe-home-region-controls
@@ -647,7 +647,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'migrationhub-config-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeHomeRegionControls"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-home-region-controls))
 (common-lisp:progn
  (common-lisp:defun get-home-region ()

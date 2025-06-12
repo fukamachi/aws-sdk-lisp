@@ -5316,7 +5316,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AcceptDomainTransferFromAnotherAwsAccount"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'accept-domain-transfer-from-another-aws-account))
 (common-lisp:progn
  (common-lisp:defun associate-delegation-signer-to-domain
@@ -5334,7 +5334,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateDelegationSignerToDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-delegation-signer-to-domain))
 (common-lisp:progn
  (common-lisp:defun cancel-domain-transfer-to-another-aws-account
@@ -5352,7 +5352,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CancelDomainTransferToAnotherAwsAccount"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-domain-transfer-to-another-aws-account))
 (common-lisp:progn
  (common-lisp:defun check-domain-availability
@@ -5370,7 +5370,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CheckDomainAvailability"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'check-domain-availability))
 (common-lisp:progn
  (common-lisp:defun check-domain-transferability
@@ -5388,7 +5388,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CheckDomainTransferability"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'check-domain-transferability))
 (common-lisp:progn
  (common-lisp:defun delete-domain
@@ -5405,7 +5405,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-domain))
 (common-lisp:progn
  (common-lisp:defun delete-tags-for-domain
@@ -5422,7 +5422,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteTagsForDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-tags-for-domain))
 (common-lisp:progn
  (common-lisp:defun disable-domain-auto-renew
@@ -5440,7 +5440,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisableDomainAutoRenew"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disable-domain-auto-renew))
 (common-lisp:progn
  (common-lisp:defun disable-domain-transfer-lock
@@ -5458,7 +5458,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisableDomainTransferLock"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disable-domain-transfer-lock))
 (common-lisp:progn
  (common-lisp:defun disassociate-delegation-signer-from-domain
@@ -5476,7 +5476,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateDelegationSignerFromDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-delegation-signer-from-domain))
 (common-lisp:progn
  (common-lisp:defun enable-domain-auto-renew
@@ -5493,7 +5493,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "EnableDomainAutoRenew"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-domain-auto-renew))
 (common-lisp:progn
  (common-lisp:defun enable-domain-transfer-lock
@@ -5511,7 +5511,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "EnableDomainTransferLock"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-domain-transfer-lock))
 (common-lisp:progn
  (common-lisp:defun get-contact-reachability-status
@@ -5529,7 +5529,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetContactReachabilityStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-contact-reachability-status))
 (common-lisp:progn
  (common-lisp:defun get-domain-detail
@@ -5546,7 +5546,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDomainDetail"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-domain-detail))
 (common-lisp:progn
  (common-lisp:defun get-domain-suggestions
@@ -5565,7 +5565,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDomainSuggestions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-domain-suggestions))
 (common-lisp:progn
  (common-lisp:defun get-operation-detail
@@ -5582,7 +5582,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetOperationDetail"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-operation-detail))
 (common-lisp:progn
  (common-lisp:defun list-domains
@@ -5601,7 +5601,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDomains"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-domains))
 (common-lisp:progn
  (common-lisp:defun list-operations
@@ -5621,7 +5621,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListOperations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-operations))
 (common-lisp:progn
  (common-lisp:defun list-prices
@@ -5638,7 +5638,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPrices"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-prices))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-domain
@@ -5655,7 +5655,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-domain))
 (common-lisp:progn
  (common-lisp:defun push-domain
@@ -5672,7 +5672,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PushDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'push-domain))
 (common-lisp:progn
  (common-lisp:defun register-domain
@@ -5700,7 +5700,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RegisterDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-domain))
 (common-lisp:progn
  (common-lisp:defun reject-domain-transfer-from-another-aws-account
@@ -5718,7 +5718,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RejectDomainTransferFromAnotherAwsAccount"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reject-domain-transfer-from-another-aws-account))
 (common-lisp:progn
  (common-lisp:defun renew-domain
@@ -5737,7 +5737,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RenewDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'renew-domain))
 (common-lisp:progn
  (common-lisp:defun resend-contact-reachability-email
@@ -5755,7 +5755,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ResendContactReachabilityEmail"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'resend-contact-reachability-email))
 (common-lisp:progn
  (common-lisp:defun resend-operation-authorization
@@ -5773,7 +5773,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ResendOperationAuthorization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'resend-operation-authorization))
 (common-lisp:progn
  (common-lisp:defun retrieve-domain-auth-code
@@ -5791,7 +5791,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RetrieveDomainAuthCode"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'retrieve-domain-auth-code))
 (common-lisp:progn
  (common-lisp:defun transfer-domain
@@ -5819,7 +5819,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TransferDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'transfer-domain))
 (common-lisp:progn
  (common-lisp:defun transfer-domain-to-another-aws-account
@@ -5837,7 +5837,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TransferDomainToAnotherAwsAccount"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'transfer-domain-to-another-aws-account))
 (common-lisp:progn
  (common-lisp:defun update-domain-contact
@@ -5857,7 +5857,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateDomainContact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-domain-contact))
 (common-lisp:progn
  (common-lisp:defun update-domain-contact-privacy
@@ -5878,7 +5878,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateDomainContactPrivacy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-domain-contact-privacy))
 (common-lisp:progn
  (common-lisp:defun update-domain-nameservers
@@ -5897,7 +5897,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateDomainNameservers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-domain-nameservers))
 (common-lisp:progn
  (common-lisp:defun update-tags-for-domain
@@ -5914,7 +5914,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateTagsForDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-tags-for-domain))
 (common-lisp:progn
  (common-lisp:defun view-billing
@@ -5931,5 +5931,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ViewBilling"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'view-billing))

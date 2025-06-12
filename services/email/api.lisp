@@ -9449,7 +9449,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CloneReceiptRuleSet"))
-      common-lisp:nil "CloneReceiptRuleSetResult" *error-map*)))
+      common-lisp:nil "CloneReceiptRuleSetResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'clone-receipt-rule-set))
 (common-lisp:progn
  (common-lisp:defun create-configuration-set
@@ -9466,7 +9467,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateConfigurationSet"))
-      common-lisp:nil "CreateConfigurationSetResult" *error-map*)))
+      common-lisp:nil "CreateConfigurationSetResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-configuration-set))
 (common-lisp:progn
  (common-lisp:defun create-configuration-set-event-destination
@@ -9486,7 +9488,7 @@
                                                         "POST" "/"
                                                         "CreateConfigurationSetEventDestination"))
       common-lisp:nil "CreateConfigurationSetEventDestinationResult"
-      *error-map*)))
+      *error-map* common-lisp:nil)))
  (common-lisp:export 'create-configuration-set-event-destination))
 (common-lisp:progn
  (common-lisp:defun create-configuration-set-tracking-options
@@ -9505,8 +9507,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateConfigurationSetTrackingOptions"))
-      common-lisp:nil "CreateConfigurationSetTrackingOptionsResult"
-      *error-map*)))
+      common-lisp:nil "CreateConfigurationSetTrackingOptionsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-configuration-set-tracking-options))
 (common-lisp:progn
  (common-lisp:defun create-custom-verification-email-template
@@ -9528,7 +9530,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateCustomVerificationEmailTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'create-custom-verification-email-template))
 (common-lisp:progn
  (common-lisp:defun create-receipt-filter
@@ -9545,7 +9547,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateReceiptFilter"))
-      common-lisp:nil "CreateReceiptFilterResult" *error-map*)))
+      common-lisp:nil "CreateReceiptFilterResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-receipt-filter))
 (common-lisp:progn
  (common-lisp:defun create-receipt-rule
@@ -9562,7 +9565,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateReceiptRule"))
-      common-lisp:nil "CreateReceiptRuleResult" *error-map*)))
+      common-lisp:nil "CreateReceiptRuleResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-receipt-rule))
 (common-lisp:progn
  (common-lisp:defun create-receipt-rule-set
@@ -9579,7 +9582,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateReceiptRuleSet"))
-      common-lisp:nil "CreateReceiptRuleSetResult" *error-map*)))
+      common-lisp:nil "CreateReceiptRuleSetResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-receipt-rule-set))
 (common-lisp:progn
  (common-lisp:defun create-template
@@ -9596,7 +9600,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateTemplate"))
-      common-lisp:nil "CreateTemplateResult" *error-map*)))
+      common-lisp:nil "CreateTemplateResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-template))
 (common-lisp:progn
  (common-lisp:defun delete-configuration-set
@@ -9613,7 +9617,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteConfigurationSet"))
-      common-lisp:nil "DeleteConfigurationSetResult" *error-map*)))
+      common-lisp:nil "DeleteConfigurationSetResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-configuration-set))
 (common-lisp:progn
  (common-lisp:defun delete-configuration-set-event-destination
@@ -9634,7 +9639,7 @@
                                                         "POST" "/"
                                                         "DeleteConfigurationSetEventDestination"))
       common-lisp:nil "DeleteConfigurationSetEventDestinationResult"
-      *error-map*)))
+      *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-configuration-set-event-destination))
 (common-lisp:progn
  (common-lisp:defun delete-configuration-set-tracking-options
@@ -9652,8 +9657,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteConfigurationSetTrackingOptions"))
-      common-lisp:nil "DeleteConfigurationSetTrackingOptionsResult"
-      *error-map*)))
+      common-lisp:nil "DeleteConfigurationSetTrackingOptionsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-configuration-set-tracking-options))
 (common-lisp:progn
  (common-lisp:defun delete-custom-verification-email-template
@@ -9671,7 +9676,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteCustomVerificationEmailTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-custom-verification-email-template))
 (common-lisp:progn
  (common-lisp:defun delete-identity
@@ -9688,7 +9693,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteIdentity"))
-      common-lisp:nil "DeleteIdentityResult" *error-map*)))
+      common-lisp:nil "DeleteIdentityResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-identity))
 (common-lisp:progn
  (common-lisp:defun delete-identity-policy
@@ -9705,7 +9710,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteIdentityPolicy"))
-      common-lisp:nil "DeleteIdentityPolicyResult" *error-map*)))
+      common-lisp:nil "DeleteIdentityPolicyResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-identity-policy))
 (common-lisp:progn
  (common-lisp:defun delete-receipt-filter
@@ -9722,7 +9728,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteReceiptFilter"))
-      common-lisp:nil "DeleteReceiptFilterResult" *error-map*)))
+      common-lisp:nil "DeleteReceiptFilterResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-receipt-filter))
 (common-lisp:progn
  (common-lisp:defun delete-receipt-rule
@@ -9739,7 +9746,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteReceiptRule"))
-      common-lisp:nil "DeleteReceiptRuleResult" *error-map*)))
+      common-lisp:nil "DeleteReceiptRuleResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-receipt-rule))
 (common-lisp:progn
  (common-lisp:defun delete-receipt-rule-set
@@ -9756,7 +9763,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteReceiptRuleSet"))
-      common-lisp:nil "DeleteReceiptRuleSetResult" *error-map*)))
+      common-lisp:nil "DeleteReceiptRuleSetResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-receipt-rule-set))
 (common-lisp:progn
  (common-lisp:defun delete-template
@@ -9773,7 +9781,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteTemplate"))
-      common-lisp:nil "DeleteTemplateResult" *error-map*)))
+      common-lisp:nil "DeleteTemplateResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-template))
 (common-lisp:progn
  (common-lisp:defun delete-verified-email-address
@@ -9791,7 +9799,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteVerifiedEmailAddress"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-verified-email-address))
 (common-lisp:progn
  (common-lisp:defun describe-active-receipt-rule-set ()
@@ -9820,7 +9828,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeConfigurationSet"))
-      common-lisp:nil "DescribeConfigurationSetResult" *error-map*)))
+      common-lisp:nil "DescribeConfigurationSetResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-configuration-set))
 (common-lisp:progn
  (common-lisp:defun describe-receipt-rule
@@ -9837,7 +9846,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeReceiptRule"))
-      common-lisp:nil "DescribeReceiptRuleResult" *error-map*)))
+      common-lisp:nil "DescribeReceiptRuleResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-receipt-rule))
 (common-lisp:progn
  (common-lisp:defun describe-receipt-rule-set
@@ -9855,7 +9865,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeReceiptRuleSet"))
-      common-lisp:nil "DescribeReceiptRuleSetResult" *error-map*)))
+      common-lisp:nil "DescribeReceiptRuleSetResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-receipt-rule-set))
 (common-lisp:progn
  (common-lisp:defun get-account-sending-enabled ()
@@ -9881,7 +9892,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCustomVerificationEmailTemplate"))
-      common-lisp:nil "GetCustomVerificationEmailTemplateResult" *error-map*)))
+      common-lisp:nil "GetCustomVerificationEmailTemplateResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-custom-verification-email-template))
 (common-lisp:progn
  (common-lisp:defun get-identity-dkim-attributes
@@ -9899,7 +9911,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetIdentityDkimAttributes"))
-      common-lisp:nil "GetIdentityDkimAttributesResult" *error-map*)))
+      common-lisp:nil "GetIdentityDkimAttributesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-identity-dkim-attributes))
 (common-lisp:progn
  (common-lisp:defun get-identity-mail-from-domain-attributes
@@ -9917,8 +9930,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetIdentityMailFromDomainAttributes"))
-      common-lisp:nil "GetIdentityMailFromDomainAttributesResult"
-      *error-map*)))
+      common-lisp:nil "GetIdentityMailFromDomainAttributesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-identity-mail-from-domain-attributes))
 (common-lisp:progn
  (common-lisp:defun get-identity-notification-attributes
@@ -9936,7 +9949,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetIdentityNotificationAttributes"))
-      common-lisp:nil "GetIdentityNotificationAttributesResult" *error-map*)))
+      common-lisp:nil "GetIdentityNotificationAttributesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-identity-notification-attributes))
 (common-lisp:progn
  (common-lisp:defun get-identity-policies
@@ -9953,7 +9967,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetIdentityPolicies"))
-      common-lisp:nil "GetIdentityPoliciesResult" *error-map*)))
+      common-lisp:nil "GetIdentityPoliciesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-identity-policies))
 (common-lisp:progn
  (common-lisp:defun get-identity-verification-attributes
@@ -9971,7 +9986,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetIdentityVerificationAttributes"))
-      common-lisp:nil "GetIdentityVerificationAttributesResult" *error-map*)))
+      common-lisp:nil "GetIdentityVerificationAttributesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-identity-verification-attributes))
 (common-lisp:progn
  (common-lisp:defun get-send-quota ()
@@ -10004,7 +10020,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetTemplate"))
-      common-lisp:nil "GetTemplateResult" *error-map*)))
+      common-lisp:nil "GetTemplateResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-template))
 (common-lisp:progn
  (common-lisp:defun list-configuration-sets
@@ -10021,7 +10037,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListConfigurationSets"))
-      common-lisp:nil "ListConfigurationSetsResult" *error-map*)))
+      common-lisp:nil "ListConfigurationSetsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-configuration-sets))
 (common-lisp:progn
  (common-lisp:defun list-custom-verification-email-templates
@@ -10039,8 +10056,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListCustomVerificationEmailTemplates"))
-      common-lisp:nil "ListCustomVerificationEmailTemplatesResult"
-      *error-map*)))
+      common-lisp:nil "ListCustomVerificationEmailTemplatesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-custom-verification-email-templates))
 (common-lisp:progn
  (common-lisp:defun list-identities
@@ -10058,7 +10075,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListIdentities"))
-      common-lisp:nil "ListIdentitiesResult" *error-map*)))
+      common-lisp:nil "ListIdentitiesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-identities))
 (common-lisp:progn
  (common-lisp:defun list-identity-policies
@@ -10075,7 +10092,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListIdentityPolicies"))
-      common-lisp:nil "ListIdentityPoliciesResult" *error-map*)))
+      common-lisp:nil "ListIdentityPoliciesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-identity-policies))
 (common-lisp:progn
  (common-lisp:defun list-receipt-filters ()
@@ -10100,7 +10118,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListReceiptRuleSets"))
-      common-lisp:nil "ListReceiptRuleSetsResult" *error-map*)))
+      common-lisp:nil "ListReceiptRuleSetsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-receipt-rule-sets))
 (common-lisp:progn
  (common-lisp:defun list-templates
@@ -10117,7 +10136,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTemplates"))
-      common-lisp:nil "ListTemplatesResult" *error-map*)))
+      common-lisp:nil "ListTemplatesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-templates))
 (common-lisp:progn
  (common-lisp:defun list-verified-email-addresses ()
@@ -10144,7 +10163,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutConfigurationSetDeliveryOptions"))
-      common-lisp:nil "PutConfigurationSetDeliveryOptionsResult" *error-map*)))
+      common-lisp:nil "PutConfigurationSetDeliveryOptionsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'put-configuration-set-delivery-options))
 (common-lisp:progn
  (common-lisp:defun put-identity-policy
@@ -10161,7 +10181,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutIdentityPolicy"))
-      common-lisp:nil "PutIdentityPolicyResult" *error-map*)))
+      common-lisp:nil "PutIdentityPolicyResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'put-identity-policy))
 (common-lisp:progn
  (common-lisp:defun reorder-receipt-rule-set
@@ -10178,7 +10198,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ReorderReceiptRuleSet"))
-      common-lisp:nil "ReorderReceiptRuleSetResult" *error-map*)))
+      common-lisp:nil "ReorderReceiptRuleSetResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'reorder-receipt-rule-set))
 (common-lisp:progn
  (common-lisp:defun send-bounce
@@ -10199,7 +10220,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SendBounce"))
-      common-lisp:nil "SendBounceResult" *error-map*)))
+      common-lisp:nil "SendBounceResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'send-bounce))
 (common-lisp:progn
  (common-lisp:defun send-bulk-templated-email
@@ -10223,7 +10244,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SendBulkTemplatedEmail"))
-      common-lisp:nil "SendBulkTemplatedEmailResult" *error-map*)))
+      common-lisp:nil "SendBulkTemplatedEmailResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'send-bulk-templated-email))
 (common-lisp:progn
  (common-lisp:defun send-custom-verification-email
@@ -10243,7 +10265,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SendCustomVerificationEmail"))
-      common-lisp:nil "SendCustomVerificationEmailResult" *error-map*)))
+      common-lisp:nil "SendCustomVerificationEmailResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'send-custom-verification-email))
 (common-lisp:progn
  (common-lisp:defun send-email
@@ -10264,7 +10287,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SendEmail"))
-      common-lisp:nil "SendEmailResult" *error-map*)))
+      common-lisp:nil "SendEmailResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'send-email))
 (common-lisp:progn
  (common-lisp:defun send-raw-email
@@ -10284,7 +10307,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SendRawEmail"))
-      common-lisp:nil "SendRawEmailResult" *error-map*)))
+      common-lisp:nil "SendRawEmailResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'send-raw-email))
 (common-lisp:progn
  (common-lisp:defun send-templated-email
@@ -10307,7 +10330,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SendTemplatedEmail"))
-      common-lisp:nil "SendTemplatedEmailResult" *error-map*)))
+      common-lisp:nil "SendTemplatedEmailResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'send-templated-email))
 (common-lisp:progn
  (common-lisp:defun set-active-receipt-rule-set
@@ -10325,7 +10348,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetActiveReceiptRuleSet"))
-      common-lisp:nil "SetActiveReceiptRuleSetResult" *error-map*)))
+      common-lisp:nil "SetActiveReceiptRuleSetResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'set-active-receipt-rule-set))
 (common-lisp:progn
  (common-lisp:defun set-identity-dkim-enabled
@@ -10343,7 +10367,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetIdentityDkimEnabled"))
-      common-lisp:nil "SetIdentityDkimEnabledResult" *error-map*)))
+      common-lisp:nil "SetIdentityDkimEnabledResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'set-identity-dkim-enabled))
 (common-lisp:progn
  (common-lisp:defun set-identity-feedback-forwarding-enabled
@@ -10361,8 +10386,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetIdentityFeedbackForwardingEnabled"))
-      common-lisp:nil "SetIdentityFeedbackForwardingEnabledResult"
-      *error-map*)))
+      common-lisp:nil "SetIdentityFeedbackForwardingEnabledResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'set-identity-feedback-forwarding-enabled))
 (common-lisp:progn
  (common-lisp:defun set-identity-headers-in-notifications-enabled
@@ -10382,7 +10407,7 @@
                                                         "POST" "/"
                                                         "SetIdentityHeadersInNotificationsEnabled"))
       common-lisp:nil "SetIdentityHeadersInNotificationsEnabledResult"
-      *error-map*)))
+      *error-map* common-lisp:nil)))
  (common-lisp:export 'set-identity-headers-in-notifications-enabled))
 (common-lisp:progn
  (common-lisp:defun set-identity-mail-from-domain
@@ -10402,7 +10427,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetIdentityMailFromDomain"))
-      common-lisp:nil "SetIdentityMailFromDomainResult" *error-map*)))
+      common-lisp:nil "SetIdentityMailFromDomainResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'set-identity-mail-from-domain))
 (common-lisp:progn
  (common-lisp:defun set-identity-notification-topic
@@ -10421,7 +10447,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetIdentityNotificationTopic"))
-      common-lisp:nil "SetIdentityNotificationTopicResult" *error-map*)))
+      common-lisp:nil "SetIdentityNotificationTopicResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'set-identity-notification-topic))
 (common-lisp:progn
  (common-lisp:defun set-receipt-rule-position
@@ -10439,7 +10466,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetReceiptRulePosition"))
-      common-lisp:nil "SetReceiptRulePositionResult" *error-map*)))
+      common-lisp:nil "SetReceiptRulePositionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'set-receipt-rule-position))
 (common-lisp:progn
  (common-lisp:defun test-render-template
@@ -10456,7 +10484,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TestRenderTemplate"))
-      common-lisp:nil "TestRenderTemplateResult" *error-map*)))
+      common-lisp:nil "TestRenderTemplateResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'test-render-template))
 (common-lisp:progn
  (common-lisp:defun update-account-sending-enabled
@@ -10474,7 +10502,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateAccountSendingEnabled"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'update-account-sending-enabled))
 (common-lisp:progn
  (common-lisp:defun update-configuration-set-event-destination
@@ -10494,7 +10522,7 @@
                                                         "POST" "/"
                                                         "UpdateConfigurationSetEventDestination"))
       common-lisp:nil "UpdateConfigurationSetEventDestinationResult"
-      *error-map*)))
+      *error-map* common-lisp:nil)))
  (common-lisp:export 'update-configuration-set-event-destination))
 (common-lisp:progn
  (common-lisp:defun update-configuration-set-reputation-metrics-enabled
@@ -10512,7 +10540,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateConfigurationSetReputationMetricsEnabled"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'update-configuration-set-reputation-metrics-enabled))
 (common-lisp:progn
  (common-lisp:defun update-configuration-set-sending-enabled
@@ -10530,7 +10558,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateConfigurationSetSendingEnabled"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'update-configuration-set-sending-enabled))
 (common-lisp:progn
  (common-lisp:defun update-configuration-set-tracking-options
@@ -10549,8 +10577,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateConfigurationSetTrackingOptions"))
-      common-lisp:nil "UpdateConfigurationSetTrackingOptionsResult"
-      *error-map*)))
+      common-lisp:nil "UpdateConfigurationSetTrackingOptionsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'update-configuration-set-tracking-options))
 (common-lisp:progn
  (common-lisp:defun update-custom-verification-email-template
@@ -10572,7 +10600,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateCustomVerificationEmailTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'update-custom-verification-email-template))
 (common-lisp:progn
  (common-lisp:defun update-receipt-rule
@@ -10589,7 +10617,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateReceiptRule"))
-      common-lisp:nil "UpdateReceiptRuleResult" *error-map*)))
+      common-lisp:nil "UpdateReceiptRuleResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'update-receipt-rule))
 (common-lisp:progn
  (common-lisp:defun update-template
@@ -10606,7 +10634,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateTemplate"))
-      common-lisp:nil "UpdateTemplateResult" *error-map*)))
+      common-lisp:nil "UpdateTemplateResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'update-template))
 (common-lisp:progn
  (common-lisp:defun verify-domain-dkim
@@ -10623,7 +10651,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "VerifyDomainDkim"))
-      common-lisp:nil "VerifyDomainDkimResult" *error-map*)))
+      common-lisp:nil "VerifyDomainDkimResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'verify-domain-dkim))
 (common-lisp:progn
  (common-lisp:defun verify-domain-identity
@@ -10640,7 +10668,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "VerifyDomainIdentity"))
-      common-lisp:nil "VerifyDomainIdentityResult" *error-map*)))
+      common-lisp:nil "VerifyDomainIdentityResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'verify-domain-identity))
 (common-lisp:progn
  (common-lisp:defun verify-email-address
@@ -10657,7 +10686,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "VerifyEmailAddress"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'verify-email-address))
 (common-lisp:progn
  (common-lisp:defun verify-email-identity
@@ -10674,5 +10703,6 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "VerifyEmailIdentity"))
-      common-lisp:nil "VerifyEmailIdentityResult" *error-map*)))
+      common-lisp:nil "VerifyEmailIdentityResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'verify-email-identity))

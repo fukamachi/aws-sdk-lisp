@@ -219,7 +219,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-project-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'contents)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'contents))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-project-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-project-result common-lisp:nil
                        ((details :initarg :details :initform common-lisp:nil
@@ -1172,7 +1178,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-project-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'contents)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'contents))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-project-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-project-result common-lisp:nil
                        ((details :initarg :details :initform common-lisp:nil
@@ -1226,7 +1238,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/projects"
                                                         "CreateProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-project))
 (common-lisp:progn
  (common-lisp:defun delete-project
@@ -1253,7 +1265,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project-id))))
                                                         "DeleteProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-project))
 (common-lisp:progn
  (common-lisp:defun describe-bundle
@@ -1280,7 +1292,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bundle-id))))
                                                         "DescribeBundle"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-bundle))
 (common-lisp:progn
  (common-lisp:defun describe-project
@@ -1297,7 +1309,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/project"
                                                         "DescribeProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-project))
 (common-lisp:progn
  (common-lisp:defun export-bundle
@@ -1324,7 +1336,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bundle-id))))
                                                         "ExportBundle"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'export-bundle))
 (common-lisp:progn
  (common-lisp:defun export-project
@@ -1351,7 +1363,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project-id))))
                                                         "ExportProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'export-project))
 (common-lisp:progn
  (common-lisp:defun list-bundles
@@ -1368,7 +1380,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/bundles"
                                                         "ListBundles"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-bundles))
 (common-lisp:progn
  (common-lisp:defun list-projects
@@ -1385,7 +1397,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/projects"
                                                         "ListProjects"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-projects))
 (common-lisp:progn
  (common-lisp:defun update-project
@@ -1402,5 +1414,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/update"
                                                         "UpdateProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-project))

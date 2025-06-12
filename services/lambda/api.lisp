@@ -6305,7 +6305,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input invocation-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input invocation-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass invocation-response common-lisp:nil
                        ((status-code :initarg :status-code :initform
@@ -6372,7 +6376,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input invocation-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input invocation-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:deftype invocation-type () 'common-lisp:string)
 (common-lisp:progn
  (common-lisp:defclass invoke-async-request common-lisp:nil
@@ -6413,7 +6421,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input invoke-async-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'invoke-args)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'invoke-args))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input invoke-async-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass invoke-async-response common-lisp:nil
                        ((status :initarg :status :initform common-lisp:nil
@@ -6633,7 +6645,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           invoke-with-response-stream-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          invoke-with-response-stream-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass invoke-with-response-stream-response common-lisp:nil
                        ((status-code :initarg :status-code :initform
@@ -6705,7 +6723,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           invoke-with-response-stream-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'event-stream)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'event-stream))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          invoke-with-response-stream-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass invoke-with-response-stream-response-event
                        common-lisp:nil
@@ -11856,7 +11880,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'version-number))))
                                                         "AddLayerVersionPermission"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-layer-version-permission))
 (common-lisp:progn
  (common-lisp:defun add-permission
@@ -11889,7 +11913,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "AddPermission"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-permission))
 (common-lisp:progn
  (common-lisp:defun create-alias
@@ -11919,7 +11943,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "CreateAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-alias))
 (common-lisp:progn
  (common-lisp:defun create-code-signing-config
@@ -11941,7 +11965,7 @@
                                                         "POST"
                                                         "/2020-04-22/code-signing-configs/"
                                                         "CreateCodeSigningConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-code-signing-config))
 (common-lisp:progn
  (common-lisp:defun create-event-source-mapping
@@ -11980,7 +12004,7 @@
                                                         "POST"
                                                         "/2015-03-31/event-source-mappings/"
                                                         "CreateEventSourceMapping"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-event-source-mapping))
 (common-lisp:progn
  (common-lisp:defun create-function
@@ -12008,7 +12032,7 @@
                                                         "POST"
                                                         "/2015-03-31/functions"
                                                         "CreateFunction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-function))
 (common-lisp:progn
  (common-lisp:defun create-function-url-config
@@ -12038,7 +12062,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "CreateFunctionUrlConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-function-url-config))
 (common-lisp:progn
  (common-lisp:defun delete-alias
@@ -12069,7 +12093,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-alias))
 (common-lisp:progn
  (common-lisp:defun delete-code-signing-config
@@ -12097,7 +12121,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'code-signing-config-arn))))
                                                         "DeleteCodeSigningConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-code-signing-config))
 (common-lisp:progn
  (common-lisp:defun delete-event-source-mapping
@@ -12125,7 +12149,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'uuid))))
                                                         "DeleteEventSourceMapping"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-event-source-mapping))
 (common-lisp:progn
  (common-lisp:defun delete-function
@@ -12152,7 +12176,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "DeleteFunction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-function))
 (common-lisp:progn
  (common-lisp:defun delete-function-code-signing-config
@@ -12180,7 +12204,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "DeleteFunctionCodeSigningConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-function-code-signing-config))
 (common-lisp:progn
  (common-lisp:defun delete-function-concurrency
@@ -12208,7 +12232,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "DeleteFunctionConcurrency"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-function-concurrency))
 (common-lisp:progn
  (common-lisp:defun delete-function-event-invoke-config
@@ -12236,7 +12260,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "DeleteFunctionEventInvokeConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-function-event-invoke-config))
 (common-lisp:progn
  (common-lisp:defun delete-function-url-config
@@ -12264,7 +12288,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "DeleteFunctionUrlConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-function-url-config))
 (common-lisp:progn
  (common-lisp:defun delete-layer-version
@@ -12295,7 +12319,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'version-number))))
                                                         "DeleteLayerVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-layer-version))
 (common-lisp:progn
  (common-lisp:defun delete-provisioned-concurrency-config
@@ -12323,7 +12347,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "DeleteProvisionedConcurrencyConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-provisioned-concurrency-config))
 (common-lisp:progn
  (common-lisp:defun get-account-settings ()
@@ -12363,7 +12387,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-alias))
 (common-lisp:progn
  (common-lisp:defun get-code-signing-config
@@ -12390,7 +12414,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'code-signing-config-arn))))
                                                         "GetCodeSigningConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-code-signing-config))
 (common-lisp:progn
  (common-lisp:defun get-event-source-mapping
@@ -12417,7 +12441,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'uuid))))
                                                         "GetEventSourceMapping"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-event-source-mapping))
 (common-lisp:progn
  (common-lisp:defun get-function
@@ -12444,7 +12468,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "GetFunction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-function))
 (common-lisp:progn
  (common-lisp:defun get-function-code-signing-config
@@ -12472,7 +12496,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "GetFunctionCodeSigningConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-function-code-signing-config))
 (common-lisp:progn
  (common-lisp:defun get-function-concurrency
@@ -12499,7 +12523,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "GetFunctionConcurrency"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-function-concurrency))
 (common-lisp:progn
  (common-lisp:defun get-function-configuration
@@ -12527,7 +12551,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "GetFunctionConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-function-configuration))
 (common-lisp:progn
  (common-lisp:defun get-function-event-invoke-config
@@ -12555,7 +12579,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "GetFunctionEventInvokeConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-function-event-invoke-config))
 (common-lisp:progn
  (common-lisp:defun get-function-url-config
@@ -12582,7 +12606,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "GetFunctionUrlConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-function-url-config))
 (common-lisp:progn
  (common-lisp:defun get-layer-version
@@ -12613,7 +12637,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'version-number))))
                                                         "GetLayerVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-layer-version))
 (common-lisp:progn
  (common-lisp:defun get-layer-version-by-arn
@@ -12631,7 +12655,7 @@
                                                         "GET"
                                                         "/2018-10-31/layers?find=LayerVersion"
                                                         "GetLayerVersionByArn"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-layer-version-by-arn))
 (common-lisp:progn
  (common-lisp:defun get-layer-version-policy
@@ -12662,7 +12686,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'version-number))))
                                                         "GetLayerVersionPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-layer-version-policy))
 (common-lisp:progn
  (common-lisp:defun get-policy
@@ -12689,7 +12713,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "GetPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-policy))
 (common-lisp:progn
  (common-lisp:defun get-provisioned-concurrency-config
@@ -12717,7 +12741,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "GetProvisionedConcurrencyConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-provisioned-concurrency-config))
 (common-lisp:progn
  (common-lisp:defun get-runtime-management-config
@@ -12745,7 +12769,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "GetRuntimeManagementConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-runtime-management-config))
 (common-lisp:progn
  (common-lisp:defun invoke
@@ -12776,7 +12800,7 @@
                                                              'function-name))))
                                                         "Invoke")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'invoke))
 (common-lisp:progn
  (common-lisp:defun invoke-async
@@ -12803,7 +12827,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "InvokeAsync"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'invoke-async))
 (common-lisp:progn
  (common-lisp:defun invoke-with-response-stream
@@ -12834,7 +12858,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "InvokeWithResponseStream"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'invoke-with-response-stream))
 (common-lisp:progn
  (common-lisp:defun list-aliases
@@ -12863,7 +12887,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "ListAliases"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-aliases))
 (common-lisp:progn
  (common-lisp:defun list-code-signing-configs
@@ -12882,7 +12906,7 @@
                                                         "GET"
                                                         "/2020-04-22/code-signing-configs/"
                                                         "ListCodeSigningConfigs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-code-signing-configs))
 (common-lisp:progn
  (common-lisp:defun list-event-source-mappings
@@ -12903,7 +12927,7 @@
                                                         "GET"
                                                         "/2015-03-31/event-source-mappings/"
                                                         "ListEventSourceMappings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-event-source-mappings))
 (common-lisp:progn
  (common-lisp:defun list-function-event-invoke-configs
@@ -12931,7 +12955,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "ListFunctionEventInvokeConfigs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-function-event-invoke-configs))
 (common-lisp:progn
  (common-lisp:defun list-function-url-configs
@@ -12959,7 +12983,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "ListFunctionUrlConfigs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-function-url-configs))
 (common-lisp:progn
  (common-lisp:defun list-functions
@@ -12979,7 +13003,7 @@
                                                         "GET"
                                                         "/2015-03-31/functions/"
                                                         "ListFunctions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-functions))
 (common-lisp:progn
  (common-lisp:defun list-functions-by-code-signing-config
@@ -13008,7 +13032,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'code-signing-config-arn))))
                                                         "ListFunctionsByCodeSigningConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-functions-by-code-signing-config))
 (common-lisp:progn
  (common-lisp:defun list-layer-versions
@@ -13038,7 +13062,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'layer-name))))
                                                         "ListLayerVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-layer-versions))
 (common-lisp:progn
  (common-lisp:defun list-layers
@@ -13059,7 +13083,7 @@
                                                         "GET"
                                                         "/2018-10-31/layers"
                                                         "ListLayers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-layers))
 (common-lisp:progn
  (common-lisp:defun list-provisioned-concurrency-configs
@@ -13087,7 +13111,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "ListProvisionedConcurrencyConfigs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-provisioned-concurrency-configs))
 (common-lisp:progn
  (common-lisp:defun list-tags
@@ -13114,7 +13138,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'arn))))
                                                         "ListTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags))
 (common-lisp:progn
  (common-lisp:defun list-versions-by-function
@@ -13142,7 +13166,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "ListVersionsByFunction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-versions-by-function))
 (common-lisp:progn
  (common-lisp:defun publish-layer-version
@@ -13172,7 +13196,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'layer-name))))
                                                         "PublishLayerVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'publish-layer-version))
 (common-lisp:progn
  (common-lisp:defun publish-version
@@ -13201,7 +13225,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "PublishVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'publish-version))
 (common-lisp:progn
  (common-lisp:defun put-function-code-signing-config
@@ -13230,7 +13254,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "PutFunctionCodeSigningConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-function-code-signing-config))
 (common-lisp:progn
  (common-lisp:defun put-function-concurrency
@@ -13259,7 +13283,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "PutFunctionConcurrency"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-function-concurrency))
 (common-lisp:progn
  (common-lisp:defun put-function-event-invoke-config
@@ -13291,7 +13315,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "PutFunctionEventInvokeConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-function-event-invoke-config))
 (common-lisp:progn
  (common-lisp:defun put-provisioned-concurrency-config
@@ -13322,7 +13346,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "PutProvisionedConcurrencyConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-provisioned-concurrency-config))
 (common-lisp:progn
  (common-lisp:defun put-runtime-management-config
@@ -13353,7 +13377,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "PutRuntimeManagementConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-runtime-management-config))
 (common-lisp:progn
  (common-lisp:defun remove-layer-version-permission
@@ -13391,7 +13415,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'statement-id))))
                                                         "RemoveLayerVersionPermission"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-layer-version-permission))
 (common-lisp:progn
  (common-lisp:defun remove-permission
@@ -13424,7 +13448,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'statement-id))))
                                                         "RemovePermission"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-permission))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -13451,7 +13475,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -13478,7 +13502,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-alias
@@ -13512,7 +13536,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-alias))
 (common-lisp:progn
  (common-lisp:defun update-code-signing-config
@@ -13543,7 +13567,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'code-signing-config-arn))))
                                                         "UpdateCodeSigningConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-code-signing-config))
 (common-lisp:progn
  (common-lisp:defun update-event-source-mapping
@@ -13583,7 +13607,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'uuid))))
                                                         "UpdateEventSourceMapping"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-event-source-mapping))
 (common-lisp:progn
  (common-lisp:defun update-function-code
@@ -13614,7 +13638,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "UpdateFunctionCode"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-function-code))
 (common-lisp:progn
  (common-lisp:defun update-function-configuration
@@ -13650,7 +13674,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "UpdateFunctionConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-function-configuration))
 (common-lisp:progn
  (common-lisp:defun update-function-event-invoke-config
@@ -13682,7 +13706,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "UpdateFunctionEventInvokeConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-function-event-invoke-config))
 (common-lisp:progn
  (common-lisp:defun update-function-url-config
@@ -13712,5 +13736,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-name))))
                                                         "UpdateFunctionUrlConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-function-url-config))

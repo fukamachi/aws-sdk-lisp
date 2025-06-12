@@ -4882,7 +4882,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateCapability"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-capability))
 (common-lisp:progn
  (common-lisp:defun create-partnership
@@ -4902,7 +4902,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreatePartnership"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-partnership))
 (common-lisp:progn
  (common-lisp:defun create-profile
@@ -4922,7 +4922,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-profile))
 (common-lisp:progn
  (common-lisp:defun create-transformer
@@ -4942,7 +4942,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateTransformer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-transformer))
 (common-lisp:progn
  (common-lisp:defun delete-capability
@@ -4959,7 +4959,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteCapability"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-capability))
 (common-lisp:progn
  (common-lisp:defun delete-partnership
@@ -4976,7 +4976,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeletePartnership"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-partnership))
 (common-lisp:progn
  (common-lisp:defun delete-profile
@@ -4993,7 +4993,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-profile))
 (common-lisp:progn
  (common-lisp:defun delete-transformer
@@ -5010,7 +5010,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteTransformer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-transformer))
 (common-lisp:progn
  (common-lisp:defun get-capability
@@ -5027,7 +5027,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCapability"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-capability))
 (common-lisp:progn
  (common-lisp:defun get-partnership
@@ -5044,7 +5044,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetPartnership"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-partnership))
 (common-lisp:progn
  (common-lisp:defun get-profile
@@ -5061,7 +5061,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-profile))
 (common-lisp:progn
  (common-lisp:defun get-transformer
@@ -5078,7 +5078,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetTransformer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-transformer))
 (common-lisp:progn
  (common-lisp:defun get-transformer-job
@@ -5096,7 +5096,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetTransformerJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-transformer-job))
 (common-lisp:progn
  (common-lisp:defun list-capabilities
@@ -5113,7 +5113,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListCapabilities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-capabilities))
 (common-lisp:progn
  (common-lisp:defun list-partnerships
@@ -5131,7 +5131,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPartnerships"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-partnerships))
 (common-lisp:progn
  (common-lisp:defun list-profiles
@@ -5148,7 +5148,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListProfiles"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-profiles))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -5165,7 +5165,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-transformers
@@ -5182,7 +5182,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTransformers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-transformers))
 (common-lisp:progn
  (common-lisp:defun start-transformer-job
@@ -5202,7 +5202,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartTransformerJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-transformer-job))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -5219,7 +5219,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun test-mapping
@@ -5238,7 +5238,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TestMapping"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'test-mapping))
 (common-lisp:progn
  (common-lisp:defun test-parsing
@@ -5256,7 +5256,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TestParsing"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'test-parsing))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -5273,7 +5273,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-capability
@@ -5293,7 +5293,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateCapability"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-capability))
 (common-lisp:progn
  (common-lisp:defun update-partnership
@@ -5311,7 +5311,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdatePartnership"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-partnership))
 (common-lisp:progn
  (common-lisp:defun update-profile
@@ -5330,7 +5330,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-profile))
 (common-lisp:progn
  (common-lisp:defun update-transformer
@@ -5350,5 +5350,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateTransformer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-transformer))

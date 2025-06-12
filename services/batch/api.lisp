@@ -11058,7 +11058,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v1/canceljob"
                                                         "CancelJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-job))
 (common-lisp:progn
  (common-lisp:defun create-compute-environment
@@ -11081,7 +11081,7 @@
                                                         "POST"
                                                         "/v1/createcomputeenvironment"
                                                         "CreateComputeEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-compute-environment))
 (common-lisp:progn
  (common-lisp:defun create-job-queue
@@ -11103,7 +11103,7 @@
                                                         "POST"
                                                         "/v1/createjobqueue"
                                                         "CreateJobQueue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-job-queue))
 (common-lisp:progn
  (common-lisp:defun create-scheduling-policy
@@ -11121,7 +11121,7 @@
                                                         "POST"
                                                         "/v1/createschedulingpolicy"
                                                         "CreateSchedulingPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-scheduling-policy))
 (common-lisp:progn
  (common-lisp:defun delete-compute-environment
@@ -11140,7 +11140,7 @@
                                                         "POST"
                                                         "/v1/deletecomputeenvironment"
                                                         "DeleteComputeEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-compute-environment))
 (common-lisp:progn
  (common-lisp:defun delete-job-queue
@@ -11158,7 +11158,7 @@
                                                         "POST"
                                                         "/v1/deletejobqueue"
                                                         "DeleteJobQueue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-job-queue))
 (common-lisp:progn
  (common-lisp:defun delete-scheduling-policy
@@ -11176,7 +11176,7 @@
                                                         "POST"
                                                         "/v1/deleteschedulingpolicy"
                                                         "DeleteSchedulingPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-scheduling-policy))
 (common-lisp:progn
  (common-lisp:defun deregister-job-definition
@@ -11195,7 +11195,7 @@
                                                         "POST"
                                                         "/v1/deregisterjobdefinition"
                                                         "DeregisterJobDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deregister-job-definition))
 (common-lisp:progn
  (common-lisp:defun describe-compute-environments
@@ -11216,7 +11216,7 @@
                                                         "POST"
                                                         "/v1/describecomputeenvironments"
                                                         "DescribeComputeEnvironments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-compute-environments))
 (common-lisp:progn
  (common-lisp:defun describe-job-definitions
@@ -11237,7 +11237,7 @@
                                                         "POST"
                                                         "/v1/describejobdefinitions"
                                                         "DescribeJobDefinitions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-job-definitions))
 (common-lisp:progn
  (common-lisp:defun describe-job-queues
@@ -11256,7 +11256,7 @@
                                                         "POST"
                                                         "/v1/describejobqueues"
                                                         "DescribeJobQueues"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-job-queues))
 (common-lisp:progn
  (common-lisp:defun describe-jobs
@@ -11274,7 +11274,7 @@
                                                         "POST"
                                                         "/v1/describejobs"
                                                         "DescribeJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-jobs))
 (common-lisp:progn
  (common-lisp:defun describe-scheduling-policies
@@ -11293,7 +11293,7 @@
                                                         "POST"
                                                         "/v1/describeschedulingpolicies"
                                                         "DescribeSchedulingPolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-scheduling-policies))
 (common-lisp:progn
  (common-lisp:defun list-jobs
@@ -11313,7 +11313,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v1/listjobs"
                                                         "ListJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-jobs))
 (common-lisp:progn
  (common-lisp:defun list-scheduling-policies
@@ -11331,7 +11331,7 @@
                                                         "POST"
                                                         "/v1/listschedulingpolicies"
                                                         "ListSchedulingPolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-scheduling-policies))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -11358,7 +11358,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun register-job-definition
@@ -11383,7 +11383,7 @@
                                                         "POST"
                                                         "/v1/registerjobdefinition"
                                                         "RegisterJobDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-job-definition))
 (common-lisp:progn
  (common-lisp:defun submit-job
@@ -11409,7 +11409,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v1/submitjob"
                                                         "SubmitJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'submit-job))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -11436,7 +11436,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun terminate-job
@@ -11454,7 +11454,7 @@
                                                         "POST"
                                                         "/v1/terminatejob"
                                                         "TerminateJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'terminate-job))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -11481,7 +11481,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-compute-environment
@@ -11503,7 +11503,7 @@
                                                         "POST"
                                                         "/v1/updatecomputeenvironment"
                                                         "UpdateComputeEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-compute-environment))
 (common-lisp:progn
  (common-lisp:defun update-job-queue
@@ -11525,7 +11525,7 @@
                                                         "POST"
                                                         "/v1/updatejobqueue"
                                                         "UpdateJobQueue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-job-queue))
 (common-lisp:progn
  (common-lisp:defun update-scheduling-policy
@@ -11543,5 +11543,5 @@
                                                         "POST"
                                                         "/v1/updateschedulingpolicy"
                                                         "UpdateSchedulingPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-scheduling-policy))

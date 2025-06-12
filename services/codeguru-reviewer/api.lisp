@@ -3710,7 +3710,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codeguru-reviewer-request aws-sdk/generator/operation::input "POST"
         "/associations" "AssociateRepository"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-repository))
 (common-lisp:progn
  (common-lisp:defun create-code-review
@@ -3729,7 +3729,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codeguru-reviewer-request aws-sdk/generator/operation::input "POST"
         "/codereviews" "CreateCodeReview"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-code-review))
 (common-lisp:progn
  (common-lisp:defun describe-code-review
@@ -3751,7 +3751,7 @@
                                 aws-sdk/generator/operation::input
                                 'code-review-arn))))
         "DescribeCodeReview"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-code-review))
 (common-lisp:progn
  (common-lisp:defun describe-recommendation-feedback
@@ -3776,7 +3776,7 @@
                                 aws-sdk/generator/operation::input
                                 'code-review-arn))))
         "DescribeRecommendationFeedback"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-recommendation-feedback))
 (common-lisp:progn
  (common-lisp:defun describe-repository-association
@@ -3799,7 +3799,7 @@
                                 aws-sdk/generator/operation::input
                                 'association-arn))))
         "DescribeRepositoryAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-repository-association))
 (common-lisp:progn
  (common-lisp:defun disassociate-repository
@@ -3821,7 +3821,7 @@
                                 aws-sdk/generator/operation::input
                                 'association-arn))))
         "DisassociateRepository"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-repository))
 (common-lisp:progn
  (common-lisp:defun list-code-reviews
@@ -3840,7 +3840,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codeguru-reviewer-request aws-sdk/generator/operation::input "GET"
         "/codereviews" "ListCodeReviews"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-code-reviews))
 (common-lisp:progn
  (common-lisp:defun list-recommendation-feedback
@@ -3867,7 +3867,7 @@
                                 aws-sdk/generator/operation::input
                                 'code-review-arn))))
         "ListRecommendationFeedback"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-recommendation-feedback))
 (common-lisp:progn
  (common-lisp:defun list-recommendations
@@ -3890,7 +3890,7 @@
                                 aws-sdk/generator/operation::input
                                 'code-review-arn))))
         "ListRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-recommendations))
 (common-lisp:progn
  (common-lisp:defun list-repository-associations
@@ -3910,7 +3910,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codeguru-reviewer-request aws-sdk/generator/operation::input "GET"
         "/associations" "ListRepositoryAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-repository-associations))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -3932,7 +3932,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-recommendation-feedback
@@ -3951,7 +3951,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'codeguru-reviewer-request aws-sdk/generator/operation::input "PUT"
         "/feedback" "PutRecommendationFeedback"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-recommendation-feedback))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3973,7 +3973,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3995,5 +3995,5 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))

@@ -1427,7 +1427,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchDeleteAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'batch-delete-attributes))
 (common-lisp:progn
  (common-lisp:defun batch-put-attributes
@@ -1444,7 +1444,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchPutAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'batch-put-attributes))
 (common-lisp:progn
  (common-lisp:defun create-domain
@@ -1461,7 +1461,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'create-domain))
 (common-lisp:progn
  (common-lisp:defun delete-attributes
@@ -1480,7 +1480,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-attributes))
 (common-lisp:progn
  (common-lisp:defun delete-domain
@@ -1497,7 +1497,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-domain))
 (common-lisp:progn
  (common-lisp:defun domain-metadata
@@ -1514,7 +1514,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DomainMetadata"))
-      common-lisp:nil "DomainMetadataResult" *error-map*)))
+      common-lisp:nil "DomainMetadataResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'domain-metadata))
 (common-lisp:progn
  (common-lisp:defun get-attributes
@@ -1534,7 +1534,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAttributes"))
-      common-lisp:nil "GetAttributesResult" *error-map*)))
+      common-lisp:nil "GetAttributesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-attributes))
 (common-lisp:progn
  (common-lisp:defun list-domains
@@ -1552,7 +1552,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDomains"))
-      common-lisp:nil "ListDomainsResult" *error-map*)))
+      common-lisp:nil "ListDomainsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-domains))
 (common-lisp:progn
  (common-lisp:defun put-attributes
@@ -1571,7 +1571,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'put-attributes))
 (common-lisp:progn
  (common-lisp:defun select
@@ -1589,5 +1589,5 @@
        (aws-sdk/generator/shape:make-request-with-input 'sdb-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "Select"))
-      common-lisp:nil "SelectResult" *error-map*)))
+      common-lisp:nil "SelectResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'select))

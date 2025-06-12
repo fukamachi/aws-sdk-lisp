@@ -12029,7 +12029,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "AssociatePhoneNumbersWithVoiceConnector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-phone-numbers-with-voice-connector))
 (common-lisp:progn
  (common-lisp:defun associate-phone-numbers-with-voice-connector-group
@@ -12056,7 +12056,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-group-id))))
         "AssociatePhoneNumbersWithVoiceConnectorGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-phone-numbers-with-voice-connector-group))
 (common-lisp:progn
  (common-lisp:defun batch-delete-phone-number
@@ -12073,7 +12073,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "POST"
         "/phone-numbers?operation=batch-delete" "BatchDeletePhoneNumber"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-delete-phone-number))
 (common-lisp:progn
  (common-lisp:defun batch-update-phone-number
@@ -12091,7 +12091,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "POST"
         "/phone-numbers?operation=batch-update" "BatchUpdatePhoneNumber"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-update-phone-number))
 (common-lisp:progn
  (common-lisp:defun create-phone-number-order
@@ -12109,7 +12109,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "POST"
         "/phone-number-orders" "CreatePhoneNumberOrder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-phone-number-order))
 (common-lisp:progn
  (common-lisp:defun create-proxy-session
@@ -12138,7 +12138,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "CreateProxySession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-proxy-session))
 (common-lisp:progn
  (common-lisp:defun create-sip-media-application
@@ -12155,7 +12155,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "POST"
         "/sip-media-applications" "CreateSipMediaApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-sip-media-application))
 (common-lisp:progn
  (common-lisp:defun create-sip-media-application-call
@@ -12182,7 +12182,7 @@
                                 aws-sdk/generator/operation::input
                                 'sip-media-application-id))))
         "CreateSipMediaApplicationCall"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-sip-media-application-call))
 (common-lisp:progn
  (common-lisp:defun create-sip-rule
@@ -12201,7 +12201,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "POST"
         "/sip-rules" "CreateSipRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-sip-rule))
 (common-lisp:progn
  (common-lisp:defun create-voice-connector
@@ -12218,7 +12218,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "POST"
         "/voice-connectors" "CreateVoiceConnector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-voice-connector))
 (common-lisp:progn
  (common-lisp:defun create-voice-connector-group
@@ -12235,7 +12235,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "POST"
         "/voice-connector-groups" "CreateVoiceConnectorGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-voice-connector-group))
 (common-lisp:progn
  (common-lisp:defun create-voice-profile
@@ -12251,7 +12251,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "POST"
         "/voice-profiles" "CreateVoiceProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-voice-profile))
 (common-lisp:progn
  (common-lisp:defun create-voice-profile-domain
@@ -12272,7 +12272,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "POST"
         "/voice-profile-domains" "CreateVoiceProfileDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-voice-profile-domain))
 (common-lisp:progn
  (common-lisp:defun delete-phone-number
@@ -12294,7 +12294,7 @@
                                 aws-sdk/generator/operation::input
                                 'phone-number-id))))
         "DeletePhoneNumber"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-phone-number))
 (common-lisp:progn
  (common-lisp:defun delete-proxy-session
@@ -12322,7 +12322,7 @@
                                 aws-sdk/generator/operation::input
                                 'proxy-session-id))))
         "DeleteProxySession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-proxy-session))
 (common-lisp:progn
  (common-lisp:defun delete-sip-media-application
@@ -12345,7 +12345,7 @@
                                 aws-sdk/generator/operation::input
                                 'sip-media-application-id))))
         "DeleteSipMediaApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-sip-media-application))
 (common-lisp:progn
  (common-lisp:defun delete-sip-rule
@@ -12367,7 +12367,7 @@
                                 aws-sdk/generator/operation::input
                                 'sip-rule-id))))
         "DeleteSipRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-sip-rule))
 (common-lisp:progn
  (common-lisp:defun delete-voice-connector
@@ -12389,7 +12389,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "DeleteVoiceConnector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-voice-connector))
 (common-lisp:progn
  (common-lisp:defun delete-voice-connector-emergency-calling-configuration
@@ -12413,7 +12413,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "DeleteVoiceConnectorEmergencyCallingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-voice-connector-emergency-calling-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-voice-connector-group
@@ -12436,7 +12436,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-group-id))))
         "DeleteVoiceConnectorGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-voice-connector-group))
 (common-lisp:progn
  (common-lisp:defun delete-voice-connector-origination
@@ -12460,7 +12460,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "DeleteVoiceConnectorOrigination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-voice-connector-origination))
 (common-lisp:progn
  (common-lisp:defun delete-voice-connector-proxy
@@ -12484,7 +12484,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "DeleteVoiceConnectorProxy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-voice-connector-proxy))
 (common-lisp:progn
  (common-lisp:defun delete-voice-connector-streaming-configuration
@@ -12508,7 +12508,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "DeleteVoiceConnectorStreamingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-voice-connector-streaming-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-voice-connector-termination
@@ -12532,7 +12532,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "DeleteVoiceConnectorTermination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-voice-connector-termination))
 (common-lisp:progn
  (common-lisp:defun delete-voice-connector-termination-credentials
@@ -12556,7 +12556,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "DeleteVoiceConnectorTerminationCredentials"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-voice-connector-termination-credentials))
 (common-lisp:progn
  (common-lisp:defun delete-voice-profile
@@ -12578,7 +12578,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-profile-id))))
         "DeleteVoiceProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-voice-profile))
 (common-lisp:progn
  (common-lisp:defun delete-voice-profile-domain
@@ -12601,7 +12601,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-profile-domain-id))))
         "DeleteVoiceProfileDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-voice-profile-domain))
 (common-lisp:progn
  (common-lisp:defun disassociate-phone-numbers-from-voice-connector
@@ -12626,7 +12626,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "DisassociatePhoneNumbersFromVoiceConnector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-phone-numbers-from-voice-connector))
 (common-lisp:progn
  (common-lisp:defun disassociate-phone-numbers-from-voice-connector-group
@@ -12652,7 +12652,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-group-id))))
         "DisassociatePhoneNumbersFromVoiceConnectorGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-phone-numbers-from-voice-connector-group))
 (common-lisp:progn
  (common-lisp:defun get-global-settings ()
@@ -12682,7 +12682,7 @@
                                 aws-sdk/generator/operation::input
                                 'phone-number-id))))
         "GetPhoneNumber"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-phone-number))
 (common-lisp:progn
  (common-lisp:defun get-phone-number-order
@@ -12704,7 +12704,7 @@
                                 aws-sdk/generator/operation::input
                                 'phone-number-order-id))))
         "GetPhoneNumberOrder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-phone-number-order))
 (common-lisp:progn
  (common-lisp:defun get-phone-number-settings ()
@@ -12741,7 +12741,7 @@
                                 aws-sdk/generator/operation::input
                                 'proxy-session-id))))
         "GetProxySession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-proxy-session))
 (common-lisp:progn
  (common-lisp:defun get-sip-media-application
@@ -12764,7 +12764,7 @@
                                 aws-sdk/generator/operation::input
                                 'sip-media-application-id))))
         "GetSipMediaApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sip-media-application))
 (common-lisp:progn
  (common-lisp:defun get-sip-media-application-alexa-skill-configuration
@@ -12788,7 +12788,7 @@
                                 aws-sdk/generator/operation::input
                                 'sip-media-application-id))))
         "GetSipMediaApplicationAlexaSkillConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sip-media-application-alexa-skill-configuration))
 (common-lisp:progn
  (common-lisp:defun get-sip-media-application-logging-configuration
@@ -12812,7 +12812,7 @@
                                 aws-sdk/generator/operation::input
                                 'sip-media-application-id))))
         "GetSipMediaApplicationLoggingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sip-media-application-logging-configuration))
 (common-lisp:progn
  (common-lisp:defun get-sip-rule
@@ -12834,7 +12834,7 @@
                                 aws-sdk/generator/operation::input
                                 'sip-rule-id))))
         "GetSipRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sip-rule))
 (common-lisp:progn
  (common-lisp:defun get-speaker-search-task
@@ -12863,7 +12863,7 @@
                                 aws-sdk/generator/operation::input
                                 'speaker-search-task-id))))
         "GetSpeakerSearchTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-speaker-search-task))
 (common-lisp:progn
  (common-lisp:defun get-voice-connector
@@ -12885,7 +12885,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "GetVoiceConnector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-voice-connector))
 (common-lisp:progn
  (common-lisp:defun get-voice-connector-emergency-calling-configuration
@@ -12909,7 +12909,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "GetVoiceConnectorEmergencyCallingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-voice-connector-emergency-calling-configuration))
 (common-lisp:progn
  (common-lisp:defun get-voice-connector-group
@@ -12932,7 +12932,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-group-id))))
         "GetVoiceConnectorGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-voice-connector-group))
 (common-lisp:progn
  (common-lisp:defun get-voice-connector-logging-configuration
@@ -12956,7 +12956,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "GetVoiceConnectorLoggingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-voice-connector-logging-configuration))
 (common-lisp:progn
  (common-lisp:defun get-voice-connector-origination
@@ -12980,7 +12980,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "GetVoiceConnectorOrigination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-voice-connector-origination))
 (common-lisp:progn
  (common-lisp:defun get-voice-connector-proxy
@@ -13004,7 +13004,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "GetVoiceConnectorProxy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-voice-connector-proxy))
 (common-lisp:progn
  (common-lisp:defun get-voice-connector-streaming-configuration
@@ -13028,7 +13028,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "GetVoiceConnectorStreamingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-voice-connector-streaming-configuration))
 (common-lisp:progn
  (common-lisp:defun get-voice-connector-termination
@@ -13052,7 +13052,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "GetVoiceConnectorTermination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-voice-connector-termination))
 (common-lisp:progn
  (common-lisp:defun get-voice-connector-termination-health
@@ -13076,7 +13076,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "GetVoiceConnectorTerminationHealth"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-voice-connector-termination-health))
 (common-lisp:progn
  (common-lisp:defun get-voice-profile
@@ -13098,7 +13098,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-profile-id))))
         "GetVoiceProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-voice-profile))
 (common-lisp:progn
  (common-lisp:defun get-voice-profile-domain
@@ -13120,7 +13120,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-profile-domain-id))))
         "GetVoiceProfileDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-voice-profile-domain))
 (common-lisp:progn
  (common-lisp:defun get-voice-tone-analysis-task
@@ -13151,7 +13151,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-tone-analysis-task-id))))
         "GetVoiceToneAnalysisTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-voice-tone-analysis-task))
 (common-lisp:progn
  (common-lisp:defun list-available-voice-connector-regions ()
@@ -13176,7 +13176,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "GET"
         "/phone-number-orders" "ListPhoneNumberOrders"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-phone-number-orders))
 (common-lisp:progn
  (common-lisp:defun list-phone-numbers
@@ -13195,7 +13195,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "GET"
         "/phone-numbers" "ListPhoneNumbers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-phone-numbers))
 (common-lisp:progn
  (common-lisp:defun list-proxy-sessions
@@ -13220,7 +13220,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "ListProxySessions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-proxy-sessions))
 (common-lisp:progn
  (common-lisp:defun list-sip-media-applications
@@ -13237,7 +13237,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "GET"
         "/sip-media-applications" "ListSipMediaApplications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-sip-media-applications))
 (common-lisp:progn
  (common-lisp:defun list-sip-rules
@@ -13255,7 +13255,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "GET"
         "/sip-rules" "ListSipRules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-sip-rules))
 (common-lisp:progn
  (common-lisp:defun list-supported-phone-number-countries
@@ -13272,7 +13272,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "GET"
         "/phone-number-countries" "ListSupportedPhoneNumberCountries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-supported-phone-number-countries))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -13288,7 +13288,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "GET"
         "/tags" "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-voice-connector-groups
@@ -13305,7 +13305,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "GET"
         "/voice-connector-groups" "ListVoiceConnectorGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-voice-connector-groups))
 (common-lisp:progn
  (common-lisp:defun list-voice-connector-termination-credentials
@@ -13329,7 +13329,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "ListVoiceConnectorTerminationCredentials"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-voice-connector-termination-credentials))
 (common-lisp:progn
  (common-lisp:defun list-voice-connectors
@@ -13345,7 +13345,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "GET"
         "/voice-connectors" "ListVoiceConnectors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-voice-connectors))
 (common-lisp:progn
  (common-lisp:defun list-voice-profile-domains
@@ -13362,7 +13362,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "GET"
         "/voice-profile-domains" "ListVoiceProfileDomains"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-voice-profile-domains))
 (common-lisp:progn
  (common-lisp:defun list-voice-profiles
@@ -13380,7 +13380,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "GET"
         "/voice-profiles" "ListVoiceProfiles"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-voice-profiles))
 (common-lisp:progn
  (common-lisp:defun put-sip-media-application-alexa-skill-configuration
@@ -13407,7 +13407,7 @@
                                 aws-sdk/generator/operation::input
                                 'sip-media-application-id))))
         "PutSipMediaApplicationAlexaSkillConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-sip-media-application-alexa-skill-configuration))
 (common-lisp:progn
  (common-lisp:defun put-sip-media-application-logging-configuration
@@ -13434,7 +13434,7 @@
                                 aws-sdk/generator/operation::input
                                 'sip-media-application-id))))
         "PutSipMediaApplicationLoggingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-sip-media-application-logging-configuration))
 (common-lisp:progn
  (common-lisp:defun put-voice-connector-emergency-calling-configuration
@@ -13460,7 +13460,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "PutVoiceConnectorEmergencyCallingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-voice-connector-emergency-calling-configuration))
 (common-lisp:progn
  (common-lisp:defun put-voice-connector-logging-configuration
@@ -13485,7 +13485,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "PutVoiceConnectorLoggingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-voice-connector-logging-configuration))
 (common-lisp:progn
  (common-lisp:defun put-voice-connector-origination
@@ -13509,7 +13509,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "PutVoiceConnectorOrigination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-voice-connector-origination))
 (common-lisp:progn
  (common-lisp:defun put-voice-connector-proxy
@@ -13537,7 +13537,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "PutVoiceConnectorProxy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-voice-connector-proxy))
 (common-lisp:progn
  (common-lisp:defun put-voice-connector-streaming-configuration
@@ -13563,7 +13563,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "PutVoiceConnectorStreamingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-voice-connector-streaming-configuration))
 (common-lisp:progn
  (common-lisp:defun put-voice-connector-termination
@@ -13587,7 +13587,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "PutVoiceConnectorTermination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-voice-connector-termination))
 (common-lisp:progn
  (common-lisp:defun put-voice-connector-termination-credentials
@@ -13611,7 +13611,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "PutVoiceConnectorTerminationCredentials"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-voice-connector-termination-credentials))
 (common-lisp:progn
  (common-lisp:defun restore-phone-number
@@ -13634,7 +13634,7 @@
                                 aws-sdk/generator/operation::input
                                 'phone-number-id))))
         "RestorePhoneNumber"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'restore-phone-number))
 (common-lisp:progn
  (common-lisp:defun search-available-phone-numbers
@@ -13654,7 +13654,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "GET"
         "/search?type=phone-numbers" "SearchAvailablePhoneNumbers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-available-phone-numbers))
 (common-lisp:progn
  (common-lisp:defun start-speaker-search-task
@@ -13681,7 +13681,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "StartSpeakerSearchTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-speaker-search-task))
 (common-lisp:progn
  (common-lisp:defun start-voice-tone-analysis-task
@@ -13708,7 +13708,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "StartVoiceToneAnalysisTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-voice-tone-analysis-task))
 (common-lisp:progn
  (common-lisp:defun stop-speaker-search-task
@@ -13737,7 +13737,7 @@
                                 aws-sdk/generator/operation::input
                                 'speaker-search-task-id))))
         "StopSpeakerSearchTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-speaker-search-task))
 (common-lisp:progn
  (common-lisp:defun stop-voice-tone-analysis-task
@@ -13767,7 +13767,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-tone-analysis-task-id))))
         "StopVoiceToneAnalysisTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-voice-tone-analysis-task))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -13783,7 +13783,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "POST"
         "/tags?operation=tag-resource" "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -13799,7 +13799,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "POST"
         "/tags?operation=untag-resource" "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-global-settings
@@ -13815,7 +13815,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "PUT"
         "/settings" "UpdateGlobalSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-global-settings))
 (common-lisp:progn
  (common-lisp:defun update-phone-number
@@ -13839,7 +13839,7 @@
                                 aws-sdk/generator/operation::input
                                 'phone-number-id))))
         "UpdatePhoneNumber"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-phone-number))
 (common-lisp:progn
  (common-lisp:defun update-phone-number-settings
@@ -13856,7 +13856,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "PUT"
         "/settings/phone-number" "UpdatePhoneNumberSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-phone-number-settings))
 (common-lisp:progn
  (common-lisp:defun update-proxy-session
@@ -13886,7 +13886,7 @@
                                 aws-sdk/generator/operation::input
                                 'proxy-session-id))))
         "UpdateProxySession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-proxy-session))
 (common-lisp:progn
  (common-lisp:defun update-sip-media-application
@@ -13910,7 +13910,7 @@
                                 aws-sdk/generator/operation::input
                                 'sip-media-application-id))))
         "UpdateSipMediaApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-sip-media-application))
 (common-lisp:progn
  (common-lisp:defun update-sip-media-application-call
@@ -13940,7 +13940,7 @@
                                 aws-sdk/generator/operation::input
                                 'transaction-id))))
         "UpdateSipMediaApplicationCall"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-sip-media-application-call))
 (common-lisp:progn
  (common-lisp:defun update-sip-rule
@@ -13964,7 +13964,7 @@
                                 aws-sdk/generator/operation::input
                                 'sip-rule-id))))
         "UpdateSipRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-sip-rule))
 (common-lisp:progn
  (common-lisp:defun update-voice-connector
@@ -13988,7 +13988,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-id))))
         "UpdateVoiceConnector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-voice-connector))
 (common-lisp:progn
  (common-lisp:defun update-voice-connector-group
@@ -14014,7 +14014,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-connector-group-id))))
         "UpdateVoiceConnectorGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-voice-connector-group))
 (common-lisp:progn
  (common-lisp:defun update-voice-profile
@@ -14037,7 +14037,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-profile-id))))
         "UpdateVoiceProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-voice-profile))
 (common-lisp:progn
  (common-lisp:defun update-voice-profile-domain
@@ -14061,7 +14061,7 @@
                                 aws-sdk/generator/operation::input
                                 'voice-profile-domain-id))))
         "UpdateVoiceProfileDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-voice-profile-domain))
 (common-lisp:progn
  (common-lisp:defun validate-e911address
@@ -14080,5 +14080,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-voice-request aws-sdk/generator/operation::input "POST"
         "/emergency-calling/address" "ValidateE911Address"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'validate-e911address))

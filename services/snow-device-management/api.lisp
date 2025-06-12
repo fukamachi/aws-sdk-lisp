@@ -2580,7 +2580,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'task-id))))
         "CancelTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-task))
 (common-lisp:progn
  (common-lisp:defun create-task
@@ -2598,7 +2598,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'snow-device-management-request aws-sdk/generator/operation::input
         "POST" "/task" "CreateTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-task))
 (common-lisp:progn
  (common-lisp:defun describe-device
@@ -2621,7 +2621,7 @@
                                 aws-sdk/generator/operation::input
                                 'managed-device-id))))
         "DescribeDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-device))
 (common-lisp:progn
  (common-lisp:defun describe-device-ec2instances
@@ -2645,7 +2645,7 @@
                                 aws-sdk/generator/operation::input
                                 'managed-device-id))))
         "DescribeDeviceEc2Instances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-device-ec2instances))
 (common-lisp:progn
  (common-lisp:defun describe-execution
@@ -2671,7 +2671,7 @@
                                 aws-sdk/generator/operation::input
                                 'managed-device-id))))
         "DescribeExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-execution))
 (common-lisp:progn
  (common-lisp:defun describe-task
@@ -2693,7 +2693,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'task-id))))
         "DescribeTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-task))
 (common-lisp:progn
  (common-lisp:defun list-device-resources
@@ -2718,7 +2718,7 @@
                                 aws-sdk/generator/operation::input
                                 'managed-device-id))))
         "ListDeviceResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-device-resources))
 (common-lisp:progn
  (common-lisp:defun list-devices
@@ -2734,7 +2734,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'snow-device-management-request aws-sdk/generator/operation::input
         "GET" "/managed-devices" "ListDevices"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-devices))
 (common-lisp:progn
  (common-lisp:defun list-executions
@@ -2751,7 +2751,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'snow-device-management-request aws-sdk/generator/operation::input
         "GET" "/executions" "ListExecutions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-executions))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -2774,7 +2774,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-tasks
@@ -2790,7 +2790,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'snow-device-management-request aws-sdk/generator/operation::input
         "GET" "/tasks" "ListTasks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tasks))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -2813,7 +2813,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -2836,5 +2836,5 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))

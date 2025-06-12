@@ -5102,7 +5102,11 @@
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input create-app-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'create-application-request)))
+                           'create-application-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input create-app-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-app-response common-lisp:nil
                        ((application-response :initarg :application-response
@@ -5139,7 +5143,11 @@
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input create-app-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'application-response)))
+                           'application-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input create-app-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-application-request common-lisp:nil
                        ((name :initarg :name :initform
@@ -5240,7 +5248,13 @@
                          (aws-sdk/generator/shape::input
                           create-campaign-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'write-campaign-request)))
+                           'write-campaign-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-campaign-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-campaign-response common-lisp:nil
                        ((campaign-response :initarg :campaign-response
@@ -5280,7 +5294,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-campaign-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'campaign-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'campaign-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-campaign-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-email-template-request common-lisp:nil
                        ((email-template-request :initarg
@@ -5332,7 +5352,13 @@
                          (aws-sdk/generator/shape::input
                           create-email-template-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'email-template-request)))
+                           'email-template-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-email-template-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-email-template-response common-lisp:nil
                        ((create-template-message-body :initarg
@@ -5378,7 +5404,13 @@
                          (aws-sdk/generator/shape::input
                           create-email-template-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'create-template-message-body)))
+                           'create-template-message-body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-email-template-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-export-job-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -5426,7 +5458,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-export-job-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'export-job-request)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'export-job-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-export-job-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-export-job-response common-lisp:nil
                        ((export-job-response :initarg :export-job-response
@@ -5468,7 +5506,13 @@
                          (aws-sdk/generator/shape::input
                           create-export-job-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'export-job-response)))
+                           'export-job-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-export-job-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-import-job-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -5516,7 +5560,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-import-job-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'import-job-request)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'import-job-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-import-job-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-import-job-response common-lisp:nil
                        ((import-job-response :initarg :import-job-response
@@ -5558,7 +5608,13 @@
                          (aws-sdk/generator/shape::input
                           create-import-job-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'import-job-response)))
+                           'import-job-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-import-job-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-in-app-template-request common-lisp:nil
                        ((in-app-template-request :initarg
@@ -5610,7 +5666,13 @@
                          (aws-sdk/generator/shape::input
                           create-in-app-template-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'in-app-template-request)))
+                           'in-app-template-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-in-app-template-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-in-app-template-response common-lisp:nil
                        ((template-create-message-body :initarg
@@ -5656,7 +5718,13 @@
                          (aws-sdk/generator/shape::input
                           create-in-app-template-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'template-create-message-body)))
+                           'template-create-message-body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-in-app-template-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-journey-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -5707,7 +5775,13 @@
                          (aws-sdk/generator/shape::input
                           create-journey-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'write-journey-request)))
+                           'write-journey-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-journey-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-journey-response common-lisp:nil
                        ((journey-response :initarg :journey-response :initform
@@ -5746,7 +5820,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-journey-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'journey-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'journey-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-journey-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-push-template-request common-lisp:nil
                        ((push-notification-template-request :initarg
@@ -5797,7 +5877,13 @@
                          (aws-sdk/generator/shape::input
                           create-push-template-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'push-notification-template-request)))
+                           'push-notification-template-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-push-template-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-push-template-response common-lisp:nil
                        ((create-template-message-body :initarg
@@ -5843,7 +5929,13 @@
                          (aws-sdk/generator/shape::input
                           create-push-template-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'create-template-message-body)))
+                           'create-template-message-body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-push-template-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-recommender-configuration common-lisp:nil
                        ((attributes :initarg :attributes :initform
@@ -6048,7 +6140,13 @@
                          (aws-sdk/generator/shape::input
                           create-recommender-configuration-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'create-recommender-configuration)))
+                           'create-recommender-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-recommender-configuration-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-recommender-configuration-response
                        common-lisp:nil
@@ -6095,7 +6193,13 @@
                          (aws-sdk/generator/shape::input
                           create-recommender-configuration-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'recommender-configuration-response)))
+                           'recommender-configuration-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-recommender-configuration-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-segment-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -6146,7 +6250,13 @@
                          (aws-sdk/generator/shape::input
                           create-segment-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'write-segment-request)))
+                           'write-segment-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-segment-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-segment-response common-lisp:nil
                        ((segment-response :initarg :segment-response :initform
@@ -6185,7 +6295,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-segment-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'segment-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'segment-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-segment-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-sms-template-request common-lisp:nil
                        ((smstemplate-request :initarg :smstemplate-request
@@ -6233,7 +6349,13 @@
                          (aws-sdk/generator/shape::input
                           create-sms-template-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'smstemplate-request)))
+                           'smstemplate-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-sms-template-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-sms-template-response common-lisp:nil
                        ((create-template-message-body :initarg
@@ -6278,7 +6400,13 @@
                          (aws-sdk/generator/shape::input
                           create-sms-template-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'create-template-message-body)))
+                           'create-template-message-body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-sms-template-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-template-message-body common-lisp:nil
                        ((arn :initarg :arn :initform common-lisp:nil :type
@@ -6393,7 +6521,13 @@
                          (aws-sdk/generator/shape::input
                           create-voice-template-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'voice-template-request)))
+                           'voice-template-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-voice-template-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-voice-template-response common-lisp:nil
                        ((create-template-message-body :initarg
@@ -6439,7 +6573,13 @@
                          (aws-sdk/generator/shape::input
                           create-voice-template-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'create-template-message-body)))
+                           'create-template-message-body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-voice-template-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass custom-delivery-configuration common-lisp:nil
                        ((delivery-uri :initarg :delivery-uri :initform
@@ -7024,7 +7164,13 @@
                          (aws-sdk/generator/shape::input
                           delete-adm-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'admchannel-response)))
+                           'admchannel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-adm-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-apns-channel-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -7100,7 +7246,13 @@
                          (aws-sdk/generator/shape::input
                           delete-apns-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'apnschannel-response)))
+                           'apnschannel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-apns-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-apns-sandbox-channel-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -7179,7 +7331,13 @@
                          (aws-sdk/generator/shape::input
                           delete-apns-sandbox-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'apnssandbox-channel-response)))
+                           'apnssandbox-channel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-apns-sandbox-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-apns-voip-channel-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -7258,7 +7416,13 @@
                          (aws-sdk/generator/shape::input
                           delete-apns-voip-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'apnsvoip-channel-response)))
+                           'apnsvoip-channel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-apns-voip-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-apns-voip-sandbox-channel-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -7338,7 +7502,13 @@
                          (aws-sdk/generator/shape::input
                           delete-apns-voip-sandbox-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'apnsvoip-sandbox-channel-response)))
+                           'apnsvoip-sandbox-channel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-apns-voip-sandbox-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-app-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -7400,7 +7570,11 @@
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input delete-app-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'application-response)))
+                           'application-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input delete-app-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-baidu-channel-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -7478,7 +7652,13 @@
                          (aws-sdk/generator/shape::input
                           delete-baidu-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'baidu-channel-response)))
+                           'baidu-channel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-baidu-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-campaign-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -7555,7 +7735,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           delete-campaign-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'campaign-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'campaign-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-campaign-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-email-channel-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -7633,7 +7819,13 @@
                          (aws-sdk/generator/shape::input
                           delete-email-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'email-channel-response)))
+                           'email-channel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-email-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-email-template-request common-lisp:nil
                        ((template-name :initarg :template-name :initform
@@ -7711,7 +7903,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           delete-email-template-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-email-template-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-endpoint-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -7788,7 +7986,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           delete-endpoint-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'endpoint-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'endpoint-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-endpoint-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-event-stream-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -7859,7 +8063,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           delete-event-stream-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'event-stream)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'event-stream))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-event-stream-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-gcm-channel-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -7933,7 +8143,13 @@
                          (aws-sdk/generator/shape::input
                           delete-gcm-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'gcmchannel-response)))
+                           'gcmchannel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-gcm-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-in-app-template-request common-lisp:nil
                        ((template-name :initarg :template-name :initform
@@ -8011,7 +8227,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           delete-in-app-template-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-in-app-template-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-journey-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -8087,7 +8309,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           delete-journey-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'journey-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'journey-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-journey-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-push-template-request common-lisp:nil
                        ((template-name :initarg :template-name :initform
@@ -8164,7 +8392,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           delete-push-template-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-push-template-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-recommender-configuration-request common-lisp:nil
                        ((recommender-id :initarg :recommender-id :initform
@@ -8244,7 +8478,13 @@
                          (aws-sdk/generator/shape::input
                           delete-recommender-configuration-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'recommender-configuration-response)))
+                           'recommender-configuration-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-recommender-configuration-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-segment-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -8320,7 +8560,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           delete-segment-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'segment-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'segment-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-segment-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-sms-channel-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -8394,7 +8640,13 @@
                          (aws-sdk/generator/shape::input
                           delete-sms-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'smschannel-response)))
+                           'smschannel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-sms-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-sms-template-request common-lisp:nil
                        ((template-name :initarg :template-name :initform
@@ -8470,7 +8722,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           delete-sms-template-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-sms-template-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-user-endpoints-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -8551,7 +8809,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           delete-user-endpoints-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'endpoints-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'endpoints-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-user-endpoints-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-voice-channel-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -8629,7 +8893,13 @@
                          (aws-sdk/generator/shape::input
                           delete-voice-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'voice-channel-response)))
+                           'voice-channel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-voice-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-voice-template-request common-lisp:nil
                        ((template-name :initarg :template-name :initform
@@ -8707,7 +8977,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           delete-voice-template-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-voice-template-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:deftype delivery-status () 'common-lisp:string)
 (common-lisp:deftype dimension-type () 'common-lisp:string)
 (common-lisp:progn
@@ -12414,7 +12690,13 @@
                          (aws-sdk/generator/shape::input
                           get-adm-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'admchannel-response)))
+                           'admchannel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-adm-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-apns-channel-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -12489,7 +12771,13 @@
                          (aws-sdk/generator/shape::input
                           get-apns-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'apnschannel-response)))
+                           'apnschannel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-apns-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-apns-sandbox-channel-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -12568,7 +12856,13 @@
                          (aws-sdk/generator/shape::input
                           get-apns-sandbox-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'apnssandbox-channel-response)))
+                           'apnssandbox-channel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-apns-sandbox-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-apns-voip-channel-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -12647,7 +12941,13 @@
                          (aws-sdk/generator/shape::input
                           get-apns-voip-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'apnsvoip-channel-response)))
+                           'apnsvoip-channel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-apns-voip-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-apns-voip-sandbox-channel-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -12726,7 +13026,13 @@
                          (aws-sdk/generator/shape::input
                           get-apns-voip-sandbox-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'apnsvoip-sandbox-channel-response)))
+                           'apnsvoip-sandbox-channel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-apns-voip-sandbox-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-app-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -12786,7 +13092,11 @@
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input get-app-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'application-response)))
+                           'application-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input get-app-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-application-date-range-kpi-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -12897,7 +13207,13 @@
                          (aws-sdk/generator/shape::input
                           get-application-date-range-kpi-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'application-date-range-kpi-response)))
+                           'application-date-range-kpi-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-application-date-range-kpi-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-application-settings-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -12976,7 +13292,13 @@
                          (aws-sdk/generator/shape::input
                           get-application-settings-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'application-settings-resource)))
+                           'application-settings-resource))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-application-settings-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-apps-request common-lisp:nil
                        ((page-size :initarg :page-size :initform
@@ -13042,7 +13364,11 @@
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input get-apps-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'applications-response)))
+                           'applications-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input get-apps-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-baidu-channel-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -13119,7 +13445,13 @@
                          (aws-sdk/generator/shape::input
                           get-baidu-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'baidu-channel-response)))
+                           'baidu-channel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-baidu-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-campaign-activities-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -13212,7 +13544,13 @@
                          (aws-sdk/generator/shape::input
                           get-campaign-activities-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'activities-response)))
+                           'activities-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-campaign-activities-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-campaign-date-range-kpi-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -13329,7 +13667,13 @@
                          (aws-sdk/generator/shape::input
                           get-campaign-date-range-kpi-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'campaign-date-range-kpi-response)))
+                           'campaign-date-range-kpi-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-campaign-date-range-kpi-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-campaign-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -13400,7 +13744,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-campaign-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'campaign-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'campaign-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-campaign-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-campaign-version-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -13486,7 +13836,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-campaign-version-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'campaign-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'campaign-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-campaign-version-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-campaign-versions-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -13578,7 +13934,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-campaign-versions-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'campaigns-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'campaigns-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-campaign-versions-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-campaigns-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -13660,7 +14022,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-campaigns-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'campaigns-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'campaigns-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-campaigns-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-channels-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -13725,7 +14093,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-channels-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'channels-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'channels-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-channels-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-email-channel-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -13802,7 +14176,13 @@
                          (aws-sdk/generator/shape::input
                           get-email-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'email-channel-response)))
+                           'email-channel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-email-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-email-template-request common-lisp:nil
                        ((template-name :initarg :template-name :initform
@@ -13884,7 +14264,13 @@
                          (aws-sdk/generator/shape::input
                           get-email-template-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'email-template-response)))
+                           'email-template-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-email-template-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-endpoint-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -13955,7 +14341,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-endpoint-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'endpoint-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'endpoint-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-endpoint-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-event-stream-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -14025,7 +14417,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-event-stream-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'event-stream)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'event-stream))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-event-stream-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-export-job-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -14102,7 +14500,13 @@
                          (aws-sdk/generator/shape::input
                           get-export-job-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'export-job-response)))
+                           'export-job-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-export-job-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-export-jobs-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -14187,7 +14591,13 @@
                          (aws-sdk/generator/shape::input
                           get-export-jobs-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'export-jobs-response)))
+                           'export-jobs-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-export-jobs-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-gcm-channel-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -14259,7 +14669,13 @@
                          (aws-sdk/generator/shape::input
                           get-gcm-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'gcmchannel-response)))
+                           'gcmchannel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-gcm-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-import-job-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -14336,7 +14752,13 @@
                          (aws-sdk/generator/shape::input
                           get-import-job-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'import-job-response)))
+                           'import-job-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-import-job-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-import-jobs-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -14421,7 +14843,13 @@
                          (aws-sdk/generator/shape::input
                           get-import-jobs-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'import-jobs-response)))
+                           'import-jobs-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-import-jobs-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-in-app-messages-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -14504,7 +14932,13 @@
                          (aws-sdk/generator/shape::input
                           get-in-app-messages-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'in-app-messages-response)))
+                           'in-app-messages-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-in-app-messages-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-in-app-template-request common-lisp:nil
                        ((template-name :initarg :template-name :initform
@@ -14586,7 +15020,13 @@
                          (aws-sdk/generator/shape::input
                           get-in-app-template-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'in-app-template-response)))
+                           'in-app-template-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-in-app-template-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-journey-date-range-kpi-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -14703,7 +15143,13 @@
                          (aws-sdk/generator/shape::input
                           get-journey-date-range-kpi-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'journey-date-range-kpi-response)))
+                           'journey-date-range-kpi-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-journey-date-range-kpi-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-journey-execution-activity-metrics-request
                        common-lisp:nil
@@ -14812,7 +15258,13 @@
                          (aws-sdk/generator/shape::input
                           get-journey-execution-activity-metrics-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'journey-execution-activity-metrics-response)))
+                           'journey-execution-activity-metrics-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-journey-execution-activity-metrics-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-journey-execution-metrics-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -14909,7 +15361,13 @@
                          (aws-sdk/generator/shape::input
                           get-journey-execution-metrics-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'journey-execution-metrics-response)))
+                           'journey-execution-metrics-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-journey-execution-metrics-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-journey-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -14973,7 +15431,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input get-journey-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'journey-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'journey-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input get-journey-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-journey-run-execution-activity-metrics-request
                        common-lisp:nil
@@ -15090,7 +15552,13 @@
                          (aws-sdk/generator/shape::input
                           get-journey-run-execution-activity-metrics-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'journey-run-execution-activity-metrics-response)))
+                           'journey-run-execution-activity-metrics-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-journey-run-execution-activity-metrics-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-journey-run-execution-metrics-request
                        common-lisp:nil
@@ -15195,7 +15663,13 @@
                          (aws-sdk/generator/shape::input
                           get-journey-run-execution-metrics-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'journey-run-execution-metrics-response)))
+                           'journey-run-execution-metrics-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-journey-run-execution-metrics-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-journey-runs-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -15288,7 +15762,13 @@
                          (aws-sdk/generator/shape::input
                           get-journey-runs-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'journey-runs-response)))
+                           'journey-runs-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-journey-runs-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-push-template-request common-lisp:nil
                        ((template-name :initarg :template-name :initform
@@ -15370,7 +15850,13 @@
                          (aws-sdk/generator/shape::input
                           get-push-template-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'push-notification-template-response)))
+                           'push-notification-template-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-push-template-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-recommender-configuration-request common-lisp:nil
                        ((recommender-id :initarg :recommender-id :initform
@@ -15449,7 +15935,13 @@
                          (aws-sdk/generator/shape::input
                           get-recommender-configuration-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'recommender-configuration-response)))
+                           'recommender-configuration-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-recommender-configuration-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-recommender-configurations-request common-lisp:nil
                        ((page-size :initarg :page-size :initform
@@ -15534,7 +16026,13 @@
                          (aws-sdk/generator/shape::input
                           get-recommender-configurations-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'list-recommender-configurations-response)))
+                           'list-recommender-configurations-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-recommender-configurations-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-segment-export-jobs-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -15629,7 +16127,13 @@
                          (aws-sdk/generator/shape::input
                           get-segment-export-jobs-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'export-jobs-response)))
+                           'export-jobs-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-segment-export-jobs-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-segment-import-jobs-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -15724,7 +16228,13 @@
                          (aws-sdk/generator/shape::input
                           get-segment-import-jobs-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'import-jobs-response)))
+                           'import-jobs-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-segment-import-jobs-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-segment-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -15788,7 +16298,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input get-segment-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'segment-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'segment-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input get-segment-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-segment-version-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -15872,7 +16386,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-segment-version-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'segment-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'segment-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-segment-version-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-segment-versions-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -15963,7 +16483,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-segment-versions-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'segments-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'segments-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-segment-versions-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-segments-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -16039,7 +16565,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-segments-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'segments-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'segments-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-segments-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-sms-channel-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -16111,7 +16643,13 @@
                          (aws-sdk/generator/shape::input
                           get-sms-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'smschannel-response)))
+                           'smschannel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-sms-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-sms-template-request common-lisp:nil
                        ((template-name :initarg :template-name :initform
@@ -16191,7 +16729,13 @@
                          (aws-sdk/generator/shape::input
                           get-sms-template-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'smstemplate-response)))
+                           'smstemplate-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-sms-template-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-user-endpoints-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -16269,7 +16813,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-user-endpoints-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'endpoints-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'endpoints-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-user-endpoints-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-voice-channel-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -16346,7 +16896,13 @@
                          (aws-sdk/generator/shape::input
                           get-voice-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'voice-channel-response)))
+                           'voice-channel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-voice-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-voice-template-request common-lisp:nil
                        ((template-name :initarg :template-name :initform
@@ -16428,7 +16984,13 @@
                          (aws-sdk/generator/shape::input
                           get-voice-template-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'voice-template-response)))
+                           'voice-template-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-voice-template-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass holdout-activity common-lisp:nil
                        ((next-activity :initarg :next-activity :initform
@@ -19475,7 +20037,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           list-journeys-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'journeys-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'journeys-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-journeys-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-recommender-configurations-response common-lisp:nil
                        ((item :initarg :item :initform
@@ -19602,7 +20170,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           list-tags-for-resource-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'tags-model)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'tags-model))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-tags-for-resource-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-template-versions-request common-lisp:nil
                        ((next-token :initarg :next-token :initform
@@ -19698,7 +20272,13 @@
                          (aws-sdk/generator/shape::input
                           list-template-versions-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'template-versions-response)))
+                           'template-versions-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-template-versions-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-templates-request common-lisp:nil
                        ((next-token :initarg :next-token :initform
@@ -19785,7 +20365,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           list-templates-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'templates-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'templates-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-templates-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass message common-lisp:nil
                        ((action :initarg :action :initform common-lisp:nil
@@ -20964,7 +21550,13 @@
                          (aws-sdk/generator/shape::input
                           phone-number-validate-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'number-validate-request)))
+                           'number-validate-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          phone-number-validate-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass phone-number-validate-response common-lisp:nil
                        ((number-validate-response :initarg
@@ -21010,7 +21602,13 @@
                          (aws-sdk/generator/shape::input
                           phone-number-validate-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'number-validate-response)))
+                           'number-validate-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          phone-number-validate-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass public-endpoint common-lisp:nil
                        ((address :initarg :address :initform common-lisp:nil
@@ -21673,7 +22271,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           put-event-stream-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'write-event-stream)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'write-event-stream))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-event-stream-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass put-event-stream-response common-lisp:nil
                        ((event-stream :initarg :event-stream :initform
@@ -21712,7 +22316,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           put-event-stream-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'event-stream)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'event-stream))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-event-stream-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass put-events-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -21751,7 +22361,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input put-events-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'events-request)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'events-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input put-events-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass put-events-response common-lisp:nil
                        ((events-response :initarg :events-response :initform
@@ -21784,7 +22398,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input put-events-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'events-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'events-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input put-events-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass quiet-time common-lisp:nil
                        ((end :initarg :end :initform common-lisp:nil :type
@@ -22241,7 +22859,13 @@
                          (aws-sdk/generator/shape::input
                           remove-attributes-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'update-attributes-request)))
+                           'update-attributes-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          remove-attributes-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass remove-attributes-response common-lisp:nil
                        ((attributes-resource :initarg :attributes-resource
@@ -22283,7 +22907,13 @@
                          (aws-sdk/generator/shape::input
                           remove-attributes-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'attributes-resource)))
+                           'attributes-resource))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          remove-attributes-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass result-row common-lisp:nil
                        ((grouped-bys :initarg :grouped-bys :initform
@@ -24025,7 +24655,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           send-messages-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-request)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          send-messages-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass send-messages-response common-lisp:nil
                        ((message-response :initarg :message-response :initform
@@ -24064,7 +24700,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           send-messages-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          send-messages-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass send-otpmessage-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -24115,7 +24757,13 @@
                          (aws-sdk/generator/shape::input
                           send-otpmessage-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'send-otpmessage-request-parameters)))
+                           'send-otpmessage-request-parameters))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          send-otpmessage-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass send-otpmessage-request-parameters common-lisp:nil
                        ((allowed-attempts :initarg :allowed-attempts :initform
@@ -24334,7 +24982,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           send-otpmessage-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          send-otpmessage-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass send-users-message-request common-lisp:nil
                        ((context :initarg :context :initform common-lisp:nil
@@ -24555,7 +25209,13 @@
                          (aws-sdk/generator/shape::input
                           send-users-messages-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'send-users-message-request)))
+                           'send-users-message-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          send-users-messages-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass send-users-messages-response common-lisp:nil
                        ((send-users-message-response :initarg
@@ -24600,7 +25260,13 @@
                          (aws-sdk/generator/shape::input
                           send-users-messages-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'send-users-message-response)))
+                           'send-users-message-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          send-users-messages-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass session common-lisp:nil
                        ((duration :initarg :duration :initform common-lisp:nil
@@ -24969,7 +25635,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input tag-resource-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'tags-model)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'tags-model))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input tag-resource-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass tags-model common-lisp:nil
                        ((tags :initarg :tags :initform
@@ -25851,7 +26521,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-adm-channel-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'admchannel-request)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'admchannel-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-adm-channel-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-adm-channel-response common-lisp:nil
                        ((admchannel-response :initarg :admchannel-response
@@ -25893,7 +26569,13 @@
                          (aws-sdk/generator/shape::input
                           update-adm-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'admchannel-response)))
+                           'admchannel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-adm-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-apns-channel-request common-lisp:nil
                        ((apnschannel-request :initarg :apnschannel-request
@@ -25942,7 +26624,13 @@
                          (aws-sdk/generator/shape::input
                           update-apns-channel-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'apnschannel-request)))
+                           'apnschannel-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-apns-channel-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-apns-channel-response common-lisp:nil
                        ((apnschannel-response :initarg :apnschannel-response
@@ -25986,7 +26674,13 @@
                          (aws-sdk/generator/shape::input
                           update-apns-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'apnschannel-response)))
+                           'apnschannel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-apns-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-apns-sandbox-channel-request common-lisp:nil
                        ((apnssandbox-channel-request :initarg
@@ -26039,7 +26733,13 @@
                          (aws-sdk/generator/shape::input
                           update-apns-sandbox-channel-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'apnssandbox-channel-request)))
+                           'apnssandbox-channel-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-apns-sandbox-channel-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-apns-sandbox-channel-response common-lisp:nil
                        ((apnssandbox-channel-response :initarg
@@ -26085,7 +26785,13 @@
                          (aws-sdk/generator/shape::input
                           update-apns-sandbox-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'apnssandbox-channel-response)))
+                           'apnssandbox-channel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-apns-sandbox-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-apns-voip-channel-request common-lisp:nil
                        ((apnsvoip-channel-request :initarg
@@ -26138,7 +26844,13 @@
                          (aws-sdk/generator/shape::input
                           update-apns-voip-channel-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'apnsvoip-channel-request)))
+                           'apnsvoip-channel-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-apns-voip-channel-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-apns-voip-channel-response common-lisp:nil
                        ((apnsvoip-channel-response :initarg
@@ -26184,7 +26896,13 @@
                          (aws-sdk/generator/shape::input
                           update-apns-voip-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'apnsvoip-channel-response)))
+                           'apnsvoip-channel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-apns-voip-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-apns-voip-sandbox-channel-request common-lisp:nil
                        ((apnsvoip-sandbox-channel-request :initarg
@@ -26237,7 +26955,13 @@
                          (aws-sdk/generator/shape::input
                           update-apns-voip-sandbox-channel-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'apnsvoip-sandbox-channel-request)))
+                           'apnsvoip-sandbox-channel-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-apns-voip-sandbox-channel-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-apns-voip-sandbox-channel-response
                        common-lisp:nil
@@ -26284,7 +27008,13 @@
                          (aws-sdk/generator/shape::input
                           update-apns-voip-sandbox-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'apnsvoip-sandbox-channel-response)))
+                           'apnsvoip-sandbox-channel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-apns-voip-sandbox-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-application-settings-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -26337,7 +27067,13 @@
                          (aws-sdk/generator/shape::input
                           update-application-settings-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'write-application-settings-request)))
+                           'write-application-settings-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-application-settings-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-application-settings-response common-lisp:nil
                        ((application-settings-resource :initarg
@@ -26383,7 +27119,13 @@
                          (aws-sdk/generator/shape::input
                           update-application-settings-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'application-settings-resource)))
+                           'application-settings-resource))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-application-settings-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-attributes-request common-lisp:nil
                        ((blacklist :initarg :blacklist :initform
@@ -26474,7 +27216,13 @@
                          (aws-sdk/generator/shape::input
                           update-baidu-channel-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'baidu-channel-request)))
+                           'baidu-channel-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-baidu-channel-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-baidu-channel-response common-lisp:nil
                        ((baidu-channel-response :initarg
@@ -26520,7 +27268,13 @@
                          (aws-sdk/generator/shape::input
                           update-baidu-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'baidu-channel-response)))
+                           'baidu-channel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-baidu-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-campaign-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -26577,7 +27331,13 @@
                          (aws-sdk/generator/shape::input
                           update-campaign-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'write-campaign-request)))
+                           'write-campaign-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-campaign-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-campaign-response common-lisp:nil
                        ((campaign-response :initarg :campaign-response
@@ -26617,7 +27377,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-campaign-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'campaign-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'campaign-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-campaign-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-email-channel-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -26669,7 +27435,13 @@
                          (aws-sdk/generator/shape::input
                           update-email-channel-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'email-channel-request)))
+                           'email-channel-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-email-channel-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-email-channel-response common-lisp:nil
                        ((email-channel-response :initarg
@@ -26715,7 +27487,13 @@
                          (aws-sdk/generator/shape::input
                           update-email-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'email-channel-response)))
+                           'email-channel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-email-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-email-template-request common-lisp:nil
                        ((create-new-version :initarg :create-new-version
@@ -26780,7 +27558,13 @@
                          (aws-sdk/generator/shape::input
                           update-email-template-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'email-template-request)))
+                           'email-template-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-email-template-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-email-template-response common-lisp:nil
                        ((message-body :initarg :message-body :initform
@@ -26820,7 +27604,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-email-template-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-email-template-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-endpoint-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -26872,7 +27662,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-endpoint-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'endpoint-request)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'endpoint-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-endpoint-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-endpoint-response common-lisp:nil
                        ((message-body :initarg :message-body :initform
@@ -26910,7 +27706,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-endpoint-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-endpoint-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-endpoints-batch-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -26963,7 +27765,13 @@
                          (aws-sdk/generator/shape::input
                           update-endpoints-batch-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'endpoint-batch-request)))
+                           'endpoint-batch-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-endpoints-batch-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-endpoints-batch-response common-lisp:nil
                        ((message-body :initarg :message-body :initform
@@ -27003,7 +27811,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-endpoints-batch-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-endpoints-batch-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-gcm-channel-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -27051,7 +27865,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-gcm-channel-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'gcmchannel-request)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'gcmchannel-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-gcm-channel-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-gcm-channel-response common-lisp:nil
                        ((gcmchannel-response :initarg :gcmchannel-response
@@ -27093,7 +27913,13 @@
                          (aws-sdk/generator/shape::input
                           update-gcm-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'gcmchannel-response)))
+                           'gcmchannel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-gcm-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-in-app-template-request common-lisp:nil
                        ((create-new-version :initarg :create-new-version
@@ -27158,7 +27984,13 @@
                          (aws-sdk/generator/shape::input
                           update-in-app-template-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'in-app-template-request)))
+                           'in-app-template-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-in-app-template-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-in-app-template-response common-lisp:nil
                        ((message-body :initarg :message-body :initform
@@ -27198,7 +28030,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-in-app-template-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-in-app-template-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-journey-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -27255,7 +28093,13 @@
                          (aws-sdk/generator/shape::input
                           update-journey-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'write-journey-request)))
+                           'write-journey-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-journey-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-journey-response common-lisp:nil
                        ((journey-response :initarg :journey-response :initform
@@ -27294,7 +28138,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-journey-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'journey-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'journey-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-journey-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-journey-state-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -27352,7 +28202,13 @@
                          (aws-sdk/generator/shape::input
                           update-journey-state-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'journey-state-request)))
+                           'journey-state-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-journey-state-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-journey-state-response common-lisp:nil
                        ((journey-response :initarg :journey-response :initform
@@ -27393,7 +28249,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-journey-state-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'journey-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'journey-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-journey-state-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-push-template-request common-lisp:nil
                        ((create-new-version :initarg :create-new-version
@@ -27457,7 +28319,13 @@
                          (aws-sdk/generator/shape::input
                           update-push-template-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'push-notification-template-request)))
+                           'push-notification-template-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-push-template-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-push-template-response common-lisp:nil
                        ((message-body :initarg :message-body :initform
@@ -27497,7 +28365,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-push-template-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-push-template-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-recommender-configuration common-lisp:nil
                        ((attributes :initarg :attributes :initform
@@ -27709,7 +28583,13 @@
                          (aws-sdk/generator/shape::input
                           update-recommender-configuration-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'update-recommender-configuration)))
+                           'update-recommender-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-recommender-configuration-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-recommender-configuration-response
                        common-lisp:nil
@@ -27756,7 +28636,13 @@
                          (aws-sdk/generator/shape::input
                           update-recommender-configuration-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'recommender-configuration-response)))
+                           'recommender-configuration-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-recommender-configuration-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-segment-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -27813,7 +28699,13 @@
                          (aws-sdk/generator/shape::input
                           update-segment-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'write-segment-request)))
+                           'write-segment-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-segment-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-segment-response common-lisp:nil
                        ((segment-response :initarg :segment-response :initform
@@ -27852,7 +28744,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-segment-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'segment-response)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'segment-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-segment-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-sms-channel-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -27900,7 +28798,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-sms-channel-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'smschannel-request)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'smschannel-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-sms-channel-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-sms-channel-response common-lisp:nil
                        ((smschannel-response :initarg :smschannel-response
@@ -27942,7 +28846,13 @@
                          (aws-sdk/generator/shape::input
                           update-sms-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'smschannel-response)))
+                           'smschannel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-sms-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-sms-template-request common-lisp:nil
                        ((create-new-version :initarg :create-new-version
@@ -28003,7 +28913,13 @@
                          (aws-sdk/generator/shape::input
                           update-sms-template-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'smstemplate-request)))
+                           'smstemplate-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-sms-template-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-sms-template-response common-lisp:nil
                        ((message-body :initarg :message-body :initform
@@ -28042,7 +28958,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-sms-template-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-sms-template-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-template-active-version-request common-lisp:nil
                        ((template-active-version-request :initarg
@@ -28100,7 +29022,13 @@
                          (aws-sdk/generator/shape::input
                           update-template-active-version-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'template-active-version-request)))
+                           'template-active-version-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-template-active-version-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-template-active-version-response common-lisp:nil
                        ((message-body :initarg :message-body :initform
@@ -28140,7 +29068,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-template-active-version-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-template-active-version-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-voice-channel-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -28192,7 +29126,13 @@
                          (aws-sdk/generator/shape::input
                           update-voice-channel-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'voice-channel-request)))
+                           'voice-channel-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-voice-channel-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-voice-channel-response common-lisp:nil
                        ((voice-channel-response :initarg
@@ -28238,7 +29178,13 @@
                          (aws-sdk/generator/shape::input
                           update-voice-channel-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'voice-channel-response)))
+                           'voice-channel-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-voice-channel-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-voice-template-request common-lisp:nil
                        ((create-new-version :initarg :create-new-version
@@ -28303,7 +29249,13 @@
                          (aws-sdk/generator/shape::input
                           update-voice-template-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'voice-template-request)))
+                           'voice-template-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-voice-template-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-voice-template-response common-lisp:nil
                        ((message-body :initarg :message-body :initform
@@ -28343,7 +29295,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-voice-template-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-voice-template-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass verification-response common-lisp:nil
                        ((valid :initarg :valid :initform common-lisp:nil :type
@@ -28431,7 +29389,13 @@
                          (aws-sdk/generator/shape::input
                           verify-otpmessage-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'verify-otpmessage-request-parameters)))
+                           'verify-otpmessage-request-parameters))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          verify-otpmessage-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass verify-otpmessage-request-parameters common-lisp:nil
                        ((destination-identity :initarg :destination-identity
@@ -28545,7 +29509,13 @@
                          (aws-sdk/generator/shape::input
                           verify-otpmessage-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'verification-response)))
+                           'verification-response))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          verify-otpmessage-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass voice-channel-request common-lisp:nil
                        ((enabled :initarg :enabled :initform common-lisp:nil
@@ -30756,7 +31726,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v1/apps"
                                                         "CreateApp"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-app))
 (common-lisp:progn
  (common-lisp:defun create-campaign
@@ -30784,7 +31754,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "CreateCampaign"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-campaign))
 (common-lisp:progn
  (common-lisp:defun create-email-template
@@ -30812,7 +31782,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "CreateEmailTemplate"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-email-template))
 (common-lisp:progn
  (common-lisp:defun create-export-job
@@ -30840,7 +31810,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "CreateExportJob"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-export-job))
 (common-lisp:progn
  (common-lisp:defun create-import-job
@@ -30868,7 +31838,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "CreateImportJob"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-import-job))
 (common-lisp:progn
  (common-lisp:defun create-in-app-template
@@ -30896,7 +31866,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "CreateInAppTemplate"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-in-app-template))
 (common-lisp:progn
  (common-lisp:defun create-journey
@@ -30924,7 +31894,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "CreateJourney"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-journey))
 (common-lisp:progn
  (common-lisp:defun create-push-template
@@ -30953,7 +31923,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "CreatePushTemplate"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-push-template))
 (common-lisp:progn
  (common-lisp:defun create-recommender-configuration
@@ -30973,7 +31943,7 @@
                                                         "POST"
                                                         "/v1/recommenders"
                                                         "CreateRecommenderConfiguration"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-recommender-configuration))
 (common-lisp:progn
  (common-lisp:defun create-segment
@@ -31001,7 +31971,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "CreateSegment"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-segment))
 (common-lisp:progn
  (common-lisp:defun create-sms-template
@@ -31029,7 +31999,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "CreateSmsTemplate"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-sms-template))
 (common-lisp:progn
  (common-lisp:defun create-voice-template
@@ -31057,7 +32027,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "CreateVoiceTemplate"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-voice-template))
 (common-lisp:progn
  (common-lisp:defun delete-adm-channel
@@ -31084,7 +32054,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "DeleteAdmChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-adm-channel))
 (common-lisp:progn
  (common-lisp:defun delete-apns-channel
@@ -31111,7 +32081,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "DeleteApnsChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-apns-channel))
 (common-lisp:progn
  (common-lisp:defun delete-apns-sandbox-channel
@@ -31139,7 +32109,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "DeleteApnsSandboxChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-apns-sandbox-channel))
 (common-lisp:progn
  (common-lisp:defun delete-apns-voip-channel
@@ -31166,7 +32136,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "DeleteApnsVoipChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-apns-voip-channel))
 (common-lisp:progn
  (common-lisp:defun delete-apns-voip-sandbox-channel
@@ -31194,7 +32164,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "DeleteApnsVoipSandboxChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-apns-voip-sandbox-channel))
 (common-lisp:progn
  (common-lisp:defun delete-app
@@ -31221,7 +32191,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "DeleteApp"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-app))
 (common-lisp:progn
  (common-lisp:defun delete-baidu-channel
@@ -31248,7 +32218,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "DeleteBaiduChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-baidu-channel))
 (common-lisp:progn
  (common-lisp:defun delete-campaign
@@ -31279,7 +32249,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'campaign-id))))
                                                         "DeleteCampaign"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-campaign))
 (common-lisp:progn
  (common-lisp:defun delete-email-channel
@@ -31306,7 +32276,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "DeleteEmailChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-email-channel))
 (common-lisp:progn
  (common-lisp:defun delete-email-template
@@ -31333,7 +32303,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "DeleteEmailTemplate"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-email-template))
 (common-lisp:progn
  (common-lisp:defun delete-endpoint
@@ -31364,7 +32334,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'endpoint-id))))
                                                         "DeleteEndpoint"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-endpoint))
 (common-lisp:progn
  (common-lisp:defun delete-event-stream
@@ -31391,7 +32361,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "DeleteEventStream"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-event-stream))
 (common-lisp:progn
  (common-lisp:defun delete-gcm-channel
@@ -31418,7 +32388,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "DeleteGcmChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-gcm-channel))
 (common-lisp:progn
  (common-lisp:defun delete-in-app-template
@@ -31445,7 +32415,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "DeleteInAppTemplate"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-in-app-template))
 (common-lisp:progn
  (common-lisp:defun delete-journey
@@ -31476,7 +32446,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'journey-id))))
                                                         "DeleteJourney"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-journey))
 (common-lisp:progn
  (common-lisp:defun delete-push-template
@@ -31503,7 +32473,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "DeletePushTemplate"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-push-template))
 (common-lisp:progn
  (common-lisp:defun delete-recommender-configuration
@@ -31531,7 +32501,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'recommender-id))))
                                                         "DeleteRecommenderConfiguration"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-recommender-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-segment
@@ -31562,7 +32532,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'segment-id))))
                                                         "DeleteSegment"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-segment))
 (common-lisp:progn
  (common-lisp:defun delete-sms-channel
@@ -31589,7 +32559,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "DeleteSmsChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-sms-channel))
 (common-lisp:progn
  (common-lisp:defun delete-sms-template
@@ -31616,7 +32586,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "DeleteSmsTemplate"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-sms-template))
 (common-lisp:progn
  (common-lisp:defun delete-user-endpoints
@@ -31647,7 +32617,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'user-id))))
                                                         "DeleteUserEndpoints"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-user-endpoints))
 (common-lisp:progn
  (common-lisp:defun delete-voice-channel
@@ -31674,7 +32644,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "DeleteVoiceChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-voice-channel))
 (common-lisp:progn
  (common-lisp:defun delete-voice-template
@@ -31701,7 +32671,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "DeleteVoiceTemplate"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-voice-template))
 (common-lisp:progn
  (common-lisp:defun get-adm-channel
@@ -31728,7 +32698,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "GetAdmChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-adm-channel))
 (common-lisp:progn
  (common-lisp:defun get-apns-channel
@@ -31755,7 +32725,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "GetApnsChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-apns-channel))
 (common-lisp:progn
  (common-lisp:defun get-apns-sandbox-channel
@@ -31782,7 +32752,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "GetApnsSandboxChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-apns-sandbox-channel))
 (common-lisp:progn
  (common-lisp:defun get-apns-voip-channel
@@ -31809,7 +32779,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "GetApnsVoipChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-apns-voip-channel))
 (common-lisp:progn
  (common-lisp:defun get-apns-voip-sandbox-channel
@@ -31837,7 +32807,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "GetApnsVoipSandboxChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-apns-voip-sandbox-channel))
 (common-lisp:progn
  (common-lisp:defun get-app
@@ -31864,7 +32834,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "GetApp"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-app))
 (common-lisp:progn
  (common-lisp:defun get-application-date-range-kpi
@@ -31899,7 +32869,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'kpi-name))))
                                                         "GetApplicationDateRangeKpi"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-application-date-range-kpi))
 (common-lisp:progn
  (common-lisp:defun get-application-settings
@@ -31926,7 +32896,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "GetApplicationSettings"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-application-settings))
 (common-lisp:progn
  (common-lisp:defun get-apps
@@ -31943,7 +32913,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/apps"
                                                         "GetApps"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-apps))
 (common-lisp:progn
  (common-lisp:defun get-baidu-channel
@@ -31970,7 +32940,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "GetBaiduChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-baidu-channel))
 (common-lisp:progn
  (common-lisp:defun get-campaign
@@ -32001,7 +32971,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'campaign-id))))
                                                         "GetCampaign"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-campaign))
 (common-lisp:progn
  (common-lisp:defun get-campaign-activities
@@ -32034,7 +33004,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'campaign-id))))
                                                         "GetCampaignActivities"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-campaign-activities))
 (common-lisp:progn
  (common-lisp:defun get-campaign-date-range-kpi
@@ -32073,7 +33043,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'kpi-name))))
                                                         "GetCampaignDateRangeKpi"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-campaign-date-range-kpi))
 (common-lisp:progn
  (common-lisp:defun get-campaign-version
@@ -32109,7 +33079,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'version))))
                                                         "GetCampaignVersion"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-campaign-version))
 (common-lisp:progn
  (common-lisp:defun get-campaign-versions
@@ -32142,7 +33112,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'campaign-id))))
                                                         "GetCampaignVersions"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-campaign-versions))
 (common-lisp:progn
  (common-lisp:defun get-campaigns
@@ -32169,7 +33139,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "GetCampaigns"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-campaigns))
 (common-lisp:progn
  (common-lisp:defun get-channels
@@ -32196,7 +33166,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "GetChannels"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-channels))
 (common-lisp:progn
  (common-lisp:defun get-email-channel
@@ -32223,7 +33193,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "GetEmailChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-email-channel))
 (common-lisp:progn
  (common-lisp:defun get-email-template
@@ -32250,7 +33220,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "GetEmailTemplate"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-email-template))
 (common-lisp:progn
  (common-lisp:defun get-endpoint
@@ -32281,7 +33251,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'endpoint-id))))
                                                         "GetEndpoint"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-endpoint))
 (common-lisp:progn
  (common-lisp:defun get-event-stream
@@ -32308,7 +33278,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "GetEventStream"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-event-stream))
 (common-lisp:progn
  (common-lisp:defun get-export-job
@@ -32339,7 +33309,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "GetExportJob"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-export-job))
 (common-lisp:progn
  (common-lisp:defun get-export-jobs
@@ -32366,7 +33336,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "GetExportJobs"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-export-jobs))
 (common-lisp:progn
  (common-lisp:defun get-gcm-channel
@@ -32393,7 +33363,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "GetGcmChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-gcm-channel))
 (common-lisp:progn
  (common-lisp:defun get-import-job
@@ -32424,7 +33394,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "GetImportJob"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-import-job))
 (common-lisp:progn
  (common-lisp:defun get-import-jobs
@@ -32451,7 +33421,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "GetImportJobs"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-import-jobs))
 (common-lisp:progn
  (common-lisp:defun get-in-app-messages
@@ -32482,7 +33452,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'endpoint-id))))
                                                         "GetInAppMessages"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-in-app-messages))
 (common-lisp:progn
  (common-lisp:defun get-in-app-template
@@ -32509,7 +33479,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "GetInAppTemplate"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-in-app-template))
 (common-lisp:progn
  (common-lisp:defun get-journey
@@ -32540,7 +33510,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'journey-id))))
                                                         "GetJourney"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-journey))
 (common-lisp:progn
  (common-lisp:defun get-journey-date-range-kpi
@@ -32579,7 +33549,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'kpi-name))))
                                                         "GetJourneyDateRangeKpi"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-journey-date-range-kpi))
 (common-lisp:progn
  (common-lisp:defun get-journey-execution-activity-metrics
@@ -32618,7 +33588,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'journey-activity-id))))
                                                         "GetJourneyExecutionActivityMetrics"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-journey-execution-activity-metrics))
 (common-lisp:progn
  (common-lisp:defun get-journey-execution-metrics
@@ -32652,7 +33622,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'journey-id))))
                                                         "GetJourneyExecutionMetrics"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-journey-execution-metrics))
 (common-lisp:progn
  (common-lisp:defun get-journey-run-execution-activity-metrics
@@ -32695,7 +33665,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'journey-activity-id))))
                                                         "GetJourneyRunExecutionActivityMetrics"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-journey-run-execution-activity-metrics))
 (common-lisp:progn
  (common-lisp:defun get-journey-run-execution-metrics
@@ -32734,7 +33704,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'run-id))))
                                                         "GetJourneyRunExecutionMetrics"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-journey-run-execution-metrics))
 (common-lisp:progn
  (common-lisp:defun get-journey-runs
@@ -32767,7 +33737,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'journey-id))))
                                                         "GetJourneyRuns"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-journey-runs))
 (common-lisp:progn
  (common-lisp:defun get-push-template
@@ -32794,7 +33764,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "GetPushTemplate"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-push-template))
 (common-lisp:progn
  (common-lisp:defun get-recommender-configuration
@@ -32822,7 +33792,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'recommender-id))))
                                                         "GetRecommenderConfiguration"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-recommender-configuration))
 (common-lisp:progn
  (common-lisp:defun get-recommender-configurations
@@ -32841,7 +33811,7 @@
                                                         "GET"
                                                         "/v1/recommenders"
                                                         "GetRecommenderConfigurations"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-recommender-configurations))
 (common-lisp:progn
  (common-lisp:defun get-segment
@@ -32872,7 +33842,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'segment-id))))
                                                         "GetSegment"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-segment))
 (common-lisp:progn
  (common-lisp:defun get-segment-export-jobs
@@ -32905,7 +33875,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'segment-id))))
                                                         "GetSegmentExportJobs"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-segment-export-jobs))
 (common-lisp:progn
  (common-lisp:defun get-segment-import-jobs
@@ -32938,7 +33908,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'segment-id))))
                                                         "GetSegmentImportJobs"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-segment-import-jobs))
 (common-lisp:progn
  (common-lisp:defun get-segment-version
@@ -32974,7 +33944,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'version))))
                                                         "GetSegmentVersion"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-segment-version))
 (common-lisp:progn
  (common-lisp:defun get-segment-versions
@@ -33007,7 +33977,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'segment-id))))
                                                         "GetSegmentVersions"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-segment-versions))
 (common-lisp:progn
  (common-lisp:defun get-segments
@@ -33034,7 +34004,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "GetSegments"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-segments))
 (common-lisp:progn
  (common-lisp:defun get-sms-channel
@@ -33061,7 +34031,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "GetSmsChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sms-channel))
 (common-lisp:progn
  (common-lisp:defun get-sms-template
@@ -33088,7 +34058,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "GetSmsTemplate"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sms-template))
 (common-lisp:progn
  (common-lisp:defun get-user-endpoints
@@ -33119,7 +34089,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'user-id))))
                                                         "GetUserEndpoints"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-user-endpoints))
 (common-lisp:progn
  (common-lisp:defun get-voice-channel
@@ -33146,7 +34116,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "GetVoiceChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-voice-channel))
 (common-lisp:progn
  (common-lisp:defun get-voice-template
@@ -33173,7 +34143,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "GetVoiceTemplate"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-voice-template))
 (common-lisp:progn
  (common-lisp:defun list-journeys
@@ -33200,7 +34170,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "ListJourneys"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-journeys))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -33227,7 +34197,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-template-versions
@@ -33260,7 +34230,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-type))))
                                                         "ListTemplateVersions"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-template-versions))
 (common-lisp:progn
  (common-lisp:defun list-templates
@@ -33279,7 +34249,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/templates"
                                                         "ListTemplates"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-templates))
 (common-lisp:progn
  (common-lisp:defun phone-number-validate
@@ -33297,7 +34267,7 @@
                                                         "POST"
                                                         "/v1/phone/number/validate"
                                                         "PhoneNumberValidate"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'phone-number-validate))
 (common-lisp:progn
  (common-lisp:defun put-event-stream
@@ -33325,7 +34295,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "PutEventStream"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-event-stream))
 (common-lisp:progn
  (common-lisp:defun put-events
@@ -33352,7 +34322,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "PutEvents"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-events))
 (common-lisp:progn
  (common-lisp:defun remove-attributes
@@ -33386,7 +34356,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'attribute-type))))
                                                         "RemoveAttributes"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-attributes))
 (common-lisp:progn
  (common-lisp:defun send-messages
@@ -33413,7 +34383,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "SendMessages"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-messages))
 (common-lisp:progn
  (common-lisp:defun send-otpmessage
@@ -33442,7 +34412,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "SendOTPMessage"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-otpmessage))
 (common-lisp:progn
  (common-lisp:defun send-users-messages
@@ -33471,7 +34441,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "SendUsersMessages"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-users-messages))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -33498,7 +34468,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -33525,7 +34495,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-adm-channel
@@ -33553,7 +34523,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "UpdateAdmChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-adm-channel))
 (common-lisp:progn
  (common-lisp:defun update-apns-channel
@@ -33581,7 +34551,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "UpdateApnsChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-apns-channel))
 (common-lisp:progn
  (common-lisp:defun update-apns-sandbox-channel
@@ -33611,7 +34581,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "UpdateApnsSandboxChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-apns-sandbox-channel))
 (common-lisp:progn
  (common-lisp:defun update-apns-voip-channel
@@ -33639,7 +34609,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "UpdateApnsVoipChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-apns-voip-channel))
 (common-lisp:progn
  (common-lisp:defun update-apns-voip-sandbox-channel
@@ -33669,7 +34639,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "UpdateApnsVoipSandboxChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-apns-voip-sandbox-channel))
 (common-lisp:progn
  (common-lisp:defun update-application-settings
@@ -33699,7 +34669,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "UpdateApplicationSettings"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-application-settings))
 (common-lisp:progn
  (common-lisp:defun update-baidu-channel
@@ -33727,7 +34697,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "UpdateBaiduChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-baidu-channel))
 (common-lisp:progn
  (common-lisp:defun update-campaign
@@ -33760,7 +34730,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'campaign-id))))
                                                         "UpdateCampaign"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-campaign))
 (common-lisp:progn
  (common-lisp:defun update-email-channel
@@ -33788,7 +34758,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "UpdateEmailChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-email-channel))
 (common-lisp:progn
  (common-lisp:defun update-email-template
@@ -33818,7 +34788,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "UpdateEmailTemplate"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-email-template))
 (common-lisp:progn
  (common-lisp:defun update-endpoint
@@ -33851,7 +34821,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'endpoint-id))))
                                                         "UpdateEndpoint"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-endpoint))
 (common-lisp:progn
  (common-lisp:defun update-endpoints-batch
@@ -33879,7 +34849,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "UpdateEndpointsBatch"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-endpoints-batch))
 (common-lisp:progn
  (common-lisp:defun update-gcm-channel
@@ -33907,7 +34877,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "UpdateGcmChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-gcm-channel))
 (common-lisp:progn
  (common-lisp:defun update-in-app-template
@@ -33937,7 +34907,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "UpdateInAppTemplate"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-in-app-template))
 (common-lisp:progn
  (common-lisp:defun update-journey
@@ -33970,7 +34940,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'journey-id))))
                                                         "UpdateJourney"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-journey))
 (common-lisp:progn
  (common-lisp:defun update-journey-state
@@ -34003,7 +34973,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'journey-id))))
                                                         "UpdateJourneyState"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-journey-state))
 (common-lisp:progn
  (common-lisp:defun update-push-template
@@ -34033,7 +35003,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "UpdatePushTemplate"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-push-template))
 (common-lisp:progn
  (common-lisp:defun update-recommender-configuration
@@ -34063,7 +35033,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'recommender-id))))
                                                         "UpdateRecommenderConfiguration"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-recommender-configuration))
 (common-lisp:progn
  (common-lisp:defun update-segment
@@ -34096,7 +35066,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'segment-id))))
                                                         "UpdateSegment"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-segment))
 (common-lisp:progn
  (common-lisp:defun update-sms-channel
@@ -34124,7 +35094,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "UpdateSmsChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-sms-channel))
 (common-lisp:progn
  (common-lisp:defun update-sms-template
@@ -34154,7 +35124,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "UpdateSmsTemplate"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-sms-template))
 (common-lisp:progn
  (common-lisp:defun update-template-active-version
@@ -34189,7 +35159,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-type))))
                                                         "UpdateTemplateActiveVersion"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-template-active-version))
 (common-lisp:progn
  (common-lisp:defun update-voice-channel
@@ -34217,7 +35187,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "UpdateVoiceChannel"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-voice-channel))
 (common-lisp:progn
  (common-lisp:defun update-voice-template
@@ -34247,7 +35217,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-name))))
                                                         "UpdateVoiceTemplate"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-voice-template))
 (common-lisp:progn
  (common-lisp:defun verify-otpmessage
@@ -34277,5 +35247,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "VerifyOTPMessage"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'verify-otpmessage))

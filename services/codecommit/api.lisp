@@ -16129,7 +16129,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateApprovalRuleTemplateWithRepository"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-approval-rule-template-with-repository))
 (common-lisp:progn
  (common-lisp:defun batch-associate-approval-rule-template-with-repositories
@@ -16149,7 +16149,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchAssociateApprovalRuleTemplateWithRepositories"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-associate-approval-rule-template-with-repositories))
 (common-lisp:progn
  (common-lisp:defun batch-describe-merge-conflicts
@@ -16174,7 +16174,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchDescribeMergeConflicts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-describe-merge-conflicts))
 (common-lisp:progn
  (common-lisp:defun batch-disassociate-approval-rule-template-from-repositories
@@ -16194,7 +16194,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchDisassociateApprovalRuleTemplateFromRepositories"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export
   'batch-disassociate-approval-rule-template-from-repositories))
 (common-lisp:progn
@@ -16212,7 +16212,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchGetCommits"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-commits))
 (common-lisp:progn
  (common-lisp:defun batch-get-repositories
@@ -16229,7 +16229,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchGetRepositories"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-repositories))
 (common-lisp:progn
  (common-lisp:defun create-approval-rule-template
@@ -16251,7 +16251,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateApprovalRuleTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-approval-rule-template))
 (common-lisp:progn
  (common-lisp:defun create-branch
@@ -16269,7 +16269,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateBranch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-branch))
 (common-lisp:progn
  (common-lisp:defun create-commit
@@ -16291,7 +16291,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateCommit"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-commit))
 (common-lisp:progn
  (common-lisp:defun create-pull-request
@@ -16310,7 +16310,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreatePullRequest"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-pull-request))
 (common-lisp:progn
  (common-lisp:defun create-pull-request-approval-rule
@@ -16331,7 +16331,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreatePullRequestApprovalRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-pull-request-approval-rule))
 (common-lisp:progn
  (common-lisp:defun create-repository
@@ -16351,7 +16351,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateRepository"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-repository))
 (common-lisp:progn
  (common-lisp:defun create-unreferenced-merge-commit
@@ -16377,7 +16377,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateUnreferencedMergeCommit"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-unreferenced-merge-commit))
 (common-lisp:progn
  (common-lisp:defun delete-approval-rule-template
@@ -16395,7 +16395,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteApprovalRuleTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-approval-rule-template))
 (common-lisp:progn
  (common-lisp:defun delete-branch
@@ -16412,7 +16412,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteBranch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-branch))
 (common-lisp:progn
  (common-lisp:defun delete-comment-content
@@ -16429,7 +16429,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteCommentContent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-comment-content))
 (common-lisp:progn
  (common-lisp:defun delete-file
@@ -16450,7 +16450,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteFile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-file))
 (common-lisp:progn
  (common-lisp:defun delete-pull-request-approval-rule
@@ -16469,7 +16469,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeletePullRequestApprovalRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-pull-request-approval-rule))
 (common-lisp:progn
  (common-lisp:defun delete-repository
@@ -16486,7 +16486,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteRepository"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-repository))
 (common-lisp:progn
  (common-lisp:defun describe-merge-conflicts
@@ -16510,7 +16510,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeMergeConflicts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-merge-conflicts))
 (common-lisp:progn
  (common-lisp:defun describe-pull-request-events
@@ -16531,7 +16531,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribePullRequestEvents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-pull-request-events))
 (common-lisp:progn
  (common-lisp:defun disassociate-approval-rule-template-from-repository
@@ -16551,7 +16551,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateApprovalRuleTemplateFromRepository"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-approval-rule-template-from-repository))
 (common-lisp:progn
  (common-lisp:defun evaluate-pull-request-approval-rules
@@ -16569,7 +16569,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "EvaluatePullRequestApprovalRules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'evaluate-pull-request-approval-rules))
 (common-lisp:progn
  (common-lisp:defun get-approval-rule-template
@@ -16586,7 +16586,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetApprovalRuleTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-approval-rule-template))
 (common-lisp:progn
  (common-lisp:defun get-blob
@@ -16602,7 +16602,7 @@ common-lisp:nil
        (aws-sdk/generator/shape:make-request-with-input 'codecommit-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "GetBlob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-blob))
 (common-lisp:progn
  (common-lisp:defun get-branch
@@ -16619,7 +16619,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetBranch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-branch))
 (common-lisp:progn
  (common-lisp:defun get-comment
@@ -16636,7 +16636,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetComment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-comment))
 (common-lisp:progn
  (common-lisp:defun get-comment-reactions
@@ -16656,7 +16656,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCommentReactions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-comment-reactions))
 (common-lisp:progn
  (common-lisp:defun get-comments-for-compared-commit
@@ -16677,7 +16677,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCommentsForComparedCommit"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-comments-for-compared-commit))
 (common-lisp:progn
  (common-lisp:defun get-comments-for-pull-request
@@ -16698,7 +16698,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCommentsForPullRequest"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-comments-for-pull-request))
 (common-lisp:progn
  (common-lisp:defun get-commit
@@ -16715,7 +16715,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCommit"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-commit))
 (common-lisp:progn
  (common-lisp:defun get-differences
@@ -16736,7 +16736,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDifferences"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-differences))
 (common-lisp:progn
  (common-lisp:defun get-file
@@ -16754,7 +16754,7 @@ common-lisp:nil
        (aws-sdk/generator/shape:make-request-with-input 'codecommit-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "GetFile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-file))
 (common-lisp:progn
  (common-lisp:defun get-folder
@@ -16773,7 +16773,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetFolder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-folder))
 (common-lisp:progn
  (common-lisp:defun get-merge-commit
@@ -16795,7 +16795,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetMergeCommit"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-merge-commit))
 (common-lisp:progn
  (common-lisp:defun get-merge-conflicts
@@ -16818,7 +16818,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetMergeConflicts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-merge-conflicts))
 (common-lisp:progn
  (common-lisp:defun get-merge-options
@@ -16840,7 +16840,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetMergeOptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-merge-options))
 (common-lisp:progn
  (common-lisp:defun get-pull-request
@@ -16857,7 +16857,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetPullRequest"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-pull-request))
 (common-lisp:progn
  (common-lisp:defun get-pull-request-approval-states
@@ -16875,7 +16875,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetPullRequestApprovalStates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-pull-request-approval-states))
 (common-lisp:progn
  (common-lisp:defun get-pull-request-override-state
@@ -16893,7 +16893,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetPullRequestOverrideState"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-pull-request-override-state))
 (common-lisp:progn
  (common-lisp:defun get-repository
@@ -16910,7 +16910,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetRepository"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-repository))
 (common-lisp:progn
  (common-lisp:defun get-repository-triggers
@@ -16927,7 +16927,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetRepositoryTriggers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-repository-triggers))
 (common-lisp:progn
  (common-lisp:defun list-approval-rule-templates
@@ -16945,7 +16945,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListApprovalRuleTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-approval-rule-templates))
 (common-lisp:progn
  (common-lisp:defun list-associated-approval-rule-templates-for-repository
@@ -16964,7 +16964,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAssociatedApprovalRuleTemplatesForRepository"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-associated-approval-rule-templates-for-repository))
 (common-lisp:progn
  (common-lisp:defun list-branches
@@ -16981,7 +16981,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListBranches"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-branches))
 (common-lisp:progn
  (common-lisp:defun list-file-commit-history
@@ -17001,7 +17001,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListFileCommitHistory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-file-commit-history))
 (common-lisp:progn
  (common-lisp:defun list-pull-requests
@@ -17021,7 +17021,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPullRequests"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-pull-requests))
 (common-lisp:progn
  (common-lisp:defun list-repositories
@@ -17038,7 +17038,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListRepositories"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-repositories))
 (common-lisp:progn
  (common-lisp:defun list-repositories-for-approval-rule-template
@@ -17058,7 +17058,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListRepositoriesForApprovalRuleTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-repositories-for-approval-rule-template))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -17075,7 +17075,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun merge-branches-by-fast-forward
@@ -17096,7 +17096,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "MergeBranchesByFastForward"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'merge-branches-by-fast-forward))
 (common-lisp:progn
  (common-lisp:defun merge-branches-by-squash
@@ -17121,7 +17121,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "MergeBranchesBySquash"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'merge-branches-by-squash))
 (common-lisp:progn
  (common-lisp:defun merge-branches-by-three-way
@@ -17147,7 +17147,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "MergeBranchesByThreeWay"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'merge-branches-by-three-way))
 (common-lisp:progn
  (common-lisp:defun merge-pull-request-by-fast-forward
@@ -17167,7 +17167,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "MergePullRequestByFastForward"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'merge-pull-request-by-fast-forward))
 (common-lisp:progn
  (common-lisp:defun merge-pull-request-by-squash
@@ -17191,7 +17191,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "MergePullRequestBySquash"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'merge-pull-request-by-squash))
 (common-lisp:progn
  (common-lisp:defun merge-pull-request-by-three-way
@@ -17215,7 +17215,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "MergePullRequestByThreeWay"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'merge-pull-request-by-three-way))
 (common-lisp:progn
  (common-lisp:defun override-pull-request-approval-rules
@@ -17235,7 +17235,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "OverridePullRequestApprovalRules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'override-pull-request-approval-rules))
 (common-lisp:progn
  (common-lisp:defun post-comment-for-compared-commit
@@ -17256,7 +17256,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PostCommentForComparedCommit"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'post-comment-for-compared-commit))
 (common-lisp:progn
  (common-lisp:defun post-comment-for-pull-request
@@ -17278,7 +17278,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PostCommentForPullRequest"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'post-comment-for-pull-request))
 (common-lisp:progn
  (common-lisp:defun post-comment-reply
@@ -17296,7 +17296,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PostCommentReply"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'post-comment-reply))
 (common-lisp:progn
  (common-lisp:defun put-comment-reaction
@@ -17313,7 +17313,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutCommentReaction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-comment-reaction))
 (common-lisp:progn
  (common-lisp:defun put-file
@@ -17333,7 +17333,7 @@ common-lisp:nil
        (aws-sdk/generator/shape:make-request-with-input 'codecommit-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "PutFile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-file))
 (common-lisp:progn
  (common-lisp:defun put-repository-triggers
@@ -17350,7 +17350,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutRepositoryTriggers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-repository-triggers))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -17367,7 +17367,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun test-repository-triggers
@@ -17384,7 +17384,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TestRepositoryTriggers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'test-repository-triggers))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -17401,7 +17401,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-approval-rule-template-content
@@ -17422,7 +17422,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateApprovalRuleTemplateContent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-approval-rule-template-content))
 (common-lisp:progn
  (common-lisp:defun update-approval-rule-template-description
@@ -17443,7 +17443,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateApprovalRuleTemplateDescription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-approval-rule-template-description))
 (common-lisp:progn
  (common-lisp:defun update-approval-rule-template-name
@@ -17464,7 +17464,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateApprovalRuleTemplateName"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-approval-rule-template-name))
 (common-lisp:progn
  (common-lisp:defun update-comment
@@ -17481,7 +17481,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateComment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-comment))
 (common-lisp:progn
  (common-lisp:defun update-default-branch
@@ -17499,7 +17499,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateDefaultBranch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-default-branch))
 (common-lisp:progn
  (common-lisp:defun update-pull-request-approval-rule-content
@@ -17520,7 +17520,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdatePullRequestApprovalRuleContent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-pull-request-approval-rule-content))
 (common-lisp:progn
  (common-lisp:defun update-pull-request-approval-state
@@ -17540,7 +17540,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdatePullRequestApprovalState"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-pull-request-approval-state))
 (common-lisp:progn
  (common-lisp:defun update-pull-request-description
@@ -17558,7 +17558,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdatePullRequestDescription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-pull-request-description))
 (common-lisp:progn
  (common-lisp:defun update-pull-request-status
@@ -17576,7 +17576,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdatePullRequestStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-pull-request-status))
 (common-lisp:progn
  (common-lisp:defun update-pull-request-title
@@ -17593,7 +17593,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdatePullRequestTitle"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-pull-request-title))
 (common-lisp:progn
  (common-lisp:defun update-repository-description
@@ -17612,7 +17612,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateRepositoryDescription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-repository-description))
 (common-lisp:progn
  (common-lisp:defun update-repository-encryption-key
@@ -17630,7 +17630,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateRepositoryEncryptionKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-repository-encryption-key))
 (common-lisp:progn
  (common-lisp:defun update-repository-name
@@ -17647,5 +17647,5 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateRepositoryName"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-repository-name))

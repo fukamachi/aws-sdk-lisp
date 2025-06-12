@@ -4363,7 +4363,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchGetSecretValue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-secret-value))
 (common-lisp:progn
  (common-lisp:defun cancel-rotate-secret
@@ -4380,7 +4380,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CancelRotateSecret"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-rotate-secret))
 (common-lisp:progn
  (common-lisp:defun create-secret
@@ -4402,7 +4402,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateSecret"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-secret))
 (common-lisp:progn
  (common-lisp:defun delete-resource-policy
@@ -4419,7 +4419,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resource-policy))
 (common-lisp:progn
  (common-lisp:defun delete-secret
@@ -4439,7 +4439,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteSecret"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-secret))
 (common-lisp:progn
  (common-lisp:defun describe-secret
@@ -4456,7 +4456,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeSecret"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-secret))
 (common-lisp:progn
  (common-lisp:defun get-random-password
@@ -4479,7 +4479,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetRandomPassword"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-random-password))
 (common-lisp:progn
  (common-lisp:defun get-resource-policy
@@ -4496,7 +4496,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-policy))
 (common-lisp:progn
  (common-lisp:defun get-secret-value
@@ -4514,7 +4514,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetSecretValue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-secret-value))
 (common-lisp:progn
  (common-lisp:defun list-secret-version-ids
@@ -4534,7 +4534,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListSecretVersionIds"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-secret-version-ids))
 (common-lisp:progn
  (common-lisp:defun list-secrets
@@ -4554,7 +4554,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListSecrets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-secrets))
 (common-lisp:progn
  (common-lisp:defun put-resource-policy
@@ -4573,7 +4573,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-resource-policy))
 (common-lisp:progn
  (common-lisp:defun put-secret-value
@@ -4593,7 +4593,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutSecretValue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-secret-value))
 (common-lisp:progn
  (common-lisp:defun remove-regions-from-replication
@@ -4612,7 +4612,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RemoveRegionsFromReplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-regions-from-replication))
 (common-lisp:progn
  (common-lisp:defun replicate-secret-to-regions
@@ -4633,7 +4633,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ReplicateSecretToRegions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'replicate-secret-to-regions))
 (common-lisp:progn
  (common-lisp:defun restore-secret
@@ -4650,7 +4650,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RestoreSecret"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'restore-secret))
 (common-lisp:progn
  (common-lisp:defun rotate-secret
@@ -4670,7 +4670,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RotateSecret"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'rotate-secret))
 (common-lisp:progn
  (common-lisp:defun stop-replication-to-replica
@@ -4688,7 +4688,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopReplicationToReplica"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-replication-to-replica))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4705,7 +4705,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4722,7 +4722,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-secret
@@ -4742,7 +4742,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateSecret"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-secret))
 (common-lisp:progn
  (common-lisp:defun update-secret-version-stage
@@ -4763,7 +4763,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateSecretVersionStage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-secret-version-stage))
 (common-lisp:progn
  (common-lisp:defun validate-resource-policy
@@ -4780,5 +4780,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ValidateResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'validate-resource-policy))

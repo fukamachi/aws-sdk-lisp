@@ -6762,7 +6762,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'migrationhuborchestrator-request aws-sdk/generator/operation::input
         "POST" "/template" "CreateTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-template))
 (common-lisp:progn
  (common-lisp:defun create-workflow
@@ -6783,7 +6783,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'migrationhuborchestrator-request aws-sdk/generator/operation::input
         "POST" "/migrationworkflow/" "CreateWorkflow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-workflow))
 (common-lisp:progn
  (common-lisp:defun create-workflow-step
@@ -6805,7 +6805,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'migrationhuborchestrator-request aws-sdk/generator/operation::input
         "POST" "/workflowstep" "CreateWorkflowStep"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-workflow-step))
 (common-lisp:progn
  (common-lisp:defun create-workflow-step-group
@@ -6824,7 +6824,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'migrationhuborchestrator-request aws-sdk/generator/operation::input
         "POST" "/workflowstepgroups" "CreateWorkflowStepGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-workflow-step-group))
 (common-lisp:progn
  (common-lisp:defun delete-template
@@ -6846,7 +6846,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "DeleteTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-template))
 (common-lisp:progn
  (common-lisp:defun delete-workflow
@@ -6869,7 +6869,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "DeleteWorkflow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-workflow))
 (common-lisp:progn
  (common-lisp:defun delete-workflow-step
@@ -6891,7 +6891,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "DeleteWorkflowStep"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-workflow-step))
 (common-lisp:progn
  (common-lisp:defun delete-workflow-step-group
@@ -6914,7 +6914,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "DeleteWorkflowStepGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-workflow-step-group))
 (common-lisp:progn
  (common-lisp:defun get-template
@@ -6937,7 +6937,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "GetTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-template))
 (common-lisp:progn
  (common-lisp:defun get-template-step
@@ -6959,7 +6959,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "GetTemplateStep"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-template-step))
 (common-lisp:progn
  (common-lisp:defun get-template-step-group
@@ -6985,7 +6985,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "GetTemplateStepGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-template-step-group))
 (common-lisp:progn
  (common-lisp:defun get-workflow
@@ -7007,7 +7007,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "GetWorkflow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-workflow))
 (common-lisp:progn
  (common-lisp:defun get-workflow-step
@@ -7029,7 +7029,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "GetWorkflowStep"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-workflow-step))
 (common-lisp:progn
  (common-lisp:defun get-workflow-step-group
@@ -7051,7 +7051,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "GetWorkflowStepGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-workflow-step-group))
 (common-lisp:progn
  (common-lisp:defun list-plugins
@@ -7067,7 +7067,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'migrationhuborchestrator-request aws-sdk/generator/operation::input
         "GET" "/plugins" "ListPlugins"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-plugins))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -7090,7 +7090,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-template-step-groups
@@ -7115,7 +7115,7 @@
                                 aws-sdk/generator/operation::input
                                 'template-id))))
         "ListTemplateStepGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-template-step-groups))
 (common-lisp:progn
  (common-lisp:defun list-template-steps
@@ -7133,7 +7133,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'migrationhuborchestrator-request aws-sdk/generator/operation::input
         "GET" "/templatesteps" "ListTemplateSteps"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-template-steps))
 (common-lisp:progn
  (common-lisp:defun list-templates
@@ -7150,7 +7150,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'migrationhuborchestrator-request aws-sdk/generator/operation::input
         "GET" "/migrationworkflowtemplates" "ListTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-templates))
 (common-lisp:progn
  (common-lisp:defun list-workflow-step-groups
@@ -7168,7 +7168,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'migrationhuborchestrator-request aws-sdk/generator/operation::input
         "GET" "/workflowstepgroups" "ListWorkflowStepGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-workflow-step-groups))
 (common-lisp:progn
  (common-lisp:defun list-workflow-steps
@@ -7198,7 +7198,7 @@
                                 aws-sdk/generator/operation::input
                                 'step-group-id))))
         "ListWorkflowSteps"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-workflow-steps))
 (common-lisp:progn
  (common-lisp:defun list-workflows
@@ -7217,7 +7217,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'migrationhuborchestrator-request aws-sdk/generator/operation::input
         "GET" "/migrationworkflows" "ListWorkflows"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-workflows))
 (common-lisp:progn
  (common-lisp:defun retry-workflow-step
@@ -7239,7 +7239,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "RetryWorkflowStep"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'retry-workflow-step))
 (common-lisp:progn
  (common-lisp:defun start-workflow
@@ -7261,7 +7261,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "StartWorkflow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-workflow))
 (common-lisp:progn
  (common-lisp:defun stop-workflow
@@ -7283,7 +7283,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "StopWorkflow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-workflow))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -7306,7 +7306,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -7329,7 +7329,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-template
@@ -7353,7 +7353,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "UpdateTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-template))
 (common-lisp:progn
  (common-lisp:defun update-workflow
@@ -7378,7 +7378,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "UpdateWorkflow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-workflow))
 (common-lisp:progn
  (common-lisp:defun update-workflow-step
@@ -7406,7 +7406,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "UpdateWorkflowStep"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-workflow-step))
 (common-lisp:progn
  (common-lisp:defun update-workflow-step-group
@@ -7431,5 +7431,5 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "UpdateWorkflowStepGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-workflow-step-group))

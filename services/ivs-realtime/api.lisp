@@ -4862,7 +4862,7 @@
                                                         "POST"
                                                         "/CreateEncoderConfiguration"
                                                         "CreateEncoderConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-encoder-configuration))
 (common-lisp:progn
  (common-lisp:defun create-participant-token
@@ -4882,7 +4882,7 @@
                                                         "POST"
                                                         "/CreateParticipantToken"
                                                         "CreateParticipantToken"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-participant-token))
 (common-lisp:progn
  (common-lisp:defun create-stage
@@ -4901,7 +4901,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/CreateStage"
                                                         "CreateStage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-stage))
 (common-lisp:progn
  (common-lisp:defun create-storage-configuration
@@ -4920,7 +4920,7 @@
                                                         "POST"
                                                         "/CreateStorageConfiguration"
                                                         "CreateStorageConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-storage-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-encoder-configuration
@@ -4939,7 +4939,7 @@
                                                         "POST"
                                                         "/DeleteEncoderConfiguration"
                                                         "DeleteEncoderConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-encoder-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-stage
@@ -4956,7 +4956,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/DeleteStage"
                                                         "DeleteStage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-stage))
 (common-lisp:progn
  (common-lisp:defun delete-storage-configuration
@@ -4975,7 +4975,7 @@
                                                         "POST"
                                                         "/DeleteStorageConfiguration"
                                                         "DeleteStorageConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-storage-configuration))
 (common-lisp:progn
  (common-lisp:defun disconnect-participant
@@ -4994,7 +4994,7 @@
                                                         "POST"
                                                         "/DisconnectParticipant"
                                                         "DisconnectParticipant"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disconnect-participant))
 (common-lisp:progn
  (common-lisp:defun get-composition
@@ -5012,7 +5012,7 @@
                                                         "POST"
                                                         "/GetComposition"
                                                         "GetComposition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-composition))
 (common-lisp:progn
  (common-lisp:defun get-encoder-configuration
@@ -5031,7 +5031,7 @@
                                                         "POST"
                                                         "/GetEncoderConfiguration"
                                                         "GetEncoderConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-encoder-configuration))
 (common-lisp:progn
  (common-lisp:defun get-participant
@@ -5050,7 +5050,7 @@
                                                         "POST"
                                                         "/GetParticipant"
                                                         "GetParticipant"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-participant))
 (common-lisp:progn
  (common-lisp:defun get-stage
@@ -5067,7 +5067,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/GetStage"
                                                         "GetStage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-stage))
 (common-lisp:progn
  (common-lisp:defun get-stage-session
@@ -5085,7 +5085,7 @@
                                                         "POST"
                                                         "/GetStageSession"
                                                         "GetStageSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-stage-session))
 (common-lisp:progn
  (common-lisp:defun get-storage-configuration
@@ -5104,7 +5104,7 @@
                                                         "POST"
                                                         "/GetStorageConfiguration"
                                                         "GetStorageConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-storage-configuration))
 (common-lisp:progn
  (common-lisp:defun list-compositions
@@ -5125,7 +5125,7 @@
                                                         "POST"
                                                         "/ListCompositions"
                                                         "ListCompositions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-compositions))
 (common-lisp:progn
  (common-lisp:defun list-encoder-configurations
@@ -5144,7 +5144,7 @@
                                                         "POST"
                                                         "/ListEncoderConfigurations"
                                                         "ListEncoderConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-encoder-configurations))
 (common-lisp:progn
  (common-lisp:defun list-participant-events
@@ -5165,7 +5165,7 @@
                                                         "POST"
                                                         "/ListParticipantEvents"
                                                         "ListParticipantEvents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-participant-events))
 (common-lisp:progn
  (common-lisp:defun list-participants
@@ -5187,7 +5187,7 @@
                                                         "POST"
                                                         "/ListParticipants"
                                                         "ListParticipants"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-participants))
 (common-lisp:progn
  (common-lisp:defun list-stage-sessions
@@ -5206,7 +5206,7 @@
                                                         "POST"
                                                         "/ListStageSessions"
                                                         "ListStageSessions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-stage-sessions))
 (common-lisp:progn
  (common-lisp:defun list-stages
@@ -5223,7 +5223,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/ListStages"
                                                         "ListStages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-stages))
 (common-lisp:progn
  (common-lisp:defun list-storage-configurations
@@ -5242,7 +5242,7 @@
                                                         "POST"
                                                         "/ListStorageConfigurations"
                                                         "ListStorageConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-storage-configurations))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -5269,7 +5269,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun start-composition
@@ -5290,7 +5290,7 @@
                                                         "POST"
                                                         "/StartComposition"
                                                         "StartComposition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-composition))
 (common-lisp:progn
  (common-lisp:defun stop-composition
@@ -5308,7 +5308,7 @@
                                                         "POST"
                                                         "/StopComposition"
                                                         "StopComposition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-composition))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -5335,7 +5335,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -5362,7 +5362,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-stage
@@ -5379,5 +5379,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/UpdateStage"
                                                         "UpdateStage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-stage))

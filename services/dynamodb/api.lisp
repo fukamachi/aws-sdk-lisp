@@ -16596,7 +16596,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchExecuteStatement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-execute-statement))
 (common-lisp:progn
  (common-lisp:defun batch-get-item
@@ -16614,7 +16614,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchGetItem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-item))
 (common-lisp:progn
  (common-lisp:defun batch-write-item
@@ -16634,7 +16634,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchWriteItem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-write-item))
 (common-lisp:progn
  (common-lisp:defun create-backup
@@ -16651,7 +16651,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateBackup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-backup))
 (common-lisp:progn
  (common-lisp:defun create-global-table
@@ -16669,7 +16669,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateGlobalTable"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-global-table))
 (common-lisp:progn
  (common-lisp:defun create-table
@@ -16695,7 +16695,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateTable"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-table))
 (common-lisp:progn
  (common-lisp:defun delete-backup
@@ -16712,7 +16712,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteBackup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-backup))
 (common-lisp:progn
  (common-lisp:defun delete-item
@@ -16738,7 +16738,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteItem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-item))
 (common-lisp:progn
  (common-lisp:defun delete-table
@@ -16755,7 +16755,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteTable"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-table))
 (common-lisp:progn
  (common-lisp:defun describe-backup
@@ -16772,7 +16772,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeBackup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-backup))
 (common-lisp:progn
  (common-lisp:defun describe-continuous-backups
@@ -16790,7 +16790,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeContinuousBackups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-continuous-backups))
 (common-lisp:progn
  (common-lisp:defun describe-contributor-insights
@@ -16808,7 +16808,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeContributorInsights"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-contributor-insights))
 (common-lisp:progn
  (common-lisp:defun describe-endpoints ()
@@ -16833,7 +16833,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeExport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-export))
 (common-lisp:progn
  (common-lisp:defun describe-global-table
@@ -16850,7 +16850,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeGlobalTable"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-global-table))
 (common-lisp:progn
  (common-lisp:defun describe-global-table-settings
@@ -16868,7 +16868,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeGlobalTableSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-global-table-settings))
 (common-lisp:progn
  (common-lisp:defun describe-import
@@ -16885,7 +16885,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeImport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-import))
 (common-lisp:progn
  (common-lisp:defun describe-kinesis-streaming-destination
@@ -16903,7 +16903,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeKinesisStreamingDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-kinesis-streaming-destination))
 (common-lisp:progn
  (common-lisp:defun describe-limits ()
@@ -16928,7 +16928,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTable"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-table))
 (common-lisp:progn
  (common-lisp:defun describe-table-replica-auto-scaling
@@ -16946,7 +16946,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTableReplicaAutoScaling"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-table-replica-auto-scaling))
 (common-lisp:progn
  (common-lisp:defun describe-time-to-live
@@ -16963,7 +16963,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTimeToLive"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-time-to-live))
 (common-lisp:progn
  (common-lisp:defun disable-kinesis-streaming-destination
@@ -16984,7 +16984,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisableKinesisStreamingDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disable-kinesis-streaming-destination))
 (common-lisp:progn
  (common-lisp:defun enable-kinesis-streaming-destination
@@ -17005,7 +17005,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "EnableKinesisStreamingDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-kinesis-streaming-destination))
 (common-lisp:progn
  (common-lisp:defun execute-statement
@@ -17026,7 +17026,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ExecuteStatement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'execute-statement))
 (common-lisp:progn
  (common-lisp:defun execute-transaction
@@ -17046,7 +17046,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ExecuteTransaction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'execute-transaction))
 (common-lisp:progn
  (common-lisp:defun export-table-to-point-in-time
@@ -17070,7 +17070,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ExportTableToPointInTime"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'export-table-to-point-in-time))
 (common-lisp:progn
  (common-lisp:defun get-item
@@ -17091,7 +17091,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'dynamodb-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "GetItem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-item))
 (common-lisp:progn
  (common-lisp:defun import-table
@@ -17112,7 +17112,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ImportTable"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-table))
 (common-lisp:progn
  (common-lisp:defun list-backups
@@ -17133,7 +17133,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListBackups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-backups))
 (common-lisp:progn
  (common-lisp:defun list-contributor-insights
@@ -17151,7 +17151,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListContributorInsights"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-contributor-insights))
 (common-lisp:progn
  (common-lisp:defun list-exports
@@ -17169,7 +17169,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListExports"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-exports))
 (common-lisp:progn
  (common-lisp:defun list-global-tables
@@ -17189,7 +17189,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListGlobalTables"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-global-tables))
 (common-lisp:progn
  (common-lisp:defun list-imports
@@ -17206,7 +17206,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListImports"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-imports))
 (common-lisp:progn
  (common-lisp:defun list-tables
@@ -17224,7 +17224,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTables"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tables))
 (common-lisp:progn
  (common-lisp:defun list-tags-of-resource
@@ -17241,7 +17241,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsOfResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-of-resource))
 (common-lisp:progn
  (common-lisp:defun put-item
@@ -17265,7 +17265,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'dynamodb-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "PutItem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-item))
 (common-lisp:progn
  (common-lisp:defun query
@@ -17292,7 +17292,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'dynamodb-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "Query"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'query))
 (common-lisp:progn
  (common-lisp:defun restore-table-from-backup
@@ -17315,7 +17315,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RestoreTableFromBackup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'restore-table-from-backup))
 (common-lisp:progn
  (common-lisp:defun restore-table-to-point-in-time
@@ -17342,7 +17342,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RestoreTableToPointInTime"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'restore-table-to-point-in-time))
 (common-lisp:progn
  (common-lisp:defun scan
@@ -17368,7 +17368,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'dynamodb-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "Scan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'scan))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -17385,7 +17385,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun transact-get-items
@@ -17403,7 +17403,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TransactGetItems"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'transact-get-items))
 (common-lisp:progn
  (common-lisp:defun transact-write-items
@@ -17423,7 +17423,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TransactWriteItems"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'transact-write-items))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -17440,7 +17440,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-continuous-backups
@@ -17459,7 +17459,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateContinuousBackups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-continuous-backups))
 (common-lisp:progn
  (common-lisp:defun update-contributor-insights
@@ -17479,7 +17479,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateContributorInsights"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-contributor-insights))
 (common-lisp:progn
  (common-lisp:defun update-global-table
@@ -17497,7 +17497,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateGlobalTable"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-global-table))
 (common-lisp:progn
  (common-lisp:defun update-global-table-settings
@@ -17525,7 +17525,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateGlobalTableSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-global-table-settings))
 (common-lisp:progn
  (common-lisp:defun update-item
@@ -17552,7 +17552,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateItem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-item))
 (common-lisp:progn
  (common-lisp:defun update-kinesis-streaming-destination
@@ -17573,7 +17573,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateKinesisStreamingDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-kinesis-streaming-destination))
 (common-lisp:progn
  (common-lisp:defun update-table
@@ -17597,7 +17597,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateTable"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-table))
 (common-lisp:progn
  (common-lisp:defun update-table-replica-auto-scaling
@@ -17619,7 +17619,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateTableReplicaAutoScaling"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-table-replica-auto-scaling))
 (common-lisp:progn
  (common-lisp:defun update-time-to-live
@@ -17637,5 +17637,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateTimeToLive"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-time-to-live))

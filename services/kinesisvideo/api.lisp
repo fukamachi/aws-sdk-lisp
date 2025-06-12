@@ -5098,7 +5098,7 @@
                                                         "POST"
                                                         "/createSignalingChannel"
                                                         "CreateSignalingChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-signaling-channel))
 (common-lisp:progn
  (common-lisp:defun create-stream
@@ -5118,7 +5118,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/createStream"
                                                         "CreateStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-stream))
 (common-lisp:progn
  (common-lisp:defun delete-edge-configuration
@@ -5136,7 +5136,7 @@
                                                         "POST"
                                                         "/deleteEdgeConfiguration"
                                                         "DeleteEdgeConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-edge-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-signaling-channel
@@ -5154,7 +5154,7 @@
                                                         "POST"
                                                         "/deleteSignalingChannel"
                                                         "DeleteSignalingChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-signaling-channel))
 (common-lisp:progn
  (common-lisp:defun delete-stream
@@ -5171,7 +5171,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/deleteStream"
                                                         "DeleteStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-stream))
 (common-lisp:progn
  (common-lisp:defun describe-edge-configuration
@@ -5190,7 +5190,7 @@
                                                         "POST"
                                                         "/describeEdgeConfiguration"
                                                         "DescribeEdgeConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-edge-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-image-generation-configuration
@@ -5209,7 +5209,7 @@
                                                         "POST"
                                                         "/describeImageGenerationConfiguration"
                                                         "DescribeImageGenerationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-image-generation-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-mapped-resource-configuration
@@ -5230,7 +5230,7 @@
                                                         "POST"
                                                         "/describeMappedResourceConfiguration"
                                                         "DescribeMappedResourceConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-mapped-resource-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-media-storage-configuration
@@ -5249,7 +5249,7 @@
                                                         "POST"
                                                         "/describeMediaStorageConfiguration"
                                                         "DescribeMediaStorageConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-media-storage-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-notification-configuration
@@ -5268,7 +5268,7 @@
                                                         "POST"
                                                         "/describeNotificationConfiguration"
                                                         "DescribeNotificationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-notification-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-signaling-channel
@@ -5286,7 +5286,7 @@
                                                         "POST"
                                                         "/describeSignalingChannel"
                                                         "DescribeSignalingChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-signaling-channel))
 (common-lisp:progn
  (common-lisp:defun describe-stream
@@ -5304,7 +5304,7 @@
                                                         "POST"
                                                         "/describeStream"
                                                         "DescribeStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-stream))
 (common-lisp:progn
  (common-lisp:defun get-data-endpoint
@@ -5322,7 +5322,7 @@
                                                         "POST"
                                                         "/getDataEndpoint"
                                                         "GetDataEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-data-endpoint))
 (common-lisp:progn
  (common-lisp:defun get-signaling-channel-endpoint
@@ -5344,7 +5344,7 @@
                                                         "POST"
                                                         "/getSignalingChannelEndpoint"
                                                         "GetSignalingChannelEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-signaling-channel-endpoint))
 (common-lisp:progn
  (common-lisp:defun list-edge-agent-configurations
@@ -5364,7 +5364,7 @@
                                                         "POST"
                                                         "/listEdgeAgentConfigurations"
                                                         "ListEdgeAgentConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-edge-agent-configurations))
 (common-lisp:progn
  (common-lisp:defun list-signaling-channels
@@ -5384,7 +5384,7 @@
                                                         "POST"
                                                         "/listSignalingChannels"
                                                         "ListSignalingChannels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-signaling-channels))
 (common-lisp:progn
  (common-lisp:defun list-streams
@@ -5403,7 +5403,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/listStreams"
                                                         "ListStreams"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-streams))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -5421,7 +5421,7 @@
                                                         "POST"
                                                         "/ListTagsForResource"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-stream
@@ -5440,7 +5440,7 @@
                                                         "POST"
                                                         "/listTagsForStream"
                                                         "ListTagsForStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-stream))
 (common-lisp:progn
  (common-lisp:defun start-edge-configuration-update
@@ -5460,7 +5460,7 @@
                                                         "POST"
                                                         "/startEdgeConfigurationUpdate"
                                                         "StartEdgeConfigurationUpdate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-edge-configuration-update))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -5477,7 +5477,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/TagResource"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun tag-stream
@@ -5494,7 +5494,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/tagStream"
                                                         "TagStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-stream))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -5511,7 +5511,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/UntagResource"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-stream
@@ -5529,7 +5529,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/untagStream"
                                                         "UntagStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-stream))
 (common-lisp:progn
  (common-lisp:defun update-data-retention
@@ -5550,7 +5550,7 @@
                                                         "POST"
                                                         "/updateDataRetention"
                                                         "UpdateDataRetention"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-data-retention))
 (common-lisp:progn
  (common-lisp:defun update-image-generation-configuration
@@ -5572,7 +5572,7 @@
                                                         "POST"
                                                         "/updateImageGenerationConfiguration"
                                                         "UpdateImageGenerationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-image-generation-configuration))
 (common-lisp:progn
  (common-lisp:defun update-media-storage-configuration
@@ -5592,7 +5592,7 @@
                                                         "POST"
                                                         "/updateMediaStorageConfiguration"
                                                         "UpdateMediaStorageConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-media-storage-configuration))
 (common-lisp:progn
  (common-lisp:defun update-notification-configuration
@@ -5613,7 +5613,7 @@
                                                         "POST"
                                                         "/updateNotificationConfiguration"
                                                         "UpdateNotificationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-notification-configuration))
 (common-lisp:progn
  (common-lisp:defun update-signaling-channel
@@ -5634,7 +5634,7 @@
                                                         "POST"
                                                         "/updateSignalingChannel"
                                                         "UpdateSignalingChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-signaling-channel))
 (common-lisp:progn
  (common-lisp:defun update-stream
@@ -5654,5 +5654,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/updateStream"
                                                         "UpdateStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-stream))

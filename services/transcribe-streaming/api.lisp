@@ -2116,7 +2116,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           start-call-analytics-stream-transcription-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'audio-stream)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'audio-stream))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          start-call-analytics-stream-transcription-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass start-call-analytics-stream-transcription-response
                        common-lisp:nil
@@ -2352,7 +2358,13 @@
                          (aws-sdk/generator/shape::input
                           start-call-analytics-stream-transcription-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'call-analytics-transcript-result-stream)))
+                           'call-analytics-transcript-result-stream))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          start-call-analytics-stream-transcription-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass start-medical-stream-transcription-request
                        common-lisp:nil
@@ -2531,7 +2543,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           start-medical-stream-transcription-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'audio-stream)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'audio-stream))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          start-medical-stream-transcription-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass start-medical-stream-transcription-response
                        common-lisp:nil
@@ -2721,7 +2739,13 @@
                          (aws-sdk/generator/shape::input
                           start-medical-stream-transcription-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'transcript-result-stream)))
+                           'transcript-result-stream))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          start-medical-stream-transcription-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass start-stream-transcription-request common-lisp:nil
                        ((language-code :initarg :language-code :initform
@@ -3054,7 +3078,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           start-stream-transcription-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'audio-stream)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'audio-stream))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          start-stream-transcription-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass start-stream-transcription-response common-lisp:nil
                        ((request-id :initarg :request-id :initform
@@ -3399,7 +3429,13 @@
                          (aws-sdk/generator/shape::input
                           start-stream-transcription-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'transcript-result-stream)))
+                           'transcript-result-stream))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          start-stream-transcription-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:deftype string () 'common-lisp:string)
 (common-lisp:progn
  (common-lisp:deftype string-list () '(trivial-types:proper-list string))
@@ -3819,7 +3855,7 @@
         'transcribe-streaming-request aws-sdk/generator/operation::input "POST"
         "/call-analytics-stream-transcription"
         "StartCallAnalyticsStreamTranscription"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-call-analytics-stream-transcription))
 (common-lisp:progn
  (common-lisp:defun start-medical-stream-transcription
@@ -3844,7 +3880,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'transcribe-streaming-request aws-sdk/generator/operation::input "POST"
         "/medical-stream-transcription" "StartMedicalStreamTranscription"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-medical-stream-transcription))
 (common-lisp:progn
  (common-lisp:defun start-stream-transcription
@@ -3878,5 +3914,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'transcribe-streaming-request aws-sdk/generator/operation::input "POST"
         "/stream-transcription" "StartStreamTranscription"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-stream-transcription))

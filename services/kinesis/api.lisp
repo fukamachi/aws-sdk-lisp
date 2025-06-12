@@ -5051,7 +5051,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AddTagsToStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-tags-to-stream))
 (common-lisp:progn
  (common-lisp:defun create-stream
@@ -5070,7 +5070,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-stream))
 (common-lisp:progn
  (common-lisp:defun decrease-stream-retention-period
@@ -5090,7 +5090,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DecreaseStreamRetentionPeriod"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'decrease-stream-retention-period))
 (common-lisp:progn
  (common-lisp:defun delete-resource-policy
@@ -5107,7 +5107,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resource-policy))
 (common-lisp:progn
  (common-lisp:defun delete-stream
@@ -5126,7 +5126,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-stream))
 (common-lisp:progn
  (common-lisp:defun deregister-stream-consumer
@@ -5144,7 +5144,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeregisterStreamConsumer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deregister-stream-consumer))
 (common-lisp:progn
  (common-lisp:defun describe-limits ()
@@ -5172,7 +5172,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-stream))
 (common-lisp:progn
  (common-lisp:defun describe-stream-consumer
@@ -5190,7 +5190,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeStreamConsumer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-stream-consumer))
 (common-lisp:progn
  (common-lisp:defun describe-stream-summary
@@ -5207,7 +5207,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeStreamSummary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-stream-summary))
 (common-lisp:progn
  (common-lisp:defun disable-enhanced-monitoring
@@ -5227,7 +5227,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisableEnhancedMonitoring"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disable-enhanced-monitoring))
 (common-lisp:progn
  (common-lisp:defun enable-enhanced-monitoring
@@ -5246,7 +5246,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "EnableEnhancedMonitoring"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-enhanced-monitoring))
 (common-lisp:progn
  (common-lisp:defun get-records
@@ -5264,7 +5264,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetRecords"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-records))
 (common-lisp:progn
  (common-lisp:defun get-resource-policy
@@ -5281,7 +5281,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-policy))
 (common-lisp:progn
  (common-lisp:defun get-shard-iterator
@@ -5301,7 +5301,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetShardIterator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-shard-iterator))
 (common-lisp:progn
  (common-lisp:defun increase-stream-retention-period
@@ -5321,7 +5321,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "IncreaseStreamRetentionPeriod"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'increase-stream-retention-period))
 (common-lisp:progn
  (common-lisp:defun list-shards
@@ -5342,7 +5342,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListShards"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-shards))
 (common-lisp:progn
  (common-lisp:defun list-stream-consumers
@@ -5362,7 +5362,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListStreamConsumers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-stream-consumers))
 (common-lisp:progn
  (common-lisp:defun list-streams
@@ -5381,7 +5381,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListStreams"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-streams))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-stream
@@ -5401,7 +5401,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-stream))
 (common-lisp:progn
  (common-lisp:defun merge-shards
@@ -5421,7 +5421,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "MergeShards"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'merge-shards))
 (common-lisp:progn
  (common-lisp:defun put-record
@@ -5441,7 +5441,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutRecord"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-record))
 (common-lisp:progn
  (common-lisp:defun put-records
@@ -5458,7 +5458,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutRecords"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-records))
 (common-lisp:progn
  (common-lisp:defun put-resource-policy
@@ -5475,7 +5475,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-resource-policy))
 (common-lisp:progn
  (common-lisp:defun register-stream-consumer
@@ -5492,7 +5492,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RegisterStreamConsumer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-stream-consumer))
 (common-lisp:progn
  (common-lisp:defun remove-tags-from-stream
@@ -5510,7 +5510,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RemoveTagsFromStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-tags-from-stream))
 (common-lisp:progn
  (common-lisp:defun split-shard
@@ -5530,7 +5530,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SplitShard"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'split-shard))
 (common-lisp:progn
  (common-lisp:defun start-stream-encryption
@@ -5549,7 +5549,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartStreamEncryption"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-stream-encryption))
 (common-lisp:progn
  (common-lisp:defun stop-stream-encryption
@@ -5568,7 +5568,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopStreamEncryption"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-stream-encryption))
 (common-lisp:progn
  (common-lisp:defun subscribe-to-shard
@@ -5586,7 +5586,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SubscribeToShard"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'subscribe-to-shard))
 (common-lisp:progn
  (common-lisp:defun update-shard-count
@@ -5606,7 +5606,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateShardCount"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-shard-count))
 (common-lisp:progn
  (common-lisp:defun update-stream-mode
@@ -5623,5 +5623,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateStreamMode"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-stream-mode))

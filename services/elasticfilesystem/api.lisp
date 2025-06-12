@@ -4091,7 +4091,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticfilesystem-request aws-sdk/generator/operation::input "POST"
         "/2015-02-01/access-points" "CreateAccessPoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-access-point))
 (common-lisp:progn
  (common-lisp:defun create-file-system
@@ -4112,7 +4112,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticfilesystem-request aws-sdk/generator/operation::input "POST"
         "/2015-02-01/file-systems" "CreateFileSystem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-file-system))
 (common-lisp:progn
  (common-lisp:defun create-mount-target
@@ -4131,7 +4131,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticfilesystem-request aws-sdk/generator/operation::input "POST"
         "/2015-02-01/mount-targets" "CreateMountTarget"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-mount-target))
 (common-lisp:progn
  (common-lisp:defun create-replication-configuration
@@ -4156,7 +4156,7 @@
                                 aws-sdk/generator/operation::input
                                 'source-file-system-id))))
         "CreateReplicationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-replication-configuration))
 (common-lisp:progn
  (common-lisp:defun create-tags
@@ -4178,7 +4178,7 @@
                                 aws-sdk/generator/operation::input
                                 'file-system-id))))
         "CreateTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-tags))
 (common-lisp:progn
  (common-lisp:defun delete-access-point
@@ -4200,7 +4200,7 @@
                                 aws-sdk/generator/operation::input
                                 'access-point-id))))
         "DeleteAccessPoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-access-point))
 (common-lisp:progn
  (common-lisp:defun delete-file-system
@@ -4222,7 +4222,7 @@
                                 aws-sdk/generator/operation::input
                                 'file-system-id))))
         "DeleteFileSystem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-file-system))
 (common-lisp:progn
  (common-lisp:defun delete-file-system-policy
@@ -4246,7 +4246,7 @@
                                 aws-sdk/generator/operation::input
                                 'file-system-id))))
         "DeleteFileSystemPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-file-system-policy))
 (common-lisp:progn
  (common-lisp:defun delete-mount-target
@@ -4268,7 +4268,7 @@
                                 aws-sdk/generator/operation::input
                                 'mount-target-id))))
         "DeleteMountTarget"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-mount-target))
 (common-lisp:progn
  (common-lisp:defun delete-replication-configuration
@@ -4292,7 +4292,7 @@
                                 aws-sdk/generator/operation::input
                                 'source-file-system-id))))
         "DeleteReplicationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-replication-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-tags
@@ -4314,7 +4314,7 @@
                                 aws-sdk/generator/operation::input
                                 'file-system-id))))
         "DeleteTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-tags))
 (common-lisp:progn
  (common-lisp:defun describe-access-points
@@ -4333,7 +4333,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticfilesystem-request aws-sdk/generator/operation::input "GET"
         "/2015-02-01/access-points" "DescribeAccessPoints"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-access-points))
 (common-lisp:progn
  (common-lisp:defun describe-account-preferences
@@ -4350,7 +4350,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticfilesystem-request aws-sdk/generator/operation::input "GET"
         "/2015-02-01/account-preferences" "DescribeAccountPreferences"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-account-preferences))
 (common-lisp:progn
  (common-lisp:defun describe-backup-policy
@@ -4373,7 +4373,7 @@
                                 aws-sdk/generator/operation::input
                                 'file-system-id))))
         "DescribeBackupPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-backup-policy))
 (common-lisp:progn
  (common-lisp:defun describe-file-system-policy
@@ -4397,7 +4397,7 @@
                                 aws-sdk/generator/operation::input
                                 'file-system-id))))
         "DescribeFileSystemPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-file-system-policy))
 (common-lisp:progn
  (common-lisp:defun describe-file-systems
@@ -4415,7 +4415,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticfilesystem-request aws-sdk/generator/operation::input "GET"
         "/2015-02-01/file-systems" "DescribeFileSystems"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-file-systems))
 (common-lisp:progn
  (common-lisp:defun describe-lifecycle-configuration
@@ -4439,7 +4439,7 @@
                                 aws-sdk/generator/operation::input
                                 'file-system-id))))
         "DescribeLifecycleConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-lifecycle-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-mount-target-security-groups
@@ -4463,7 +4463,7 @@
                                 aws-sdk/generator/operation::input
                                 'mount-target-id))))
         "DescribeMountTargetSecurityGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-mount-target-security-groups))
 (common-lisp:progn
  (common-lisp:defun describe-mount-targets
@@ -4482,7 +4482,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticfilesystem-request aws-sdk/generator/operation::input "GET"
         "/2015-02-01/mount-targets" "DescribeMountTargets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-mount-targets))
 (common-lisp:progn
  (common-lisp:defun describe-replication-configurations
@@ -4501,7 +4501,7 @@
         'elasticfilesystem-request aws-sdk/generator/operation::input "GET"
         "/2015-02-01/file-systems/replication-configurations"
         "DescribeReplicationConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-replication-configurations))
 (common-lisp:progn
  (common-lisp:defun describe-tags
@@ -4524,7 +4524,7 @@
                                 aws-sdk/generator/operation::input
                                 'file-system-id))))
         "DescribeTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-tags))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -4547,7 +4547,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-id))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun modify-mount-target-security-groups
@@ -4572,7 +4572,7 @@
                                 aws-sdk/generator/operation::input
                                 'mount-target-id))))
         "ModifyMountTargetSecurityGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'modify-mount-target-security-groups))
 (common-lisp:progn
  (common-lisp:defun put-account-preferences
@@ -4588,7 +4588,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticfilesystem-request aws-sdk/generator/operation::input "PUT"
         "/2015-02-01/account-preferences" "PutAccountPreferences"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-account-preferences))
 (common-lisp:progn
  (common-lisp:defun put-backup-policy
@@ -4611,7 +4611,7 @@
                                 aws-sdk/generator/operation::input
                                 'file-system-id))))
         "PutBackupPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-backup-policy))
 (common-lisp:progn
  (common-lisp:defun put-file-system-policy
@@ -4637,7 +4637,7 @@
                                 aws-sdk/generator/operation::input
                                 'file-system-id))))
         "PutFileSystemPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-file-system-policy))
 (common-lisp:progn
  (common-lisp:defun put-lifecycle-configuration
@@ -4662,7 +4662,7 @@
                                 aws-sdk/generator/operation::input
                                 'file-system-id))))
         "PutLifecycleConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-lifecycle-configuration))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4684,7 +4684,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-id))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4706,7 +4706,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-id))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-file-system
@@ -4731,7 +4731,7 @@
                                 aws-sdk/generator/operation::input
                                 'file-system-id))))
         "UpdateFileSystem"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-file-system))
 (common-lisp:progn
  (common-lisp:defun update-file-system-protection
@@ -4757,5 +4757,5 @@
                                 aws-sdk/generator/operation::input
                                 'file-system-id))))
         "UpdateFileSystemProtection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-file-system-protection))

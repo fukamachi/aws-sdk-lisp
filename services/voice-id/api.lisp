@@ -5746,7 +5746,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateFraudster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-fraudster))
 (common-lisp:progn
  (common-lisp:defun create-domain
@@ -5766,7 +5766,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-domain))
 (common-lisp:progn
  (common-lisp:defun create-watchlist
@@ -5784,7 +5784,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateWatchlist"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-watchlist))
 (common-lisp:progn
  (common-lisp:defun delete-domain
@@ -5801,7 +5801,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-domain))
 (common-lisp:progn
  (common-lisp:defun delete-fraudster
@@ -5818,7 +5818,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteFraudster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-fraudster))
 (common-lisp:progn
  (common-lisp:defun delete-speaker
@@ -5835,7 +5835,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteSpeaker"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-speaker))
 (common-lisp:progn
  (common-lisp:defun delete-watchlist
@@ -5852,7 +5852,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteWatchlist"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-watchlist))
 (common-lisp:progn
  (common-lisp:defun describe-domain
@@ -5869,7 +5869,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-domain))
 (common-lisp:progn
  (common-lisp:defun describe-fraudster
@@ -5886,7 +5886,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeFraudster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-fraudster))
 (common-lisp:progn
  (common-lisp:defun describe-fraudster-registration-job
@@ -5904,7 +5904,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeFraudsterRegistrationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-fraudster-registration-job))
 (common-lisp:progn
  (common-lisp:defun describe-speaker
@@ -5921,7 +5921,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeSpeaker"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-speaker))
 (common-lisp:progn
  (common-lisp:defun describe-speaker-enrollment-job
@@ -5939,7 +5939,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeSpeakerEnrollmentJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-speaker-enrollment-job))
 (common-lisp:progn
  (common-lisp:defun describe-watchlist
@@ -5956,7 +5956,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeWatchlist"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-watchlist))
 (common-lisp:progn
  (common-lisp:defun disassociate-fraudster
@@ -5974,7 +5974,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateFraudster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-fraudster))
 (common-lisp:progn
  (common-lisp:defun evaluate-session
@@ -5991,7 +5991,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "EvaluateSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'evaluate-session))
 (common-lisp:progn
  (common-lisp:defun list-domains
@@ -6008,7 +6008,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDomains"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-domains))
 (common-lisp:progn
  (common-lisp:defun list-fraudster-registration-jobs
@@ -6028,7 +6028,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListFraudsterRegistrationJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-fraudster-registration-jobs))
 (common-lisp:progn
  (common-lisp:defun list-fraudsters
@@ -6047,7 +6047,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListFraudsters"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-fraudsters))
 (common-lisp:progn
  (common-lisp:defun list-speaker-enrollment-jobs
@@ -6067,7 +6067,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListSpeakerEnrollmentJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-speaker-enrollment-jobs))
 (common-lisp:progn
  (common-lisp:defun list-speakers
@@ -6085,7 +6085,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListSpeakers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-speakers))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -6102,7 +6102,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-watchlists
@@ -6120,7 +6120,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListWatchlists"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-watchlists))
 (common-lisp:progn
  (common-lisp:defun opt-out-speaker
@@ -6137,7 +6137,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "OptOutSpeaker"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'opt-out-speaker))
 (common-lisp:progn
  (common-lisp:defun start-fraudster-registration-job
@@ -6159,7 +6159,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartFraudsterRegistrationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-fraudster-registration-job))
 (common-lisp:progn
  (common-lisp:defun start-speaker-enrollment-job
@@ -6181,7 +6181,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartSpeakerEnrollmentJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-speaker-enrollment-job))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -6198,7 +6198,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -6215,7 +6215,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-domain
@@ -6235,7 +6235,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-domain))
 (common-lisp:progn
  (common-lisp:defun update-watchlist
@@ -6253,5 +6253,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateWatchlist"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-watchlist))

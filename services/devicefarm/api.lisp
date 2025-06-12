@@ -13034,7 +13034,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDevicePool"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-device-pool))
 (common-lisp:progn
  (common-lisp:defun create-instance-profile
@@ -13054,7 +13054,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateInstanceProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-instance-profile))
 (common-lisp:progn
  (common-lisp:defun create-network-profile
@@ -13079,7 +13079,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateNetworkProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-network-profile))
 (common-lisp:progn
  (common-lisp:defun create-project
@@ -13098,7 +13098,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-project))
 (common-lisp:progn
  (common-lisp:defun create-remote-access-session
@@ -13122,7 +13122,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateRemoteAccessSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-remote-access-session))
 (common-lisp:progn
  (common-lisp:defun create-test-grid-project
@@ -13139,7 +13139,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateTestGridProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-test-grid-project))
 (common-lisp:progn
  (common-lisp:defun create-test-grid-url
@@ -13156,7 +13156,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateTestGridUrl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-test-grid-url))
 (common-lisp:progn
  (common-lisp:defun create-upload
@@ -13174,7 +13174,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateUpload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-upload))
 (common-lisp:progn
  (common-lisp:defun create-vpceconfiguration
@@ -13194,7 +13194,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateVPCEConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-vpceconfiguration))
 (common-lisp:progn
  (common-lisp:defun delete-device-pool
@@ -13211,7 +13211,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDevicePool"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-device-pool))
 (common-lisp:progn
  (common-lisp:defun delete-instance-profile
@@ -13228,7 +13228,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteInstanceProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-instance-profile))
 (common-lisp:progn
  (common-lisp:defun delete-network-profile
@@ -13245,7 +13245,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteNetworkProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-network-profile))
 (common-lisp:progn
  (common-lisp:defun delete-project
@@ -13262,7 +13262,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-project))
 (common-lisp:progn
  (common-lisp:defun delete-remote-access-session
@@ -13280,7 +13280,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteRemoteAccessSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-remote-access-session))
 (common-lisp:progn
  (common-lisp:defun delete-run
@@ -13297,7 +13297,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-run))
 (common-lisp:progn
  (common-lisp:defun delete-test-grid-project
@@ -13314,7 +13314,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteTestGridProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-test-grid-project))
 (common-lisp:progn
  (common-lisp:defun delete-upload
@@ -13331,7 +13331,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteUpload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-upload))
 (common-lisp:progn
  (common-lisp:defun delete-vpceconfiguration
@@ -13348,7 +13348,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteVPCEConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-vpceconfiguration))
 (common-lisp:progn
  (common-lisp:defun get-account-settings ()
@@ -13373,7 +13373,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-device))
 (common-lisp:progn
  (common-lisp:defun get-device-instance
@@ -13390,7 +13390,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDeviceInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-device-instance))
 (common-lisp:progn
  (common-lisp:defun get-device-pool
@@ -13407,7 +13407,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDevicePool"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-device-pool))
 (common-lisp:progn
  (common-lisp:defun get-device-pool-compatibility
@@ -13428,7 +13428,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDevicePoolCompatibility"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-device-pool-compatibility))
 (common-lisp:progn
  (common-lisp:defun get-instance-profile
@@ -13445,7 +13445,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetInstanceProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-instance-profile))
 (common-lisp:progn
  (common-lisp:defun get-job
@@ -13461,7 +13461,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'devicefarm-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "GetJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-job))
 (common-lisp:progn
  (common-lisp:defun get-network-profile
@@ -13478,7 +13478,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetNetworkProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-network-profile))
 (common-lisp:progn
  (common-lisp:defun get-offering-status
@@ -13495,7 +13495,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetOfferingStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-offering-status))
 (common-lisp:progn
  (common-lisp:defun get-project
@@ -13512,7 +13512,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-project))
 (common-lisp:progn
  (common-lisp:defun get-remote-access-session
@@ -13530,7 +13530,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetRemoteAccessSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-remote-access-session))
 (common-lisp:progn
  (common-lisp:defun get-run
@@ -13546,7 +13546,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'devicefarm-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "GetRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-run))
 (common-lisp:progn
  (common-lisp:defun get-suite
@@ -13562,7 +13562,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'devicefarm-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "GetSuite"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-suite))
 (common-lisp:progn
  (common-lisp:defun get-test
@@ -13578,7 +13578,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'devicefarm-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "GetTest"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-test))
 (common-lisp:progn
  (common-lisp:defun get-test-grid-project
@@ -13595,7 +13595,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetTestGridProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-test-grid-project))
 (common-lisp:progn
  (common-lisp:defun get-test-grid-session
@@ -13613,7 +13613,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetTestGridSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-test-grid-session))
 (common-lisp:progn
  (common-lisp:defun get-upload
@@ -13630,7 +13630,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetUpload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-upload))
 (common-lisp:progn
  (common-lisp:defun get-vpceconfiguration
@@ -13647,7 +13647,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetVPCEConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-vpceconfiguration))
 (common-lisp:progn
  (common-lisp:defun install-to-remote-access-session
@@ -13666,7 +13666,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "InstallToRemoteAccessSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'install-to-remote-access-session))
 (common-lisp:progn
  (common-lisp:defun list-artifacts
@@ -13683,7 +13683,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListArtifacts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-artifacts))
 (common-lisp:progn
  (common-lisp:defun list-device-instances
@@ -13700,7 +13700,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDeviceInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-device-instances))
 (common-lisp:progn
  (common-lisp:defun list-device-pools
@@ -13717,7 +13717,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDevicePools"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-device-pools))
 (common-lisp:progn
  (common-lisp:defun list-devices
@@ -13734,7 +13734,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDevices"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-devices))
 (common-lisp:progn
  (common-lisp:defun list-instance-profiles
@@ -13751,7 +13751,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListInstanceProfiles"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-instance-profiles))
 (common-lisp:progn
  (common-lisp:defun list-jobs
@@ -13767,7 +13767,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'devicefarm-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "ListJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-jobs))
 (common-lisp:progn
  (common-lisp:defun list-network-profiles
@@ -13784,7 +13784,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListNetworkProfiles"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-network-profiles))
 (common-lisp:progn
  (common-lisp:defun list-offering-promotions
@@ -13801,7 +13801,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListOfferingPromotions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-offering-promotions))
 (common-lisp:progn
  (common-lisp:defun list-offering-transactions
@@ -13819,7 +13819,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListOfferingTransactions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-offering-transactions))
 (common-lisp:progn
  (common-lisp:defun list-offerings
@@ -13836,7 +13836,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListOfferings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-offerings))
 (common-lisp:progn
  (common-lisp:defun list-projects
@@ -13853,7 +13853,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListProjects"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-projects))
 (common-lisp:progn
  (common-lisp:defun list-remote-access-sessions
@@ -13871,7 +13871,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListRemoteAccessSessions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-remote-access-sessions))
 (common-lisp:progn
  (common-lisp:defun list-runs
@@ -13887,7 +13887,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'devicefarm-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "ListRuns"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-runs))
 (common-lisp:progn
  (common-lisp:defun list-samples
@@ -13904,7 +13904,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListSamples"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-samples))
 (common-lisp:progn
  (common-lisp:defun list-suites
@@ -13921,7 +13921,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListSuites"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-suites))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -13938,7 +13938,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-test-grid-projects
@@ -13955,7 +13955,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTestGridProjects"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-test-grid-projects))
 (common-lisp:progn
  (common-lisp:defun list-test-grid-session-actions
@@ -13974,7 +13974,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTestGridSessionActions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-test-grid-session-actions))
 (common-lisp:progn
  (common-lisp:defun list-test-grid-session-artifacts
@@ -13993,7 +13993,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTestGridSessionArtifacts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-test-grid-session-artifacts))
 (common-lisp:progn
  (common-lisp:defun list-test-grid-sessions
@@ -14015,7 +14015,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTestGridSessions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-test-grid-sessions))
 (common-lisp:progn
  (common-lisp:defun list-tests
@@ -14032,7 +14032,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTests"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tests))
 (common-lisp:progn
  (common-lisp:defun list-unique-problems
@@ -14049,7 +14049,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListUniqueProblems"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-unique-problems))
 (common-lisp:progn
  (common-lisp:defun list-uploads
@@ -14066,7 +14066,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListUploads"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-uploads))
 (common-lisp:progn
  (common-lisp:defun list-vpceconfigurations
@@ -14083,7 +14083,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListVPCEConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-vpceconfigurations))
 (common-lisp:progn
  (common-lisp:defun purchase-offering
@@ -14102,7 +14102,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PurchaseOffering"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'purchase-offering))
 (common-lisp:progn
  (common-lisp:defun renew-offering
@@ -14119,7 +14119,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RenewOffering"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'renew-offering))
 (common-lisp:progn
  (common-lisp:defun schedule-run
@@ -14141,7 +14141,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ScheduleRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'schedule-run))
 (common-lisp:progn
  (common-lisp:defun stop-job
@@ -14157,7 +14157,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'devicefarm-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "StopJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-job))
 (common-lisp:progn
  (common-lisp:defun stop-remote-access-session
@@ -14175,7 +14175,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopRemoteAccessSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-remote-access-session))
 (common-lisp:progn
  (common-lisp:defun stop-run
@@ -14191,7 +14191,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'devicefarm-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "StopRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-run))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -14208,7 +14208,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -14225,7 +14225,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-device-instance
@@ -14242,7 +14242,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateDeviceInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-device-instance))
 (common-lisp:progn
  (common-lisp:defun update-device-pool
@@ -14262,7 +14262,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateDevicePool"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-device-pool))
 (common-lisp:progn
  (common-lisp:defun update-instance-profile
@@ -14282,7 +14282,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateInstanceProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-instance-profile))
 (common-lisp:progn
  (common-lisp:defun update-network-profile
@@ -14306,7 +14306,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateNetworkProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-network-profile))
 (common-lisp:progn
  (common-lisp:defun update-project
@@ -14325,7 +14325,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-project))
 (common-lisp:progn
  (common-lisp:defun update-test-grid-project
@@ -14343,7 +14343,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateTestGridProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-test-grid-project))
 (common-lisp:progn
  (common-lisp:defun update-upload
@@ -14361,7 +14361,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateUpload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-upload))
 (common-lisp:progn
  (common-lisp:defun update-vpceconfiguration
@@ -14382,5 +14382,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateVPCEConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-vpceconfiguration))

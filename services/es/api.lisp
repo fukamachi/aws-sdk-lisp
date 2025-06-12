@@ -11842,7 +11842,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'connection-id))))
                                                         "AcceptInboundCrossClusterSearchConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'accept-inbound-cross-cluster-search-connection))
 (common-lisp:progn
  (common-lisp:defun add-tags
@@ -11860,7 +11860,7 @@
                                                         "POST"
                                                         "/2015-01-01/tags"
                                                         "AddTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-tags))
 (common-lisp:progn
  (common-lisp:defun associate-package
@@ -11891,7 +11891,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "AssociatePackage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-package))
 (common-lisp:progn
  (common-lisp:defun authorize-vpc-endpoint-access
@@ -11919,7 +11919,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "AuthorizeVpcEndpointAccess"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'authorize-vpc-endpoint-access))
 (common-lisp:progn
  (common-lisp:defun cancel-domain-config-change
@@ -11947,7 +11947,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "CancelDomainConfigChange"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-domain-config-change))
 (common-lisp:progn
  (common-lisp:defun cancel-elasticsearch-service-software-update
@@ -11966,7 +11966,7 @@
                                                         "POST"
                                                         "/2015-01-01/es/serviceSoftwareUpdate/cancel"
                                                         "CancelElasticsearchServiceSoftwareUpdate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-elasticsearch-service-software-update))
 (common-lisp:progn
  (common-lisp:defun create-elasticsearch-domain
@@ -11997,7 +11997,7 @@
                                                         "POST"
                                                         "/2015-01-01/es/domain"
                                                         "CreateElasticsearchDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-elasticsearch-domain))
 (common-lisp:progn
  (common-lisp:defun create-outbound-cross-cluster-search-connection
@@ -12019,7 +12019,7 @@
                                                         "POST"
                                                         "/2015-01-01/es/ccs/outboundConnection"
                                                         "CreateOutboundCrossClusterSearchConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-outbound-cross-cluster-search-connection))
 (common-lisp:progn
  (common-lisp:defun create-package
@@ -12040,7 +12040,7 @@
                                                         "POST"
                                                         "/2015-01-01/packages"
                                                         "CreatePackage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-package))
 (common-lisp:progn
  (common-lisp:defun create-vpc-endpoint
@@ -12059,7 +12059,7 @@
                                                         "POST"
                                                         "/2015-01-01/es/vpcEndpoints"
                                                         "CreateVpcEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-vpc-endpoint))
 (common-lisp:progn
  (common-lisp:defun delete-elasticsearch-domain
@@ -12087,7 +12087,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "DeleteElasticsearchDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-elasticsearch-domain))
 (common-lisp:progn
  (common-lisp:defun delete-elasticsearch-service-role ()
@@ -12125,7 +12125,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'connection-id))))
                                                         "DeleteInboundCrossClusterSearchConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-inbound-cross-cluster-search-connection))
 (common-lisp:progn
  (common-lisp:defun delete-outbound-cross-cluster-search-connection
@@ -12154,7 +12154,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'connection-id))))
                                                         "DeleteOutboundCrossClusterSearchConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-outbound-cross-cluster-search-connection))
 (common-lisp:progn
  (common-lisp:defun delete-package
@@ -12181,7 +12181,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'package-id))))
                                                         "DeletePackage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-package))
 (common-lisp:progn
  (common-lisp:defun delete-vpc-endpoint
@@ -12208,7 +12208,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'vpc-endpoint-id))))
                                                         "DeleteVpcEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-vpc-endpoint))
 (common-lisp:progn
  (common-lisp:defun describe-domain-auto-tunes
@@ -12237,7 +12237,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "DescribeDomainAutoTunes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-domain-auto-tunes))
 (common-lisp:progn
  (common-lisp:defun describe-domain-change-progress
@@ -12265,7 +12265,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "DescribeDomainChangeProgress"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-domain-change-progress))
 (common-lisp:progn
  (common-lisp:defun describe-elasticsearch-domain
@@ -12293,7 +12293,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "DescribeElasticsearchDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-elasticsearch-domain))
 (common-lisp:progn
  (common-lisp:defun describe-elasticsearch-domain-config
@@ -12321,7 +12321,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "DescribeElasticsearchDomainConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-elasticsearch-domain-config))
 (common-lisp:progn
  (common-lisp:defun describe-elasticsearch-domains
@@ -12340,7 +12340,7 @@
                                                         "POST"
                                                         "/2015-01-01/es/domain-info"
                                                         "DescribeElasticsearchDomains"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-elasticsearch-domains))
 (common-lisp:progn
  (common-lisp:defun describe-elasticsearch-instance-type-limits
@@ -12374,7 +12374,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'instance-type))))
                                                         "DescribeElasticsearchInstanceTypeLimits"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-elasticsearch-instance-type-limits))
 (common-lisp:progn
  (common-lisp:defun describe-inbound-cross-cluster-search-connections
@@ -12393,7 +12393,7 @@
                                                         "POST"
                                                         "/2015-01-01/es/ccs/inboundConnection/search"
                                                         "DescribeInboundCrossClusterSearchConnections"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-inbound-cross-cluster-search-connections))
 (common-lisp:progn
  (common-lisp:defun describe-outbound-cross-cluster-search-connections
@@ -12412,7 +12412,7 @@
                                                         "POST"
                                                         "/2015-01-01/es/ccs/outboundConnection/search"
                                                         "DescribeOutboundCrossClusterSearchConnections"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-outbound-cross-cluster-search-connections))
 (common-lisp:progn
  (common-lisp:defun describe-packages
@@ -12430,7 +12430,7 @@
                                                         "POST"
                                                         "/2015-01-01/packages/describe"
                                                         "DescribePackages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-packages))
 (common-lisp:progn
  (common-lisp:defun describe-reserved-elasticsearch-instance-offerings
@@ -12453,7 +12453,7 @@
                                                         "GET"
                                                         "/2015-01-01/es/reservedInstanceOfferings"
                                                         "DescribeReservedElasticsearchInstanceOfferings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-reserved-elasticsearch-instance-offerings))
 (common-lisp:progn
  (common-lisp:defun describe-reserved-elasticsearch-instances
@@ -12475,7 +12475,7 @@
                                                         "GET"
                                                         "/2015-01-01/es/reservedInstances"
                                                         "DescribeReservedElasticsearchInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-reserved-elasticsearch-instances))
 (common-lisp:progn
  (common-lisp:defun describe-vpc-endpoints
@@ -12493,7 +12493,7 @@
                                                         "POST"
                                                         "/2015-01-01/es/vpcEndpoints/describe"
                                                         "DescribeVpcEndpoints"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-vpc-endpoints))
 (common-lisp:progn
  (common-lisp:defun dissociate-package
@@ -12524,7 +12524,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "DissociatePackage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'dissociate-package))
 (common-lisp:progn
  (common-lisp:defun get-compatible-elasticsearch-versions
@@ -12543,7 +12543,7 @@
                                                         "GET"
                                                         "/2015-01-01/es/compatibleVersions"
                                                         "GetCompatibleElasticsearchVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-compatible-elasticsearch-versions))
 (common-lisp:progn
  (common-lisp:defun get-package-version-history
@@ -12572,7 +12572,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'package-id))))
                                                         "GetPackageVersionHistory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-package-version-history))
 (common-lisp:progn
  (common-lisp:defun get-upgrade-history
@@ -12600,7 +12600,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "GetUpgradeHistory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-upgrade-history))
 (common-lisp:progn
  (common-lisp:defun get-upgrade-status
@@ -12627,7 +12627,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "GetUpgradeStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-upgrade-status))
 (common-lisp:progn
  (common-lisp:defun list-domain-names
@@ -12645,7 +12645,7 @@
                                                         "GET"
                                                         "/2015-01-01/domain"
                                                         "ListDomainNames"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-domain-names))
 (common-lisp:progn
  (common-lisp:defun list-domains-for-package
@@ -12673,7 +12673,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'package-id))))
                                                         "ListDomainsForPackage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-domains-for-package))
 (common-lisp:progn
  (common-lisp:defun list-elasticsearch-instance-types
@@ -12704,7 +12704,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'elasticsearch-version))))
                                                         "ListElasticsearchInstanceTypes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-elasticsearch-instance-types))
 (common-lisp:progn
  (common-lisp:defun list-elasticsearch-versions
@@ -12723,7 +12723,7 @@
                                                         "GET"
                                                         "/2015-01-01/es/versions"
                                                         "ListElasticsearchVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-elasticsearch-versions))
 (common-lisp:progn
  (common-lisp:defun list-packages-for-domain
@@ -12751,7 +12751,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "ListPackagesForDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-packages-for-domain))
 (common-lisp:progn
  (common-lisp:defun list-tags
@@ -12769,7 +12769,7 @@
                                                         "GET"
                                                         "/2015-01-01/tags/"
                                                         "ListTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags))
 (common-lisp:progn
  (common-lisp:defun list-vpc-endpoint-access
@@ -12796,7 +12796,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "ListVpcEndpointAccess"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-vpc-endpoint-access))
 (common-lisp:progn
  (common-lisp:defun list-vpc-endpoints
@@ -12814,7 +12814,7 @@
                                                         "GET"
                                                         "/2015-01-01/es/vpcEndpoints"
                                                         "ListVpcEndpoints"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-vpc-endpoints))
 (common-lisp:progn
  (common-lisp:defun list-vpc-endpoints-for-domain
@@ -12842,7 +12842,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "ListVpcEndpointsForDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-vpc-endpoints-for-domain))
 (common-lisp:progn
  (common-lisp:defun purchase-reserved-elasticsearch-instance-offering
@@ -12865,7 +12865,7 @@
                                                         "POST"
                                                         "/2015-01-01/es/purchaseReservedInstanceOffering"
                                                         "PurchaseReservedElasticsearchInstanceOffering"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'purchase-reserved-elasticsearch-instance-offering))
 (common-lisp:progn
  (common-lisp:defun reject-inbound-cross-cluster-search-connection
@@ -12894,7 +12894,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'connection-id))))
                                                         "RejectInboundCrossClusterSearchConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reject-inbound-cross-cluster-search-connection))
 (common-lisp:progn
  (common-lisp:defun remove-tags
@@ -12912,7 +12912,7 @@
                                                         "POST"
                                                         "/2015-01-01/tags-removal"
                                                         "RemoveTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-tags))
 (common-lisp:progn
  (common-lisp:defun revoke-vpc-endpoint-access
@@ -12940,7 +12940,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "RevokeVpcEndpointAccess"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'revoke-vpc-endpoint-access))
 (common-lisp:progn
  (common-lisp:defun start-elasticsearch-service-software-update
@@ -12959,7 +12959,7 @@
                                                         "POST"
                                                         "/2015-01-01/es/serviceSoftwareUpdate/start"
                                                         "StartElasticsearchServiceSoftwareUpdate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-elasticsearch-service-software-update))
 (common-lisp:progn
  (common-lisp:defun update-elasticsearch-domain-config
@@ -12997,7 +12997,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "UpdateElasticsearchDomainConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-elasticsearch-domain-config))
 (common-lisp:progn
  (common-lisp:defun update-package
@@ -13018,7 +13018,7 @@
                                                         "POST"
                                                         "/2015-01-01/packages/update"
                                                         "UpdatePackage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-package))
 (common-lisp:progn
  (common-lisp:defun update-vpc-endpoint
@@ -13036,7 +13036,7 @@
                                                         "POST"
                                                         "/2015-01-01/es/vpcEndpoints/update"
                                                         "UpdateVpcEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-vpc-endpoint))
 (common-lisp:progn
  (common-lisp:defun upgrade-elasticsearch-domain
@@ -13057,5 +13057,5 @@
                                                         "POST"
                                                         "/2015-01-01/es/upgradeDomain"
                                                         "UpgradeElasticsearchDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'upgrade-elasticsearch-domain))

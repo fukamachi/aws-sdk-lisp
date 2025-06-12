@@ -6418,7 +6418,7 @@
                                                         "POST"
                                                         "/acceptresourceshareinvitation"
                                                         "AcceptResourceShareInvitation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'accept-resource-share-invitation))
 (common-lisp:progn
  (common-lisp:defun associate-resource-share
@@ -6439,7 +6439,7 @@
                                                         "POST"
                                                         "/associateresourceshare"
                                                         "AssociateResourceShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-resource-share))
 (common-lisp:progn
  (common-lisp:defun associate-resource-share-permission
@@ -6461,7 +6461,7 @@
                                                         "POST"
                                                         "/associateresourcesharepermission"
                                                         "AssociateResourceSharePermission"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-resource-share-permission))
 (common-lisp:progn
  (common-lisp:defun create-permission
@@ -6482,7 +6482,7 @@
                                                         "POST"
                                                         "/createpermission"
                                                         "CreatePermission"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-permission))
 (common-lisp:progn
  (common-lisp:defun create-permission-version
@@ -6503,7 +6503,7 @@
                                                         "POST"
                                                         "/createpermissionversion"
                                                         "CreatePermissionVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-permission-version))
 (common-lisp:progn
  (common-lisp:defun create-resource-share
@@ -6525,7 +6525,7 @@
                                                         "POST"
                                                         "/createresourceshare"
                                                         "CreateResourceShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-resource-share))
 (common-lisp:progn
  (common-lisp:defun delete-permission
@@ -6543,7 +6543,7 @@
                                                         "DELETE"
                                                         "/deletepermission"
                                                         "DeletePermission"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-permission))
 (common-lisp:progn
  (common-lisp:defun delete-permission-version
@@ -6564,7 +6564,7 @@
                                                         "DELETE"
                                                         "/deletepermissionversion"
                                                         "DeletePermissionVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-permission-version))
 (common-lisp:progn
  (common-lisp:defun delete-resource-share
@@ -6583,7 +6583,7 @@
                                                         "DELETE"
                                                         "/deleteresourceshare"
                                                         "DeleteResourceShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resource-share))
 (common-lisp:progn
  (common-lisp:defun disassociate-resource-share
@@ -6605,7 +6605,7 @@
                                                         "POST"
                                                         "/disassociateresourceshare"
                                                         "DisassociateResourceShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-resource-share))
 (common-lisp:progn
  (common-lisp:defun disassociate-resource-share-permission
@@ -6626,7 +6626,7 @@
                                                         "POST"
                                                         "/disassociateresourcesharepermission"
                                                         "DisassociateResourceSharePermission"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-resource-share-permission))
 (common-lisp:progn
  (common-lisp:defun enable-sharing-with-aws-organization ()
@@ -6653,7 +6653,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/getpermission"
                                                         "GetPermission"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-permission))
 (common-lisp:progn
  (common-lisp:defun get-resource-policies
@@ -6673,7 +6673,7 @@
                                                         "POST"
                                                         "/getresourcepolicies"
                                                         "GetResourcePolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-policies))
 (common-lisp:progn
  (common-lisp:defun get-resource-share-associations
@@ -6696,7 +6696,7 @@
                                                         "POST"
                                                         "/getresourceshareassociations"
                                                         "GetResourceShareAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-share-associations))
 (common-lisp:progn
  (common-lisp:defun get-resource-share-invitations
@@ -6718,7 +6718,7 @@
                                                         "POST"
                                                         "/getresourceshareinvitations"
                                                         "GetResourceShareInvitations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-share-invitations))
 (common-lisp:progn
  (common-lisp:defun get-resource-shares
@@ -6741,7 +6741,7 @@
                                                         "POST"
                                                         "/getresourceshares"
                                                         "GetResourceShares"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-shares))
 (common-lisp:progn
  (common-lisp:defun list-pending-invitation-resources
@@ -6763,7 +6763,7 @@
                                                         "POST"
                                                         "/listpendinginvitationresources"
                                                         "ListPendingInvitationResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-pending-invitation-resources))
 (common-lisp:progn
  (common-lisp:defun list-permission-associations
@@ -6786,7 +6786,7 @@
                                                         "POST"
                                                         "/listpermissionassociations"
                                                         "ListPermissionAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-permission-associations))
 (common-lisp:progn
  (common-lisp:defun list-permission-versions
@@ -6805,7 +6805,7 @@
                                                         "POST"
                                                         "/listpermissionversions"
                                                         "ListPermissionVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-permission-versions))
 (common-lisp:progn
  (common-lisp:defun list-permissions
@@ -6826,7 +6826,7 @@
                                                         "POST"
                                                         "/listpermissions"
                                                         "ListPermissions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-permissions))
 (common-lisp:progn
  (common-lisp:defun list-principals
@@ -6847,7 +6847,7 @@
                                                         "POST"
                                                         "/listprincipals"
                                                         "ListPrincipals"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-principals))
 (common-lisp:progn
  (common-lisp:defun list-replace-permission-associations-work
@@ -6867,7 +6867,7 @@
                                                         "POST"
                                                         "/listreplacepermissionassociationswork"
                                                         "ListReplacePermissionAssociationsWork"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-replace-permission-associations-work))
 (common-lisp:progn
  (common-lisp:defun list-resource-share-permissions
@@ -6888,7 +6888,7 @@
                                                         "POST"
                                                         "/listresourcesharepermissions"
                                                         "ListResourceSharePermissions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-resource-share-permissions))
 (common-lisp:progn
  (common-lisp:defun list-resource-types
@@ -6908,7 +6908,7 @@
                                                         "POST"
                                                         "/listresourcetypes"
                                                         "ListResourceTypes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-resource-types))
 (common-lisp:progn
  (common-lisp:defun list-resources
@@ -6929,7 +6929,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/listresources"
                                                         "ListResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-resources))
 (common-lisp:progn
  (common-lisp:defun promote-permission-created-from-policy
@@ -6949,7 +6949,7 @@
                                                         "POST"
                                                         "/promotepermissioncreatedfrompolicy"
                                                         "PromotePermissionCreatedFromPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'promote-permission-created-from-policy))
 (common-lisp:progn
  (common-lisp:defun promote-resource-share-created-from-policy
@@ -6968,7 +6968,7 @@
                                                         "POST"
                                                         "/promoteresourcesharecreatedfrompolicy"
                                                         "PromoteResourceShareCreatedFromPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'promote-resource-share-created-from-policy))
 (common-lisp:progn
  (common-lisp:defun reject-resource-share-invitation
@@ -6989,7 +6989,7 @@
                                                         "POST"
                                                         "/rejectresourceshareinvitation"
                                                         "RejectResourceShareInvitation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reject-resource-share-invitation))
 (common-lisp:progn
  (common-lisp:defun replace-permission-associations
@@ -7011,7 +7011,7 @@
                                                         "POST"
                                                         "/replacepermissionassociations"
                                                         "ReplacePermissionAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'replace-permission-associations))
 (common-lisp:progn
  (common-lisp:defun set-default-permission-version
@@ -7032,7 +7032,7 @@
                                                         "POST"
                                                         "/setdefaultpermissionversion"
                                                         "SetDefaultPermissionVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'set-default-permission-version))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -7050,7 +7050,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/tagresource"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -7068,7 +7068,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/untagresource"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-resource-share
@@ -7089,5 +7089,5 @@
                                                         "POST"
                                                         "/updateresourceshare"
                                                         "UpdateResourceShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-resource-share))

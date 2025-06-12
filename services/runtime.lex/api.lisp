@@ -1007,7 +1007,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input post-content-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'input-stream)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'input-stream))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input post-content-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass post-content-response common-lisp:nil
                        ((content-type :initarg :content-type :initform
@@ -1238,7 +1242,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           post-content-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'audio-stream)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'audio-stream))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          post-content-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass post-text-request common-lisp:nil
                        ((bot-name :initarg :bot-name :initform
@@ -1840,7 +1850,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input put-session-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'audio-stream)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'audio-stream))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input put-session-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:define-condition request-timeout-exception
      (runtime.lex-error)
@@ -2024,7 +2038,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'user-id))))
                                                         "DeleteSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-session))
 (common-lisp:progn
  (common-lisp:defun get-session
@@ -2061,7 +2075,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'user-id))))
                                                         "GetSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-session))
 (common-lisp:progn
  (common-lisp:defun post-content
@@ -2101,7 +2115,7 @@
                                                              'user-id))))
                                                         "PostContent")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'post-content))
 (common-lisp:progn
  (common-lisp:defun post-text
@@ -2140,7 +2154,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'user-id))))
                                                         "PostText"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'post-text))
 (common-lisp:progn
  (common-lisp:defun put-session
@@ -2180,5 +2194,5 @@
                                                              'user-id))))
                                                         "PutSession")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-session))

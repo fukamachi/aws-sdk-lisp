@@ -5192,7 +5192,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "CreateHttpNamespace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-http-namespace))
 (common-lisp:progn
  (common-lisp:defun create-private-dns-namespace
@@ -5212,7 +5212,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "CreatePrivateDnsNamespace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-private-dns-namespace))
 (common-lisp:progn
  (common-lisp:defun create-public-dns-namespace
@@ -5232,7 +5232,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "CreatePublicDnsNamespace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-public-dns-namespace))
 (common-lisp:progn
  (common-lisp:defun create-service
@@ -5252,7 +5252,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "CreateService"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-service))
 (common-lisp:progn
  (common-lisp:defun delete-namespace
@@ -5268,7 +5268,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteNamespace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-namespace))
 (common-lisp:progn
  (common-lisp:defun delete-service
@@ -5284,7 +5284,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteService"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-service))
 (common-lisp:progn
  (common-lisp:defun deregister-instance
@@ -5300,7 +5300,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "DeregisterInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deregister-instance))
 (common-lisp:progn
  (common-lisp:defun discover-instances
@@ -5319,7 +5319,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "DiscoverInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'discover-instances))
 (common-lisp:progn
  (common-lisp:defun discover-instances-revision
@@ -5336,7 +5336,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "DiscoverInstancesRevision"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'discover-instances-revision))
 (common-lisp:progn
  (common-lisp:defun get-instance
@@ -5352,7 +5352,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "GetInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-instance))
 (common-lisp:progn
  (common-lisp:defun get-instances-health-status
@@ -5371,7 +5371,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "GetInstancesHealthStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-instances-health-status))
 (common-lisp:progn
  (common-lisp:defun get-namespace
@@ -5387,7 +5387,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "GetNamespace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-namespace))
 (common-lisp:progn
  (common-lisp:defun get-operation
@@ -5403,7 +5403,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "GetOperation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-operation))
 (common-lisp:progn
  (common-lisp:defun get-service
@@ -5419,7 +5419,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "GetService"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-service))
 (common-lisp:progn
  (common-lisp:defun list-instances
@@ -5436,7 +5436,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "ListInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-instances))
 (common-lisp:progn
  (common-lisp:defun list-namespaces
@@ -5452,7 +5452,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "ListNamespaces"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-namespaces))
 (common-lisp:progn
  (common-lisp:defun list-operations
@@ -5468,7 +5468,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "ListOperations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-operations))
 (common-lisp:progn
  (common-lisp:defun list-services
@@ -5484,7 +5484,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "ListServices"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-services))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -5500,7 +5500,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun register-instance
@@ -5519,7 +5519,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "RegisterInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-instance))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -5535,7 +5535,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -5551,7 +5551,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-http-namespace
@@ -5568,7 +5568,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateHttpNamespace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-http-namespace))
 (common-lisp:progn
  (common-lisp:defun update-instance-custom-health-status
@@ -5585,7 +5585,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateInstanceCustomHealthStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-instance-custom-health-status))
 (common-lisp:progn
  (common-lisp:defun update-private-dns-namespace
@@ -5603,7 +5603,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "UpdatePrivateDnsNamespace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-private-dns-namespace))
 (common-lisp:progn
  (common-lisp:defun update-public-dns-namespace
@@ -5621,7 +5621,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "UpdatePublicDnsNamespace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-public-dns-namespace))
 (common-lisp:progn
  (common-lisp:defun update-service
@@ -5637,5 +5637,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicediscovery-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateService"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-service))

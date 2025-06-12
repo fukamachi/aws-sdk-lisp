@@ -3657,7 +3657,7 @@
                                 aws-sdk/generator/operation::input
                                 'attribute-group))))
         "AssociateAttributeGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-attribute-group))
 (common-lisp:progn
  (common-lisp:defun associate-resource
@@ -3691,7 +3691,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource))))
         "AssociateResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-resource))
 (common-lisp:progn
  (common-lisp:defun create-application
@@ -3708,7 +3708,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicecatalog-appregistry-request aws-sdk/generator/operation::input
         "POST" "/applications" "CreateApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-application))
 (common-lisp:progn
  (common-lisp:defun create-attribute-group
@@ -3726,7 +3726,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicecatalog-appregistry-request aws-sdk/generator/operation::input
         "POST" "/attribute-groups" "CreateAttributeGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-attribute-group))
 (common-lisp:progn
  (common-lisp:defun delete-application
@@ -3749,7 +3749,7 @@
                                 aws-sdk/generator/operation::input
                                 'application))))
         "DeleteApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-application))
 (common-lisp:progn
  (common-lisp:defun delete-attribute-group
@@ -3772,7 +3772,7 @@
                                 aws-sdk/generator/operation::input
                                 'attribute-group))))
         "DeleteAttributeGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-attribute-group))
 (common-lisp:progn
  (common-lisp:defun disassociate-attribute-group
@@ -3801,7 +3801,7 @@
                                 aws-sdk/generator/operation::input
                                 'attribute-group))))
         "DisassociateAttributeGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-attribute-group))
 (common-lisp:progn
  (common-lisp:defun disassociate-resource
@@ -3834,7 +3834,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource))))
         "DisassociateResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-resource))
 (common-lisp:progn
  (common-lisp:defun get-application
@@ -3857,7 +3857,7 @@
                                 aws-sdk/generator/operation::input
                                 'application))))
         "GetApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-application))
 (common-lisp:progn
  (common-lisp:defun get-associated-resource
@@ -3892,7 +3892,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource))))
         "GetAssociatedResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-associated-resource))
 (common-lisp:progn
  (common-lisp:defun get-attribute-group
@@ -3915,7 +3915,7 @@
                                 aws-sdk/generator/operation::input
                                 'attribute-group))))
         "GetAttributeGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-attribute-group))
 (common-lisp:progn
  (common-lisp:defun get-configuration ()
@@ -3940,7 +3940,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicecatalog-appregistry-request aws-sdk/generator/operation::input
         "GET" "/applications" "ListApplications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-applications))
 (common-lisp:progn
  (common-lisp:defun list-associated-attribute-groups
@@ -3966,7 +3966,7 @@
                                 aws-sdk/generator/operation::input
                                 'application))))
         "ListAssociatedAttributeGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-associated-attribute-groups))
 (common-lisp:progn
  (common-lisp:defun list-associated-resources
@@ -3991,7 +3991,7 @@
                                 aws-sdk/generator/operation::input
                                 'application))))
         "ListAssociatedResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-associated-resources))
 (common-lisp:progn
  (common-lisp:defun list-attribute-groups
@@ -4007,7 +4007,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicecatalog-appregistry-request aws-sdk/generator/operation::input
         "GET" "/attribute-groups" "ListAttributeGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-attribute-groups))
 (common-lisp:progn
  (common-lisp:defun list-attribute-groups-for-application
@@ -4033,7 +4033,7 @@
                                 aws-sdk/generator/operation::input
                                 'application))))
         "ListAttributeGroupsForApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-attribute-groups-for-application))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -4056,7 +4056,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-configuration
@@ -4072,7 +4072,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'servicecatalog-appregistry-request aws-sdk/generator/operation::input
         "PUT" "/configuration" "PutConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-configuration))
 (common-lisp:progn
  (common-lisp:defun sync-resource
@@ -4099,7 +4099,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource))))
         "SyncResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'sync-resource))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4122,7 +4122,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4145,7 +4145,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-application
@@ -4168,7 +4168,7 @@
                                 aws-sdk/generator/operation::input
                                 'application))))
         "UpdateApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-application))
 (common-lisp:progn
  (common-lisp:defun update-attribute-group
@@ -4193,5 +4193,5 @@
                                 aws-sdk/generator/operation::input
                                 'attribute-group))))
         "UpdateAttributeGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-attribute-group))

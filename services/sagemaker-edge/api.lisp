@@ -972,7 +972,7 @@
                                                         "POST"
                                                         "/GetDeployments"
                                                         "GetDeployments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-deployments))
 (common-lisp:progn
  (common-lisp:defun get-device-registration
@@ -990,7 +990,7 @@
                                                         "POST"
                                                         "/GetDeviceRegistration"
                                                         "GetDeviceRegistration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-device-registration))
 (common-lisp:progn
  (common-lisp:defun send-heartbeat
@@ -1010,5 +1010,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/SendHeartbeat"
                                                         "SendHeartbeat"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-heartbeat))

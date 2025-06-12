@@ -3013,7 +3013,7 @@
                                 aws-sdk/generator/operation::input
                                 'meeting-id))))
         "BatchCreateAttendee"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-create-attendee))
 (common-lisp:progn
  (common-lisp:defun batch-update-attendee-capabilities-except
@@ -3039,7 +3039,7 @@
                                 aws-sdk/generator/operation::input
                                 'meeting-id))))
         "BatchUpdateAttendeeCapabilitiesExcept"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-update-attendee-capabilities-except))
 (common-lisp:progn
  (common-lisp:defun create-attendee
@@ -3062,7 +3062,7 @@
                                 aws-sdk/generator/operation::input
                                 'meeting-id))))
         "CreateAttendee"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-attendee))
 (common-lisp:progn
  (common-lisp:defun create-meeting
@@ -3084,7 +3084,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-meetings-request aws-sdk/generator/operation::input "POST"
         "/meetings" "CreateMeeting"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-meeting))
 (common-lisp:progn
  (common-lisp:defun create-meeting-with-attendees
@@ -3107,7 +3107,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-meetings-request aws-sdk/generator/operation::input "POST"
         "/meetings?operation=create-attendees" "CreateMeetingWithAttendees"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-meeting-with-attendees))
 (common-lisp:progn
  (common-lisp:defun delete-attendee
@@ -3133,7 +3133,7 @@
                                 aws-sdk/generator/operation::input
                                 'attendee-id))))
         "DeleteAttendee"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-attendee))
 (common-lisp:progn
  (common-lisp:defun delete-meeting
@@ -3155,7 +3155,7 @@
                                 aws-sdk/generator/operation::input
                                 'meeting-id))))
         "DeleteMeeting"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-meeting))
 (common-lisp:progn
  (common-lisp:defun get-attendee
@@ -3181,7 +3181,7 @@
                                 aws-sdk/generator/operation::input
                                 'attendee-id))))
         "GetAttendee"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-attendee))
 (common-lisp:progn
  (common-lisp:defun get-meeting
@@ -3203,7 +3203,7 @@
                                 aws-sdk/generator/operation::input
                                 'meeting-id))))
         "GetMeeting"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-meeting))
 (common-lisp:progn
  (common-lisp:defun list-attendees
@@ -3226,7 +3226,7 @@
                                 aws-sdk/generator/operation::input
                                 'meeting-id))))
         "ListAttendees"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-attendees))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -3242,7 +3242,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-meetings-request aws-sdk/generator/operation::input "GET"
         "/tags" "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun start-meeting-transcription
@@ -3267,7 +3267,7 @@
                                 aws-sdk/generator/operation::input
                                 'meeting-id))))
         "StartMeetingTranscription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-meeting-transcription))
 (common-lisp:progn
  (common-lisp:defun stop-meeting-transcription
@@ -3291,7 +3291,7 @@
                                 aws-sdk/generator/operation::input
                                 'meeting-id))))
         "StopMeetingTranscription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-meeting-transcription))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3307,7 +3307,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-meetings-request aws-sdk/generator/operation::input "POST"
         "/tags?operation=tag-resource" "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3323,7 +3323,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'chime-sdk-meetings-request aws-sdk/generator/operation::input "POST"
         "/tags?operation=untag-resource" "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-attendee-capabilities
@@ -3352,5 +3352,5 @@
                                 aws-sdk/generator/operation::input
                                 'attendee-id))))
         "UpdateAttendeeCapabilities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-attendee-capabilities))

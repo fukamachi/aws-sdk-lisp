@@ -1004,7 +1004,7 @@
         aws-sdk/generator/operation::input "POST"
         "/subscription/ListLinuxSubscriptionInstances"
         "ListLinuxSubscriptionInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-linux-subscription-instances))
 (common-lisp:progn
  (common-lisp:defun list-linux-subscriptions
@@ -1021,7 +1021,7 @@
         'license-manager-linux-subscriptions-request
         aws-sdk/generator/operation::input "POST"
         "/subscription/ListLinuxSubscriptions" "ListLinuxSubscriptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-linux-subscriptions))
 (common-lisp:progn
  (common-lisp:defun update-service-settings
@@ -1042,5 +1042,5 @@
         'license-manager-linux-subscriptions-request
         aws-sdk/generator/operation::input "POST"
         "/subscription/UpdateServiceSettings" "UpdateServiceSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-service-settings))

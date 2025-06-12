@@ -2925,7 +2925,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'stream-id))))
                                                         "CancelJournalKinesisStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-journal-kinesis-stream))
 (common-lisp:progn
  (common-lisp:defun create-ledger
@@ -2945,7 +2945,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/ledgers"
                                                         "CreateLedger"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-ledger))
 (common-lisp:progn
  (common-lisp:defun delete-ledger
@@ -2972,7 +2972,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteLedger"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-ledger))
 (common-lisp:progn
  (common-lisp:defun describe-journal-kinesis-stream
@@ -3004,7 +3004,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'stream-id))))
                                                         "DescribeJournalKinesisStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-journal-kinesis-stream))
 (common-lisp:progn
  (common-lisp:defun describe-journal-s3export
@@ -3036,7 +3036,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'export-id))))
                                                         "DescribeJournalS3Export"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-journal-s3export))
 (common-lisp:progn
  (common-lisp:defun describe-ledger
@@ -3063,7 +3063,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DescribeLedger"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-ledger))
 (common-lisp:progn
  (common-lisp:defun export-journal-to-s3
@@ -3094,7 +3094,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "ExportJournalToS3"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'export-journal-to-s3))
 (common-lisp:progn
  (common-lisp:defun get-block
@@ -3122,7 +3122,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetBlock"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-block))
 (common-lisp:progn
  (common-lisp:defun get-digest
@@ -3149,7 +3149,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetDigest"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-digest))
 (common-lisp:progn
  (common-lisp:defun get-revision
@@ -3178,7 +3178,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetRevision"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-revision))
 (common-lisp:progn
  (common-lisp:defun list-journal-kinesis-streams-for-ledger
@@ -3207,7 +3207,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "ListJournalKinesisStreamsForLedger"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-journal-kinesis-streams-for-ledger))
 (common-lisp:progn
  (common-lisp:defun list-journal-s3exports
@@ -3225,7 +3225,7 @@
                                                         "GET"
                                                         "/journal-s3-exports"
                                                         "ListJournalS3Exports"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-journal-s3exports))
 (common-lisp:progn
  (common-lisp:defun list-journal-s3exports-for-ledger
@@ -3253,7 +3253,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "ListJournalS3ExportsForLedger"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-journal-s3exports-for-ledger))
 (common-lisp:progn
  (common-lisp:defun list-ledgers
@@ -3270,7 +3270,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/ledgers"
                                                         "ListLedgers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-ledgers))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -3297,7 +3297,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun stream-journal-to-kinesis
@@ -3329,7 +3329,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "StreamJournalToKinesis"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stream-journal-to-kinesis))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3356,7 +3356,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3383,7 +3383,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-ledger
@@ -3411,7 +3411,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateLedger"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-ledger))
 (common-lisp:progn
  (common-lisp:defun update-ledger-permissions-mode
@@ -3439,5 +3439,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateLedgerPermissionsMode"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-ledger-permissions-mode))

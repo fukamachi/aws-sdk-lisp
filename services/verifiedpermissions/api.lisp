@@ -6218,7 +6218,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "BatchIsAuthorized"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-is-authorized))
 (common-lisp:progn
  (common-lisp:defun create-identity-source
@@ -6237,7 +6237,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "CreateIdentitySource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-identity-source))
 (common-lisp:progn
  (common-lisp:defun create-policy
@@ -6254,7 +6254,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "CreatePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-policy))
 (common-lisp:progn
  (common-lisp:defun create-policy-store
@@ -6272,7 +6272,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "CreatePolicyStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-policy-store))
 (common-lisp:progn
  (common-lisp:defun create-policy-template
@@ -6290,7 +6290,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "CreatePolicyTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-policy-template))
 (common-lisp:progn
  (common-lisp:defun delete-identity-source
@@ -6307,7 +6307,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteIdentitySource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-identity-source))
 (common-lisp:progn
  (common-lisp:defun delete-policy
@@ -6323,7 +6323,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "DeletePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-policy))
 (common-lisp:progn
  (common-lisp:defun delete-policy-store
@@ -6339,7 +6339,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "DeletePolicyStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-policy-store))
 (common-lisp:progn
  (common-lisp:defun delete-policy-template
@@ -6356,7 +6356,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "DeletePolicyTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-policy-template))
 (common-lisp:progn
  (common-lisp:defun get-identity-source
@@ -6373,7 +6373,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "GetIdentitySource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-identity-source))
 (common-lisp:progn
  (common-lisp:defun get-policy
@@ -6389,7 +6389,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "GetPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-policy))
 (common-lisp:progn
  (common-lisp:defun get-policy-store
@@ -6405,7 +6405,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "GetPolicyStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-policy-store))
 (common-lisp:progn
  (common-lisp:defun get-policy-template
@@ -6422,7 +6422,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "GetPolicyTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-policy-template))
 (common-lisp:progn
  (common-lisp:defun get-schema
@@ -6438,7 +6438,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "GetSchema"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-schema))
 (common-lisp:progn
  (common-lisp:defun is-authorized
@@ -6457,7 +6457,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "IsAuthorized"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'is-authorized))
 (common-lisp:progn
  (common-lisp:defun is-authorized-with-token
@@ -6476,7 +6476,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "IsAuthorizedWithToken"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'is-authorized-with-token))
 (common-lisp:progn
  (common-lisp:defun list-identity-sources
@@ -6494,7 +6494,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "ListIdentitySources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-identity-sources))
 (common-lisp:progn
  (common-lisp:defun list-policies
@@ -6512,7 +6512,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "ListPolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-policies))
 (common-lisp:progn
  (common-lisp:defun list-policy-stores
@@ -6528,7 +6528,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "ListPolicyStores"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-policy-stores))
 (common-lisp:progn
  (common-lisp:defun list-policy-templates
@@ -6545,7 +6545,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "ListPolicyTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-policy-templates))
 (common-lisp:progn
  (common-lisp:defun put-schema
@@ -6561,7 +6561,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "PutSchema"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-schema))
 (common-lisp:progn
  (common-lisp:defun update-identity-source
@@ -6580,7 +6580,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateIdentitySource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-identity-source))
 (common-lisp:progn
  (common-lisp:defun update-policy
@@ -6597,7 +6597,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "UpdatePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-policy))
 (common-lisp:progn
  (common-lisp:defun update-policy-store
@@ -6615,7 +6615,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "UpdatePolicyStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-policy-store))
 (common-lisp:progn
  (common-lisp:defun update-policy-template
@@ -6634,5 +6634,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'verifiedpermissions-request aws-sdk/generator/operation::input "POST"
         "/" "UpdatePolicyTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-policy-template))

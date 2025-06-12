@@ -7968,7 +7968,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project))))
                                                         "BatchEvaluateFeature"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-evaluate-feature))
 (common-lisp:progn
  (common-lisp:defun create-experiment
@@ -7999,7 +7999,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project))))
                                                         "CreateExperiment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-experiment))
 (common-lisp:progn
  (common-lisp:defun create-feature
@@ -8030,7 +8030,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project))))
                                                         "CreateFeature"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-feature))
 (common-lisp:progn
  (common-lisp:defun create-launch
@@ -8060,7 +8060,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project))))
                                                         "CreateLaunch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-launch))
 (common-lisp:progn
  (common-lisp:defun create-project
@@ -8080,7 +8080,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/projects"
                                                         "CreateProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-project))
 (common-lisp:progn
  (common-lisp:defun create-segment
@@ -8097,7 +8097,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/segments"
                                                         "CreateSegment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-segment))
 (common-lisp:progn
  (common-lisp:defun delete-experiment
@@ -8128,7 +8128,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'experiment))))
                                                         "DeleteExperiment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-experiment))
 (common-lisp:progn
  (common-lisp:defun delete-feature
@@ -8159,7 +8159,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'feature))))
                                                         "DeleteFeature"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-feature))
 (common-lisp:progn
  (common-lisp:defun delete-launch
@@ -8190,7 +8190,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'launch))))
                                                         "DeleteLaunch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-launch))
 (common-lisp:progn
  (common-lisp:defun delete-project
@@ -8217,7 +8217,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project))))
                                                         "DeleteProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-project))
 (common-lisp:progn
  (common-lisp:defun delete-segment
@@ -8244,7 +8244,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'segment))))
                                                         "DeleteSegment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-segment))
 (common-lisp:progn
  (common-lisp:defun evaluate-feature
@@ -8277,7 +8277,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'feature))))
                                                         "EvaluateFeature"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'evaluate-feature))
 (common-lisp:progn
  (common-lisp:defun get-experiment
@@ -8308,7 +8308,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'experiment))))
                                                         "GetExperiment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-experiment))
 (common-lisp:progn
  (common-lisp:defun get-experiment-results
@@ -8343,7 +8343,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'experiment))))
                                                         "GetExperimentResults"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-experiment-results))
 (common-lisp:progn
  (common-lisp:defun get-feature
@@ -8374,7 +8374,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'feature))))
                                                         "GetFeature"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-feature))
 (common-lisp:progn
  (common-lisp:defun get-launch
@@ -8405,7 +8405,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'launch))))
                                                         "GetLaunch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-launch))
 (common-lisp:progn
  (common-lisp:defun get-project
@@ -8432,7 +8432,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project))))
                                                         "GetProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-project))
 (common-lisp:progn
  (common-lisp:defun get-segment
@@ -8459,7 +8459,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'segment))))
                                                         "GetSegment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-segment))
 (common-lisp:progn
  (common-lisp:defun list-experiments
@@ -8487,7 +8487,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project))))
                                                         "ListExperiments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-experiments))
 (common-lisp:progn
  (common-lisp:defun list-features
@@ -8514,7 +8514,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project))))
                                                         "ListFeatures"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-features))
 (common-lisp:progn
  (common-lisp:defun list-launches
@@ -8542,7 +8542,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project))))
                                                         "ListLaunches"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-launches))
 (common-lisp:progn
  (common-lisp:defun list-projects
@@ -8559,7 +8559,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/projects"
                                                         "ListProjects"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-projects))
 (common-lisp:progn
  (common-lisp:defun list-segment-references
@@ -8587,7 +8587,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'segment))))
                                                         "ListSegmentReferences"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-segment-references))
 (common-lisp:progn
  (common-lisp:defun list-segments
@@ -8604,7 +8604,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/segments"
                                                         "ListSegments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-segments))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -8631,7 +8631,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-project-events
@@ -8658,7 +8658,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project))))
                                                         "PutProjectEvents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-project-events))
 (common-lisp:progn
  (common-lisp:defun start-experiment
@@ -8691,7 +8691,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'experiment))))
                                                         "StartExperiment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-experiment))
 (common-lisp:progn
  (common-lisp:defun start-launch
@@ -8722,7 +8722,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'launch))))
                                                         "StartLaunch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-launch))
 (common-lisp:progn
  (common-lisp:defun stop-experiment
@@ -8754,7 +8754,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'experiment))))
                                                         "StopExperiment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-experiment))
 (common-lisp:progn
  (common-lisp:defun stop-launch
@@ -8786,7 +8786,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'launch))))
                                                         "StopLaunch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-launch))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -8813,7 +8813,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun test-segment-pattern
@@ -8831,7 +8831,7 @@
                                                         "POST"
                                                         "/test-segment-pattern"
                                                         "TestSegmentPattern"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'test-segment-pattern))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -8858,7 +8858,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-experiment
@@ -8894,7 +8894,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'experiment))))
                                                         "UpdateExperiment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-experiment))
 (common-lisp:progn
  (common-lisp:defun update-feature
@@ -8930,7 +8930,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'feature))))
                                                         "UpdateFeature"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-feature))
 (common-lisp:progn
  (common-lisp:defun update-launch
@@ -8964,7 +8964,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'launch))))
                                                         "UpdateLaunch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-launch))
 (common-lisp:progn
  (common-lisp:defun update-project
@@ -8992,7 +8992,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project))))
                                                         "UpdateProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-project))
 (common-lisp:progn
  (common-lisp:defun update-project-data-delivery
@@ -9021,5 +9021,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'project))))
                                                         "UpdateProjectDataDelivery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-project-data-delivery))

@@ -2481,7 +2481,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-package-version-asset-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'asset)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'asset))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-package-version-asset-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-package-version-readme-request common-lisp:nil
                        ((domain :initarg :domain :initform
@@ -4930,7 +4936,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           publish-package-version-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'asset-content)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'asset-content))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          publish-package-version-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass publish-package-version-result common-lisp:nil
                        ((format :initarg :format :initform common-lisp:nil
@@ -6517,7 +6529,7 @@
                                                         "POST"
                                                         "/v1/repository/external-connection"
                                                         "AssociateExternalConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-external-connection))
 (common-lisp:progn
  (common-lisp:defun copy-package-versions
@@ -6540,7 +6552,7 @@
                                                         "POST"
                                                         "/v1/package/versions/copy"
                                                         "CopyPackageVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'copy-package-versions))
 (common-lisp:progn
  (common-lisp:defun create-domain
@@ -6557,7 +6569,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v1/domain"
                                                         "CreateDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-domain))
 (common-lisp:progn
  (common-lisp:defun create-repository
@@ -6577,7 +6589,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v1/repository"
                                                         "CreateRepository"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-repository))
 (common-lisp:progn
  (common-lisp:defun delete-domain
@@ -6594,7 +6606,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "DELETE" "/v1/domain"
                                                         "DeleteDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-domain))
 (common-lisp:progn
  (common-lisp:defun delete-domain-permissions-policy
@@ -6614,7 +6626,7 @@
                                                         "DELETE"
                                                         "/v1/domain/permissions/policy"
                                                         "DeleteDomainPermissionsPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-domain-permissions-policy))
 (common-lisp:progn
  (common-lisp:defun delete-package
@@ -6634,7 +6646,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "DELETE" "/v1/package"
                                                         "DeletePackage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-package))
 (common-lisp:progn
  (common-lisp:defun delete-package-versions
@@ -6655,7 +6667,7 @@
                                                         "POST"
                                                         "/v1/package/versions/delete"
                                                         "DeletePackageVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-package-versions))
 (common-lisp:progn
  (common-lisp:defun delete-repository
@@ -6673,7 +6685,7 @@
                                                         "DELETE"
                                                         "/v1/repository"
                                                         "DeleteRepository"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-repository))
 (common-lisp:progn
  (common-lisp:defun delete-repository-permissions-policy
@@ -6694,7 +6706,7 @@
                                                         "DELETE"
                                                         "/v1/repository/permissions/policies"
                                                         "DeleteRepositoryPermissionsPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-repository-permissions-policy))
 (common-lisp:progn
  (common-lisp:defun describe-domain
@@ -6711,7 +6723,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/domain"
                                                         "DescribeDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-domain))
 (common-lisp:progn
  (common-lisp:defun describe-package
@@ -6731,7 +6743,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/package"
                                                         "DescribePackage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-package))
 (common-lisp:progn
  (common-lisp:defun describe-package-version
@@ -6752,7 +6764,7 @@
                                                         "GET"
                                                         "/v1/package/version"
                                                         "DescribePackageVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-package-version))
 (common-lisp:progn
  (common-lisp:defun describe-repository
@@ -6769,7 +6781,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/repository"
                                                         "DescribeRepository"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-repository))
 (common-lisp:progn
  (common-lisp:defun disassociate-external-connection
@@ -6790,7 +6802,7 @@
                                                         "DELETE"
                                                         "/v1/repository/external-connection"
                                                         "DisassociateExternalConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-external-connection))
 (common-lisp:progn
  (common-lisp:defun dispose-package-versions
@@ -6812,7 +6824,7 @@
                                                         "POST"
                                                         "/v1/package/versions/dispose"
                                                         "DisposePackageVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'dispose-package-versions))
 (common-lisp:progn
  (common-lisp:defun get-authorization-token
@@ -6831,7 +6843,7 @@
                                                         "POST"
                                                         "/v1/authorization-token"
                                                         "GetAuthorizationToken"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-authorization-token))
 (common-lisp:progn
  (common-lisp:defun get-domain-permissions-policy
@@ -6850,7 +6862,7 @@
                                                         "GET"
                                                         "/v1/domain/permissions/policy"
                                                         "GetDomainPermissionsPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-domain-permissions-policy))
 (common-lisp:progn
  (common-lisp:defun get-package-version-asset
@@ -6874,7 +6886,7 @@
                                                         "/v1/package/version/asset"
                                                         "GetPackageVersionAsset")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-package-version-asset))
 (common-lisp:progn
  (common-lisp:defun get-package-version-readme
@@ -6896,7 +6908,7 @@
                                                         "GET"
                                                         "/v1/package/version/readme"
                                                         "GetPackageVersionReadme"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-package-version-readme))
 (common-lisp:progn
  (common-lisp:defun get-repository-endpoint
@@ -6915,7 +6927,7 @@
                                                         "GET"
                                                         "/v1/repository/endpoint"
                                                         "GetRepositoryEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-repository-endpoint))
 (common-lisp:progn
  (common-lisp:defun get-repository-permissions-policy
@@ -6934,7 +6946,7 @@
                                                         "GET"
                                                         "/v1/repository/permissions/policy"
                                                         "GetRepositoryPermissionsPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-repository-permissions-policy))
 (common-lisp:progn
  (common-lisp:defun list-domains
@@ -6951,7 +6963,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v1/domains"
                                                         "ListDomains"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-domains))
 (common-lisp:progn
  (common-lisp:defun list-package-version-assets
@@ -6973,7 +6985,7 @@
                                                         "POST"
                                                         "/v1/package/version/assets"
                                                         "ListPackageVersionAssets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-package-version-assets))
 (common-lisp:progn
  (common-lisp:defun list-package-version-dependencies
@@ -6995,7 +7007,7 @@
                                                         "POST"
                                                         "/v1/package/version/dependencies"
                                                         "ListPackageVersionDependencies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-package-version-dependencies))
 (common-lisp:progn
  (common-lisp:defun list-package-versions
@@ -7017,7 +7029,7 @@
                                                         "POST"
                                                         "/v1/package/versions"
                                                         "ListPackageVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-package-versions))
 (common-lisp:progn
  (common-lisp:defun list-packages
@@ -7038,7 +7050,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v1/packages"
                                                         "ListPackages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-packages))
 (common-lisp:progn
  (common-lisp:defun list-repositories
@@ -7057,7 +7069,7 @@
                                                         "POST"
                                                         "/v1/repositories"
                                                         "ListRepositories"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-repositories))
 (common-lisp:progn
  (common-lisp:defun list-repositories-in-domain
@@ -7079,7 +7091,7 @@
                                                         "POST"
                                                         "/v1/domain/repositories"
                                                         "ListRepositoriesInDomain"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-repositories-in-domain))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -7096,7 +7108,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v1/tags"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun publish-package-version
@@ -7118,7 +7130,7 @@
                                                         "POST"
                                                         "/v1/package/version/publish"
                                                         "PublishPackageVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'publish-package-version))
 (common-lisp:progn
  (common-lisp:defun put-domain-permissions-policy
@@ -7140,7 +7152,7 @@
                                                         "PUT"
                                                         "/v1/domain/permissions/policy"
                                                         "PutDomainPermissionsPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-domain-permissions-policy))
 (common-lisp:progn
  (common-lisp:defun put-package-origin-configuration
@@ -7161,7 +7173,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v1/package"
                                                         "PutPackageOriginConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-package-origin-configuration))
 (common-lisp:progn
  (common-lisp:defun put-repository-permissions-policy
@@ -7183,7 +7195,7 @@
                                                         "PUT"
                                                         "/v1/repository/permissions/policy"
                                                         "PutRepositoryPermissionsPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-repository-permissions-policy))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -7200,7 +7212,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v1/tag"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -7217,7 +7229,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v1/untag"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-package-versions-status
@@ -7240,7 +7252,7 @@
                                                         "POST"
                                                         "/v1/package/versions/update_status"
                                                         "UpdatePackageVersionsStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-package-versions-status))
 (common-lisp:progn
  (common-lisp:defun update-repository
@@ -7260,5 +7272,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/v1/repository"
                                                         "UpdateRepository"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-repository))

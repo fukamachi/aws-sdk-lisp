@@ -3605,7 +3605,7 @@
                                                         "POST"
                                                         "/delete-resource-permission"
                                                         "DeleteResourcePermission"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resource-permission))
 (common-lisp:progn
  (common-lisp:defun deregister-application
@@ -3623,7 +3623,7 @@
                                                         "POST"
                                                         "/deregister-application"
                                                         "DeregisterApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deregister-application))
 (common-lisp:progn
  (common-lisp:defun get-application
@@ -3643,7 +3643,7 @@
                                                         "POST"
                                                         "/get-application"
                                                         "GetApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-application))
 (common-lisp:progn
  (common-lisp:defun get-component
@@ -3660,7 +3660,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/get-component"
                                                         "GetComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-component))
 (common-lisp:progn
  (common-lisp:defun get-database
@@ -3680,7 +3680,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/get-database"
                                                         "GetDatabase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-database))
 (common-lisp:progn
  (common-lisp:defun get-operation
@@ -3697,7 +3697,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/get-operation"
                                                         "GetOperation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-operation))
 (common-lisp:progn
  (common-lisp:defun get-resource-permission
@@ -3715,7 +3715,7 @@
                                                         "POST"
                                                         "/get-resource-permission"
                                                         "GetResourcePermission"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-permission))
 (common-lisp:progn
  (common-lisp:defun list-applications
@@ -3733,7 +3733,7 @@
                                                         "POST"
                                                         "/list-applications"
                                                         "ListApplications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-applications))
 (common-lisp:progn
  (common-lisp:defun list-components
@@ -3752,7 +3752,7 @@
                                                         "POST"
                                                         "/list-components"
                                                         "ListComponents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-components))
 (common-lisp:progn
  (common-lisp:defun list-databases
@@ -3772,7 +3772,7 @@
                                                         "POST"
                                                         "/list-databases"
                                                         "ListDatabases"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-databases))
 (common-lisp:progn
  (common-lisp:defun list-operations
@@ -3792,7 +3792,7 @@
                                                         "POST"
                                                         "/list-operations"
                                                         "ListOperations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-operations))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -3819,7 +3819,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-resource-permission
@@ -3839,7 +3839,7 @@
                                                         "POST"
                                                         "/put-resource-permission"
                                                         "PutResourcePermission"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-resource-permission))
 (common-lisp:progn
  (common-lisp:defun register-application
@@ -3860,7 +3860,7 @@
                                                         "POST"
                                                         "/register-application"
                                                         "RegisterApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-application))
 (common-lisp:progn
  (common-lisp:defun start-application-refresh
@@ -3878,7 +3878,7 @@
                                                         "POST"
                                                         "/start-application-refresh"
                                                         "StartApplicationRefresh"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-application-refresh))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3905,7 +3905,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3932,7 +3932,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-application-settings
@@ -3955,5 +3955,5 @@
                                                         "POST"
                                                         "/update-application-settings"
                                                         "UpdateApplicationSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-application-settings))

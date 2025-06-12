@@ -6291,7 +6291,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-read-set-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-read-set-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-reference-import-job-request common-lisp:nil
                        ((id :initarg :id :initform
@@ -6785,7 +6791,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-reference-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-reference-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-reference-store-request common-lisp:nil
                        ((id :initarg :id :initform
@@ -17377,7 +17389,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           upload-read-set-part-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          upload-read-set-part-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:deftype upload-read-set-part-request-part-number-integer ()
   'common-lisp:integer)
 (common-lisp:progn
@@ -18257,7 +18275,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'upload-id))))
                                                         "AbortMultipartReadSetUpload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'abort-multipart-read-set-upload))
 (common-lisp:progn
  (common-lisp:defun accept-share
@@ -18284,7 +18302,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'share-id))))
                                                         "AcceptShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'accept-share))
 (common-lisp:progn
  (common-lisp:defun batch-delete-read-set
@@ -18311,7 +18329,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'sequence-store-id))))
                                                         "BatchDeleteReadSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-delete-read-set))
 (common-lisp:progn
  (common-lisp:defun cancel-annotation-import-job
@@ -18338,7 +18356,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "CancelAnnotationImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-annotation-import-job))
 (common-lisp:progn
  (common-lisp:defun cancel-run
@@ -18365,7 +18383,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "CancelRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-run))
 (common-lisp:progn
  (common-lisp:defun cancel-variant-import-job
@@ -18392,7 +18410,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "CancelVariantImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-variant-import-job))
 (common-lisp:progn
  (common-lisp:defun complete-multipart-read-set-upload
@@ -18425,7 +18443,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'upload-id))))
                                                         "CompleteMultipartReadSetUpload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'complete-multipart-read-set-upload))
 (common-lisp:progn
  (common-lisp:defun create-annotation-store
@@ -18446,7 +18464,7 @@
                                                         "POST"
                                                         "/annotationStore"
                                                         "CreateAnnotationStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-annotation-store))
 (common-lisp:progn
  (common-lisp:defun create-annotation-store-version
@@ -18476,7 +18494,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "CreateAnnotationStoreVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-annotation-store-version))
 (common-lisp:progn
  (common-lisp:defun create-multipart-read-set-upload
@@ -18509,7 +18527,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'sequence-store-id))))
                                                         "CreateMultipartReadSetUpload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-multipart-read-set-upload))
 (common-lisp:progn
  (common-lisp:defun create-reference-store
@@ -18529,7 +18547,7 @@
                                                         "POST"
                                                         "/referencestore"
                                                         "CreateReferenceStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-reference-store))
 (common-lisp:progn
  (common-lisp:defun create-run-group
@@ -18549,7 +18567,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/runGroup"
                                                         "CreateRunGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-run-group))
 (common-lisp:progn
  (common-lisp:defun create-sequence-store
@@ -18569,7 +18587,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/sequencestore"
                                                         "CreateSequenceStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-sequence-store))
 (common-lisp:progn
  (common-lisp:defun create-share
@@ -18588,7 +18606,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/share"
                                                         "CreateShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-share))
 (common-lisp:progn
  (common-lisp:defun create-variant-store
@@ -18607,7 +18625,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/variantStore"
                                                         "CreateVariantStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-variant-store))
 (common-lisp:progn
  (common-lisp:defun create-workflow
@@ -18629,7 +18647,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/workflow"
                                                         "CreateWorkflow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-workflow))
 (common-lisp:progn
  (common-lisp:defun delete-annotation-store
@@ -18656,7 +18674,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteAnnotationStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-annotation-store))
 (common-lisp:progn
  (common-lisp:defun delete-annotation-store-versions
@@ -18684,7 +18702,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteAnnotationStoreVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-annotation-store-versions))
 (common-lisp:progn
  (common-lisp:defun delete-reference
@@ -18715,7 +18733,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteReference"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-reference))
 (common-lisp:progn
  (common-lisp:defun delete-reference-store
@@ -18742,7 +18760,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteReferenceStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-reference-store))
 (common-lisp:progn
  (common-lisp:defun delete-run
@@ -18769,7 +18787,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-run))
 (common-lisp:progn
  (common-lisp:defun delete-run-group
@@ -18796,7 +18814,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteRunGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-run-group))
 (common-lisp:progn
  (common-lisp:defun delete-sequence-store
@@ -18823,7 +18841,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteSequenceStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-sequence-store))
 (common-lisp:progn
  (common-lisp:defun delete-share
@@ -18850,7 +18868,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'share-id))))
                                                         "DeleteShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-share))
 (common-lisp:progn
  (common-lisp:defun delete-variant-store
@@ -18877,7 +18895,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteVariantStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-variant-store))
 (common-lisp:progn
  (common-lisp:defun delete-workflow
@@ -18904,7 +18922,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteWorkflow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-workflow))
 (common-lisp:progn
  (common-lisp:defun get-annotation-import-job
@@ -18931,7 +18949,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "GetAnnotationImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-annotation-import-job))
 (common-lisp:progn
  (common-lisp:defun get-annotation-store
@@ -18958,7 +18976,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetAnnotationStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-annotation-store))
 (common-lisp:progn
  (common-lisp:defun get-annotation-store-version
@@ -18990,7 +19008,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'version-name))))
                                                         "GetAnnotationStoreVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-annotation-store-version))
 (common-lisp:progn
  (common-lisp:defun get-read-set
@@ -19023,7 +19041,7 @@
                                                              'id))))
                                                         "GetReadSet")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-read-set))
 (common-lisp:progn
  (common-lisp:defun get-read-set-activation-job
@@ -19055,7 +19073,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetReadSetActivationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-read-set-activation-job))
 (common-lisp:progn
  (common-lisp:defun get-read-set-export-job
@@ -19086,7 +19104,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetReadSetExportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-read-set-export-job))
 (common-lisp:progn
  (common-lisp:defun get-read-set-import-job
@@ -19117,7 +19135,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetReadSetImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-read-set-import-job))
 (common-lisp:progn
  (common-lisp:defun get-read-set-metadata
@@ -19148,7 +19166,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetReadSetMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-read-set-metadata))
 (common-lisp:progn
  (common-lisp:defun get-reference
@@ -19182,7 +19200,7 @@
                                                              'id))))
                                                         "GetReference")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-reference))
 (common-lisp:progn
  (common-lisp:defun get-reference-import-job
@@ -19213,7 +19231,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetReferenceImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-reference-import-job))
 (common-lisp:progn
  (common-lisp:defun get-reference-metadata
@@ -19244,7 +19262,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetReferenceMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-reference-metadata))
 (common-lisp:progn
  (common-lisp:defun get-reference-store
@@ -19271,7 +19289,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetReferenceStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-reference-store))
 (common-lisp:progn
  (common-lisp:defun get-run
@@ -19298,7 +19316,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-run))
 (common-lisp:progn
  (common-lisp:defun get-run-group
@@ -19325,7 +19343,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetRunGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-run-group))
 (common-lisp:progn
  (common-lisp:defun get-run-task
@@ -19356,7 +19374,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'task-id))))
                                                         "GetRunTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-run-task))
 (common-lisp:progn
  (common-lisp:defun get-sequence-store
@@ -19383,7 +19401,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetSequenceStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sequence-store))
 (common-lisp:progn
  (common-lisp:defun get-share
@@ -19410,7 +19428,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'share-id))))
                                                         "GetShare"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-share))
 (common-lisp:progn
  (common-lisp:defun get-variant-import-job
@@ -19437,7 +19455,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "GetVariantImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-variant-import-job))
 (common-lisp:progn
  (common-lisp:defun get-variant-store
@@ -19464,7 +19482,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetVariantStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-variant-store))
 (common-lisp:progn
  (common-lisp:defun get-workflow
@@ -19491,7 +19509,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetWorkflow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-workflow))
 (common-lisp:progn
  (common-lisp:defun list-annotation-import-jobs
@@ -19511,7 +19529,7 @@
                                                         "POST"
                                                         "/import/annotations"
                                                         "ListAnnotationImportJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-annotation-import-jobs))
 (common-lisp:progn
  (common-lisp:defun list-annotation-store-versions
@@ -19540,7 +19558,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "ListAnnotationStoreVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-annotation-store-versions))
 (common-lisp:progn
  (common-lisp:defun list-annotation-stores
@@ -19559,7 +19577,7 @@
                                                         "POST"
                                                         "/annotationStores"
                                                         "ListAnnotationStores"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-annotation-stores))
 (common-lisp:progn
  (common-lisp:defun list-multipart-read-set-uploads
@@ -19588,7 +19606,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'sequence-store-id))))
                                                         "ListMultipartReadSetUploads"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-multipart-read-set-uploads))
 (common-lisp:progn
  (common-lisp:defun list-read-set-activation-jobs
@@ -19618,7 +19636,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'sequence-store-id))))
                                                         "ListReadSetActivationJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-read-set-activation-jobs))
 (common-lisp:progn
  (common-lisp:defun list-read-set-export-jobs
@@ -19648,7 +19666,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'sequence-store-id))))
                                                         "ListReadSetExportJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-read-set-export-jobs))
 (common-lisp:progn
  (common-lisp:defun list-read-set-import-jobs
@@ -19678,7 +19696,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'sequence-store-id))))
                                                         "ListReadSetImportJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-read-set-import-jobs))
 (common-lisp:progn
  (common-lisp:defun list-read-set-upload-parts
@@ -19713,7 +19731,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'upload-id))))
                                                         "ListReadSetUploadParts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-read-set-upload-parts))
 (common-lisp:progn
  (common-lisp:defun list-read-sets
@@ -19742,7 +19760,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'sequence-store-id))))
                                                         "ListReadSets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-read-sets))
 (common-lisp:progn
  (common-lisp:defun list-reference-import-jobs
@@ -19772,7 +19790,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'reference-store-id))))
                                                         "ListReferenceImportJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-reference-import-jobs))
 (common-lisp:progn
  (common-lisp:defun list-reference-stores
@@ -19790,7 +19808,7 @@
                                                         "POST"
                                                         "/referencestores"
                                                         "ListReferenceStores"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-reference-stores))
 (common-lisp:progn
  (common-lisp:defun list-references
@@ -19819,7 +19837,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'reference-store-id))))
                                                         "ListReferences"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-references))
 (common-lisp:progn
  (common-lisp:defun list-run-groups
@@ -19837,7 +19855,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/runGroup"
                                                         "ListRunGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-run-groups))
 (common-lisp:progn
  (common-lisp:defun list-run-tasks
@@ -19865,7 +19883,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "ListRunTasks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-run-tasks))
 (common-lisp:progn
  (common-lisp:defun list-runs
@@ -19885,7 +19903,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/run"
                                                         "ListRuns"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-runs))
 (common-lisp:progn
  (common-lisp:defun list-sequence-stores
@@ -19903,7 +19921,7 @@
                                                         "POST"
                                                         "/sequencestores"
                                                         "ListSequenceStores"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-sequence-stores))
 (common-lisp:progn
  (common-lisp:defun list-shares
@@ -19922,7 +19940,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/shares"
                                                         "ListShares"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-shares))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -19949,7 +19967,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-variant-import-jobs
@@ -19968,7 +19986,7 @@
                                                         "POST"
                                                         "/import/variants"
                                                         "ListVariantImportJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-variant-import-jobs))
 (common-lisp:progn
  (common-lisp:defun list-variant-stores
@@ -19986,7 +20004,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/variantStores"
                                                         "ListVariantStores"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-variant-stores))
 (common-lisp:progn
  (common-lisp:defun list-workflows
@@ -20004,7 +20022,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/workflow"
                                                         "ListWorkflows"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-workflows))
 (common-lisp:progn
  (common-lisp:defun start-annotation-import-job
@@ -20026,7 +20044,7 @@
                                                         "POST"
                                                         "/import/annotation"
                                                         "StartAnnotationImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-annotation-import-job))
 (common-lisp:progn
  (common-lisp:defun start-read-set-activation-job
@@ -20055,7 +20073,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'sequence-store-id))))
                                                         "StartReadSetActivationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-read-set-activation-job))
 (common-lisp:progn
  (common-lisp:defun start-read-set-export-job
@@ -20086,7 +20104,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'sequence-store-id))))
                                                         "StartReadSetExportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-read-set-export-job))
 (common-lisp:progn
  (common-lisp:defun start-read-set-import-job
@@ -20116,7 +20134,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'sequence-store-id))))
                                                         "StartReadSetImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-read-set-import-job))
 (common-lisp:progn
  (common-lisp:defun start-reference-import-job
@@ -20146,7 +20164,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'reference-store-id))))
                                                         "StartReferenceImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-reference-import-job))
 (common-lisp:progn
  (common-lisp:defun start-run
@@ -20168,7 +20186,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/run"
                                                         "StartRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-run))
 (common-lisp:progn
  (common-lisp:defun start-variant-import-job
@@ -20189,7 +20207,7 @@
                                                         "POST"
                                                         "/import/variant"
                                                         "StartVariantImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-variant-import-job))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -20216,7 +20234,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -20243,7 +20261,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-annotation-store
@@ -20270,7 +20288,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateAnnotationStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-annotation-store))
 (common-lisp:progn
  (common-lisp:defun update-annotation-store-version
@@ -20302,7 +20320,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'version-name))))
                                                         "UpdateAnnotationStoreVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-annotation-store-version))
 (common-lisp:progn
  (common-lisp:defun update-run-group
@@ -20331,7 +20349,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateRunGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-run-group))
 (common-lisp:progn
  (common-lisp:defun update-variant-store
@@ -20358,7 +20376,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateVariantStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-variant-store))
 (common-lisp:progn
  (common-lisp:defun update-workflow
@@ -20385,7 +20403,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateWorkflow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-workflow))
 (common-lisp:progn
  (common-lisp:defun upload-read-set-part
@@ -20419,5 +20437,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'upload-id))))
                                                         "UploadReadSetPart"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'upload-read-set-part))

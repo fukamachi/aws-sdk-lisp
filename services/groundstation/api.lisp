@@ -7289,7 +7289,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'contact-id))))
                                                         "CancelContact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-contact))
 (common-lisp:progn
  (common-lisp:defun create-config
@@ -7306,7 +7306,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/config"
                                                         "CreateConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-config))
 (common-lisp:progn
  (common-lisp:defun create-dataflow-endpoint-group
@@ -7328,7 +7328,7 @@
                                                         "POST"
                                                         "/dataflowEndpointGroup"
                                                         "CreateDataflowEndpointGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-dataflow-endpoint-group))
 (common-lisp:progn
  (common-lisp:defun create-ephemeris
@@ -7348,7 +7348,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/ephemeris"
                                                         "CreateEphemeris"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-ephemeris))
 (common-lisp:progn
  (common-lisp:defun create-mission-profile
@@ -7373,7 +7373,7 @@
                                                         "POST"
                                                         "/missionprofile"
                                                         "CreateMissionProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-mission-profile))
 (common-lisp:progn
  (common-lisp:defun delete-config
@@ -7404,7 +7404,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'config-id))))
                                                         "DeleteConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-config))
 (common-lisp:progn
  (common-lisp:defun delete-dataflow-endpoint-group
@@ -7432,7 +7432,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataflow-endpoint-group-id))))
                                                         "DeleteDataflowEndpointGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-dataflow-endpoint-group))
 (common-lisp:progn
  (common-lisp:defun delete-ephemeris
@@ -7459,7 +7459,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'ephemeris-id))))
                                                         "DeleteEphemeris"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-ephemeris))
 (common-lisp:progn
  (common-lisp:defun delete-mission-profile
@@ -7486,7 +7486,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'mission-profile-id))))
                                                         "DeleteMissionProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-mission-profile))
 (common-lisp:progn
  (common-lisp:defun describe-contact
@@ -7513,7 +7513,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'contact-id))))
                                                         "DescribeContact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-contact))
 (common-lisp:progn
  (common-lisp:defun describe-ephemeris
@@ -7540,7 +7540,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'ephemeris-id))))
                                                         "DescribeEphemeris"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-ephemeris))
 (common-lisp:progn
  (common-lisp:defun get-agent-configuration
@@ -7567,7 +7567,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'agent-id))))
                                                         "GetAgentConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-agent-configuration))
 (common-lisp:progn
  (common-lisp:defun get-config
@@ -7598,7 +7598,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'config-id))))
                                                         "GetConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-config))
 (common-lisp:progn
  (common-lisp:defun get-dataflow-endpoint-group
@@ -7626,7 +7626,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataflow-endpoint-group-id))))
                                                         "GetDataflowEndpointGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-dataflow-endpoint-group))
 (common-lisp:progn
  (common-lisp:defun get-minute-usage
@@ -7643,7 +7643,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/minute-usage"
                                                         "GetMinuteUsage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-minute-usage))
 (common-lisp:progn
  (common-lisp:defun get-mission-profile
@@ -7670,7 +7670,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'mission-profile-id))))
                                                         "GetMissionProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-mission-profile))
 (common-lisp:progn
  (common-lisp:defun get-satellite
@@ -7697,7 +7697,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'satellite-id))))
                                                         "GetSatellite"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-satellite))
 (common-lisp:progn
  (common-lisp:defun list-configs
@@ -7714,7 +7714,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/config"
                                                         "ListConfigs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-configs))
 (common-lisp:progn
  (common-lisp:defun list-contacts
@@ -7735,7 +7735,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/contacts"
                                                         "ListContacts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-contacts))
 (common-lisp:progn
  (common-lisp:defun list-dataflow-endpoint-groups
@@ -7754,7 +7754,7 @@
                                                         "GET"
                                                         "/dataflowEndpointGroup"
                                                         "ListDataflowEndpointGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-dataflow-endpoint-groups))
 (common-lisp:progn
  (common-lisp:defun list-ephemerides
@@ -7774,7 +7774,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/ephemerides"
                                                         "ListEphemerides"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-ephemerides))
 (common-lisp:progn
  (common-lisp:defun list-ground-stations
@@ -7792,7 +7792,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/groundstation"
                                                         "ListGroundStations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-ground-stations))
 (common-lisp:progn
  (common-lisp:defun list-mission-profiles
@@ -7809,7 +7809,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/missionprofile"
                                                         "ListMissionProfiles"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-mission-profiles))
 (common-lisp:progn
  (common-lisp:defun list-satellites
@@ -7826,7 +7826,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/satellite"
                                                         "ListSatellites"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-satellites))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -7853,7 +7853,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun register-agent
@@ -7870,7 +7870,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/agent"
                                                         "RegisterAgent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-agent))
 (common-lisp:progn
  (common-lisp:defun reserve-contact
@@ -7890,7 +7890,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/contact"
                                                         "ReserveContact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reserve-contact))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -7917,7 +7917,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -7944,7 +7944,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-agent-status
@@ -7974,7 +7974,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'agent-id))))
                                                         "UpdateAgentStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-agent-status))
 (common-lisp:progn
  (common-lisp:defun update-config
@@ -8006,7 +8006,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'config-id))))
                                                         "UpdateConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-config))
 (common-lisp:progn
  (common-lisp:defun update-ephemeris
@@ -8034,7 +8034,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'ephemeris-id))))
                                                         "UpdateEphemeris"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-ephemeris))
 (common-lisp:progn
  (common-lisp:defun update-mission-profile
@@ -8068,5 +8068,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'mission-profile-id))))
                                                         "UpdateMissionProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-mission-profile))

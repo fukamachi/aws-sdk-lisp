@@ -2160,7 +2160,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/monitors"
                                                         "CreateMonitor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-monitor))
 (common-lisp:progn
  (common-lisp:defun create-probe
@@ -2188,7 +2188,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'monitor-name))))
                                                         "CreateProbe"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-probe))
 (common-lisp:progn
  (common-lisp:defun delete-monitor
@@ -2215,7 +2215,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'monitor-name))))
                                                         "DeleteMonitor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-monitor))
 (common-lisp:progn
  (common-lisp:defun delete-probe
@@ -2246,7 +2246,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'probe-id))))
                                                         "DeleteProbe"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-probe))
 (common-lisp:progn
  (common-lisp:defun get-monitor
@@ -2273,7 +2273,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'monitor-name))))
                                                         "GetMonitor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-monitor))
 (common-lisp:progn
  (common-lisp:defun get-probe
@@ -2304,7 +2304,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'probe-id))))
                                                         "GetProbe"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-probe))
 (common-lisp:progn
  (common-lisp:defun list-monitors
@@ -2321,7 +2321,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/monitors"
                                                         "ListMonitors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-monitors))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -2348,7 +2348,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -2375,7 +2375,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -2402,7 +2402,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-monitor
@@ -2430,7 +2430,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'monitor-name))))
                                                         "UpdateMonitor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-monitor))
 (common-lisp:progn
  (common-lisp:defun update-probe
@@ -2464,5 +2464,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'probe-id))))
                                                         "UpdateProbe"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-probe))

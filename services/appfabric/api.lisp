@@ -4229,7 +4229,7 @@
                                                         "POST"
                                                         "/useraccess/batchget"
                                                         "BatchGetUserAccessTasks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-user-access-tasks))
 (common-lisp:progn
  (common-lisp:defun connect-app-authorization
@@ -4264,7 +4264,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-authorization-identifier))))
                                                         "ConnectAppAuthorization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'connect-app-authorization))
 (common-lisp:progn
  (common-lisp:defun create-app-authorization
@@ -4294,7 +4294,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-bundle-identifier))))
                                                         "CreateAppAuthorization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-app-authorization))
 (common-lisp:progn
  (common-lisp:defun create-app-bundle
@@ -4313,7 +4313,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/appbundles"
                                                         "CreateAppBundle"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-app-bundle))
 (common-lisp:progn
  (common-lisp:defun create-ingestion
@@ -4343,7 +4343,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-bundle-identifier))))
                                                         "CreateIngestion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-ingestion))
 (common-lisp:progn
  (common-lisp:defun create-ingestion-destination
@@ -4379,7 +4379,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'ingestion-identifier))))
                                                         "CreateIngestionDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-ingestion-destination))
 (common-lisp:progn
  (common-lisp:defun delete-app-authorization
@@ -4412,7 +4412,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-authorization-identifier))))
                                                         "DeleteAppAuthorization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-app-authorization))
 (common-lisp:progn
  (common-lisp:defun delete-app-bundle
@@ -4439,7 +4439,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-bundle-identifier))))
                                                         "DeleteAppBundle"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-app-bundle))
 (common-lisp:progn
  (common-lisp:defun delete-ingestion
@@ -4472,7 +4472,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'ingestion-identifier))))
                                                         "DeleteIngestion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-ingestion))
 (common-lisp:progn
  (common-lisp:defun delete-ingestion-destination
@@ -4511,7 +4511,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'ingestion-destination-identifier))))
                                                         "DeleteIngestionDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-ingestion-destination))
 (common-lisp:progn
  (common-lisp:defun get-app-authorization
@@ -4544,7 +4544,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-authorization-identifier))))
                                                         "GetAppAuthorization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-app-authorization))
 (common-lisp:progn
  (common-lisp:defun get-app-bundle
@@ -4571,7 +4571,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-bundle-identifier))))
                                                         "GetAppBundle"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-app-bundle))
 (common-lisp:progn
  (common-lisp:defun get-ingestion
@@ -4604,7 +4604,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'ingestion-identifier))))
                                                         "GetIngestion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-ingestion))
 (common-lisp:progn
  (common-lisp:defun get-ingestion-destination
@@ -4643,7 +4643,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'ingestion-destination-identifier))))
                                                         "GetIngestionDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-ingestion-destination))
 (common-lisp:progn
  (common-lisp:defun list-app-authorizations
@@ -4672,7 +4672,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-bundle-identifier))))
                                                         "ListAppAuthorizations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-app-authorizations))
 (common-lisp:progn
  (common-lisp:defun list-app-bundles
@@ -4689,7 +4689,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/appbundles"
                                                         "ListAppBundles"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-app-bundles))
 (common-lisp:progn
  (common-lisp:defun list-ingestion-destinations
@@ -4724,7 +4724,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'ingestion-identifier))))
                                                         "ListIngestionDestinations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-ingestion-destinations))
 (common-lisp:progn
  (common-lisp:defun list-ingestions
@@ -4753,7 +4753,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-bundle-identifier))))
                                                         "ListIngestions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-ingestions))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -4780,7 +4780,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun start-ingestion
@@ -4813,7 +4813,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'ingestion-identifier))))
                                                         "StartIngestion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-ingestion))
 (common-lisp:progn
  (common-lisp:defun start-user-access-tasks
@@ -4831,7 +4831,7 @@
                                                         "POST"
                                                         "/useraccess/start"
                                                         "StartUserAccessTasks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-user-access-tasks))
 (common-lisp:progn
  (common-lisp:defun stop-ingestion
@@ -4864,7 +4864,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'ingestion-identifier))))
                                                         "StopIngestion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-ingestion))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4891,7 +4891,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4918,7 +4918,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-app-authorization
@@ -4952,7 +4952,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'app-authorization-identifier))))
                                                         "UpdateAppAuthorization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-app-authorization))
 (common-lisp:progn
  (common-lisp:defun update-ingestion-destination
@@ -4992,5 +4992,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'ingestion-destination-identifier))))
                                                         "UpdateIngestionDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-ingestion-destination))

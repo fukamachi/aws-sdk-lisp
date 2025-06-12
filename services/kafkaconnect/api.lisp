@@ -5351,7 +5351,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v1/connectors"
                                                         "CreateConnector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-connector))
 (common-lisp:progn
  (common-lisp:defun create-custom-plugin
@@ -5371,7 +5371,7 @@
                                                         "POST"
                                                         "/v1/custom-plugins"
                                                         "CreateCustomPlugin"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-custom-plugin))
 (common-lisp:progn
  (common-lisp:defun create-worker-configuration
@@ -5392,7 +5392,7 @@
                                                         "POST"
                                                         "/v1/worker-configurations"
                                                         "CreateWorkerConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-worker-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-connector
@@ -5419,7 +5419,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'connector-arn))))
                                                         "DeleteConnector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-connector))
 (common-lisp:progn
  (common-lisp:defun delete-custom-plugin
@@ -5446,7 +5446,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'custom-plugin-arn))))
                                                         "DeleteCustomPlugin"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-custom-plugin))
 (common-lisp:progn
  (common-lisp:defun delete-worker-configuration
@@ -5474,7 +5474,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'worker-configuration-arn))))
                                                         "DeleteWorkerConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-worker-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-connector
@@ -5501,7 +5501,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'connector-arn))))
                                                         "DescribeConnector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-connector))
 (common-lisp:progn
  (common-lisp:defun describe-custom-plugin
@@ -5528,7 +5528,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'custom-plugin-arn))))
                                                         "DescribeCustomPlugin"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-custom-plugin))
 (common-lisp:progn
  (common-lisp:defun describe-worker-configuration
@@ -5556,7 +5556,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'worker-configuration-arn))))
                                                         "DescribeWorkerConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-worker-configuration))
 (common-lisp:progn
  (common-lisp:defun list-connectors
@@ -5575,7 +5575,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/connectors"
                                                         "ListConnectors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-connectors))
 (common-lisp:progn
  (common-lisp:defun list-custom-plugins
@@ -5594,7 +5594,7 @@
                                                         "GET"
                                                         "/v1/custom-plugins"
                                                         "ListCustomPlugins"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-custom-plugins))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -5621,7 +5621,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-worker-configurations
@@ -5641,7 +5641,7 @@
                                                         "GET"
                                                         "/v1/worker-configurations"
                                                         "ListWorkerConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-worker-configurations))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -5668,7 +5668,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -5695,7 +5695,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-connector
@@ -5723,5 +5723,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'connector-arn))))
                                                         "UpdateConnector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-connector))

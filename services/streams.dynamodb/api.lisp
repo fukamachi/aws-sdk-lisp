@@ -1360,7 +1360,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'streams.dynamodb-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-stream))
 (common-lisp:progn
  (common-lisp:defun get-records
@@ -1376,7 +1376,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'streams.dynamodb-request aws-sdk/generator/operation::input "POST" "/"
         "GetRecords"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-records))
 (common-lisp:progn
  (common-lisp:defun get-shard-iterator
@@ -1395,7 +1395,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'streams.dynamodb-request aws-sdk/generator/operation::input "POST" "/"
         "GetShardIterator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-shard-iterator))
 (common-lisp:progn
  (common-lisp:defun list-streams
@@ -1413,5 +1413,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'streams.dynamodb-request aws-sdk/generator/operation::input "POST" "/"
         "ListStreams"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-streams))

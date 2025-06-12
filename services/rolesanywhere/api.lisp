@@ -2806,7 +2806,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/profiles"
                                                         "CreateProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-profile))
 (common-lisp:progn
  (common-lisp:defun create-trust-anchor
@@ -2825,7 +2825,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/trustanchors"
                                                         "CreateTrustAnchor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-trust-anchor))
 (common-lisp:progn
  (common-lisp:defun delete-crl
@@ -2852,7 +2852,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'crl-id))))
                                                         "DeleteCrl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-crl))
 (common-lisp:progn
  (common-lisp:defun delete-profile
@@ -2879,7 +2879,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'profile-id))))
                                                         "DeleteProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-profile))
 (common-lisp:progn
  (common-lisp:defun delete-trust-anchor
@@ -2906,7 +2906,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'trust-anchor-id))))
                                                         "DeleteTrustAnchor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-trust-anchor))
 (common-lisp:progn
  (common-lisp:defun disable-crl
@@ -2933,7 +2933,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'crl-id))))
                                                         "DisableCrl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disable-crl))
 (common-lisp:progn
  (common-lisp:defun disable-profile
@@ -2960,7 +2960,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'profile-id))))
                                                         "DisableProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disable-profile))
 (common-lisp:progn
  (common-lisp:defun disable-trust-anchor
@@ -2987,7 +2987,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'trust-anchor-id))))
                                                         "DisableTrustAnchor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disable-trust-anchor))
 (common-lisp:progn
  (common-lisp:defun enable-crl
@@ -3014,7 +3014,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'crl-id))))
                                                         "EnableCrl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-crl))
 (common-lisp:progn
  (common-lisp:defun enable-profile
@@ -3041,7 +3041,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'profile-id))))
                                                         "EnableProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-profile))
 (common-lisp:progn
  (common-lisp:defun enable-trust-anchor
@@ -3068,7 +3068,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'trust-anchor-id))))
                                                         "EnableTrustAnchor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-trust-anchor))
 (common-lisp:progn
  (common-lisp:defun get-crl
@@ -3095,7 +3095,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'crl-id))))
                                                         "GetCrl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-crl))
 (common-lisp:progn
  (common-lisp:defun get-profile
@@ -3122,7 +3122,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'profile-id))))
                                                         "GetProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-profile))
 (common-lisp:progn
  (common-lisp:defun get-subject
@@ -3149,7 +3149,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'subject-id))))
                                                         "GetSubject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-subject))
 (common-lisp:progn
  (common-lisp:defun get-trust-anchor
@@ -3176,7 +3176,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'trust-anchor-id))))
                                                         "GetTrustAnchor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-trust-anchor))
 (common-lisp:progn
  (common-lisp:defun import-crl
@@ -3195,7 +3195,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/crls"
                                                         "ImportCrl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-crl))
 (common-lisp:progn
  (common-lisp:defun list-crls
@@ -3212,7 +3212,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/crls"
                                                         "ListCrls"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-crls))
 (common-lisp:progn
  (common-lisp:defun list-profiles
@@ -3229,7 +3229,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/profiles"
                                                         "ListProfiles"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-profiles))
 (common-lisp:progn
  (common-lisp:defun list-subjects
@@ -3246,7 +3246,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/subjects"
                                                         "ListSubjects"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-subjects))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -3264,7 +3264,7 @@
                                                         "GET"
                                                         "/ListTagsForResource"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-trust-anchors
@@ -3281,7 +3281,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/trustanchors"
                                                         "ListTrustAnchors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-trust-anchors))
 (common-lisp:progn
  (common-lisp:defun put-notification-settings
@@ -3301,7 +3301,7 @@
                                                         "PATCH"
                                                         "/put-notifications-settings"
                                                         "PutNotificationSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-notification-settings))
 (common-lisp:progn
  (common-lisp:defun reset-notification-settings
@@ -3322,7 +3322,7 @@
                                                         "PATCH"
                                                         "/reset-notifications-settings"
                                                         "ResetNotificationSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reset-notification-settings))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3339,7 +3339,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/TagResource"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3356,7 +3356,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/UntagResource"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-crl
@@ -3383,7 +3383,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'crl-id))))
                                                         "UpdateCrl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-crl))
 (common-lisp:progn
  (common-lisp:defun update-profile
@@ -3413,7 +3413,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'profile-id))))
                                                         "UpdateProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-profile))
 (common-lisp:progn
  (common-lisp:defun update-trust-anchor
@@ -3440,5 +3440,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'trust-anchor-id))))
                                                         "UpdateTrustAnchor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-trust-anchor))

@@ -15502,7 +15502,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "AddInstanceFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-instance-fleet))
 (common-lisp:progn
  (common-lisp:defun add-instance-groups
@@ -15518,7 +15518,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "AddInstanceGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-instance-groups))
 (common-lisp:progn
  (common-lisp:defun add-job-flow-steps
@@ -15535,7 +15535,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "AddJobFlowSteps"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-job-flow-steps))
 (common-lisp:progn
  (common-lisp:defun add-tags
@@ -15551,7 +15551,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "AddTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-tags))
 (common-lisp:progn
  (common-lisp:defun cancel-steps
@@ -15569,7 +15569,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "CancelSteps"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-steps))
 (common-lisp:progn
  (common-lisp:defun create-security-configuration
@@ -15586,7 +15586,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "CreateSecurityConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-security-configuration))
 (common-lisp:progn
  (common-lisp:defun create-studio
@@ -15613,7 +15613,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "CreateStudio"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-studio))
 (common-lisp:progn
  (common-lisp:defun create-studio-session-mapping
@@ -15633,7 +15633,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "CreateStudioSessionMapping"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-studio-session-mapping))
 (common-lisp:progn
  (common-lisp:defun delete-security-configuration
@@ -15650,7 +15650,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteSecurityConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-security-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-studio
@@ -15666,7 +15666,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteStudio"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-studio))
 (common-lisp:progn
  (common-lisp:defun delete-studio-session-mapping
@@ -15685,7 +15685,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteStudioSessionMapping"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-studio-session-mapping))
 (common-lisp:progn
  (common-lisp:defun describe-cluster
@@ -15701,7 +15701,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-cluster))
 (common-lisp:progn
  (common-lisp:defun describe-job-flows
@@ -15720,7 +15720,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeJobFlows"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-job-flows))
 (common-lisp:progn
  (common-lisp:defun describe-notebook-execution
@@ -15737,7 +15737,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeNotebookExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-notebook-execution))
 (common-lisp:progn
  (common-lisp:defun describe-release-label
@@ -15754,7 +15754,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeReleaseLabel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-release-label))
 (common-lisp:progn
  (common-lisp:defun describe-security-configuration
@@ -15771,7 +15771,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeSecurityConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-security-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-step
@@ -15787,7 +15787,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeStep"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-step))
 (common-lisp:progn
  (common-lisp:defun describe-studio
@@ -15803,7 +15803,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeStudio"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-studio))
 (common-lisp:progn
  (common-lisp:defun get-auto-termination-policy
@@ -15820,7 +15820,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "GetAutoTerminationPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-auto-termination-policy))
 (common-lisp:progn
  (common-lisp:defun get-block-public-access-configuration ()
@@ -15846,7 +15846,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "GetClusterSessionCredentials"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-cluster-session-credentials))
 (common-lisp:progn
  (common-lisp:defun get-managed-scaling-policy
@@ -15862,7 +15862,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "GetManagedScalingPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-managed-scaling-policy))
 (common-lisp:progn
  (common-lisp:defun get-studio-session-mapping
@@ -15880,7 +15880,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "GetStudioSessionMapping"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-studio-session-mapping))
 (common-lisp:progn
  (common-lisp:defun list-bootstrap-actions
@@ -15896,7 +15896,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "ListBootstrapActions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-bootstrap-actions))
 (common-lisp:progn
  (common-lisp:defun list-clusters
@@ -15914,7 +15914,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "ListClusters"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-clusters))
 (common-lisp:progn
  (common-lisp:defun list-instance-fleets
@@ -15930,7 +15930,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "ListInstanceFleets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-instance-fleets))
 (common-lisp:progn
  (common-lisp:defun list-instance-groups
@@ -15946,7 +15946,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "ListInstanceGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-instance-groups))
 (common-lisp:progn
  (common-lisp:defun list-instances
@@ -15966,7 +15966,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "ListInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-instances))
 (common-lisp:progn
  (common-lisp:defun list-notebook-executions
@@ -15985,7 +15985,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "ListNotebookExecutions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-notebook-executions))
 (common-lisp:progn
  (common-lisp:defun list-release-labels
@@ -16001,7 +16001,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "ListReleaseLabels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-release-labels))
 (common-lisp:progn
  (common-lisp:defun list-security-configurations
@@ -16018,7 +16018,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "ListSecurityConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-security-configurations))
 (common-lisp:progn
  (common-lisp:defun list-steps
@@ -16035,7 +16035,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "ListSteps"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-steps))
 (common-lisp:progn
  (common-lisp:defun list-studio-session-mappings
@@ -16052,7 +16052,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "ListStudioSessionMappings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-studio-session-mappings))
 (common-lisp:progn
  (common-lisp:defun list-studios
@@ -16068,7 +16068,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "ListStudios"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-studios))
 (common-lisp:progn
  (common-lisp:defun list-supported-instance-types
@@ -16085,7 +16085,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "ListSupportedInstanceTypes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-supported-instance-types))
 (common-lisp:progn
  (common-lisp:defun modify-cluster
@@ -16102,7 +16102,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "ModifyCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'modify-cluster))
 (common-lisp:progn
  (common-lisp:defun modify-instance-fleet
@@ -16118,7 +16118,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "ModifyInstanceFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'modify-instance-fleet))
 (common-lisp:progn
  (common-lisp:defun modify-instance-groups
@@ -16134,7 +16134,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "ModifyInstanceGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'modify-instance-groups))
 (common-lisp:progn
  (common-lisp:defun put-auto-scaling-policy
@@ -16152,7 +16152,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "PutAutoScalingPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-auto-scaling-policy))
 (common-lisp:progn
  (common-lisp:defun put-auto-termination-policy
@@ -16170,7 +16170,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "PutAutoTerminationPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-auto-termination-policy))
 (common-lisp:progn
  (common-lisp:defun put-block-public-access-configuration
@@ -16188,7 +16188,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "PutBlockPublicAccessConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-block-public-access-configuration))
 (common-lisp:progn
  (common-lisp:defun put-managed-scaling-policy
@@ -16205,7 +16205,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "PutManagedScalingPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-managed-scaling-policy))
 (common-lisp:progn
  (common-lisp:defun remove-auto-scaling-policy
@@ -16221,7 +16221,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "RemoveAutoScalingPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-auto-scaling-policy))
 (common-lisp:progn
  (common-lisp:defun remove-auto-termination-policy
@@ -16238,7 +16238,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "RemoveAutoTerminationPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-auto-termination-policy))
 (common-lisp:progn
  (common-lisp:defun remove-managed-scaling-policy
@@ -16255,7 +16255,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "RemoveManagedScalingPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-managed-scaling-policy))
 (common-lisp:progn
  (common-lisp:defun remove-tags
@@ -16271,7 +16271,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "RemoveTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-tags))
 (common-lisp:progn
  (common-lisp:defun run-job-flow
@@ -16307,7 +16307,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "RunJobFlow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'run-job-flow))
 (common-lisp:progn
  (common-lisp:defun set-keep-job-flow-alive-when-no-steps
@@ -16326,7 +16326,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "SetKeepJobFlowAliveWhenNoSteps"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'set-keep-job-flow-alive-when-no-steps))
 (common-lisp:progn
  (common-lisp:defun set-termination-protection
@@ -16343,7 +16343,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "SetTerminationProtection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'set-termination-protection))
 (common-lisp:progn
  (common-lisp:defun set-unhealthy-node-replacement
@@ -16361,7 +16361,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "SetUnhealthyNodeReplacement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'set-unhealthy-node-replacement))
 (common-lisp:progn
  (common-lisp:defun set-visible-to-all-users
@@ -16378,7 +16378,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "SetVisibleToAllUsers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'set-visible-to-all-users))
 (common-lisp:progn
  (common-lisp:defun start-notebook-execution
@@ -16402,7 +16402,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "StartNotebookExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-notebook-execution))
 (common-lisp:progn
  (common-lisp:defun stop-notebook-execution
@@ -16418,7 +16418,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "StopNotebookExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-notebook-execution))
 (common-lisp:progn
  (common-lisp:defun terminate-job-flows
@@ -16434,7 +16434,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "TerminateJobFlows"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'terminate-job-flows))
 (common-lisp:progn
  (common-lisp:defun update-studio
@@ -16453,7 +16453,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateStudio"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-studio))
 (common-lisp:progn
  (common-lisp:defun update-studio-session-mapping
@@ -16473,5 +16473,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'elasticmapreduce-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateStudioSessionMapping"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-studio-session-mapping))

@@ -3186,7 +3186,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'workspaces-thin-client-request aws-sdk/generator/operation::input
         "POST" "/environments" "CreateEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-environment))
 (common-lisp:progn
  (common-lisp:defun delete-device
@@ -3208,7 +3208,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "DeleteDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-device))
 (common-lisp:progn
  (common-lisp:defun delete-environment
@@ -3230,7 +3230,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "DeleteEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-environment))
 (common-lisp:progn
  (common-lisp:defun deregister-device
@@ -3253,7 +3253,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "DeregisterDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deregister-device))
 (common-lisp:progn
  (common-lisp:defun get-device
@@ -3275,7 +3275,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "GetDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-device))
 (common-lisp:progn
  (common-lisp:defun get-environment
@@ -3297,7 +3297,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "GetEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-environment))
 (common-lisp:progn
  (common-lisp:defun get-software-set
@@ -3319,7 +3319,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "GetSoftwareSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-software-set))
 (common-lisp:progn
  (common-lisp:defun list-devices
@@ -3335,7 +3335,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'workspaces-thin-client-request aws-sdk/generator/operation::input
         "GET" "/devices" "ListDevices"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-devices))
 (common-lisp:progn
  (common-lisp:defun list-environments
@@ -3351,7 +3351,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'workspaces-thin-client-request aws-sdk/generator/operation::input
         "GET" "/environments" "ListEnvironments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-environments))
 (common-lisp:progn
  (common-lisp:defun list-software-sets
@@ -3367,7 +3367,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'workspaces-thin-client-request aws-sdk/generator/operation::input
         "GET" "/softwaresets" "ListSoftwareSets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-software-sets))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -3390,7 +3390,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3413,7 +3413,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3436,7 +3436,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-device
@@ -3461,7 +3461,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "UpdateDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-device))
 (common-lisp:progn
  (common-lisp:defun update-environment
@@ -3488,7 +3488,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "UpdateEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-environment))
 (common-lisp:progn
  (common-lisp:defun update-software-set
@@ -3510,5 +3510,5 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "UpdateSoftwareSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-software-set))

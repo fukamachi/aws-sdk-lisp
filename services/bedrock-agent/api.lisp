@@ -8945,7 +8945,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'agent-version))))
                                                         "AssociateAgentKnowledgeBase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-agent-knowledge-base))
 (common-lisp:progn
  (common-lisp:defun create-agent
@@ -8968,7 +8968,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/agents/"
                                                         "CreateAgent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-agent))
 (common-lisp:progn
  (common-lisp:defun create-agent-action-group
@@ -9005,7 +9005,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'agent-version))))
                                                         "CreateAgentActionGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-agent-action-group))
 (common-lisp:progn
  (common-lisp:defun create-agent-alias
@@ -9035,7 +9035,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'agent-id))))
                                                         "CreateAgentAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-agent-alias))
 (common-lisp:progn
  (common-lisp:defun create-data-source
@@ -9068,7 +9068,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'knowledge-base-id))))
                                                         "CreateDataSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-data-source))
 (common-lisp:progn
  (common-lisp:defun create-knowledge-base
@@ -9089,7 +9089,7 @@
                                                         "PUT"
                                                         "/knowledgebases/"
                                                         "CreateKnowledgeBase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-knowledge-base))
 (common-lisp:progn
  (common-lisp:defun delete-agent
@@ -9117,7 +9117,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'agent-id))))
                                                         "DeleteAgent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-agent))
 (common-lisp:progn
  (common-lisp:defun delete-agent-action-group
@@ -9156,7 +9156,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'action-group-id))))
                                                         "DeleteAgentActionGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-agent-action-group))
 (common-lisp:progn
  (common-lisp:defun delete-agent-alias
@@ -9187,7 +9187,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'agent-alias-id))))
                                                         "DeleteAgentAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-agent-alias))
 (common-lisp:progn
  (common-lisp:defun delete-agent-version
@@ -9220,7 +9220,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'agent-version))))
                                                         "DeleteAgentVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-agent-version))
 (common-lisp:progn
  (common-lisp:defun delete-data-source
@@ -9252,7 +9252,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'data-source-id))))
                                                         "DeleteDataSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-data-source))
 (common-lisp:progn
  (common-lisp:defun delete-knowledge-base
@@ -9279,7 +9279,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'knowledge-base-id))))
                                                         "DeleteKnowledgeBase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-knowledge-base))
 (common-lisp:progn
  (common-lisp:defun disassociate-agent-knowledge-base
@@ -9316,7 +9316,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'knowledge-base-id))))
                                                         "DisassociateAgentKnowledgeBase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-agent-knowledge-base))
 (common-lisp:progn
  (common-lisp:defun get-agent
@@ -9343,7 +9343,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'agent-id))))
                                                         "GetAgent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-agent))
 (common-lisp:progn
  (common-lisp:defun get-agent-action-group
@@ -9379,7 +9379,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'action-group-id))))
                                                         "GetAgentActionGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-agent-action-group))
 (common-lisp:progn
  (common-lisp:defun get-agent-alias
@@ -9410,7 +9410,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'agent-alias-id))))
                                                         "GetAgentAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-agent-alias))
 (common-lisp:progn
  (common-lisp:defun get-agent-knowledge-base
@@ -9446,7 +9446,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'knowledge-base-id))))
                                                         "GetAgentKnowledgeBase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-agent-knowledge-base))
 (common-lisp:progn
  (common-lisp:defun get-agent-version
@@ -9477,7 +9477,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'agent-version))))
                                                         "GetAgentVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-agent-version))
 (common-lisp:progn
  (common-lisp:defun get-data-source
@@ -9509,7 +9509,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'data-source-id))))
                                                         "GetDataSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-data-source))
 (common-lisp:progn
  (common-lisp:defun get-ingestion-job
@@ -9546,7 +9546,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'ingestion-job-id))))
                                                         "GetIngestionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-ingestion-job))
 (common-lisp:progn
  (common-lisp:defun get-knowledge-base
@@ -9573,7 +9573,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'knowledge-base-id))))
                                                         "GetKnowledgeBase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-knowledge-base))
 (common-lisp:progn
  (common-lisp:defun list-agent-action-groups
@@ -9606,7 +9606,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'agent-version))))
                                                         "ListAgentActionGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-agent-action-groups))
 (common-lisp:progn
  (common-lisp:defun list-agent-aliases
@@ -9634,7 +9634,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'agent-id))))
                                                         "ListAgentAliases"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-agent-aliases))
 (common-lisp:progn
  (common-lisp:defun list-agent-knowledge-bases
@@ -9668,7 +9668,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'agent-version))))
                                                         "ListAgentKnowledgeBases"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-agent-knowledge-bases))
 (common-lisp:progn
  (common-lisp:defun list-agent-versions
@@ -9696,7 +9696,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'agent-id))))
                                                         "ListAgentVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-agent-versions))
 (common-lisp:progn
  (common-lisp:defun list-agents
@@ -9713,7 +9713,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/agents/"
                                                         "ListAgents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-agents))
 (common-lisp:progn
  (common-lisp:defun list-data-sources
@@ -9741,7 +9741,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'knowledge-base-id))))
                                                         "ListDataSources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-data-sources))
 (common-lisp:progn
  (common-lisp:defun list-ingestion-jobs
@@ -9775,7 +9775,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'data-source-id))))
                                                         "ListIngestionJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-ingestion-jobs))
 (common-lisp:progn
  (common-lisp:defun list-knowledge-bases
@@ -9793,7 +9793,7 @@
                                                         "POST"
                                                         "/knowledgebases/"
                                                         "ListKnowledgeBases"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-knowledge-bases))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -9820,7 +9820,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun prepare-agent
@@ -9847,7 +9847,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'agent-id))))
                                                         "PrepareAgent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'prepare-agent))
 (common-lisp:progn
  (common-lisp:defun start-ingestion-job
@@ -9881,7 +9881,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'data-source-id))))
                                                         "StartIngestionJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-ingestion-job))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -9908,7 +9908,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -9935,7 +9935,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-agent
@@ -9968,7 +9968,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'agent-id))))
                                                         "UpdateAgent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-agent))
 (common-lisp:progn
  (common-lisp:defun update-agent-action-group
@@ -10010,7 +10010,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'action-group-id))))
                                                         "UpdateAgentActionGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-agent-action-group))
 (common-lisp:progn
  (common-lisp:defun update-agent-alias
@@ -10044,7 +10044,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'agent-alias-id))))
                                                         "UpdateAgentAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-agent-alias))
 (common-lisp:progn
  (common-lisp:defun update-agent-knowledge-base
@@ -10083,7 +10083,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'knowledge-base-id))))
                                                         "UpdateAgentKnowledgeBase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-agent-knowledge-base))
 (common-lisp:progn
  (common-lisp:defun update-data-source
@@ -10120,7 +10120,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'data-source-id))))
                                                         "UpdateDataSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-data-source))
 (common-lisp:progn
  (common-lisp:defun update-knowledge-base
@@ -10151,5 +10151,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'knowledge-base-id))))
                                                         "UpdateKnowledgeBase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-knowledge-base))

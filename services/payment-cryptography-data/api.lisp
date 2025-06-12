@@ -5458,7 +5458,7 @@
                                 aws-sdk/generator/operation::input
                                 'key-identifier))))
         "DecryptData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'decrypt-data))
 (common-lisp:progn
  (common-lisp:defun encrypt-data
@@ -5483,7 +5483,7 @@
                                 aws-sdk/generator/operation::input
                                 'key-identifier))))
         "EncryptData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'encrypt-data))
 (common-lisp:progn
  (common-lisp:defun generate-card-validation-data
@@ -5503,7 +5503,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-data-request aws-sdk/generator/operation::input
         "POST" "/cardvalidationdata/generate" "GenerateCardValidationData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'generate-card-validation-data))
 (common-lisp:progn
  (common-lisp:defun generate-mac
@@ -5522,7 +5522,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-data-request aws-sdk/generator/operation::input
         "POST" "/mac/generate" "GenerateMac"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'generate-mac))
 (common-lisp:progn
  (common-lisp:defun generate-pin-data
@@ -5543,7 +5543,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-data-request aws-sdk/generator/operation::input
         "POST" "/pindata/generate" "GeneratePinData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'generate-pin-data))
 (common-lisp:progn
  (common-lisp:defun re-encrypt-data
@@ -5571,7 +5571,7 @@
                                 aws-sdk/generator/operation::input
                                 'incoming-key-identifier))))
         "ReEncryptData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 're-encrypt-data))
 (common-lisp:progn
  (common-lisp:defun translate-pin-data
@@ -5594,7 +5594,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-data-request aws-sdk/generator/operation::input
         "POST" "/pindata/translate" "TranslatePinData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'translate-pin-data))
 (common-lisp:progn
  (common-lisp:defun verify-auth-request-cryptogram
@@ -5617,7 +5617,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-data-request aws-sdk/generator/operation::input
         "POST" "/cryptogram/verify" "VerifyAuthRequestCryptogram"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'verify-auth-request-cryptogram))
 (common-lisp:progn
  (common-lisp:defun verify-card-validation-data
@@ -5637,7 +5637,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-data-request aws-sdk/generator/operation::input
         "POST" "/cardvalidationdata/verify" "VerifyCardValidationData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'verify-card-validation-data))
 (common-lisp:progn
  (common-lisp:defun verify-mac
@@ -5656,7 +5656,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-data-request aws-sdk/generator/operation::input
         "POST" "/mac/verify" "VerifyMac"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'verify-mac))
 (common-lisp:progn
  (common-lisp:defun verify-pin-data
@@ -5679,5 +5679,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'payment-cryptography-data-request aws-sdk/generator/operation::input
         "POST" "/pindata/verify" "VerifyPinData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'verify-pin-data))

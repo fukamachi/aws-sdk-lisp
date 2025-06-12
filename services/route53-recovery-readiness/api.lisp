@@ -4330,7 +4330,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'route53-recovery-readiness-request aws-sdk/generator/operation::input
         "POST" "/cells" "CreateCell"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-cell))
 (common-lisp:progn
  (common-lisp:defun create-cross-account-authorization
@@ -4348,7 +4348,7 @@
         'route53-recovery-readiness-request aws-sdk/generator/operation::input
         "POST" "/crossaccountauthorizations"
         "CreateCrossAccountAuthorization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-cross-account-authorization))
 (common-lisp:progn
  (common-lisp:defun create-readiness-check
@@ -4366,7 +4366,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'route53-recovery-readiness-request aws-sdk/generator/operation::input
         "POST" "/readinesschecks" "CreateReadinessCheck"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-readiness-check))
 (common-lisp:progn
  (common-lisp:defun create-recovery-group
@@ -4382,7 +4382,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'route53-recovery-readiness-request aws-sdk/generator/operation::input
         "POST" "/recoverygroups" "CreateRecoveryGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-recovery-group))
 (common-lisp:progn
  (common-lisp:defun create-resource-set
@@ -4400,7 +4400,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'route53-recovery-readiness-request aws-sdk/generator/operation::input
         "POST" "/resourcesets" "CreateResourceSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-resource-set))
 (common-lisp:progn
  (common-lisp:defun delete-cell
@@ -4423,7 +4423,7 @@
                                 aws-sdk/generator/operation::input
                                 'cell-name))))
         "DeleteCell"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-cell))
 (common-lisp:progn
  (common-lisp:defun delete-cross-account-authorization
@@ -4447,7 +4447,7 @@
                                 aws-sdk/generator/operation::input
                                 'cross-account-authorization))))
         "DeleteCrossAccountAuthorization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-cross-account-authorization))
 (common-lisp:progn
  (common-lisp:defun delete-readiness-check
@@ -4470,7 +4470,7 @@
                                 aws-sdk/generator/operation::input
                                 'readiness-check-name))))
         "DeleteReadinessCheck"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-readiness-check))
 (common-lisp:progn
  (common-lisp:defun delete-recovery-group
@@ -4493,7 +4493,7 @@
                                 aws-sdk/generator/operation::input
                                 'recovery-group-name))))
         "DeleteRecoveryGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-recovery-group))
 (common-lisp:progn
  (common-lisp:defun delete-resource-set
@@ -4516,7 +4516,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-set-name))))
         "DeleteResourceSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resource-set))
 (common-lisp:progn
  (common-lisp:defun get-architecture-recommendations
@@ -4543,7 +4543,7 @@
                                 aws-sdk/generator/operation::input
                                 'recovery-group-name))))
         "GetArchitectureRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-architecture-recommendations))
 (common-lisp:progn
  (common-lisp:defun get-cell
@@ -4566,7 +4566,7 @@
                                 aws-sdk/generator/operation::input
                                 'cell-name))))
         "GetCell"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-cell))
 (common-lisp:progn
  (common-lisp:defun get-cell-readiness-summary
@@ -4591,7 +4591,7 @@
                                 aws-sdk/generator/operation::input
                                 'cell-name))))
         "GetCellReadinessSummary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-cell-readiness-summary))
 (common-lisp:progn
  (common-lisp:defun get-readiness-check
@@ -4614,7 +4614,7 @@
                                 aws-sdk/generator/operation::input
                                 'readiness-check-name))))
         "GetReadinessCheck"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-readiness-check))
 (common-lisp:progn
  (common-lisp:defun get-readiness-check-resource-status
@@ -4646,7 +4646,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-identifier))))
         "GetReadinessCheckResourceStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-readiness-check-resource-status))
 (common-lisp:progn
  (common-lisp:defun get-readiness-check-status
@@ -4672,7 +4672,7 @@
                                 aws-sdk/generator/operation::input
                                 'readiness-check-name))))
         "GetReadinessCheckStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-readiness-check-status))
 (common-lisp:progn
  (common-lisp:defun get-recovery-group
@@ -4695,7 +4695,7 @@
                                 aws-sdk/generator/operation::input
                                 'recovery-group-name))))
         "GetRecoveryGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-recovery-group))
 (common-lisp:progn
  (common-lisp:defun get-recovery-group-readiness-summary
@@ -4721,7 +4721,7 @@
                                 aws-sdk/generator/operation::input
                                 'recovery-group-name))))
         "GetRecoveryGroupReadinessSummary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-recovery-group-readiness-summary))
 (common-lisp:progn
  (common-lisp:defun get-resource-set
@@ -4744,7 +4744,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-set-name))))
         "GetResourceSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-set))
 (common-lisp:progn
  (common-lisp:defun list-cells
@@ -4760,7 +4760,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'route53-recovery-readiness-request aws-sdk/generator/operation::input
         "GET" "/cells" "ListCells"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-cells))
 (common-lisp:progn
  (common-lisp:defun list-cross-account-authorizations
@@ -4777,7 +4777,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'route53-recovery-readiness-request aws-sdk/generator/operation::input
         "GET" "/crossaccountauthorizations" "ListCrossAccountAuthorizations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-cross-account-authorizations))
 (common-lisp:progn
  (common-lisp:defun list-readiness-checks
@@ -4793,7 +4793,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'route53-recovery-readiness-request aws-sdk/generator/operation::input
         "GET" "/readinesschecks" "ListReadinessChecks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-readiness-checks))
 (common-lisp:progn
  (common-lisp:defun list-recovery-groups
@@ -4809,7 +4809,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'route53-recovery-readiness-request aws-sdk/generator/operation::input
         "GET" "/recoverygroups" "ListRecoveryGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-recovery-groups))
 (common-lisp:progn
  (common-lisp:defun list-resource-sets
@@ -4825,7 +4825,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'route53-recovery-readiness-request aws-sdk/generator/operation::input
         "GET" "/resourcesets" "ListResourceSets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-resource-sets))
 (common-lisp:progn
  (common-lisp:defun list-rules
@@ -4842,7 +4842,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'route53-recovery-readiness-request aws-sdk/generator/operation::input
         "GET" "/rules" "ListRules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-rules))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resources
@@ -4865,7 +4865,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resources))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4888,7 +4888,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4911,7 +4911,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-cell
@@ -4934,7 +4934,7 @@
                                 aws-sdk/generator/operation::input
                                 'cell-name))))
         "UpdateCell"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-cell))
 (common-lisp:progn
  (common-lisp:defun update-readiness-check
@@ -4958,7 +4958,7 @@
                                 aws-sdk/generator/operation::input
                                 'readiness-check-name))))
         "UpdateReadinessCheck"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-readiness-check))
 (common-lisp:progn
  (common-lisp:defun update-recovery-group
@@ -4981,7 +4981,7 @@
                                 aws-sdk/generator/operation::input
                                 'recovery-group-name))))
         "UpdateRecoveryGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-recovery-group))
 (common-lisp:progn
  (common-lisp:defun update-resource-set
@@ -5006,5 +5006,5 @@
                                 aws-sdk/generator/operation::input
                                 'resource-set-name))))
         "UpdateResourceSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-resource-set))

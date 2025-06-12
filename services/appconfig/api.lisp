@@ -511,7 +511,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input configuration))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'content)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'content))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input configuration))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass configuration-profile common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -1569,7 +1573,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-hosted-configuration-version-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'content)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'content))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-hosted-configuration-version-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass delete-application-request common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -3760,7 +3770,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           hosted-configuration-version))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'content)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'content))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          hosted-configuration-version))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass hosted-configuration-version-summary common-lisp:nil
                        ((application-id :initarg :application-id :initform
@@ -5565,7 +5581,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/applications"
                                                         "CreateApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-application))
 (common-lisp:progn
  (common-lisp:defun create-configuration-profile
@@ -5597,7 +5613,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "CreateConfigurationProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-configuration-profile))
 (common-lisp:progn
  (common-lisp:defun create-deployment-strategy
@@ -5620,7 +5636,7 @@
                                                         "POST"
                                                         "/deploymentstrategies"
                                                         "CreateDeploymentStrategy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-deployment-strategy))
 (common-lisp:progn
  (common-lisp:defun create-environment
@@ -5649,7 +5665,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "CreateEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-environment))
 (common-lisp:progn
  (common-lisp:defun create-extension
@@ -5669,7 +5685,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/extensions"
                                                         "CreateExtension"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-extension))
 (common-lisp:progn
  (common-lisp:defun create-extension-association
@@ -5692,7 +5708,7 @@
                                                         "POST"
                                                         "/extensionassociations"
                                                         "CreateExtensionAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-extension-association))
 (common-lisp:progn
  (common-lisp:defun create-hosted-configuration-version
@@ -5729,7 +5745,7 @@
                                                              'configuration-profile-id))))
                                                         "CreateHostedConfigurationVersion")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-hosted-configuration-version))
 (common-lisp:progn
  (common-lisp:defun delete-application
@@ -5756,7 +5772,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "DeleteApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-application))
 (common-lisp:progn
  (common-lisp:defun delete-configuration-profile
@@ -5789,7 +5805,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-profile-id))))
                                                         "DeleteConfigurationProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-configuration-profile))
 (common-lisp:progn
  (common-lisp:defun delete-deployment-strategy
@@ -5817,7 +5833,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'deployment-strategy-id))))
                                                         "DeleteDeploymentStrategy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-deployment-strategy))
 (common-lisp:progn
  (common-lisp:defun delete-environment
@@ -5848,7 +5864,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-id))))
                                                         "DeleteEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-environment))
 (common-lisp:progn
  (common-lisp:defun delete-extension
@@ -5876,7 +5892,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'extension-identifier))))
                                                         "DeleteExtension"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-extension))
 (common-lisp:progn
  (common-lisp:defun delete-extension-association
@@ -5904,7 +5920,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'extension-association-id))))
                                                         "DeleteExtensionAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-extension-association))
 (common-lisp:progn
  (common-lisp:defun delete-hosted-configuration-version
@@ -5943,7 +5959,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'version-number))))
                                                         "DeleteHostedConfigurationVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-hosted-configuration-version))
 (common-lisp:progn
  (common-lisp:defun get-application
@@ -5970,7 +5986,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "GetApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-application))
 (common-lisp:progn
  (common-lisp:defun get-configuration
@@ -6009,7 +6025,7 @@
                                                              'configuration))))
                                                         "GetConfiguration")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-configuration))
 (common-lisp:progn
  (common-lisp:defun get-configuration-profile
@@ -6042,7 +6058,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-profile-id))))
                                                         "GetConfigurationProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-configuration-profile))
 (common-lisp:progn
  (common-lisp:defun get-deployment
@@ -6079,7 +6095,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'deployment-number))))
                                                         "GetDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-deployment))
 (common-lisp:progn
  (common-lisp:defun get-deployment-strategy
@@ -6106,7 +6122,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'deployment-strategy-id))))
                                                         "GetDeploymentStrategy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-deployment-strategy))
 (common-lisp:progn
  (common-lisp:defun get-environment
@@ -6137,7 +6153,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-id))))
                                                         "GetEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-environment))
 (common-lisp:progn
  (common-lisp:defun get-extension
@@ -6165,7 +6181,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'extension-identifier))))
                                                         "GetExtension"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-extension))
 (common-lisp:progn
  (common-lisp:defun get-extension-association
@@ -6193,7 +6209,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'extension-association-id))))
                                                         "GetExtensionAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-extension-association))
 (common-lisp:progn
  (common-lisp:defun get-hosted-configuration-version
@@ -6233,7 +6249,7 @@
                                                              'version-number))))
                                                         "GetHostedConfigurationVersion")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-hosted-configuration-version))
 (common-lisp:progn
  (common-lisp:defun list-applications
@@ -6250,7 +6266,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/applications"
                                                         "ListApplications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-applications))
 (common-lisp:progn
  (common-lisp:defun list-configuration-profiles
@@ -6280,7 +6296,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "ListConfigurationProfiles"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-configuration-profiles))
 (common-lisp:progn
  (common-lisp:defun list-deployment-strategies
@@ -6299,7 +6315,7 @@
                                                         "GET"
                                                         "/deploymentstrategies"
                                                         "ListDeploymentStrategies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-deployment-strategies))
 (common-lisp:progn
  (common-lisp:defun list-deployments
@@ -6333,7 +6349,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-id))))
                                                         "ListDeployments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-deployments))
 (common-lisp:progn
  (common-lisp:defun list-environments
@@ -6361,7 +6377,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "ListEnvironments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-environments))
 (common-lisp:progn
  (common-lisp:defun list-extension-associations
@@ -6383,7 +6399,7 @@
                                                         "GET"
                                                         "/extensionassociations"
                                                         "ListExtensionAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-extension-associations))
 (common-lisp:progn
  (common-lisp:defun list-extensions
@@ -6400,7 +6416,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/extensions"
                                                         "ListExtensions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-extensions))
 (common-lisp:progn
  (common-lisp:defun list-hosted-configuration-versions
@@ -6435,7 +6451,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-profile-id))))
                                                         "ListHostedConfigurationVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-hosted-configuration-versions))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -6462,7 +6478,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun start-deployment
@@ -6499,7 +6515,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-id))))
                                                         "StartDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-deployment))
 (common-lisp:progn
  (common-lisp:defun stop-deployment
@@ -6536,7 +6552,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'deployment-number))))
                                                         "StopDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-deployment))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -6563,7 +6579,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -6590,7 +6606,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-application
@@ -6618,7 +6634,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "UpdateApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-application))
 (common-lisp:progn
  (common-lisp:defun update-configuration-profile
@@ -6654,7 +6670,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-profile-id))))
                                                         "UpdateConfigurationProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-configuration-profile))
 (common-lisp:progn
  (common-lisp:defun update-deployment-strategy
@@ -6687,7 +6703,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'deployment-strategy-id))))
                                                         "UpdateDeploymentStrategy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-deployment-strategy))
 (common-lisp:progn
  (common-lisp:defun update-environment
@@ -6721,7 +6737,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'environment-id))))
                                                         "UpdateEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-environment))
 (common-lisp:progn
  (common-lisp:defun update-extension
@@ -6751,7 +6767,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'extension-identifier))))
                                                         "UpdateExtension"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-extension))
 (common-lisp:progn
  (common-lisp:defun update-extension-association
@@ -6780,7 +6796,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'extension-association-id))))
                                                         "UpdateExtensionAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-extension-association))
 (common-lisp:progn
  (common-lisp:defun validate-configuration
@@ -6814,5 +6830,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-profile-id))))
                                                         "ValidateConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'validate-configuration))

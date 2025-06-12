@@ -11685,7 +11685,7 @@
                                                         "POST"
                                                         "/AssociateSourceNetworkStack"
                                                         "AssociateSourceNetworkStack"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-source-network-stack))
 (common-lisp:progn
  (common-lisp:defun create-extended-source-server
@@ -11704,7 +11704,7 @@
                                                         "POST"
                                                         "/CreateExtendedSourceServer"
                                                         "CreateExtendedSourceServer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-extended-source-server))
 (common-lisp:progn
  (common-lisp:defun create-launch-configuration-template
@@ -11729,7 +11729,7 @@
                                                         "POST"
                                                         "/CreateLaunchConfigurationTemplate"
                                                         "CreateLaunchConfigurationTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-launch-configuration-template))
 (common-lisp:progn
  (common-lisp:defun create-replication-configuration-template
@@ -11762,7 +11762,7 @@
                                                         "POST"
                                                         "/CreateReplicationConfigurationTemplate"
                                                         "CreateReplicationConfigurationTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-replication-configuration-template))
 (common-lisp:progn
  (common-lisp:defun create-source-network
@@ -11782,7 +11782,7 @@
                                                         "POST"
                                                         "/CreateSourceNetwork"
                                                         "CreateSourceNetwork"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-source-network))
 (common-lisp:progn
  (common-lisp:defun delete-job
@@ -11799,7 +11799,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/DeleteJob"
                                                         "DeleteJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-job))
 (common-lisp:progn
  (common-lisp:defun delete-launch-action
@@ -11817,7 +11817,7 @@
                                                         "POST"
                                                         "/DeleteLaunchAction"
                                                         "DeleteLaunchAction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-launch-action))
 (common-lisp:progn
  (common-lisp:defun delete-launch-configuration-template
@@ -11837,7 +11837,7 @@
                                                         "POST"
                                                         "/DeleteLaunchConfigurationTemplate"
                                                         "DeleteLaunchConfigurationTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-launch-configuration-template))
 (common-lisp:progn
  (common-lisp:defun delete-recovery-instance
@@ -11855,7 +11855,7 @@
                                                         "POST"
                                                         "/DeleteRecoveryInstance"
                                                         "DeleteRecoveryInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-recovery-instance))
 (common-lisp:progn
  (common-lisp:defun delete-replication-configuration-template
@@ -11875,7 +11875,7 @@
                                                         "POST"
                                                         "/DeleteReplicationConfigurationTemplate"
                                                         "DeleteReplicationConfigurationTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-replication-configuration-template))
 (common-lisp:progn
  (common-lisp:defun delete-source-network
@@ -11893,7 +11893,7 @@
                                                         "POST"
                                                         "/DeleteSourceNetwork"
                                                         "DeleteSourceNetwork"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-source-network))
 (common-lisp:progn
  (common-lisp:defun delete-source-server
@@ -11911,7 +11911,7 @@
                                                         "POST"
                                                         "/DeleteSourceServer"
                                                         "DeleteSourceServer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-source-server))
 (common-lisp:progn
  (common-lisp:defun describe-job-log-items
@@ -11929,7 +11929,7 @@
                                                         "POST"
                                                         "/DescribeJobLogItems"
                                                         "DescribeJobLogItems"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-job-log-items))
 (common-lisp:progn
  (common-lisp:defun describe-jobs
@@ -11946,7 +11946,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/DescribeJobs"
                                                         "DescribeJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-jobs))
 (common-lisp:progn
  (common-lisp:defun describe-launch-configuration-templates
@@ -11968,7 +11968,7 @@
                                                         "POST"
                                                         "/DescribeLaunchConfigurationTemplates"
                                                         "DescribeLaunchConfigurationTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-launch-configuration-templates))
 (common-lisp:progn
  (common-lisp:defun describe-recovery-instances
@@ -11987,7 +11987,7 @@
                                                         "POST"
                                                         "/DescribeRecoveryInstances"
                                                         "DescribeRecoveryInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-recovery-instances))
 (common-lisp:progn
  (common-lisp:defun describe-recovery-snapshots
@@ -12009,7 +12009,7 @@
                                                         "POST"
                                                         "/DescribeRecoverySnapshots"
                                                         "DescribeRecoverySnapshots"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-recovery-snapshots))
 (common-lisp:progn
  (common-lisp:defun describe-replication-configuration-templates
@@ -12031,7 +12031,7 @@
                                                         "POST"
                                                         "/DescribeReplicationConfigurationTemplates"
                                                         "DescribeReplicationConfigurationTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-replication-configuration-templates))
 (common-lisp:progn
  (common-lisp:defun describe-source-networks
@@ -12049,7 +12049,7 @@
                                                         "POST"
                                                         "/DescribeSourceNetworks"
                                                         "DescribeSourceNetworks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-source-networks))
 (common-lisp:progn
  (common-lisp:defun describe-source-servers
@@ -12067,7 +12067,7 @@
                                                         "POST"
                                                         "/DescribeSourceServers"
                                                         "DescribeSourceServers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-source-servers))
 (common-lisp:progn
  (common-lisp:defun disconnect-recovery-instance
@@ -12086,7 +12086,7 @@
                                                         "POST"
                                                         "/DisconnectRecoveryInstance"
                                                         "DisconnectRecoveryInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disconnect-recovery-instance))
 (common-lisp:progn
  (common-lisp:defun disconnect-source-server
@@ -12104,7 +12104,7 @@
                                                         "POST"
                                                         "/DisconnectSourceServer"
                                                         "DisconnectSourceServer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disconnect-source-server))
 (common-lisp:progn
  (common-lisp:defun export-source-network-cfn-template
@@ -12123,7 +12123,7 @@
                                                         "POST"
                                                         "/ExportSourceNetworkCfnTemplate"
                                                         "ExportSourceNetworkCfnTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'export-source-network-cfn-template))
 (common-lisp:progn
  (common-lisp:defun get-failback-replication-configuration
@@ -12142,7 +12142,7 @@
                                                         "POST"
                                                         "/GetFailbackReplicationConfiguration"
                                                         "GetFailbackReplicationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-failback-replication-configuration))
 (common-lisp:progn
  (common-lisp:defun get-launch-configuration
@@ -12160,7 +12160,7 @@
                                                         "POST"
                                                         "/GetLaunchConfiguration"
                                                         "GetLaunchConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-launch-configuration))
 (common-lisp:progn
  (common-lisp:defun get-replication-configuration
@@ -12179,7 +12179,7 @@
                                                         "POST"
                                                         "/GetReplicationConfiguration"
                                                         "GetReplicationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-replication-configuration))
 (common-lisp:progn
  (common-lisp:defun initialize-service ()
@@ -12209,7 +12209,7 @@
                                                         "POST"
                                                         "/ListExtensibleSourceServers"
                                                         "ListExtensibleSourceServers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-extensible-source-servers))
 (common-lisp:progn
  (common-lisp:defun list-launch-actions
@@ -12229,7 +12229,7 @@
                                                         "POST"
                                                         "/ListLaunchActions"
                                                         "ListLaunchActions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-launch-actions))
 (common-lisp:progn
  (common-lisp:defun list-staging-accounts
@@ -12247,7 +12247,7 @@
                                                         "GET"
                                                         "/ListStagingAccounts"
                                                         "ListStagingAccounts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-staging-accounts))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -12274,7 +12274,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-launch-action
@@ -12296,7 +12296,7 @@
                                                         "POST"
                                                         "/PutLaunchAction"
                                                         "PutLaunchAction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-launch-action))
 (common-lisp:progn
  (common-lisp:defun retry-data-replication
@@ -12314,7 +12314,7 @@
                                                         "POST"
                                                         "/RetryDataReplication"
                                                         "RetryDataReplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'retry-data-replication))
 (common-lisp:progn
  (common-lisp:defun reverse-replication
@@ -12332,7 +12332,7 @@
                                                         "POST"
                                                         "/ReverseReplication"
                                                         "ReverseReplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reverse-replication))
 (common-lisp:progn
  (common-lisp:defun start-failback-launch
@@ -12350,7 +12350,7 @@
                                                         "POST"
                                                         "/StartFailbackLaunch"
                                                         "StartFailbackLaunch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-failback-launch))
 (common-lisp:progn
  (common-lisp:defun start-recovery
@@ -12367,7 +12367,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/StartRecovery"
                                                         "StartRecovery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-recovery))
 (common-lisp:progn
  (common-lisp:defun start-replication
@@ -12385,7 +12385,7 @@
                                                         "POST"
                                                         "/StartReplication"
                                                         "StartReplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-replication))
 (common-lisp:progn
  (common-lisp:defun start-source-network-recovery
@@ -12405,7 +12405,7 @@
                                                         "POST"
                                                         "/StartSourceNetworkRecovery"
                                                         "StartSourceNetworkRecovery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-source-network-recovery))
 (common-lisp:progn
  (common-lisp:defun start-source-network-replication
@@ -12424,7 +12424,7 @@
                                                         "POST"
                                                         "/StartSourceNetworkReplication"
                                                         "StartSourceNetworkReplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-source-network-replication))
 (common-lisp:progn
  (common-lisp:defun stop-failback
@@ -12441,7 +12441,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/StopFailback"
                                                         "StopFailback"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-failback))
 (common-lisp:progn
  (common-lisp:defun stop-replication
@@ -12459,7 +12459,7 @@
                                                         "POST"
                                                         "/StopReplication"
                                                         "StopReplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-replication))
 (common-lisp:progn
  (common-lisp:defun stop-source-network-replication
@@ -12478,7 +12478,7 @@
                                                         "POST"
                                                         "/StopSourceNetworkReplication"
                                                         "StopSourceNetworkReplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-source-network-replication))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -12505,7 +12505,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun terminate-recovery-instances
@@ -12524,7 +12524,7 @@
                                                         "POST"
                                                         "/TerminateRecoveryInstances"
                                                         "TerminateRecoveryInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'terminate-recovery-instances))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -12551,7 +12551,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-failback-replication-configuration
@@ -12573,7 +12573,7 @@
                                                         "POST"
                                                         "/UpdateFailbackReplicationConfiguration"
                                                         "UpdateFailbackReplicationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-failback-replication-configuration))
 (common-lisp:progn
  (common-lisp:defun update-launch-configuration
@@ -12598,7 +12598,7 @@
                                                         "POST"
                                                         "/UpdateLaunchConfiguration"
                                                         "UpdateLaunchConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-launch-configuration))
 (common-lisp:progn
  (common-lisp:defun update-launch-configuration-template
@@ -12625,7 +12625,7 @@
                                                         "POST"
                                                         "/UpdateLaunchConfigurationTemplate"
                                                         "UpdateLaunchConfigurationTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-launch-configuration-template))
 (common-lisp:progn
  (common-lisp:defun update-replication-configuration
@@ -12659,7 +12659,7 @@
                                                         "POST"
                                                         "/UpdateReplicationConfiguration"
                                                         "UpdateReplicationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-replication-configuration))
 (common-lisp:progn
  (common-lisp:defun update-replication-configuration-template
@@ -12694,5 +12694,5 @@
                                                         "POST"
                                                         "/UpdateReplicationConfigurationTemplate"
                                                         "UpdateReplicationConfigurationTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-replication-configuration-template))

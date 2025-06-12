@@ -4450,7 +4450,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-run-id))))
                                                         "CancelJobRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-job-run))
 (common-lisp:progn
  (common-lisp:defun create-job-template
@@ -4470,7 +4470,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/jobtemplates"
                                                         "CreateJobTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-job-template))
 (common-lisp:progn
  (common-lisp:defun create-managed-endpoint
@@ -4502,7 +4502,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'virtual-cluster-id))))
                                                         "CreateManagedEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-managed-endpoint))
 (common-lisp:progn
  (common-lisp:defun create-virtual-cluster
@@ -4522,7 +4522,7 @@
                                                         "POST"
                                                         "/virtualclusters"
                                                         "CreateVirtualCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-virtual-cluster))
 (common-lisp:progn
  (common-lisp:defun delete-job-template
@@ -4549,7 +4549,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-id))))
                                                         "DeleteJobTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-job-template))
 (common-lisp:progn
  (common-lisp:defun delete-managed-endpoint
@@ -4580,7 +4580,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'endpoint-id))))
                                                         "DeleteManagedEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-managed-endpoint))
 (common-lisp:progn
  (common-lisp:defun delete-virtual-cluster
@@ -4607,7 +4607,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'virtual-cluster-id))))
                                                         "DeleteVirtualCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-virtual-cluster))
 (common-lisp:progn
  (common-lisp:defun describe-job-run
@@ -4638,7 +4638,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-run-id))))
                                                         "DescribeJobRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-job-run))
 (common-lisp:progn
  (common-lisp:defun describe-job-template
@@ -4665,7 +4665,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-id))))
                                                         "DescribeJobTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-job-template))
 (common-lisp:progn
  (common-lisp:defun describe-managed-endpoint
@@ -4697,7 +4697,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'endpoint-id))))
                                                         "DescribeManagedEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-managed-endpoint))
 (common-lisp:progn
  (common-lisp:defun describe-virtual-cluster
@@ -4724,7 +4724,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'virtual-cluster-id))))
                                                         "DescribeVirtualCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-virtual-cluster))
 (common-lisp:progn
  (common-lisp:defun get-managed-endpoint-session-credentials
@@ -4762,7 +4762,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'endpoint-id))))
                                                         "GetManagedEndpointSessionCredentials"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-managed-endpoint-session-credentials))
 (common-lisp:progn
  (common-lisp:defun list-job-runs
@@ -4792,7 +4792,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'virtual-cluster-id))))
                                                         "ListJobRuns"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-job-runs))
 (common-lisp:progn
  (common-lisp:defun list-job-templates
@@ -4812,7 +4812,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/jobtemplates"
                                                         "ListJobTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-job-templates))
 (common-lisp:progn
  (common-lisp:defun list-managed-endpoints
@@ -4842,7 +4842,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'virtual-cluster-id))))
                                                         "ListManagedEndpoints"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-managed-endpoints))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -4869,7 +4869,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-virtual-clusters
@@ -4891,7 +4891,7 @@
                                                         "GET"
                                                         "/virtualclusters"
                                                         "ListVirtualClusters"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-virtual-clusters))
 (common-lisp:progn
  (common-lisp:defun start-job-run
@@ -4924,7 +4924,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'virtual-cluster-id))))
                                                         "StartJobRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-job-run))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4951,7 +4951,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4978,5 +4978,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))

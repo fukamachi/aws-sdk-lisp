@@ -20500,7 +20500,7 @@
                                                         "PUT"
                                                         "/CancelImageCreation"
                                                         "CancelImageCreation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-image-creation))
 (common-lisp:progn
  (common-lisp:defun cancel-lifecycle-execution
@@ -20520,7 +20520,7 @@
                                                         "PUT"
                                                         "/CancelLifecycleExecution"
                                                         "CancelLifecycleExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-lifecycle-execution))
 (common-lisp:progn
  (common-lisp:defun create-component
@@ -20542,7 +20542,7 @@
                                                         "PUT"
                                                         "/CreateComponent"
                                                         "CreateComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-component))
 (common-lisp:progn
  (common-lisp:defun create-container-recipe
@@ -20570,7 +20570,7 @@
                                                         "PUT"
                                                         "/CreateContainerRecipe"
                                                         "CreateContainerRecipe"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-container-recipe))
 (common-lisp:progn
  (common-lisp:defun create-distribution-configuration
@@ -20591,7 +20591,7 @@
                                                         "PUT"
                                                         "/CreateDistributionConfiguration"
                                                         "CreateDistributionConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-distribution-configuration))
 (common-lisp:progn
  (common-lisp:defun create-image
@@ -20616,7 +20616,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/CreateImage"
                                                         "CreateImage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-image))
 (common-lisp:progn
  (common-lisp:defun create-image-pipeline
@@ -20644,7 +20644,7 @@
                                                         "PUT"
                                                         "/CreateImagePipeline"
                                                         "CreateImagePipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-image-pipeline))
 (common-lisp:progn
  (common-lisp:defun create-image-recipe
@@ -20668,7 +20668,7 @@
                                                         "PUT"
                                                         "/CreateImageRecipe"
                                                         "CreateImageRecipe"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-image-recipe))
 (common-lisp:progn
  (common-lisp:defun create-infrastructure-configuration
@@ -20694,7 +20694,7 @@
                                                         "PUT"
                                                         "/CreateInfrastructureConfiguration"
                                                         "CreateInfrastructureConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-infrastructure-configuration))
 (common-lisp:progn
  (common-lisp:defun create-lifecycle-policy
@@ -20716,7 +20716,7 @@
                                                         "PUT"
                                                         "/CreateLifecyclePolicy"
                                                         "CreateLifecyclePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-lifecycle-policy))
 (common-lisp:progn
  (common-lisp:defun create-workflow
@@ -20737,7 +20737,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/CreateWorkflow"
                                                         "CreateWorkflow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-workflow))
 (common-lisp:progn
  (common-lisp:defun delete-component
@@ -20755,7 +20755,7 @@
                                                         "DELETE"
                                                         "/DeleteComponent"
                                                         "DeleteComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-component))
 (common-lisp:progn
  (common-lisp:defun delete-container-recipe
@@ -20773,7 +20773,7 @@
                                                         "DELETE"
                                                         "/DeleteContainerRecipe"
                                                         "DeleteContainerRecipe"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-container-recipe))
 (common-lisp:progn
  (common-lisp:defun delete-distribution-configuration
@@ -20792,7 +20792,7 @@
                                                         "DELETE"
                                                         "/DeleteDistributionConfiguration"
                                                         "DeleteDistributionConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-distribution-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-image
@@ -20809,7 +20809,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "DELETE" "/DeleteImage"
                                                         "DeleteImage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-image))
 (common-lisp:progn
  (common-lisp:defun delete-image-pipeline
@@ -20827,7 +20827,7 @@
                                                         "DELETE"
                                                         "/DeleteImagePipeline"
                                                         "DeleteImagePipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-image-pipeline))
 (common-lisp:progn
  (common-lisp:defun delete-image-recipe
@@ -20845,7 +20845,7 @@
                                                         "DELETE"
                                                         "/DeleteImageRecipe"
                                                         "DeleteImageRecipe"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-image-recipe))
 (common-lisp:progn
  (common-lisp:defun delete-infrastructure-configuration
@@ -20865,7 +20865,7 @@
                                                         "DELETE"
                                                         "/DeleteInfrastructureConfiguration"
                                                         "DeleteInfrastructureConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-infrastructure-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-lifecycle-policy
@@ -20883,7 +20883,7 @@
                                                         "DELETE"
                                                         "/DeleteLifecyclePolicy"
                                                         "DeleteLifecyclePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-lifecycle-policy))
 (common-lisp:progn
  (common-lisp:defun delete-workflow
@@ -20901,7 +20901,7 @@
                                                         "DELETE"
                                                         "/DeleteWorkflow"
                                                         "DeleteWorkflow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-workflow))
 (common-lisp:progn
  (common-lisp:defun get-component
@@ -20918,7 +20918,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/GetComponent"
                                                         "GetComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-component))
 (common-lisp:progn
  (common-lisp:defun get-component-policy
@@ -20936,7 +20936,7 @@
                                                         "GET"
                                                         "/GetComponentPolicy"
                                                         "GetComponentPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-component-policy))
 (common-lisp:progn
  (common-lisp:defun get-container-recipe
@@ -20954,7 +20954,7 @@
                                                         "GET"
                                                         "/GetContainerRecipe"
                                                         "GetContainerRecipe"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-container-recipe))
 (common-lisp:progn
  (common-lisp:defun get-container-recipe-policy
@@ -20973,7 +20973,7 @@
                                                         "GET"
                                                         "/GetContainerRecipePolicy"
                                                         "GetContainerRecipePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-container-recipe-policy))
 (common-lisp:progn
  (common-lisp:defun get-distribution-configuration
@@ -20992,7 +20992,7 @@
                                                         "GET"
                                                         "/GetDistributionConfiguration"
                                                         "GetDistributionConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-distribution-configuration))
 (common-lisp:progn
  (common-lisp:defun get-image
@@ -21009,7 +21009,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/GetImage"
                                                         "GetImage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-image))
 (common-lisp:progn
  (common-lisp:defun get-image-pipeline
@@ -21027,7 +21027,7 @@
                                                         "GET"
                                                         "/GetImagePipeline"
                                                         "GetImagePipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-image-pipeline))
 (common-lisp:progn
  (common-lisp:defun get-image-policy
@@ -21044,7 +21044,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/GetImagePolicy"
                                                         "GetImagePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-image-policy))
 (common-lisp:progn
  (common-lisp:defun get-image-recipe
@@ -21061,7 +21061,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/GetImageRecipe"
                                                         "GetImageRecipe"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-image-recipe))
 (common-lisp:progn
  (common-lisp:defun get-image-recipe-policy
@@ -21079,7 +21079,7 @@
                                                         "GET"
                                                         "/GetImageRecipePolicy"
                                                         "GetImageRecipePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-image-recipe-policy))
 (common-lisp:progn
  (common-lisp:defun get-infrastructure-configuration
@@ -21099,7 +21099,7 @@
                                                         "GET"
                                                         "/GetInfrastructureConfiguration"
                                                         "GetInfrastructureConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-infrastructure-configuration))
 (common-lisp:progn
  (common-lisp:defun get-lifecycle-execution
@@ -21117,7 +21117,7 @@
                                                         "GET"
                                                         "/GetLifecycleExecution"
                                                         "GetLifecycleExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-lifecycle-execution))
 (common-lisp:progn
  (common-lisp:defun get-lifecycle-policy
@@ -21135,7 +21135,7 @@
                                                         "GET"
                                                         "/GetLifecyclePolicy"
                                                         "GetLifecyclePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-lifecycle-policy))
 (common-lisp:progn
  (common-lisp:defun get-workflow
@@ -21152,7 +21152,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/GetWorkflow"
                                                         "GetWorkflow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-workflow))
 (common-lisp:progn
  (common-lisp:defun get-workflow-execution
@@ -21170,7 +21170,7 @@
                                                         "GET"
                                                         "/GetWorkflowExecution"
                                                         "GetWorkflowExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-workflow-execution))
 (common-lisp:progn
  (common-lisp:defun get-workflow-step-execution
@@ -21189,7 +21189,7 @@
                                                         "GET"
                                                         "/GetWorkflowStepExecution"
                                                         "GetWorkflowStepExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-workflow-step-execution))
 (common-lisp:progn
  (common-lisp:defun import-component
@@ -21211,7 +21211,7 @@
                                                         "PUT"
                                                         "/ImportComponent"
                                                         "ImportComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-component))
 (common-lisp:progn
  (common-lisp:defun import-vm-image
@@ -21231,7 +21231,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/ImportVmImage"
                                                         "ImportVmImage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-vm-image))
 (common-lisp:progn
  (common-lisp:defun list-component-build-versions
@@ -21252,7 +21252,7 @@
                                                         "POST"
                                                         "/ListComponentBuildVersions"
                                                         "ListComponentBuildVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-component-build-versions))
 (common-lisp:progn
  (common-lisp:defun list-components
@@ -21272,7 +21272,7 @@
                                                         "POST"
                                                         "/ListComponents"
                                                         "ListComponents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-components))
 (common-lisp:progn
  (common-lisp:defun list-container-recipes
@@ -21291,7 +21291,7 @@
                                                         "POST"
                                                         "/ListContainerRecipes"
                                                         "ListContainerRecipes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-container-recipes))
 (common-lisp:progn
  (common-lisp:defun list-distribution-configurations
@@ -21310,7 +21310,7 @@
                                                         "POST"
                                                         "/ListDistributionConfigurations"
                                                         "ListDistributionConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-distribution-configurations))
 (common-lisp:progn
  (common-lisp:defun list-image-build-versions
@@ -21331,7 +21331,7 @@
                                                         "POST"
                                                         "/ListImageBuildVersions"
                                                         "ListImageBuildVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-image-build-versions))
 (common-lisp:progn
  (common-lisp:defun list-image-packages
@@ -21351,7 +21351,7 @@
                                                         "POST"
                                                         "/ListImagePackages"
                                                         "ListImagePackages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-image-packages))
 (common-lisp:progn
  (common-lisp:defun list-image-pipeline-images
@@ -21372,7 +21372,7 @@
                                                         "POST"
                                                         "/ListImagePipelineImages"
                                                         "ListImagePipelineImages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-image-pipeline-images))
 (common-lisp:progn
  (common-lisp:defun list-image-pipelines
@@ -21390,7 +21390,7 @@
                                                         "POST"
                                                         "/ListImagePipelines"
                                                         "ListImagePipelines"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-image-pipelines))
 (common-lisp:progn
  (common-lisp:defun list-image-recipes
@@ -21409,7 +21409,7 @@
                                                         "POST"
                                                         "/ListImageRecipes"
                                                         "ListImageRecipes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-image-recipes))
 (common-lisp:progn
  (common-lisp:defun list-image-scan-finding-aggregations
@@ -21428,7 +21428,7 @@
                                                         "POST"
                                                         "/ListImageScanFindingAggregations"
                                                         "ListImageScanFindingAggregations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-image-scan-finding-aggregations))
 (common-lisp:progn
  (common-lisp:defun list-image-scan-findings
@@ -21446,7 +21446,7 @@
                                                         "POST"
                                                         "/ListImageScanFindings"
                                                         "ListImageScanFindings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-image-scan-findings))
 (common-lisp:progn
  (common-lisp:defun list-images
@@ -21466,7 +21466,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/ListImages"
                                                         "ListImages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-images))
 (common-lisp:progn
  (common-lisp:defun list-infrastructure-configurations
@@ -21485,7 +21485,7 @@
                                                         "POST"
                                                         "/ListInfrastructureConfigurations"
                                                         "ListInfrastructureConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-infrastructure-configurations))
 (common-lisp:progn
  (common-lisp:defun list-lifecycle-execution-resources
@@ -21507,7 +21507,7 @@
                                                         "POST"
                                                         "/ListLifecycleExecutionResources"
                                                         "ListLifecycleExecutionResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-lifecycle-execution-resources))
 (common-lisp:progn
  (common-lisp:defun list-lifecycle-executions
@@ -21527,7 +21527,7 @@
                                                         "POST"
                                                         "/ListLifecycleExecutions"
                                                         "ListLifecycleExecutions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-lifecycle-executions))
 (common-lisp:progn
  (common-lisp:defun list-lifecycle-policies
@@ -21545,7 +21545,7 @@
                                                         "POST"
                                                         "/ListLifecyclePolicies"
                                                         "ListLifecyclePolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-lifecycle-policies))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -21572,7 +21572,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-waiting-workflow-steps
@@ -21591,7 +21591,7 @@
                                                         "POST"
                                                         "/ListWaitingWorkflowSteps"
                                                         "ListWaitingWorkflowSteps"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-waiting-workflow-steps))
 (common-lisp:progn
  (common-lisp:defun list-workflow-build-versions
@@ -21612,7 +21612,7 @@
                                                         "POST"
                                                         "/ListWorkflowBuildVersions"
                                                         "ListWorkflowBuildVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-workflow-build-versions))
 (common-lisp:progn
  (common-lisp:defun list-workflow-executions
@@ -21632,7 +21632,7 @@
                                                         "POST"
                                                         "/ListWorkflowExecutions"
                                                         "ListWorkflowExecutions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-workflow-executions))
 (common-lisp:progn
  (common-lisp:defun list-workflow-step-executions
@@ -21653,7 +21653,7 @@
                                                         "POST"
                                                         "/ListWorkflowStepExecutions"
                                                         "ListWorkflowStepExecutions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-workflow-step-executions))
 (common-lisp:progn
  (common-lisp:defun list-workflows
@@ -21672,7 +21672,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/ListWorkflows"
                                                         "ListWorkflows"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-workflows))
 (common-lisp:progn
  (common-lisp:defun put-component-policy
@@ -21690,7 +21690,7 @@
                                                         "PUT"
                                                         "/PutComponentPolicy"
                                                         "PutComponentPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-component-policy))
 (common-lisp:progn
  (common-lisp:defun put-container-recipe-policy
@@ -21709,7 +21709,7 @@
                                                         "PUT"
                                                         "/PutContainerRecipePolicy"
                                                         "PutContainerRecipePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-container-recipe-policy))
 (common-lisp:progn
  (common-lisp:defun put-image-policy
@@ -21726,7 +21726,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/PutImagePolicy"
                                                         "PutImagePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-image-policy))
 (common-lisp:progn
  (common-lisp:defun put-image-recipe-policy
@@ -21744,7 +21744,7 @@
                                                         "PUT"
                                                         "/PutImageRecipePolicy"
                                                         "PutImageRecipePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-image-recipe-policy))
 (common-lisp:progn
  (common-lisp:defun send-workflow-step-action
@@ -21766,7 +21766,7 @@
                                                         "PUT"
                                                         "/SendWorkflowStepAction"
                                                         "SendWorkflowStepAction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-workflow-step-action))
 (common-lisp:progn
  (common-lisp:defun start-image-pipeline-execution
@@ -21786,7 +21786,7 @@
                                                         "PUT"
                                                         "/StartImagePipelineExecution"
                                                         "StartImagePipelineExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-image-pipeline-execution))
 (common-lisp:progn
  (common-lisp:defun start-resource-state-update
@@ -21808,7 +21808,7 @@
                                                         "PUT"
                                                         "/StartResourceStateUpdate"
                                                         "StartResourceStateUpdate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-resource-state-update))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -21835,7 +21835,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -21862,7 +21862,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-distribution-configuration
@@ -21884,7 +21884,7 @@
                                                         "PUT"
                                                         "/UpdateDistributionConfiguration"
                                                         "UpdateDistributionConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-distribution-configuration))
 (common-lisp:progn
  (common-lisp:defun update-image-pipeline
@@ -21913,7 +21913,7 @@
                                                         "PUT"
                                                         "/UpdateImagePipeline"
                                                         "UpdateImagePipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-image-pipeline))
 (common-lisp:progn
  (common-lisp:defun update-infrastructure-configuration
@@ -21940,7 +21940,7 @@
                                                         "PUT"
                                                         "/UpdateInfrastructureConfiguration"
                                                         "UpdateInfrastructureConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-infrastructure-configuration))
 (common-lisp:progn
  (common-lisp:defun update-lifecycle-policy
@@ -21963,5 +21963,5 @@
                                                         "PUT"
                                                         "/UpdateLifecyclePolicy"
                                                         "UpdateLifecyclePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-lifecycle-policy))

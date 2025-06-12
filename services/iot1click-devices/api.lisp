@@ -1505,7 +1505,7 @@
                                 aws-sdk/generator/operation::input
                                 'claim-code))))
         "ClaimDevicesByClaimCode"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'claim-devices-by-claim-code))
 (common-lisp:progn
  (common-lisp:defun describe-device
@@ -1527,7 +1527,7 @@
                                 aws-sdk/generator/operation::input
                                 'device-id))))
         "DescribeDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-device))
 (common-lisp:progn
  (common-lisp:defun finalize-device-claim
@@ -1549,7 +1549,7 @@
                                 aws-sdk/generator/operation::input
                                 'device-id))))
         "FinalizeDeviceClaim"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'finalize-device-claim))
 (common-lisp:progn
  (common-lisp:defun get-device-methods
@@ -1571,7 +1571,7 @@
                                 aws-sdk/generator/operation::input
                                 'device-id))))
         "GetDeviceMethods"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-device-methods))
 (common-lisp:progn
  (common-lisp:defun initiate-device-claim
@@ -1593,7 +1593,7 @@
                                 aws-sdk/generator/operation::input
                                 'device-id))))
         "InitiateDeviceClaim"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'initiate-device-claim))
 (common-lisp:progn
  (common-lisp:defun invoke-device-method
@@ -1617,7 +1617,7 @@
                                 aws-sdk/generator/operation::input
                                 'device-id))))
         "InvokeDeviceMethod"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'invoke-device-method))
 (common-lisp:progn
  (common-lisp:defun list-device-events
@@ -1642,7 +1642,7 @@
                                 aws-sdk/generator/operation::input
                                 'device-id))))
         "ListDeviceEvents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-device-events))
 (common-lisp:progn
  (common-lisp:defun list-devices
@@ -1659,7 +1659,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'iot1click-devices-request aws-sdk/generator/operation::input "GET"
         "/devices" "ListDevices"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-devices))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -1681,7 +1681,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -1703,7 +1703,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun unclaim-device
@@ -1725,7 +1725,7 @@
                                 aws-sdk/generator/operation::input
                                 'device-id))))
         "UnclaimDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'unclaim-device))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -1747,7 +1747,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-device-state
@@ -1769,5 +1769,5 @@
                                 aws-sdk/generator/operation::input
                                 'device-id))))
         "UpdateDeviceState"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-device-state))

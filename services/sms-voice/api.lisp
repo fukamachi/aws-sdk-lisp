@@ -1391,7 +1391,7 @@
                                                         "POST"
                                                         "/v1/sms-voice/configuration-sets"
                                                         "CreateConfigurationSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-configuration-set))
 (common-lisp:progn
  (common-lisp:defun create-configuration-set-event-destination
@@ -1422,7 +1422,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-set-name))))
                                                         "CreateConfigurationSetEventDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-configuration-set-event-destination))
 (common-lisp:progn
  (common-lisp:defun delete-configuration-set
@@ -1449,7 +1449,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-set-name))))
                                                         "DeleteConfigurationSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-configuration-set))
 (common-lisp:progn
  (common-lisp:defun delete-configuration-set-event-destination
@@ -1483,7 +1483,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'event-destination-name))))
                                                         "DeleteConfigurationSetEventDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-configuration-set-event-destination))
 (common-lisp:progn
  (common-lisp:defun get-configuration-set-event-destinations
@@ -1511,7 +1511,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-set-name))))
                                                         "GetConfigurationSetEventDestinations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-configuration-set-event-destinations))
 (common-lisp:progn
  (common-lisp:defun list-configuration-sets
@@ -1529,7 +1529,7 @@
                                                         "GET"
                                                         "/v1/sms-voice/configuration-sets"
                                                         "ListConfigurationSets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-configuration-sets))
 (common-lisp:progn
  (common-lisp:defun send-voice-message
@@ -1550,7 +1550,7 @@
                                                         "POST"
                                                         "/v1/sms-voice/voice/message"
                                                         "SendVoiceMessage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-voice-message))
 (common-lisp:progn
  (common-lisp:defun update-configuration-set-event-destination
@@ -1585,5 +1585,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'event-destination-name))))
                                                         "UpdateConfigurationSetEventDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-configuration-set-event-destination))

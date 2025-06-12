@@ -5314,7 +5314,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'entityresolution-request aws-sdk/generator/operation::input "POST"
         "/idmappingworkflows" "CreateIdMappingWorkflow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-id-mapping-workflow))
 (common-lisp:progn
  (common-lisp:defun create-matching-workflow
@@ -5335,7 +5335,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'entityresolution-request aws-sdk/generator/operation::input "POST"
         "/matchingworkflows" "CreateMatchingWorkflow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-matching-workflow))
 (common-lisp:progn
  (common-lisp:defun create-schema-mapping
@@ -5353,7 +5353,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'entityresolution-request aws-sdk/generator/operation::input "POST"
         "/schemas" "CreateSchemaMapping"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-schema-mapping))
 (common-lisp:progn
  (common-lisp:defun delete-id-mapping-workflow
@@ -5375,7 +5375,7 @@
                                 aws-sdk/generator/operation::input
                                 'workflow-name))))
         "DeleteIdMappingWorkflow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-id-mapping-workflow))
 (common-lisp:progn
  (common-lisp:defun delete-matching-workflow
@@ -5397,7 +5397,7 @@
                                 aws-sdk/generator/operation::input
                                 'workflow-name))))
         "DeleteMatchingWorkflow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-matching-workflow))
 (common-lisp:progn
  (common-lisp:defun delete-schema-mapping
@@ -5419,7 +5419,7 @@
                                 aws-sdk/generator/operation::input
                                 'schema-name))))
         "DeleteSchemaMapping"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-schema-mapping))
 (common-lisp:progn
  (common-lisp:defun get-id-mapping-job
@@ -5444,7 +5444,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'job-id))))
         "GetIdMappingJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-id-mapping-job))
 (common-lisp:progn
  (common-lisp:defun get-id-mapping-workflow
@@ -5466,7 +5466,7 @@
                                 aws-sdk/generator/operation::input
                                 'workflow-name))))
         "GetIdMappingWorkflow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-id-mapping-workflow))
 (common-lisp:progn
  (common-lisp:defun get-match-id
@@ -5488,7 +5488,7 @@
                                 aws-sdk/generator/operation::input
                                 'workflow-name))))
         "GetMatchId"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-match-id))
 (common-lisp:progn
  (common-lisp:defun get-matching-job
@@ -5513,7 +5513,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'job-id))))
         "GetMatchingJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-matching-job))
 (common-lisp:progn
  (common-lisp:defun get-matching-workflow
@@ -5535,7 +5535,7 @@
                                 aws-sdk/generator/operation::input
                                 'workflow-name))))
         "GetMatchingWorkflow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-matching-workflow))
 (common-lisp:progn
  (common-lisp:defun get-schema-mapping
@@ -5557,7 +5557,7 @@
                                 aws-sdk/generator/operation::input
                                 'schema-name))))
         "GetSchemaMapping"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-schema-mapping))
 (common-lisp:progn
  (common-lisp:defun list-id-mapping-jobs
@@ -5580,7 +5580,7 @@
                                 aws-sdk/generator/operation::input
                                 'workflow-name))))
         "ListIdMappingJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-id-mapping-jobs))
 (common-lisp:progn
  (common-lisp:defun list-id-mapping-workflows
@@ -5596,7 +5596,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'entityresolution-request aws-sdk/generator/operation::input "GET"
         "/idmappingworkflows" "ListIdMappingWorkflows"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-id-mapping-workflows))
 (common-lisp:progn
  (common-lisp:defun list-matching-jobs
@@ -5619,7 +5619,7 @@
                                 aws-sdk/generator/operation::input
                                 'workflow-name))))
         "ListMatchingJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-matching-jobs))
 (common-lisp:progn
  (common-lisp:defun list-matching-workflows
@@ -5635,7 +5635,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'entityresolution-request aws-sdk/generator/operation::input "GET"
         "/matchingworkflows" "ListMatchingWorkflows"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-matching-workflows))
 (common-lisp:progn
  (common-lisp:defun list-provider-services
@@ -5652,7 +5652,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'entityresolution-request aws-sdk/generator/operation::input "GET"
         "/providerservices" "ListProviderServices"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-provider-services))
 (common-lisp:progn
  (common-lisp:defun list-schema-mappings
@@ -5668,7 +5668,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'entityresolution-request aws-sdk/generator/operation::input "GET"
         "/schemas" "ListSchemaMappings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-schema-mappings))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -5690,7 +5690,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun start-id-mapping-job
@@ -5712,7 +5712,7 @@
                                 aws-sdk/generator/operation::input
                                 'workflow-name))))
         "StartIdMappingJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-id-mapping-job))
 (common-lisp:progn
  (common-lisp:defun start-matching-job
@@ -5734,7 +5734,7 @@
                                 aws-sdk/generator/operation::input
                                 'workflow-name))))
         "StartMatchingJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-matching-job))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -5756,7 +5756,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -5778,7 +5778,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-id-mapping-workflow
@@ -5804,7 +5804,7 @@
                                 aws-sdk/generator/operation::input
                                 'workflow-name))))
         "UpdateIdMappingWorkflow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-id-mapping-workflow))
 (common-lisp:progn
  (common-lisp:defun update-matching-workflow
@@ -5831,7 +5831,7 @@
                                 aws-sdk/generator/operation::input
                                 'workflow-name))))
         "UpdateMatchingWorkflow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-matching-workflow))
 (common-lisp:progn
  (common-lisp:defun update-schema-mapping
@@ -5855,5 +5855,5 @@
                                 aws-sdk/generator/operation::input
                                 'schema-name))))
         "UpdateSchemaMapping"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-schema-mapping))

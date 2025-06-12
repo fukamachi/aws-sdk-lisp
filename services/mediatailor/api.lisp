@@ -9973,7 +9973,7 @@
                                                         "PUT"
                                                         "/configureLogs/channel"
                                                         "ConfigureLogsForChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'configure-logs-for-channel))
 (common-lisp:progn
  (common-lisp:defun configure-logs-for-playback-configuration
@@ -9994,7 +9994,7 @@
                                                         "PUT"
                                                         "/configureLogs/playbackConfiguration"
                                                         "ConfigureLogsForPlaybackConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'configure-logs-for-playback-configuration))
 (common-lisp:progn
  (common-lisp:defun create-channel
@@ -10024,7 +10024,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-name))))
                                                         "CreateChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-channel))
 (common-lisp:progn
  (common-lisp:defun create-live-source
@@ -10058,7 +10058,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'live-source-name))))
                                                         "CreateLiveSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-live-source))
 (common-lisp:progn
  (common-lisp:defun create-prefetch-schedule
@@ -10092,7 +10092,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "CreatePrefetchSchedule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-prefetch-schedule))
 (common-lisp:progn
  (common-lisp:defun create-program
@@ -10127,7 +10127,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'program-name))))
                                                         "CreateProgram"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-program))
 (common-lisp:progn
  (common-lisp:defun create-source-location
@@ -10159,7 +10159,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'source-location-name))))
                                                         "CreateSourceLocation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-source-location))
 (common-lisp:progn
  (common-lisp:defun create-vod-source
@@ -10193,7 +10193,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'vod-source-name))))
                                                         "CreateVodSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-vod-source))
 (common-lisp:progn
  (common-lisp:defun delete-channel
@@ -10220,7 +10220,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-name))))
                                                         "DeleteChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-channel))
 (common-lisp:progn
  (common-lisp:defun delete-channel-policy
@@ -10247,7 +10247,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-name))))
                                                         "DeleteChannelPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-channel-policy))
 (common-lisp:progn
  (common-lisp:defun delete-live-source
@@ -10279,7 +10279,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'live-source-name))))
                                                         "DeleteLiveSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-live-source))
 (common-lisp:progn
  (common-lisp:defun delete-playback-configuration
@@ -10307,7 +10307,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeletePlaybackConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-playback-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-prefetch-schedule
@@ -10339,7 +10339,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeletePrefetchSchedule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-prefetch-schedule))
 (common-lisp:progn
  (common-lisp:defun delete-program
@@ -10370,7 +10370,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'program-name))))
                                                         "DeleteProgram"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-program))
 (common-lisp:progn
  (common-lisp:defun delete-source-location
@@ -10397,7 +10397,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'source-location-name))))
                                                         "DeleteSourceLocation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-source-location))
 (common-lisp:progn
  (common-lisp:defun delete-vod-source
@@ -10429,7 +10429,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'vod-source-name))))
                                                         "DeleteVodSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-vod-source))
 (common-lisp:progn
  (common-lisp:defun describe-channel
@@ -10456,7 +10456,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-name))))
                                                         "DescribeChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-channel))
 (common-lisp:progn
  (common-lisp:defun describe-live-source
@@ -10488,7 +10488,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'live-source-name))))
                                                         "DescribeLiveSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-live-source))
 (common-lisp:progn
  (common-lisp:defun describe-program
@@ -10519,7 +10519,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'program-name))))
                                                         "DescribeProgram"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-program))
 (common-lisp:progn
  (common-lisp:defun describe-source-location
@@ -10546,7 +10546,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'source-location-name))))
                                                         "DescribeSourceLocation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-source-location))
 (common-lisp:progn
  (common-lisp:defun describe-vod-source
@@ -10578,7 +10578,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'vod-source-name))))
                                                         "DescribeVodSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-vod-source))
 (common-lisp:progn
  (common-lisp:defun get-channel-policy
@@ -10605,7 +10605,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-name))))
                                                         "GetChannelPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-channel-policy))
 (common-lisp:progn
  (common-lisp:defun get-channel-schedule
@@ -10635,7 +10635,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-name))))
                                                         "GetChannelSchedule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-channel-schedule))
 (common-lisp:progn
  (common-lisp:defun get-playback-configuration
@@ -10663,7 +10663,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetPlaybackConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-playback-configuration))
 (common-lisp:progn
  (common-lisp:defun get-prefetch-schedule
@@ -10695,7 +10695,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetPrefetchSchedule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-prefetch-schedule))
 (common-lisp:progn
  (common-lisp:defun list-alerts
@@ -10713,7 +10713,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/alerts"
                                                         "ListAlerts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-alerts))
 (common-lisp:progn
  (common-lisp:defun list-channels
@@ -10730,7 +10730,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/channels"
                                                         "ListChannels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-channels))
 (common-lisp:progn
  (common-lisp:defun list-live-sources
@@ -10759,7 +10759,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'source-location-name))))
                                                         "ListLiveSources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-live-sources))
 (common-lisp:progn
  (common-lisp:defun list-playback-configurations
@@ -10778,7 +10778,7 @@
                                                         "GET"
                                                         "/playbackConfigurations"
                                                         "ListPlaybackConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-playback-configurations))
 (common-lisp:progn
  (common-lisp:defun list-prefetch-schedules
@@ -10808,7 +10808,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'playback-configuration-name))))
                                                         "ListPrefetchSchedules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-prefetch-schedules))
 (common-lisp:progn
  (common-lisp:defun list-source-locations
@@ -10826,7 +10826,7 @@
                                                         "GET"
                                                         "/sourceLocations"
                                                         "ListSourceLocations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-source-locations))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -10853,7 +10853,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-vod-sources
@@ -10882,7 +10882,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'source-location-name))))
                                                         "ListVodSources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-vod-sources))
 (common-lisp:progn
  (common-lisp:defun put-channel-policy
@@ -10909,7 +10909,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-name))))
                                                         "PutChannelPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-channel-policy))
 (common-lisp:progn
  (common-lisp:defun put-playback-configuration
@@ -10938,7 +10938,7 @@
                                                         "PUT"
                                                         "/playbackConfiguration"
                                                         "PutPlaybackConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-playback-configuration))
 (common-lisp:progn
  (common-lisp:defun start-channel
@@ -10965,7 +10965,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-name))))
                                                         "StartChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-channel))
 (common-lisp:progn
  (common-lisp:defun stop-channel
@@ -10992,7 +10992,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-name))))
                                                         "StopChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-channel))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -11019,7 +11019,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -11046,7 +11046,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-channel
@@ -11076,7 +11076,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-name))))
                                                         "UpdateChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-channel))
 (common-lisp:progn
  (common-lisp:defun update-live-source
@@ -11110,7 +11110,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'live-source-name))))
                                                         "UpdateLiveSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-live-source))
 (common-lisp:progn
  (common-lisp:defun update-program
@@ -11144,7 +11144,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'program-name))))
                                                         "UpdateProgram"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-program))
 (common-lisp:progn
  (common-lisp:defun update-source-location
@@ -11176,7 +11176,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'source-location-name))))
                                                         "UpdateSourceLocation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-source-location))
 (common-lisp:progn
  (common-lisp:defun update-vod-source
@@ -11210,5 +11210,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'vod-source-name))))
                                                         "UpdateVodSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-vod-source))

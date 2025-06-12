@@ -2538,7 +2538,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'marketplace-agreement-request aws-sdk/generator/operation::input
         "POST" "/" "DescribeAgreement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-agreement))
 (common-lisp:progn
  (common-lisp:defun get-agreement-terms
@@ -2555,7 +2555,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'marketplace-agreement-request aws-sdk/generator/operation::input
         "POST" "/" "GetAgreementTerms"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-agreement-terms))
 (common-lisp:progn
  (common-lisp:defun search-agreements
@@ -2573,5 +2573,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'marketplace-agreement-request aws-sdk/generator/operation::input
         "POST" "/" "SearchAgreements"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-agreements))

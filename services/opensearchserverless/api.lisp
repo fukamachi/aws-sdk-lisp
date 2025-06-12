@@ -7346,7 +7346,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "BatchGetCollection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-collection))
 (common-lisp:progn
  (common-lisp:defun batch-get-effective-lifecycle-policy
@@ -7363,7 +7363,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "BatchGetEffectiveLifecyclePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-effective-lifecycle-policy))
 (common-lisp:progn
  (common-lisp:defun batch-get-lifecycle-policy
@@ -7380,7 +7380,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "BatchGetLifecyclePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-lifecycle-policy))
 (common-lisp:progn
  (common-lisp:defun batch-get-vpc-endpoint
@@ -7396,7 +7396,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "BatchGetVpcEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-vpc-endpoint))
 (common-lisp:progn
  (common-lisp:defun create-access-policy
@@ -7414,7 +7414,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "CreateAccessPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-access-policy))
 (common-lisp:progn
  (common-lisp:defun create-collection
@@ -7433,7 +7433,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "CreateCollection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-collection))
 (common-lisp:progn
  (common-lisp:defun create-lifecycle-policy
@@ -7451,7 +7451,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "CreateLifecyclePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-lifecycle-policy))
 (common-lisp:progn
  (common-lisp:defun create-security-config
@@ -7469,7 +7469,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "CreateSecurityConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-security-config))
 (common-lisp:progn
  (common-lisp:defun create-security-policy
@@ -7487,7 +7487,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "CreateSecurityPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-security-policy))
 (common-lisp:progn
  (common-lisp:defun create-vpc-endpoint
@@ -7506,7 +7506,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "CreateVpcEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-vpc-endpoint))
 (common-lisp:progn
  (common-lisp:defun delete-access-policy
@@ -7522,7 +7522,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteAccessPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-access-policy))
 (common-lisp:progn
  (common-lisp:defun delete-collection
@@ -7538,7 +7538,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteCollection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-collection))
 (common-lisp:progn
  (common-lisp:defun delete-lifecycle-policy
@@ -7554,7 +7554,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteLifecyclePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-lifecycle-policy))
 (common-lisp:progn
  (common-lisp:defun delete-security-config
@@ -7570,7 +7570,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteSecurityConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-security-config))
 (common-lisp:progn
  (common-lisp:defun delete-security-policy
@@ -7586,7 +7586,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteSecurityPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-security-policy))
 (common-lisp:progn
  (common-lisp:defun delete-vpc-endpoint
@@ -7602,7 +7602,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteVpcEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-vpc-endpoint))
 (common-lisp:progn
  (common-lisp:defun get-access-policy
@@ -7618,7 +7618,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "GetAccessPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-access-policy))
 (common-lisp:progn
  (common-lisp:defun get-account-settings ()
@@ -7650,7 +7650,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "GetSecurityConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-security-config))
 (common-lisp:progn
  (common-lisp:defun get-security-policy
@@ -7666,7 +7666,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "GetSecurityPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-security-policy))
 (common-lisp:progn
  (common-lisp:defun list-access-policies
@@ -7683,7 +7683,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "ListAccessPolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-access-policies))
 (common-lisp:progn
  (common-lisp:defun list-collections
@@ -7701,7 +7701,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "ListCollections"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-collections))
 (common-lisp:progn
  (common-lisp:defun list-lifecycle-policies
@@ -7718,7 +7718,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "ListLifecyclePolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-lifecycle-policies))
 (common-lisp:progn
  (common-lisp:defun list-security-configs
@@ -7734,7 +7734,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "ListSecurityConfigs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-security-configs))
 (common-lisp:progn
  (common-lisp:defun list-security-policies
@@ -7751,7 +7751,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "ListSecurityPolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-security-policies))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -7767,7 +7767,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-vpc-endpoints
@@ -7785,7 +7785,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "ListVpcEndpoints"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-vpc-endpoints))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -7801,7 +7801,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -7817,7 +7817,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-access-policy
@@ -7836,7 +7836,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateAccessPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-access-policy))
 (common-lisp:progn
  (common-lisp:defun update-account-settings
@@ -7852,7 +7852,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateAccountSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-account-settings))
 (common-lisp:progn
  (common-lisp:defun update-collection
@@ -7868,7 +7868,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateCollection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-collection))
 (common-lisp:progn
  (common-lisp:defun update-lifecycle-policy
@@ -7887,7 +7887,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateLifecyclePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-lifecycle-policy))
 (common-lisp:progn
  (common-lisp:defun update-security-config
@@ -7906,7 +7906,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateSecurityConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-security-config))
 (common-lisp:progn
  (common-lisp:defun update-security-policy
@@ -7925,7 +7925,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateSecurityPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-security-policy))
 (common-lisp:progn
  (common-lisp:defun update-vpc-endpoint
@@ -7945,5 +7945,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'opensearchserverless-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateVpcEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-vpc-endpoint))

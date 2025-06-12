@@ -11520,7 +11520,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "ActivateKeySigningKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'activate-key-signing-key))
 (common-lisp:progn
  (common-lisp:defun associate-vpcwith-hosted-zone
@@ -11548,7 +11548,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "AssociateVPCWithHostedZone"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'associate-vpcwith-hosted-zone))
 (common-lisp:progn
  (common-lisp:defun change-cidr-collection
@@ -11575,7 +11575,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cidr-collection-id))))
                                                         "ChangeCidrCollection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'change-cidr-collection))
 (common-lisp:progn
  (common-lisp:defun change-resource-record-sets
@@ -11603,7 +11603,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "ChangeResourceRecordSets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'change-resource-record-sets))
 (common-lisp:progn
  (common-lisp:defun change-tags-for-resource
@@ -11636,7 +11636,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-id))))
                                                         "ChangeTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'change-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun create-cidr-collection
@@ -11654,7 +11654,7 @@
                                                         "POST"
                                                         "/2013-04-01/cidrcollection"
                                                         "CreateCidrCollection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-cidr-collection))
 (common-lisp:progn
  (common-lisp:defun create-health-check
@@ -11673,7 +11673,7 @@
                                                         "POST"
                                                         "/2013-04-01/healthcheck"
                                                         "CreateHealthCheck"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-health-check))
 (common-lisp:progn
  (common-lisp:defun create-hosted-zone
@@ -11694,7 +11694,7 @@
                                                         "POST"
                                                         "/2013-04-01/hostedzone"
                                                         "CreateHostedZone"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-hosted-zone))
 (common-lisp:progn
  (common-lisp:defun create-key-signing-key
@@ -11715,7 +11715,7 @@
                                                         "POST"
                                                         "/2013-04-01/keysigningkey"
                                                         "CreateKeySigningKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-key-signing-key))
 (common-lisp:progn
  (common-lisp:defun create-query-logging-config
@@ -11736,7 +11736,7 @@
                                                         "POST"
                                                         "/2013-04-01/queryloggingconfig"
                                                         "CreateQueryLoggingConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-query-logging-config))
 (common-lisp:progn
  (common-lisp:defun create-reusable-delegation-set
@@ -11756,7 +11756,7 @@
                                                         "POST"
                                                         "/2013-04-01/delegationset"
                                                         "CreateReusableDelegationSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-reusable-delegation-set))
 (common-lisp:progn
  (common-lisp:defun create-traffic-policy
@@ -11774,7 +11774,7 @@
                                                         "POST"
                                                         "/2013-04-01/trafficpolicy"
                                                         "CreateTrafficPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-traffic-policy))
 (common-lisp:progn
  (common-lisp:defun create-traffic-policy-instance
@@ -11796,7 +11796,7 @@
                                                         "POST"
                                                         "/2013-04-01/trafficpolicyinstance"
                                                         "CreateTrafficPolicyInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-traffic-policy-instance))
 (common-lisp:progn
  (common-lisp:defun create-traffic-policy-version
@@ -11824,7 +11824,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "CreateTrafficPolicyVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-traffic-policy-version))
 (common-lisp:progn
  (common-lisp:defun create-vpcassociation-authorization
@@ -11852,7 +11852,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "CreateVPCAssociationAuthorization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-vpcassociation-authorization))
 (common-lisp:progn
  (common-lisp:defun deactivate-key-signing-key
@@ -11884,7 +11884,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeactivateKeySigningKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'deactivate-key-signing-key))
 (common-lisp:progn
  (common-lisp:defun delete-cidr-collection
@@ -11911,7 +11911,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cidr-collection-id))))
                                                         "DeleteCidrCollection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-cidr-collection))
 (common-lisp:progn
  (common-lisp:defun delete-health-check
@@ -11938,7 +11938,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'health-check-id))))
                                                         "DeleteHealthCheck"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-health-check))
 (common-lisp:progn
  (common-lisp:defun delete-hosted-zone
@@ -11965,7 +11965,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteHostedZone"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-hosted-zone))
 (common-lisp:progn
  (common-lisp:defun delete-key-signing-key
@@ -11996,7 +11996,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteKeySigningKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-key-signing-key))
 (common-lisp:progn
  (common-lisp:defun delete-query-logging-config
@@ -12024,7 +12024,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteQueryLoggingConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-query-logging-config))
 (common-lisp:progn
  (common-lisp:defun delete-reusable-delegation-set
@@ -12052,7 +12052,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteReusableDelegationSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-reusable-delegation-set))
 (common-lisp:progn
  (common-lisp:defun delete-traffic-policy
@@ -12083,7 +12083,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'version))))
                                                         "DeleteTrafficPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-traffic-policy))
 (common-lisp:progn
  (common-lisp:defun delete-traffic-policy-instance
@@ -12111,7 +12111,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteTrafficPolicyInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-traffic-policy-instance))
 (common-lisp:progn
  (common-lisp:defun delete-vpcassociation-authorization
@@ -12139,7 +12139,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteVPCAssociationAuthorization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-vpcassociation-authorization))
 (common-lisp:progn
  (common-lisp:defun disable-hosted-zone-dnssec
@@ -12167,7 +12167,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DisableHostedZoneDNSSEC"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'disable-hosted-zone-dnssec))
 (common-lisp:progn
  (common-lisp:defun disassociate-vpcfrom-hosted-zone
@@ -12195,7 +12195,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DisassociateVPCFromHostedZone"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'disassociate-vpcfrom-hosted-zone))
 (common-lisp:progn
  (common-lisp:defun enable-hosted-zone-dnssec
@@ -12222,7 +12222,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "EnableHostedZoneDNSSEC"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'enable-hosted-zone-dnssec))
 (common-lisp:progn
  (common-lisp:defun get-account-limit
@@ -12249,7 +12249,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'type))))
                                                         "GetAccountLimit"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-account-limit))
 (common-lisp:progn
  (common-lisp:defun get-change
@@ -12276,7 +12276,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetChange"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-change))
 (common-lisp:progn
  (common-lisp:defun get-checker-ip-ranges ()
@@ -12312,7 +12312,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetDNSSEC"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-dnssec))
 (common-lisp:progn
  (common-lisp:defun get-geo-location
@@ -12332,7 +12332,7 @@
                                                         "GET"
                                                         "/2013-04-01/geolocation"
                                                         "GetGeoLocation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-geo-location))
 (common-lisp:progn
  (common-lisp:defun get-health-check
@@ -12359,7 +12359,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'health-check-id))))
                                                         "GetHealthCheck"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-health-check))
 (common-lisp:progn
  (common-lisp:defun get-health-check-count ()
@@ -12396,7 +12396,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'health-check-id))))
                                                         "GetHealthCheckLastFailureReason"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-health-check-last-failure-reason))
 (common-lisp:progn
  (common-lisp:defun get-health-check-status
@@ -12423,7 +12423,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'health-check-id))))
                                                         "GetHealthCheckStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-health-check-status))
 (common-lisp:progn
  (common-lisp:defun get-hosted-zone
@@ -12450,7 +12450,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetHostedZone"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-hosted-zone))
 (common-lisp:progn
  (common-lisp:defun get-hosted-zone-count ()
@@ -12490,7 +12490,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'type))))
                                                         "GetHostedZoneLimit"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-hosted-zone-limit))
 (common-lisp:progn
  (common-lisp:defun get-query-logging-config
@@ -12517,7 +12517,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetQueryLoggingConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-query-logging-config))
 (common-lisp:progn
  (common-lisp:defun get-reusable-delegation-set
@@ -12545,7 +12545,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetReusableDelegationSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-reusable-delegation-set))
 (common-lisp:progn
  (common-lisp:defun get-reusable-delegation-set-limit
@@ -12577,7 +12577,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'type))))
                                                         "GetReusableDelegationSetLimit"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-reusable-delegation-set-limit))
 (common-lisp:progn
  (common-lisp:defun get-traffic-policy
@@ -12608,7 +12608,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'version))))
                                                         "GetTrafficPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-traffic-policy))
 (common-lisp:progn
  (common-lisp:defun get-traffic-policy-instance
@@ -12636,7 +12636,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetTrafficPolicyInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-traffic-policy-instance))
 (common-lisp:progn
  (common-lisp:defun get-traffic-policy-instance-count ()
@@ -12674,7 +12674,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cidr-collection-id))))
                                                         "ListCidrBlocks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-cidr-blocks))
 (common-lisp:progn
  (common-lisp:defun list-cidr-collections
@@ -12692,7 +12692,7 @@
                                                         "GET"
                                                         "/2013-04-01/cidrcollection"
                                                         "ListCidrCollections"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-cidr-collections))
 (common-lisp:progn
  (common-lisp:defun list-cidr-locations
@@ -12720,7 +12720,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cidr-collection-id))))
                                                         "ListCidrLocations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-cidr-locations))
 (common-lisp:progn
  (common-lisp:defun list-geo-locations
@@ -12741,7 +12741,7 @@
                                                         "GET"
                                                         "/2013-04-01/geolocations"
                                                         "ListGeoLocations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-geo-locations))
 (common-lisp:progn
  (common-lisp:defun list-health-checks
@@ -12759,7 +12759,7 @@
                                                         "GET"
                                                         "/2013-04-01/healthcheck"
                                                         "ListHealthChecks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-health-checks))
 (common-lisp:progn
  (common-lisp:defun list-hosted-zones
@@ -12780,7 +12780,7 @@
                                                         "GET"
                                                         "/2013-04-01/hostedzone"
                                                         "ListHostedZones"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-hosted-zones))
 (common-lisp:progn
  (common-lisp:defun list-hosted-zones-by-name
@@ -12800,7 +12800,7 @@
                                                         "GET"
                                                         "/2013-04-01/hostedzonesbyname"
                                                         "ListHostedZonesByName"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-hosted-zones-by-name))
 (common-lisp:progn
  (common-lisp:defun list-hosted-zones-by-vpc
@@ -12819,7 +12819,7 @@
                                                         "GET"
                                                         "/2013-04-01/hostedzonesbyvpc"
                                                         "ListHostedZonesByVPC"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-hosted-zones-by-vpc))
 (common-lisp:progn
  (common-lisp:defun list-query-logging-configs
@@ -12839,7 +12839,7 @@
                                                         "GET"
                                                         "/2013-04-01/queryloggingconfig"
                                                         "ListQueryLoggingConfigs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-query-logging-configs))
 (common-lisp:progn
  (common-lisp:defun list-resource-record-sets
@@ -12870,7 +12870,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "ListResourceRecordSets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-resource-record-sets))
 (common-lisp:progn
  (common-lisp:defun list-reusable-delegation-sets
@@ -12889,7 +12889,7 @@
                                                         "GET"
                                                         "/2013-04-01/delegationset"
                                                         "ListReusableDelegationSets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-reusable-delegation-sets))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -12920,7 +12920,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-id))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resources
@@ -12947,7 +12947,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-type))))
                                                         "ListTagsForResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-tags-for-resources))
 (common-lisp:progn
  (common-lisp:defun list-traffic-policies
@@ -12966,7 +12966,7 @@
                                                         "GET"
                                                         "/2013-04-01/trafficpolicies"
                                                         "ListTrafficPolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-traffic-policies))
 (common-lisp:progn
  (common-lisp:defun list-traffic-policy-instances
@@ -12990,7 +12990,7 @@
                                                         "GET"
                                                         "/2013-04-01/trafficpolicyinstances"
                                                         "ListTrafficPolicyInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-traffic-policy-instances))
 (common-lisp:progn
  (common-lisp:defun list-traffic-policy-instances-by-hosted-zone
@@ -13013,7 +13013,7 @@
                                                         "GET"
                                                         "/2013-04-01/trafficpolicyinstances/hostedzone"
                                                         "ListTrafficPolicyInstancesByHostedZone"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-traffic-policy-instances-by-hosted-zone))
 (common-lisp:progn
  (common-lisp:defun list-traffic-policy-instances-by-policy
@@ -13037,7 +13037,7 @@
                                                         "GET"
                                                         "/2013-04-01/trafficpolicyinstances/trafficpolicy"
                                                         "ListTrafficPolicyInstancesByPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-traffic-policy-instances-by-policy))
 (common-lisp:progn
  (common-lisp:defun list-traffic-policy-versions
@@ -13067,7 +13067,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "ListTrafficPolicyVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-traffic-policy-versions))
 (common-lisp:progn
  (common-lisp:defun list-vpcassociation-authorizations
@@ -13096,7 +13096,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "ListVPCAssociationAuthorizations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-vpcassociation-authorizations))
 (common-lisp:progn
  (common-lisp:defun test-dnsanswer
@@ -13117,7 +13117,7 @@
                                                         "GET"
                                                         "/2013-04-01/testdnsanswer"
                                                         "TestDNSAnswer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'test-dnsanswer))
 (common-lisp:progn
  (common-lisp:defun update-health-check
@@ -13153,7 +13153,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'health-check-id))))
                                                         "UpdateHealthCheck"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-health-check))
 (common-lisp:progn
  (common-lisp:defun update-hosted-zone-comment
@@ -13181,7 +13181,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateHostedZoneComment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-hosted-zone-comment))
 (common-lisp:progn
  (common-lisp:defun update-traffic-policy-comment
@@ -13213,7 +13213,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'version))))
                                                         "UpdateTrafficPolicyComment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-traffic-policy-comment))
 (common-lisp:progn
  (common-lisp:defun update-traffic-policy-instance
@@ -13243,5 +13243,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateTrafficPolicyInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-traffic-policy-instance))

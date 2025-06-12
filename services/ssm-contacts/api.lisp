@@ -6578,7 +6578,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AcceptPage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'accept-page))
 (common-lisp:progn
  (common-lisp:defun activate-contact-channel
@@ -6596,7 +6596,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ActivateContactChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'activate-contact-channel))
 (common-lisp:progn
  (common-lisp:defun create-contact
@@ -6616,7 +6616,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateContact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-contact))
 (common-lisp:progn
  (common-lisp:defun create-contact-channel
@@ -6636,7 +6636,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateContactChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-contact-channel))
 (common-lisp:progn
  (common-lisp:defun create-rotation
@@ -6656,7 +6656,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateRotation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-rotation))
 (common-lisp:progn
  (common-lisp:defun create-rotation-override
@@ -6676,7 +6676,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateRotationOverride"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-rotation-override))
 (common-lisp:progn
  (common-lisp:defun deactivate-contact-channel
@@ -6694,7 +6694,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeactivateContactChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deactivate-contact-channel))
 (common-lisp:progn
  (common-lisp:defun delete-contact
@@ -6711,7 +6711,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteContact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-contact))
 (common-lisp:progn
  (common-lisp:defun delete-contact-channel
@@ -6728,7 +6728,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteContactChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-contact-channel))
 (common-lisp:progn
  (common-lisp:defun delete-rotation
@@ -6745,7 +6745,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteRotation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-rotation))
 (common-lisp:progn
  (common-lisp:defun delete-rotation-override
@@ -6763,7 +6763,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteRotationOverride"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-rotation-override))
 (common-lisp:progn
  (common-lisp:defun describe-engagement
@@ -6780,7 +6780,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEngagement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-engagement))
 (common-lisp:progn
  (common-lisp:defun describe-page
@@ -6797,7 +6797,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribePage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-page))
 (common-lisp:progn
  (common-lisp:defun get-contact
@@ -6814,7 +6814,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetContact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-contact))
 (common-lisp:progn
  (common-lisp:defun get-contact-channel
@@ -6831,7 +6831,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetContactChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-contact-channel))
 (common-lisp:progn
  (common-lisp:defun get-contact-policy
@@ -6848,7 +6848,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetContactPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-contact-policy))
 (common-lisp:progn
  (common-lisp:defun get-rotation
@@ -6865,7 +6865,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetRotation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-rotation))
 (common-lisp:progn
  (common-lisp:defun get-rotation-override
@@ -6883,7 +6883,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetRotationOverride"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-rotation-override))
 (common-lisp:progn
  (common-lisp:defun list-contact-channels
@@ -6901,7 +6901,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListContactChannels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-contact-channels))
 (common-lisp:progn
  (common-lisp:defun list-contacts
@@ -6919,7 +6919,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListContacts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-contacts))
 (common-lisp:progn
  (common-lisp:defun list-engagements
@@ -6939,7 +6939,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListEngagements"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-engagements))
 (common-lisp:progn
  (common-lisp:defun list-page-receipts
@@ -6956,7 +6956,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPageReceipts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-page-receipts))
 (common-lisp:progn
  (common-lisp:defun list-page-resolutions
@@ -6973,7 +6973,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPageResolutions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-page-resolutions))
 (common-lisp:progn
  (common-lisp:defun list-pages-by-contact
@@ -6991,7 +6991,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPagesByContact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-pages-by-contact))
 (common-lisp:progn
  (common-lisp:defun list-pages-by-engagement
@@ -7009,7 +7009,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPagesByEngagement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-pages-by-engagement))
 (common-lisp:progn
  (common-lisp:defun list-preview-rotation-shifts
@@ -7031,7 +7031,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPreviewRotationShifts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-preview-rotation-shifts))
 (common-lisp:progn
  (common-lisp:defun list-rotation-overrides
@@ -7051,7 +7051,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListRotationOverrides"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-rotation-overrides))
 (common-lisp:progn
  (common-lisp:defun list-rotation-shifts
@@ -7071,7 +7071,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListRotationShifts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-rotation-shifts))
 (common-lisp:progn
  (common-lisp:defun list-rotations
@@ -7090,7 +7090,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListRotations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-rotations))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -7107,7 +7107,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-contact-policy
@@ -7124,7 +7124,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutContactPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-contact-policy))
 (common-lisp:progn
  (common-lisp:defun send-activation-code
@@ -7141,7 +7141,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SendActivationCode"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-activation-code))
 (common-lisp:progn
  (common-lisp:defun start-engagement
@@ -7162,7 +7162,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartEngagement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-engagement))
 (common-lisp:progn
  (common-lisp:defun stop-engagement
@@ -7179,7 +7179,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopEngagement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-engagement))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -7196,7 +7196,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -7213,7 +7213,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-contact
@@ -7230,7 +7230,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateContact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-contact))
 (common-lisp:progn
  (common-lisp:defun update-contact-channel
@@ -7248,7 +7248,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateContactChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-contact-channel))
 (common-lisp:progn
  (common-lisp:defun update-rotation
@@ -7268,5 +7268,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateRotation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-rotation))

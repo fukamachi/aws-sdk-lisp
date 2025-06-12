@@ -610,7 +610,7 @@
                                                         "GET"
                                                         "/federation/credentials"
                                                         "GetRoleCredentials"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-role-credentials))
 (common-lisp:progn
  (common-lisp:defun list-account-roles
@@ -630,7 +630,7 @@
                                                         "GET"
                                                         "/assignment/roles"
                                                         "ListAccountRoles"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-account-roles))
 (common-lisp:progn
  (common-lisp:defun list-accounts
@@ -649,7 +649,7 @@
                                                         "GET"
                                                         "/assignment/accounts"
                                                         "ListAccounts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-accounts))
 (common-lisp:progn
  (common-lisp:defun logout
@@ -666,5 +666,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/logout"
                                                         "Logout"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'logout))

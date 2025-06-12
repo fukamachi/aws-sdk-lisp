@@ -7219,7 +7219,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "CreatePipe"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-pipe))
 (common-lisp:progn
  (common-lisp:defun delete-pipe
@@ -7246,7 +7246,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeletePipe"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-pipe))
 (common-lisp:progn
  (common-lisp:defun describe-pipe
@@ -7273,7 +7273,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DescribePipe"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-pipe))
 (common-lisp:progn
  (common-lisp:defun list-pipes
@@ -7293,7 +7293,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/pipes"
                                                         "ListPipes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-pipes))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -7320,7 +7320,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun start-pipe
@@ -7347,7 +7347,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "StartPipe"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-pipe))
 (common-lisp:progn
  (common-lisp:defun stop-pipe
@@ -7374,7 +7374,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "StopPipe"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-pipe))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -7401,7 +7401,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -7428,7 +7428,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-pipe
@@ -7460,5 +7460,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdatePipe"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-pipe))

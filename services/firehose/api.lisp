@@ -10932,7 +10932,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDeliveryStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-delivery-stream))
 (common-lisp:progn
  (common-lisp:defun delete-delivery-stream
@@ -10950,7 +10950,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDeliveryStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-delivery-stream))
 (common-lisp:progn
  (common-lisp:defun describe-delivery-stream
@@ -10970,7 +10970,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDeliveryStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-delivery-stream))
 (common-lisp:progn
  (common-lisp:defun list-delivery-streams
@@ -10990,7 +10990,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDeliveryStreams"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-delivery-streams))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-delivery-stream
@@ -11010,7 +11010,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForDeliveryStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-delivery-stream))
 (common-lisp:progn
  (common-lisp:defun put-record
@@ -11027,7 +11027,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutRecord"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-record))
 (common-lisp:progn
  (common-lisp:defun put-record-batch
@@ -11044,7 +11044,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutRecordBatch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-record-batch))
 (common-lisp:progn
  (common-lisp:defun start-delivery-stream-encryption
@@ -11065,7 +11065,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartDeliveryStreamEncryption"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-delivery-stream-encryption))
 (common-lisp:progn
  (common-lisp:defun stop-delivery-stream-encryption
@@ -11083,7 +11083,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopDeliveryStreamEncryption"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-delivery-stream-encryption))
 (common-lisp:progn
  (common-lisp:defun tag-delivery-stream
@@ -11100,7 +11100,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagDeliveryStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-delivery-stream))
 (common-lisp:progn
  (common-lisp:defun untag-delivery-stream
@@ -11117,7 +11117,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagDeliveryStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-delivery-stream))
 (common-lisp:progn
  (common-lisp:defun update-destination
@@ -11150,5 +11150,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-destination))

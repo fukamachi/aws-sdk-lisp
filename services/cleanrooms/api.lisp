@@ -14596,7 +14596,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'collaboration-identifier))))
                                                         "BatchGetCollaborationAnalysisTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-collaboration-analysis-template))
 (common-lisp:progn
  (common-lisp:defun batch-get-schema
@@ -14623,7 +14623,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'collaboration-identifier))))
                                                         "BatchGetSchema"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-schema))
 (common-lisp:progn
  (common-lisp:defun create-analysis-template
@@ -14653,7 +14653,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'membership-identifier))))
                                                         "CreateAnalysisTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-analysis-template))
 (common-lisp:progn
  (common-lisp:defun create-collaboration
@@ -14677,7 +14677,7 @@
                                                         "POST"
                                                         "/collaborations"
                                                         "CreateCollaboration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-collaboration))
 (common-lisp:progn
  (common-lisp:defun create-configured-audience-model-association
@@ -14711,7 +14711,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'membership-identifier))))
                                                         "CreateConfiguredAudienceModelAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-configured-audience-model-association))
 (common-lisp:progn
  (common-lisp:defun create-configured-table
@@ -14732,7 +14732,7 @@
                                                         "POST"
                                                         "/configuredTables"
                                                         "CreateConfiguredTable"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-configured-table))
 (common-lisp:progn
  (common-lisp:defun create-configured-table-analysis-rule
@@ -14763,7 +14763,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configured-table-identifier))))
                                                         "CreateConfiguredTableAnalysisRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-configured-table-analysis-rule))
 (common-lisp:progn
  (common-lisp:defun create-configured-table-association
@@ -14794,7 +14794,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'membership-identifier))))
                                                         "CreateConfiguredTableAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-configured-table-association))
 (common-lisp:progn
  (common-lisp:defun create-membership
@@ -14814,7 +14814,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/memberships"
                                                         "CreateMembership"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-membership))
 (common-lisp:progn
  (common-lisp:defun create-privacy-budget-template
@@ -14845,7 +14845,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'membership-identifier))))
                                                         "CreatePrivacyBudgetTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-privacy-budget-template))
 (common-lisp:progn
  (common-lisp:defun delete-analysis-template
@@ -14878,7 +14878,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'analysis-template-identifier))))
                                                         "DeleteAnalysisTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-analysis-template))
 (common-lisp:progn
  (common-lisp:defun delete-collaboration
@@ -14905,7 +14905,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'collaboration-identifier))))
                                                         "DeleteCollaboration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-collaboration))
 (common-lisp:progn
  (common-lisp:defun delete-configured-audience-model-association
@@ -14941,7 +14941,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configured-audience-model-association-identifier))))
                                                         "DeleteConfiguredAudienceModelAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-configured-audience-model-association))
 (common-lisp:progn
  (common-lisp:defun delete-configured-table
@@ -14968,7 +14968,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configured-table-identifier))))
                                                         "DeleteConfiguredTable"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-configured-table))
 (common-lisp:progn
  (common-lisp:defun delete-configured-table-analysis-rule
@@ -15002,7 +15002,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'analysis-rule-type))))
                                                         "DeleteConfiguredTableAnalysisRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-configured-table-analysis-rule))
 (common-lisp:progn
  (common-lisp:defun delete-configured-table-association
@@ -15037,7 +15037,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configured-table-association-identifier))))
                                                         "DeleteConfiguredTableAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-configured-table-association))
 (common-lisp:progn
  (common-lisp:defun delete-member
@@ -15069,7 +15069,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'account-id))))
                                                         "DeleteMember"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-member))
 (common-lisp:progn
  (common-lisp:defun delete-membership
@@ -15096,7 +15096,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'membership-identifier))))
                                                         "DeleteMembership"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-membership))
 (common-lisp:progn
  (common-lisp:defun delete-privacy-budget-template
@@ -15131,7 +15131,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'privacy-budget-template-identifier))))
                                                         "DeletePrivacyBudgetTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-privacy-budget-template))
 (common-lisp:progn
  (common-lisp:defun get-analysis-template
@@ -15164,7 +15164,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'analysis-template-identifier))))
                                                         "GetAnalysisTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-analysis-template))
 (common-lisp:progn
  (common-lisp:defun get-collaboration
@@ -15191,7 +15191,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'collaboration-identifier))))
                                                         "GetCollaboration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-collaboration))
 (common-lisp:progn
  (common-lisp:defun get-collaboration-analysis-template
@@ -15225,7 +15225,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'analysis-template-arn))))
                                                         "GetCollaborationAnalysisTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-collaboration-analysis-template))
 (common-lisp:progn
  (common-lisp:defun get-collaboration-configured-audience-model-association
@@ -15260,7 +15260,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configured-audience-model-association-identifier))))
                                                         "GetCollaborationConfiguredAudienceModelAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-collaboration-configured-audience-model-association))
 (common-lisp:progn
  (common-lisp:defun get-collaboration-privacy-budget-template
@@ -15295,7 +15295,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'privacy-budget-template-identifier))))
                                                         "GetCollaborationPrivacyBudgetTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-collaboration-privacy-budget-template))
 (common-lisp:progn
  (common-lisp:defun get-configured-audience-model-association
@@ -15331,7 +15331,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configured-audience-model-association-identifier))))
                                                         "GetConfiguredAudienceModelAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-configured-audience-model-association))
 (common-lisp:progn
  (common-lisp:defun get-configured-table
@@ -15358,7 +15358,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configured-table-identifier))))
                                                         "GetConfiguredTable"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-configured-table))
 (common-lisp:progn
  (common-lisp:defun get-configured-table-analysis-rule
@@ -15392,7 +15392,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'analysis-rule-type))))
                                                         "GetConfiguredTableAnalysisRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-configured-table-analysis-rule))
 (common-lisp:progn
  (common-lisp:defun get-configured-table-association
@@ -15427,7 +15427,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configured-table-association-identifier))))
                                                         "GetConfiguredTableAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-configured-table-association))
 (common-lisp:progn
  (common-lisp:defun get-membership
@@ -15454,7 +15454,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'membership-identifier))))
                                                         "GetMembership"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-membership))
 (common-lisp:progn
  (common-lisp:defun get-privacy-budget-template
@@ -15489,7 +15489,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'privacy-budget-template-identifier))))
                                                         "GetPrivacyBudgetTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-privacy-budget-template))
 (common-lisp:progn
  (common-lisp:defun get-protected-query
@@ -15522,7 +15522,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'protected-query-identifier))))
                                                         "GetProtectedQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-protected-query))
 (common-lisp:progn
  (common-lisp:defun get-schema
@@ -15553,7 +15553,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetSchema"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-schema))
 (common-lisp:progn
  (common-lisp:defun get-schema-analysis-rule
@@ -15589,7 +15589,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'type))))
                                                         "GetSchemaAnalysisRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-schema-analysis-rule))
 (common-lisp:progn
  (common-lisp:defun list-analysis-templates
@@ -15618,7 +15618,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'membership-identifier))))
                                                         "ListAnalysisTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-analysis-templates))
 (common-lisp:progn
  (common-lisp:defun list-collaboration-analysis-templates
@@ -15648,7 +15648,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'collaboration-identifier))))
                                                         "ListCollaborationAnalysisTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-collaboration-analysis-templates))
 (common-lisp:progn
  (common-lisp:defun list-collaboration-configured-audience-model-associations
@@ -15678,7 +15678,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'collaboration-identifier))))
                                                         "ListCollaborationConfiguredAudienceModelAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export
   'list-collaboration-configured-audience-model-associations))
 (common-lisp:progn
@@ -15709,7 +15709,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'collaboration-identifier))))
                                                         "ListCollaborationPrivacyBudgetTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-collaboration-privacy-budget-templates))
 (common-lisp:progn
  (common-lisp:defun list-collaboration-privacy-budgets
@@ -15740,7 +15740,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'collaboration-identifier))))
                                                         "ListCollaborationPrivacyBudgets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-collaboration-privacy-budgets))
 (common-lisp:progn
  (common-lisp:defun list-collaborations
@@ -15758,7 +15758,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/collaborations"
                                                         "ListCollaborations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-collaborations))
 (common-lisp:progn
  (common-lisp:defun list-configured-audience-model-associations
@@ -15788,7 +15788,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'membership-identifier))))
                                                         "ListConfiguredAudienceModelAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-configured-audience-model-associations))
 (common-lisp:progn
  (common-lisp:defun list-configured-table-associations
@@ -15818,7 +15818,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'membership-identifier))))
                                                         "ListConfiguredTableAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-configured-table-associations))
 (common-lisp:progn
  (common-lisp:defun list-configured-tables
@@ -15836,7 +15836,7 @@
                                                         "GET"
                                                         "/configuredTables"
                                                         "ListConfiguredTables"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-configured-tables))
 (common-lisp:progn
  (common-lisp:defun list-members
@@ -15865,7 +15865,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'collaboration-identifier))))
                                                         "ListMembers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-members))
 (common-lisp:progn
  (common-lisp:defun list-memberships
@@ -15882,7 +15882,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/memberships"
                                                         "ListMemberships"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-memberships))
 (common-lisp:progn
  (common-lisp:defun list-privacy-budget-templates
@@ -15912,7 +15912,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'membership-identifier))))
                                                         "ListPrivacyBudgetTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-privacy-budget-templates))
 (common-lisp:progn
  (common-lisp:defun list-privacy-budgets
@@ -15942,7 +15942,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'membership-identifier))))
                                                         "ListPrivacyBudgets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-privacy-budgets))
 (common-lisp:progn
  (common-lisp:defun list-protected-queries
@@ -15972,7 +15972,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'membership-identifier))))
                                                         "ListProtectedQueries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-protected-queries))
 (common-lisp:progn
  (common-lisp:defun list-schemas
@@ -16002,7 +16002,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'collaboration-identifier))))
                                                         "ListSchemas"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-schemas))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -16029,7 +16029,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun preview-privacy-impact
@@ -16057,7 +16057,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'membership-identifier))))
                                                         "PreviewPrivacyImpact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'preview-privacy-impact))
 (common-lisp:progn
  (common-lisp:defun start-protected-query
@@ -16087,7 +16087,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'membership-identifier))))
                                                         "StartProtectedQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-protected-query))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -16114,7 +16114,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -16141,7 +16141,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-analysis-template
@@ -16175,7 +16175,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'analysis-template-identifier))))
                                                         "UpdateAnalysisTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-analysis-template))
 (common-lisp:progn
  (common-lisp:defun update-collaboration
@@ -16204,7 +16204,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'collaboration-identifier))))
                                                         "UpdateCollaboration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-collaboration))
 (common-lisp:progn
  (common-lisp:defun update-configured-audience-model-association
@@ -16240,7 +16240,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configured-audience-model-association-identifier))))
                                                         "UpdateConfiguredAudienceModelAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-configured-audience-model-association))
 (common-lisp:progn
  (common-lisp:defun update-configured-table
@@ -16269,7 +16269,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configured-table-identifier))))
                                                         "UpdateConfiguredTable"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-configured-table))
 (common-lisp:progn
  (common-lisp:defun update-configured-table-analysis-rule
@@ -16304,7 +16304,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'analysis-rule-type))))
                                                         "UpdateConfiguredTableAnalysisRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-configured-table-analysis-rule))
 (common-lisp:progn
  (common-lisp:defun update-configured-table-association
@@ -16339,7 +16339,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configured-table-association-identifier))))
                                                         "UpdateConfiguredTableAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-configured-table-association))
 (common-lisp:progn
  (common-lisp:defun update-membership
@@ -16369,7 +16369,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'membership-identifier))))
                                                         "UpdateMembership"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-membership))
 (common-lisp:progn
  (common-lisp:defun update-privacy-budget-template
@@ -16405,7 +16405,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'privacy-budget-template-identifier))))
                                                         "UpdatePrivacyBudgetTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-privacy-budget-template))
 (common-lisp:progn
  (common-lisp:defun update-protected-query
@@ -16439,5 +16439,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'protected-query-identifier))))
                                                         "UpdateProtectedQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-protected-query))

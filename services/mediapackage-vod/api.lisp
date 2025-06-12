@@ -4476,7 +4476,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "ConfigureLogs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'configure-logs))
 (common-lisp:progn
  (common-lisp:defun create-asset
@@ -4495,7 +4495,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'mediapackage-vod-request aws-sdk/generator/operation::input "POST"
         "/assets" "CreateAsset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-asset))
 (common-lisp:progn
  (common-lisp:defun create-packaging-configuration
@@ -4515,7 +4515,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'mediapackage-vod-request aws-sdk/generator/operation::input "POST"
         "/packaging_configurations" "CreatePackagingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-packaging-configuration))
 (common-lisp:progn
  (common-lisp:defun create-packaging-group
@@ -4532,7 +4532,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'mediapackage-vod-request aws-sdk/generator/operation::input "POST"
         "/packaging_groups" "CreatePackagingGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-packaging-group))
 (common-lisp:progn
  (common-lisp:defun delete-asset
@@ -4553,7 +4553,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "DeleteAsset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-asset))
 (common-lisp:progn
  (common-lisp:defun delete-packaging-configuration
@@ -4575,7 +4575,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "DeletePackagingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-packaging-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-packaging-group
@@ -4596,7 +4596,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "DeletePackagingGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-packaging-group))
 (common-lisp:progn
  (common-lisp:defun describe-asset
@@ -4617,7 +4617,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "DescribeAsset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-asset))
 (common-lisp:progn
  (common-lisp:defun describe-packaging-configuration
@@ -4639,7 +4639,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "DescribePackagingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-packaging-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-packaging-group
@@ -4660,7 +4660,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "DescribePackagingGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-packaging-group))
 (common-lisp:progn
  (common-lisp:defun list-assets
@@ -4678,7 +4678,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'mediapackage-vod-request aws-sdk/generator/operation::input "GET"
         "/assets" "ListAssets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-assets))
 (common-lisp:progn
  (common-lisp:defun list-packaging-configurations
@@ -4697,7 +4697,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'mediapackage-vod-request aws-sdk/generator/operation::input "GET"
         "/packaging_configurations" "ListPackagingConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-packaging-configurations))
 (common-lisp:progn
  (common-lisp:defun list-packaging-groups
@@ -4713,7 +4713,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'mediapackage-vod-request aws-sdk/generator/operation::input "GET"
         "/packaging_groups" "ListPackagingGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-packaging-groups))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -4735,7 +4735,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4757,7 +4757,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4779,7 +4779,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-packaging-group
@@ -4800,5 +4800,5 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "UpdatePackagingGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-packaging-group))

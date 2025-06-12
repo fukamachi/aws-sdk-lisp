@@ -6760,7 +6760,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-position-estimate-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'geo-json-payload)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'geo-json-payload))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-position-estimate-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-position-request common-lisp:nil
                        ((resource-identifier :initarg :resource-identifier
@@ -7224,7 +7230,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-resource-position-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'geo-json-payload)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'geo-json-payload))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-resource-position-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-service-endpoint-request common-lisp:nil
                        ((service-type :initarg :service-type :initform
@@ -18672,7 +18684,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-resource-position-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'geo-json-payload)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'geo-json-payload))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-resource-position-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-resource-position-response common-lisp:nil
                        common-lisp:nil
@@ -20377,7 +20395,7 @@
                                                         "POST"
                                                         "/partner-accounts"
                                                         "AssociateAwsAccountWithPartnerAccount"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-aws-account-with-partner-account))
 (common-lisp:progn
  (common-lisp:defun associate-multicast-group-with-fuota-task
@@ -20405,7 +20423,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "AssociateMulticastGroupWithFuotaTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-multicast-group-with-fuota-task))
 (common-lisp:progn
  (common-lisp:defun associate-wireless-device-with-fuota-task
@@ -20433,7 +20451,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "AssociateWirelessDeviceWithFuotaTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-wireless-device-with-fuota-task))
 (common-lisp:progn
  (common-lisp:defun associate-wireless-device-with-multicast-group
@@ -20461,7 +20479,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "AssociateWirelessDeviceWithMulticastGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-wireless-device-with-multicast-group))
 (common-lisp:progn
  (common-lisp:defun associate-wireless-device-with-thing
@@ -20489,7 +20507,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "AssociateWirelessDeviceWithThing"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-wireless-device-with-thing))
 (common-lisp:progn
  (common-lisp:defun associate-wireless-gateway-with-certificate
@@ -20517,7 +20535,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "AssociateWirelessGatewayWithCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-wireless-gateway-with-certificate))
 (common-lisp:progn
  (common-lisp:defun associate-wireless-gateway-with-thing
@@ -20545,7 +20563,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "AssociateWirelessGatewayWithThing"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-wireless-gateway-with-thing))
 (common-lisp:progn
  (common-lisp:defun cancel-multicast-group-session
@@ -20573,7 +20591,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "CancelMulticastGroupSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-multicast-group-session))
 (common-lisp:progn
  (common-lisp:defun create-destination
@@ -20593,7 +20611,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/destinations"
                                                         "CreateDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-destination))
 (common-lisp:progn
  (common-lisp:defun create-device-profile
@@ -20613,7 +20631,7 @@
                                                         "POST"
                                                         "/device-profiles"
                                                         "CreateDeviceProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-device-profile))
 (common-lisp:progn
  (common-lisp:defun create-fuota-task
@@ -20636,7 +20654,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/fuota-tasks"
                                                         "CreateFuotaTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-fuota-task))
 (common-lisp:progn
  (common-lisp:defun create-multicast-group
@@ -20657,7 +20675,7 @@
                                                         "POST"
                                                         "/multicast-groups"
                                                         "CreateMulticastGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-multicast-group))
 (common-lisp:progn
  (common-lisp:defun create-network-analyzer-configuration
@@ -20680,7 +20698,7 @@
                                                         "POST"
                                                         "/network-analyzer-configurations"
                                                         "CreateNetworkAnalyzerConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-network-analyzer-configuration))
 (common-lisp:progn
  (common-lisp:defun create-service-profile
@@ -20699,7 +20717,7 @@
                                                         "POST"
                                                         "/service-profiles"
                                                         "CreateServiceProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-service-profile))
 (common-lisp:progn
  (common-lisp:defun create-wireless-device
@@ -20720,7 +20738,7 @@
                                                         "POST"
                                                         "/wireless-devices"
                                                         "CreateWirelessDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-wireless-device))
 (common-lisp:progn
  (common-lisp:defun create-wireless-gateway
@@ -20741,7 +20759,7 @@
                                                         "POST"
                                                         "/wireless-gateways"
                                                         "CreateWirelessGateway"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-wireless-gateway))
 (common-lisp:progn
  (common-lisp:defun create-wireless-gateway-task
@@ -20770,7 +20788,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "CreateWirelessGatewayTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-wireless-gateway-task))
 (common-lisp:progn
  (common-lisp:defun create-wireless-gateway-task-definition
@@ -20792,7 +20810,7 @@
                                                         "POST"
                                                         "/wireless-gateway-task-definitions"
                                                         "CreateWirelessGatewayTaskDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-wireless-gateway-task-definition))
 (common-lisp:progn
  (common-lisp:defun delete-destination
@@ -20819,7 +20837,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-destination))
 (common-lisp:progn
  (common-lisp:defun delete-device-profile
@@ -20846,7 +20864,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteDeviceProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-device-profile))
 (common-lisp:progn
  (common-lisp:defun delete-fuota-task
@@ -20873,7 +20891,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteFuotaTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-fuota-task))
 (common-lisp:progn
  (common-lisp:defun delete-multicast-group
@@ -20900,7 +20918,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteMulticastGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-multicast-group))
 (common-lisp:progn
  (common-lisp:defun delete-network-analyzer-configuration
@@ -20928,7 +20946,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-name))))
                                                         "DeleteNetworkAnalyzerConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-network-analyzer-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-queued-messages
@@ -20956,7 +20974,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteQueuedMessages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-queued-messages))
 (common-lisp:progn
  (common-lisp:defun delete-service-profile
@@ -20983,7 +21001,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteServiceProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-service-profile))
 (common-lisp:progn
  (common-lisp:defun delete-wireless-device
@@ -21010,7 +21028,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteWirelessDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-wireless-device))
 (common-lisp:progn
  (common-lisp:defun delete-wireless-device-import-task
@@ -21038,7 +21056,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteWirelessDeviceImportTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-wireless-device-import-task))
 (common-lisp:progn
  (common-lisp:defun delete-wireless-gateway
@@ -21065,7 +21083,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteWirelessGateway"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-wireless-gateway))
 (common-lisp:progn
  (common-lisp:defun delete-wireless-gateway-task
@@ -21093,7 +21111,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteWirelessGatewayTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-wireless-gateway-task))
 (common-lisp:progn
  (common-lisp:defun delete-wireless-gateway-task-definition
@@ -21121,7 +21139,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteWirelessGatewayTaskDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-wireless-gateway-task-definition))
 (common-lisp:progn
  (common-lisp:defun deregister-wireless-device
@@ -21150,7 +21168,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'identifier))))
                                                         "DeregisterWirelessDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deregister-wireless-device))
 (common-lisp:progn
  (common-lisp:defun disassociate-aws-account-from-partner-account
@@ -21179,7 +21197,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'partner-account-id))))
                                                         "DisassociateAwsAccountFromPartnerAccount"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-aws-account-from-partner-account))
 (common-lisp:progn
  (common-lisp:defun disassociate-multicast-group-from-fuota-task
@@ -21211,7 +21229,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'multicast-group-id))))
                                                         "DisassociateMulticastGroupFromFuotaTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-multicast-group-from-fuota-task))
 (common-lisp:progn
  (common-lisp:defun disassociate-wireless-device-from-fuota-task
@@ -21243,7 +21261,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'wireless-device-id))))
                                                         "DisassociateWirelessDeviceFromFuotaTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-wireless-device-from-fuota-task))
 (common-lisp:progn
  (common-lisp:defun disassociate-wireless-device-from-multicast-group
@@ -21275,7 +21293,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'wireless-device-id))))
                                                         "DisassociateWirelessDeviceFromMulticastGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-wireless-device-from-multicast-group))
 (common-lisp:progn
  (common-lisp:defun disassociate-wireless-device-from-thing
@@ -21303,7 +21321,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DisassociateWirelessDeviceFromThing"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-wireless-device-from-thing))
 (common-lisp:progn
  (common-lisp:defun disassociate-wireless-gateway-from-certificate
@@ -21331,7 +21349,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DisassociateWirelessGatewayFromCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-wireless-gateway-from-certificate))
 (common-lisp:progn
  (common-lisp:defun disassociate-wireless-gateway-from-thing
@@ -21359,7 +21377,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DisassociateWirelessGatewayFromThing"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-wireless-gateway-from-thing))
 (common-lisp:progn
  (common-lisp:defun get-destination
@@ -21386,7 +21404,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-destination))
 (common-lisp:progn
  (common-lisp:defun get-device-profile
@@ -21413,7 +21431,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetDeviceProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-device-profile))
 (common-lisp:progn
  (common-lisp:defun get-event-configuration-by-resource-types ()
@@ -21450,7 +21468,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetFuotaTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-fuota-task))
 (common-lisp:progn
  (common-lisp:defun get-log-levels-by-resource-types ()
@@ -21486,7 +21504,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetMulticastGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-multicast-group))
 (common-lisp:progn
  (common-lisp:defun get-multicast-group-session
@@ -21514,7 +21532,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetMulticastGroupSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-multicast-group-session))
 (common-lisp:progn
  (common-lisp:defun get-network-analyzer-configuration
@@ -21542,7 +21560,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-name))))
                                                         "GetNetworkAnalyzerConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-network-analyzer-configuration))
 (common-lisp:progn
  (common-lisp:defun get-partner-account
@@ -21570,7 +21588,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'partner-account-id))))
                                                         "GetPartnerAccount"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-partner-account))
 (common-lisp:progn
  (common-lisp:defun get-position
@@ -21598,7 +21616,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-identifier))))
                                                         "GetPosition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-position))
 (common-lisp:progn
  (common-lisp:defun get-position-configuration
@@ -21627,7 +21645,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-identifier))))
                                                         "GetPositionConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-position-configuration))
 (common-lisp:progn
  (common-lisp:defun get-position-estimate
@@ -21648,7 +21666,7 @@
                                                         "/position-estimate"
                                                         "GetPositionEstimate")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-position-estimate))
 (common-lisp:progn
  (common-lisp:defun get-resource-event-configuration
@@ -21677,7 +21695,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'identifier))))
                                                         "GetResourceEventConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-event-configuration))
 (common-lisp:progn
  (common-lisp:defun get-resource-log-level
@@ -21705,7 +21723,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-identifier))))
                                                         "GetResourceLogLevel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-log-level))
 (common-lisp:progn
  (common-lisp:defun get-resource-position
@@ -21734,7 +21752,7 @@
                                                              'resource-identifier))))
                                                         "GetResourcePosition")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-position))
 (common-lisp:progn
  (common-lisp:defun get-service-endpoint
@@ -21752,7 +21770,7 @@
                                                         "GET"
                                                         "/service-endpoint"
                                                         "GetServiceEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-service-endpoint))
 (common-lisp:progn
  (common-lisp:defun get-service-profile
@@ -21779,7 +21797,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetServiceProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-service-profile))
 (common-lisp:progn
  (common-lisp:defun get-wireless-device
@@ -21806,7 +21824,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'identifier))))
                                                         "GetWirelessDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-wireless-device))
 (common-lisp:progn
  (common-lisp:defun get-wireless-device-import-task
@@ -21834,7 +21852,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetWirelessDeviceImportTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-wireless-device-import-task))
 (common-lisp:progn
  (common-lisp:defun get-wireless-device-statistics
@@ -21862,7 +21880,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetWirelessDeviceStatistics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-wireless-device-statistics))
 (common-lisp:progn
  (common-lisp:defun get-wireless-gateway
@@ -21889,7 +21907,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'identifier))))
                                                         "GetWirelessGateway"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-wireless-gateway))
 (common-lisp:progn
  (common-lisp:defun get-wireless-gateway-certificate
@@ -21917,7 +21935,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetWirelessGatewayCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-wireless-gateway-certificate))
 (common-lisp:progn
  (common-lisp:defun get-wireless-gateway-firmware-information
@@ -21945,7 +21963,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetWirelessGatewayFirmwareInformation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-wireless-gateway-firmware-information))
 (common-lisp:progn
  (common-lisp:defun get-wireless-gateway-statistics
@@ -21973,7 +21991,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetWirelessGatewayStatistics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-wireless-gateway-statistics))
 (common-lisp:progn
  (common-lisp:defun get-wireless-gateway-task
@@ -22001,7 +22019,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetWirelessGatewayTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-wireless-gateway-task))
 (common-lisp:progn
  (common-lisp:defun get-wireless-gateway-task-definition
@@ -22029,7 +22047,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetWirelessGatewayTaskDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-wireless-gateway-task-definition))
 (common-lisp:progn
  (common-lisp:defun list-destinations
@@ -22046,7 +22064,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/destinations"
                                                         "ListDestinations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-destinations))
 (common-lisp:progn
  (common-lisp:defun list-device-profiles
@@ -22066,7 +22084,7 @@
                                                         "GET"
                                                         "/device-profiles"
                                                         "ListDeviceProfiles"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-device-profiles))
 (common-lisp:progn
  (common-lisp:defun list-devices-for-wireless-device-import-task
@@ -22086,7 +22104,7 @@
                                                         "GET"
                                                         "/wireless_device_import_task"
                                                         "ListDevicesForWirelessDeviceImportTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-devices-for-wireless-device-import-task))
 (common-lisp:progn
  (common-lisp:defun list-event-configurations
@@ -22106,7 +22124,7 @@
                                                         "GET"
                                                         "/event-configurations"
                                                         "ListEventConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-event-configurations))
 (common-lisp:progn
  (common-lisp:defun list-fuota-tasks
@@ -22123,7 +22141,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/fuota-tasks"
                                                         "ListFuotaTasks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-fuota-tasks))
 (common-lisp:progn
  (common-lisp:defun list-multicast-groups
@@ -22141,7 +22159,7 @@
                                                         "GET"
                                                         "/multicast-groups"
                                                         "ListMulticastGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-multicast-groups))
 (common-lisp:progn
  (common-lisp:defun list-multicast-groups-by-fuota-task
@@ -22169,7 +22187,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "ListMulticastGroupsByFuotaTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-multicast-groups-by-fuota-task))
 (common-lisp:progn
  (common-lisp:defun list-network-analyzer-configurations
@@ -22188,7 +22206,7 @@
                                                         "GET"
                                                         "/network-analyzer-configurations"
                                                         "ListNetworkAnalyzerConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-network-analyzer-configurations))
 (common-lisp:progn
  (common-lisp:defun list-partner-accounts
@@ -22206,7 +22224,7 @@
                                                         "GET"
                                                         "/partner-accounts"
                                                         "ListPartnerAccounts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-partner-accounts))
 (common-lisp:progn
  (common-lisp:defun list-position-configurations
@@ -22226,7 +22244,7 @@
                                                         "GET"
                                                         "/position-configurations"
                                                         "ListPositionConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-position-configurations))
 (common-lisp:progn
  (common-lisp:defun list-queued-messages
@@ -22255,7 +22273,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "ListQueuedMessages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-queued-messages))
 (common-lisp:progn
  (common-lisp:defun list-service-profiles
@@ -22273,7 +22291,7 @@
                                                         "GET"
                                                         "/service-profiles"
                                                         "ListServiceProfiles"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-service-profiles))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -22290,7 +22308,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/tags"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-wireless-device-import-tasks
@@ -22309,7 +22327,7 @@
                                                         "GET"
                                                         "/wireless_device_import_tasks"
                                                         "ListWirelessDeviceImportTasks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-wireless-device-import-tasks))
 (common-lisp:progn
  (common-lisp:defun list-wireless-devices
@@ -22332,7 +22350,7 @@
                                                         "GET"
                                                         "/wireless-devices"
                                                         "ListWirelessDevices"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-wireless-devices))
 (common-lisp:progn
  (common-lisp:defun list-wireless-gateway-task-definitions
@@ -22353,7 +22371,7 @@
                                                         "GET"
                                                         "/wireless-gateway-task-definitions"
                                                         "ListWirelessGatewayTaskDefinitions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-wireless-gateway-task-definitions))
 (common-lisp:progn
  (common-lisp:defun list-wireless-gateways
@@ -22371,7 +22389,7 @@
                                                         "GET"
                                                         "/wireless-gateways"
                                                         "ListWirelessGateways"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-wireless-gateways))
 (common-lisp:progn
  (common-lisp:defun put-position-configuration
@@ -22402,7 +22420,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-identifier))))
                                                         "PutPositionConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-position-configuration))
 (common-lisp:progn
  (common-lisp:defun put-resource-log-level
@@ -22431,7 +22449,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-identifier))))
                                                         "PutResourceLogLevel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-resource-log-level))
 (common-lisp:progn
  (common-lisp:defun reset-all-resource-log-levels ()
@@ -22468,7 +22486,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-identifier))))
                                                         "ResetResourceLogLevel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reset-resource-log-level))
 (common-lisp:progn
  (common-lisp:defun send-data-to-multicast-group
@@ -22497,7 +22515,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "SendDataToMulticastGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-data-to-multicast-group))
 (common-lisp:progn
  (common-lisp:defun send-data-to-wireless-device
@@ -22527,7 +22545,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "SendDataToWirelessDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-data-to-wireless-device))
 (common-lisp:progn
  (common-lisp:defun start-bulk-associate-wireless-device-with-multicast-group
@@ -22555,7 +22573,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "StartBulkAssociateWirelessDeviceWithMulticastGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export
   'start-bulk-associate-wireless-device-with-multicast-group))
 (common-lisp:progn
@@ -22584,7 +22602,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "StartBulkDisassociateWirelessDeviceFromMulticastGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export
   'start-bulk-disassociate-wireless-device-from-multicast-group))
 (common-lisp:progn
@@ -22612,7 +22630,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "StartFuotaTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-fuota-task))
 (common-lisp:progn
  (common-lisp:defun start-multicast-group-session
@@ -22640,7 +22658,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "StartMulticastGroupSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-multicast-group-session))
 (common-lisp:progn
  (common-lisp:defun start-single-wireless-device-import-task
@@ -22662,7 +22680,7 @@
                                                         "POST"
                                                         "/wireless_single_device_import_task"
                                                         "StartSingleWirelessDeviceImportTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-single-wireless-device-import-task))
 (common-lisp:progn
  (common-lisp:defun start-wireless-device-import-task
@@ -22684,7 +22702,7 @@
                                                         "POST"
                                                         "/wireless_device_import_task"
                                                         "StartWirelessDeviceImportTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-wireless-device-import-task))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -22701,7 +22719,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/tags"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun test-wireless-device
@@ -22728,7 +22746,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "TestWirelessDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'test-wireless-device))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -22745,7 +22763,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "DELETE" "/tags"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-destination
@@ -22775,7 +22793,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-destination))
 (common-lisp:progn
  (common-lisp:defun update-event-configuration-by-resource-types
@@ -22797,7 +22815,7 @@
                                                         "PATCH"
                                                         "/event-configurations-resource-types"
                                                         "UpdateEventConfigurationByResourceTypes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-event-configuration-by-resource-types))
 (common-lisp:progn
  (common-lisp:defun update-fuota-task
@@ -22830,7 +22848,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateFuotaTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-fuota-task))
 (common-lisp:progn
  (common-lisp:defun update-log-levels-by-resource-types
@@ -22851,7 +22869,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/log-levels"
                                                         "UpdateLogLevelsByResourceTypes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-log-levels-by-resource-types))
 (common-lisp:progn
  (common-lisp:defun update-multicast-group
@@ -22878,7 +22896,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateMulticastGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-multicast-group))
 (common-lisp:progn
  (common-lisp:defun update-network-analyzer-configuration
@@ -22914,7 +22932,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-name))))
                                                         "UpdateNetworkAnalyzerConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-network-analyzer-configuration))
 (common-lisp:progn
  (common-lisp:defun update-partner-account
@@ -22942,7 +22960,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'partner-account-id))))
                                                         "UpdatePartnerAccount"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-partner-account))
 (common-lisp:progn
  (common-lisp:defun update-position
@@ -22971,7 +22989,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-identifier))))
                                                         "UpdatePosition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-position))
 (common-lisp:progn
  (common-lisp:defun update-resource-event-configuration
@@ -23004,7 +23022,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'identifier))))
                                                         "UpdateResourceEventConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-resource-event-configuration))
 (common-lisp:progn
  (common-lisp:defun update-resource-position
@@ -23033,7 +23051,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-identifier))))
                                                         "UpdateResourcePosition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-resource-position))
 (common-lisp:progn
  (common-lisp:defun update-wireless-device
@@ -23063,7 +23081,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateWirelessDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-wireless-device))
 (common-lisp:progn
  (common-lisp:defun update-wireless-device-import-task
@@ -23091,7 +23109,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateWirelessDeviceImportTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-wireless-device-import-task))
 (common-lisp:progn
  (common-lisp:defun update-wireless-gateway
@@ -23121,5 +23139,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateWirelessGateway"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-wireless-gateway))

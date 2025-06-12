@@ -2419,7 +2419,7 @@
                                                         "POST"
                                                         "/createsnapshot"
                                                         "CreateSnapshot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-snapshot))
 (common-lisp:progn
  (common-lisp:defun delete-app
@@ -2436,7 +2436,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "DELETE" "/deleteapp"
                                                         "DeleteApp"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-app))
 (common-lisp:progn
  (common-lisp:defun delete-simulation
@@ -2454,7 +2454,7 @@
                                                         "DELETE"
                                                         "/deletesimulation"
                                                         "DeleteSimulation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-simulation))
 (common-lisp:progn
  (common-lisp:defun describe-app
@@ -2471,7 +2471,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/describeapp"
                                                         "DescribeApp"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-app))
 (common-lisp:progn
  (common-lisp:defun describe-simulation
@@ -2489,7 +2489,7 @@
                                                         "GET"
                                                         "/describesimulation"
                                                         "DescribeSimulation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-simulation))
 (common-lisp:progn
  (common-lisp:defun list-apps
@@ -2507,7 +2507,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/listapps"
                                                         "ListApps"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-apps))
 (common-lisp:progn
  (common-lisp:defun list-simulations
@@ -2525,7 +2525,7 @@
                                                         "GET"
                                                         "/listsimulations"
                                                         "ListSimulations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-simulations))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -2552,7 +2552,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun start-app
@@ -2572,7 +2572,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/startapp"
                                                         "StartApp"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-app))
 (common-lisp:progn
  (common-lisp:defun start-clock
@@ -2589,7 +2589,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/startclock"
                                                         "StartClock"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-clock))
 (common-lisp:progn
  (common-lisp:defun start-simulation
@@ -2610,7 +2610,7 @@
                                                         "POST"
                                                         "/startsimulation"
                                                         "StartSimulation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-simulation))
 (common-lisp:progn
  (common-lisp:defun stop-app
@@ -2627,7 +2627,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/stopapp"
                                                         "StopApp"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-app))
 (common-lisp:progn
  (common-lisp:defun stop-clock
@@ -2644,7 +2644,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/stopclock"
                                                         "StopClock"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-clock))
 (common-lisp:progn
  (common-lisp:defun stop-simulation
@@ -2662,7 +2662,7 @@
                                                         "POST"
                                                         "/stopsimulation"
                                                         "StopSimulation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-simulation))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -2689,7 +2689,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -2716,5 +2716,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))

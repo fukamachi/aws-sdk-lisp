@@ -4503,7 +4503,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/invitation"
                                                         "AcceptInvitation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'accept-invitation))
 (common-lisp:progn
  (common-lisp:defun batch-get-graph-member-datasources
@@ -4522,7 +4522,7 @@
                                                         "POST"
                                                         "/graph/datasources/get"
                                                         "BatchGetGraphMemberDatasources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-graph-member-datasources))
 (common-lisp:progn
  (common-lisp:defun batch-get-membership-datasources
@@ -4541,7 +4541,7 @@
                                                         "POST"
                                                         "/membership/datasources/get"
                                                         "BatchGetMembershipDatasources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-membership-datasources))
 (common-lisp:progn
  (common-lisp:defun create-graph
@@ -4558,7 +4558,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/graph"
                                                         "CreateGraph"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-graph))
 (common-lisp:progn
  (common-lisp:defun create-members
@@ -4578,7 +4578,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/graph/members"
                                                         "CreateMembers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-members))
 (common-lisp:progn
  (common-lisp:defun delete-graph
@@ -4595,7 +4595,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/graph/removal"
                                                         "DeleteGraph"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-graph))
 (common-lisp:progn
  (common-lisp:defun delete-members
@@ -4613,7 +4613,7 @@
                                                         "POST"
                                                         "/graph/members/removal"
                                                         "DeleteMembers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-members))
 (common-lisp:progn
  (common-lisp:defun describe-organization-configuration
@@ -4632,7 +4632,7 @@
                                                         "POST"
                                                         "/orgs/describeOrganizationConfiguration"
                                                         "DescribeOrganizationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-organization-configuration))
 (common-lisp:progn
  (common-lisp:defun disable-organization-admin-account ()
@@ -4659,7 +4659,7 @@
                                                         "POST"
                                                         "/membership/removal"
                                                         "DisassociateMembership"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-membership))
 (common-lisp:progn
  (common-lisp:defun enable-organization-admin-account
@@ -4678,7 +4678,7 @@
                                                         "POST"
                                                         "/orgs/enableAdminAccount"
                                                         "EnableOrganizationAdminAccount"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-organization-admin-account))
 (common-lisp:progn
  (common-lisp:defun get-investigation
@@ -4696,7 +4696,7 @@
                                                         "POST"
                                                         "/investigations/getInvestigation"
                                                         "GetInvestigation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-investigation))
 (common-lisp:progn
  (common-lisp:defun get-members
@@ -4714,7 +4714,7 @@
                                                         "POST"
                                                         "/graph/members/get"
                                                         "GetMembers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-members))
 (common-lisp:progn
  (common-lisp:defun list-datasource-packages
@@ -4733,7 +4733,7 @@
                                                         "POST"
                                                         "/graph/datasources/list"
                                                         "ListDatasourcePackages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-datasource-packages))
 (common-lisp:progn
  (common-lisp:defun list-graphs
@@ -4750,7 +4750,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/graphs/list"
                                                         "ListGraphs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-graphs))
 (common-lisp:progn
  (common-lisp:defun list-indicators
@@ -4771,7 +4771,7 @@
                                                         "POST"
                                                         "/investigations/listIndicators"
                                                         "ListIndicators"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-indicators))
 (common-lisp:progn
  (common-lisp:defun list-investigations
@@ -4792,7 +4792,7 @@
                                                         "POST"
                                                         "/investigations/listInvestigations"
                                                         "ListInvestigations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-investigations))
 (common-lisp:progn
  (common-lisp:defun list-invitations
@@ -4810,7 +4810,7 @@
                                                         "POST"
                                                         "/invitations/list"
                                                         "ListInvitations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-invitations))
 (common-lisp:progn
  (common-lisp:defun list-members
@@ -4829,7 +4829,7 @@
                                                         "POST"
                                                         "/graph/members/list"
                                                         "ListMembers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-members))
 (common-lisp:progn
  (common-lisp:defun list-organization-admin-accounts
@@ -4848,7 +4848,7 @@
                                                         "POST"
                                                         "/orgs/adminAccountslist"
                                                         "ListOrganizationAdminAccounts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-organization-admin-accounts))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -4875,7 +4875,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun reject-invitation
@@ -4893,7 +4893,7 @@
                                                         "POST"
                                                         "/invitation/removal"
                                                         "RejectInvitation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reject-invitation))
 (common-lisp:progn
  (common-lisp:defun start-investigation
@@ -4914,7 +4914,7 @@
                                                         "POST"
                                                         "/investigations/startInvestigation"
                                                         "StartInvestigation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-investigation))
 (common-lisp:progn
  (common-lisp:defun start-monitoring-member
@@ -4932,7 +4932,7 @@
                                                         "POST"
                                                         "/graph/member/monitoringstate"
                                                         "StartMonitoringMember"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-monitoring-member))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4959,7 +4959,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4986,7 +4986,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-datasource-packages
@@ -5005,7 +5005,7 @@
                                                         "POST"
                                                         "/graph/datasources/update"
                                                         "UpdateDatasourcePackages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-datasource-packages))
 (common-lisp:progn
  (common-lisp:defun update-investigation-state
@@ -5025,7 +5025,7 @@
                                                         "POST"
                                                         "/investigations/updateInvestigationState"
                                                         "UpdateInvestigationState"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-investigation-state))
 (common-lisp:progn
  (common-lisp:defun update-organization-configuration
@@ -5044,5 +5044,5 @@
                                                         "POST"
                                                         "/orgs/updateOrganizationConfiguration"
                                                         "UpdateOrganizationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-organization-configuration))

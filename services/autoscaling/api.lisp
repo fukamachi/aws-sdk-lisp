@@ -14830,7 +14830,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AttachInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'attach-instances))
 (common-lisp:progn
  (common-lisp:defun attach-load-balancer-target-groups
@@ -14850,7 +14850,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AttachLoadBalancerTargetGroups"))
-      common-lisp:nil "AttachLoadBalancerTargetGroupsResult" *error-map*)))
+      common-lisp:nil "AttachLoadBalancerTargetGroupsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'attach-load-balancer-target-groups))
 (common-lisp:progn
  (common-lisp:defun attach-load-balancers
@@ -14869,7 +14870,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AttachLoadBalancers"))
-      common-lisp:nil "AttachLoadBalancersResult" *error-map*)))
+      common-lisp:nil "AttachLoadBalancersResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'attach-load-balancers))
 (common-lisp:progn
  (common-lisp:defun attach-traffic-sources
@@ -14887,7 +14889,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AttachTrafficSources"))
-      common-lisp:nil "AttachTrafficSourcesResult" *error-map*)))
+      common-lisp:nil "AttachTrafficSourcesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'attach-traffic-sources))
 (common-lisp:progn
  (common-lisp:defun batch-delete-scheduled-action
@@ -14907,7 +14910,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchDeleteScheduledAction"))
-      common-lisp:nil "BatchDeleteScheduledActionResult" *error-map*)))
+      common-lisp:nil "BatchDeleteScheduledActionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'batch-delete-scheduled-action))
 (common-lisp:progn
  (common-lisp:defun batch-put-scheduled-update-group-action
@@ -14928,7 +14932,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchPutScheduledUpdateGroupAction"))
-      common-lisp:nil "BatchPutScheduledUpdateGroupActionResult" *error-map*)))
+      common-lisp:nil "BatchPutScheduledUpdateGroupActionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'batch-put-scheduled-update-group-action))
 (common-lisp:progn
  (common-lisp:defun cancel-instance-refresh
@@ -14945,7 +14950,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CancelInstanceRefresh"))
-      common-lisp:nil "CancelInstanceRefreshResult" *error-map*)))
+      common-lisp:nil "CancelInstanceRefreshResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'cancel-instance-refresh))
 (common-lisp:progn
  (common-lisp:defun complete-lifecycle-action
@@ -14966,7 +14972,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CompleteLifecycleAction"))
-      common-lisp:nil "CompleteLifecycleActionResult" *error-map*)))
+      common-lisp:nil "CompleteLifecycleActionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'complete-lifecycle-action))
 (common-lisp:progn
  (common-lisp:defun create-auto-scaling-group
@@ -15003,7 +15010,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateAutoScalingGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'create-auto-scaling-group))
 (common-lisp:progn
  (common-lisp:defun create-launch-configuration
@@ -15032,7 +15039,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateLaunchConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'create-launch-configuration))
 (common-lisp:progn
  (common-lisp:defun create-or-update-tags
@@ -15049,7 +15056,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateOrUpdateTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'create-or-update-tags))
 (common-lisp:progn
  (common-lisp:defun delete-auto-scaling-group
@@ -15067,7 +15074,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAutoScalingGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-auto-scaling-group))
 (common-lisp:progn
  (common-lisp:defun delete-launch-configuration
@@ -15084,7 +15091,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteLaunchConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-launch-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-lifecycle-hook
@@ -15103,7 +15110,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteLifecycleHook"))
-      common-lisp:nil "DeleteLifecycleHookResult" *error-map*)))
+      common-lisp:nil "DeleteLifecycleHookResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-lifecycle-hook))
 (common-lisp:progn
  (common-lisp:defun delete-notification-configuration
@@ -15122,7 +15130,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteNotificationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-notification-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-policy
@@ -15140,7 +15148,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeletePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-policy))
 (common-lisp:progn
  (common-lisp:defun delete-scheduled-action
@@ -15159,7 +15167,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteScheduledAction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-scheduled-action))
 (common-lisp:progn
  (common-lisp:defun delete-tags
@@ -15176,7 +15184,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-tags))
 (common-lisp:progn
  (common-lisp:defun delete-warm-pool
@@ -15194,7 +15202,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteWarmPool"))
-      common-lisp:nil "DeleteWarmPoolResult" *error-map*)))
+      common-lisp:nil "DeleteWarmPoolResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-warm-pool))
 (common-lisp:progn
  (common-lisp:defun describe-account-limits ()
@@ -15230,7 +15238,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAutoScalingGroups"))
-      common-lisp:nil "DescribeAutoScalingGroupsResult" *error-map*)))
+      common-lisp:nil "DescribeAutoScalingGroupsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-auto-scaling-groups))
 (common-lisp:progn
  (common-lisp:defun describe-auto-scaling-instances
@@ -15249,7 +15258,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAutoScalingInstances"))
-      common-lisp:nil "DescribeAutoScalingInstancesResult" *error-map*)))
+      common-lisp:nil "DescribeAutoScalingInstancesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-auto-scaling-instances))
 (common-lisp:progn
  (common-lisp:defun describe-auto-scaling-notification-types ()
@@ -15278,7 +15288,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeInstanceRefreshes"))
-      common-lisp:nil "DescribeInstanceRefreshesResult" *error-map*)))
+      common-lisp:nil "DescribeInstanceRefreshesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-instance-refreshes))
 (common-lisp:progn
  (common-lisp:defun describe-launch-configurations
@@ -15297,7 +15308,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeLaunchConfigurations"))
-      common-lisp:nil "DescribeLaunchConfigurationsResult" *error-map*)))
+      common-lisp:nil "DescribeLaunchConfigurationsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-launch-configurations))
 (common-lisp:progn
  (common-lisp:defun describe-lifecycle-hook-types ()
@@ -15324,7 +15336,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeLifecycleHooks"))
-      common-lisp:nil "DescribeLifecycleHooksResult" *error-map*)))
+      common-lisp:nil "DescribeLifecycleHooksResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-lifecycle-hooks))
 (common-lisp:progn
  (common-lisp:defun describe-load-balancer-target-groups
@@ -15344,7 +15357,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeLoadBalancerTargetGroups"))
-      common-lisp:nil "DescribeLoadBalancerTargetGroupsResult" *error-map*)))
+      common-lisp:nil "DescribeLoadBalancerTargetGroupsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-load-balancer-target-groups))
 (common-lisp:progn
  (common-lisp:defun describe-load-balancers
@@ -15363,7 +15377,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeLoadBalancers"))
-      common-lisp:nil "DescribeLoadBalancersResult" *error-map*)))
+      common-lisp:nil "DescribeLoadBalancersResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-load-balancers))
 (common-lisp:progn
  (common-lisp:defun describe-metric-collection-types ()
@@ -15391,7 +15406,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeNotificationConfigurations"))
-      common-lisp:nil "DescribeNotificationConfigurationsResult" *error-map*)))
+      common-lisp:nil "DescribeNotificationConfigurationsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-notification-configurations))
 (common-lisp:progn
  (common-lisp:defun describe-policies
@@ -15411,7 +15427,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribePolicies"))
-      common-lisp:nil "DescribePoliciesResult" *error-map*)))
+      common-lisp:nil "DescribePoliciesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-policies))
 (common-lisp:progn
  (common-lisp:defun describe-scaling-activities
@@ -15431,7 +15447,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeScalingActivities"))
-      common-lisp:nil "DescribeScalingActivitiesResult" *error-map*)))
+      common-lisp:nil "DescribeScalingActivitiesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-scaling-activities))
 (common-lisp:progn
  (common-lisp:defun describe-scaling-process-types ()
@@ -15460,7 +15477,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeScheduledActions"))
-      common-lisp:nil "DescribeScheduledActionsResult" *error-map*)))
+      common-lisp:nil "DescribeScheduledActionsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-scheduled-actions))
 (common-lisp:progn
  (common-lisp:defun describe-tags
@@ -15477,7 +15495,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTags"))
-      common-lisp:nil "DescribeTagsResult" *error-map*)))
+      common-lisp:nil "DescribeTagsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-tags))
 (common-lisp:progn
  (common-lisp:defun describe-termination-policy-types ()
@@ -15505,7 +15523,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTrafficSources"))
-      common-lisp:nil "DescribeTrafficSourcesResult" *error-map*)))
+      common-lisp:nil "DescribeTrafficSourcesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-traffic-sources))
 (common-lisp:progn
  (common-lisp:defun describe-warm-pool
@@ -15524,7 +15543,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeWarmPool"))
-      common-lisp:nil "DescribeWarmPoolResult" *error-map*)))
+      common-lisp:nil "DescribeWarmPoolResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-warm-pool))
 (common-lisp:progn
  (common-lisp:defun detach-instances
@@ -15544,7 +15563,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetachInstances"))
-      common-lisp:nil "DetachInstancesResult" *error-map*)))
+      common-lisp:nil "DetachInstancesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'detach-instances))
 (common-lisp:progn
  (common-lisp:defun detach-load-balancer-target-groups
@@ -15564,7 +15583,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetachLoadBalancerTargetGroups"))
-      common-lisp:nil "DetachLoadBalancerTargetGroupsResult" *error-map*)))
+      common-lisp:nil "DetachLoadBalancerTargetGroupsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'detach-load-balancer-target-groups))
 (common-lisp:progn
  (common-lisp:defun detach-load-balancers
@@ -15583,7 +15603,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetachLoadBalancers"))
-      common-lisp:nil "DetachLoadBalancersResult" *error-map*)))
+      common-lisp:nil "DetachLoadBalancersResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'detach-load-balancers))
 (common-lisp:progn
  (common-lisp:defun detach-traffic-sources
@@ -15601,7 +15622,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetachTrafficSources"))
-      common-lisp:nil "DetachTrafficSourcesResult" *error-map*)))
+      common-lisp:nil "DetachTrafficSourcesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'detach-traffic-sources))
 (common-lisp:progn
  (common-lisp:defun disable-metrics-collection
@@ -15619,7 +15641,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisableMetricsCollection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'disable-metrics-collection))
 (common-lisp:progn
  (common-lisp:defun enable-metrics-collection
@@ -15638,7 +15660,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "EnableMetricsCollection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'enable-metrics-collection))
 (common-lisp:progn
  (common-lisp:defun enter-standby
@@ -15658,7 +15680,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "EnterStandby"))
-      common-lisp:nil "EnterStandbyResult" *error-map*)))
+      common-lisp:nil "EnterStandbyResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'enter-standby))
 (common-lisp:progn
  (common-lisp:defun execute-policy
@@ -15678,7 +15700,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ExecutePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'execute-policy))
 (common-lisp:progn
  (common-lisp:defun exit-standby
@@ -15696,7 +15718,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ExitStandby"))
-      common-lisp:nil "ExitStandbyResult" *error-map*)))
+      common-lisp:nil "ExitStandbyResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'exit-standby))
 (common-lisp:progn
  (common-lisp:defun get-predictive-scaling-forecast
@@ -15717,7 +15739,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetPredictiveScalingForecast"))
-      common-lisp:nil "GetPredictiveScalingForecastResult" *error-map*)))
+      common-lisp:nil "GetPredictiveScalingForecastResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-predictive-scaling-forecast))
 (common-lisp:progn
  (common-lisp:defun put-lifecycle-hook
@@ -15740,7 +15763,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutLifecycleHook"))
-      common-lisp:nil "PutLifecycleHookResult" *error-map*)))
+      common-lisp:nil "PutLifecycleHookResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'put-lifecycle-hook))
 (common-lisp:progn
  (common-lisp:defun put-notification-configuration
@@ -15761,7 +15784,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutNotificationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'put-notification-configuration))
 (common-lisp:progn
  (common-lisp:defun put-scaling-policy
@@ -15788,7 +15811,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutScalingPolicy"))
-      common-lisp:nil "PutScalingPolicyResult" *error-map*)))
+      common-lisp:nil "PutScalingPolicyResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'put-scaling-policy))
 (common-lisp:progn
  (common-lisp:defun put-scheduled-update-group-action
@@ -15811,7 +15834,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutScheduledUpdateGroupAction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'put-scheduled-update-group-action))
 (common-lisp:progn
  (common-lisp:defun put-warm-pool
@@ -15832,7 +15855,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutWarmPool"))
-      common-lisp:nil "PutWarmPoolResult" *error-map*)))
+      common-lisp:nil "PutWarmPoolResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'put-warm-pool))
 (common-lisp:progn
  (common-lisp:defun record-lifecycle-action-heartbeat
@@ -15854,7 +15877,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RecordLifecycleActionHeartbeat"))
-      common-lisp:nil "RecordLifecycleActionHeartbeatResult" *error-map*)))
+      common-lisp:nil "RecordLifecycleActionHeartbeatResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'record-lifecycle-action-heartbeat))
 (common-lisp:progn
  (common-lisp:defun resume-processes
@@ -15873,7 +15897,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ResumeProcesses"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'resume-processes))
 (common-lisp:progn
  (common-lisp:defun rollback-instance-refresh
@@ -15890,7 +15914,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RollbackInstanceRefresh"))
-      common-lisp:nil "RollbackInstanceRefreshResult" *error-map*)))
+      common-lisp:nil "RollbackInstanceRefreshResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'rollback-instance-refresh))
 (common-lisp:progn
  (common-lisp:defun set-desired-capacity
@@ -15910,7 +15935,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetDesiredCapacity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'set-desired-capacity))
 (common-lisp:progn
  (common-lisp:defun set-instance-health
@@ -15930,7 +15955,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetInstanceHealth"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'set-instance-health))
 (common-lisp:progn
  (common-lisp:defun set-instance-protection
@@ -15950,7 +15975,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetInstanceProtection"))
-      common-lisp:nil "SetInstanceProtectionResult" *error-map*)))
+      common-lisp:nil "SetInstanceProtectionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'set-instance-protection))
 (common-lisp:progn
  (common-lisp:defun start-instance-refresh
@@ -15970,7 +15996,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartInstanceRefresh"))
-      common-lisp:nil "StartInstanceRefreshResult" *error-map*)))
+      common-lisp:nil "StartInstanceRefreshResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'start-instance-refresh))
 (common-lisp:progn
  (common-lisp:defun suspend-processes
@@ -15989,7 +16016,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SuspendProcesses"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'suspend-processes))
 (common-lisp:progn
  (common-lisp:defun terminate-instance-in-auto-scaling-group
@@ -16009,8 +16036,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TerminateInstanceInAutoScalingGroup"))
-      common-lisp:nil "TerminateInstanceInAutoScalingGroupResult"
-      *error-map*)))
+      common-lisp:nil "TerminateInstanceInAutoScalingGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'terminate-instance-in-auto-scaling-group))
 (common-lisp:progn
  (common-lisp:defun update-auto-scaling-group
@@ -16044,5 +16071,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateAutoScalingGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'update-auto-scaling-group))

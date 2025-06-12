@@ -4047,7 +4047,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'profile-name))))
                                                         "AddProfilePermission"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-profile-permission))
 (common-lisp:progn
  (common-lisp:defun cancel-signing-profile
@@ -4074,7 +4074,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'profile-name))))
                                                         "CancelSigningProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-signing-profile))
 (common-lisp:progn
  (common-lisp:defun describe-signing-job
@@ -4101,7 +4101,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "DescribeSigningJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-signing-job))
 (common-lisp:progn
  (common-lisp:defun get-revocation-status
@@ -4121,7 +4121,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/revocations"
                                                         "GetRevocationStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-revocation-status))
 (common-lisp:progn
  (common-lisp:defun get-signing-platform
@@ -4148,7 +4148,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'platform-id))))
                                                         "GetSigningPlatform"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-signing-platform))
 (common-lisp:progn
  (common-lisp:defun get-signing-profile
@@ -4175,7 +4175,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'profile-name))))
                                                         "GetSigningProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-signing-profile))
 (common-lisp:progn
  (common-lisp:defun list-profile-permissions
@@ -4202,7 +4202,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'profile-name))))
                                                         "ListProfilePermissions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-profile-permissions))
 (common-lisp:progn
  (common-lisp:defun list-signing-jobs
@@ -4224,7 +4224,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/signing-jobs"
                                                         "ListSigningJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-signing-jobs))
 (common-lisp:progn
  (common-lisp:defun list-signing-platforms
@@ -4244,7 +4244,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/signing-platforms"
                                                         "ListSigningPlatforms"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-signing-platforms))
 (common-lisp:progn
  (common-lisp:defun list-signing-profiles
@@ -4265,7 +4265,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/signing-profiles"
                                                         "ListSigningProfiles"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-signing-profiles))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -4292,7 +4292,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-signing-profile
@@ -4323,7 +4323,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'profile-name))))
                                                         "PutSigningProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-signing-profile))
 (common-lisp:progn
  (common-lisp:defun remove-profile-permission
@@ -4356,7 +4356,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'statement-id))))
                                                         "RemoveProfilePermission"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-profile-permission))
 (common-lisp:progn
  (common-lisp:defun revoke-signature
@@ -4383,7 +4383,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "RevokeSignature"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'revoke-signature))
 (common-lisp:progn
  (common-lisp:defun revoke-signing-profile
@@ -4412,7 +4412,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'profile-name))))
                                                         "RevokeSigningProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'revoke-signing-profile))
 (common-lisp:progn
  (common-lisp:defun sign-payload
@@ -4432,7 +4432,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/signing-jobs/with-payload"
                                                         "SignPayload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'sign-payload))
 (common-lisp:progn
  (common-lisp:defun start-signing-job
@@ -4452,7 +4452,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/signing-jobs"
                                                         "StartSigningJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-signing-job))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4479,7 +4479,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4506,5 +4506,5 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))

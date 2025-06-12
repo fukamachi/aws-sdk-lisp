@@ -2788,7 +2788,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           copy-distribution-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'distribution)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'distribution))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          copy-distribution-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-cache-policy-request common-lisp:nil
                        ((cache-policy-config :initarg :cache-policy-config
@@ -2830,7 +2836,14 @@
                          (aws-sdk/generator/shape::input
                           create-cache-policy-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'cache-policy-config)))
+                           'cache-policy-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-cache-policy-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "CachePolicyConfig" :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass create-cache-policy-result common-lisp:nil
                        ((cache-policy :initarg :cache-policy :initform
@@ -2889,7 +2902,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-cache-policy-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'cache-policy)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'cache-policy))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-cache-policy-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-cloud-front-origin-access-identity-request
                        common-lisp:nil
@@ -2938,7 +2957,15 @@
                          (aws-sdk/generator/shape::input
                           create-cloud-front-origin-access-identity-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'cloud-front-origin-access-identity-config)))
+                           'cloud-front-origin-access-identity-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-cloud-front-origin-access-identity-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "CloudFrontOriginAccessIdentityConfig"
+                     :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass create-cloud-front-origin-access-identity-result
                        common-lisp:nil
@@ -3004,7 +3031,13 @@
                          (aws-sdk/generator/shape::input
                           create-cloud-front-origin-access-identity-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'cloud-front-origin-access-identity)))
+                           'cloud-front-origin-access-identity))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-cloud-front-origin-access-identity-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-continuous-deployment-policy-request
                        common-lisp:nil
@@ -3052,7 +3085,15 @@
                          (aws-sdk/generator/shape::input
                           create-continuous-deployment-policy-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'continuous-deployment-policy-config)))
+                           'continuous-deployment-policy-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-continuous-deployment-policy-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "ContinuousDeploymentPolicyConfig"
+                     :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass create-continuous-deployment-policy-result
                        common-lisp:nil
@@ -3118,7 +3159,13 @@
                          (aws-sdk/generator/shape::input
                           create-continuous-deployment-policy-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'continuous-deployment-policy)))
+                           'continuous-deployment-policy))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-continuous-deployment-policy-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-distribution-request common-lisp:nil
                        ((distribution-config :initarg :distribution-config
@@ -3160,7 +3207,14 @@
                          (aws-sdk/generator/shape::input
                           create-distribution-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'distribution-config)))
+                           'distribution-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-distribution-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "DistributionConfig" :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass create-distribution-result common-lisp:nil
                        ((distribution :initarg :distribution :initform
@@ -3219,7 +3273,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-distribution-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'distribution)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'distribution))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-distribution-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-distribution-with-tags-request common-lisp:nil
                        ((distribution-config-with-tags :initarg
@@ -3266,7 +3326,14 @@
                          (aws-sdk/generator/shape::input
                           create-distribution-with-tags-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'distribution-config-with-tags)))
+                           'distribution-config-with-tags))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-distribution-with-tags-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "DistributionConfigWithTags" :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass create-distribution-with-tags-result common-lisp:nil
                        ((distribution :initarg :distribution :initform
@@ -3327,7 +3394,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-distribution-with-tags-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'distribution)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'distribution))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-distribution-with-tags-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-field-level-encryption-config-request
                        common-lisp:nil
@@ -3375,7 +3448,14 @@
                          (aws-sdk/generator/shape::input
                           create-field-level-encryption-config-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'field-level-encryption-config)))
+                           'field-level-encryption-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-field-level-encryption-config-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "FieldLevelEncryptionConfig" :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass create-field-level-encryption-config-result
                        common-lisp:nil
@@ -3441,7 +3521,13 @@
                          (aws-sdk/generator/shape::input
                           create-field-level-encryption-config-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'field-level-encryption)))
+                           'field-level-encryption))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-field-level-encryption-config-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-field-level-encryption-profile-request
                        common-lisp:nil
@@ -3489,7 +3575,15 @@
                          (aws-sdk/generator/shape::input
                           create-field-level-encryption-profile-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'field-level-encryption-profile-config)))
+                           'field-level-encryption-profile-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-field-level-encryption-profile-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "FieldLevelEncryptionProfileConfig"
+                     :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass create-field-level-encryption-profile-result
                        common-lisp:nil
@@ -3555,7 +3649,13 @@
                          (aws-sdk/generator/shape::input
                           create-field-level-encryption-profile-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'field-level-encryption-profile)))
+                           'field-level-encryption-profile))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-field-level-encryption-profile-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-function-request common-lisp:nil
                        ((name :initarg :name :initform
@@ -3678,7 +3778,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-function-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'function-summary)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'function-summary))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-function-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-invalidation-request common-lisp:nil
                        ((distribution-id :initarg :distribution-id :initform
@@ -3727,7 +3833,14 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-invalidation-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'invalidation-batch)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'invalidation-batch))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-invalidation-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "InvalidationBatch" :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass create-invalidation-result common-lisp:nil
                        ((location :initarg :location :initform common-lisp:nil
@@ -3777,7 +3890,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-invalidation-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'invalidation)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'invalidation))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-invalidation-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-key-group-request common-lisp:nil
                        ((key-group-config :initarg :key-group-config :initform
@@ -3816,7 +3935,14 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-key-group-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'key-group-config)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'key-group-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-key-group-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "KeyGroupConfig" :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass create-key-group-result common-lisp:nil
                        ((key-group :initarg :key-group :initform
@@ -3872,7 +3998,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-key-group-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'key-group)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'key-group))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-key-group-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-key-value-store-request common-lisp:nil
                        ((name :initarg :name :initform
@@ -4001,7 +4133,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-key-value-store-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'key-value-store)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'key-value-store))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-key-value-store-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-monitoring-subscription-request common-lisp:nil
                        ((distribution-id :initarg :distribution-id :initform
@@ -4056,7 +4194,14 @@
                          (aws-sdk/generator/shape::input
                           create-monitoring-subscription-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'monitoring-subscription)))
+                           'monitoring-subscription))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-monitoring-subscription-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "MonitoringSubscription" :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass create-monitoring-subscription-result common-lisp:nil
                        ((monitoring-subscription :initarg
@@ -4100,7 +4245,13 @@
                          (aws-sdk/generator/shape::input
                           create-monitoring-subscription-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'monitoring-subscription)))
+                           'monitoring-subscription))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-monitoring-subscription-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-origin-access-control-request common-lisp:nil
                        ((origin-access-control-config :initarg
@@ -4147,7 +4298,14 @@
                          (aws-sdk/generator/shape::input
                           create-origin-access-control-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'origin-access-control-config)))
+                           'origin-access-control-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-origin-access-control-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "OriginAccessControlConfig" :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass create-origin-access-control-result common-lisp:nil
                        ((origin-access-control :initarg :origin-access-control
@@ -4211,7 +4369,13 @@
                          (aws-sdk/generator/shape::input
                           create-origin-access-control-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'origin-access-control)))
+                           'origin-access-control))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-origin-access-control-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-origin-request-policy-request common-lisp:nil
                        ((origin-request-policy-config :initarg
@@ -4258,7 +4422,14 @@
                          (aws-sdk/generator/shape::input
                           create-origin-request-policy-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'origin-request-policy-config)))
+                           'origin-request-policy-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-origin-request-policy-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "OriginRequestPolicyConfig" :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass create-origin-request-policy-result common-lisp:nil
                        ((origin-request-policy :initarg :origin-request-policy
@@ -4322,7 +4493,13 @@
                          (aws-sdk/generator/shape::input
                           create-origin-request-policy-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'origin-request-policy)))
+                           'origin-request-policy))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-origin-request-policy-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-public-key-request common-lisp:nil
                        ((public-key-config :initarg :public-key-config
@@ -4363,7 +4540,14 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-public-key-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'public-key-config)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'public-key-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-public-key-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "PublicKeyConfig" :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass create-public-key-result common-lisp:nil
                        ((public-key :initarg :public-key :initform
@@ -4419,7 +4603,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           create-public-key-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'public-key)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'public-key))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-public-key-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-realtime-log-config-request common-lisp:nil
                        ((end-points :initarg :end-points :initform
@@ -4587,7 +4777,15 @@
                          (aws-sdk/generator/shape::input
                           create-response-headers-policy-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'response-headers-policy-config)))
+                           'response-headers-policy-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-response-headers-policy-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "ResponseHeadersPolicyConfig"
+                     :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass create-response-headers-policy-result common-lisp:nil
                        ((response-headers-policy :initarg
@@ -4652,7 +4850,13 @@
                          (aws-sdk/generator/shape::input
                           create-response-headers-policy-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'response-headers-policy)))
+                           'response-headers-policy))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-response-headers-policy-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-streaming-distribution-request common-lisp:nil
                        ((streaming-distribution-config :initarg
@@ -4699,7 +4903,15 @@
                          (aws-sdk/generator/shape::input
                           create-streaming-distribution-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'streaming-distribution-config)))
+                           'streaming-distribution-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-streaming-distribution-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "StreamingDistributionConfig"
+                     :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass create-streaming-distribution-result common-lisp:nil
                        ((streaming-distribution :initarg
@@ -4764,7 +4976,13 @@
                          (aws-sdk/generator/shape::input
                           create-streaming-distribution-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'streaming-distribution)))
+                           'streaming-distribution))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-streaming-distribution-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass create-streaming-distribution-with-tags-request
                        common-lisp:nil
@@ -4813,7 +5031,15 @@
                          (aws-sdk/generator/shape::input
                           create-streaming-distribution-with-tags-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'streaming-distribution-config-with-tags)))
+                           'streaming-distribution-config-with-tags))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-streaming-distribution-with-tags-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "StreamingDistributionConfigWithTags"
+                     :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass create-streaming-distribution-with-tags-result
                        common-lisp:nil
@@ -4879,7 +5105,13 @@
                          (aws-sdk/generator/shape::input
                           create-streaming-distribution-with-tags-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'streaming-distribution)))
+                           'streaming-distribution))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-streaming-distribution-with-tags-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass custom-error-response common-lisp:nil
                        ((error-code :initarg :error-code :initform
@@ -6251,7 +6483,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           describe-function-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'function-summary)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'function-summary))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          describe-function-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass describe-key-value-store-request common-lisp:nil
                        ((name :initarg :name :initform
@@ -6334,7 +6572,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           describe-key-value-store-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'key-value-store)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'key-value-store))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          describe-key-value-store-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass distribution common-lisp:nil
                        ((id :initarg :id :initform
@@ -9023,7 +9267,13 @@
                          (aws-sdk/generator/shape::input
                           get-cache-policy-config-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'cache-policy-config)))
+                           'cache-policy-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-cache-policy-config-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-cache-policy-request common-lisp:nil
                        ((id :initarg :id :initform
@@ -9099,7 +9349,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-cache-policy-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'cache-policy)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'cache-policy))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-cache-policy-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-cloud-front-origin-access-identity-config-request
                        common-lisp:nil
@@ -9189,7 +9445,13 @@
                          (aws-sdk/generator/shape::input
                           get-cloud-front-origin-access-identity-config-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'cloud-front-origin-access-identity-config)))
+                           'cloud-front-origin-access-identity-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-cloud-front-origin-access-identity-config-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-cloud-front-origin-access-identity-request
                        common-lisp:nil
@@ -9277,7 +9539,13 @@
                          (aws-sdk/generator/shape::input
                           get-cloud-front-origin-access-identity-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'cloud-front-origin-access-identity)))
+                           'cloud-front-origin-access-identity))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-cloud-front-origin-access-identity-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-continuous-deployment-policy-config-request
                        common-lisp:nil
@@ -9365,7 +9633,13 @@
                          (aws-sdk/generator/shape::input
                           get-continuous-deployment-policy-config-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'continuous-deployment-policy-config)))
+                           'continuous-deployment-policy-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-continuous-deployment-policy-config-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-continuous-deployment-policy-request common-lisp:nil
                        ((id :initarg :id :initform
@@ -9451,7 +9725,13 @@
                          (aws-sdk/generator/shape::input
                           get-continuous-deployment-policy-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'continuous-deployment-policy)))
+                           'continuous-deployment-policy))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-continuous-deployment-policy-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-distribution-config-request common-lisp:nil
                        ((id :initarg :id :initform
@@ -9534,7 +9814,13 @@
                          (aws-sdk/generator/shape::input
                           get-distribution-config-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'distribution-config)))
+                           'distribution-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-distribution-config-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-distribution-request common-lisp:nil
                        ((id :initarg :id :initform
@@ -9610,7 +9896,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-distribution-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'distribution)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'distribution))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-distribution-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-field-level-encryption-config-request
                        common-lisp:nil
@@ -9697,7 +9989,13 @@
                          (aws-sdk/generator/shape::input
                           get-field-level-encryption-config-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'field-level-encryption-config)))
+                           'field-level-encryption-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-field-level-encryption-config-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-field-level-encryption-profile-config-request
                        common-lisp:nil
@@ -9785,7 +10083,13 @@
                          (aws-sdk/generator/shape::input
                           get-field-level-encryption-profile-config-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'field-level-encryption-profile-config)))
+                           'field-level-encryption-profile-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-field-level-encryption-profile-config-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-field-level-encryption-profile-request
                        common-lisp:nil
@@ -9873,7 +10177,13 @@
                          (aws-sdk/generator/shape::input
                           get-field-level-encryption-profile-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'field-level-encryption-profile)))
+                           'field-level-encryption-profile))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-field-level-encryption-profile-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-field-level-encryption-request common-lisp:nil
                        ((id :initarg :id :initform
@@ -9959,7 +10269,13 @@
                          (aws-sdk/generator/shape::input
                           get-field-level-encryption-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'field-level-encryption)))
+                           'field-level-encryption))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-field-level-encryption-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-function-request common-lisp:nil
                        ((name :initarg :name :initform
@@ -10038,7 +10354,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input get-function-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'function-code)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'function-code))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input get-function-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-invalidation-request common-lisp:nil
                        ((distribution-id :initarg :distribution-id :initform
@@ -10113,7 +10433,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-invalidation-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'invalidation)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'invalidation))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-invalidation-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-key-group-config-request common-lisp:nil
                        ((id :initarg :id :initform
@@ -10191,7 +10517,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-key-group-config-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'key-group-config)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'key-group-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-key-group-config-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-key-group-request common-lisp:nil
                        ((id :initarg :id :initform
@@ -10260,7 +10592,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input get-key-group-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'key-group)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'key-group))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input get-key-group-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-monitoring-subscription-request common-lisp:nil
                        ((distribution-id :initarg :distribution-id :initform
@@ -10338,7 +10674,13 @@
                          (aws-sdk/generator/shape::input
                           get-monitoring-subscription-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'monitoring-subscription)))
+                           'monitoring-subscription))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-monitoring-subscription-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-origin-access-control-config-request common-lisp:nil
                        ((id :initarg :id :initform
@@ -10424,7 +10766,13 @@
                          (aws-sdk/generator/shape::input
                           get-origin-access-control-config-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'origin-access-control-config)))
+                           'origin-access-control-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-origin-access-control-config-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-origin-access-control-request common-lisp:nil
                        ((id :initarg :id :initform
@@ -10509,7 +10857,13 @@
                          (aws-sdk/generator/shape::input
                           get-origin-access-control-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'origin-access-control)))
+                           'origin-access-control))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-origin-access-control-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-origin-request-policy-config-request common-lisp:nil
                        ((id :initarg :id :initform
@@ -10595,7 +10949,13 @@
                          (aws-sdk/generator/shape::input
                           get-origin-request-policy-config-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'origin-request-policy-config)))
+                           'origin-request-policy-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-origin-request-policy-config-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-origin-request-policy-request common-lisp:nil
                        ((id :initarg :id :initform
@@ -10680,7 +11040,13 @@
                          (aws-sdk/generator/shape::input
                           get-origin-request-policy-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'origin-request-policy)))
+                           'origin-request-policy))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-origin-request-policy-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-public-key-config-request common-lisp:nil
                        ((id :initarg :id :initform
@@ -10760,7 +11126,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-public-key-config-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'public-key-config)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'public-key-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-public-key-config-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-public-key-request common-lisp:nil
                        ((id :initarg :id :initform
@@ -10835,7 +11207,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-public-key-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'public-key)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'public-key))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-public-key-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-realtime-log-config-request common-lisp:nil
                        ((name :initarg :name :initform common-lisp:nil :type
@@ -11015,7 +11393,13 @@
                          (aws-sdk/generator/shape::input
                           get-response-headers-policy-config-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'response-headers-policy-config)))
+                           'response-headers-policy-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-response-headers-policy-config-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-response-headers-policy-request common-lisp:nil
                        ((id :initarg :id :initform
@@ -11101,7 +11485,13 @@
                          (aws-sdk/generator/shape::input
                           get-response-headers-policy-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'response-headers-policy)))
+                           'response-headers-policy))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-response-headers-policy-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-streaming-distribution-config-request
                        common-lisp:nil
@@ -11188,7 +11578,13 @@
                          (aws-sdk/generator/shape::input
                           get-streaming-distribution-config-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'streaming-distribution-config)))
+                           'streaming-distribution-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-streaming-distribution-config-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-streaming-distribution-request common-lisp:nil
                        ((id :initarg :id :initform
@@ -11274,7 +11670,13 @@
                          (aws-sdk/generator/shape::input
                           get-streaming-distribution-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'streaming-distribution)))
+                           'streaming-distribution))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-streaming-distribution-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:deftype header-list ()
    '(trivial-types:proper-list common-lisp:string))
@@ -12768,7 +13170,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           list-cache-policies-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'cache-policy-list)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'cache-policy-list))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-cache-policies-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-cloud-front-origin-access-identities-request
                        common-lisp:nil
@@ -12855,7 +13263,13 @@
                          (aws-sdk/generator/shape::input
                           list-cloud-front-origin-access-identities-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'cloud-front-origin-access-identity-list)))
+                           'cloud-front-origin-access-identity-list))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-cloud-front-origin-access-identities-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-conflicting-aliases-request common-lisp:nil
                        ((distribution-id :initarg :distribution-id :initform
@@ -12957,7 +13371,13 @@
                          (aws-sdk/generator/shape::input
                           list-conflicting-aliases-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'conflicting-aliases-list)))
+                           'conflicting-aliases-list))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-conflicting-aliases-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-continuous-deployment-policies-request
                        common-lisp:nil
@@ -13043,7 +13463,13 @@
                          (aws-sdk/generator/shape::input
                           list-continuous-deployment-policies-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'continuous-deployment-policy-list)))
+                           'continuous-deployment-policy-list))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-continuous-deployment-policies-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-distributions-by-cache-policy-id-request
                        common-lisp:nil
@@ -13135,7 +13561,13 @@
                          (aws-sdk/generator/shape::input
                           list-distributions-by-cache-policy-id-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'distribution-id-list)))
+                           'distribution-id-list))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-distributions-by-cache-policy-id-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-distributions-by-key-group-request common-lisp:nil
                        ((marker :initarg :marker :initform common-lisp:nil
@@ -13224,7 +13656,13 @@
                          (aws-sdk/generator/shape::input
                           list-distributions-by-key-group-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'distribution-id-list)))
+                           'distribution-id-list))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-distributions-by-key-group-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-distributions-by-origin-request-policy-id-request
                        common-lisp:nil
@@ -13318,7 +13756,13 @@
                          (aws-sdk/generator/shape::input
                           list-distributions-by-origin-request-policy-id-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'distribution-id-list)))
+                           'distribution-id-list))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-distributions-by-origin-request-policy-id-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-distributions-by-realtime-log-config-request
                        common-lisp:nil
@@ -13446,7 +13890,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           list-distributions-by-realtime-log-config-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'distribution-list)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'distribution-list))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-distributions-by-realtime-log-config-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-distributions-by-response-headers-policy-id-request
                        common-lisp:nil
@@ -13540,7 +13990,13 @@
                          (aws-sdk/generator/shape::input
                           list-distributions-by-response-headers-policy-id-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'distribution-id-list)))
+                           'distribution-id-list))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-distributions-by-response-headers-policy-id-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-distributions-by-web-aclid-request common-lisp:nil
                        ((marker :initarg :marker :initform common-lisp:nil
@@ -13627,7 +14083,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           list-distributions-by-web-aclid-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'distribution-list)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'distribution-list))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-distributions-by-web-aclid-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-distributions-request common-lisp:nil
                        ((marker :initarg :marker :initform common-lisp:nil
@@ -13705,7 +14167,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           list-distributions-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'distribution-list)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'distribution-list))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-distributions-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-field-level-encryption-configs-request
                        common-lisp:nil
@@ -13791,7 +14259,13 @@
                          (aws-sdk/generator/shape::input
                           list-field-level-encryption-configs-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'field-level-encryption-list)))
+                           'field-level-encryption-list))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-field-level-encryption-configs-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-field-level-encryption-profiles-request
                        common-lisp:nil
@@ -13877,7 +14351,13 @@
                          (aws-sdk/generator/shape::input
                           list-field-level-encryption-profiles-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'field-level-encryption-profile-list)))
+                           'field-level-encryption-profile-list))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-field-level-encryption-profiles-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-functions-request common-lisp:nil
                        ((marker :initarg :marker :initform common-lisp:nil
@@ -13957,7 +14437,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           list-functions-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'function-list)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'function-list))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-functions-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-invalidations-request common-lisp:nil
                        ((distribution-id :initarg :distribution-id :initform
@@ -14043,7 +14529,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           list-invalidations-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'invalidation-list)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'invalidation-list))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-invalidations-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-key-groups-request common-lisp:nil
                        ((marker :initarg :marker :initform common-lisp:nil
@@ -14118,7 +14610,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           list-key-groups-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'key-group-list)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'key-group-list))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-key-groups-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-key-value-stores-request common-lisp:nil
                        ((marker :initarg :marker :initform common-lisp:nil
@@ -14206,7 +14704,13 @@
                          (aws-sdk/generator/shape::input
                           list-key-value-stores-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'key-value-store-list)))
+                           'key-value-store-list))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-key-value-stores-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-origin-access-controls-request common-lisp:nil
                        ((marker :initarg :marker :initform common-lisp:nil
@@ -14290,7 +14794,13 @@
                          (aws-sdk/generator/shape::input
                           list-origin-access-controls-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'origin-access-control-list)))
+                           'origin-access-control-list))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-origin-access-controls-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-origin-request-policies-request common-lisp:nil
                        ((type :initarg :type :initform common-lisp:nil :type
@@ -14381,7 +14891,13 @@
                          (aws-sdk/generator/shape::input
                           list-origin-request-policies-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'origin-request-policy-list)))
+                           'origin-request-policy-list))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-origin-request-policies-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-public-keys-request common-lisp:nil
                        ((marker :initarg :marker :initform common-lisp:nil
@@ -14456,7 +14972,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           list-public-keys-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'public-key-list)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'public-key-list))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-public-keys-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-realtime-log-configs-request common-lisp:nil
                        ((max-items :initarg :max-items :initform
@@ -14538,7 +15060,13 @@
                          (aws-sdk/generator/shape::input
                           list-realtime-log-configs-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'realtime-log-configs)))
+                           'realtime-log-configs))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-realtime-log-configs-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-response-headers-policies-request common-lisp:nil
                        ((type :initarg :type :initform common-lisp:nil :type
@@ -14629,7 +15157,13 @@
                          (aws-sdk/generator/shape::input
                           list-response-headers-policies-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'response-headers-policy-list)))
+                           'response-headers-policy-list))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-response-headers-policies-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-streaming-distributions-request common-lisp:nil
                        ((marker :initarg :marker :initform common-lisp:nil
@@ -14713,7 +15247,13 @@
                          (aws-sdk/generator/shape::input
                           list-streaming-distributions-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'streaming-distribution-list)))
+                           'streaming-distribution-list))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-streaming-distributions-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass list-tags-for-resource-request common-lisp:nil
                        ((resource :initarg :resource :initform
@@ -14785,7 +15325,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           list-tags-for-resource-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'tags)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'tags))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          list-tags-for-resource-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:deftype location-list ()
    '(trivial-types:proper-list common-lisp:string))
@@ -17138,7 +17684,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           publish-function-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'function-summary)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'function-summary))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          publish-function-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass query-arg-profile common-lisp:nil
                        ((query-arg :initarg :query-arg :initform
@@ -20409,7 +20961,12 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input tag-resource-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'tags)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'tags))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input tag-resource-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "Tags" :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:deftype tag-value () 'common-lisp:string)
 (common-lisp:progn
  (common-lisp:defclass tags common-lisp:nil
@@ -20542,7 +21099,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input test-function-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'test-result)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'test-result))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input test-function-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass test-result common-lisp:nil
                        ((function-summary :initarg :function-summary :initform
@@ -21298,7 +21859,14 @@
                         (
                          (aws-sdk/generator/shape::input
                           untag-resource-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'tag-keys)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'tag-keys))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          untag-resource-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "TagKeys" :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass update-cache-policy-request common-lisp:nil
                        ((cache-policy-config :initarg :cache-policy-config
@@ -21356,7 +21924,14 @@
                          (aws-sdk/generator/shape::input
                           update-cache-policy-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'cache-policy-config)))
+                           'cache-policy-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-cache-policy-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "CachePolicyConfig" :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass update-cache-policy-result common-lisp:nil
                        ((cache-policy :initarg :cache-policy :initform
@@ -21404,7 +21979,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-cache-policy-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'cache-policy)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'cache-policy))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-cache-policy-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-cloud-front-origin-access-identity-request
                        common-lisp:nil
@@ -21470,7 +22051,15 @@
                          (aws-sdk/generator/shape::input
                           update-cloud-front-origin-access-identity-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'cloud-front-origin-access-identity-config)))
+                           'cloud-front-origin-access-identity-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-cloud-front-origin-access-identity-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "CloudFrontOriginAccessIdentityConfig"
+                     :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass update-cloud-front-origin-access-identity-result
                        common-lisp:nil
@@ -21525,7 +22114,13 @@
                          (aws-sdk/generator/shape::input
                           update-cloud-front-origin-access-identity-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'cloud-front-origin-access-identity)))
+                           'cloud-front-origin-access-identity))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-cloud-front-origin-access-identity-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-continuous-deployment-policy-request
                        common-lisp:nil
@@ -21590,7 +22185,15 @@
                          (aws-sdk/generator/shape::input
                           update-continuous-deployment-policy-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'continuous-deployment-policy-config)))
+                           'continuous-deployment-policy-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-continuous-deployment-policy-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "ContinuousDeploymentPolicyConfig"
+                     :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass update-continuous-deployment-policy-result
                        common-lisp:nil
@@ -21645,7 +22248,13 @@
                          (aws-sdk/generator/shape::input
                           update-continuous-deployment-policy-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'continuous-deployment-policy)))
+                           'continuous-deployment-policy))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-continuous-deployment-policy-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-distribution-request common-lisp:nil
                        ((distribution-config :initarg :distribution-config
@@ -21703,7 +22312,14 @@
                          (aws-sdk/generator/shape::input
                           update-distribution-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'distribution-config)))
+                           'distribution-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-distribution-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "DistributionConfig" :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass update-distribution-result common-lisp:nil
                        ((distribution :initarg :distribution :initform
@@ -21751,7 +22367,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-distribution-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'distribution)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'distribution))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-distribution-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-distribution-with-staging-config-request
                        common-lisp:nil
@@ -21854,7 +22476,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-distribution-with-staging-config-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'distribution)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'distribution))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-distribution-with-staging-config-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-field-level-encryption-config-request
                        common-lisp:nil
@@ -21919,7 +22547,14 @@
                          (aws-sdk/generator/shape::input
                           update-field-level-encryption-config-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'field-level-encryption-config)))
+                           'field-level-encryption-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-field-level-encryption-config-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "FieldLevelEncryptionConfig" :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass update-field-level-encryption-config-result
                        common-lisp:nil
@@ -21974,7 +22609,13 @@
                          (aws-sdk/generator/shape::input
                           update-field-level-encryption-config-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'field-level-encryption)))
+                           'field-level-encryption))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-field-level-encryption-config-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-field-level-encryption-profile-request
                        common-lisp:nil
@@ -22039,7 +22680,15 @@
                          (aws-sdk/generator/shape::input
                           update-field-level-encryption-profile-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'field-level-encryption-profile-config)))
+                           'field-level-encryption-profile-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-field-level-encryption-profile-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "FieldLevelEncryptionProfileConfig"
+                     :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass update-field-level-encryption-profile-result
                        common-lisp:nil
@@ -22094,7 +22743,13 @@
                          (aws-sdk/generator/shape::input
                           update-field-level-encryption-profile-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'field-level-encryption-profile)))
+                           'field-level-encryption-profile))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-field-level-encryption-profile-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-function-request common-lisp:nil
                        ((name :initarg :name :initform
@@ -22209,7 +22864,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-function-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'function-summary)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'function-summary))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-function-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-key-group-request common-lisp:nil
                        ((key-group-config :initarg :key-group-config :initform
@@ -22264,7 +22925,14 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-key-group-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'key-group-config)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'key-group-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-key-group-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "KeyGroupConfig" :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass update-key-group-result common-lisp:nil
                        ((key-group :initarg :key-group :initform
@@ -22310,7 +22978,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-key-group-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'key-group)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'key-group))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-key-group-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-key-value-store-request common-lisp:nil
                        ((name :initarg :name :initform
@@ -22418,7 +23092,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-key-value-store-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'key-value-store)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'key-value-store))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-key-value-store-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-origin-access-control-request common-lisp:nil
                        ((origin-access-control-config :initarg
@@ -22482,7 +23162,14 @@
                          (aws-sdk/generator/shape::input
                           update-origin-access-control-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'origin-access-control-config)))
+                           'origin-access-control-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-origin-access-control-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "OriginAccessControlConfig" :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass update-origin-access-control-result common-lisp:nil
                        ((origin-access-control :initarg :origin-access-control
@@ -22535,7 +23222,13 @@
                          (aws-sdk/generator/shape::input
                           update-origin-access-control-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'origin-access-control)))
+                           'origin-access-control))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-origin-access-control-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-origin-request-policy-request common-lisp:nil
                        ((origin-request-policy-config :initarg
@@ -22599,7 +23292,14 @@
                          (aws-sdk/generator/shape::input
                           update-origin-request-policy-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'origin-request-policy-config)))
+                           'origin-request-policy-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-origin-request-policy-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "OriginRequestPolicyConfig" :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass update-origin-request-policy-result common-lisp:nil
                        ((origin-request-policy :initarg :origin-request-policy
@@ -22652,7 +23352,13 @@
                          (aws-sdk/generator/shape::input
                           update-origin-request-policy-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'origin-request-policy)))
+                           'origin-request-policy))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-origin-request-policy-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-public-key-request common-lisp:nil
                        ((public-key-config :initarg :public-key-config
@@ -22709,7 +23415,14 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-public-key-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'public-key-config)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'public-key-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-public-key-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "PublicKeyConfig" :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass update-public-key-result common-lisp:nil
                        ((public-key :initarg :public-key :initform
@@ -22755,7 +23468,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-public-key-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'public-key)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'public-key))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-public-key-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-realtime-log-config-request common-lisp:nil
                        ((end-points :initarg :end-points :initform
@@ -22952,7 +23671,15 @@
                          (aws-sdk/generator/shape::input
                           update-response-headers-policy-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'response-headers-policy-config)))
+                           'response-headers-policy-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-response-headers-policy-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "ResponseHeadersPolicyConfig"
+                     :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass update-response-headers-policy-result common-lisp:nil
                        ((response-headers-policy :initarg
@@ -23006,7 +23733,13 @@
                          (aws-sdk/generator/shape::input
                           update-response-headers-policy-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'response-headers-policy)))
+                           'response-headers-policy))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-response-headers-policy-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-streaming-distribution-request common-lisp:nil
                        ((streaming-distribution-config :initarg
@@ -23070,7 +23803,15 @@
                          (aws-sdk/generator/shape::input
                           update-streaming-distribution-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'streaming-distribution-config)))
+                           'streaming-distribution-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-streaming-distribution-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "StreamingDistributionConfig"
+                     :xml-namespace
+                     "http://cloudfront.amazonaws.com/doc/2020-05-31/")))
 (common-lisp:progn
  (common-lisp:defclass update-streaming-distribution-result common-lisp:nil
                        ((streaming-distribution :initarg
@@ -23124,7 +23865,13 @@
                          (aws-sdk/generator/shape::input
                           update-streaming-distribution-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'streaming-distribution)))
+                           'streaming-distribution))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-streaming-distribution-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass viewer-certificate common-lisp:nil
                        ((cloud-front-default-certificate :initarg
@@ -23282,7 +24029,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'target-distribution-id))))
                                                         "AssociateAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'associate-alias))
 (common-lisp:progn
  (common-lisp:defun copy-distribution
@@ -23312,7 +24059,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'primary-distribution-id))))
                                                         "CopyDistribution"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'copy-distribution))
 (common-lisp:progn
  (common-lisp:defun create-cache-policy
@@ -23330,7 +24077,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/2020-05-31/cache-policy"
                                                         "CreateCachePolicy"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-cache-policy))
 (common-lisp:progn
  (common-lisp:defun create-cloud-front-origin-access-identity
@@ -23351,7 +24098,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/2020-05-31/origin-access-identity/cloudfront"
                                                         "CreateCloudFrontOriginAccessIdentity"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-cloud-front-origin-access-identity))
 (common-lisp:progn
  (common-lisp:defun create-continuous-deployment-policy
@@ -23371,7 +24118,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/2020-05-31/continuous-deployment-policy"
                                                         "CreateContinuousDeploymentPolicy"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-continuous-deployment-policy))
 (common-lisp:progn
  (common-lisp:defun create-distribution
@@ -23389,7 +24136,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/2020-05-31/distribution"
                                                         "CreateDistribution"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-distribution))
 (common-lisp:progn
  (common-lisp:defun create-distribution-with-tags
@@ -23408,7 +24155,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/2020-05-31/distribution?WithTags"
                                                         "CreateDistributionWithTags"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-distribution-with-tags))
 (common-lisp:progn
  (common-lisp:defun create-field-level-encryption-config
@@ -23427,7 +24174,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/2020-05-31/field-level-encryption"
                                                         "CreateFieldLevelEncryptionConfig"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-field-level-encryption-config))
 (common-lisp:progn
  (common-lisp:defun create-field-level-encryption-profile
@@ -23447,7 +24194,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/2020-05-31/field-level-encryption-profile"
                                                         "CreateFieldLevelEncryptionProfile"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-field-level-encryption-profile))
 (common-lisp:progn
  (common-lisp:defun create-function
@@ -23466,7 +24213,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/2020-05-31/function"
                                                         "CreateFunction"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-function))
 (common-lisp:progn
  (common-lisp:defun create-invalidation
@@ -23494,7 +24241,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'distribution-id))))
                                                         "CreateInvalidation"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-invalidation))
 (common-lisp:progn
  (common-lisp:defun create-key-group
@@ -23512,7 +24259,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/2020-05-31/key-group"
                                                         "CreateKeyGroup"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-key-group))
 (common-lisp:progn
  (common-lisp:defun create-key-value-store
@@ -23530,7 +24277,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/2020-05-31/key-value-store/"
                                                         "CreateKeyValueStore"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-key-value-store))
 (common-lisp:progn
  (common-lisp:defun create-monitoring-subscription
@@ -23559,7 +24306,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'distribution-id))))
                                                         "CreateMonitoringSubscription"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-monitoring-subscription))
 (common-lisp:progn
  (common-lisp:defun create-origin-access-control
@@ -23578,7 +24325,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/2020-05-31/origin-access-control"
                                                         "CreateOriginAccessControl"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-origin-access-control))
 (common-lisp:progn
  (common-lisp:defun create-origin-request-policy
@@ -23597,7 +24344,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/2020-05-31/origin-request-policy"
                                                         "CreateOriginRequestPolicy"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-origin-request-policy))
 (common-lisp:progn
  (common-lisp:defun create-public-key
@@ -23615,7 +24362,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/2020-05-31/public-key"
                                                         "CreatePublicKey"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-public-key))
 (common-lisp:progn
  (common-lisp:defun create-realtime-log-config
@@ -23635,7 +24382,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/2020-05-31/realtime-log-config"
                                                         "CreateRealtimeLogConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-realtime-log-config))
 (common-lisp:progn
  (common-lisp:defun create-response-headers-policy
@@ -23654,7 +24401,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/2020-05-31/response-headers-policy"
                                                         "CreateResponseHeadersPolicy"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-response-headers-policy))
 (common-lisp:progn
  (common-lisp:defun create-streaming-distribution
@@ -23673,7 +24420,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/2020-05-31/streaming-distribution"
                                                         "CreateStreamingDistribution"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-streaming-distribution))
 (common-lisp:progn
  (common-lisp:defun create-streaming-distribution-with-tags
@@ -23693,7 +24440,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/2020-05-31/streaming-distribution?WithTags"
                                                         "CreateStreamingDistributionWithTags"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-streaming-distribution-with-tags))
 (common-lisp:progn
  (common-lisp:defun delete-cache-policy
@@ -23720,7 +24467,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteCachePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-cache-policy))
 (common-lisp:progn
  (common-lisp:defun delete-cloud-front-origin-access-identity
@@ -23748,7 +24495,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteCloudFrontOriginAccessIdentity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-cloud-front-origin-access-identity))
 (common-lisp:progn
  (common-lisp:defun delete-continuous-deployment-policy
@@ -23776,7 +24523,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteContinuousDeploymentPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-continuous-deployment-policy))
 (common-lisp:progn
  (common-lisp:defun delete-distribution
@@ -23803,7 +24550,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteDistribution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-distribution))
 (common-lisp:progn
  (common-lisp:defun delete-field-level-encryption-config
@@ -23831,7 +24578,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteFieldLevelEncryptionConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-field-level-encryption-config))
 (common-lisp:progn
  (common-lisp:defun delete-field-level-encryption-profile
@@ -23859,7 +24606,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteFieldLevelEncryptionProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-field-level-encryption-profile))
 (common-lisp:progn
  (common-lisp:defun delete-function
@@ -23886,7 +24633,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteFunction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-function))
 (common-lisp:progn
  (common-lisp:defun delete-key-group
@@ -23913,7 +24660,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteKeyGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-key-group))
 (common-lisp:progn
  (common-lisp:defun delete-key-value-store
@@ -23940,7 +24687,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteKeyValueStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-key-value-store))
 (common-lisp:progn
  (common-lisp:defun delete-monitoring-subscription
@@ -23968,7 +24715,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'distribution-id))))
                                                         "DeleteMonitoringSubscription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-monitoring-subscription))
 (common-lisp:progn
  (common-lisp:defun delete-origin-access-control
@@ -23996,7 +24743,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteOriginAccessControl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-origin-access-control))
 (common-lisp:progn
  (common-lisp:defun delete-origin-request-policy
@@ -24024,7 +24771,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteOriginRequestPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-origin-request-policy))
 (common-lisp:progn
  (common-lisp:defun delete-public-key
@@ -24051,7 +24798,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeletePublicKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-public-key))
 (common-lisp:progn
  (common-lisp:defun delete-realtime-log-config
@@ -24070,7 +24817,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/2020-05-31/delete-realtime-log-config/"
                                                         "DeleteRealtimeLogConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-realtime-log-config))
 (common-lisp:progn
  (common-lisp:defun delete-response-headers-policy
@@ -24098,7 +24845,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteResponseHeadersPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-response-headers-policy))
 (common-lisp:progn
  (common-lisp:defun delete-streaming-distribution
@@ -24126,7 +24873,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteStreamingDistribution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-streaming-distribution))
 (common-lisp:progn
  (common-lisp:defun describe-function
@@ -24153,7 +24900,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DescribeFunction"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'describe-function))
 (common-lisp:progn
  (common-lisp:defun describe-key-value-store
@@ -24180,7 +24927,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DescribeKeyValueStore"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'describe-key-value-store))
 (common-lisp:progn
  (common-lisp:defun get-cache-policy
@@ -24207,7 +24954,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetCachePolicy"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-cache-policy))
 (common-lisp:progn
  (common-lisp:defun get-cache-policy-config
@@ -24234,7 +24981,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetCachePolicyConfig"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-cache-policy-config))
 (common-lisp:progn
  (common-lisp:defun get-cloud-front-origin-access-identity
@@ -24262,7 +25009,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetCloudFrontOriginAccessIdentity"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-cloud-front-origin-access-identity))
 (common-lisp:progn
  (common-lisp:defun get-cloud-front-origin-access-identity-config
@@ -24290,7 +25037,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetCloudFrontOriginAccessIdentityConfig"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-cloud-front-origin-access-identity-config))
 (common-lisp:progn
  (common-lisp:defun get-continuous-deployment-policy
@@ -24318,7 +25065,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetContinuousDeploymentPolicy"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-continuous-deployment-policy))
 (common-lisp:progn
  (common-lisp:defun get-continuous-deployment-policy-config
@@ -24346,7 +25093,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetContinuousDeploymentPolicyConfig"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-continuous-deployment-policy-config))
 (common-lisp:progn
  (common-lisp:defun get-distribution
@@ -24373,7 +25120,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetDistribution"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-distribution))
 (common-lisp:progn
  (common-lisp:defun get-distribution-config
@@ -24400,7 +25147,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetDistributionConfig"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-distribution-config))
 (common-lisp:progn
  (common-lisp:defun get-field-level-encryption
@@ -24428,7 +25175,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetFieldLevelEncryption"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-field-level-encryption))
 (common-lisp:progn
  (common-lisp:defun get-field-level-encryption-config
@@ -24456,7 +25203,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetFieldLevelEncryptionConfig"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-field-level-encryption-config))
 (common-lisp:progn
  (common-lisp:defun get-field-level-encryption-profile
@@ -24484,7 +25231,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetFieldLevelEncryptionProfile"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-field-level-encryption-profile))
 (common-lisp:progn
  (common-lisp:defun get-field-level-encryption-profile-config
@@ -24512,7 +25259,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetFieldLevelEncryptionProfileConfig"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-field-level-encryption-profile-config))
 (common-lisp:progn
  (common-lisp:defun get-function
@@ -24540,7 +25287,7 @@ common-lisp:nil
                                                              'name))))
                                                         "GetFunction")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-function))
 (common-lisp:progn
  (common-lisp:defun get-invalidation
@@ -24571,7 +25318,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetInvalidation"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-invalidation))
 (common-lisp:progn
  (common-lisp:defun get-key-group
@@ -24598,7 +25345,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetKeyGroup"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-key-group))
 (common-lisp:progn
  (common-lisp:defun get-key-group-config
@@ -24625,7 +25372,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetKeyGroupConfig"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-key-group-config))
 (common-lisp:progn
  (common-lisp:defun get-monitoring-subscription
@@ -24653,7 +25400,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'distribution-id))))
                                                         "GetMonitoringSubscription"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-monitoring-subscription))
 (common-lisp:progn
  (common-lisp:defun get-origin-access-control
@@ -24681,7 +25428,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetOriginAccessControl"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-origin-access-control))
 (common-lisp:progn
  (common-lisp:defun get-origin-access-control-config
@@ -24709,7 +25456,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetOriginAccessControlConfig"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-origin-access-control-config))
 (common-lisp:progn
  (common-lisp:defun get-origin-request-policy
@@ -24737,7 +25484,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetOriginRequestPolicy"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-origin-request-policy))
 (common-lisp:progn
  (common-lisp:defun get-origin-request-policy-config
@@ -24765,7 +25512,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetOriginRequestPolicyConfig"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-origin-request-policy-config))
 (common-lisp:progn
  (common-lisp:defun get-public-key
@@ -24792,7 +25539,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetPublicKey"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-public-key))
 (common-lisp:progn
  (common-lisp:defun get-public-key-config
@@ -24819,7 +25566,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetPublicKeyConfig"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-public-key-config))
 (common-lisp:progn
  (common-lisp:defun get-realtime-log-config
@@ -24837,7 +25584,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/2020-05-31/get-realtime-log-config/"
                                                         "GetRealtimeLogConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-realtime-log-config))
 (common-lisp:progn
  (common-lisp:defun get-response-headers-policy
@@ -24865,7 +25612,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetResponseHeadersPolicy"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-response-headers-policy))
 (common-lisp:progn
  (common-lisp:defun get-response-headers-policy-config
@@ -24893,7 +25640,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetResponseHeadersPolicyConfig"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-response-headers-policy-config))
 (common-lisp:progn
  (common-lisp:defun get-streaming-distribution
@@ -24921,7 +25668,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetStreamingDistribution"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-streaming-distribution))
 (common-lisp:progn
  (common-lisp:defun get-streaming-distribution-config
@@ -24949,7 +25696,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetStreamingDistributionConfig"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-streaming-distribution-config))
 (common-lisp:progn
  (common-lisp:defun list-cache-policies
@@ -24967,7 +25714,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/2020-05-31/cache-policy"
                                                         "ListCachePolicies"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-cache-policies))
 (common-lisp:progn
  (common-lisp:defun list-cloud-front-origin-access-identities
@@ -24986,7 +25733,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/2020-05-31/origin-access-identity/cloudfront"
                                                         "ListCloudFrontOriginAccessIdentities"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-cloud-front-origin-access-identities))
 (common-lisp:progn
  (common-lisp:defun list-conflicting-aliases
@@ -25005,7 +25752,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/2020-05-31/conflicting-alias"
                                                         "ListConflictingAliases"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-conflicting-aliases))
 (common-lisp:progn
  (common-lisp:defun list-continuous-deployment-policies
@@ -25024,7 +25771,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/2020-05-31/continuous-deployment-policy"
                                                         "ListContinuousDeploymentPolicies"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-continuous-deployment-policies))
 (common-lisp:progn
  (common-lisp:defun list-distributions
@@ -25042,7 +25789,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/2020-05-31/distribution"
                                                         "ListDistributions"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-distributions))
 (common-lisp:progn
  (common-lisp:defun list-distributions-by-cache-policy-id
@@ -25071,7 +25818,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'cache-policy-id))))
                                                         "ListDistributionsByCachePolicyId"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-distributions-by-cache-policy-id))
 (common-lisp:progn
  (common-lisp:defun list-distributions-by-key-group
@@ -25099,7 +25846,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'key-group-id))))
                                                         "ListDistributionsByKeyGroup"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-distributions-by-key-group))
 (common-lisp:progn
  (common-lisp:defun list-distributions-by-origin-request-policy-id
@@ -25129,7 +25876,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'origin-request-policy-id))))
                                                         "ListDistributionsByOriginRequestPolicyId"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-distributions-by-origin-request-policy-id))
 (common-lisp:progn
  (common-lisp:defun list-distributions-by-realtime-log-config
@@ -25151,7 +25898,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/2020-05-31/distributionsByRealtimeLogConfig/"
                                                         "ListDistributionsByRealtimeLogConfig"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-distributions-by-realtime-log-config))
 (common-lisp:progn
  (common-lisp:defun list-distributions-by-response-headers-policy-id
@@ -25181,7 +25928,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'response-headers-policy-id))))
                                                         "ListDistributionsByResponseHeadersPolicyId"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-distributions-by-response-headers-policy-id))
 (common-lisp:progn
  (common-lisp:defun list-distributions-by-web-aclid
@@ -25209,7 +25956,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'web-aclid))))
                                                         "ListDistributionsByWebACLId"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-distributions-by-web-aclid))
 (common-lisp:progn
  (common-lisp:defun list-field-level-encryption-configs
@@ -25228,7 +25975,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/2020-05-31/field-level-encryption"
                                                         "ListFieldLevelEncryptionConfigs"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-field-level-encryption-configs))
 (common-lisp:progn
  (common-lisp:defun list-field-level-encryption-profiles
@@ -25247,7 +25994,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/2020-05-31/field-level-encryption-profile"
                                                         "ListFieldLevelEncryptionProfiles"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-field-level-encryption-profiles))
 (common-lisp:progn
  (common-lisp:defun list-functions
@@ -25265,7 +26012,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/2020-05-31/function"
                                                         "ListFunctions"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-functions))
 (common-lisp:progn
  (common-lisp:defun list-invalidations
@@ -25293,7 +26040,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'distribution-id))))
                                                         "ListInvalidations"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-invalidations))
 (common-lisp:progn
  (common-lisp:defun list-key-groups
@@ -25311,7 +26058,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/2020-05-31/key-group"
                                                         "ListKeyGroups"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-key-groups))
 (common-lisp:progn
  (common-lisp:defun list-key-value-stores
@@ -25329,7 +26076,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/2020-05-31/key-value-store"
                                                         "ListKeyValueStores"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-key-value-stores))
 (common-lisp:progn
  (common-lisp:defun list-origin-access-controls
@@ -25348,7 +26095,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/2020-05-31/origin-access-control"
                                                         "ListOriginAccessControls"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-origin-access-controls))
 (common-lisp:progn
  (common-lisp:defun list-origin-request-policies
@@ -25367,7 +26114,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/2020-05-31/origin-request-policy"
                                                         "ListOriginRequestPolicies"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-origin-request-policies))
 (common-lisp:progn
  (common-lisp:defun list-public-keys
@@ -25385,7 +26132,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/2020-05-31/public-key"
                                                         "ListPublicKeys"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-public-keys))
 (common-lisp:progn
  (common-lisp:defun list-realtime-log-configs
@@ -25404,7 +26151,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/2020-05-31/realtime-log-config"
                                                         "ListRealtimeLogConfigs"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-realtime-log-configs))
 (common-lisp:progn
  (common-lisp:defun list-response-headers-policies
@@ -25423,7 +26170,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/2020-05-31/response-headers-policy"
                                                         "ListResponseHeadersPolicies"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-response-headers-policies))
 (common-lisp:progn
  (common-lisp:defun list-streaming-distributions
@@ -25442,7 +26189,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/2020-05-31/streaming-distribution"
                                                         "ListStreamingDistributions"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-streaming-distributions))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -25460,7 +26207,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/2020-05-31/tagging"
                                                         "ListTagsForResource"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun publish-function
@@ -25487,7 +26234,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "PublishFunction"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'publish-function))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -25505,7 +26252,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/2020-05-31/tagging?Operation=Tag"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun test-function
@@ -25533,7 +26280,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "TestFunction"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'test-function))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -25551,7 +26298,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/2020-05-31/tagging?Operation=Untag"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-cache-policy
@@ -25579,7 +26326,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateCachePolicy"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-cache-policy))
 (common-lisp:progn
  (common-lisp:defun update-cloud-front-origin-access-identity
@@ -25610,7 +26357,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateCloudFrontOriginAccessIdentity"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-cloud-front-origin-access-identity))
 (common-lisp:progn
  (common-lisp:defun update-continuous-deployment-policy
@@ -25640,7 +26387,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateContinuousDeploymentPolicy"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-continuous-deployment-policy))
 (common-lisp:progn
  (common-lisp:defun update-distribution
@@ -25668,7 +26415,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateDistribution"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-distribution))
 (common-lisp:progn
  (common-lisp:defun update-distribution-with-staging-config
@@ -25697,7 +26444,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateDistributionWithStagingConfig"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-distribution-with-staging-config))
 (common-lisp:progn
  (common-lisp:defun update-field-level-encryption-config
@@ -25727,7 +26474,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateFieldLevelEncryptionConfig"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-field-level-encryption-config))
 (common-lisp:progn
  (common-lisp:defun update-field-level-encryption-profile
@@ -25757,7 +26504,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateFieldLevelEncryptionProfile"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-field-level-encryption-profile))
 (common-lisp:progn
  (common-lisp:defun update-function
@@ -25786,7 +26533,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateFunction"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-function))
 (common-lisp:progn
  (common-lisp:defun update-key-group
@@ -25813,7 +26560,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateKeyGroup"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-key-group))
 (common-lisp:progn
  (common-lisp:defun update-key-value-store
@@ -25840,7 +26587,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateKeyValueStore"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-key-value-store))
 (common-lisp:progn
  (common-lisp:defun update-origin-access-control
@@ -25869,7 +26616,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateOriginAccessControl"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-origin-access-control))
 (common-lisp:progn
  (common-lisp:defun update-origin-request-policy
@@ -25898,7 +26645,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateOriginRequestPolicy"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-origin-request-policy))
 (common-lisp:progn
  (common-lisp:defun update-public-key
@@ -25925,7 +26672,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdatePublicKey"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-public-key))
 (common-lisp:progn
  (common-lisp:defun update-realtime-log-config
@@ -25945,7 +26692,7 @@ common-lisp:nil
                                                         "PUT"
                                                         "/2020-05-31/realtime-log-config/"
                                                         "UpdateRealtimeLogConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-realtime-log-config))
 (common-lisp:progn
  (common-lisp:defun update-response-headers-policy
@@ -25975,7 +26722,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateResponseHeadersPolicy"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-response-headers-policy))
 (common-lisp:progn
  (common-lisp:defun update-streaming-distribution
@@ -26005,5 +26752,5 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateStreamingDistribution"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-streaming-distribution))

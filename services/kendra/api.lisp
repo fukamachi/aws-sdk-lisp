@@ -22911,7 +22911,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateEntitiesToExperience"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-entities-to-experience))
 (common-lisp:progn
  (common-lisp:defun associate-personas-to-entities
@@ -22929,7 +22929,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociatePersonasToEntities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-personas-to-entities))
 (common-lisp:progn
  (common-lisp:defun batch-delete-document
@@ -22949,7 +22949,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchDeleteDocument"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-delete-document))
 (common-lisp:progn
  (common-lisp:defun batch-delete-featured-results-set
@@ -22968,7 +22968,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchDeleteFeaturedResultsSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-delete-featured-results-set))
 (common-lisp:progn
  (common-lisp:defun batch-get-document-status
@@ -22986,7 +22986,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchGetDocumentStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-document-status))
 (common-lisp:progn
  (common-lisp:defun batch-put-document
@@ -23006,7 +23006,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchPutDocument"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-put-document))
 (common-lisp:progn
  (common-lisp:defun clear-query-suggestions
@@ -23023,7 +23023,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ClearQuerySuggestions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'clear-query-suggestions))
 (common-lisp:progn
  (common-lisp:defun create-access-control-configuration
@@ -23045,7 +23045,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateAccessControlConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-access-control-configuration))
 (common-lisp:progn
  (common-lisp:defun create-data-source
@@ -23068,7 +23068,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDataSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-data-source))
 (common-lisp:progn
  (common-lisp:defun create-experience
@@ -23088,7 +23088,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateExperience"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-experience))
 (common-lisp:progn
  (common-lisp:defun create-faq
@@ -23108,7 +23108,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateFaq"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-faq))
 (common-lisp:progn
  (common-lisp:defun create-featured-results-set
@@ -23130,7 +23130,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateFeaturedResultsSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-featured-results-set))
 (common-lisp:progn
  (common-lisp:defun create-index
@@ -23153,7 +23153,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateIndex"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-index))
 (common-lisp:progn
  (common-lisp:defun create-query-suggestions-block-list
@@ -23174,7 +23174,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateQuerySuggestionsBlockList"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-query-suggestions-block-list))
 (common-lisp:progn
  (common-lisp:defun create-thesaurus
@@ -23194,7 +23194,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateThesaurus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-thesaurus))
 (common-lisp:progn
  (common-lisp:defun delete-access-control-configuration
@@ -23212,7 +23212,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAccessControlConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-access-control-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-data-source
@@ -23229,7 +23229,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDataSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-data-source))
 (common-lisp:progn
  (common-lisp:defun delete-experience
@@ -23246,7 +23246,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteExperience"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-experience))
 (common-lisp:progn
  (common-lisp:defun delete-faq
@@ -23263,7 +23263,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteFaq"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-faq))
 (common-lisp:progn
  (common-lisp:defun delete-index
@@ -23280,7 +23280,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteIndex"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-index))
 (common-lisp:progn
  (common-lisp:defun delete-principal-mapping
@@ -23299,7 +23299,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeletePrincipalMapping"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-principal-mapping))
 (common-lisp:progn
  (common-lisp:defun delete-query-suggestions-block-list
@@ -23317,7 +23317,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteQuerySuggestionsBlockList"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-query-suggestions-block-list))
 (common-lisp:progn
  (common-lisp:defun delete-thesaurus
@@ -23334,7 +23334,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteThesaurus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-thesaurus))
 (common-lisp:progn
  (common-lisp:defun describe-access-control-configuration
@@ -23352,7 +23352,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAccessControlConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-access-control-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-data-source
@@ -23369,7 +23369,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDataSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-data-source))
 (common-lisp:progn
  (common-lisp:defun describe-experience
@@ -23386,7 +23386,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeExperience"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-experience))
 (common-lisp:progn
  (common-lisp:defun describe-faq
@@ -23403,7 +23403,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeFaq"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-faq))
 (common-lisp:progn
  (common-lisp:defun describe-featured-results-set
@@ -23422,7 +23422,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeFeaturedResultsSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-featured-results-set))
 (common-lisp:progn
  (common-lisp:defun describe-index
@@ -23439,7 +23439,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeIndex"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-index))
 (common-lisp:progn
  (common-lisp:defun describe-principal-mapping
@@ -23458,7 +23458,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribePrincipalMapping"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-principal-mapping))
 (common-lisp:progn
  (common-lisp:defun describe-query-suggestions-block-list
@@ -23476,7 +23476,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeQuerySuggestionsBlockList"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-query-suggestions-block-list))
 (common-lisp:progn
  (common-lisp:defun describe-query-suggestions-config
@@ -23494,7 +23494,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeQuerySuggestionsConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-query-suggestions-config))
 (common-lisp:progn
  (common-lisp:defun describe-thesaurus
@@ -23511,7 +23511,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeThesaurus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-thesaurus))
 (common-lisp:progn
  (common-lisp:defun disassociate-entities-from-experience
@@ -23529,7 +23529,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateEntitiesFromExperience"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-entities-from-experience))
 (common-lisp:progn
  (common-lisp:defun disassociate-personas-from-entities
@@ -23547,7 +23547,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociatePersonasFromEntities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-personas-from-entities))
 (common-lisp:progn
  (common-lisp:defun get-query-suggestions
@@ -23567,7 +23567,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetQuerySuggestions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-query-suggestions))
 (common-lisp:progn
  (common-lisp:defun get-snapshots
@@ -23587,7 +23587,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetSnapshots"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-snapshots))
 (common-lisp:progn
  (common-lisp:defun list-access-control-configurations
@@ -23606,7 +23606,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAccessControlConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-access-control-configurations))
 (common-lisp:progn
  (common-lisp:defun list-data-source-sync-jobs
@@ -23627,7 +23627,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDataSourceSyncJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-data-source-sync-jobs))
 (common-lisp:progn
  (common-lisp:defun list-data-sources
@@ -23645,7 +23645,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDataSources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-data-sources))
 (common-lisp:progn
  (common-lisp:defun list-entity-personas
@@ -23663,7 +23663,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListEntityPersonas"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-entity-personas))
 (common-lisp:progn
  (common-lisp:defun list-experience-entities
@@ -23680,7 +23680,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListExperienceEntities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-experience-entities))
 (common-lisp:progn
  (common-lisp:defun list-experiences
@@ -23698,7 +23698,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListExperiences"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-experiences))
 (common-lisp:progn
  (common-lisp:defun list-faqs
@@ -23715,7 +23715,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'kendra-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "ListFaqs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-faqs))
 (common-lisp:progn
  (common-lisp:defun list-featured-results-sets
@@ -23734,7 +23734,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListFeaturedResultsSets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-featured-results-sets))
 (common-lisp:progn
  (common-lisp:defun list-groups-older-than-ordering-id
@@ -23755,7 +23755,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListGroupsOlderThanOrderingId"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-groups-older-than-ordering-id))
 (common-lisp:progn
  (common-lisp:defun list-indices
@@ -23772,7 +23772,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListIndices"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-indices))
 (common-lisp:progn
  (common-lisp:defun list-query-suggestions-block-lists
@@ -23791,7 +23791,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListQuerySuggestionsBlockLists"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-query-suggestions-block-lists))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -23808,7 +23808,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-thesauri
@@ -23826,7 +23826,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListThesauri"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-thesauri))
 (common-lisp:progn
  (common-lisp:defun put-principal-mapping
@@ -23846,7 +23846,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutPrincipalMapping"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-principal-mapping))
 (common-lisp:progn
  (common-lisp:defun query
@@ -23872,7 +23872,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'kendra-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "Query"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'query))
 (common-lisp:progn
  (common-lisp:defun retrieve
@@ -23894,7 +23894,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'kendra-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "Retrieve"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'retrieve))
 (common-lisp:progn
  (common-lisp:defun start-data-source-sync-job
@@ -23912,7 +23912,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartDataSourceSyncJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-data-source-sync-job))
 (common-lisp:progn
  (common-lisp:defun stop-data-source-sync-job
@@ -23930,7 +23930,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopDataSourceSyncJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-data-source-sync-job))
 (common-lisp:progn
  (common-lisp:defun submit-feedback
@@ -23950,7 +23950,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SubmitFeedback"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'submit-feedback))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -23967,7 +23967,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -23984,7 +23984,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-access-control-configuration
@@ -24005,7 +24005,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateAccessControlConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-access-control-configuration))
 (common-lisp:progn
  (common-lisp:defun update-data-source
@@ -24028,7 +24028,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateDataSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-data-source))
 (common-lisp:progn
  (common-lisp:defun update-experience
@@ -24048,7 +24048,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateExperience"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-experience))
 (common-lisp:progn
  (common-lisp:defun update-featured-results-set
@@ -24071,7 +24071,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateFeaturedResultsSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-featured-results-set))
 (common-lisp:progn
  (common-lisp:defun update-index
@@ -24095,7 +24095,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateIndex"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-index))
 (common-lisp:progn
  (common-lisp:defun update-query-suggestions-block-list
@@ -24116,7 +24116,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateQuerySuggestionsBlockList"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-query-suggestions-block-list))
 (common-lisp:progn
  (common-lisp:defun update-query-suggestions-config
@@ -24141,7 +24141,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateQuerySuggestionsConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-query-suggestions-config))
 (common-lisp:progn
  (common-lisp:defun update-thesaurus
@@ -24161,5 +24161,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateThesaurus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-thesaurus))

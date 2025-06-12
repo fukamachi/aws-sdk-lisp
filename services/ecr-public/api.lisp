@@ -4263,7 +4263,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchCheckLayerAvailability"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-check-layer-availability))
 (common-lisp:progn
  (common-lisp:defun batch-delete-image
@@ -4281,7 +4281,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchDeleteImage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-delete-image))
 (common-lisp:progn
  (common-lisp:defun complete-layer-upload
@@ -4301,7 +4301,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CompleteLayerUpload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'complete-layer-upload))
 (common-lisp:progn
  (common-lisp:defun create-repository
@@ -4319,7 +4319,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateRepository"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-repository))
 (common-lisp:progn
  (common-lisp:defun delete-repository
@@ -4337,7 +4337,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteRepository"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-repository))
 (common-lisp:progn
  (common-lisp:defun delete-repository-policy
@@ -4354,7 +4354,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteRepositoryPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-repository-policy))
 (common-lisp:progn
  (common-lisp:defun describe-image-tags
@@ -4373,7 +4373,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeImageTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-image-tags))
 (common-lisp:progn
  (common-lisp:defun describe-images
@@ -4393,7 +4393,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeImages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-images))
 (common-lisp:progn
  (common-lisp:defun describe-registries
@@ -4410,7 +4410,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeRegistries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-registries))
 (common-lisp:progn
  (common-lisp:defun describe-repositories
@@ -4430,7 +4430,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeRepositories"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-repositories))
 (common-lisp:progn
  (common-lisp:defun get-authorization-token ()
@@ -4464,7 +4464,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetRepositoryCatalogData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-repository-catalog-data))
 (common-lisp:progn
  (common-lisp:defun get-repository-policy
@@ -4481,7 +4481,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetRepositoryPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-repository-policy))
 (common-lisp:progn
  (common-lisp:defun initiate-layer-upload
@@ -4498,7 +4498,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "InitiateLayerUpload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'initiate-layer-upload))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -4515,7 +4515,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-image
@@ -4535,7 +4535,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'ecr-public-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "PutImage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-image))
 (common-lisp:progn
  (common-lisp:defun put-registry-catalog-data
@@ -4553,7 +4553,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutRegistryCatalogData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-registry-catalog-data))
 (common-lisp:progn
  (common-lisp:defun put-repository-catalog-data
@@ -4572,7 +4572,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutRepositoryCatalogData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-repository-catalog-data))
 (common-lisp:progn
  (common-lisp:defun set-repository-policy
@@ -4591,7 +4591,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetRepositoryPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'set-repository-policy))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4608,7 +4608,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4625,7 +4625,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun upload-layer-part
@@ -4645,5 +4645,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UploadLayerPart"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'upload-layer-part))

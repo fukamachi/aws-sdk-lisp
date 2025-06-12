@@ -1252,7 +1252,7 @@
                                                         "POST"
                                                         "/deleteAlternateContact"
                                                         "DeleteAlternateContact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-alternate-contact))
 (common-lisp:progn
  (common-lisp:defun disable-region
@@ -1269,7 +1269,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/disableRegion"
                                                         "DisableRegion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disable-region))
 (common-lisp:progn
  (common-lisp:defun enable-region
@@ -1286,7 +1286,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/enableRegion"
                                                         "EnableRegion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-region))
 (common-lisp:progn
  (common-lisp:defun get-alternate-contact
@@ -1305,7 +1305,7 @@
                                                         "POST"
                                                         "/getAlternateContact"
                                                         "GetAlternateContact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-alternate-contact))
 (common-lisp:progn
  (common-lisp:defun get-contact-information
@@ -1323,7 +1323,7 @@
                                                         "POST"
                                                         "/getContactInformation"
                                                         "GetContactInformation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-contact-information))
 (common-lisp:progn
  (common-lisp:defun get-region-opt-status
@@ -1341,7 +1341,7 @@
                                                         "POST"
                                                         "/getRegionOptStatus"
                                                         "GetRegionOptStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-region-opt-status))
 (common-lisp:progn
  (common-lisp:defun list-regions
@@ -1361,7 +1361,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/listRegions"
                                                         "ListRegions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-regions))
 (common-lisp:progn
  (common-lisp:defun put-alternate-contact
@@ -1382,7 +1382,7 @@
                                                         "POST"
                                                         "/putAlternateContact"
                                                         "PutAlternateContact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-alternate-contact))
 (common-lisp:progn
  (common-lisp:defun put-contact-information
@@ -1400,5 +1400,5 @@
                                                         "POST"
                                                         "/putContactInformation"
                                                         "PutContactInformation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-contact-information))

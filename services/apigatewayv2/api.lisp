@@ -7039,7 +7039,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input export-api-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input export-api-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:deftype exported-api ()
   '(common-lisp:simple-array (common-lisp:unsigned-byte 8) (common-lisp:*)))
 (common-lisp:progn
@@ -18270,7 +18274,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v2/apis"
                                                         "CreateApi"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-api))
 (common-lisp:progn
  (common-lisp:defun create-api-mapping
@@ -18298,7 +18302,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "CreateApiMapping"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-api-mapping))
 (common-lisp:progn
  (common-lisp:defun create-authorizer
@@ -18333,7 +18337,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "CreateAuthorizer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-authorizer))
 (common-lisp:progn
  (common-lisp:defun create-deployment
@@ -18360,7 +18364,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "CreateDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-deployment))
 (common-lisp:progn
  (common-lisp:defun create-domain-name
@@ -18381,7 +18385,7 @@
                                                         "POST"
                                                         "/v2/domainnames"
                                                         "CreateDomainName"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-domain-name))
 (common-lisp:progn
  (common-lisp:defun create-integration
@@ -18421,7 +18425,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "CreateIntegration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-integration))
 (common-lisp:progn
  (common-lisp:defun create-integration-response
@@ -18459,7 +18463,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'integration-id))))
                                                         "CreateIntegrationResponse"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-integration-response))
 (common-lisp:progn
  (common-lisp:defun create-model
@@ -18488,7 +18492,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "CreateModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-model))
 (common-lisp:progn
  (common-lisp:defun create-route
@@ -18523,7 +18527,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "CreateRoute"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-route))
 (common-lisp:progn
  (common-lisp:defun create-route-response
@@ -18558,7 +18562,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'route-id))))
                                                         "CreateRouteResponse"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-route-response))
 (common-lisp:progn
  (common-lisp:defun create-stage
@@ -18591,7 +18595,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "CreateStage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-stage))
 (common-lisp:progn
  (common-lisp:defun create-vpc-link
@@ -18609,7 +18613,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v2/vpclinks"
                                                         "CreateVpcLink"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-vpc-link))
 (common-lisp:progn
  (common-lisp:defun delete-access-log-settings
@@ -18641,7 +18645,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'stage-name))))
                                                         "DeleteAccessLogSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-access-log-settings))
 (common-lisp:progn
  (common-lisp:defun delete-api
@@ -18668,7 +18672,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "DeleteApi"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-api))
 (common-lisp:progn
  (common-lisp:defun delete-api-mapping
@@ -18699,7 +18703,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-mapping-id))))
                                                         "DeleteApiMapping"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-api-mapping))
 (common-lisp:progn
  (common-lisp:defun delete-authorizer
@@ -18730,7 +18734,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'authorizer-id))))
                                                         "DeleteAuthorizer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-authorizer))
 (common-lisp:progn
  (common-lisp:defun delete-cors-configuration
@@ -18758,7 +18762,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "DeleteCorsConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-cors-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-deployment
@@ -18789,7 +18793,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'deployment-id))))
                                                         "DeleteDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-deployment))
 (common-lisp:progn
  (common-lisp:defun delete-domain-name
@@ -18816,7 +18820,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "DeleteDomainName"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-domain-name))
 (common-lisp:progn
  (common-lisp:defun delete-integration
@@ -18847,7 +18851,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'integration-id))))
                                                         "DeleteIntegration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-integration))
 (common-lisp:progn
  (common-lisp:defun delete-integration-response
@@ -18885,7 +18889,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'integration-response-id))))
                                                         "DeleteIntegrationResponse"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-integration-response))
 (common-lisp:progn
  (common-lisp:defun delete-model
@@ -18916,7 +18920,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'model-id))))
                                                         "DeleteModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-model))
 (common-lisp:progn
  (common-lisp:defun delete-route
@@ -18947,7 +18951,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'route-id))))
                                                         "DeleteRoute"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-route))
 (common-lisp:progn
  (common-lisp:defun delete-route-request-parameter
@@ -18984,7 +18988,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'request-parameter-key))))
                                                         "DeleteRouteRequestParameter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-route-request-parameter))
 (common-lisp:progn
  (common-lisp:defun delete-route-response
@@ -19020,7 +19024,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'route-response-id))))
                                                         "DeleteRouteResponse"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-route-response))
 (common-lisp:progn
  (common-lisp:defun delete-route-settings
@@ -19055,7 +19059,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'route-key))))
                                                         "DeleteRouteSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-route-settings))
 (common-lisp:progn
  (common-lisp:defun delete-stage
@@ -19086,7 +19090,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'stage-name))))
                                                         "DeleteStage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-stage))
 (common-lisp:progn
  (common-lisp:defun delete-vpc-link
@@ -19113,7 +19117,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'vpc-link-id))))
                                                         "DeleteVpcLink"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-vpc-link))
 (common-lisp:progn
  (common-lisp:defun export-api
@@ -19148,7 +19152,7 @@
                                                              'specification))))
                                                         "ExportApi")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'export-api))
 (common-lisp:progn
  (common-lisp:defun reset-authorizers-cache
@@ -19179,7 +19183,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'stage-name))))
                                                         "ResetAuthorizersCache"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reset-authorizers-cache))
 (common-lisp:progn
  (common-lisp:defun get-api
@@ -19206,7 +19210,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "GetApi"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-api))
 (common-lisp:progn
  (common-lisp:defun get-api-mapping
@@ -19237,7 +19241,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-mapping-id))))
                                                         "GetApiMapping"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-api-mapping))
 (common-lisp:progn
  (common-lisp:defun get-api-mappings
@@ -19265,7 +19269,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "GetApiMappings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-api-mappings))
 (common-lisp:progn
  (common-lisp:defun get-apis
@@ -19282,7 +19286,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v2/apis"
                                                         "GetApis"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-apis))
 (common-lisp:progn
  (common-lisp:defun get-authorizer
@@ -19313,7 +19317,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'authorizer-id))))
                                                         "GetAuthorizer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-authorizer))
 (common-lisp:progn
  (common-lisp:defun get-authorizers
@@ -19340,7 +19344,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "GetAuthorizers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-authorizers))
 (common-lisp:progn
  (common-lisp:defun get-deployment
@@ -19371,7 +19375,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'deployment-id))))
                                                         "GetDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-deployment))
 (common-lisp:progn
  (common-lisp:defun get-deployments
@@ -19398,7 +19402,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "GetDeployments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-deployments))
 (common-lisp:progn
  (common-lisp:defun get-domain-name
@@ -19425,7 +19429,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "GetDomainName"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-domain-name))
 (common-lisp:progn
  (common-lisp:defun get-domain-names
@@ -19442,7 +19446,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v2/domainnames"
                                                         "GetDomainNames"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-domain-names))
 (common-lisp:progn
  (common-lisp:defun get-integration
@@ -19473,7 +19477,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'integration-id))))
                                                         "GetIntegration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-integration))
 (common-lisp:progn
  (common-lisp:defun get-integration-response
@@ -19510,7 +19514,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'integration-response-id))))
                                                         "GetIntegrationResponse"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-integration-response))
 (common-lisp:progn
  (common-lisp:defun get-integration-responses
@@ -19544,7 +19548,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'integration-id))))
                                                         "GetIntegrationResponses"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-integration-responses))
 (common-lisp:progn
  (common-lisp:defun get-integrations
@@ -19571,7 +19575,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "GetIntegrations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-integrations))
 (common-lisp:progn
  (common-lisp:defun get-model
@@ -19602,7 +19606,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'model-id))))
                                                         "GetModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-model))
 (common-lisp:progn
  (common-lisp:defun get-model-template
@@ -19633,7 +19637,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'model-id))))
                                                         "GetModelTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-model-template))
 (common-lisp:progn
  (common-lisp:defun get-models
@@ -19660,7 +19664,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "GetModels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-models))
 (common-lisp:progn
  (common-lisp:defun get-route
@@ -19691,7 +19695,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'route-id))))
                                                         "GetRoute"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-route))
 (common-lisp:progn
  (common-lisp:defun get-route-response
@@ -19727,7 +19731,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'route-response-id))))
                                                         "GetRouteResponse"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-route-response))
 (common-lisp:progn
  (common-lisp:defun get-route-responses
@@ -19759,7 +19763,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'route-id))))
                                                         "GetRouteResponses"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-route-responses))
 (common-lisp:progn
  (common-lisp:defun get-routes
@@ -19786,7 +19790,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "GetRoutes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-routes))
 (common-lisp:progn
  (common-lisp:defun get-stage
@@ -19817,7 +19821,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'stage-name))))
                                                         "GetStage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-stage))
 (common-lisp:progn
  (common-lisp:defun get-stages
@@ -19844,7 +19848,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "GetStages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-stages))
 (common-lisp:progn
  (common-lisp:defun get-tags
@@ -19871,7 +19875,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "GetTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-tags))
 (common-lisp:progn
  (common-lisp:defun get-vpc-link
@@ -19898,7 +19902,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'vpc-link-id))))
                                                         "GetVpcLink"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-vpc-link))
 (common-lisp:progn
  (common-lisp:defun get-vpc-links
@@ -19915,7 +19919,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v2/vpclinks"
                                                         "GetVpcLinks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-vpc-links))
 (common-lisp:progn
  (common-lisp:defun import-api
@@ -19932,7 +19936,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/v2/apis"
                                                         "ImportApi"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-api))
 (common-lisp:progn
  (common-lisp:defun reimport-api
@@ -19960,7 +19964,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "ReimportApi"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reimport-api))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -19987,7 +19991,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -20014,7 +20018,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-api
@@ -20048,7 +20052,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-id))))
                                                         "UpdateApi"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-api))
 (common-lisp:progn
  (common-lisp:defun update-api-mapping
@@ -20082,7 +20086,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'api-mapping-id))))
                                                         "UpdateApiMapping"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-api-mapping))
 (common-lisp:progn
  (common-lisp:defun update-authorizer
@@ -20121,7 +20125,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'authorizer-id))))
                                                         "UpdateAuthorizer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-authorizer))
 (common-lisp:progn
  (common-lisp:defun update-deployment
@@ -20153,7 +20157,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'deployment-id))))
                                                         "UpdateDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-deployment))
 (common-lisp:progn
  (common-lisp:defun update-domain-name
@@ -20183,7 +20187,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'domain-name))))
                                                         "UpdateDomainName"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-domain-name))
 (common-lisp:progn
  (common-lisp:defun update-integration
@@ -20227,7 +20231,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'integration-id))))
                                                         "UpdateIntegration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-integration))
 (common-lisp:progn
  (common-lisp:defun update-integration-response
@@ -20269,7 +20273,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'integration-response-id))))
                                                         "UpdateIntegrationResponse"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-integration-response))
 (common-lisp:progn
  (common-lisp:defun update-model
@@ -20303,7 +20307,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'model-id))))
                                                         "UpdateModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-model))
 (common-lisp:progn
  (common-lisp:defun update-route
@@ -20342,7 +20346,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'route-id))))
                                                         "UpdateRoute"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-route))
 (common-lisp:progn
  (common-lisp:defun update-route-response
@@ -20381,7 +20385,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'route-response-id))))
                                                         "UpdateRouteResponse"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-route-response))
 (common-lisp:progn
  (common-lisp:defun update-stage
@@ -20417,7 +20421,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'stage-name))))
                                                         "UpdateStage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-stage))
 (common-lisp:progn
  (common-lisp:defun update-vpc-link
@@ -20444,5 +20448,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'vpc-link-id))))
                                                         "UpdateVpcLink"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-vpc-link))

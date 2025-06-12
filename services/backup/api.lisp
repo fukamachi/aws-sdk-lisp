@@ -16867,7 +16867,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'legal-hold-id))))
                                                         "CancelLegalHold"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-legal-hold))
 (common-lisp:progn
  (common-lisp:defun create-backup-plan
@@ -16886,7 +16886,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/backup/plans/"
                                                         "CreateBackupPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-backup-plan))
 (common-lisp:progn
  (common-lisp:defun create-backup-selection
@@ -16915,7 +16915,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'backup-plan-id))))
                                                         "CreateBackupSelection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-backup-selection))
 (common-lisp:progn
  (common-lisp:defun create-backup-vault
@@ -16945,7 +16945,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'backup-vault-name))))
                                                         "CreateBackupVault"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-backup-vault))
 (common-lisp:progn
  (common-lisp:defun create-framework
@@ -16966,7 +16966,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/audit/frameworks"
                                                         "CreateFramework"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-framework))
 (common-lisp:progn
  (common-lisp:defun create-legal-hold
@@ -16986,7 +16986,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/legal-holds/"
                                                         "CreateLegalHold"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-legal-hold))
 (common-lisp:progn
  (common-lisp:defun create-logically-air-gapped-backup-vault
@@ -17017,7 +17017,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'backup-vault-name))))
                                                         "CreateLogicallyAirGappedBackupVault"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-logically-air-gapped-backup-vault))
 (common-lisp:progn
  (common-lisp:defun create-report-plan
@@ -17040,7 +17040,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/audit/report-plans"
                                                         "CreateReportPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-report-plan))
 (common-lisp:progn
  (common-lisp:defun create-restore-testing-plan
@@ -17061,7 +17061,7 @@ common-lisp:nil
                                                         "PUT"
                                                         "/restore-testing/plans"
                                                         "CreateRestoreTestingPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-restore-testing-plan))
 (common-lisp:progn
  (common-lisp:defun create-restore-testing-selection
@@ -17092,7 +17092,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'restore-testing-plan-name))))
                                                         "CreateRestoreTestingSelection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-restore-testing-selection))
 (common-lisp:progn
  (common-lisp:defun delete-backup-plan
@@ -17119,7 +17119,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'backup-plan-id))))
                                                         "DeleteBackupPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-backup-plan))
 (common-lisp:progn
  (common-lisp:defun delete-backup-selection
@@ -17150,7 +17150,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'selection-id))))
                                                         "DeleteBackupSelection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-backup-selection))
 (common-lisp:progn
  (common-lisp:defun delete-backup-vault
@@ -17177,7 +17177,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'backup-vault-name))))
                                                         "DeleteBackupVault"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-backup-vault))
 (common-lisp:progn
  (common-lisp:defun delete-backup-vault-access-policy
@@ -17205,7 +17205,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'backup-vault-name))))
                                                         "DeleteBackupVaultAccessPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-backup-vault-access-policy))
 (common-lisp:progn
  (common-lisp:defun delete-backup-vault-lock-configuration
@@ -17233,7 +17233,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'backup-vault-name))))
                                                         "DeleteBackupVaultLockConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-backup-vault-lock-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-backup-vault-notifications
@@ -17261,7 +17261,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'backup-vault-name))))
                                                         "DeleteBackupVaultNotifications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-backup-vault-notifications))
 (common-lisp:progn
  (common-lisp:defun delete-framework
@@ -17288,7 +17288,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'framework-name))))
                                                         "DeleteFramework"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-framework))
 (common-lisp:progn
  (common-lisp:defun delete-recovery-point
@@ -17320,7 +17320,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'recovery-point-arn))))
                                                         "DeleteRecoveryPoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-recovery-point))
 (common-lisp:progn
  (common-lisp:defun delete-report-plan
@@ -17347,7 +17347,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'report-plan-name))))
                                                         "DeleteReportPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-report-plan))
 (common-lisp:progn
  (common-lisp:defun delete-restore-testing-plan
@@ -17375,7 +17375,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'restore-testing-plan-name))))
                                                         "DeleteRestoreTestingPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-restore-testing-plan))
 (common-lisp:progn
  (common-lisp:defun delete-restore-testing-selection
@@ -17410,7 +17410,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'restore-testing-selection-name))))
                                                         "DeleteRestoreTestingSelection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-restore-testing-selection))
 (common-lisp:progn
  (common-lisp:defun describe-backup-job
@@ -17437,7 +17437,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'backup-job-id))))
                                                         "DescribeBackupJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-backup-job))
 (common-lisp:progn
  (common-lisp:defun describe-backup-vault
@@ -17466,7 +17466,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'backup-vault-name))))
                                                         "DescribeBackupVault"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-backup-vault))
 (common-lisp:progn
  (common-lisp:defun describe-copy-job
@@ -17493,7 +17493,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'copy-job-id))))
                                                         "DescribeCopyJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-copy-job))
 (common-lisp:progn
  (common-lisp:defun describe-framework
@@ -17520,7 +17520,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'framework-name))))
                                                         "DescribeFramework"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-framework))
 (common-lisp:progn
  (common-lisp:defun describe-global-settings ()
@@ -17557,7 +17557,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "DescribeProtectedResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-protected-resource))
 (common-lisp:progn
  (common-lisp:defun describe-recovery-point
@@ -17591,7 +17591,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'recovery-point-arn))))
                                                         "DescribeRecoveryPoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-recovery-point))
 (common-lisp:progn
  (common-lisp:defun describe-region-settings ()
@@ -17627,7 +17627,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'report-job-id))))
                                                         "DescribeReportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-report-job))
 (common-lisp:progn
  (common-lisp:defun describe-report-plan
@@ -17654,7 +17654,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'report-plan-name))))
                                                         "DescribeReportPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-report-plan))
 (common-lisp:progn
  (common-lisp:defun describe-restore-job
@@ -17681,7 +17681,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'restore-job-id))))
                                                         "DescribeRestoreJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-restore-job))
 (common-lisp:progn
  (common-lisp:defun disassociate-recovery-point
@@ -17714,7 +17714,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'recovery-point-arn))))
                                                         "DisassociateRecoveryPoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-recovery-point))
 (common-lisp:progn
  (common-lisp:defun disassociate-recovery-point-from-parent
@@ -17747,7 +17747,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'recovery-point-arn))))
                                                         "DisassociateRecoveryPointFromParent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-recovery-point-from-parent))
 (common-lisp:progn
  (common-lisp:defun export-backup-plan-template
@@ -17775,7 +17775,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'backup-plan-id))))
                                                         "ExportBackupPlanTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'export-backup-plan-template))
 (common-lisp:progn
  (common-lisp:defun get-backup-plan
@@ -17802,7 +17802,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'backup-plan-id))))
                                                         "GetBackupPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-backup-plan))
 (common-lisp:progn
  (common-lisp:defun get-backup-plan-from-json
@@ -17820,7 +17820,7 @@ common-lisp:nil
                                                         "POST"
                                                         "/backup/template/json/toPlan"
                                                         "GetBackupPlanFromJSON"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-backup-plan-from-json))
 (common-lisp:progn
  (common-lisp:defun get-backup-plan-from-template
@@ -17848,7 +17848,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'template-id))))
                                                         "GetBackupPlanFromTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-backup-plan-from-template))
 (common-lisp:progn
  (common-lisp:defun get-backup-selection
@@ -17879,7 +17879,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'selection-id))))
                                                         "GetBackupSelection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-backup-selection))
 (common-lisp:progn
  (common-lisp:defun get-backup-vault-access-policy
@@ -17907,7 +17907,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'backup-vault-name))))
                                                         "GetBackupVaultAccessPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-backup-vault-access-policy))
 (common-lisp:progn
  (common-lisp:defun get-backup-vault-notifications
@@ -17935,7 +17935,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'backup-vault-name))))
                                                         "GetBackupVaultNotifications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-backup-vault-notifications))
 (common-lisp:progn
  (common-lisp:defun get-legal-hold
@@ -17962,7 +17962,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'legal-hold-id))))
                                                         "GetLegalHold"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-legal-hold))
 (common-lisp:progn
  (common-lisp:defun get-recovery-point-restore-metadata
@@ -17997,7 +17997,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'recovery-point-arn))))
                                                         "GetRecoveryPointRestoreMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-recovery-point-restore-metadata))
 (common-lisp:progn
  (common-lisp:defun get-restore-job-metadata
@@ -18024,7 +18024,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'restore-job-id))))
                                                         "GetRestoreJobMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-restore-job-metadata))
 (common-lisp:progn
  (common-lisp:defun get-restore-testing-inferred-metadata
@@ -18046,7 +18046,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/restore-testing/inferred-metadata"
                                                         "GetRestoreTestingInferredMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-restore-testing-inferred-metadata))
 (common-lisp:progn
  (common-lisp:defun get-restore-testing-plan
@@ -18073,7 +18073,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'restore-testing-plan-name))))
                                                         "GetRestoreTestingPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-restore-testing-plan))
 (common-lisp:progn
  (common-lisp:defun get-restore-testing-selection
@@ -18108,7 +18108,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'restore-testing-selection-name))))
                                                         "GetRestoreTestingSelection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-restore-testing-selection))
 (common-lisp:progn
  (common-lisp:defun get-supported-resource-types ()
@@ -18139,7 +18139,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/audit/backup-job-summaries"
                                                         "ListBackupJobSummaries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-backup-job-summaries))
 (common-lisp:progn
  (common-lisp:defun list-backup-jobs
@@ -18164,7 +18164,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/backup-jobs/"
                                                         "ListBackupJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-backup-jobs))
 (common-lisp:progn
  (common-lisp:defun list-backup-plan-templates
@@ -18182,7 +18182,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/backup/template/plans"
                                                         "ListBackupPlanTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-backup-plan-templates))
 (common-lisp:progn
  (common-lisp:defun list-backup-plan-versions
@@ -18210,7 +18210,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'backup-plan-id))))
                                                         "ListBackupPlanVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-backup-plan-versions))
 (common-lisp:progn
  (common-lisp:defun list-backup-plans
@@ -18228,7 +18228,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/backup/plans/"
                                                         "ListBackupPlans"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-backup-plans))
 (common-lisp:progn
  (common-lisp:defun list-backup-selections
@@ -18256,7 +18256,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'backup-plan-id))))
                                                         "ListBackupSelections"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-backup-selections))
 (common-lisp:progn
  (common-lisp:defun list-backup-vaults
@@ -18275,7 +18275,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/backup-vaults/"
                                                         "ListBackupVaults"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-backup-vaults))
 (common-lisp:progn
  (common-lisp:defun list-copy-job-summaries
@@ -18297,7 +18297,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/audit/copy-job-summaries"
                                                         "ListCopyJobSummaries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-copy-job-summaries))
 (common-lisp:progn
  (common-lisp:defun list-copy-jobs
@@ -18322,7 +18322,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/copy-jobs/"
                                                         "ListCopyJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-copy-jobs))
 (common-lisp:progn
  (common-lisp:defun list-frameworks
@@ -18340,7 +18340,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/audit/frameworks"
                                                         "ListFrameworks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-frameworks))
 (common-lisp:progn
  (common-lisp:defun list-legal-holds
@@ -18357,7 +18357,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/legal-holds/"
                                                         "ListLegalHolds"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-legal-holds))
 (common-lisp:progn
  (common-lisp:defun list-protected-resources
@@ -18374,7 +18374,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/resources/"
                                                         "ListProtectedResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-protected-resources))
 (common-lisp:progn
  (common-lisp:defun list-protected-resources-by-backup-vault
@@ -18405,7 +18405,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'backup-vault-name))))
                                                         "ListProtectedResourcesByBackupVault"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-protected-resources-by-backup-vault))
 (common-lisp:progn
  (common-lisp:defun list-recovery-points-by-backup-vault
@@ -18439,7 +18439,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'backup-vault-name))))
                                                         "ListRecoveryPointsByBackupVault"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-recovery-points-by-backup-vault))
 (common-lisp:progn
  (common-lisp:defun list-recovery-points-by-legal-hold
@@ -18468,7 +18468,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'legal-hold-id))))
                                                         "ListRecoveryPointsByLegalHold"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-recovery-points-by-legal-hold))
 (common-lisp:progn
  (common-lisp:defun list-recovery-points-by-resource
@@ -18497,7 +18497,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListRecoveryPointsByResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-recovery-points-by-resource))
 (common-lisp:progn
  (common-lisp:defun list-report-jobs
@@ -18518,7 +18518,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/audit/report-jobs"
                                                         "ListReportJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-report-jobs))
 (common-lisp:progn
  (common-lisp:defun list-report-plans
@@ -18536,7 +18536,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/audit/report-plans"
                                                         "ListReportPlans"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-report-plans))
 (common-lisp:progn
  (common-lisp:defun list-restore-job-summaries
@@ -18557,7 +18557,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/audit/restore-job-summaries"
                                                         "ListRestoreJobSummaries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-restore-job-summaries))
 (common-lisp:progn
  (common-lisp:defun list-restore-jobs
@@ -18580,7 +18580,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/restore-jobs/"
                                                         "ListRestoreJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-restore-jobs))
 (common-lisp:progn
  (common-lisp:defun list-restore-jobs-by-protected-resource
@@ -18614,7 +18614,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListRestoreJobsByProtectedResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-restore-jobs-by-protected-resource))
 (common-lisp:progn
  (common-lisp:defun list-restore-testing-plans
@@ -18632,7 +18632,7 @@ common-lisp:nil
                                                         "GET"
                                                         "/restore-testing/plans"
                                                         "ListRestoreTestingPlans"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-restore-testing-plans))
 (common-lisp:progn
  (common-lisp:defun list-restore-testing-selections
@@ -18662,7 +18662,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'restore-testing-plan-name))))
                                                         "ListRestoreTestingSelections"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-restore-testing-selections))
 (common-lisp:progn
  (common-lisp:defun list-tags
@@ -18690,7 +18690,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags))
 (common-lisp:progn
  (common-lisp:defun put-backup-vault-access-policy
@@ -18718,7 +18718,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'backup-vault-name))))
                                                         "PutBackupVaultAccessPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-backup-vault-access-policy))
 (common-lisp:progn
  (common-lisp:defun put-backup-vault-lock-configuration
@@ -18749,7 +18749,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'backup-vault-name))))
                                                         "PutBackupVaultLockConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-backup-vault-lock-configuration))
 (common-lisp:progn
  (common-lisp:defun put-backup-vault-notifications
@@ -18779,7 +18779,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'backup-vault-name))))
                                                         "PutBackupVaultNotifications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-backup-vault-notifications))
 (common-lisp:progn
  (common-lisp:defun put-restore-validation-result
@@ -18810,7 +18810,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'restore-job-id))))
                                                         "PutRestoreValidationResult"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-restore-validation-result))
 (common-lisp:progn
  (common-lisp:defun start-backup-job
@@ -18833,7 +18833,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/backup-jobs"
                                                         "StartBackupJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-backup-job))
 (common-lisp:progn
  (common-lisp:defun start-copy-job
@@ -18854,7 +18854,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/copy-jobs"
                                                         "StartCopyJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-copy-job))
 (common-lisp:progn
  (common-lisp:defun start-report-job
@@ -18882,7 +18882,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'report-plan-name))))
                                                         "StartReportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-report-job))
 (common-lisp:progn
  (common-lisp:defun start-restore-job
@@ -18903,7 +18903,7 @@ common-lisp:nil
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/restore-jobs"
                                                         "StartRestoreJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-restore-job))
 (common-lisp:progn
  (common-lisp:defun stop-backup-job
@@ -18930,7 +18930,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'backup-job-id))))
                                                         "StopBackupJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-backup-job))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -18957,7 +18957,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -18984,7 +18984,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-backup-plan
@@ -19011,7 +19011,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'backup-plan-id))))
                                                         "UpdateBackupPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-backup-plan))
 (common-lisp:progn
  (common-lisp:defun update-framework
@@ -19041,7 +19041,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'framework-name))))
                                                         "UpdateFramework"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-framework))
 (common-lisp:progn
  (common-lisp:defun update-global-settings
@@ -19059,7 +19059,7 @@ common-lisp:nil
                                                         "PUT"
                                                         "/global-settings"
                                                         "UpdateGlobalSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-global-settings))
 (common-lisp:progn
  (common-lisp:defun update-recovery-point-lifecycle
@@ -19093,7 +19093,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'recovery-point-arn))))
                                                         "UpdateRecoveryPointLifecycle"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-recovery-point-lifecycle))
 (common-lisp:progn
  (common-lisp:defun update-region-settings
@@ -19114,7 +19114,7 @@ common-lisp:nil
                                                         "PUT"
                                                         "/account-settings"
                                                         "UpdateRegionSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-region-settings))
 (common-lisp:progn
  (common-lisp:defun update-report-plan
@@ -19144,7 +19144,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'report-plan-name))))
                                                         "UpdateReportPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-report-plan))
 (common-lisp:progn
  (common-lisp:defun update-restore-testing-plan
@@ -19174,7 +19174,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'restore-testing-plan-name))))
                                                         "UpdateRestoreTestingPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-restore-testing-plan))
 (common-lisp:progn
  (common-lisp:defun update-restore-testing-selection
@@ -19209,5 +19209,5 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'restore-testing-selection-name))))
                                                         "UpdateRestoreTestingSelection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-restore-testing-selection))

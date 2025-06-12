@@ -4915,7 +4915,7 @@
                                                         "POST"
                                                         "/v1/datalake/logsources/aws"
                                                         "CreateAwsLogSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-aws-log-source))
 (common-lisp:progn
  (common-lisp:defun create-custom-log-source
@@ -4936,7 +4936,7 @@
                                                         "POST"
                                                         "/v1/datalake/logsources/custom"
                                                         "CreateCustomLogSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-custom-log-source))
 (common-lisp:progn
  (common-lisp:defun create-data-lake
@@ -4955,7 +4955,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v1/datalake"
                                                         "CreateDataLake"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-data-lake))
 (common-lisp:progn
  (common-lisp:defun create-data-lake-exception-subscription
@@ -4977,7 +4977,7 @@
                                                         "POST"
                                                         "/v1/datalake/exceptions/subscription"
                                                         "CreateDataLakeExceptionSubscription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-data-lake-exception-subscription))
 (common-lisp:progn
  (common-lisp:defun create-data-lake-organization-configuration
@@ -4996,7 +4996,7 @@
                                                         "POST"
                                                         "/v1/datalake/organization/configuration"
                                                         "CreateDataLakeOrganizationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-data-lake-organization-configuration))
 (common-lisp:progn
  (common-lisp:defun create-subscriber
@@ -5018,7 +5018,7 @@
                                                         "POST"
                                                         "/v1/subscribers"
                                                         "CreateSubscriber"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-subscriber))
 (common-lisp:progn
  (common-lisp:defun create-subscriber-notification
@@ -5046,7 +5046,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'subscriber-id))))
                                                         "CreateSubscriberNotification"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-subscriber-notification))
 (common-lisp:progn
  (common-lisp:defun delete-aws-log-source
@@ -5064,7 +5064,7 @@
                                                         "POST"
                                                         "/v1/datalake/logsources/aws/delete"
                                                         "DeleteAwsLogSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-aws-log-source))
 (common-lisp:progn
  (common-lisp:defun delete-custom-log-source
@@ -5091,7 +5091,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'source-name))))
                                                         "DeleteCustomLogSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-custom-log-source))
 (common-lisp:progn
  (common-lisp:defun delete-data-lake
@@ -5109,7 +5109,7 @@
                                                         "POST"
                                                         "/v1/datalake/delete"
                                                         "DeleteDataLake"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-data-lake))
 (common-lisp:progn
  (common-lisp:defun delete-data-lake-exception-subscription ()
@@ -5138,7 +5138,7 @@
                                                         "POST"
                                                         "/v1/datalake/organization/configuration/delete"
                                                         "DeleteDataLakeOrganizationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-data-lake-organization-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-subscriber
@@ -5165,7 +5165,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'subscriber-id))))
                                                         "DeleteSubscriber"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-subscriber))
 (common-lisp:progn
  (common-lisp:defun delete-subscriber-notification
@@ -5193,7 +5193,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'subscriber-id))))
                                                         "DeleteSubscriberNotification"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-subscriber-notification))
 (common-lisp:progn
  (common-lisp:defun deregister-data-lake-delegated-administrator ()
@@ -5240,7 +5240,7 @@
                                                         "POST"
                                                         "/v1/datalake/sources"
                                                         "GetDataLakeSources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-data-lake-sources))
 (common-lisp:progn
  (common-lisp:defun get-subscriber
@@ -5267,7 +5267,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'subscriber-id))))
                                                         "GetSubscriber"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-subscriber))
 (common-lisp:progn
  (common-lisp:defun list-data-lake-exceptions
@@ -5286,7 +5286,7 @@
                                                         "POST"
                                                         "/v1/datalake/exceptions"
                                                         "ListDataLakeExceptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-data-lake-exceptions))
 (common-lisp:progn
  (common-lisp:defun list-data-lakes
@@ -5303,7 +5303,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/datalakes"
                                                         "ListDataLakes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-data-lakes))
 (common-lisp:progn
  (common-lisp:defun list-log-sources
@@ -5323,7 +5323,7 @@
                                                         "POST"
                                                         "/v1/datalake/logsources/list"
                                                         "ListLogSources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-log-sources))
 (common-lisp:progn
  (common-lisp:defun list-subscribers
@@ -5340,7 +5340,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/subscribers"
                                                         "ListSubscribers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-subscribers))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -5367,7 +5367,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun register-data-lake-delegated-administrator
@@ -5386,7 +5386,7 @@
                                                         "POST"
                                                         "/v1/datalake/delegate"
                                                         "RegisterDataLakeDelegatedAdministrator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-data-lake-delegated-administrator))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -5413,7 +5413,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -5440,7 +5440,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-data-lake
@@ -5459,7 +5459,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/v1/datalake"
                                                         "UpdateDataLake"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-data-lake))
 (common-lisp:progn
  (common-lisp:defun update-data-lake-exception-subscription
@@ -5481,7 +5481,7 @@
                                                         "PUT"
                                                         "/v1/datalake/exceptions/subscription"
                                                         "UpdateDataLakeExceptionSubscription"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-data-lake-exception-subscription))
 (common-lisp:progn
  (common-lisp:defun update-subscriber
@@ -5511,7 +5511,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'subscriber-id))))
                                                         "UpdateSubscriber"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-subscriber))
 (common-lisp:progn
  (common-lisp:defun update-subscriber-notification
@@ -5539,5 +5539,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'subscriber-id))))
                                                         "UpdateSubscriberNotification"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-subscriber-notification))

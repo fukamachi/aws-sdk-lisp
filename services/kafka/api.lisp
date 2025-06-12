@@ -12017,7 +12017,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "BatchAssociateScramSecret"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-associate-scram-secret))
 (common-lisp:progn
  (common-lisp:defun create-cluster
@@ -12042,7 +12042,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v1/clusters"
                                                         "CreateCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-cluster))
 (common-lisp:progn
  (common-lisp:defun create-cluster-v2
@@ -12061,7 +12061,7 @@
                                                         "POST"
                                                         "/api/v2/clusters"
                                                         "CreateClusterV2"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-cluster-v2))
 (common-lisp:progn
  (common-lisp:defun create-configuration
@@ -12081,7 +12081,7 @@
                                                         "POST"
                                                         "/v1/configurations"
                                                         "CreateConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-configuration))
 (common-lisp:progn
  (common-lisp:defun create-replicator
@@ -12103,7 +12103,7 @@
                                                         "POST"
                                                         "/replication/v1/replicators"
                                                         "CreateReplicator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-replicator))
 (common-lisp:progn
  (common-lisp:defun create-vpc-connection
@@ -12124,7 +12124,7 @@
                                                         "POST"
                                                         "/v1/vpc-connection"
                                                         "CreateVpcConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-vpc-connection))
 (common-lisp:progn
  (common-lisp:defun delete-cluster
@@ -12151,7 +12151,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "DeleteCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-cluster))
 (common-lisp:progn
  (common-lisp:defun delete-configuration
@@ -12178,7 +12178,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'arn))))
                                                         "DeleteConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-replicator
@@ -12205,7 +12205,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'replicator-arn))))
                                                         "DeleteReplicator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-replicator))
 (common-lisp:progn
  (common-lisp:defun delete-vpc-connection
@@ -12232,7 +12232,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'arn))))
                                                         "DeleteVpcConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-vpc-connection))
 (common-lisp:progn
  (common-lisp:defun describe-cluster
@@ -12259,7 +12259,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "DescribeCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-cluster))
 (common-lisp:progn
  (common-lisp:defun describe-cluster-v2
@@ -12286,7 +12286,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "DescribeClusterV2"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-cluster-v2))
 (common-lisp:progn
  (common-lisp:defun describe-cluster-operation
@@ -12314,7 +12314,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-operation-arn))))
                                                         "DescribeClusterOperation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-cluster-operation))
 (common-lisp:progn
  (common-lisp:defun describe-cluster-operation-v2
@@ -12342,7 +12342,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-operation-arn))))
                                                         "DescribeClusterOperationV2"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-cluster-operation-v2))
 (common-lisp:progn
  (common-lisp:defun describe-configuration
@@ -12369,7 +12369,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'arn))))
                                                         "DescribeConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-configuration-revision
@@ -12401,7 +12401,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'revision))))
                                                         "DescribeConfigurationRevision"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-configuration-revision))
 (common-lisp:progn
  (common-lisp:defun describe-replicator
@@ -12428,7 +12428,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'replicator-arn))))
                                                         "DescribeReplicator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-replicator))
 (common-lisp:progn
  (common-lisp:defun describe-vpc-connection
@@ -12455,7 +12455,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'arn))))
                                                         "DescribeVpcConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-vpc-connection))
 (common-lisp:progn
  (common-lisp:defun batch-disassociate-scram-secret
@@ -12483,7 +12483,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "BatchDisassociateScramSecret"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-disassociate-scram-secret))
 (common-lisp:progn
  (common-lisp:defun get-bootstrap-brokers
@@ -12510,7 +12510,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "GetBootstrapBrokers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-bootstrap-brokers))
 (common-lisp:progn
  (common-lisp:defun get-compatible-kafka-versions
@@ -12529,7 +12529,7 @@
                                                         "GET"
                                                         "/v1/compatible-kafka-versions"
                                                         "GetCompatibleKafkaVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-compatible-kafka-versions))
 (common-lisp:progn
  (common-lisp:defun list-cluster-operations
@@ -12557,7 +12557,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "ListClusterOperations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-cluster-operations))
 (common-lisp:progn
  (common-lisp:defun list-cluster-operations-v2
@@ -12586,7 +12586,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "ListClusterOperationsV2"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-cluster-operations-v2))
 (common-lisp:progn
  (common-lisp:defun list-clusters
@@ -12605,7 +12605,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/clusters"
                                                         "ListClusters"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-clusters))
 (common-lisp:progn
  (common-lisp:defun list-clusters-v2
@@ -12626,7 +12626,7 @@
                                                         "GET"
                                                         "/api/v2/clusters"
                                                         "ListClustersV2"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-clusters-v2))
 (common-lisp:progn
  (common-lisp:defun list-configuration-revisions
@@ -12654,7 +12654,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'arn))))
                                                         "ListConfigurationRevisions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-configuration-revisions))
 (common-lisp:progn
  (common-lisp:defun list-configurations
@@ -12672,7 +12672,7 @@
                                                         "GET"
                                                         "/v1/configurations"
                                                         "ListConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-configurations))
 (common-lisp:progn
  (common-lisp:defun list-kafka-versions
@@ -12690,7 +12690,7 @@
                                                         "GET"
                                                         "/v1/kafka-versions"
                                                         "ListKafkaVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-kafka-versions))
 (common-lisp:progn
  (common-lisp:defun list-nodes
@@ -12718,7 +12718,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "ListNodes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-nodes))
 (common-lisp:progn
  (common-lisp:defun list-replicators
@@ -12738,7 +12738,7 @@
                                                         "GET"
                                                         "/replication/v1/replicators"
                                                         "ListReplicators"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-replicators))
 (common-lisp:progn
  (common-lisp:defun list-scram-secrets
@@ -12766,7 +12766,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "ListScramSecrets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-scram-secrets))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -12793,7 +12793,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-client-vpc-connections
@@ -12822,7 +12822,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "ListClientVpcConnections"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-client-vpc-connections))
 (common-lisp:progn
  (common-lisp:defun list-vpc-connections
@@ -12840,7 +12840,7 @@
                                                         "GET"
                                                         "/v1/vpc-connections"
                                                         "ListVpcConnections"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-vpc-connections))
 (common-lisp:progn
  (common-lisp:defun reject-client-vpc-connection
@@ -12868,7 +12868,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "RejectClientVpcConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reject-client-vpc-connection))
 (common-lisp:progn
  (common-lisp:defun delete-cluster-policy
@@ -12895,7 +12895,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "DeleteClusterPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-cluster-policy))
 (common-lisp:progn
  (common-lisp:defun get-cluster-policy
@@ -12922,7 +12922,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "GetClusterPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-cluster-policy))
 (common-lisp:progn
  (common-lisp:defun put-cluster-policy
@@ -12950,7 +12950,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "PutClusterPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-cluster-policy))
 (common-lisp:progn
  (common-lisp:defun reboot-broker
@@ -12977,7 +12977,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "RebootBroker"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reboot-broker))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -13004,7 +13004,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -13031,7 +13031,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-broker-count
@@ -13061,7 +13061,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "UpdateBrokerCount"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-broker-count))
 (common-lisp:progn
  (common-lisp:defun update-broker-type
@@ -13090,7 +13090,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "UpdateBrokerType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-broker-type))
 (common-lisp:progn
  (common-lisp:defun update-broker-storage
@@ -13120,7 +13120,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "UpdateBrokerStorage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-broker-storage))
 (common-lisp:progn
  (common-lisp:defun update-configuration
@@ -13148,7 +13148,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'arn))))
                                                         "UpdateConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-configuration))
 (common-lisp:progn
  (common-lisp:defun update-cluster-configuration
@@ -13178,7 +13178,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "UpdateClusterConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-cluster-configuration))
 (common-lisp:progn
  (common-lisp:defun update-cluster-kafka-version
@@ -13209,7 +13209,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "UpdateClusterKafkaVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-cluster-kafka-version))
 (common-lisp:progn
  (common-lisp:defun update-connectivity
@@ -13238,7 +13238,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "UpdateConnectivity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-connectivity))
 (common-lisp:progn
  (common-lisp:defun update-monitoring
@@ -13268,7 +13268,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "UpdateMonitoring"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-monitoring))
 (common-lisp:progn
  (common-lisp:defun update-replication-info
@@ -13300,7 +13300,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'replicator-arn))))
                                                         "UpdateReplicationInfo"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-replication-info))
 (common-lisp:progn
  (common-lisp:defun update-security
@@ -13330,7 +13330,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "UpdateSecurity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-security))
 (common-lisp:progn
  (common-lisp:defun update-storage
@@ -13360,5 +13360,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'cluster-arn))))
                                                         "UpdateStorage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-storage))

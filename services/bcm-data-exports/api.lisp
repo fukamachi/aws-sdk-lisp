@@ -2280,7 +2280,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'bcm-data-exports-request aws-sdk/generator/operation::input "POST" "/"
         "CreateExport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-export))
 (common-lisp:progn
  (common-lisp:defun delete-export
@@ -2296,7 +2296,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'bcm-data-exports-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteExport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-export))
 (common-lisp:progn
  (common-lisp:defun get-execution
@@ -2312,7 +2312,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'bcm-data-exports-request aws-sdk/generator/operation::input "POST" "/"
         "GetExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-execution))
 (common-lisp:progn
  (common-lisp:defun get-export
@@ -2328,7 +2328,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'bcm-data-exports-request aws-sdk/generator/operation::input "POST" "/"
         "GetExport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-export))
 (common-lisp:progn
  (common-lisp:defun get-table
@@ -2344,7 +2344,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'bcm-data-exports-request aws-sdk/generator/operation::input "POST" "/"
         "GetTable"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-table))
 (common-lisp:progn
  (common-lisp:defun list-executions
@@ -2361,7 +2361,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'bcm-data-exports-request aws-sdk/generator/operation::input "POST" "/"
         "ListExecutions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-executions))
 (common-lisp:progn
  (common-lisp:defun list-exports
@@ -2377,7 +2377,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'bcm-data-exports-request aws-sdk/generator/operation::input "POST" "/"
         "ListExports"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-exports))
 (common-lisp:progn
  (common-lisp:defun list-tables
@@ -2393,7 +2393,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'bcm-data-exports-request aws-sdk/generator/operation::input "POST" "/"
         "ListTables"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tables))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -2410,7 +2410,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'bcm-data-exports-request aws-sdk/generator/operation::input "POST" "/"
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -2426,7 +2426,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'bcm-data-exports-request aws-sdk/generator/operation::input "POST" "/"
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -2442,7 +2442,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'bcm-data-exports-request aws-sdk/generator/operation::input "POST" "/"
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-export
@@ -2458,5 +2458,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'bcm-data-exports-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateExport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-export))

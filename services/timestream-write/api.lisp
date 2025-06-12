@@ -4247,7 +4247,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-write-request aws-sdk/generator/operation::input "POST" "/"
         "CreateBatchLoadTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-batch-load-task))
 (common-lisp:progn
  (common-lisp:defun create-database
@@ -4263,7 +4263,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-write-request aws-sdk/generator/operation::input "POST" "/"
         "CreateDatabase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-database))
 (common-lisp:progn
  (common-lisp:defun create-table
@@ -4283,7 +4283,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-write-request aws-sdk/generator/operation::input "POST" "/"
         "CreateTable"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-table))
 (common-lisp:progn
  (common-lisp:defun delete-database
@@ -4299,7 +4299,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-write-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteDatabase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-database))
 (common-lisp:progn
  (common-lisp:defun delete-table
@@ -4315,7 +4315,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-write-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteTable"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-table))
 (common-lisp:progn
  (common-lisp:defun describe-batch-load-task
@@ -4331,7 +4331,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-write-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeBatchLoadTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-batch-load-task))
 (common-lisp:progn
  (common-lisp:defun describe-database
@@ -4347,7 +4347,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-write-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeDatabase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-database))
 (common-lisp:progn
  (common-lisp:defun describe-endpoints ()
@@ -4371,7 +4371,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-write-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeTable"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-table))
 (common-lisp:progn
  (common-lisp:defun list-batch-load-tasks
@@ -4388,7 +4388,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-write-request aws-sdk/generator/operation::input "POST" "/"
         "ListBatchLoadTasks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-batch-load-tasks))
 (common-lisp:progn
  (common-lisp:defun list-databases
@@ -4404,7 +4404,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-write-request aws-sdk/generator/operation::input "POST" "/"
         "ListDatabases"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-databases))
 (common-lisp:progn
  (common-lisp:defun list-tables
@@ -4421,7 +4421,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-write-request aws-sdk/generator/operation::input "POST" "/"
         "ListTables"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tables))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -4437,7 +4437,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-write-request aws-sdk/generator/operation::input "POST" "/"
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun resume-batch-load-task
@@ -4453,7 +4453,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-write-request aws-sdk/generator/operation::input "POST" "/"
         "ResumeBatchLoadTask"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'resume-batch-load-task))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4469,7 +4469,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-write-request aws-sdk/generator/operation::input "POST" "/"
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4485,7 +4485,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-write-request aws-sdk/generator/operation::input "POST" "/"
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-database
@@ -4501,7 +4501,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-write-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateDatabase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-database))
 (common-lisp:progn
  (common-lisp:defun update-table
@@ -4521,7 +4521,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-write-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateTable"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-table))
 (common-lisp:progn
  (common-lisp:defun write-records
@@ -4539,5 +4539,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'timestream-write-request aws-sdk/generator/operation::input "POST" "/"
         "WriteRecords"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'write-records))

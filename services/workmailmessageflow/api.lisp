@@ -104,7 +104,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-raw-message-content-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-content)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'message-content))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-raw-message-content-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:define-condition invalid-content-location
      (workmailmessageflow-error)
@@ -324,7 +330,7 @@
                                 'message-id))))
         "GetRawMessageContent")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-raw-message-content))
 (common-lisp:progn
  (common-lisp:defun put-raw-message-content
@@ -346,5 +352,5 @@
                                 aws-sdk/generator/operation::input
                                 'message-id))))
         "PutRawMessageContent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-raw-message-content))

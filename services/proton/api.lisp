@@ -17358,7 +17358,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AcceptEnvironmentAccountConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'accept-environment-account-connection))
 (common-lisp:progn
  (common-lisp:defun cancel-component-deployment
@@ -17376,7 +17376,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CancelComponentDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-component-deployment))
 (common-lisp:progn
  (common-lisp:defun cancel-environment-deployment
@@ -17394,7 +17394,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CancelEnvironmentDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-environment-deployment))
 (common-lisp:progn
  (common-lisp:defun cancel-service-instance-deployment
@@ -17413,7 +17413,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CancelServiceInstanceDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-service-instance-deployment))
 (common-lisp:progn
  (common-lisp:defun cancel-service-pipeline-deployment
@@ -17431,7 +17431,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CancelServicePipelineDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-service-pipeline-deployment))
 (common-lisp:progn
  (common-lisp:defun create-component
@@ -17452,7 +17452,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-component))
 (common-lisp:progn
  (common-lisp:defun create-environment
@@ -17477,7 +17477,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-environment))
 (common-lisp:progn
  (common-lisp:defun create-environment-account-connection
@@ -17499,7 +17499,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateEnvironmentAccountConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-environment-account-connection))
 (common-lisp:progn
  (common-lisp:defun create-environment-template
@@ -17520,7 +17520,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateEnvironmentTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-environment-template))
 (common-lisp:progn
  (common-lisp:defun create-environment-template-version
@@ -17541,7 +17541,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateEnvironmentTemplateVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-environment-template-version))
 (common-lisp:progn
  (common-lisp:defun create-repository
@@ -17560,7 +17560,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateRepository"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-repository))
 (common-lisp:progn
  (common-lisp:defun create-service
@@ -17583,7 +17583,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateService"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-service))
 (common-lisp:progn
  (common-lisp:defun create-service-instance
@@ -17603,7 +17603,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateServiceInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-service-instance))
 (common-lisp:progn
  (common-lisp:defun create-service-sync-config
@@ -17623,7 +17623,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateServiceSyncConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-service-sync-config))
 (common-lisp:progn
  (common-lisp:defun create-service-template
@@ -17643,7 +17643,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateServiceTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-service-template))
 (common-lisp:progn
  (common-lisp:defun create-service-template-version
@@ -17666,7 +17666,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateServiceTemplateVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-service-template-version))
 (common-lisp:progn
  (common-lisp:defun create-template-sync-config
@@ -17688,7 +17688,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateTemplateSyncConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-template-sync-config))
 (common-lisp:progn
  (common-lisp:defun delete-component
@@ -17705,7 +17705,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-component))
 (common-lisp:progn
  (common-lisp:defun delete-deployment
@@ -17722,7 +17722,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-deployment))
 (common-lisp:progn
  (common-lisp:defun delete-environment
@@ -17739,7 +17739,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-environment))
 (common-lisp:progn
  (common-lisp:defun delete-environment-account-connection
@@ -17757,7 +17757,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteEnvironmentAccountConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-environment-account-connection))
 (common-lisp:progn
  (common-lisp:defun delete-environment-template
@@ -17775,7 +17775,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteEnvironmentTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-environment-template))
 (common-lisp:progn
  (common-lisp:defun delete-environment-template-version
@@ -17795,7 +17795,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteEnvironmentTemplateVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-environment-template-version))
 (common-lisp:progn
  (common-lisp:defun delete-repository
@@ -17812,7 +17812,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteRepository"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-repository))
 (common-lisp:progn
  (common-lisp:defun delete-service
@@ -17829,7 +17829,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteService"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-service))
 (common-lisp:progn
  (common-lisp:defun delete-service-sync-config
@@ -17846,7 +17846,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteServiceSyncConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-service-sync-config))
 (common-lisp:progn
  (common-lisp:defun delete-service-template
@@ -17863,7 +17863,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteServiceTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-service-template))
 (common-lisp:progn
  (common-lisp:defun delete-service-template-version
@@ -17883,7 +17883,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteServiceTemplateVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-service-template-version))
 (common-lisp:progn
  (common-lisp:defun delete-template-sync-config
@@ -17901,7 +17901,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteTemplateSyncConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-template-sync-config))
 (common-lisp:progn
  (common-lisp:defun get-account-settings ()
@@ -17926,7 +17926,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-component))
 (common-lisp:progn
  (common-lisp:defun get-deployment
@@ -17946,7 +17946,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-deployment))
 (common-lisp:progn
  (common-lisp:defun get-environment
@@ -17963,7 +17963,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-environment))
 (common-lisp:progn
  (common-lisp:defun get-environment-account-connection
@@ -17981,7 +17981,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetEnvironmentAccountConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-environment-account-connection))
 (common-lisp:progn
  (common-lisp:defun get-environment-template
@@ -17998,7 +17998,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetEnvironmentTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-environment-template))
 (common-lisp:progn
  (common-lisp:defun get-environment-template-version
@@ -18018,7 +18018,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetEnvironmentTemplateVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-environment-template-version))
 (common-lisp:progn
  (common-lisp:defun get-repository
@@ -18035,7 +18035,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetRepository"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-repository))
 (common-lisp:progn
  (common-lisp:defun get-repository-sync-status
@@ -18055,7 +18055,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetRepositorySyncStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-repository-sync-status))
 (common-lisp:progn
  (common-lisp:defun get-resources-summary ()
@@ -18080,7 +18080,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetService"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-service))
 (common-lisp:progn
  (common-lisp:defun get-service-instance
@@ -18097,7 +18097,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetServiceInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-service-instance))
 (common-lisp:progn
  (common-lisp:defun get-service-instance-sync-status
@@ -18116,7 +18116,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetServiceInstanceSyncStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-service-instance-sync-status))
 (common-lisp:progn
  (common-lisp:defun get-service-sync-blocker-summary
@@ -18135,7 +18135,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetServiceSyncBlockerSummary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-service-sync-blocker-summary))
 (common-lisp:progn
  (common-lisp:defun get-service-sync-config
@@ -18152,7 +18152,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetServiceSyncConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-service-sync-config))
 (common-lisp:progn
  (common-lisp:defun get-service-template
@@ -18169,7 +18169,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetServiceTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-service-template))
 (common-lisp:progn
  (common-lisp:defun get-service-template-version
@@ -18189,7 +18189,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetServiceTemplateVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-service-template-version))
 (common-lisp:progn
  (common-lisp:defun get-template-sync-config
@@ -18206,7 +18206,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetTemplateSyncConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-template-sync-config))
 (common-lisp:progn
  (common-lisp:defun get-template-sync-status
@@ -18225,7 +18225,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetTemplateSyncStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-template-sync-status))
 (common-lisp:progn
  (common-lisp:defun list-component-outputs
@@ -18243,7 +18243,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListComponentOutputs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-component-outputs))
 (common-lisp:progn
  (common-lisp:defun list-component-provisioned-resources
@@ -18261,7 +18261,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListComponentProvisionedResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-component-provisioned-resources))
 (common-lisp:progn
  (common-lisp:defun list-components
@@ -18281,7 +18281,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListComponents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-components))
 (common-lisp:progn
  (common-lisp:defun list-deployments
@@ -18301,7 +18301,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDeployments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-deployments))
 (common-lisp:progn
  (common-lisp:defun list-environment-account-connections
@@ -18322,7 +18322,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListEnvironmentAccountConnections"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-environment-account-connections))
 (common-lisp:progn
  (common-lisp:defun list-environment-outputs
@@ -18341,7 +18341,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListEnvironmentOutputs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-environment-outputs))
 (common-lisp:progn
  (common-lisp:defun list-environment-provisioned-resources
@@ -18359,7 +18359,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListEnvironmentProvisionedResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-environment-provisioned-resources))
 (common-lisp:progn
  (common-lisp:defun list-environment-template-versions
@@ -18379,7 +18379,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListEnvironmentTemplateVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-environment-template-versions))
 (common-lisp:progn
  (common-lisp:defun list-environment-templates
@@ -18396,7 +18396,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListEnvironmentTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-environment-templates))
 (common-lisp:progn
  (common-lisp:defun list-environments
@@ -18415,7 +18415,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListEnvironments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-environments))
 (common-lisp:progn
  (common-lisp:defun list-repositories
@@ -18432,7 +18432,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListRepositories"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-repositories))
 (common-lisp:progn
  (common-lisp:defun list-repository-sync-definitions
@@ -18453,7 +18453,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListRepositorySyncDefinitions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-repository-sync-definitions))
 (common-lisp:progn
  (common-lisp:defun list-service-instance-outputs
@@ -18474,7 +18474,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListServiceInstanceOutputs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-service-instance-outputs))
 (common-lisp:progn
  (common-lisp:defun list-service-instance-provisioned-resources
@@ -18494,7 +18494,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListServiceInstanceProvisionedResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-service-instance-provisioned-resources))
 (common-lisp:progn
  (common-lisp:defun list-service-instances
@@ -18514,7 +18514,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListServiceInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-service-instances))
 (common-lisp:progn
  (common-lisp:defun list-service-pipeline-outputs
@@ -18533,7 +18533,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListServicePipelineOutputs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-service-pipeline-outputs))
 (common-lisp:progn
  (common-lisp:defun list-service-pipeline-provisioned-resources
@@ -18551,7 +18551,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListServicePipelineProvisionedResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-service-pipeline-provisioned-resources))
 (common-lisp:progn
  (common-lisp:defun list-service-template-versions
@@ -18571,7 +18571,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListServiceTemplateVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-service-template-versions))
 (common-lisp:progn
  (common-lisp:defun list-service-templates
@@ -18588,7 +18588,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListServiceTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-service-templates))
 (common-lisp:progn
  (common-lisp:defun list-services
@@ -18605,7 +18605,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListServices"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-services))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -18623,7 +18623,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun notify-resource-deployment-status-change
@@ -18644,7 +18644,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "NotifyResourceDeploymentStatusChange"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'notify-resource-deployment-status-change))
 (common-lisp:progn
  (common-lisp:defun reject-environment-account-connection
@@ -18662,7 +18662,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RejectEnvironmentAccountConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reject-environment-account-connection))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -18679,7 +18679,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -18696,7 +18696,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-account-settings
@@ -18719,7 +18719,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateAccountSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-account-settings))
 (common-lisp:progn
  (common-lisp:defun update-component
@@ -18740,7 +18740,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-component))
 (common-lisp:progn
  (common-lisp:defun update-environment
@@ -18765,7 +18765,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateEnvironment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-environment))
 (common-lisp:progn
  (common-lisp:defun update-environment-account-connection
@@ -18785,7 +18785,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateEnvironmentAccountConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-environment-account-connection))
 (common-lisp:progn
  (common-lisp:defun update-environment-template
@@ -18803,7 +18803,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateEnvironmentTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-environment-template))
 (common-lisp:progn
  (common-lisp:defun update-environment-template-version
@@ -18824,7 +18824,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateEnvironmentTemplateVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-environment-template-version))
 (common-lisp:progn
  (common-lisp:defun update-service
@@ -18841,7 +18841,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateService"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-service))
 (common-lisp:progn
  (common-lisp:defun update-service-instance
@@ -18862,7 +18862,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateServiceInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-service-instance))
 (common-lisp:progn
  (common-lisp:defun update-service-pipeline
@@ -18882,7 +18882,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateServicePipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-service-pipeline))
 (common-lisp:progn
  (common-lisp:defun update-service-sync-blocker
@@ -18900,7 +18900,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateServiceSyncBlocker"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-service-sync-blocker))
 (common-lisp:progn
  (common-lisp:defun update-service-sync-config
@@ -18920,7 +18920,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateServiceSyncConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-service-sync-config))
 (common-lisp:progn
  (common-lisp:defun update-service-template
@@ -18937,7 +18937,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateServiceTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-service-template))
 (common-lisp:progn
  (common-lisp:defun update-service-template-version
@@ -18960,7 +18960,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateServiceTemplateVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-service-template-version))
 (common-lisp:progn
  (common-lisp:defun update-template-sync-config
@@ -18982,5 +18982,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateTemplateSyncConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-template-sync-config))

@@ -334,7 +334,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input get-object-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input get-object-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:define-condition internal-server-error
      (mediastore-data-error)
@@ -611,7 +615,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input put-object-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input put-object-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass put-object-response common-lisp:nil
                        ((content-sha256 :initarg :content-sha256 :initform
@@ -702,7 +710,7 @@
                               (common-lisp:slot-value
                                aws-sdk/generator/operation::input 'path)))
         "DeleteObject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-object))
 (common-lisp:progn
  (common-lisp:defun describe-object
@@ -722,7 +730,7 @@
                               (common-lisp:slot-value
                                aws-sdk/generator/operation::input 'path)))
         "DescribeObject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-object))
 (common-lisp:progn
  (common-lisp:defun get-object
@@ -743,7 +751,7 @@
                                aws-sdk/generator/operation::input 'path)))
         "GetObject")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-object))
 (common-lisp:progn
  (common-lisp:defun list-items
@@ -759,7 +767,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'mediastore-data-request aws-sdk/generator/operation::input "GET" "/"
         "ListItems"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-items))
 (common-lisp:progn
  (common-lisp:defun put-object
@@ -782,5 +790,5 @@
                               (common-lisp:slot-value
                                aws-sdk/generator/operation::input 'path)))
         "PutObject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-object))

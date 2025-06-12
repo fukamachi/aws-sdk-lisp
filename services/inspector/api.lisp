@@ -6958,7 +6958,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AddAttributesToFindings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-attributes-to-findings))
 (common-lisp:progn
  (common-lisp:defun create-assessment-target
@@ -6977,7 +6977,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateAssessmentTarget"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-assessment-target))
 (common-lisp:progn
  (common-lisp:defun create-assessment-template
@@ -6999,7 +6999,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateAssessmentTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-assessment-template))
 (common-lisp:progn
  (common-lisp:defun create-exclusions-preview
@@ -7017,7 +7017,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateExclusionsPreview"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-exclusions-preview))
 (common-lisp:progn
  (common-lisp:defun create-resource-group
@@ -7034,7 +7034,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateResourceGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-resource-group))
 (common-lisp:progn
  (common-lisp:defun delete-assessment-run
@@ -7051,7 +7051,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAssessmentRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-assessment-run))
 (common-lisp:progn
  (common-lisp:defun delete-assessment-target
@@ -7068,7 +7068,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAssessmentTarget"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-assessment-target))
 (common-lisp:progn
  (common-lisp:defun delete-assessment-template
@@ -7086,7 +7086,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAssessmentTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-assessment-template))
 (common-lisp:progn
  (common-lisp:defun describe-assessment-runs
@@ -7103,7 +7103,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAssessmentRuns"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-assessment-runs))
 (common-lisp:progn
  (common-lisp:defun describe-assessment-targets
@@ -7121,7 +7121,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAssessmentTargets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-assessment-targets))
 (common-lisp:progn
  (common-lisp:defun describe-assessment-templates
@@ -7139,7 +7139,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAssessmentTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-assessment-templates))
 (common-lisp:progn
  (common-lisp:defun describe-cross-account-access-role ()
@@ -7164,7 +7164,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeExclusions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-exclusions))
 (common-lisp:progn
  (common-lisp:defun describe-findings
@@ -7181,7 +7181,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeFindings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-findings))
 (common-lisp:progn
  (common-lisp:defun describe-resource-groups
@@ -7198,7 +7198,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeResourceGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-resource-groups))
 (common-lisp:progn
  (common-lisp:defun describe-rules-packages
@@ -7215,7 +7215,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeRulesPackages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-rules-packages))
 (common-lisp:progn
  (common-lisp:defun get-assessment-report
@@ -7234,7 +7234,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAssessmentReport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-assessment-report))
 (common-lisp:progn
  (common-lisp:defun get-exclusions-preview
@@ -7254,7 +7254,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetExclusionsPreview"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-exclusions-preview))
 (common-lisp:progn
  (common-lisp:defun get-telemetry-metadata
@@ -7271,7 +7271,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetTelemetryMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-telemetry-metadata))
 (common-lisp:progn
  (common-lisp:defun list-assessment-run-agents
@@ -7291,7 +7291,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAssessmentRunAgents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-assessment-run-agents))
 (common-lisp:progn
  (common-lisp:defun list-assessment-runs
@@ -7311,7 +7311,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAssessmentRuns"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-assessment-runs))
 (common-lisp:progn
  (common-lisp:defun list-assessment-targets
@@ -7328,7 +7328,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAssessmentTargets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-assessment-targets))
 (common-lisp:progn
  (common-lisp:defun list-assessment-templates
@@ -7349,7 +7349,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAssessmentTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-assessment-templates))
 (common-lisp:progn
  (common-lisp:defun list-event-subscriptions
@@ -7367,7 +7367,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListEventSubscriptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-event-subscriptions))
 (common-lisp:progn
  (common-lisp:defun list-exclusions
@@ -7386,7 +7386,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListExclusions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-exclusions))
 (common-lisp:progn
  (common-lisp:defun list-findings
@@ -7405,7 +7405,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListFindings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-findings))
 (common-lisp:progn
  (common-lisp:defun list-rules-packages
@@ -7422,7 +7422,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListRulesPackages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-rules-packages))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -7439,7 +7439,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun preview-agents
@@ -7458,7 +7458,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PreviewAgents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'preview-agents))
 (common-lisp:progn
  (common-lisp:defun register-cross-account-access-role
@@ -7476,7 +7476,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RegisterCrossAccountAccessRole"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-cross-account-access-role))
 (common-lisp:progn
  (common-lisp:defun remove-attributes-from-findings
@@ -7494,7 +7494,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RemoveAttributesFromFindings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-attributes-from-findings))
 (common-lisp:progn
  (common-lisp:defun set-tags-for-resource
@@ -7511,7 +7511,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'set-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun start-assessment-run
@@ -7530,7 +7530,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartAssessmentRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-assessment-run))
 (common-lisp:progn
  (common-lisp:defun stop-assessment-run
@@ -7547,7 +7547,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopAssessmentRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-assessment-run))
 (common-lisp:progn
  (common-lisp:defun subscribe-to-event
@@ -7564,7 +7564,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SubscribeToEvent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'subscribe-to-event))
 (common-lisp:progn
  (common-lisp:defun unsubscribe-from-event
@@ -7581,7 +7581,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UnsubscribeFromEvent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'unsubscribe-from-event))
 (common-lisp:progn
  (common-lisp:defun update-assessment-target
@@ -7601,5 +7601,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateAssessmentTarget"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-assessment-target))

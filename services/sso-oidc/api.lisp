@@ -1071,7 +1071,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/token"
                                                         "CreateToken"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-token))
 (common-lisp:progn
  (common-lisp:defun create-token-with-iam
@@ -1093,7 +1093,7 @@
                                                         "POST"
                                                         "/token?aws_iam=t"
                                                         "CreateTokenWithIAM"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-token-with-iam))
 (common-lisp:progn
  (common-lisp:defun register-client
@@ -1111,7 +1111,7 @@
                                                         "POST"
                                                         "/client/register"
                                                         "RegisterClient"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-client))
 (common-lisp:progn
  (common-lisp:defun start-device-authorization
@@ -1131,5 +1131,5 @@
                                                         "POST"
                                                         "/device_authorization"
                                                         "StartDeviceAuthorization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-device-authorization))

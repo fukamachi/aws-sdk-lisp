@@ -123,7 +123,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           delete-thing-shadow-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-thing-shadow-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-retained-message-request common-lisp:nil
                        ((topic :initarg :topic :initform
@@ -318,7 +324,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-thing-shadow-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-thing-shadow-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:define-condition internal-failure-exception
      (iot-data-error)
@@ -662,7 +674,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input publish-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input publish-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:deftype qos () 'common-lisp:integer)
 (common-lisp:progn
  (common-lisp:define-condition request-entity-too-large-exception
@@ -851,7 +867,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-thing-shadow-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-thing-shadow-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass update-thing-shadow-response common-lisp:nil
                        ((payload :initarg :payload :initform common-lisp:nil
@@ -889,7 +911,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           update-thing-shadow-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          update-thing-shadow-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:deftype user-properties () 'common-lisp:string)
 (common-lisp:deftype user-properties-blob ()
   '(common-lisp:simple-array (common-lisp:unsigned-byte 8) (common-lisp:*)))
@@ -920,7 +948,7 @@
                                                              'thing-name))))
                                                         "DeleteThingShadow")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-thing-shadow))
 (common-lisp:progn
  (common-lisp:defun get-retained-message
@@ -947,7 +975,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'topic))))
                                                         "GetRetainedMessage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-retained-message))
 (common-lisp:progn
  (common-lisp:defun get-thing-shadow
@@ -975,7 +1003,7 @@
                                                              'thing-name))))
                                                         "GetThingShadow")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-thing-shadow))
 (common-lisp:progn
  (common-lisp:defun list-named-shadows-for-thing
@@ -1004,7 +1032,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'thing-name))))
                                                         "ListNamedShadowsForThing"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-named-shadows-for-thing))
 (common-lisp:progn
  (common-lisp:defun list-retained-messages
@@ -1022,7 +1050,7 @@
                                                         "GET"
                                                         "/retainedMessage"
                                                         "ListRetainedMessages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-retained-messages))
 (common-lisp:progn
  (common-lisp:defun publish
@@ -1054,7 +1082,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'topic))))
                                                         "Publish"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'publish))
 (common-lisp:progn
  (common-lisp:defun update-thing-shadow
@@ -1082,5 +1110,5 @@
                                                              'thing-name))))
                                                         "UpdateThingShadow")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-thing-shadow))

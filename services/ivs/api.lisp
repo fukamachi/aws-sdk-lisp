@@ -5880,7 +5880,7 @@
                                                         "POST"
                                                         "/BatchGetChannel"
                                                         "BatchGetChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-channel))
 (common-lisp:progn
  (common-lisp:defun batch-get-stream-key
@@ -5898,7 +5898,7 @@
                                                         "POST"
                                                         "/BatchGetStreamKey"
                                                         "BatchGetStreamKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-stream-key))
 (common-lisp:progn
  (common-lisp:defun batch-start-viewer-session-revocation
@@ -5917,7 +5917,7 @@
                                                         "POST"
                                                         "/BatchStartViewerSessionRevocation"
                                                         "BatchStartViewerSessionRevocation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-start-viewer-session-revocation))
 (common-lisp:progn
  (common-lisp:defun create-channel
@@ -5939,7 +5939,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/CreateChannel"
                                                         "CreateChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-channel))
 (common-lisp:progn
  (common-lisp:defun create-playback-restriction-policy
@@ -5961,7 +5961,7 @@
                                                         "POST"
                                                         "/CreatePlaybackRestrictionPolicy"
                                                         "CreatePlaybackRestrictionPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-playback-restriction-policy))
 (common-lisp:progn
  (common-lisp:defun create-recording-configuration
@@ -5985,7 +5985,7 @@
                                                         "POST"
                                                         "/CreateRecordingConfiguration"
                                                         "CreateRecordingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-recording-configuration))
 (common-lisp:progn
  (common-lisp:defun create-stream-key
@@ -6003,7 +6003,7 @@
                                                         "POST"
                                                         "/CreateStreamKey"
                                                         "CreateStreamKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-stream-key))
 (common-lisp:progn
  (common-lisp:defun delete-channel
@@ -6020,7 +6020,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/DeleteChannel"
                                                         "DeleteChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-channel))
 (common-lisp:progn
  (common-lisp:defun delete-playback-key-pair
@@ -6038,7 +6038,7 @@
                                                         "POST"
                                                         "/DeletePlaybackKeyPair"
                                                         "DeletePlaybackKeyPair"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-playback-key-pair))
 (common-lisp:progn
  (common-lisp:defun delete-playback-restriction-policy
@@ -6057,7 +6057,7 @@
                                                         "POST"
                                                         "/DeletePlaybackRestrictionPolicy"
                                                         "DeletePlaybackRestrictionPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-playback-restriction-policy))
 (common-lisp:progn
  (common-lisp:defun delete-recording-configuration
@@ -6076,7 +6076,7 @@
                                                         "POST"
                                                         "/DeleteRecordingConfiguration"
                                                         "DeleteRecordingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-recording-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-stream-key
@@ -6094,7 +6094,7 @@
                                                         "POST"
                                                         "/DeleteStreamKey"
                                                         "DeleteStreamKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-stream-key))
 (common-lisp:progn
  (common-lisp:defun get-channel
@@ -6111,7 +6111,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/GetChannel"
                                                         "GetChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-channel))
 (common-lisp:progn
  (common-lisp:defun get-playback-key-pair
@@ -6129,7 +6129,7 @@
                                                         "POST"
                                                         "/GetPlaybackKeyPair"
                                                         "GetPlaybackKeyPair"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-playback-key-pair))
 (common-lisp:progn
  (common-lisp:defun get-playback-restriction-policy
@@ -6148,7 +6148,7 @@
                                                         "POST"
                                                         "/GetPlaybackRestrictionPolicy"
                                                         "GetPlaybackRestrictionPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-playback-restriction-policy))
 (common-lisp:progn
  (common-lisp:defun get-recording-configuration
@@ -6167,7 +6167,7 @@
                                                         "POST"
                                                         "/GetRecordingConfiguration"
                                                         "GetRecordingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-recording-configuration))
 (common-lisp:progn
  (common-lisp:defun get-stream
@@ -6184,7 +6184,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/GetStream"
                                                         "GetStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-stream))
 (common-lisp:progn
  (common-lisp:defun get-stream-key
@@ -6201,7 +6201,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/GetStreamKey"
                                                         "GetStreamKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-stream-key))
 (common-lisp:progn
  (common-lisp:defun get-stream-session
@@ -6219,7 +6219,7 @@
                                                         "POST"
                                                         "/GetStreamSession"
                                                         "GetStreamSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-stream-session))
 (common-lisp:progn
  (common-lisp:defun import-playback-key-pair
@@ -6237,7 +6237,7 @@
                                                         "POST"
                                                         "/ImportPlaybackKeyPair"
                                                         "ImportPlaybackKeyPair"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-playback-key-pair))
 (common-lisp:progn
  (common-lisp:defun list-channels
@@ -6260,7 +6260,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/ListChannels"
                                                         "ListChannels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-channels))
 (common-lisp:progn
  (common-lisp:defun list-playback-key-pairs
@@ -6278,7 +6278,7 @@
                                                         "POST"
                                                         "/ListPlaybackKeyPairs"
                                                         "ListPlaybackKeyPairs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-playback-key-pairs))
 (common-lisp:progn
  (common-lisp:defun list-playback-restriction-policies
@@ -6297,7 +6297,7 @@
                                                         "POST"
                                                         "/ListPlaybackRestrictionPolicies"
                                                         "ListPlaybackRestrictionPolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-playback-restriction-policies))
 (common-lisp:progn
  (common-lisp:defun list-recording-configurations
@@ -6316,7 +6316,7 @@
                                                         "POST"
                                                         "/ListRecordingConfigurations"
                                                         "ListRecordingConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-recording-configurations))
 (common-lisp:progn
  (common-lisp:defun list-stream-keys
@@ -6335,7 +6335,7 @@
                                                         "POST"
                                                         "/ListStreamKeys"
                                                         "ListStreamKeys"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-stream-keys))
 (common-lisp:progn
  (common-lisp:defun list-stream-sessions
@@ -6354,7 +6354,7 @@
                                                         "POST"
                                                         "/ListStreamSessions"
                                                         "ListStreamSessions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-stream-sessions))
 (common-lisp:progn
  (common-lisp:defun list-streams
@@ -6372,7 +6372,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/ListStreams"
                                                         "ListStreams"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-streams))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -6399,7 +6399,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-metadata
@@ -6416,7 +6416,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/PutMetadata"
                                                         "PutMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-metadata))
 (common-lisp:progn
  (common-lisp:defun start-viewer-session-revocation
@@ -6438,7 +6438,7 @@
                                                         "POST"
                                                         "/StartViewerSessionRevocation"
                                                         "StartViewerSessionRevocation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-viewer-session-revocation))
 (common-lisp:progn
  (common-lisp:defun stop-stream
@@ -6455,7 +6455,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/StopStream"
                                                         "StopStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-stream))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -6482,7 +6482,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -6509,7 +6509,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-channel
@@ -6530,7 +6530,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/UpdateChannel"
                                                         "UpdateChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-channel))
 (common-lisp:progn
  (common-lisp:defun update-playback-restriction-policy
@@ -6552,5 +6552,5 @@
                                                         "POST"
                                                         "/UpdatePlaybackRestrictionPolicy"
                                                         "UpdatePlaybackRestrictionPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-playback-restriction-policy))

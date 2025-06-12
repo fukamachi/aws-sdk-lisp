@@ -2178,7 +2178,14 @@
                          (aws-sdk/generator/shape::input
                           create-bucket-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'create-bucket-configuration)))
+                           'create-bucket-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-bucket-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "CreateBucketConfiguration" :xml-namespace
+                     "http://awss3control.amazonaws.com/doc/2018-08-20/")))
 (common-lisp:progn
  (common-lisp:defclass create-bucket-result common-lisp:nil
                        ((location :initarg :location :initform common-lisp:nil
@@ -6845,7 +6852,13 @@
                          (aws-sdk/generator/shape::input
                           get-public-access-block-output))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'public-access-block-configuration)))
+                           'public-access-block-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-public-access-block-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-public-access-block-request common-lisp:nil
                        ((account-id :initarg :account-id :initform
@@ -6967,7 +6980,13 @@
                          (aws-sdk/generator/shape::input
                           get-storage-lens-configuration-result))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'storage-lens-configuration)))
+                           'storage-lens-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-storage-lens-configuration-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-storage-lens-configuration-tagging-request
                        common-lisp:nil
@@ -7134,7 +7153,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-storage-lens-group-result))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'storage-lens-group)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'storage-lens-group))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-storage-lens-group-result))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:deftype grant-full-control () 'common-lisp:string)
 (common-lisp:deftype grant-read () 'common-lisp:string)
 (common-lisp:deftype grant-read-acp () 'common-lisp:string)
@@ -12354,7 +12379,14 @@
                          (aws-sdk/generator/shape::input
                           put-bucket-lifecycle-configuration-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'lifecycle-configuration)))
+                           'lifecycle-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-lifecycle-configuration-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "LifecycleConfiguration" :xml-namespace
+                     "http://awss3control.amazonaws.com/doc/2018-08-20/")))
 (common-lisp:progn
  (common-lisp:defclass put-bucket-policy-request common-lisp:nil
                        ((account-id :initarg :account-id :initform
@@ -12488,7 +12520,14 @@
                          (aws-sdk/generator/shape::input
                           put-bucket-replication-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'replication-configuration)))
+                           'replication-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-replication-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "ReplicationConfiguration" :xml-namespace
+                     "http://awss3control.amazonaws.com/doc/2018-08-20/")))
 (common-lisp:progn
  (common-lisp:defclass put-bucket-tagging-request common-lisp:nil
                        ((account-id :initarg :account-id :initform
@@ -12542,7 +12581,14 @@
                         (
                          (aws-sdk/generator/shape::input
                           put-bucket-tagging-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'tagging)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'tagging))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-tagging-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "Tagging" :xml-namespace
+                     "http://awss3control.amazonaws.com/doc/2018-08-20/")))
 (common-lisp:progn
  (common-lisp:defclass put-bucket-versioning-request common-lisp:nil
                        ((account-id :initarg :account-id :initform
@@ -12614,7 +12660,14 @@
                          (aws-sdk/generator/shape::input
                           put-bucket-versioning-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'versioning-configuration)))
+                           'versioning-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-versioning-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "VersioningConfiguration" :xml-namespace
+                     "http://awss3control.amazonaws.com/doc/2018-08-20/")))
 (common-lisp:progn
  (common-lisp:defclass put-job-tagging-request common-lisp:nil
                        ((account-id :initarg :account-id :initform
@@ -12913,7 +12966,15 @@
                          (aws-sdk/generator/shape::input
                           put-public-access-block-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'public-access-block-configuration)))
+                           'public-access-block-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-public-access-block-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "PublicAccessBlockConfiguration"
+                     :xml-namespace
+                     "http://awss3control.amazonaws.com/doc/2018-08-20/")))
 (common-lisp:progn
  (common-lisp:defclass put-storage-lens-configuration-request common-lisp:nil
                        ((config-id :initarg :config-id :initform
@@ -17334,7 +17395,7 @@
                                                         "POST"
                                                         "/v20180820/accessgrantsinstance/identitycenter"
                                                         "AssociateAccessGrantsIdentityCenter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'associate-access-grants-identity-center))
 (common-lisp:progn
  (common-lisp:defun create-access-grant
@@ -17357,7 +17418,7 @@
                                                         "POST"
                                                         "/v20180820/accessgrantsinstance/grant"
                                                         "CreateAccessGrant"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-access-grant))
 (common-lisp:progn
  (common-lisp:defun create-access-grants-instance
@@ -17377,7 +17438,7 @@
                                                         "POST"
                                                         "/v20180820/accessgrantsinstance"
                                                         "CreateAccessGrantsInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-access-grants-instance))
 (common-lisp:progn
  (common-lisp:defun create-access-grants-location
@@ -17398,7 +17459,7 @@
                                                         "POST"
                                                         "/v20180820/accessgrantsinstance/location"
                                                         "CreateAccessGrantsLocation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-access-grants-location))
 (common-lisp:progn
  (common-lisp:defun create-access-point
@@ -17428,7 +17489,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "CreateAccessPoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-access-point))
 (common-lisp:progn
  (common-lisp:defun create-access-point-for-object-lambda
@@ -17456,7 +17517,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "CreateAccessPointForObjectLambda"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-access-point-for-object-lambda))
 (common-lisp:progn
  (common-lisp:defun create-bucket
@@ -17488,7 +17549,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "CreateBucket"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-bucket))
 (common-lisp:progn
  (common-lisp:defun create-job
@@ -17511,7 +17572,7 @@
                                                         "POST"
                                                         "/v20180820/jobs"
                                                         "CreateJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-job))
 (common-lisp:progn
  (common-lisp:defun create-multi-region-access-point
@@ -17531,7 +17592,7 @@
                                                         "POST"
                                                         "/v20180820/async-requests/mrap/create"
                                                         "CreateMultiRegionAccessPoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-multi-region-access-point))
 (common-lisp:progn
  (common-lisp:defun create-storage-lens-group
@@ -17551,7 +17612,7 @@
                                                         "POST"
                                                         "/v20180820/storagelensgroup"
                                                         "CreateStorageLensGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-storage-lens-group))
 (common-lisp:progn
  (common-lisp:defun delete-access-grant
@@ -17578,7 +17639,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteAccessGrant"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-access-grant))
 (common-lisp:progn
  (common-lisp:defun delete-access-grants-instance
@@ -17597,7 +17658,7 @@
                                                         "DELETE"
                                                         "/v20180820/accessgrantsinstance"
                                                         "DeleteAccessGrantsInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-access-grants-instance))
 (common-lisp:progn
  (common-lisp:defun delete-access-grants-instance-resource-policy
@@ -17616,7 +17677,7 @@
                                                         "DELETE"
                                                         "/v20180820/accessgrantsinstance/resourcepolicy"
                                                         "DeleteAccessGrantsInstanceResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-access-grants-instance-resource-policy))
 (common-lisp:progn
  (common-lisp:defun delete-access-grants-location
@@ -17645,7 +17706,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteAccessGrantsLocation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-access-grants-location))
 (common-lisp:progn
  (common-lisp:defun delete-access-point
@@ -17672,7 +17733,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteAccessPoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-access-point))
 (common-lisp:progn
  (common-lisp:defun delete-access-point-for-object-lambda
@@ -17700,7 +17761,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteAccessPointForObjectLambda"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-access-point-for-object-lambda))
 (common-lisp:progn
  (common-lisp:defun delete-access-point-policy
@@ -17728,7 +17789,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteAccessPointPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-access-point-policy))
 (common-lisp:progn
  (common-lisp:defun delete-access-point-policy-for-object-lambda
@@ -17756,7 +17817,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteAccessPointPolicyForObjectLambda"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-access-point-policy-for-object-lambda))
 (common-lisp:progn
  (common-lisp:defun delete-bucket
@@ -17783,7 +17844,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteBucket"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-bucket))
 (common-lisp:progn
  (common-lisp:defun delete-bucket-lifecycle-configuration
@@ -17811,7 +17872,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteBucketLifecycleConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-bucket-lifecycle-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-bucket-policy
@@ -17838,7 +17899,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteBucketPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-bucket-policy))
 (common-lisp:progn
  (common-lisp:defun delete-bucket-replication
@@ -17866,7 +17927,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteBucketReplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-bucket-replication))
 (common-lisp:progn
  (common-lisp:defun delete-bucket-tagging
@@ -17893,7 +17954,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteBucketTagging"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-bucket-tagging))
 (common-lisp:progn
  (common-lisp:defun delete-job-tagging
@@ -17920,7 +17981,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteJobTagging"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-job-tagging))
 (common-lisp:progn
  (common-lisp:defun delete-multi-region-access-point
@@ -17940,7 +18001,7 @@
                                                         "POST"
                                                         "/v20180820/async-requests/mrap/delete"
                                                         "DeleteMultiRegionAccessPoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-multi-region-access-point))
 (common-lisp:progn
  (common-lisp:defun delete-public-access-block
@@ -17959,7 +18020,7 @@
                                                         "DELETE"
                                                         "/v20180820/configuration/publicAccessBlock"
                                                         "DeletePublicAccessBlock"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-public-access-block))
 (common-lisp:progn
  (common-lisp:defun delete-storage-lens-configuration
@@ -17987,7 +18048,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'storagelensid))))
                                                         "DeleteStorageLensConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-storage-lens-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-storage-lens-configuration-tagging
@@ -18015,7 +18076,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'storagelensid))))
                                                         "DeleteStorageLensConfigurationTagging"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-storage-lens-configuration-tagging))
 (common-lisp:progn
  (common-lisp:defun delete-storage-lens-group
@@ -18043,7 +18104,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteStorageLensGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-storage-lens-group))
 (common-lisp:progn
  (common-lisp:defun describe-job
@@ -18070,7 +18131,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DescribeJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'describe-job))
 (common-lisp:progn
  (common-lisp:defun describe-multi-region-access-point-operation
@@ -18097,7 +18158,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'request-token)))
                                                         "DescribeMultiRegionAccessPointOperation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'describe-multi-region-access-point-operation))
 (common-lisp:progn
  (common-lisp:defun dissociate-access-grants-identity-center
@@ -18116,7 +18177,7 @@
                                                         "DELETE"
                                                         "/v20180820/accessgrantsinstance/identitycenter"
                                                         "DissociateAccessGrantsIdentityCenter"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'dissociate-access-grants-identity-center))
 (common-lisp:progn
  (common-lisp:defun get-access-grant
@@ -18143,7 +18204,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetAccessGrant"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-access-grant))
 (common-lisp:progn
  (common-lisp:defun get-access-grants-instance
@@ -18162,7 +18223,7 @@
                                                         "GET"
                                                         "/v20180820/accessgrantsinstance"
                                                         "GetAccessGrantsInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-access-grants-instance))
 (common-lisp:progn
  (common-lisp:defun get-access-grants-instance-for-prefix
@@ -18181,7 +18242,7 @@
                                                         "GET"
                                                         "/v20180820/accessgrantsinstance/prefix"
                                                         "GetAccessGrantsInstanceForPrefix"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-access-grants-instance-for-prefix))
 (common-lisp:progn
  (common-lisp:defun get-access-grants-instance-resource-policy
@@ -18200,7 +18261,7 @@
                                                         "GET"
                                                         "/v20180820/accessgrantsinstance/resourcepolicy"
                                                         "GetAccessGrantsInstanceResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-access-grants-instance-resource-policy))
 (common-lisp:progn
  (common-lisp:defun get-access-grants-location
@@ -18229,7 +18290,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetAccessGrantsLocation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-access-grants-location))
 (common-lisp:progn
  (common-lisp:defun get-access-point
@@ -18256,7 +18317,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetAccessPoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-access-point))
 (common-lisp:progn
  (common-lisp:defun get-access-point-configuration-for-object-lambda
@@ -18284,7 +18345,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetAccessPointConfigurationForObjectLambda"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-access-point-configuration-for-object-lambda))
 (common-lisp:progn
  (common-lisp:defun get-access-point-for-object-lambda
@@ -18312,7 +18373,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetAccessPointForObjectLambda"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-access-point-for-object-lambda))
 (common-lisp:progn
  (common-lisp:defun get-access-point-policy
@@ -18339,7 +18400,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetAccessPointPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-access-point-policy))
 (common-lisp:progn
  (common-lisp:defun get-access-point-policy-for-object-lambda
@@ -18367,7 +18428,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetAccessPointPolicyForObjectLambda"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-access-point-policy-for-object-lambda))
 (common-lisp:progn
  (common-lisp:defun get-access-point-policy-status
@@ -18395,7 +18456,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetAccessPointPolicyStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-access-point-policy-status))
 (common-lisp:progn
  (common-lisp:defun get-access-point-policy-status-for-object-lambda
@@ -18423,7 +18484,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetAccessPointPolicyStatusForObjectLambda"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-access-point-policy-status-for-object-lambda))
 (common-lisp:progn
  (common-lisp:defun get-bucket
@@ -18450,7 +18511,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetBucket"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket))
 (common-lisp:progn
  (common-lisp:defun get-bucket-lifecycle-configuration
@@ -18478,7 +18539,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetBucketLifecycleConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-lifecycle-configuration))
 (common-lisp:progn
  (common-lisp:defun get-bucket-policy
@@ -18505,7 +18566,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetBucketPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-policy))
 (common-lisp:progn
  (common-lisp:defun get-bucket-replication
@@ -18532,7 +18593,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetBucketReplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-replication))
 (common-lisp:progn
  (common-lisp:defun get-bucket-tagging
@@ -18559,7 +18620,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetBucketTagging"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-tagging))
 (common-lisp:progn
  (common-lisp:defun get-bucket-versioning
@@ -18586,7 +18647,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetBucketVersioning"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-versioning))
 (common-lisp:progn
  (common-lisp:defun get-data-access
@@ -18607,7 +18668,7 @@
                                                         "GET"
                                                         "/v20180820/accessgrantsinstance/dataaccess"
                                                         "GetDataAccess"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-data-access))
 (common-lisp:progn
  (common-lisp:defun get-job-tagging
@@ -18634,7 +18695,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetJobTagging"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-job-tagging))
 (common-lisp:progn
  (common-lisp:defun get-multi-region-access-point
@@ -18661,7 +18722,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'name)))
                                                         "GetMultiRegionAccessPoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-multi-region-access-point))
 (common-lisp:progn
  (common-lisp:defun get-multi-region-access-point-policy
@@ -18688,7 +18749,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'name)))
                                                         "GetMultiRegionAccessPointPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-multi-region-access-point-policy))
 (common-lisp:progn
  (common-lisp:defun get-multi-region-access-point-policy-status
@@ -18715,7 +18776,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'name)))
                                                         "GetMultiRegionAccessPointPolicyStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-multi-region-access-point-policy-status))
 (common-lisp:progn
  (common-lisp:defun get-multi-region-access-point-routes
@@ -18742,7 +18803,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'mrap)))
                                                         "GetMultiRegionAccessPointRoutes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-multi-region-access-point-routes))
 (common-lisp:progn
  (common-lisp:defun get-public-access-block
@@ -18760,7 +18821,7 @@
                                                         "GET"
                                                         "/v20180820/configuration/publicAccessBlock"
                                                         "GetPublicAccessBlock"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-public-access-block))
 (common-lisp:progn
  (common-lisp:defun get-storage-lens-configuration
@@ -18788,7 +18849,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'storagelensid))))
                                                         "GetStorageLensConfiguration"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-storage-lens-configuration))
 (common-lisp:progn
  (common-lisp:defun get-storage-lens-configuration-tagging
@@ -18816,7 +18877,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'storagelensid))))
                                                         "GetStorageLensConfigurationTagging"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-storage-lens-configuration-tagging))
 (common-lisp:progn
  (common-lisp:defun get-storage-lens-group
@@ -18843,7 +18904,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetStorageLensGroup"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-storage-lens-group))
 (common-lisp:progn
  (common-lisp:defun list-access-grants
@@ -18865,7 +18926,7 @@
                                                         "GET"
                                                         "/v20180820/accessgrantsinstance/grants"
                                                         "ListAccessGrants"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-access-grants))
 (common-lisp:progn
  (common-lisp:defun list-access-grants-instances
@@ -18885,7 +18946,7 @@
                                                         "GET"
                                                         "/v20180820/accessgrantsinstances"
                                                         "ListAccessGrantsInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-access-grants-instances))
 (common-lisp:progn
  (common-lisp:defun list-access-grants-locations
@@ -18906,7 +18967,7 @@
                                                         "GET"
                                                         "/v20180820/accessgrantsinstance/locations"
                                                         "ListAccessGrantsLocations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-access-grants-locations))
 (common-lisp:progn
  (common-lisp:defun list-access-points
@@ -18925,7 +18986,7 @@
                                                         "GET"
                                                         "/v20180820/accesspoint"
                                                         "ListAccessPoints"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-access-points))
 (common-lisp:progn
  (common-lisp:defun list-access-points-for-object-lambda
@@ -18945,7 +19006,7 @@
                                                         "GET"
                                                         "/v20180820/accesspointforobjectlambda"
                                                         "ListAccessPointsForObjectLambda"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-access-points-for-object-lambda))
 (common-lisp:progn
  (common-lisp:defun list-jobs
@@ -18964,7 +19025,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v20180820/jobs"
                                                         "ListJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-jobs))
 (common-lisp:progn
  (common-lisp:defun list-multi-region-access-points
@@ -18984,7 +19045,7 @@
                                                         "GET"
                                                         "/v20180820/mrap/instances"
                                                         "ListMultiRegionAccessPoints"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-multi-region-access-points))
 (common-lisp:progn
  (common-lisp:defun list-regional-buckets
@@ -19004,7 +19065,7 @@
                                                         "GET"
                                                         "/v20180820/bucket"
                                                         "ListRegionalBuckets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-regional-buckets))
 (common-lisp:progn
  (common-lisp:defun list-storage-lens-configurations
@@ -19023,7 +19084,7 @@
                                                         "GET"
                                                         "/v20180820/storagelens"
                                                         "ListStorageLensConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-storage-lens-configurations))
 (common-lisp:progn
  (common-lisp:defun list-storage-lens-groups
@@ -19041,7 +19102,7 @@
                                                         "GET"
                                                         "/v20180820/storagelensgroup"
                                                         "ListStorageLensGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-storage-lens-groups))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -19067,7 +19128,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'resource-arn)))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-access-grants-instance-resource-policy
@@ -19086,7 +19147,7 @@
                                                         "PUT"
                                                         "/v20180820/accessgrantsinstance/resourcepolicy"
                                                         "PutAccessGrantsInstanceResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-access-grants-instance-resource-policy))
 (common-lisp:progn
  (common-lisp:defun put-access-point-configuration-for-object-lambda
@@ -19114,7 +19175,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "PutAccessPointConfigurationForObjectLambda"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-access-point-configuration-for-object-lambda))
 (common-lisp:progn
  (common-lisp:defun put-access-point-policy
@@ -19141,7 +19202,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "PutAccessPointPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-access-point-policy))
 (common-lisp:progn
  (common-lisp:defun put-access-point-policy-for-object-lambda
@@ -19169,7 +19230,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "PutAccessPointPolicyForObjectLambda"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-access-point-policy-for-object-lambda))
 (common-lisp:progn
  (common-lisp:defun put-bucket-lifecycle-configuration
@@ -19199,7 +19260,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "PutBucketLifecycleConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-lifecycle-configuration))
 (common-lisp:progn
  (common-lisp:defun put-bucket-policy
@@ -19229,7 +19290,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "PutBucketPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-policy))
 (common-lisp:progn
  (common-lisp:defun put-bucket-replication
@@ -19258,7 +19319,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "PutBucketReplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-replication))
 (common-lisp:progn
  (common-lisp:defun put-bucket-tagging
@@ -19285,7 +19346,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "PutBucketTagging"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-tagging))
 (common-lisp:progn
  (common-lisp:defun put-bucket-versioning
@@ -19314,7 +19375,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "PutBucketVersioning"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-versioning))
 (common-lisp:progn
  (common-lisp:defun put-job-tagging
@@ -19341,7 +19402,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "PutJobTagging"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-job-tagging))
 (common-lisp:progn
  (common-lisp:defun put-multi-region-access-point-policy
@@ -19361,7 +19422,7 @@
                                                         "POST"
                                                         "/v20180820/async-requests/mrap/put-policy"
                                                         "PutMultiRegionAccessPointPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-multi-region-access-point-policy))
 (common-lisp:progn
  (common-lisp:defun put-public-access-block
@@ -19381,7 +19442,7 @@
                                                         "PUT"
                                                         "/v20180820/configuration/publicAccessBlock"
                                                         "PutPublicAccessBlock"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-public-access-block))
 (common-lisp:progn
  (common-lisp:defun put-storage-lens-configuration
@@ -19412,7 +19473,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'storagelensid))))
                                                         "PutStorageLensConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-storage-lens-configuration))
 (common-lisp:progn
  (common-lisp:defun put-storage-lens-configuration-tagging
@@ -19440,7 +19501,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'storagelensid))))
                                                         "PutStorageLensConfigurationTagging"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-storage-lens-configuration-tagging))
 (common-lisp:progn
  (common-lisp:defun submit-multi-region-access-point-routes
@@ -19467,7 +19528,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'mrap)))
                                                         "SubmitMultiRegionAccessPointRoutes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'submit-multi-region-access-point-routes))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -19493,7 +19554,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'resource-arn)))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -19520,7 +19581,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'resource-arn)))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-access-grants-location
@@ -19550,7 +19611,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateAccessGrantsLocation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-access-grants-location))
 (common-lisp:progn
  (common-lisp:defun update-job-priority
@@ -19577,7 +19638,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateJobPriority"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-job-priority))
 (common-lisp:progn
  (common-lisp:defun update-job-status
@@ -19607,7 +19668,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "UpdateJobStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-job-status))
 (common-lisp:progn
  (common-lisp:defun update-storage-lens-group
@@ -19636,5 +19697,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateStorageLensGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'update-storage-lens-group))

@@ -4218,7 +4218,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateParallelData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-parallel-data))
 (common-lisp:progn
  (common-lisp:defun delete-parallel-data
@@ -4235,7 +4235,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteParallelData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-parallel-data))
 (common-lisp:progn
  (common-lisp:defun delete-terminology
@@ -4252,7 +4252,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteTerminology"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-terminology))
 (common-lisp:progn
  (common-lisp:defun describe-text-translation-job
@@ -4270,7 +4270,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTextTranslationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-text-translation-job))
 (common-lisp:progn
  (common-lisp:defun get-parallel-data
@@ -4287,7 +4287,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetParallelData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-parallel-data))
 (common-lisp:progn
  (common-lisp:defun get-terminology
@@ -4304,7 +4304,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetTerminology"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-terminology))
 (common-lisp:progn
  (common-lisp:defun import-terminology
@@ -4324,7 +4324,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ImportTerminology"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'import-terminology))
 (common-lisp:progn
  (common-lisp:defun list-languages
@@ -4343,7 +4343,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListLanguages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-languages))
 (common-lisp:progn
  (common-lisp:defun list-parallel-data
@@ -4360,7 +4360,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListParallelData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-parallel-data))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -4377,7 +4377,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-terminologies
@@ -4394,7 +4394,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTerminologies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-terminologies))
 (common-lisp:progn
  (common-lisp:defun list-text-translation-jobs
@@ -4412,7 +4412,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTextTranslationJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-text-translation-jobs))
 (common-lisp:progn
  (common-lisp:defun start-text-translation-job
@@ -4437,7 +4437,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartTextTranslationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-text-translation-job))
 (common-lisp:progn
  (common-lisp:defun stop-text-translation-job
@@ -4455,7 +4455,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopTextTranslationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-text-translation-job))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4472,7 +4472,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun translate-document
@@ -4492,7 +4492,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TranslateDocument"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'translate-document))
 (common-lisp:progn
  (common-lisp:defun translate-text
@@ -4512,7 +4512,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TranslateText"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'translate-text))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4529,7 +4529,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-parallel-data
@@ -4548,5 +4548,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateParallelData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-parallel-data))

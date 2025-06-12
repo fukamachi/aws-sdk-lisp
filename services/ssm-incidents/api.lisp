@@ -6389,7 +6389,7 @@
                                                         "POST"
                                                         "/batchGetIncidentFindings"
                                                         "BatchGetIncidentFindings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-incident-findings))
 (common-lisp:progn
  (common-lisp:defun create-replication-set
@@ -6407,7 +6407,7 @@
                                                         "POST"
                                                         "/createReplicationSet"
                                                         "CreateReplicationSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-replication-set))
 (common-lisp:progn
  (common-lisp:defun create-response-plan
@@ -6429,7 +6429,7 @@
                                                         "POST"
                                                         "/createResponsePlan"
                                                         "CreateResponsePlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-response-plan))
 (common-lisp:progn
  (common-lisp:defun create-timeline-event
@@ -6450,7 +6450,7 @@
                                                         "POST"
                                                         "/createTimelineEvent"
                                                         "CreateTimelineEvent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-timeline-event))
 (common-lisp:progn
  (common-lisp:defun delete-incident-record
@@ -6468,7 +6468,7 @@
                                                         "POST"
                                                         "/deleteIncidentRecord"
                                                         "DeleteIncidentRecord"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-incident-record))
 (common-lisp:progn
  (common-lisp:defun delete-replication-set
@@ -6486,7 +6486,7 @@
                                                         "POST"
                                                         "/deleteReplicationSet"
                                                         "DeleteReplicationSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-replication-set))
 (common-lisp:progn
  (common-lisp:defun delete-resource-policy
@@ -6504,7 +6504,7 @@
                                                         "POST"
                                                         "/deleteResourcePolicy"
                                                         "DeleteResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resource-policy))
 (common-lisp:progn
  (common-lisp:defun delete-response-plan
@@ -6522,7 +6522,7 @@
                                                         "POST"
                                                         "/deleteResponsePlan"
                                                         "DeleteResponsePlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-response-plan))
 (common-lisp:progn
  (common-lisp:defun delete-timeline-event
@@ -6540,7 +6540,7 @@
                                                         "POST"
                                                         "/deleteTimelineEvent"
                                                         "DeleteTimelineEvent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-timeline-event))
 (common-lisp:progn
  (common-lisp:defun get-incident-record
@@ -6558,7 +6558,7 @@
                                                         "GET"
                                                         "/getIncidentRecord"
                                                         "GetIncidentRecord"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-incident-record))
 (common-lisp:progn
  (common-lisp:defun get-replication-set
@@ -6576,7 +6576,7 @@
                                                         "GET"
                                                         "/getReplicationSet"
                                                         "GetReplicationSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-replication-set))
 (common-lisp:progn
  (common-lisp:defun get-resource-policies
@@ -6595,7 +6595,7 @@
                                                         "POST"
                                                         "/getResourcePolicies"
                                                         "GetResourcePolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-policies))
 (common-lisp:progn
  (common-lisp:defun get-response-plan
@@ -6613,7 +6613,7 @@
                                                         "GET"
                                                         "/getResponsePlan"
                                                         "GetResponsePlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-response-plan))
 (common-lisp:progn
  (common-lisp:defun get-timeline-event
@@ -6631,7 +6631,7 @@
                                                         "GET"
                                                         "/getTimelineEvent"
                                                         "GetTimelineEvent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-timeline-event))
 (common-lisp:progn
  (common-lisp:defun list-incident-findings
@@ -6651,7 +6651,7 @@
                                                         "POST"
                                                         "/listIncidentFindings"
                                                         "ListIncidentFindings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-incident-findings))
 (common-lisp:progn
  (common-lisp:defun list-incident-records
@@ -6669,7 +6669,7 @@
                                                         "POST"
                                                         "/listIncidentRecords"
                                                         "ListIncidentRecords"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-incident-records))
 (common-lisp:progn
  (common-lisp:defun list-related-items
@@ -6689,7 +6689,7 @@
                                                         "POST"
                                                         "/listRelatedItems"
                                                         "ListRelatedItems"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-related-items))
 (common-lisp:progn
  (common-lisp:defun list-replication-sets
@@ -6707,7 +6707,7 @@
                                                         "POST"
                                                         "/listReplicationSets"
                                                         "ListReplicationSets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-replication-sets))
 (common-lisp:progn
  (common-lisp:defun list-response-plans
@@ -6725,7 +6725,7 @@
                                                         "POST"
                                                         "/listResponsePlans"
                                                         "ListResponsePlans"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-response-plans))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -6752,7 +6752,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-timeline-events
@@ -6773,7 +6773,7 @@
                                                         "POST"
                                                         "/listTimelineEvents"
                                                         "ListTimelineEvents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-timeline-events))
 (common-lisp:progn
  (common-lisp:defun put-resource-policy
@@ -6791,7 +6791,7 @@
                                                         "POST"
                                                         "/putResourcePolicy"
                                                         "PutResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-resource-policy))
 (common-lisp:progn
  (common-lisp:defun start-incident
@@ -6811,7 +6811,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/startIncident"
                                                         "StartIncident"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-incident))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -6838,7 +6838,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -6865,7 +6865,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-deletion-protection
@@ -6884,7 +6884,7 @@
                                                         "POST"
                                                         "/updateDeletionProtection"
                                                         "UpdateDeletionProtection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-deletion-protection))
 (common-lisp:progn
  (common-lisp:defun update-incident-record
@@ -6905,7 +6905,7 @@
                                                         "POST"
                                                         "/updateIncidentRecord"
                                                         "UpdateIncidentRecord"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-incident-record))
 (common-lisp:progn
  (common-lisp:defun update-related-items
@@ -6926,7 +6926,7 @@
                                                         "POST"
                                                         "/updateRelatedItems"
                                                         "UpdateRelatedItems"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-related-items))
 (common-lisp:progn
  (common-lisp:defun update-replication-set
@@ -6944,7 +6944,7 @@
                                                         "POST"
                                                         "/updateReplicationSet"
                                                         "UpdateReplicationSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-replication-set))
 (common-lisp:progn
  (common-lisp:defun update-response-plan
@@ -6971,7 +6971,7 @@
                                                         "POST"
                                                         "/updateResponsePlan"
                                                         "UpdateResponsePlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-response-plan))
 (common-lisp:progn
  (common-lisp:defun update-timeline-event
@@ -6993,5 +6993,5 @@
                                                         "POST"
                                                         "/updateTimelineEvent"
                                                         "UpdateTimelineEvent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-timeline-event))

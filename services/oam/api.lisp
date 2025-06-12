@@ -1858,7 +1858,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/CreateLink"
                                                         "CreateLink"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-link))
 (common-lisp:progn
  (common-lisp:defun create-sink
@@ -1875,7 +1875,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/CreateSink"
                                                         "CreateSink"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-sink))
 (common-lisp:progn
  (common-lisp:defun delete-link
@@ -1892,7 +1892,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/DeleteLink"
                                                         "DeleteLink"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-link))
 (common-lisp:progn
  (common-lisp:defun delete-sink
@@ -1909,7 +1909,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/DeleteSink"
                                                         "DeleteSink"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-sink))
 (common-lisp:progn
  (common-lisp:defun get-link
@@ -1926,7 +1926,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/GetLink"
                                                         "GetLink"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-link))
 (common-lisp:progn
  (common-lisp:defun get-sink
@@ -1943,7 +1943,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/GetSink"
                                                         "GetSink"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sink))
 (common-lisp:progn
  (common-lisp:defun get-sink-policy
@@ -1960,7 +1960,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/GetSinkPolicy"
                                                         "GetSinkPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sink-policy))
 (common-lisp:progn
  (common-lisp:defun list-attached-links
@@ -1979,7 +1979,7 @@
                                                         "POST"
                                                         "/ListAttachedLinks"
                                                         "ListAttachedLinks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-attached-links))
 (common-lisp:progn
  (common-lisp:defun list-links
@@ -1996,7 +1996,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/ListLinks"
                                                         "ListLinks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-links))
 (common-lisp:progn
  (common-lisp:defun list-sinks
@@ -2013,7 +2013,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/ListSinks"
                                                         "ListSinks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-sinks))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -2040,7 +2040,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-sink-policy
@@ -2057,7 +2057,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/PutSinkPolicy"
                                                         "PutSinkPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-sink-policy))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -2084,7 +2084,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -2111,7 +2111,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-link
@@ -2128,5 +2128,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/UpdateLink"
                                                         "UpdateLink"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-link))

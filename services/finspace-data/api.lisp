@@ -5712,7 +5712,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'user-id))))
                                                         "AssociateUserToPermissionGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-user-to-permission-group))
 (common-lisp:progn
  (common-lisp:defun create-changeset
@@ -5742,7 +5742,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataset-id))))
                                                         "CreateChangeset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-changeset))
 (common-lisp:progn
  (common-lisp:defun create-data-view
@@ -5773,7 +5773,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataset-id))))
                                                         "CreateDataView"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-data-view))
 (common-lisp:progn
  (common-lisp:defun create-dataset
@@ -5794,7 +5794,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/datasetsv2"
                                                         "CreateDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-dataset))
 (common-lisp:progn
  (common-lisp:defun create-permission-group
@@ -5815,7 +5815,7 @@
                                                         "POST"
                                                         "/permission-group"
                                                         "CreatePermissionGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-permission-group))
 (common-lisp:progn
  (common-lisp:defun create-user
@@ -5835,7 +5835,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/user"
                                                         "CreateUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-user))
 (common-lisp:progn
  (common-lisp:defun delete-dataset
@@ -5862,7 +5862,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataset-id))))
                                                         "DeleteDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-dataset))
 (common-lisp:progn
  (common-lisp:defun delete-permission-group
@@ -5890,7 +5890,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'permission-group-id))))
                                                         "DeletePermissionGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-permission-group))
 (common-lisp:progn
  (common-lisp:defun disable-user
@@ -5917,7 +5917,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'user-id))))
                                                         "DisableUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disable-user))
 (common-lisp:progn
  (common-lisp:defun disassociate-user-from-permission-group
@@ -5950,7 +5950,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'user-id))))
                                                         "DisassociateUserFromPermissionGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-user-from-permission-group))
 (common-lisp:progn
  (common-lisp:defun enable-user
@@ -5977,7 +5977,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'user-id))))
                                                         "EnableUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-user))
 (common-lisp:progn
  (common-lisp:defun get-changeset
@@ -6008,7 +6008,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'changeset-id))))
                                                         "GetChangeset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-changeset))
 (common-lisp:progn
  (common-lisp:defun get-data-view
@@ -6039,7 +6039,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataview-id))))
                                                         "GetDataView"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-data-view))
 (common-lisp:progn
  (common-lisp:defun get-dataset
@@ -6066,7 +6066,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataset-id))))
                                                         "GetDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-dataset))
 (common-lisp:progn
  (common-lisp:defun get-external-data-view-access-details
@@ -6098,7 +6098,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataview-id))))
                                                         "GetExternalDataViewAccessDetails"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-external-data-view-access-details))
 (common-lisp:progn
  (common-lisp:defun get-permission-group
@@ -6125,7 +6125,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'permission-group-id))))
                                                         "GetPermissionGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-permission-group))
 (common-lisp:progn
  (common-lisp:defun get-programmatic-access-credentials
@@ -6145,7 +6145,7 @@
                                                         "GET"
                                                         "/credentials/programmatic"
                                                         "GetProgrammaticAccessCredentials"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-programmatic-access-credentials))
 (common-lisp:progn
  (common-lisp:defun get-user
@@ -6172,7 +6172,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'user-id))))
                                                         "GetUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-user))
 (common-lisp:progn
  (common-lisp:defun get-working-location
@@ -6190,7 +6190,7 @@
                                                         "POST"
                                                         "/workingLocationV1"
                                                         "GetWorkingLocation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-working-location))
 (common-lisp:progn
  (common-lisp:defun list-changesets
@@ -6218,7 +6218,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataset-id))))
                                                         "ListChangesets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-changesets))
 (common-lisp:progn
  (common-lisp:defun list-data-views
@@ -6246,7 +6246,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataset-id))))
                                                         "ListDataViews"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-data-views))
 (common-lisp:progn
  (common-lisp:defun list-datasets
@@ -6263,7 +6263,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/datasetsv2"
                                                         "ListDatasets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-datasets))
 (common-lisp:progn
  (common-lisp:defun list-permission-groups
@@ -6281,7 +6281,7 @@
                                                         "GET"
                                                         "/permission-group"
                                                         "ListPermissionGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-permission-groups))
 (common-lisp:progn
  (common-lisp:defun list-permission-groups-by-user
@@ -6309,7 +6309,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'user-id))))
                                                         "ListPermissionGroupsByUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-permission-groups-by-user))
 (common-lisp:progn
  (common-lisp:defun list-users
@@ -6326,7 +6326,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/user"
                                                         "ListUsers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-users))
 (common-lisp:progn
  (common-lisp:defun list-users-by-permission-group
@@ -6356,7 +6356,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'permission-group-id))))
                                                         "ListUsersByPermissionGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-users-by-permission-group))
 (common-lisp:progn
  (common-lisp:defun reset-user-password
@@ -6383,7 +6383,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'user-id))))
                                                         "ResetUserPassword"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reset-user-password))
 (common-lisp:progn
  (common-lisp:defun update-changeset
@@ -6417,7 +6417,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'changeset-id))))
                                                         "UpdateChangeset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-changeset))
 (common-lisp:progn
  (common-lisp:defun update-dataset
@@ -6447,7 +6447,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataset-id))))
                                                         "UpdateDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-dataset))
 (common-lisp:progn
  (common-lisp:defun update-permission-group
@@ -6477,7 +6477,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'permission-group-id))))
                                                         "UpdatePermissionGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-permission-group))
 (common-lisp:progn
  (common-lisp:defun update-user
@@ -6507,5 +6507,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'user-id))))
                                                         "UpdateUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-user))

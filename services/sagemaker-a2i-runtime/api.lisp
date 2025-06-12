@@ -856,7 +856,7 @@
                                 aws-sdk/generator/operation::input
                                 'human-loop-name))))
         "DeleteHumanLoop"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-human-loop))
 (common-lisp:progn
  (common-lisp:defun describe-human-loop
@@ -878,7 +878,7 @@
                                 aws-sdk/generator/operation::input
                                 'human-loop-name))))
         "DescribeHumanLoop"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-human-loop))
 (common-lisp:progn
  (common-lisp:defun list-human-loops
@@ -897,7 +897,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'sagemaker-a2i-runtime-request aws-sdk/generator/operation::input "GET"
         "/human-loops" "ListHumanLoops"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-human-loops))
 (common-lisp:progn
  (common-lisp:defun start-human-loop
@@ -916,7 +916,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'sagemaker-a2i-runtime-request aws-sdk/generator/operation::input
         "POST" "/human-loops" "StartHumanLoop"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-human-loop))
 (common-lisp:progn
  (common-lisp:defun stop-human-loop
@@ -932,5 +932,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'sagemaker-a2i-runtime-request aws-sdk/generator/operation::input
         "POST" "/human-loops/stop" "StopHumanLoop"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-human-loop))

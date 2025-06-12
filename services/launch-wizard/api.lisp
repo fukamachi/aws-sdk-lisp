@@ -1638,7 +1638,7 @@
                                                         "POST"
                                                         "/createDeployment"
                                                         "CreateDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-deployment))
 (common-lisp:progn
  (common-lisp:defun delete-deployment
@@ -1656,7 +1656,7 @@
                                                         "POST"
                                                         "/deleteDeployment"
                                                         "DeleteDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-deployment))
 (common-lisp:progn
  (common-lisp:defun get-deployment
@@ -1673,7 +1673,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/getDeployment"
                                                         "GetDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-deployment))
 (common-lisp:progn
  (common-lisp:defun get-workload
@@ -1690,7 +1690,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/getWorkload"
                                                         "GetWorkload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-workload))
 (common-lisp:progn
  (common-lisp:defun list-deployment-events
@@ -1709,7 +1709,7 @@
                                                         "POST"
                                                         "/listDeploymentEvents"
                                                         "ListDeploymentEvents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-deployment-events))
 (common-lisp:progn
  (common-lisp:defun list-deployments
@@ -1727,7 +1727,7 @@
                                                         "POST"
                                                         "/listDeployments"
                                                         "ListDeployments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-deployments))
 (common-lisp:progn
  (common-lisp:defun list-workload-deployment-patterns
@@ -1747,7 +1747,7 @@
                                                         "POST"
                                                         "/listWorkloadDeploymentPatterns"
                                                         "ListWorkloadDeploymentPatterns"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-workload-deployment-patterns))
 (common-lisp:progn
  (common-lisp:defun list-workloads
@@ -1764,5 +1764,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/listWorkloads"
                                                         "ListWorkloads"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-workloads))

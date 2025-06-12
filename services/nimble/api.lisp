@@ -9548,7 +9548,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'studio-id))))
                                                         "AcceptEulas"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'accept-eulas))
 (common-lisp:progn
  (common-lisp:defun create-launch-profile
@@ -9580,7 +9580,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'studio-id))))
                                                         "CreateLaunchProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-launch-profile))
 (common-lisp:progn
  (common-lisp:defun create-streaming-image
@@ -9610,7 +9610,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'studio-id))))
                                                         "CreateStreamingImage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-streaming-image))
 (common-lisp:progn
  (common-lisp:defun create-streaming-session
@@ -9641,7 +9641,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'studio-id))))
                                                         "CreateStreamingSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-streaming-session))
 (common-lisp:progn
  (common-lisp:defun create-streaming-session-stream
@@ -9676,7 +9676,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'session-id))))
                                                         "CreateStreamingSessionStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-streaming-session-stream))
 (common-lisp:progn
  (common-lisp:defun create-studio
@@ -9698,7 +9698,7 @@
                                                         "POST"
                                                         "/2020-08-01/studios"
                                                         "CreateStudio"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-studio))
 (common-lisp:progn
  (common-lisp:defun create-studio-component
@@ -9733,7 +9733,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'studio-id))))
                                                         "CreateStudioComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-studio-component))
 (common-lisp:progn
  (common-lisp:defun delete-launch-profile
@@ -9765,7 +9765,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'launch-profile-id))))
                                                         "DeleteLaunchProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-launch-profile))
 (common-lisp:progn
  (common-lisp:defun delete-launch-profile-member
@@ -9804,7 +9804,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'principal-id))))
                                                         "DeleteLaunchProfileMember"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-launch-profile-member))
 (common-lisp:progn
  (common-lisp:defun delete-streaming-image
@@ -9837,7 +9837,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'streaming-image-id))))
                                                         "DeleteStreamingImage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-streaming-image))
 (common-lisp:progn
  (common-lisp:defun delete-streaming-session
@@ -9869,7 +9869,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'session-id))))
                                                         "DeleteStreamingSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-streaming-session))
 (common-lisp:progn
  (common-lisp:defun delete-studio
@@ -9896,7 +9896,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'studio-id))))
                                                         "DeleteStudio"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-studio))
 (common-lisp:progn
  (common-lisp:defun delete-studio-component
@@ -9929,7 +9929,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'studio-component-id))))
                                                         "DeleteStudioComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-studio-component))
 (common-lisp:progn
  (common-lisp:defun delete-studio-member
@@ -9961,7 +9961,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'principal-id))))
                                                         "DeleteStudioMember"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-studio-member))
 (common-lisp:progn
  (common-lisp:defun get-eula
@@ -9988,7 +9988,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'eula-id))))
                                                         "GetEula"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-eula))
 (common-lisp:progn
  (common-lisp:defun get-launch-profile
@@ -10019,7 +10019,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'launch-profile-id))))
                                                         "GetLaunchProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-launch-profile))
 (common-lisp:progn
  (common-lisp:defun get-launch-profile-details
@@ -10051,7 +10051,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'launch-profile-id))))
                                                         "GetLaunchProfileDetails"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-launch-profile-details))
 (common-lisp:progn
  (common-lisp:defun get-launch-profile-initialization
@@ -10087,7 +10087,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'launch-profile-id))))
                                                         "GetLaunchProfileInitialization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-launch-profile-initialization))
 (common-lisp:progn
  (common-lisp:defun get-launch-profile-member
@@ -10124,7 +10124,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'principal-id))))
                                                         "GetLaunchProfileMember"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-launch-profile-member))
 (common-lisp:progn
  (common-lisp:defun get-streaming-image
@@ -10155,7 +10155,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'streaming-image-id))))
                                                         "GetStreamingImage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-streaming-image))
 (common-lisp:progn
  (common-lisp:defun get-streaming-session
@@ -10186,7 +10186,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'session-id))))
                                                         "GetStreamingSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-streaming-session))
 (common-lisp:progn
  (common-lisp:defun get-streaming-session-backup
@@ -10218,7 +10218,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'backup-id))))
                                                         "GetStreamingSessionBackup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-streaming-session-backup))
 (common-lisp:progn
  (common-lisp:defun get-streaming-session-stream
@@ -10254,7 +10254,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'stream-id))))
                                                         "GetStreamingSessionStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-streaming-session-stream))
 (common-lisp:progn
  (common-lisp:defun get-studio
@@ -10281,7 +10281,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'studio-id))))
                                                         "GetStudio"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-studio))
 (common-lisp:progn
  (common-lisp:defun get-studio-component
@@ -10312,7 +10312,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'studio-component-id))))
                                                         "GetStudioComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-studio-component))
 (common-lisp:progn
  (common-lisp:defun get-studio-member
@@ -10343,7 +10343,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'principal-id))))
                                                         "GetStudioMember"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-studio-member))
 (common-lisp:progn
  (common-lisp:defun list-eula-acceptances
@@ -10370,7 +10370,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'studio-id))))
                                                         "ListEulaAcceptances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-eula-acceptances))
 (common-lisp:progn
  (common-lisp:defun list-eulas
@@ -10388,7 +10388,7 @@
                                                         "GET"
                                                         "/2020-08-01/eulas"
                                                         "ListEulas"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-eulas))
 (common-lisp:progn
  (common-lisp:defun list-launch-profile-members
@@ -10422,7 +10422,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'launch-profile-id))))
                                                         "ListLaunchProfileMembers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-launch-profile-members))
 (common-lisp:progn
  (common-lisp:defun list-launch-profiles
@@ -10452,7 +10452,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'studio-id))))
                                                         "ListLaunchProfiles"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-launch-profiles))
 (common-lisp:progn
  (common-lisp:defun list-streaming-images
@@ -10479,7 +10479,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'studio-id))))
                                                         "ListStreamingImages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-streaming-images))
 (common-lisp:progn
  (common-lisp:defun list-streaming-session-backups
@@ -10507,7 +10507,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'studio-id))))
                                                         "ListStreamingSessionBackups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-streaming-session-backups))
 (common-lisp:progn
  (common-lisp:defun list-streaming-sessions
@@ -10537,7 +10537,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'studio-id))))
                                                         "ListStreamingSessions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-streaming-sessions))
 (common-lisp:progn
  (common-lisp:defun list-studio-components
@@ -10566,7 +10566,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'studio-id))))
                                                         "ListStudioComponents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-studio-components))
 (common-lisp:progn
  (common-lisp:defun list-studio-members
@@ -10594,7 +10594,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'studio-id))))
                                                         "ListStudioMembers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-studio-members))
 (common-lisp:progn
  (common-lisp:defun list-studios
@@ -10612,7 +10612,7 @@
                                                         "GET"
                                                         "/2020-08-01/studios"
                                                         "ListStudios"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-studios))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -10639,7 +10639,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-launch-profile-members
@@ -10674,7 +10674,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'launch-profile-id))))
                                                         "PutLaunchProfileMembers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-launch-profile-members))
 (common-lisp:progn
  (common-lisp:defun put-studio-members
@@ -10703,7 +10703,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'studio-id))))
                                                         "PutStudioMembers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-studio-members))
 (common-lisp:progn
  (common-lisp:defun start-streaming-session
@@ -10736,7 +10736,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'session-id))))
                                                         "StartStreamingSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-streaming-session))
 (common-lisp:progn
  (common-lisp:defun start-studio-ssoconfiguration-repair
@@ -10764,7 +10764,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'studio-id))))
                                                         "StartStudioSSOConfigurationRepair"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-studio-ssoconfiguration-repair))
 (common-lisp:progn
  (common-lisp:defun stop-streaming-session
@@ -10798,7 +10798,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'session-id))))
                                                         "StopStreamingSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-streaming-session))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -10825,7 +10825,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -10852,7 +10852,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-launch-profile
@@ -10888,7 +10888,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'launch-profile-id))))
                                                         "UpdateLaunchProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-launch-profile))
 (common-lisp:progn
  (common-lisp:defun update-launch-profile-member
@@ -10927,7 +10927,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'principal-id))))
                                                         "UpdateLaunchProfileMember"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-launch-profile-member))
 (common-lisp:progn
  (common-lisp:defun update-streaming-image
@@ -10961,7 +10961,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'streaming-image-id))))
                                                         "UpdateStreamingImage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-streaming-image))
 (common-lisp:progn
  (common-lisp:defun update-studio
@@ -10991,7 +10991,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'studio-id))))
                                                         "UpdateStudio"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-studio))
 (common-lisp:progn
  (common-lisp:defun update-studio-component
@@ -11030,5 +11030,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'studio-component-id))))
                                                         "UpdateStudioComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-studio-component))

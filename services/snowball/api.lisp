@@ -5881,7 +5881,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CancelCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-cluster))
 (common-lisp:progn
  (common-lisp:defun cancel-job
@@ -5898,7 +5898,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CancelJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-job))
 (common-lisp:progn
  (common-lisp:defun create-address
@@ -5915,7 +5915,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateAddress"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-address))
 (common-lisp:progn
  (common-lisp:defun create-cluster
@@ -5942,7 +5942,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-cluster))
 (common-lisp:progn
  (common-lisp:defun create-job
@@ -5970,7 +5970,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-job))
 (common-lisp:progn
  (common-lisp:defun create-long-term-pricing
@@ -5990,7 +5990,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateLongTermPricing"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-long-term-pricing))
 (common-lisp:progn
  (common-lisp:defun create-return-shipping-label
@@ -6008,7 +6008,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateReturnShippingLabel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-return-shipping-label))
 (common-lisp:progn
  (common-lisp:defun describe-address
@@ -6025,7 +6025,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAddress"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-address))
 (common-lisp:progn
  (common-lisp:defun describe-addresses
@@ -6042,7 +6042,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAddresses"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-addresses))
 (common-lisp:progn
  (common-lisp:defun describe-cluster
@@ -6059,7 +6059,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-cluster))
 (common-lisp:progn
  (common-lisp:defun describe-job
@@ -6076,7 +6076,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-job))
 (common-lisp:progn
  (common-lisp:defun describe-return-shipping-label
@@ -6094,7 +6094,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeReturnShippingLabel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-return-shipping-label))
 (common-lisp:progn
  (common-lisp:defun get-job-manifest
@@ -6111,7 +6111,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetJobManifest"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-job-manifest))
 (common-lisp:progn
  (common-lisp:defun get-job-unlock-code
@@ -6128,7 +6128,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetJobUnlockCode"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-job-unlock-code))
 (common-lisp:progn
  (common-lisp:defun get-snowball-usage ()
@@ -6153,7 +6153,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetSoftwareUpdates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-software-updates))
 (common-lisp:progn
  (common-lisp:defun list-cluster-jobs
@@ -6171,7 +6171,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListClusterJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-cluster-jobs))
 (common-lisp:progn
  (common-lisp:defun list-clusters
@@ -6188,7 +6188,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListClusters"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-clusters))
 (common-lisp:progn
  (common-lisp:defun list-compatible-images
@@ -6205,7 +6205,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListCompatibleImages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-compatible-images))
 (common-lisp:progn
  (common-lisp:defun list-jobs
@@ -6221,7 +6221,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'snowball-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "ListJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-jobs))
 (common-lisp:progn
  (common-lisp:defun list-long-term-pricing
@@ -6238,7 +6238,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListLongTermPricing"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-long-term-pricing))
 (common-lisp:progn
  (common-lisp:defun list-pickup-locations
@@ -6255,7 +6255,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPickupLocations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-pickup-locations))
 (common-lisp:progn
  (common-lisp:defun list-service-versions
@@ -6275,7 +6275,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListServiceVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-service-versions))
 (common-lisp:progn
  (common-lisp:defun update-cluster
@@ -6297,7 +6297,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-cluster))
 (common-lisp:progn
  (common-lisp:defun update-job
@@ -6320,7 +6320,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-job))
 (common-lisp:progn
  (common-lisp:defun update-job-shipment-state
@@ -6338,7 +6338,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateJobShipmentState"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-job-shipment-state))
 (common-lisp:progn
  (common-lisp:defun update-long-term-pricing
@@ -6358,5 +6358,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateLongTermPricing"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-long-term-pricing))

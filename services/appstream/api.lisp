@@ -13170,7 +13170,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateAppBlockBuilderAppBlock"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-app-block-builder-app-block))
 (common-lisp:progn
  (common-lisp:defun associate-application-fleet
@@ -13188,7 +13188,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateApplicationFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-application-fleet))
 (common-lisp:progn
  (common-lisp:defun associate-application-to-entitlement
@@ -13208,7 +13208,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateApplicationToEntitlement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-application-to-entitlement))
 (common-lisp:progn
  (common-lisp:defun associate-fleet
@@ -13225,7 +13225,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-fleet))
 (common-lisp:progn
  (common-lisp:defun batch-associate-user-stack
@@ -13243,7 +13243,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchAssociateUserStack"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-associate-user-stack))
 (common-lisp:progn
  (common-lisp:defun batch-disassociate-user-stack
@@ -13261,7 +13261,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchDisassociateUserStack"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-disassociate-user-stack))
 (common-lisp:progn
  (common-lisp:defun copy-image
@@ -13281,7 +13281,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CopyImage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'copy-image))
 (common-lisp:progn
  (common-lisp:defun create-app-block
@@ -13302,7 +13302,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateAppBlock"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-app-block))
 (common-lisp:progn
  (common-lisp:defun create-app-block-builder
@@ -13325,7 +13325,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateAppBlockBuilder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-app-block-builder))
 (common-lisp:progn
  (common-lisp:defun create-app-block-builder-streaming-url
@@ -13344,7 +13344,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateAppBlockBuilderStreamingURL"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-app-block-builder-streaming-url))
 (common-lisp:progn
  (common-lisp:defun create-application
@@ -13367,7 +13367,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-application))
 (common-lisp:progn
  (common-lisp:defun create-directory-config
@@ -13390,7 +13390,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDirectoryConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-directory-config))
 (common-lisp:progn
  (common-lisp:defun create-entitlement
@@ -13410,7 +13410,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateEntitlement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-entitlement))
 (common-lisp:progn
  (common-lisp:defun create-fleet
@@ -13441,7 +13441,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-fleet))
 (common-lisp:progn
  (common-lisp:defun create-image-builder
@@ -13464,7 +13464,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateImageBuilder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-image-builder))
 (common-lisp:progn
  (common-lisp:defun create-image-builder-streaming-url
@@ -13482,7 +13482,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateImageBuilderStreamingURL"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-image-builder-streaming-url))
 (common-lisp:progn
  (common-lisp:defun create-stack
@@ -13505,7 +13505,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateStack"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-stack))
 (common-lisp:progn
  (common-lisp:defun create-streaming-url
@@ -13525,7 +13525,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateStreamingURL"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-streaming-url))
 (common-lisp:progn
  (common-lisp:defun create-updated-image
@@ -13546,7 +13546,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateUpdatedImage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-updated-image))
 (common-lisp:progn
  (common-lisp:defun create-usage-report-subscription ()
@@ -13574,7 +13574,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-user))
 (common-lisp:progn
  (common-lisp:defun delete-app-block
@@ -13591,7 +13591,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAppBlock"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-app-block))
 (common-lisp:progn
  (common-lisp:defun delete-app-block-builder
@@ -13608,7 +13608,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAppBlockBuilder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-app-block-builder))
 (common-lisp:progn
  (common-lisp:defun delete-application
@@ -13625,7 +13625,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-application))
 (common-lisp:progn
  (common-lisp:defun delete-directory-config
@@ -13642,7 +13642,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDirectoryConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-directory-config))
 (common-lisp:progn
  (common-lisp:defun delete-entitlement
@@ -13659,7 +13659,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteEntitlement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-entitlement))
 (common-lisp:progn
  (common-lisp:defun delete-fleet
@@ -13676,7 +13676,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-fleet))
 (common-lisp:progn
  (common-lisp:defun delete-image
@@ -13693,7 +13693,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteImage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-image))
 (common-lisp:progn
  (common-lisp:defun delete-image-builder
@@ -13710,7 +13710,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteImageBuilder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-image-builder))
 (common-lisp:progn
  (common-lisp:defun delete-image-permissions
@@ -13727,7 +13727,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteImagePermissions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-image-permissions))
 (common-lisp:progn
  (common-lisp:defun delete-stack
@@ -13744,7 +13744,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteStack"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-stack))
 (common-lisp:progn
  (common-lisp:defun delete-usage-report-subscription ()
@@ -13769,7 +13769,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-user))
 (common-lisp:progn
  (common-lisp:defun describe-app-block-builder-app-block-associations
@@ -13790,7 +13790,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAppBlockBuilderAppBlockAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-app-block-builder-app-block-associations))
 (common-lisp:progn
  (common-lisp:defun describe-app-block-builders
@@ -13808,7 +13808,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAppBlockBuilders"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-app-block-builders))
 (common-lisp:progn
  (common-lisp:defun describe-app-blocks
@@ -13825,7 +13825,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAppBlocks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-app-blocks))
 (common-lisp:progn
  (common-lisp:defun describe-application-fleet-associations
@@ -13845,7 +13845,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeApplicationFleetAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-application-fleet-associations))
 (common-lisp:progn
  (common-lisp:defun describe-applications
@@ -13862,7 +13862,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeApplications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-applications))
 (common-lisp:progn
  (common-lisp:defun describe-directory-configs
@@ -13881,7 +13881,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDirectoryConfigs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-directory-configs))
 (common-lisp:progn
  (common-lisp:defun describe-entitlements
@@ -13899,7 +13899,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEntitlements"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-entitlements))
 (common-lisp:progn
  (common-lisp:defun describe-fleets
@@ -13916,7 +13916,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeFleets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-fleets))
 (common-lisp:progn
  (common-lisp:defun describe-image-builders
@@ -13933,7 +13933,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeImageBuilders"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-image-builders))
 (common-lisp:progn
  (common-lisp:defun describe-image-permissions
@@ -13953,7 +13953,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeImagePermissions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-image-permissions))
 (common-lisp:progn
  (common-lisp:defun describe-images
@@ -13971,7 +13971,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeImages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-images))
 (common-lisp:progn
  (common-lisp:defun describe-sessions
@@ -13991,7 +13991,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeSessions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-sessions))
 (common-lisp:progn
  (common-lisp:defun describe-stacks
@@ -14008,7 +14008,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeStacks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-stacks))
 (common-lisp:progn
  (common-lisp:defun describe-usage-report-subscriptions
@@ -14026,7 +14026,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeUsageReportSubscriptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-usage-report-subscriptions))
 (common-lisp:progn
  (common-lisp:defun describe-user-stack-associations
@@ -14047,7 +14047,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeUserStackAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-user-stack-associations))
 (common-lisp:progn
  (common-lisp:defun describe-users
@@ -14066,7 +14066,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeUsers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-users))
 (common-lisp:progn
  (common-lisp:defun disable-user
@@ -14083,7 +14083,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisableUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disable-user))
 (common-lisp:progn
  (common-lisp:defun disassociate-app-block-builder-app-block
@@ -14102,7 +14102,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateAppBlockBuilderAppBlock"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-app-block-builder-app-block))
 (common-lisp:progn
  (common-lisp:defun disassociate-application-fleet
@@ -14120,7 +14120,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateApplicationFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-application-fleet))
 (common-lisp:progn
  (common-lisp:defun disassociate-application-from-entitlement
@@ -14140,7 +14140,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateApplicationFromEntitlement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-application-from-entitlement))
 (common-lisp:progn
  (common-lisp:defun disassociate-fleet
@@ -14157,7 +14157,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-fleet))
 (common-lisp:progn
  (common-lisp:defun enable-user
@@ -14174,7 +14174,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "EnableUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-user))
 (common-lisp:progn
  (common-lisp:defun expire-session
@@ -14191,7 +14191,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ExpireSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'expire-session))
 (common-lisp:progn
  (common-lisp:defun list-associated-fleets
@@ -14208,7 +14208,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAssociatedFleets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-associated-fleets))
 (common-lisp:progn
  (common-lisp:defun list-associated-stacks
@@ -14225,7 +14225,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAssociatedStacks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-associated-stacks))
 (common-lisp:progn
  (common-lisp:defun list-entitled-applications
@@ -14245,7 +14245,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListEntitledApplications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-entitled-applications))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -14262,7 +14262,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun start-app-block-builder
@@ -14279,7 +14279,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartAppBlockBuilder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-app-block-builder))
 (common-lisp:progn
  (common-lisp:defun start-fleet
@@ -14296,7 +14296,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-fleet))
 (common-lisp:progn
  (common-lisp:defun start-image-builder
@@ -14313,7 +14313,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartImageBuilder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-image-builder))
 (common-lisp:progn
  (common-lisp:defun stop-app-block-builder
@@ -14330,7 +14330,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopAppBlockBuilder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-app-block-builder))
 (common-lisp:progn
  (common-lisp:defun stop-fleet
@@ -14347,7 +14347,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-fleet))
 (common-lisp:progn
  (common-lisp:defun stop-image-builder
@@ -14364,7 +14364,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopImageBuilder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-image-builder))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -14381,7 +14381,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -14398,7 +14398,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-app-block-builder
@@ -14420,7 +14420,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateAppBlockBuilder"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-app-block-builder))
 (common-lisp:progn
  (common-lisp:defun update-application
@@ -14442,7 +14442,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-application))
 (common-lisp:progn
  (common-lisp:defun update-directory-config
@@ -14465,7 +14465,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateDirectoryConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-directory-config))
 (common-lisp:progn
  (common-lisp:defun update-entitlement
@@ -14485,7 +14485,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateEntitlement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-entitlement))
 (common-lisp:progn
  (common-lisp:defun update-fleet
@@ -14516,7 +14516,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-fleet))
 (common-lisp:progn
  (common-lisp:defun update-image-permissions
@@ -14534,7 +14534,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateImagePermissions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-image-permissions))
 (common-lisp:progn
  (common-lisp:defun update-stack
@@ -14559,5 +14559,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateStack"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-stack))

@@ -5139,7 +5139,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-group-name))))
                                                         "CreateChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-channel))
 (common-lisp:progn
  (common-lisp:defun create-channel-group
@@ -5158,7 +5158,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/channelGroup"
                                                         "CreateChannelGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-channel-group))
 (common-lisp:progn
  (common-lisp:defun create-origin-endpoint
@@ -5195,7 +5195,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-name))))
                                                         "CreateOriginEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-origin-endpoint))
 (common-lisp:progn
  (common-lisp:defun delete-channel
@@ -5227,7 +5227,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-name))))
                                                         "DeleteChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-channel))
 (common-lisp:progn
  (common-lisp:defun delete-channel-group
@@ -5254,7 +5254,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-group-name))))
                                                         "DeleteChannelGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-channel-group))
 (common-lisp:progn
  (common-lisp:defun delete-channel-policy
@@ -5286,7 +5286,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-name))))
                                                         "DeleteChannelPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-channel-policy))
 (common-lisp:progn
  (common-lisp:defun delete-origin-endpoint
@@ -5324,7 +5324,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'origin-endpoint-name))))
                                                         "DeleteOriginEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-origin-endpoint))
 (common-lisp:progn
  (common-lisp:defun delete-origin-endpoint-policy
@@ -5363,7 +5363,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'origin-endpoint-name))))
                                                         "DeleteOriginEndpointPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-origin-endpoint-policy))
 (common-lisp:progn
  (common-lisp:defun get-channel
@@ -5395,7 +5395,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-name))))
                                                         "GetChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-channel))
 (common-lisp:progn
  (common-lisp:defun get-channel-group
@@ -5422,7 +5422,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-group-name))))
                                                         "GetChannelGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-channel-group))
 (common-lisp:progn
  (common-lisp:defun get-channel-policy
@@ -5454,7 +5454,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-name))))
                                                         "GetChannelPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-channel-policy))
 (common-lisp:progn
  (common-lisp:defun get-origin-endpoint
@@ -5492,7 +5492,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'origin-endpoint-name))))
                                                         "GetOriginEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-origin-endpoint))
 (common-lisp:progn
  (common-lisp:defun get-origin-endpoint-policy
@@ -5531,7 +5531,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'origin-endpoint-name))))
                                                         "GetOriginEndpointPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-origin-endpoint-policy))
 (common-lisp:progn
  (common-lisp:defun list-channel-groups
@@ -5548,7 +5548,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/channelGroup"
                                                         "ListChannelGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-channel-groups))
 (common-lisp:progn
  (common-lisp:defun list-channels
@@ -5577,7 +5577,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-group-name))))
                                                         "ListChannels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-channels))
 (common-lisp:progn
  (common-lisp:defun list-origin-endpoints
@@ -5611,7 +5611,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-name))))
                                                         "ListOriginEndpoints"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-origin-endpoints))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -5638,7 +5638,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-channel-policy
@@ -5670,7 +5670,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-name))))
                                                         "PutChannelPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-channel-policy))
 (common-lisp:progn
  (common-lisp:defun put-origin-endpoint-policy
@@ -5709,7 +5709,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'origin-endpoint-name))))
                                                         "PutOriginEndpointPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-origin-endpoint-policy))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -5736,7 +5736,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -5763,7 +5763,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-channel
@@ -5796,7 +5796,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-name))))
                                                         "UpdateChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-channel))
 (common-lisp:progn
  (common-lisp:defun update-channel-group
@@ -5823,7 +5823,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-group-name))))
                                                         "UpdateChannelGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-channel-group))
 (common-lisp:progn
  (common-lisp:defun update-origin-endpoint
@@ -5864,5 +5864,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'origin-endpoint-name))))
                                                         "UpdateOriginEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-origin-endpoint))

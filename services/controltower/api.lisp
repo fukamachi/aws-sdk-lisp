@@ -3281,7 +3281,7 @@
                                                         "POST"
                                                         "/delete-landingzone"
                                                         "DeleteLandingZone"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-landing-zone))
 (common-lisp:progn
  (common-lisp:defun disable-baseline
@@ -3299,7 +3299,7 @@
                                                         "POST"
                                                         "/disable-baseline"
                                                         "DisableBaseline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disable-baseline))
 (common-lisp:progn
  (common-lisp:defun disable-control
@@ -3318,7 +3318,7 @@
                                                         "POST"
                                                         "/disable-control"
                                                         "DisableControl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disable-control))
 (common-lisp:progn
  (common-lisp:defun enable-baseline
@@ -3339,7 +3339,7 @@
                                                         "POST"
                                                         "/enable-baseline"
                                                         "EnableBaseline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-baseline))
 (common-lisp:progn
  (common-lisp:defun enable-control
@@ -3359,7 +3359,7 @@
                                                         "POST"
                                                         "/enable-control"
                                                         "EnableControl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-control))
 (common-lisp:progn
  (common-lisp:defun get-baseline
@@ -3376,7 +3376,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/get-baseline"
                                                         "GetBaseline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-baseline))
 (common-lisp:progn
  (common-lisp:defun get-baseline-operation
@@ -3394,7 +3394,7 @@
                                                         "POST"
                                                         "/get-baseline-operation"
                                                         "GetBaselineOperation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-baseline-operation))
 (common-lisp:progn
  (common-lisp:defun get-control-operation
@@ -3412,7 +3412,7 @@
                                                         "POST"
                                                         "/get-control-operation"
                                                         "GetControlOperation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-control-operation))
 (common-lisp:progn
  (common-lisp:defun get-enabled-baseline
@@ -3430,7 +3430,7 @@
                                                         "POST"
                                                         "/get-enabled-baseline"
                                                         "GetEnabledBaseline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-enabled-baseline))
 (common-lisp:progn
  (common-lisp:defun get-enabled-control
@@ -3448,7 +3448,7 @@
                                                         "POST"
                                                         "/get-enabled-control"
                                                         "GetEnabledControl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-enabled-control))
 (common-lisp:progn
  (common-lisp:defun get-landing-zone-operation
@@ -3466,7 +3466,7 @@
                                                         "POST"
                                                         "/get-landingzone-operation"
                                                         "GetLandingZoneOperation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-landing-zone-operation))
 (common-lisp:progn
  (common-lisp:defun list-baselines
@@ -3484,7 +3484,7 @@
                                                         "POST"
                                                         "/list-baselines"
                                                         "ListBaselines"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-baselines))
 (common-lisp:progn
  (common-lisp:defun list-enabled-baselines
@@ -3502,7 +3502,7 @@
                                                         "POST"
                                                         "/list-enabled-baselines"
                                                         "ListEnabledBaselines"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-enabled-baselines))
 (common-lisp:progn
  (common-lisp:defun list-enabled-controls
@@ -3521,7 +3521,7 @@
                                                         "POST"
                                                         "/list-enabled-controls"
                                                         "ListEnabledControls"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-enabled-controls))
 (common-lisp:progn
  (common-lisp:defun list-landing-zones
@@ -3539,7 +3539,7 @@
                                                         "POST"
                                                         "/list-landingzones"
                                                         "ListLandingZones"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-landing-zones))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -3566,7 +3566,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun reset-enabled-baseline
@@ -3584,7 +3584,7 @@
                                                         "POST"
                                                         "/reset-enabled-baseline"
                                                         "ResetEnabledBaseline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reset-enabled-baseline))
 (common-lisp:progn
  (common-lisp:defun reset-landing-zone
@@ -3602,7 +3602,7 @@
                                                         "POST"
                                                         "/reset-landingzone"
                                                         "ResetLandingZone"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reset-landing-zone))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3629,7 +3629,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3656,7 +3656,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-enabled-baseline
@@ -3676,5 +3676,5 @@
                                                         "POST"
                                                         "/update-enabled-baseline"
                                                         "UpdateEnabledBaseline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-enabled-baseline))

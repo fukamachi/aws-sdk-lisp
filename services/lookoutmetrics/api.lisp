@@ -8033,7 +8033,7 @@
                                                         "POST"
                                                         "/ActivateAnomalyDetector"
                                                         "ActivateAnomalyDetector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'activate-anomaly-detector))
 (common-lisp:progn
  (common-lisp:defun back-test-anomaly-detector
@@ -8052,7 +8052,7 @@
                                                         "POST"
                                                         "/BackTestAnomalyDetector"
                                                         "BackTestAnomalyDetector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'back-test-anomaly-detector))
 (common-lisp:progn
  (common-lisp:defun create-alert
@@ -8073,7 +8073,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/CreateAlert"
                                                         "CreateAlert"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-alert))
 (common-lisp:progn
  (common-lisp:defun create-anomaly-detector
@@ -8095,7 +8095,7 @@
                                                         "POST"
                                                         "/CreateAnomalyDetector"
                                                         "CreateAnomalyDetector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-anomaly-detector))
 (common-lisp:progn
  (common-lisp:defun create-metric-set
@@ -8119,7 +8119,7 @@
                                                         "POST"
                                                         "/CreateMetricSet"
                                                         "CreateMetricSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-metric-set))
 (common-lisp:progn
  (common-lisp:defun deactivate-anomaly-detector
@@ -8138,7 +8138,7 @@
                                                         "POST"
                                                         "/DeactivateAnomalyDetector"
                                                         "DeactivateAnomalyDetector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deactivate-anomaly-detector))
 (common-lisp:progn
  (common-lisp:defun delete-alert
@@ -8155,7 +8155,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/DeleteAlert"
                                                         "DeleteAlert"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-alert))
 (common-lisp:progn
  (common-lisp:defun delete-anomaly-detector
@@ -8173,7 +8173,7 @@
                                                         "POST"
                                                         "/DeleteAnomalyDetector"
                                                         "DeleteAnomalyDetector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-anomaly-detector))
 (common-lisp:progn
  (common-lisp:defun describe-alert
@@ -8190,7 +8190,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/DescribeAlert"
                                                         "DescribeAlert"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-alert))
 (common-lisp:progn
  (common-lisp:defun describe-anomaly-detection-executions
@@ -8212,7 +8212,7 @@
                                                         "POST"
                                                         "/DescribeAnomalyDetectionExecutions"
                                                         "DescribeAnomalyDetectionExecutions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-anomaly-detection-executions))
 (common-lisp:progn
  (common-lisp:defun describe-anomaly-detector
@@ -8231,7 +8231,7 @@
                                                         "POST"
                                                         "/DescribeAnomalyDetector"
                                                         "DescribeAnomalyDetector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-anomaly-detector))
 (common-lisp:progn
  (common-lisp:defun describe-metric-set
@@ -8249,7 +8249,7 @@
                                                         "POST"
                                                         "/DescribeMetricSet"
                                                         "DescribeMetricSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-metric-set))
 (common-lisp:progn
  (common-lisp:defun detect-metric-set-config
@@ -8269,7 +8269,7 @@
                                                         "POST"
                                                         "/DetectMetricSetConfig"
                                                         "DetectMetricSetConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detect-metric-set-config))
 (common-lisp:progn
  (common-lisp:defun get-anomaly-group
@@ -8288,7 +8288,7 @@
                                                         "POST"
                                                         "/GetAnomalyGroup"
                                                         "GetAnomalyGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-anomaly-group))
 (common-lisp:progn
  (common-lisp:defun get-data-quality-metrics
@@ -8307,7 +8307,7 @@
                                                         "POST"
                                                         "/GetDataQualityMetrics"
                                                         "GetDataQualityMetrics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-data-quality-metrics))
 (common-lisp:progn
  (common-lisp:defun get-feedback
@@ -8327,7 +8327,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/GetFeedback"
                                                         "GetFeedback"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-feedback))
 (common-lisp:progn
  (common-lisp:defun get-sample-data
@@ -8344,7 +8344,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/GetSampleData"
                                                         "GetSampleData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sample-data))
 (common-lisp:progn
  (common-lisp:defun list-alerts
@@ -8363,7 +8363,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/ListAlerts"
                                                         "ListAlerts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-alerts))
 (common-lisp:progn
  (common-lisp:defun list-anomaly-detectors
@@ -8381,7 +8381,7 @@
                                                         "POST"
                                                         "/ListAnomalyDetectors"
                                                         "ListAnomalyDetectors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-anomaly-detectors))
 (common-lisp:progn
  (common-lisp:defun list-anomaly-group-related-metrics
@@ -8403,7 +8403,7 @@
                                                         "POST"
                                                         "/ListAnomalyGroupRelatedMetrics"
                                                         "ListAnomalyGroupRelatedMetrics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-anomaly-group-related-metrics))
 (common-lisp:progn
  (common-lisp:defun list-anomaly-group-summaries
@@ -8425,7 +8425,7 @@
                                                         "POST"
                                                         "/ListAnomalyGroupSummaries"
                                                         "ListAnomalyGroupSummaries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-anomaly-group-summaries))
 (common-lisp:progn
  (common-lisp:defun list-anomaly-group-time-series
@@ -8447,7 +8447,7 @@
                                                         "POST"
                                                         "/ListAnomalyGroupTimeSeries"
                                                         "ListAnomalyGroupTimeSeries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-anomaly-group-time-series))
 (common-lisp:progn
  (common-lisp:defun list-metric-sets
@@ -8467,7 +8467,7 @@
                                                         "POST"
                                                         "/ListMetricSets"
                                                         "ListMetricSets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-metric-sets))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -8494,7 +8494,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-feedback
@@ -8514,7 +8514,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/PutFeedback"
                                                         "PutFeedback"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-feedback))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -8541,7 +8541,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -8568,7 +8568,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-alert
@@ -8588,7 +8588,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/UpdateAlert"
                                                         "UpdateAlert"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-alert))
 (common-lisp:progn
  (common-lisp:defun update-anomaly-detector
@@ -8609,7 +8609,7 @@
                                                         "POST"
                                                         "/UpdateAnomalyDetector"
                                                         "UpdateAnomalyDetector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-anomaly-detector))
 (common-lisp:progn
  (common-lisp:defun update-metric-set
@@ -8632,5 +8632,5 @@
                                                         "POST"
                                                         "/UpdateMetricSet"
                                                         "UpdateMetricSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-metric-set))

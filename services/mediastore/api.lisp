@@ -2046,7 +2046,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateContainer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-container))
 (common-lisp:progn
  (common-lisp:defun delete-container
@@ -2063,7 +2063,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteContainer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-container))
 (common-lisp:progn
  (common-lisp:defun delete-container-policy
@@ -2080,7 +2080,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteContainerPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-container-policy))
 (common-lisp:progn
  (common-lisp:defun delete-cors-policy
@@ -2097,7 +2097,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteCorsPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-cors-policy))
 (common-lisp:progn
  (common-lisp:defun delete-lifecycle-policy
@@ -2114,7 +2114,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteLifecyclePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-lifecycle-policy))
 (common-lisp:progn
  (common-lisp:defun delete-metric-policy
@@ -2131,7 +2131,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteMetricPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-metric-policy))
 (common-lisp:progn
  (common-lisp:defun describe-container
@@ -2148,7 +2148,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeContainer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-container))
 (common-lisp:progn
  (common-lisp:defun get-container-policy
@@ -2165,7 +2165,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetContainerPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-container-policy))
 (common-lisp:progn
  (common-lisp:defun get-cors-policy
@@ -2182,7 +2182,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCorsPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-cors-policy))
 (common-lisp:progn
  (common-lisp:defun get-lifecycle-policy
@@ -2199,7 +2199,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetLifecyclePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-lifecycle-policy))
 (common-lisp:progn
  (common-lisp:defun get-metric-policy
@@ -2216,7 +2216,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetMetricPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-metric-policy))
 (common-lisp:progn
  (common-lisp:defun list-containers
@@ -2233,7 +2233,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListContainers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-containers))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -2250,7 +2250,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-container-policy
@@ -2267,7 +2267,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutContainerPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-container-policy))
 (common-lisp:progn
  (common-lisp:defun put-cors-policy
@@ -2284,7 +2284,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutCorsPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-cors-policy))
 (common-lisp:progn
  (common-lisp:defun put-lifecycle-policy
@@ -2302,7 +2302,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutLifecyclePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-lifecycle-policy))
 (common-lisp:progn
  (common-lisp:defun put-metric-policy
@@ -2319,7 +2319,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutMetricPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-metric-policy))
 (common-lisp:progn
  (common-lisp:defun start-access-logging
@@ -2336,7 +2336,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartAccessLogging"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-access-logging))
 (common-lisp:progn
  (common-lisp:defun stop-access-logging
@@ -2353,7 +2353,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopAccessLogging"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-access-logging))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -2370,7 +2370,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -2387,5 +2387,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))

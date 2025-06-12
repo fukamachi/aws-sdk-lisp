@@ -72752,7 +72752,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/administrator"
                                                         "AcceptAdministratorInvitation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'accept-administrator-invitation))
 (common-lisp:progn
  (common-lisp:defun accept-invitation
@@ -72769,7 +72769,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/master"
                                                         "AcceptInvitation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'accept-invitation))
 (common-lisp:progn
  (common-lisp:defun batch-delete-automation-rules
@@ -72788,7 +72788,7 @@
                                                         "POST"
                                                         "/automationrules/delete"
                                                         "BatchDeleteAutomationRules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-delete-automation-rules))
 (common-lisp:progn
  (common-lisp:defun batch-disable-standards
@@ -72806,7 +72806,7 @@
                                                         "POST"
                                                         "/standards/deregister"
                                                         "BatchDisableStandards"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-disable-standards))
 (common-lisp:progn
  (common-lisp:defun batch-enable-standards
@@ -72825,7 +72825,7 @@
                                                         "POST"
                                                         "/standards/register"
                                                         "BatchEnableStandards"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-enable-standards))
 (common-lisp:progn
  (common-lisp:defun batch-get-automation-rules
@@ -72844,7 +72844,7 @@
                                                         "POST"
                                                         "/automationrules/get"
                                                         "BatchGetAutomationRules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-automation-rules))
 (common-lisp:progn
  (common-lisp:defun batch-get-configuration-policy-associations
@@ -72865,7 +72865,7 @@
                                                         "POST"
                                                         "/configurationPolicyAssociation/batchget"
                                                         "BatchGetConfigurationPolicyAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-configuration-policy-associations))
 (common-lisp:progn
  (common-lisp:defun batch-get-security-controls
@@ -72884,7 +72884,7 @@
                                                         "POST"
                                                         "/securityControls/batchGet"
                                                         "BatchGetSecurityControls"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-security-controls))
 (common-lisp:progn
  (common-lisp:defun batch-get-standards-control-associations
@@ -72904,7 +72904,7 @@
                                                         "POST"
                                                         "/associations/batchGet"
                                                         "BatchGetStandardsControlAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-standards-control-associations))
 (common-lisp:progn
  (common-lisp:defun batch-import-findings
@@ -72922,7 +72922,7 @@
                                                         "POST"
                                                         "/findings/import"
                                                         "BatchImportFindings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-import-findings))
 (common-lisp:progn
  (common-lisp:defun batch-update-automation-rules
@@ -72942,7 +72942,7 @@
                                                         "PATCH"
                                                         "/automationrules/update"
                                                         "BatchUpdateAutomationRules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-update-automation-rules))
 (common-lisp:progn
  (common-lisp:defun batch-update-findings
@@ -72965,7 +72965,7 @@
                                                         "PATCH"
                                                         "/findings/batchupdate"
                                                         "BatchUpdateFindings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-update-findings))
 (common-lisp:progn
  (common-lisp:defun batch-update-standards-control-associations
@@ -72984,7 +72984,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PATCH" "/associations"
                                                         "BatchUpdateStandardsControlAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-update-standards-control-associations))
 (common-lisp:progn
  (common-lisp:defun create-action-target
@@ -73001,7 +73001,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/actionTargets"
                                                         "CreateActionTarget"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-action-target))
 (common-lisp:progn
  (common-lisp:defun create-automation-rule
@@ -73022,7 +73022,7 @@
                                                         "POST"
                                                         "/automationrules/create"
                                                         "CreateAutomationRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-automation-rule))
 (common-lisp:progn
  (common-lisp:defun create-configuration-policy
@@ -73043,7 +73043,7 @@
                                                         "POST"
                                                         "/configurationPolicy/create"
                                                         "CreateConfigurationPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-configuration-policy))
 (common-lisp:progn
  (common-lisp:defun create-finding-aggregator
@@ -73062,7 +73062,7 @@
                                                         "POST"
                                                         "/findingAggregator/create"
                                                         "CreateFindingAggregator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-finding-aggregator))
 (common-lisp:progn
  (common-lisp:defun create-insight
@@ -73080,7 +73080,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/insights"
                                                         "CreateInsight"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-insight))
 (common-lisp:progn
  (common-lisp:defun create-members
@@ -73097,7 +73097,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/members"
                                                         "CreateMembers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-members))
 (common-lisp:progn
  (common-lisp:defun decline-invitations
@@ -73115,7 +73115,7 @@
                                                         "POST"
                                                         "/invitations/decline"
                                                         "DeclineInvitations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'decline-invitations))
 (common-lisp:progn
  (common-lisp:defun delete-action-target
@@ -73141,7 +73141,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'action-target-arn)))
                                                         "DeleteActionTarget"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-action-target))
 (common-lisp:progn
  (common-lisp:defun delete-configuration-policy
@@ -73169,7 +73169,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'identifier))))
                                                         "DeleteConfigurationPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-configuration-policy))
 (common-lisp:progn
  (common-lisp:defun delete-finding-aggregator
@@ -73196,7 +73196,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'finding-aggregator-arn)))
                                                         "DeleteFindingAggregator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-finding-aggregator))
 (common-lisp:progn
  (common-lisp:defun delete-insight
@@ -73222,7 +73222,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'insight-arn)))
                                                         "DeleteInsight"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-insight))
 (common-lisp:progn
  (common-lisp:defun delete-invitations
@@ -73240,7 +73240,7 @@
                                                         "POST"
                                                         "/invitations/delete"
                                                         "DeleteInvitations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-invitations))
 (common-lisp:progn
  (common-lisp:defun delete-members
@@ -73258,7 +73258,7 @@
                                                         "POST"
                                                         "/members/delete"
                                                         "DeleteMembers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-members))
 (common-lisp:progn
  (common-lisp:defun describe-action-targets
@@ -73278,7 +73278,7 @@
                                                         "POST"
                                                         "/actionTargets/get"
                                                         "DescribeActionTargets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-action-targets))
 (common-lisp:progn
  (common-lisp:defun describe-hub
@@ -73295,7 +73295,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/accounts"
                                                         "DescribeHub"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-hub))
 (common-lisp:progn
  (common-lisp:defun describe-organization-configuration ()
@@ -73322,7 +73322,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/products"
                                                         "DescribeProducts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-products))
 (common-lisp:progn
  (common-lisp:defun describe-standards
@@ -73339,7 +73339,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/standards"
                                                         "DescribeStandards"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-standards))
 (common-lisp:progn
  (common-lisp:defun describe-standards-controls
@@ -73368,7 +73368,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'standards-subscription-arn)))
                                                         "DescribeStandardsControls"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-standards-controls))
 (common-lisp:progn
  (common-lisp:defun disable-import-findings-for-product
@@ -73395,7 +73395,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'product-subscription-arn)))
                                                         "DisableImportFindingsForProduct"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disable-import-findings-for-product))
 (common-lisp:progn
  (common-lisp:defun disable-organization-admin-account
@@ -73414,7 +73414,7 @@
                                                         "POST"
                                                         "/organization/admin/disable"
                                                         "DisableOrganizationAdminAccount"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disable-organization-admin-account))
 (common-lisp:progn
  (common-lisp:defun disable-security-hub ()
@@ -73458,7 +73458,7 @@
                                                         "POST"
                                                         "/members/disassociate"
                                                         "DisassociateMembers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-members))
 (common-lisp:progn
  (common-lisp:defun enable-import-findings-for-product
@@ -73477,7 +73477,7 @@
                                                         "POST"
                                                         "/productSubscriptions"
                                                         "EnableImportFindingsForProduct"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-import-findings-for-product))
 (common-lisp:progn
  (common-lisp:defun enable-organization-admin-account
@@ -73496,7 +73496,7 @@
                                                         "POST"
                                                         "/organization/admin/enable"
                                                         "EnableOrganizationAdminAccount"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-organization-admin-account))
 (common-lisp:progn
  (common-lisp:defun enable-security-hub
@@ -73516,7 +73516,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/accounts"
                                                         "EnableSecurityHub"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-security-hub))
 (common-lisp:progn
  (common-lisp:defun get-administrator-account ()
@@ -73552,7 +73552,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'identifier))))
                                                         "GetConfigurationPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-configuration-policy))
 (common-lisp:progn
  (common-lisp:defun get-configuration-policy-association
@@ -73571,7 +73571,7 @@
                                                         "POST"
                                                         "/configurationPolicyAssociation/get"
                                                         "GetConfigurationPolicyAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-configuration-policy-association))
 (common-lisp:progn
  (common-lisp:defun get-enabled-standards
@@ -73590,7 +73590,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/standards/get"
                                                         "GetEnabledStandards"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-enabled-standards))
 (common-lisp:progn
  (common-lisp:defun get-finding-aggregator
@@ -73616,7 +73616,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'finding-aggregator-arn)))
                                                         "GetFindingAggregator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-finding-aggregator))
 (common-lisp:progn
  (common-lisp:defun get-finding-history
@@ -73637,7 +73637,7 @@
                                                         "POST"
                                                         "/findingHistory/get"
                                                         "GetFindingHistory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-finding-history))
 (common-lisp:progn
  (common-lisp:defun get-findings
@@ -73656,7 +73656,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/findings"
                                                         "GetFindings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-findings))
 (common-lisp:progn
  (common-lisp:defun get-insight-results
@@ -73682,7 +73682,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'insight-arn)))
                                                         "GetInsightResults"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-insight-results))
 (common-lisp:progn
  (common-lisp:defun get-insights
@@ -73700,7 +73700,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/insights/get"
                                                         "GetInsights"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-insights))
 (common-lisp:progn
  (common-lisp:defun get-invitations-count ()
@@ -73734,7 +73734,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/members/get"
                                                         "GetMembers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-members))
 (common-lisp:progn
  (common-lisp:defun get-security-control-definition
@@ -73753,7 +73753,7 @@
                                                         "GET"
                                                         "/securityControl/definition"
                                                         "GetSecurityControlDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-security-control-definition))
 (common-lisp:progn
  (common-lisp:defun invite-members
@@ -73771,7 +73771,7 @@
                                                         "POST"
                                                         "/members/invite"
                                                         "InviteMembers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'invite-members))
 (common-lisp:progn
  (common-lisp:defun list-automation-rules
@@ -73789,7 +73789,7 @@
                                                         "GET"
                                                         "/automationrules/list"
                                                         "ListAutomationRules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-automation-rules))
 (common-lisp:progn
  (common-lisp:defun list-configuration-policies
@@ -73808,7 +73808,7 @@
                                                         "GET"
                                                         "/configurationPolicy/list"
                                                         "ListConfigurationPolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-configuration-policies))
 (common-lisp:progn
  (common-lisp:defun list-configuration-policy-associations
@@ -73827,7 +73827,7 @@
                                                         "POST"
                                                         "/configurationPolicyAssociation/list"
                                                         "ListConfigurationPolicyAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-configuration-policy-associations))
 (common-lisp:progn
  (common-lisp:defun list-enabled-products-for-import
@@ -73846,7 +73846,7 @@
                                                         "GET"
                                                         "/productSubscriptions"
                                                         "ListEnabledProductsForImport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-enabled-products-for-import))
 (common-lisp:progn
  (common-lisp:defun list-finding-aggregators
@@ -73864,7 +73864,7 @@
                                                         "GET"
                                                         "/findingAggregator/list"
                                                         "ListFindingAggregators"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-finding-aggregators))
 (common-lisp:progn
  (common-lisp:defun list-invitations
@@ -73881,7 +73881,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/invitations"
                                                         "ListInvitations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-invitations))
 (common-lisp:progn
  (common-lisp:defun list-members
@@ -73899,7 +73899,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/members"
                                                         "ListMembers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-members))
 (common-lisp:progn
  (common-lisp:defun list-organization-admin-accounts
@@ -73918,7 +73918,7 @@
                                                         "GET"
                                                         "/organization/admin"
                                                         "ListOrganizationAdminAccounts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-organization-admin-accounts))
 (common-lisp:progn
  (common-lisp:defun list-security-control-definitions
@@ -73938,7 +73938,7 @@
                                                         "GET"
                                                         "/securityControls/definitions"
                                                         "ListSecurityControlDefinitions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-security-control-definitions))
 (common-lisp:progn
  (common-lisp:defun list-standards-control-associations
@@ -73958,7 +73958,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/associations"
                                                         "ListStandardsControlAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-standards-control-associations))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -73985,7 +73985,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun start-configuration-policy-association
@@ -74005,7 +74005,7 @@
                                                         "POST"
                                                         "/configurationPolicyAssociation/associate"
                                                         "StartConfigurationPolicyAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-configuration-policy-association))
 (common-lisp:progn
  (common-lisp:defun start-configuration-policy-disassociation
@@ -74025,7 +74025,7 @@
                                                         "POST"
                                                         "/configurationPolicyAssociation/disassociate"
                                                         "StartConfigurationPolicyDisassociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-configuration-policy-disassociation))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -74052,7 +74052,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -74079,7 +74079,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-action-target
@@ -74106,7 +74106,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'action-target-arn)))
                                                         "UpdateActionTarget"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-action-target))
 (common-lisp:progn
  (common-lisp:defun update-configuration-policy
@@ -74137,7 +74137,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'identifier))))
                                                         "UpdateConfigurationPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-configuration-policy))
 (common-lisp:progn
  (common-lisp:defun update-finding-aggregator
@@ -74158,7 +74158,7 @@
                                                         "PATCH"
                                                         "/findingAggregator/update"
                                                         "UpdateFindingAggregator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-finding-aggregator))
 (common-lisp:progn
  (common-lisp:defun update-findings
@@ -74175,7 +74175,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PATCH" "/findings"
                                                         "UpdateFindings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-findings))
 (common-lisp:progn
  (common-lisp:defun update-insight
@@ -74203,7 +74203,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'insight-arn)))
                                                         "UpdateInsight"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-insight))
 (common-lisp:progn
  (common-lisp:defun update-organization-configuration
@@ -74225,7 +74225,7 @@
                                                         "POST"
                                                         "/organization/configuration"
                                                         "UpdateOrganizationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-organization-configuration))
 (common-lisp:progn
  (common-lisp:defun update-security-control
@@ -74245,7 +74245,7 @@
                                                         "PATCH"
                                                         "/securityControl/update"
                                                         "UpdateSecurityControl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-security-control))
 (common-lisp:progn
  (common-lisp:defun update-security-hub-configuration
@@ -74265,7 +74265,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PATCH" "/accounts"
                                                         "UpdateSecurityHubConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-security-hub-configuration))
 (common-lisp:progn
  (common-lisp:defun update-standards-control
@@ -74294,5 +74294,5 @@
                                                             aws-sdk/generator/operation::input
                                                             'standards-control-arn)))
                                                         "UpdateStandardsControl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-standards-control))

@@ -428,7 +428,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-snapshot-block-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'block-data)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'block-data))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-snapshot-block-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:deftype idempotency-token () 'common-lisp:string)
 (common-lisp:progn
  (common-lisp:define-condition internal-server-exception
@@ -835,7 +841,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           put-snapshot-block-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'block-data)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'block-data))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-snapshot-block-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass put-snapshot-block-response common-lisp:nil
                        ((checksum :initarg :checksum :initform common-lisp:nil
@@ -1313,7 +1325,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'snapshot-id))))
                                                         "CompleteSnapshot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'complete-snapshot))
 (common-lisp:progn
  (common-lisp:defun get-snapshot-block
@@ -1346,7 +1358,7 @@
                                                              'block-index))))
                                                         "GetSnapshotBlock")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-snapshot-block))
 (common-lisp:progn
  (common-lisp:defun list-changed-blocks
@@ -1376,7 +1388,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'second-snapshot-id))))
                                                         "ListChangedBlocks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-changed-blocks))
 (common-lisp:progn
  (common-lisp:defun list-snapshot-blocks
@@ -1406,7 +1418,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'snapshot-id))))
                                                         "ListSnapshotBlocks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-snapshot-blocks))
 (common-lisp:progn
  (common-lisp:defun put-snapshot-block
@@ -1440,7 +1452,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'block-index))))
                                                         "PutSnapshotBlock"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-snapshot-block))
 (common-lisp:progn
  (common-lisp:defun start-snapshot
@@ -1460,5 +1472,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/snapshots"
                                                         "StartSnapshot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-snapshot))

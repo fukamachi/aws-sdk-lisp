@@ -3485,7 +3485,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AddAttachmentsToSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-attachments-to-set))
 (common-lisp:progn
  (common-lisp:defun add-communication-to-case
@@ -3506,7 +3506,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AddCommunicationToCase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-communication-to-case))
 (common-lisp:progn
  (common-lisp:defun create-case
@@ -3528,7 +3528,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateCase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-case))
 (common-lisp:progn
  (common-lisp:defun describe-attachment
@@ -3545,7 +3545,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAttachment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-attachment))
 (common-lisp:progn
  (common-lisp:defun describe-cases
@@ -3567,7 +3567,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeCases"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-cases))
 (common-lisp:progn
  (common-lisp:defun describe-communications
@@ -3587,7 +3587,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeCommunications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-communications))
 (common-lisp:progn
  (common-lisp:defun describe-create-case-options
@@ -3607,7 +3607,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeCreateCaseOptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-create-case-options))
 (common-lisp:progn
  (common-lisp:defun describe-services
@@ -3624,7 +3624,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeServices"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-services))
 (common-lisp:progn
  (common-lisp:defun describe-severity-levels
@@ -3641,7 +3641,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeSeverityLevels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-severity-levels))
 (common-lisp:progn
  (common-lisp:defun describe-supported-languages
@@ -3660,7 +3660,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeSupportedLanguages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-supported-languages))
 (common-lisp:progn
  (common-lisp:defun describe-trusted-advisor-check-refresh-statuses
@@ -3678,7 +3678,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTrustedAdvisorCheckRefreshStatuses"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-trusted-advisor-check-refresh-statuses))
 (common-lisp:progn
  (common-lisp:defun describe-trusted-advisor-check-result
@@ -3696,7 +3696,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTrustedAdvisorCheckResult"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-trusted-advisor-check-result))
 (common-lisp:progn
  (common-lisp:defun describe-trusted-advisor-check-summaries
@@ -3714,7 +3714,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTrustedAdvisorCheckSummaries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-trusted-advisor-check-summaries))
 (common-lisp:progn
  (common-lisp:defun describe-trusted-advisor-checks
@@ -3732,7 +3732,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTrustedAdvisorChecks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-trusted-advisor-checks))
 (common-lisp:progn
  (common-lisp:defun refresh-trusted-advisor-check
@@ -3750,7 +3750,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RefreshTrustedAdvisorCheck"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'refresh-trusted-advisor-check))
 (common-lisp:progn
  (common-lisp:defun resolve-case
@@ -3767,5 +3767,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ResolveCase"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'resolve-case))

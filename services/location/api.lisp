@@ -5770,7 +5770,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-map-glyphs-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'blob)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'blob))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-map-glyphs-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-map-sprites-request common-lisp:nil
                        ((file-name :initarg :file-name :initform
@@ -5872,7 +5878,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-map-sprites-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'blob)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'blob))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-map-sprites-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-map-style-descriptor-request common-lisp:nil
                        ((key :initarg :key :initform common-lisp:nil :type
@@ -5968,7 +5980,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-map-style-descriptor-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'blob)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'blob))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-map-style-descriptor-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-map-tile-request common-lisp:nil
                        ((key :initarg :key :initform common-lisp:nil :type
@@ -6076,7 +6094,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-map-tile-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'blob)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'blob))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-map-tile-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-place-request common-lisp:nil
                        ((index-name :initarg :index-name :initform
@@ -11597,7 +11621,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'tracker-name))))
                                                         "AssociateTrackerConsumer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-tracker-consumer))
 (common-lisp:progn
  (common-lisp:defun batch-delete-device-position-history
@@ -11625,7 +11649,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'tracker-name))))
                                                         "BatchDeleteDevicePositionHistory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-delete-device-position-history))
 (common-lisp:progn
  (common-lisp:defun batch-delete-geofence
@@ -11652,7 +11676,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'collection-name))))
                                                         "BatchDeleteGeofence"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-delete-geofence))
 (common-lisp:progn
  (common-lisp:defun batch-evaluate-geofences
@@ -11680,7 +11704,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'collection-name))))
                                                         "BatchEvaluateGeofences"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-evaluate-geofences))
 (common-lisp:progn
  (common-lisp:defun batch-get-device-position
@@ -11708,7 +11732,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'tracker-name))))
                                                         "BatchGetDevicePosition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-device-position))
 (common-lisp:progn
  (common-lisp:defun batch-put-geofence
@@ -11735,7 +11759,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'collection-name))))
                                                         "BatchPutGeofence"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-put-geofence))
 (common-lisp:progn
  (common-lisp:defun batch-update-device-position
@@ -11763,7 +11787,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'tracker-name))))
                                                         "BatchUpdateDevicePosition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-update-device-position))
 (common-lisp:progn
  (common-lisp:defun calculate-route
@@ -11798,7 +11822,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'calculator-name))))
                                                         "CalculateRoute"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'calculate-route))
 (common-lisp:progn
  (common-lisp:defun calculate-route-matrix
@@ -11831,7 +11855,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'calculator-name))))
                                                         "CalculateRouteMatrix"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'calculate-route-matrix))
 (common-lisp:progn
  (common-lisp:defun create-geofence-collection
@@ -11853,7 +11877,7 @@
                                                         "POST"
                                                         "/geofencing/v0/collections"
                                                         "CreateGeofenceCollection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-geofence-collection))
 (common-lisp:progn
  (common-lisp:defun create-key
@@ -11874,7 +11898,7 @@
                                                         "POST"
                                                         "/metadata/v0/keys"
                                                         "CreateKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-key))
 (common-lisp:progn
  (common-lisp:defun create-map
@@ -11894,7 +11918,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/maps/v0/maps"
                                                         "CreateMap"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-map))
 (common-lisp:progn
  (common-lisp:defun create-place-index
@@ -11915,7 +11939,7 @@
                                                         "POST"
                                                         "/places/v0/indexes"
                                                         "CreatePlaceIndex"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-place-index))
 (common-lisp:progn
  (common-lisp:defun create-route-calculator
@@ -11936,7 +11960,7 @@
                                                         "POST"
                                                         "/routes/v0/calculators"
                                                         "CreateRouteCalculator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-route-calculator))
 (common-lisp:progn
  (common-lisp:defun create-tracker
@@ -11960,7 +11984,7 @@
                                                         "POST"
                                                         "/tracking/v0/trackers"
                                                         "CreateTracker"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-tracker))
 (common-lisp:progn
  (common-lisp:defun delete-geofence-collection
@@ -11988,7 +12012,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'collection-name))))
                                                         "DeleteGeofenceCollection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-geofence-collection))
 (common-lisp:progn
  (common-lisp:defun delete-key
@@ -12015,7 +12039,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'key-name))))
                                                         "DeleteKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-key))
 (common-lisp:progn
  (common-lisp:defun delete-map
@@ -12042,7 +12066,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'map-name))))
                                                         "DeleteMap"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-map))
 (common-lisp:progn
  (common-lisp:defun delete-place-index
@@ -12069,7 +12093,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'index-name))))
                                                         "DeletePlaceIndex"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-place-index))
 (common-lisp:progn
  (common-lisp:defun delete-route-calculator
@@ -12096,7 +12120,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'calculator-name))))
                                                         "DeleteRouteCalculator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-route-calculator))
 (common-lisp:progn
  (common-lisp:defun delete-tracker
@@ -12123,7 +12147,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'tracker-name))))
                                                         "DeleteTracker"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-tracker))
 (common-lisp:progn
  (common-lisp:defun describe-geofence-collection
@@ -12151,7 +12175,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'collection-name))))
                                                         "DescribeGeofenceCollection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-geofence-collection))
 (common-lisp:progn
  (common-lisp:defun describe-key
@@ -12178,7 +12202,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'key-name))))
                                                         "DescribeKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-key))
 (common-lisp:progn
  (common-lisp:defun describe-map
@@ -12205,7 +12229,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'map-name))))
                                                         "DescribeMap"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-map))
 (common-lisp:progn
  (common-lisp:defun describe-place-index
@@ -12232,7 +12256,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'index-name))))
                                                         "DescribePlaceIndex"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-place-index))
 (common-lisp:progn
  (common-lisp:defun describe-route-calculator
@@ -12260,7 +12284,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'calculator-name))))
                                                         "DescribeRouteCalculator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-route-calculator))
 (common-lisp:progn
  (common-lisp:defun describe-tracker
@@ -12287,7 +12311,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'tracker-name))))
                                                         "DescribeTracker"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-tracker))
 (common-lisp:progn
  (common-lisp:defun disassociate-tracker-consumer
@@ -12319,7 +12343,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'consumer-arn))))
                                                         "DisassociateTrackerConsumer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-tracker-consumer))
 (common-lisp:progn
  (common-lisp:defun get-device-position
@@ -12350,7 +12374,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'device-id))))
                                                         "GetDevicePosition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-device-position))
 (common-lisp:progn
  (common-lisp:defun get-device-position-history
@@ -12385,7 +12409,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'device-id))))
                                                         "GetDevicePositionHistory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-device-position-history))
 (common-lisp:progn
  (common-lisp:defun get-geofence
@@ -12416,7 +12440,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'geofence-id))))
                                                         "GetGeofence"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-geofence))
 (common-lisp:progn
  (common-lisp:defun get-map-glyphs
@@ -12454,7 +12478,7 @@
                                                              'font-unicode-range))))
                                                         "GetMapGlyphs")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-map-glyphs))
 (common-lisp:progn
  (common-lisp:defun get-map-sprites
@@ -12486,7 +12510,7 @@
                                                              'file-name))))
                                                         "GetMapSprites")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-map-sprites))
 (common-lisp:progn
  (common-lisp:defun get-map-style-descriptor
@@ -12514,7 +12538,7 @@
                                                              'map-name))))
                                                         "GetMapStyleDescriptor")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-map-style-descriptor))
 (common-lisp:progn
  (common-lisp:defun get-map-tile
@@ -12554,7 +12578,7 @@
                                                              'y))))
                                                         "GetMapTile")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-map-tile))
 (common-lisp:progn
  (common-lisp:defun get-place
@@ -12586,7 +12610,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'place-id))))
                                                         "GetPlace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-place))
 (common-lisp:progn
  (common-lisp:defun list-device-positions
@@ -12616,7 +12640,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'tracker-name))))
                                                         "ListDevicePositions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-device-positions))
 (common-lisp:progn
  (common-lisp:defun list-geofence-collections
@@ -12635,7 +12659,7 @@
                                                         "POST"
                                                         "/geofencing/v0/list-collections"
                                                         "ListGeofenceCollections"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-geofence-collections))
 (common-lisp:progn
  (common-lisp:defun list-geofences
@@ -12663,7 +12687,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'collection-name))))
                                                         "ListGeofences"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-geofences))
 (common-lisp:progn
  (common-lisp:defun list-keys
@@ -12681,7 +12705,7 @@
                                                         "POST"
                                                         "/metadata/v0/list-keys"
                                                         "ListKeys"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-keys))
 (common-lisp:progn
  (common-lisp:defun list-maps
@@ -12699,7 +12723,7 @@
                                                         "POST"
                                                         "/maps/v0/list-maps"
                                                         "ListMaps"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-maps))
 (common-lisp:progn
  (common-lisp:defun list-place-indexes
@@ -12717,7 +12741,7 @@
                                                         "POST"
                                                         "/places/v0/list-indexes"
                                                         "ListPlaceIndexes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-place-indexes))
 (common-lisp:progn
  (common-lisp:defun list-route-calculators
@@ -12735,7 +12759,7 @@
                                                         "POST"
                                                         "/routes/v0/list-calculators"
                                                         "ListRouteCalculators"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-route-calculators))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -12762,7 +12786,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-tracker-consumers
@@ -12790,7 +12814,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'tracker-name))))
                                                         "ListTrackerConsumers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tracker-consumers))
 (common-lisp:progn
  (common-lisp:defun list-trackers
@@ -12808,7 +12832,7 @@
                                                         "POST"
                                                         "/tracking/v0/list-trackers"
                                                         "ListTrackers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-trackers))
 (common-lisp:progn
  (common-lisp:defun put-geofence
@@ -12842,7 +12866,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'geofence-id))))
                                                         "PutGeofence"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-geofence))
 (common-lisp:progn
  (common-lisp:defun search-place-index-for-position
@@ -12872,7 +12896,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'index-name))))
                                                         "SearchPlaceIndexForPosition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-place-index-for-position))
 (common-lisp:progn
  (common-lisp:defun search-place-index-for-suggestions
@@ -12904,7 +12928,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'index-name))))
                                                         "SearchPlaceIndexForSuggestions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-place-index-for-suggestions))
 (common-lisp:progn
  (common-lisp:defun search-place-index-for-text
@@ -12936,7 +12960,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'index-name))))
                                                         "SearchPlaceIndexForText"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-place-index-for-text))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -12963,7 +12987,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -12990,7 +13014,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-geofence-collection
@@ -13021,7 +13045,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'collection-name))))
                                                         "UpdateGeofenceCollection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-geofence-collection))
 (common-lisp:progn
  (common-lisp:defun update-key
@@ -13051,7 +13075,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'key-name))))
                                                         "UpdateKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-key))
 (common-lisp:progn
  (common-lisp:defun update-map
@@ -13081,7 +13105,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'map-name))))
                                                         "UpdateMap"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-map))
 (common-lisp:progn
  (common-lisp:defun update-place-index
@@ -13111,7 +13135,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'index-name))))
                                                         "UpdatePlaceIndex"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-place-index))
 (common-lisp:progn
  (common-lisp:defun update-route-calculator
@@ -13139,7 +13163,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'calculator-name))))
                                                         "UpdateRouteCalculator"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-route-calculator))
 (common-lisp:progn
  (common-lisp:defun update-tracker
@@ -13171,5 +13195,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'tracker-name))))
                                                         "UpdateTracker"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-tracker))

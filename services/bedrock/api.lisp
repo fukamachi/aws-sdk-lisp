@@ -4205,7 +4205,7 @@
                                                         "POST"
                                                         "/model-customization-jobs"
                                                         "CreateModelCustomizationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-model-customization-job))
 (common-lisp:progn
  (common-lisp:defun create-provisioned-model-throughput
@@ -4227,7 +4227,7 @@
                                                         "POST"
                                                         "/provisioned-model-throughput"
                                                         "CreateProvisionedModelThroughput"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-provisioned-model-throughput))
 (common-lisp:progn
  (common-lisp:defun delete-custom-model
@@ -4254,7 +4254,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'model-identifier))))
                                                         "DeleteCustomModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-custom-model))
 (common-lisp:progn
  (common-lisp:defun delete-model-invocation-logging-configuration ()
@@ -4291,7 +4291,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'provisioned-model-id))))
                                                         "DeleteProvisionedModelThroughput"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-provisioned-model-throughput))
 (common-lisp:progn
  (common-lisp:defun get-custom-model
@@ -4318,7 +4318,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'model-identifier))))
                                                         "GetCustomModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-custom-model))
 (common-lisp:progn
  (common-lisp:defun get-foundation-model
@@ -4345,7 +4345,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'model-identifier))))
                                                         "GetFoundationModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-foundation-model))
 (common-lisp:progn
  (common-lisp:defun get-model-customization-job
@@ -4373,7 +4373,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-identifier))))
                                                         "GetModelCustomizationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-model-customization-job))
 (common-lisp:progn
  (common-lisp:defun get-model-invocation-logging-configuration ()
@@ -4410,7 +4410,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'provisioned-model-id))))
                                                         "GetProvisionedModelThroughput"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-provisioned-model-throughput))
 (common-lisp:progn
  (common-lisp:defun list-custom-models
@@ -4433,7 +4433,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/custom-models"
                                                         "ListCustomModels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-custom-models))
 (common-lisp:progn
  (common-lisp:defun list-foundation-models
@@ -4454,7 +4454,7 @@
                                                         "GET"
                                                         "/foundation-models"
                                                         "ListFoundationModels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-foundation-models))
 (common-lisp:progn
  (common-lisp:defun list-model-customization-jobs
@@ -4477,7 +4477,7 @@
                                                         "GET"
                                                         "/model-customization-jobs"
                                                         "ListModelCustomizationJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-model-customization-jobs))
 (common-lisp:progn
  (common-lisp:defun list-provisioned-model-throughputs
@@ -4501,7 +4501,7 @@
                                                         "GET"
                                                         "/provisioned-model-throughputs"
                                                         "ListProvisionedModelThroughputs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-provisioned-model-throughputs))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -4519,7 +4519,7 @@
                                                         "POST"
                                                         "/listTagsForResource"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-model-invocation-logging-configuration
@@ -4538,7 +4538,7 @@
                                                         "PUT"
                                                         "/logging/modelinvocations"
                                                         "PutModelInvocationLoggingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-model-invocation-logging-configuration))
 (common-lisp:progn
  (common-lisp:defun stop-model-customization-job
@@ -4566,7 +4566,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-identifier))))
                                                         "StopModelCustomizationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-model-customization-job))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4583,7 +4583,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/tagResource"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4600,7 +4600,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/untagResource"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-provisioned-model-throughput
@@ -4631,5 +4631,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'provisioned-model-id))))
                                                         "UpdateProvisionedModelThroughput"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-provisioned-model-throughput))

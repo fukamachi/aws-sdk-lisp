@@ -7777,7 +7777,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'portal-arn)))
                                                         "AssociateBrowserSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-browser-settings))
 (common-lisp:progn
  (common-lisp:defun associate-ip-access-settings
@@ -7805,7 +7805,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'portal-arn)))
                                                         "AssociateIpAccessSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-ip-access-settings))
 (common-lisp:progn
  (common-lisp:defun associate-network-settings
@@ -7833,7 +7833,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'portal-arn)))
                                                         "AssociateNetworkSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-network-settings))
 (common-lisp:progn
  (common-lisp:defun associate-trust-store
@@ -7859,7 +7859,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'portal-arn)))
                                                         "AssociateTrustStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-trust-store))
 (common-lisp:progn
  (common-lisp:defun associate-user-access-logging-settings
@@ -7888,7 +7888,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'portal-arn)))
                                                         "AssociateUserAccessLoggingSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-user-access-logging-settings))
 (common-lisp:progn
  (common-lisp:defun associate-user-settings
@@ -7914,7 +7914,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'portal-arn)))
                                                         "AssociateUserSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-user-settings))
 (common-lisp:progn
  (common-lisp:defun create-browser-settings
@@ -7935,7 +7935,7 @@
                                                         "POST"
                                                         "/browserSettings"
                                                         "CreateBrowserSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-browser-settings))
 (common-lisp:progn
  (common-lisp:defun create-identity-provider
@@ -7956,7 +7956,7 @@
                                                         "POST"
                                                         "/identityProviders"
                                                         "CreateIdentityProvider"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-identity-provider))
 (common-lisp:progn
  (common-lisp:defun create-ip-access-settings
@@ -7979,7 +7979,7 @@
                                                         "POST"
                                                         "/ipAccessSettings"
                                                         "CreateIpAccessSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-ip-access-settings))
 (common-lisp:progn
  (common-lisp:defun create-network-settings
@@ -8000,7 +8000,7 @@
                                                         "POST"
                                                         "/networkSettings"
                                                         "CreateNetworkSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-network-settings))
 (common-lisp:progn
  (common-lisp:defun create-portal
@@ -8021,7 +8021,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/portals"
                                                         "CreatePortal"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-portal))
 (common-lisp:progn
  (common-lisp:defun create-trust-store
@@ -8039,7 +8039,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/trustStores"
                                                         "CreateTrustStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-trust-store))
 (common-lisp:progn
  (common-lisp:defun create-user-access-logging-settings
@@ -8059,7 +8059,7 @@
                                                         "POST"
                                                         "/userAccessLoggingSettings"
                                                         "CreateUserAccessLoggingSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-user-access-logging-settings))
 (common-lisp:progn
  (common-lisp:defun create-user-settings
@@ -8086,7 +8086,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/userSettings"
                                                         "CreateUserSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-user-settings))
 (common-lisp:progn
  (common-lisp:defun delete-browser-settings
@@ -8112,7 +8112,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'browser-settings-arn)))
                                                         "DeleteBrowserSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-browser-settings))
 (common-lisp:progn
  (common-lisp:defun delete-identity-provider
@@ -8138,7 +8138,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'identity-provider-arn)))
                                                         "DeleteIdentityProvider"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-identity-provider))
 (common-lisp:progn
  (common-lisp:defun delete-ip-access-settings
@@ -8165,7 +8165,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'ip-access-settings-arn)))
                                                         "DeleteIpAccessSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-ip-access-settings))
 (common-lisp:progn
  (common-lisp:defun delete-network-settings
@@ -8191,7 +8191,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'network-settings-arn)))
                                                         "DeleteNetworkSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-network-settings))
 (common-lisp:progn
  (common-lisp:defun delete-portal
@@ -8217,7 +8217,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'portal-arn)))
                                                         "DeletePortal"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-portal))
 (common-lisp:progn
  (common-lisp:defun delete-trust-store
@@ -8243,7 +8243,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'trust-store-arn)))
                                                         "DeleteTrustStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-trust-store))
 (common-lisp:progn
  (common-lisp:defun delete-user-access-logging-settings
@@ -8271,7 +8271,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'user-access-logging-settings-arn)))
                                                         "DeleteUserAccessLoggingSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-user-access-logging-settings))
 (common-lisp:progn
  (common-lisp:defun delete-user-settings
@@ -8297,7 +8297,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'user-settings-arn)))
                                                         "DeleteUserSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-user-settings))
 (common-lisp:progn
  (common-lisp:defun disassociate-browser-settings
@@ -8324,7 +8324,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'portal-arn)))
                                                         "DisassociateBrowserSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-browser-settings))
 (common-lisp:progn
  (common-lisp:defun disassociate-ip-access-settings
@@ -8351,7 +8351,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'portal-arn)))
                                                         "DisassociateIpAccessSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-ip-access-settings))
 (common-lisp:progn
  (common-lisp:defun disassociate-network-settings
@@ -8378,7 +8378,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'portal-arn)))
                                                         "DisassociateNetworkSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-network-settings))
 (common-lisp:progn
  (common-lisp:defun disassociate-trust-store
@@ -8404,7 +8404,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'portal-arn)))
                                                         "DisassociateTrustStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-trust-store))
 (common-lisp:progn
  (common-lisp:defun disassociate-user-access-logging-settings
@@ -8431,7 +8431,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'portal-arn)))
                                                         "DisassociateUserAccessLoggingSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-user-access-logging-settings))
 (common-lisp:progn
  (common-lisp:defun disassociate-user-settings
@@ -8458,7 +8458,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'portal-arn)))
                                                         "DisassociateUserSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-user-settings))
 (common-lisp:progn
  (common-lisp:defun get-browser-settings
@@ -8484,7 +8484,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'browser-settings-arn)))
                                                         "GetBrowserSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-browser-settings))
 (common-lisp:progn
  (common-lisp:defun get-identity-provider
@@ -8510,7 +8510,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'identity-provider-arn)))
                                                         "GetIdentityProvider"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-identity-provider))
 (common-lisp:progn
  (common-lisp:defun get-ip-access-settings
@@ -8536,7 +8536,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'ip-access-settings-arn)))
                                                         "GetIpAccessSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-ip-access-settings))
 (common-lisp:progn
  (common-lisp:defun get-network-settings
@@ -8562,7 +8562,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'network-settings-arn)))
                                                         "GetNetworkSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-network-settings))
 (common-lisp:progn
  (common-lisp:defun get-portal
@@ -8588,7 +8588,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'portal-arn)))
                                                         "GetPortal"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-portal))
 (common-lisp:progn
  (common-lisp:defun get-portal-service-provider-metadata
@@ -8615,7 +8615,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'portal-arn)))
                                                         "GetPortalServiceProviderMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-portal-service-provider-metadata))
 (common-lisp:progn
  (common-lisp:defun get-trust-store
@@ -8641,7 +8641,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'trust-store-arn)))
                                                         "GetTrustStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-trust-store))
 (common-lisp:progn
  (common-lisp:defun get-trust-store-certificate
@@ -8668,7 +8668,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'trust-store-arn)))
                                                         "GetTrustStoreCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-trust-store-certificate))
 (common-lisp:progn
  (common-lisp:defun get-user-access-logging-settings
@@ -8696,7 +8696,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'user-access-logging-settings-arn)))
                                                         "GetUserAccessLoggingSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-user-access-logging-settings))
 (common-lisp:progn
  (common-lisp:defun get-user-settings
@@ -8722,7 +8722,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'user-settings-arn)))
                                                         "GetUserSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-user-settings))
 (common-lisp:progn
  (common-lisp:defun list-browser-settings
@@ -8740,7 +8740,7 @@
                                                         "GET"
                                                         "/browserSettings"
                                                         "ListBrowserSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-browser-settings))
 (common-lisp:progn
  (common-lisp:defun list-identity-providers
@@ -8767,7 +8767,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'portal-arn)))
                                                         "ListIdentityProviders"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-identity-providers))
 (common-lisp:progn
  (common-lisp:defun list-ip-access-settings
@@ -8785,7 +8785,7 @@
                                                         "GET"
                                                         "/ipAccessSettings"
                                                         "ListIpAccessSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-ip-access-settings))
 (common-lisp:progn
  (common-lisp:defun list-network-settings
@@ -8803,7 +8803,7 @@
                                                         "GET"
                                                         "/networkSettings"
                                                         "ListNetworkSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-network-settings))
 (common-lisp:progn
  (common-lisp:defun list-portals
@@ -8820,7 +8820,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/portals"
                                                         "ListPortals"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-portals))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -8846,7 +8846,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'resource-arn)))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-trust-store-certificates
@@ -8874,7 +8874,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'trust-store-arn)))
                                                         "ListTrustStoreCertificates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-trust-store-certificates))
 (common-lisp:progn
  (common-lisp:defun list-trust-stores
@@ -8891,7 +8891,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/trustStores"
                                                         "ListTrustStores"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-trust-stores))
 (common-lisp:progn
  (common-lisp:defun list-user-access-logging-settings
@@ -8910,7 +8910,7 @@
                                                         "GET"
                                                         "/userAccessLoggingSettings"
                                                         "ListUserAccessLoggingSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-user-access-logging-settings))
 (common-lisp:progn
  (common-lisp:defun list-user-settings
@@ -8927,7 +8927,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/userSettings"
                                                         "ListUserSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-user-settings))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -8953,7 +8953,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'resource-arn)))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -8979,7 +8979,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'resource-arn)))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-browser-settings
@@ -9007,7 +9007,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'browser-settings-arn)))
                                                         "UpdateBrowserSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-browser-settings))
 (common-lisp:progn
  (common-lisp:defun update-identity-provider
@@ -9037,7 +9037,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'identity-provider-arn)))
                                                         "UpdateIdentityProvider"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-identity-provider))
 (common-lisp:progn
  (common-lisp:defun update-ip-access-settings
@@ -9067,7 +9067,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'ip-access-settings-arn)))
                                                         "UpdateIpAccessSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-ip-access-settings))
 (common-lisp:progn
  (common-lisp:defun update-network-settings
@@ -9096,7 +9096,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'network-settings-arn)))
                                                         "UpdateNetworkSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-network-settings))
 (common-lisp:progn
  (common-lisp:defun update-portal
@@ -9124,7 +9124,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'portal-arn)))
                                                         "UpdatePortal"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-portal))
 (common-lisp:progn
  (common-lisp:defun update-trust-store
@@ -9153,7 +9153,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'trust-store-arn)))
                                                         "UpdateTrustStore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-trust-store))
 (common-lisp:progn
  (common-lisp:defun update-user-access-logging-settings
@@ -9183,7 +9183,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'user-access-logging-settings-arn)))
                                                         "UpdateUserAccessLoggingSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-user-access-logging-settings))
 (common-lisp:progn
  (common-lisp:defun update-user-settings
@@ -9217,5 +9217,5 @@
                                                             aws-sdk/generator/operation::input
                                                             'user-settings-arn)))
                                                         "UpdateUserSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-user-settings))

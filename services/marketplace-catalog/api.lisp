@@ -6988,7 +6988,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'marketplace-catalog-request aws-sdk/generator/operation::input "POST"
         "/BatchDescribeEntities" "BatchDescribeEntities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-describe-entities))
 (common-lisp:progn
  (common-lisp:defun cancel-change-set
@@ -7004,7 +7004,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'marketplace-catalog-request aws-sdk/generator/operation::input "PATCH"
         "/CancelChangeSet" "CancelChangeSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-change-set))
 (common-lisp:progn
  (common-lisp:defun delete-resource-policy
@@ -7020,7 +7020,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'marketplace-catalog-request aws-sdk/generator/operation::input
         "DELETE" "/DeleteResourcePolicy" "DeleteResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resource-policy))
 (common-lisp:progn
  (common-lisp:defun describe-change-set
@@ -7036,7 +7036,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'marketplace-catalog-request aws-sdk/generator/operation::input "GET"
         "/DescribeChangeSet" "DescribeChangeSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-change-set))
 (common-lisp:progn
  (common-lisp:defun describe-entity
@@ -7052,7 +7052,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'marketplace-catalog-request aws-sdk/generator/operation::input "GET"
         "/DescribeEntity" "DescribeEntity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-entity))
 (common-lisp:progn
  (common-lisp:defun get-resource-policy
@@ -7068,7 +7068,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'marketplace-catalog-request aws-sdk/generator/operation::input "GET"
         "/GetResourcePolicy" "GetResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-policy))
 (common-lisp:progn
  (common-lisp:defun list-change-sets
@@ -7086,7 +7086,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'marketplace-catalog-request aws-sdk/generator/operation::input "POST"
         "/ListChangeSets" "ListChangeSets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-change-sets))
 (common-lisp:progn
  (common-lisp:defun list-entities
@@ -7106,7 +7106,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'marketplace-catalog-request aws-sdk/generator/operation::input "POST"
         "/ListEntities" "ListEntities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-entities))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -7122,7 +7122,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'marketplace-catalog-request aws-sdk/generator/operation::input "POST"
         "/ListTagsForResource" "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-resource-policy
@@ -7138,7 +7138,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'marketplace-catalog-request aws-sdk/generator/operation::input "POST"
         "/PutResourcePolicy" "PutResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-resource-policy))
 (common-lisp:progn
  (common-lisp:defun start-change-set
@@ -7157,7 +7157,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'marketplace-catalog-request aws-sdk/generator/operation::input "POST"
         "/StartChangeSet" "StartChangeSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-change-set))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -7173,7 +7173,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'marketplace-catalog-request aws-sdk/generator/operation::input "POST"
         "/TagResource" "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -7189,5 +7189,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'marketplace-catalog-request aws-sdk/generator/operation::input "POST"
         "/UntagResource" "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))

@@ -5167,7 +5167,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateEntityToThing"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-entity-to-thing))
 (common-lisp:progn
  (common-lisp:defun create-flow-template
@@ -5185,7 +5185,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateFlowTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-flow-template))
 (common-lisp:progn
  (common-lisp:defun create-system-instance
@@ -5206,7 +5206,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateSystemInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-system-instance))
 (common-lisp:progn
  (common-lisp:defun create-system-template
@@ -5224,7 +5224,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateSystemTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-system-template))
 (common-lisp:progn
  (common-lisp:defun delete-flow-template
@@ -5241,7 +5241,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteFlowTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-flow-template))
 (common-lisp:progn
  (common-lisp:defun delete-namespace ()
@@ -5266,7 +5266,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteSystemInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-system-instance))
 (common-lisp:progn
  (common-lisp:defun delete-system-template
@@ -5283,7 +5283,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteSystemTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-system-template))
 (common-lisp:progn
  (common-lisp:defun deploy-system-instance
@@ -5300,7 +5300,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeploySystemInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deploy-system-instance))
 (common-lisp:progn
  (common-lisp:defun deprecate-flow-template
@@ -5317,7 +5317,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeprecateFlowTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deprecate-flow-template))
 (common-lisp:progn
  (common-lisp:defun deprecate-system-template
@@ -5335,7 +5335,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeprecateSystemTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deprecate-system-template))
 (common-lisp:progn
  (common-lisp:defun describe-namespace
@@ -5352,7 +5352,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeNamespace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-namespace))
 (common-lisp:progn
  (common-lisp:defun dissociate-entity-from-thing
@@ -5370,7 +5370,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DissociateEntityFromThing"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'dissociate-entity-from-thing))
 (common-lisp:progn
  (common-lisp:defun get-entities
@@ -5387,7 +5387,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetEntities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-entities))
 (common-lisp:progn
  (common-lisp:defun get-flow-template
@@ -5404,7 +5404,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetFlowTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-flow-template))
 (common-lisp:progn
  (common-lisp:defun get-flow-template-revisions
@@ -5422,7 +5422,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetFlowTemplateRevisions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-flow-template-revisions))
 (common-lisp:progn
  (common-lisp:defun get-namespace-deletion-status ()
@@ -5447,7 +5447,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetSystemInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-system-instance))
 (common-lisp:progn
  (common-lisp:defun get-system-template
@@ -5464,7 +5464,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetSystemTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-system-template))
 (common-lisp:progn
  (common-lisp:defun get-system-template-revisions
@@ -5482,7 +5482,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetSystemTemplateRevisions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-system-template-revisions))
 (common-lisp:progn
  (common-lisp:defun get-upload-status
@@ -5499,7 +5499,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetUploadStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-upload-status))
 (common-lisp:progn
  (common-lisp:defun list-flow-execution-messages
@@ -5518,7 +5518,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListFlowExecutionMessages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-flow-execution-messages))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -5536,7 +5536,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun search-entities
@@ -5556,7 +5556,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SearchEntities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-entities))
 (common-lisp:progn
  (common-lisp:defun search-flow-executions
@@ -5576,7 +5576,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SearchFlowExecutions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-flow-executions))
 (common-lisp:progn
  (common-lisp:defun search-flow-templates
@@ -5593,7 +5593,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SearchFlowTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-flow-templates))
 (common-lisp:progn
  (common-lisp:defun search-system-instances
@@ -5610,7 +5610,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SearchSystemInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-system-instances))
 (common-lisp:progn
  (common-lisp:defun search-system-templates
@@ -5627,7 +5627,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SearchSystemTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-system-templates))
 (common-lisp:progn
  (common-lisp:defun search-things
@@ -5646,7 +5646,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SearchThings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-things))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -5663,7 +5663,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun undeploy-system-instance
@@ -5680,7 +5680,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UndeploySystemInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'undeploy-system-instance))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -5697,7 +5697,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-flow-template
@@ -5716,7 +5716,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateFlowTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-flow-template))
 (common-lisp:progn
  (common-lisp:defun update-system-template
@@ -5735,7 +5735,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateSystemTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-system-template))
 (common-lisp:progn
  (common-lisp:defun upload-entity-definitions
@@ -5756,5 +5756,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UploadEntityDefinitions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'upload-entity-definitions))

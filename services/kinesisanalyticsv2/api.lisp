@@ -12005,7 +12005,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "AddApplicationCloudWatchLoggingOption"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-application-cloud-watch-logging-option))
 (common-lisp:progn
  (common-lisp:defun add-application-input
@@ -12024,7 +12024,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "AddApplicationInput"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-application-input))
 (common-lisp:progn
  (common-lisp:defun add-application-input-processing-configuration
@@ -12045,7 +12045,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "AddApplicationInputProcessingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-application-input-processing-configuration))
 (common-lisp:progn
  (common-lisp:defun add-application-output
@@ -12064,7 +12064,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "AddApplicationOutput"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-application-output))
 (common-lisp:progn
  (common-lisp:defun add-application-reference-data-source
@@ -12084,7 +12084,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "AddApplicationReferenceDataSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-application-reference-data-source))
 (common-lisp:progn
  (common-lisp:defun add-application-vpc-configuration
@@ -12105,7 +12105,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "AddApplicationVpcConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-application-vpc-configuration))
 (common-lisp:progn
  (common-lisp:defun create-application
@@ -12127,7 +12127,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "CreateApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-application))
 (common-lisp:progn
  (common-lisp:defun create-application-presigned-url
@@ -12147,7 +12147,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "CreateApplicationPresignedUrl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-application-presigned-url))
 (common-lisp:progn
  (common-lisp:defun create-application-snapshot
@@ -12164,7 +12164,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "CreateApplicationSnapshot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-application-snapshot))
 (common-lisp:progn
  (common-lisp:defun delete-application
@@ -12181,7 +12181,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-application))
 (common-lisp:progn
  (common-lisp:defun delete-application-cloud-watch-logging-option
@@ -12202,7 +12202,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteApplicationCloudWatchLoggingOption"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-application-cloud-watch-logging-option))
 (common-lisp:progn
  (common-lisp:defun delete-application-input-processing-configuration
@@ -12222,7 +12222,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteApplicationInputProcessingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-application-input-processing-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-application-output
@@ -12242,7 +12242,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteApplicationOutput"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-application-output))
 (common-lisp:progn
  (common-lisp:defun delete-application-reference-data-source
@@ -12262,7 +12262,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteApplicationReferenceDataSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-application-reference-data-source))
 (common-lisp:progn
  (common-lisp:defun delete-application-snapshot
@@ -12282,7 +12282,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteApplicationSnapshot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-application-snapshot))
 (common-lisp:progn
  (common-lisp:defun delete-application-vpc-configuration
@@ -12303,7 +12303,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteApplicationVpcConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-application-vpc-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-application
@@ -12321,7 +12321,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-application))
 (common-lisp:progn
  (common-lisp:defun describe-application-snapshot
@@ -12338,7 +12338,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeApplicationSnapshot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-application-snapshot))
 (common-lisp:progn
  (common-lisp:defun describe-application-version
@@ -12356,7 +12356,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeApplicationVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-application-version))
 (common-lisp:progn
  (common-lisp:defun discover-input-schema
@@ -12377,7 +12377,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "DiscoverInputSchema"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'discover-input-schema))
 (common-lisp:progn
  (common-lisp:defun list-application-snapshots
@@ -12395,7 +12395,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "ListApplicationSnapshots"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-application-snapshots))
 (common-lisp:progn
  (common-lisp:defun list-application-versions
@@ -12413,7 +12413,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "ListApplicationVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-application-versions))
 (common-lisp:progn
  (common-lisp:defun list-applications
@@ -12429,7 +12429,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "ListApplications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-applications))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -12445,7 +12445,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun rollback-application
@@ -12463,7 +12463,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "RollbackApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'rollback-application))
 (common-lisp:progn
  (common-lisp:defun start-application
@@ -12480,7 +12480,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "StartApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-application))
 (common-lisp:progn
  (common-lisp:defun stop-application
@@ -12496,7 +12496,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "StopApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-application))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -12512,7 +12512,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -12528,7 +12528,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-application
@@ -12552,7 +12552,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-application))
 (common-lisp:progn
  (common-lisp:defun update-application-maintenance-configuration
@@ -12572,5 +12572,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesisanalyticsv2-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateApplicationMaintenanceConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-application-maintenance-configuration))

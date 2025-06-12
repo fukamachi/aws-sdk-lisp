@@ -390,7 +390,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'instance-id))))
                                                         "CreateBillOfMaterialsImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-bill-of-materials-import-job))
 (common-lisp:progn
  (common-lisp:defun get-bill-of-materials-import-job
@@ -422,5 +422,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "GetBillOfMaterialsImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-bill-of-materials-import-job))

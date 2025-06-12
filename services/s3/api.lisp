@@ -1768,7 +1768,14 @@
                         (
                          (aws-sdk/generator/shape::input
                           complete-multipart-upload-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'multipart-upload)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'multipart-upload))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          complete-multipart-upload-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "CompleteMultipartUpload" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass completed-multipart-upload common-lisp:nil
                        ((parts :initarg :parts :initform common-lisp:nil :type
@@ -2143,7 +2150,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input copy-object-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'copy-object-result)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'copy-object-result))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input copy-object-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass copy-object-request common-lisp:nil
                        ((acl :initarg :acl :initform common-lisp:nil :type
@@ -3112,7 +3123,14 @@
                          (aws-sdk/generator/shape::input
                           create-bucket-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'create-bucket-configuration)))
+                           'create-bucket-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          create-bucket-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "CreateBucketConfiguration" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass create-multipart-upload-output common-lisp:nil
                        ((abort-date :initarg :abort-date :initform
@@ -4999,7 +5017,14 @@
                         (
                          (aws-sdk/generator/shape::input
                           delete-objects-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'delete)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'delete))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          delete-objects-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "Delete" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass delete-public-access-block-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -5854,7 +5879,13 @@
                          (aws-sdk/generator/shape::input
                           get-bucket-analytics-configuration-output))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'analytics-configuration)))
+                           'analytics-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-bucket-analytics-configuration-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-bucket-analytics-configuration-request
                        common-lisp:nil
@@ -6029,7 +6060,13 @@
                          (aws-sdk/generator/shape::input
                           get-bucket-encryption-output))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'server-side-encryption-configuration)))
+                           'server-side-encryption-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-bucket-encryption-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-bucket-encryption-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -6119,7 +6156,13 @@
                          (aws-sdk/generator/shape::input
                           get-bucket-intelligent-tiering-configuration-output))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'intelligent-tiering-configuration)))
+                           'intelligent-tiering-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-bucket-intelligent-tiering-configuration-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-bucket-intelligent-tiering-configuration-request
                        common-lisp:nil
@@ -6206,7 +6249,13 @@
                          (aws-sdk/generator/shape::input
                           get-bucket-inventory-configuration-output))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'inventory-configuration)))
+                           'inventory-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-bucket-inventory-configuration-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-bucket-inventory-configuration-request
                        common-lisp:nil
@@ -6634,7 +6683,13 @@
                          (aws-sdk/generator/shape::input
                           get-bucket-metrics-configuration-output))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'metrics-configuration)))
+                           'metrics-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-bucket-metrics-configuration-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-bucket-metrics-configuration-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -6771,7 +6826,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-bucket-ownership-controls-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'ownership-controls)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'ownership-controls))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-bucket-ownership-controls-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-bucket-ownership-controls-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -6852,7 +6913,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-bucket-policy-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'policy)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'policy))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-bucket-policy-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-bucket-policy-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -6935,7 +7002,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-bucket-policy-status-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'policy-status)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'policy-status))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-bucket-policy-status-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-bucket-policy-status-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -7024,7 +7097,13 @@
                          (aws-sdk/generator/shape::input
                           get-bucket-replication-output))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'replication-configuration)))
+                           'replication-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-bucket-replication-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-bucket-replication-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -8017,7 +8096,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-object-legal-hold-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'legal-hold)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'legal-hold))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-object-legal-hold-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-object-legal-hold-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -8129,7 +8214,13 @@
                          (aws-sdk/generator/shape::input
                           get-object-lock-configuration-output))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'object-lock-configuration)))
+                           'object-lock-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-object-lock-configuration-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-object-lock-configuration-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -8599,7 +8690,11 @@
    (common-lisp:append))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input get-object-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input get-object-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-object-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -8860,7 +8955,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-object-retention-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'retention)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'retention))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-object-retention-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-object-retention-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -9087,7 +9188,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-object-torrent-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-object-torrent-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-object-torrent-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -9190,7 +9297,13 @@
                          (aws-sdk/generator/shape::input
                           get-public-access-block-output))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'public-access-block-configuration)))
+                           'public-access-block-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-public-access-block-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-public-access-block-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -15788,7 +15901,14 @@
                          (aws-sdk/generator/shape::input
                           put-bucket-accelerate-configuration-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'accelerate-configuration)))
+                           'accelerate-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-accelerate-configuration-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "AccelerateConfiguration" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-bucket-acl-request common-lisp:nil
                        ((acl :initarg :acl :initform common-lisp:nil :type
@@ -15935,7 +16055,14 @@
                          (aws-sdk/generator/shape::input
                           put-bucket-acl-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'access-control-policy)))
+                           'access-control-policy))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-acl-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "AccessControlPolicy" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-bucket-analytics-configuration-request
                        common-lisp:nil
@@ -16009,7 +16136,14 @@
                          (aws-sdk/generator/shape::input
                           put-bucket-analytics-configuration-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'analytics-configuration)))
+                           'analytics-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-analytics-configuration-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "AnalyticsConfiguration" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-bucket-cors-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -16090,7 +16224,14 @@
                         (
                          (aws-sdk/generator/shape::input
                           put-bucket-cors-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'corsconfiguration)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'corsconfiguration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-cors-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "CORSConfiguration" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-bucket-encryption-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -16179,7 +16320,14 @@
                          (aws-sdk/generator/shape::input
                           put-bucket-encryption-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'server-side-encryption-configuration)))
+                           'server-side-encryption-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-encryption-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "ServerSideEncryptionConfiguration"
+                     :xml-namespace "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-bucket-intelligent-tiering-configuration-request
                        common-lisp:nil
@@ -16242,7 +16390,14 @@
                          (aws-sdk/generator/shape::input
                           put-bucket-intelligent-tiering-configuration-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'intelligent-tiering-configuration)))
+                           'intelligent-tiering-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-intelligent-tiering-configuration-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "IntelligentTieringConfiguration"
+                     :xml-namespace "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-bucket-inventory-configuration-request
                        common-lisp:nil
@@ -16316,7 +16471,14 @@
                          (aws-sdk/generator/shape::input
                           put-bucket-inventory-configuration-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'inventory-configuration)))
+                           'inventory-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-inventory-configuration-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "InventoryConfiguration" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-bucket-lifecycle-configuration-request
                        common-lisp:nil
@@ -16393,7 +16555,14 @@
                          (aws-sdk/generator/shape::input
                           put-bucket-lifecycle-configuration-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'lifecycle-configuration)))
+                           'lifecycle-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-lifecycle-configuration-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "LifecycleConfiguration" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-bucket-lifecycle-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -16479,7 +16648,14 @@
                          (aws-sdk/generator/shape::input
                           put-bucket-lifecycle-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'lifecycle-configuration)))
+                           'lifecycle-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-lifecycle-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "LifecycleConfiguration" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-bucket-logging-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -16565,7 +16741,14 @@
                          (aws-sdk/generator/shape::input
                           put-bucket-logging-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'bucket-logging-status)))
+                           'bucket-logging-status))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-logging-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "BucketLoggingStatus" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-bucket-metrics-configuration-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -16636,7 +16819,14 @@
                          (aws-sdk/generator/shape::input
                           put-bucket-metrics-configuration-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'metrics-configuration)))
+                           'metrics-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-metrics-configuration-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "MetricsConfiguration" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-bucket-notification-configuration-request
                        common-lisp:nil
@@ -16717,7 +16907,14 @@
                          (aws-sdk/generator/shape::input
                           put-bucket-notification-configuration-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'notification-configuration)))
+                           'notification-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-notification-configuration-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "NotificationConfiguration" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-bucket-notification-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -16806,7 +17003,14 @@
                          (aws-sdk/generator/shape::input
                           put-bucket-notification-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'notification-configuration)))
+                           'notification-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-notification-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "NotificationConfiguration" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-bucket-ownership-controls-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -16878,7 +17082,14 @@
                         (
                          (aws-sdk/generator/shape::input
                           put-bucket-ownership-controls-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'ownership-controls)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'ownership-controls))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-ownership-controls-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "OwnershipControls" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-bucket-policy-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -16973,7 +17184,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           put-bucket-policy-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'policy)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'policy))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-policy-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass put-bucket-replication-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -17073,7 +17290,14 @@
                          (aws-sdk/generator/shape::input
                           put-bucket-replication-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'replication-configuration)))
+                           'replication-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-replication-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "ReplicationConfiguration" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-bucket-request-payment-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -17162,7 +17386,14 @@
                          (aws-sdk/generator/shape::input
                           put-bucket-request-payment-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'request-payment-configuration)))
+                           'request-payment-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-request-payment-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "RequestPaymentConfiguration"
+                     :xml-namespace "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-bucket-tagging-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -17241,7 +17472,14 @@
                         (
                          (aws-sdk/generator/shape::input
                           put-bucket-tagging-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'tagging)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'tagging))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-tagging-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "Tagging" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-bucket-versioning-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -17338,7 +17576,14 @@
                          (aws-sdk/generator/shape::input
                           put-bucket-versioning-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'versioning-configuration)))
+                           'versioning-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-versioning-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "VersioningConfiguration" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-bucket-website-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -17424,7 +17669,14 @@
                          (aws-sdk/generator/shape::input
                           put-bucket-website-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'website-configuration)))
+                           'website-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-bucket-website-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "WebsiteConfiguration" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-object-acl-output common-lisp:nil
                        ((request-charged :initarg :request-charged :initform
@@ -17630,7 +17882,14 @@
                          (aws-sdk/generator/shape::input
                           put-object-acl-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'access-control-policy)))
+                           'access-control-policy))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-object-acl-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "AccessControlPolicy" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-object-legal-hold-output common-lisp:nil
                        ((request-charged :initarg :request-charged :initform
@@ -17773,7 +18032,14 @@
                         (
                          (aws-sdk/generator/shape::input
                           put-object-legal-hold-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'legal-hold)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'legal-hold))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-object-legal-hold-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "LegalHold" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-object-lock-configuration-output common-lisp:nil
                        ((request-charged :initarg :request-charged :initform
@@ -17920,7 +18186,14 @@
                          (aws-sdk/generator/shape::input
                           put-object-lock-configuration-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'object-lock-configuration)))
+                           'object-lock-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-object-lock-configuration-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "ObjectLockConfiguration" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-object-output common-lisp:nil
                        ((expiration :initarg :expiration :initform
@@ -18548,7 +18821,11 @@
    (common-lisp:append))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input put-object-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input put-object-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass put-object-retention-output common-lisp:nil
                        ((request-charged :initarg :request-charged :initform
@@ -18705,7 +18982,14 @@
                         (
                          (aws-sdk/generator/shape::input
                           put-object-retention-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'retention)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'retention))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-object-retention-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "Retention" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-object-tagging-output common-lisp:nil
                        ((version-id :initarg :version-id :initform
@@ -18844,7 +19128,14 @@
                         (
                          (aws-sdk/generator/shape::input
                           put-object-tagging-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'tagging)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'tagging))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-object-tagging-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "Tagging" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:progn
  (common-lisp:defclass put-public-access-block-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -18933,7 +19224,14 @@
                          (aws-sdk/generator/shape::input
                           put-public-access-block-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'public-access-block-configuration)))
+                           'public-access-block-configuration))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          put-public-access-block-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "PublicAccessBlockConfiguration"
+                     :xml-namespace "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:deftype queue-arn () 'common-lisp:string)
 (common-lisp:progn
  (common-lisp:defclass queue-configuration common-lisp:nil
@@ -19924,7 +20222,14 @@
                         (
                          (aws-sdk/generator/shape::input
                           restore-object-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'restore-request)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'restore-request))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          restore-object-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list :location-name "RestoreRequest" :xml-namespace
+                     "http://s3.amazonaws.com/doc/2006-03-01/")))
 (common-lisp:deftype restore-output-path () 'common-lisp:string)
 (common-lisp:progn
  (common-lisp:defclass restore-request common-lisp:nil
@@ -20643,7 +20948,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           select-object-content-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          select-object-content-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass select-object-content-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -22045,7 +22356,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           upload-part-copy-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'copy-part-result)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'copy-part-result))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          upload-part-copy-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass upload-part-copy-request common-lisp:nil
                        ((bucket :initarg :bucket :initform
@@ -22645,7 +22962,11 @@
    (common-lisp:append))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input upload-part-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input upload-part-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:deftype user-metadata ()
    '(trivial-types:proper-list metadata-entry))
@@ -23315,7 +23636,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           write-get-object-response-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          write-get-object-response-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:deftype years () 'common-lisp:integer)
 (common-lisp:progn
  (common-lisp:defun abort-multipart-upload
@@ -23348,7 +23675,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'key)))
                                                         "AbortMultipartUpload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'abort-multipart-upload))
 (common-lisp:progn
  (common-lisp:defun complete-multipart-upload
@@ -23386,7 +23713,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'key)))
                                                         "CompleteMultipartUpload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'complete-multipart-upload))
 (common-lisp:progn
  (common-lisp:defun copy-object
@@ -23445,7 +23772,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'key)))
                                                         "CopyObject"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'copy-object))
 (common-lisp:progn
  (common-lisp:defun create-bucket
@@ -23478,7 +23805,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "CreateBucket"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-bucket))
 (common-lisp:progn
  (common-lisp:defun create-multipart-upload
@@ -23526,7 +23853,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'key)))
                                                         "CreateMultipartUpload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-multipart-upload))
 (common-lisp:progn
  (common-lisp:defun create-session
@@ -23553,7 +23880,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "CreateSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'create-session))
 (common-lisp:progn
  (common-lisp:defun delete-bucket
@@ -23580,7 +23907,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "DeleteBucket"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-bucket))
 (common-lisp:progn
  (common-lisp:defun delete-bucket-analytics-configuration
@@ -23609,7 +23936,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "DeleteBucketAnalyticsConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-bucket-analytics-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-bucket-cors
@@ -23636,7 +23963,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "DeleteBucketCors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-bucket-cors))
 (common-lisp:progn
  (common-lisp:defun delete-bucket-encryption
@@ -23663,7 +23990,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "DeleteBucketEncryption"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-bucket-encryption))
 (common-lisp:progn
  (common-lisp:defun delete-bucket-intelligent-tiering-configuration
@@ -23691,7 +24018,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "DeleteBucketIntelligentTieringConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-bucket-intelligent-tiering-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-bucket-inventory-configuration
@@ -23720,7 +24047,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "DeleteBucketInventoryConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-bucket-inventory-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-bucket-lifecycle
@@ -23747,7 +24074,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "DeleteBucketLifecycle"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-bucket-lifecycle))
 (common-lisp:progn
  (common-lisp:defun delete-bucket-metrics-configuration
@@ -23776,7 +24103,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "DeleteBucketMetricsConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-bucket-metrics-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-bucket-ownership-controls
@@ -23804,7 +24131,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "DeleteBucketOwnershipControls"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-bucket-ownership-controls))
 (common-lisp:progn
  (common-lisp:defun delete-bucket-policy
@@ -23831,7 +24158,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "DeleteBucketPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-bucket-policy))
 (common-lisp:progn
  (common-lisp:defun delete-bucket-replication
@@ -23859,7 +24186,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "DeleteBucketReplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-bucket-replication))
 (common-lisp:progn
  (common-lisp:defun delete-bucket-tagging
@@ -23886,7 +24213,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "DeleteBucketTagging"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-bucket-tagging))
 (common-lisp:progn
  (common-lisp:defun delete-bucket-website
@@ -23913,7 +24240,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "DeleteBucketWebsite"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-bucket-website))
 (common-lisp:progn
  (common-lisp:defun delete-object
@@ -23946,7 +24273,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'key)))
                                                         "DeleteObject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-object))
 (common-lisp:progn
  (common-lisp:defun delete-object-tagging
@@ -23978,7 +24305,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'key)))
                                                         "DeleteObjectTagging"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-object-tagging))
 (common-lisp:progn
  (common-lisp:defun delete-objects
@@ -24009,7 +24336,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "DeleteObjects"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-objects))
 (common-lisp:progn
  (common-lisp:defun delete-public-access-block
@@ -24037,7 +24364,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "DeletePublicAccessBlock"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'delete-public-access-block))
 (common-lisp:progn
  (common-lisp:defun get-bucket-accelerate-configuration
@@ -24067,7 +24394,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetBucketAccelerateConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-accelerate-configuration))
 (common-lisp:progn
  (common-lisp:defun get-bucket-acl
@@ -24094,7 +24421,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetBucketAcl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-acl))
 (common-lisp:progn
  (common-lisp:defun get-bucket-analytics-configuration
@@ -24123,7 +24450,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetBucketAnalyticsConfiguration"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-analytics-configuration))
 (common-lisp:progn
  (common-lisp:defun get-bucket-cors
@@ -24150,7 +24477,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetBucketCors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-cors))
 (common-lisp:progn
  (common-lisp:defun get-bucket-encryption
@@ -24177,7 +24504,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetBucketEncryption"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-encryption))
 (common-lisp:progn
  (common-lisp:defun get-bucket-intelligent-tiering-configuration
@@ -24205,7 +24532,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetBucketIntelligentTieringConfiguration"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-intelligent-tiering-configuration))
 (common-lisp:progn
  (common-lisp:defun get-bucket-inventory-configuration
@@ -24234,7 +24561,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetBucketInventoryConfiguration"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-inventory-configuration))
 (common-lisp:progn
  (common-lisp:defun get-bucket-lifecycle
@@ -24261,7 +24588,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetBucketLifecycle"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-lifecycle))
 (common-lisp:progn
  (common-lisp:defun get-bucket-lifecycle-configuration
@@ -24289,7 +24616,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetBucketLifecycleConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-lifecycle-configuration))
 (common-lisp:progn
  (common-lisp:defun get-bucket-location
@@ -24316,7 +24643,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetBucketLocation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-location))
 (common-lisp:progn
  (common-lisp:defun get-bucket-logging
@@ -24343,7 +24670,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetBucketLogging"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-logging))
 (common-lisp:progn
  (common-lisp:defun get-bucket-metrics-configuration
@@ -24372,7 +24699,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetBucketMetricsConfiguration"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-metrics-configuration))
 (common-lisp:progn
  (common-lisp:defun get-bucket-notification
@@ -24400,7 +24727,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetBucketNotification"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-notification))
 (common-lisp:progn
  (common-lisp:defun get-bucket-notification-configuration
@@ -24428,7 +24755,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetBucketNotificationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-notification-configuration))
 (common-lisp:progn
  (common-lisp:defun get-bucket-ownership-controls
@@ -24456,7 +24783,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetBucketOwnershipControls"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-ownership-controls))
 (common-lisp:progn
  (common-lisp:defun get-bucket-policy
@@ -24483,7 +24810,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetBucketPolicy"))
-      "string" common-lisp:nil *error-map*)))
+      "string" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-policy))
 (common-lisp:progn
  (common-lisp:defun get-bucket-policy-status
@@ -24510,7 +24837,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetBucketPolicyStatus"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-policy-status))
 (common-lisp:progn
  (common-lisp:defun get-bucket-replication
@@ -24537,7 +24864,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetBucketReplication"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-replication))
 (common-lisp:progn
  (common-lisp:defun get-bucket-request-payment
@@ -24565,7 +24892,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetBucketRequestPayment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-request-payment))
 (common-lisp:progn
  (common-lisp:defun get-bucket-tagging
@@ -24592,7 +24919,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetBucketTagging"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-tagging))
 (common-lisp:progn
  (common-lisp:defun get-bucket-versioning
@@ -24619,7 +24946,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetBucketVersioning"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-versioning))
 (common-lisp:progn
  (common-lisp:defun get-bucket-website
@@ -24646,7 +24973,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetBucketWebsite"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-bucket-website))
 (common-lisp:progn
  (common-lisp:defun get-object
@@ -24690,7 +25017,7 @@
                                                             'key)))
                                                         "GetObject")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-object))
 (common-lisp:progn
  (common-lisp:defun get-object-acl
@@ -24723,7 +25050,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'key)))
                                                         "GetObjectAcl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-object-acl))
 (common-lisp:progn
  (common-lisp:defun get-object-attributes
@@ -24759,7 +25086,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'key)))
                                                         "GetObjectAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-object-attributes))
 (common-lisp:progn
  (common-lisp:defun get-object-legal-hold
@@ -24792,7 +25119,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'key)))
                                                         "GetObjectLegalHold"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-object-legal-hold))
 (common-lisp:progn
  (common-lisp:defun get-object-lock-configuration
@@ -24820,7 +25147,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetObjectLockConfiguration"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-object-lock-configuration))
 (common-lisp:progn
  (common-lisp:defun get-object-retention
@@ -24853,7 +25180,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'key)))
                                                         "GetObjectRetention"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-object-retention))
 (common-lisp:progn
  (common-lisp:defun get-object-tagging
@@ -24886,7 +25213,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'key)))
                                                         "GetObjectTagging"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-object-tagging))
 (common-lisp:progn
  (common-lisp:defun get-object-torrent
@@ -24919,7 +25246,7 @@
                                                             'key)))
                                                         "GetObjectTorrent")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-object-torrent))
 (common-lisp:progn
  (common-lisp:defun get-public-access-block
@@ -24946,7 +25273,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "GetPublicAccessBlock"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'get-public-access-block))
 (common-lisp:progn
  (common-lisp:defun head-bucket
@@ -24973,7 +25300,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "HeadBucket"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'head-bucket))
 (common-lisp:progn
  (common-lisp:defun head-object
@@ -25011,7 +25338,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'key)))
                                                         "HeadObject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'head-object))
 (common-lisp:progn
  (common-lisp:defun list-bucket-analytics-configurations
@@ -25041,7 +25368,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "ListBucketAnalyticsConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-bucket-analytics-configurations))
 (common-lisp:progn
  (common-lisp:defun list-bucket-intelligent-tiering-configurations
@@ -25069,7 +25396,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "ListBucketIntelligentTieringConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-bucket-intelligent-tiering-configurations))
 (common-lisp:progn
  (common-lisp:defun list-bucket-inventory-configurations
@@ -25099,7 +25426,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "ListBucketInventoryConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-bucket-inventory-configurations))
 (common-lisp:progn
  (common-lisp:defun list-bucket-metrics-configurations
@@ -25129,7 +25456,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "ListBucketMetricsConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-bucket-metrics-configurations))
 (common-lisp:progn
  (common-lisp:defun list-buckets ()
@@ -25155,7 +25482,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/"
                                                         "ListDirectoryBuckets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-directory-buckets))
 (common-lisp:progn
  (common-lisp:defun list-multipart-uploads
@@ -25186,7 +25513,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "ListMultipartUploads"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-multipart-uploads))
 (common-lisp:progn
  (common-lisp:defun list-object-versions
@@ -25218,7 +25545,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "ListObjectVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-object-versions))
 (common-lisp:progn
  (common-lisp:defun list-objects
@@ -25249,7 +25576,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "ListObjects"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-objects))
 (common-lisp:progn
  (common-lisp:defun list-objects-v2
@@ -25282,7 +25609,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "ListObjectsV2"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-objects-v2))
 (common-lisp:progn
  (common-lisp:defun list-parts
@@ -25317,7 +25644,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'key)))
                                                         "ListParts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'list-parts))
 (common-lisp:progn
  (common-lisp:defun put-bucket-accelerate-configuration
@@ -25348,7 +25675,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "PutBucketAccelerateConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-accelerate-configuration))
 (common-lisp:progn
  (common-lisp:defun put-bucket-acl
@@ -25381,7 +25708,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "PutBucketAcl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-acl))
 (common-lisp:progn
  (common-lisp:defun put-bucket-analytics-configuration
@@ -25412,7 +25739,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "PutBucketAnalyticsConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-analytics-configuration))
 (common-lisp:progn
  (common-lisp:defun put-bucket-cors
@@ -25442,7 +25769,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "PutBucketCors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-cors))
 (common-lisp:progn
  (common-lisp:defun put-bucket-encryption
@@ -25473,7 +25800,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "PutBucketEncryption"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-encryption))
 (common-lisp:progn
  (common-lisp:defun put-bucket-intelligent-tiering-configuration
@@ -25503,7 +25830,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "PutBucketIntelligentTieringConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-intelligent-tiering-configuration))
 (common-lisp:progn
  (common-lisp:defun put-bucket-inventory-configuration
@@ -25534,7 +25861,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "PutBucketInventoryConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-inventory-configuration))
 (common-lisp:progn
  (common-lisp:defun put-bucket-lifecycle
@@ -25564,7 +25891,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "PutBucketLifecycle"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-lifecycle))
 (common-lisp:progn
  (common-lisp:defun put-bucket-lifecycle-configuration
@@ -25595,7 +25922,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "PutBucketLifecycleConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-lifecycle-configuration))
 (common-lisp:progn
  (common-lisp:defun put-bucket-logging
@@ -25625,7 +25952,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "PutBucketLogging"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-logging))
 (common-lisp:progn
  (common-lisp:defun put-bucket-metrics-configuration
@@ -25656,7 +25983,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "PutBucketMetricsConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-metrics-configuration))
 (common-lisp:progn
  (common-lisp:defun put-bucket-notification
@@ -25686,7 +26013,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "PutBucketNotification"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-notification))
 (common-lisp:progn
  (common-lisp:defun put-bucket-notification-configuration
@@ -25717,7 +26044,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "PutBucketNotificationConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-notification-configuration))
 (common-lisp:progn
  (common-lisp:defun put-bucket-ownership-controls
@@ -25748,7 +26075,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "PutBucketOwnershipControls"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-ownership-controls))
 (common-lisp:progn
  (common-lisp:defun put-bucket-policy
@@ -25779,7 +26106,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "PutBucketPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-policy))
 (common-lisp:progn
  (common-lisp:defun put-bucket-replication
@@ -25809,7 +26136,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "PutBucketReplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-replication))
 (common-lisp:progn
  (common-lisp:defun put-bucket-request-payment
@@ -25840,7 +26167,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "PutBucketRequestPayment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-request-payment))
 (common-lisp:progn
  (common-lisp:defun put-bucket-tagging
@@ -25870,7 +26197,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "PutBucketTagging"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-tagging))
 (common-lisp:progn
  (common-lisp:defun put-bucket-versioning
@@ -25900,7 +26227,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "PutBucketVersioning"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-versioning))
 (common-lisp:progn
  (common-lisp:defun put-bucket-website
@@ -25930,7 +26257,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "PutBucketWebsite"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-bucket-website))
 (common-lisp:progn
  (common-lisp:defun put-object
@@ -25981,7 +26308,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'key)))
                                                         "PutObject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-object))
 (common-lisp:progn
  (common-lisp:defun put-object-acl
@@ -26018,7 +26345,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'key)))
                                                         "PutObjectAcl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-object-acl))
 (common-lisp:progn
  (common-lisp:defun put-object-legal-hold
@@ -26052,7 +26379,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'key)))
                                                         "PutObjectLegalHold"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-object-legal-hold))
 (common-lisp:progn
  (common-lisp:defun put-object-lock-configuration
@@ -26084,7 +26411,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "PutObjectLockConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-object-lock-configuration))
 (common-lisp:progn
  (common-lisp:defun put-object-retention
@@ -26119,7 +26446,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'key)))
                                                         "PutObjectRetention"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-object-retention))
 (common-lisp:progn
  (common-lisp:defun put-object-tagging
@@ -26153,7 +26480,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'key)))
                                                         "PutObjectTagging"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-object-tagging))
 (common-lisp:progn
  (common-lisp:defun put-public-access-block
@@ -26183,7 +26510,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bucket))))
                                                         "PutPublicAccessBlock"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'put-public-access-block))
 (common-lisp:progn
  (common-lisp:defun restore-object
@@ -26216,7 +26543,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'key)))
                                                         "RestoreObject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'restore-object))
 (common-lisp:progn
  (common-lisp:defun select-object-content
@@ -26253,7 +26580,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'key)))
                                                         "SelectObjectContent"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'select-object-content))
 (common-lisp:progn
  (common-lisp:defun upload-part
@@ -26291,7 +26618,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'key)))
                                                         "UploadPart"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'upload-part))
 (common-lisp:progn
  (common-lisp:defun upload-part-copy
@@ -26336,7 +26663,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'key)))
                                                         "UploadPartCopy"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'upload-part-copy))
 (common-lisp:progn
  (common-lisp:defun write-get-object-response
@@ -26377,5 +26704,5 @@
                                                         "POST"
                                                         "/WriteGetObjectResponse"
                                                         "WriteGetObjectResponse"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/xml")))
  (common-lisp:export 'write-get-object-response))

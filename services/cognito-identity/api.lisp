@@ -3241,7 +3241,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cognito-identity-request aws-sdk/generator/operation::input "POST" "/"
         "CreateIdentityPool"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-identity-pool))
 (common-lisp:progn
  (common-lisp:defun delete-identities
@@ -3257,7 +3257,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cognito-identity-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteIdentities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-identities))
 (common-lisp:progn
  (common-lisp:defun delete-identity-pool
@@ -3273,7 +3273,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cognito-identity-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteIdentityPool"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-identity-pool))
 (common-lisp:progn
  (common-lisp:defun describe-identity
@@ -3289,7 +3289,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cognito-identity-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeIdentity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-identity))
 (common-lisp:progn
  (common-lisp:defun describe-identity-pool
@@ -3305,7 +3305,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cognito-identity-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeIdentityPool"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-identity-pool))
 (common-lisp:progn
  (common-lisp:defun get-credentials-for-identity
@@ -3323,7 +3323,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cognito-identity-request aws-sdk/generator/operation::input "POST" "/"
         "GetCredentialsForIdentity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-credentials-for-identity))
 (common-lisp:progn
  (common-lisp:defun get-id
@@ -3340,7 +3340,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cognito-identity-request aws-sdk/generator/operation::input "POST" "/"
         "GetId"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-id))
 (common-lisp:progn
  (common-lisp:defun get-identity-pool-roles
@@ -3356,7 +3356,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cognito-identity-request aws-sdk/generator/operation::input "POST" "/"
         "GetIdentityPoolRoles"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-identity-pool-roles))
 (common-lisp:progn
  (common-lisp:defun get-open-id-token
@@ -3372,7 +3372,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cognito-identity-request aws-sdk/generator/operation::input "POST" "/"
         "GetOpenIdToken"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-open-id-token))
 (common-lisp:progn
  (common-lisp:defun get-open-id-token-for-developer-identity
@@ -3392,7 +3392,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cognito-identity-request aws-sdk/generator/operation::input "POST" "/"
         "GetOpenIdTokenForDeveloperIdentity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-open-id-token-for-developer-identity))
 (common-lisp:progn
  (common-lisp:defun get-principal-tag-attribute-map
@@ -3410,7 +3410,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cognito-identity-request aws-sdk/generator/operation::input "POST" "/"
         "GetPrincipalTagAttributeMap"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-principal-tag-attribute-map))
 (common-lisp:progn
  (common-lisp:defun list-identities
@@ -3429,7 +3429,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cognito-identity-request aws-sdk/generator/operation::input "POST" "/"
         "ListIdentities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-identities))
 (common-lisp:progn
  (common-lisp:defun list-identity-pools
@@ -3445,7 +3445,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cognito-identity-request aws-sdk/generator/operation::input "POST" "/"
         "ListIdentityPools"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-identity-pools))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -3461,7 +3461,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cognito-identity-request aws-sdk/generator/operation::input "POST" "/"
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun lookup-developer-identity
@@ -3480,7 +3480,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cognito-identity-request aws-sdk/generator/operation::input "POST" "/"
         "LookupDeveloperIdentity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'lookup-developer-identity))
 (common-lisp:progn
  (common-lisp:defun merge-developer-identities
@@ -3500,7 +3500,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cognito-identity-request aws-sdk/generator/operation::input "POST" "/"
         "MergeDeveloperIdentities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'merge-developer-identities))
 (common-lisp:progn
  (common-lisp:defun set-identity-pool-roles
@@ -3517,7 +3517,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cognito-identity-request aws-sdk/generator/operation::input "POST" "/"
         "SetIdentityPoolRoles"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'set-identity-pool-roles))
 (common-lisp:progn
  (common-lisp:defun set-principal-tag-attribute-map
@@ -3537,7 +3537,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cognito-identity-request aws-sdk/generator/operation::input "POST" "/"
         "SetPrincipalTagAttributeMap"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'set-principal-tag-attribute-map))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3553,7 +3553,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cognito-identity-request aws-sdk/generator/operation::input "POST" "/"
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun unlink-developer-identity
@@ -3572,7 +3572,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cognito-identity-request aws-sdk/generator/operation::input "POST" "/"
         "UnlinkDeveloperIdentity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'unlink-developer-identity))
 (common-lisp:progn
  (common-lisp:defun unlink-identity
@@ -3589,7 +3589,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cognito-identity-request aws-sdk/generator/operation::input "POST" "/"
         "UnlinkIdentity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'unlink-identity))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3605,7 +3605,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cognito-identity-request aws-sdk/generator/operation::input "POST" "/"
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-identity-pool
@@ -3630,5 +3630,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'cognito-identity-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateIdentityPool"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-identity-pool))

@@ -4060,7 +4060,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "CreateAlertManagerDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-alert-manager-definition))
 (common-lisp:progn
  (common-lisp:defun create-logging-configuration
@@ -4089,7 +4089,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "CreateLoggingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-logging-configuration))
 (common-lisp:progn
  (common-lisp:defun create-rule-groups-namespace
@@ -4118,7 +4118,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "CreateRuleGroupsNamespace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-rule-groups-namespace))
 (common-lisp:progn
  (common-lisp:defun create-scraper
@@ -4138,7 +4138,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/scrapers"
                                                         "CreateScraper"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-scraper))
 (common-lisp:progn
  (common-lisp:defun create-workspace
@@ -4156,7 +4156,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/workspaces"
                                                         "CreateWorkspace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-workspace))
 (common-lisp:progn
  (common-lisp:defun delete-alert-manager-definition
@@ -4184,7 +4184,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "DeleteAlertManagerDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-alert-manager-definition))
 (common-lisp:progn
  (common-lisp:defun delete-logging-configuration
@@ -4212,7 +4212,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "DeleteLoggingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-logging-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-rule-groups-namespace
@@ -4244,7 +4244,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteRuleGroupsNamespace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-rule-groups-namespace))
 (common-lisp:progn
  (common-lisp:defun delete-scraper
@@ -4271,7 +4271,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'scraper-id))))
                                                         "DeleteScraper"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-scraper))
 (common-lisp:progn
  (common-lisp:defun delete-workspace
@@ -4298,7 +4298,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "DeleteWorkspace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-workspace))
 (common-lisp:progn
  (common-lisp:defun describe-alert-manager-definition
@@ -4326,7 +4326,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "DescribeAlertManagerDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-alert-manager-definition))
 (common-lisp:progn
  (common-lisp:defun describe-logging-configuration
@@ -4354,7 +4354,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "DescribeLoggingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-logging-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-rule-groups-namespace
@@ -4386,7 +4386,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DescribeRuleGroupsNamespace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-rule-groups-namespace))
 (common-lisp:progn
  (common-lisp:defun describe-scraper
@@ -4413,7 +4413,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'scraper-id))))
                                                         "DescribeScraper"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-scraper))
 (common-lisp:progn
  (common-lisp:defun describe-workspace
@@ -4440,7 +4440,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "DescribeWorkspace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-workspace))
 (common-lisp:progn
  (common-lisp:defun get-default-scraper-configuration ()
@@ -4478,7 +4478,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "ListRuleGroupsNamespaces"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-rule-groups-namespaces))
 (common-lisp:progn
  (common-lisp:defun list-scrapers
@@ -4495,7 +4495,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/scrapers"
                                                         "ListScrapers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-scrapers))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -4522,7 +4522,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-workspaces
@@ -4539,7 +4539,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/workspaces"
                                                         "ListWorkspaces"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-workspaces))
 (common-lisp:progn
  (common-lisp:defun put-alert-manager-definition
@@ -4567,7 +4567,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "PutAlertManagerDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-alert-manager-definition))
 (common-lisp:progn
  (common-lisp:defun put-rule-groups-namespace
@@ -4600,7 +4600,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "PutRuleGroupsNamespace"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-rule-groups-namespace))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4627,7 +4627,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4654,7 +4654,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-logging-configuration
@@ -4683,7 +4683,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "UpdateLoggingConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-logging-configuration))
 (common-lisp:progn
  (common-lisp:defun update-workspace-alias
@@ -4711,5 +4711,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'workspace-id))))
                                                         "UpdateWorkspaceAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-workspace-alias))

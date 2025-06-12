@@ -2876,7 +2876,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchExecuteStatement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-execute-statement))
 (common-lisp:progn
  (common-lisp:defun cancel-statement
@@ -2893,7 +2893,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CancelStatement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-statement))
 (common-lisp:progn
  (common-lisp:defun describe-statement
@@ -2910,7 +2910,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeStatement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-statement))
 (common-lisp:progn
  (common-lisp:defun describe-table
@@ -2931,7 +2931,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTable"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-table))
 (common-lisp:progn
  (common-lisp:defun execute-statement
@@ -2952,7 +2952,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ExecuteStatement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'execute-statement))
 (common-lisp:progn
  (common-lisp:defun get-statement-result
@@ -2969,7 +2969,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetStatementResult"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-statement-result))
 (common-lisp:progn
  (common-lisp:defun list-databases
@@ -2989,7 +2989,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDatabases"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-databases))
 (common-lisp:progn
  (common-lisp:defun list-schemas
@@ -3010,7 +3010,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListSchemas"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-schemas))
 (common-lisp:progn
  (common-lisp:defun list-statements
@@ -3030,7 +3030,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListStatements"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-statements))
 (common-lisp:progn
  (common-lisp:defun list-tables
@@ -3052,5 +3052,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTables"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tables))

@@ -1439,7 +1439,7 @@
                                                         "POST"
                                                         "/control/create-slack-channel-configuration"
                                                         "CreateSlackChannelConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-slack-channel-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-account-alias ()
@@ -1467,7 +1467,7 @@
                                                         "POST"
                                                         "/control/delete-slack-channel-configuration"
                                                         "DeleteSlackChannelConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-slack-channel-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-slack-workspace-configuration
@@ -1486,7 +1486,7 @@
                                                         "POST"
                                                         "/control/delete-slack-workspace-configuration"
                                                         "DeleteSlackWorkspaceConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-slack-workspace-configuration))
 (common-lisp:progn
  (common-lisp:defun get-account-alias ()
@@ -1514,7 +1514,7 @@
                                                         "POST"
                                                         "/control/list-slack-channel-configurations"
                                                         "ListSlackChannelConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-slack-channel-configurations))
 (common-lisp:progn
  (common-lisp:defun list-slack-workspace-configurations
@@ -1533,7 +1533,7 @@
                                                         "POST"
                                                         "/control/list-slack-workspace-configurations"
                                                         "ListSlackWorkspaceConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-slack-workspace-configurations))
 (common-lisp:progn
  (common-lisp:defun put-account-alias
@@ -1551,7 +1551,7 @@
                                                         "POST"
                                                         "/control/put-account-alias"
                                                         "PutAccountAlias"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-account-alias))
 (common-lisp:progn
  (common-lisp:defun register-slack-workspace-for-organization
@@ -1570,7 +1570,7 @@
                                                         "POST"
                                                         "/control/register-slack-workspace-for-organization"
                                                         "RegisterSlackWorkspaceForOrganization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-slack-workspace-for-organization))
 (common-lisp:progn
  (common-lisp:defun update-slack-channel-configuration
@@ -1595,5 +1595,5 @@
                                                         "POST"
                                                         "/control/update-slack-channel-configuration"
                                                         "UpdateSlackChannelConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-slack-channel-configuration))

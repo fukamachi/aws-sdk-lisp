@@ -1803,7 +1803,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/rules"
                                                         "CreateRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-rule))
 (common-lisp:progn
  (common-lisp:defun delete-rule
@@ -1830,7 +1830,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'identifier))))
                                                         "DeleteRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-rule))
 (common-lisp:progn
  (common-lisp:defun get-rule
@@ -1857,7 +1857,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'identifier))))
                                                         "GetRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-rule))
 (common-lisp:progn
  (common-lisp:defun list-rules
@@ -1877,7 +1877,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/list-rules"
                                                         "ListRules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-rules))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -1904,7 +1904,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun lock-rule
@@ -1931,7 +1931,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'identifier))))
                                                         "LockRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'lock-rule))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -1958,7 +1958,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun unlock-rule
@@ -1985,7 +1985,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'identifier))))
                                                         "UnlockRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'unlock-rule))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -2012,7 +2012,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-rule
@@ -2042,5 +2042,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'identifier))))
                                                         "UpdateRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-rule))

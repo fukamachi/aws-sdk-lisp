@@ -821,7 +821,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'route53-recovery-cluster-request aws-sdk/generator/operation::input
         "POST" "/" "GetRoutingControlState"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-routing-control-state))
 (common-lisp:progn
  (common-lisp:defun list-routing-controls
@@ -838,7 +838,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'route53-recovery-cluster-request aws-sdk/generator/operation::input
         "POST" "/" "ListRoutingControls"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-routing-controls))
 (common-lisp:progn
  (common-lisp:defun update-routing-control-state
@@ -858,7 +858,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'route53-recovery-cluster-request aws-sdk/generator/operation::input
         "POST" "/" "UpdateRoutingControlState"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-routing-control-state))
 (common-lisp:progn
  (common-lisp:defun update-routing-control-states
@@ -878,5 +878,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'route53-recovery-cluster-request aws-sdk/generator/operation::input
         "POST" "/" "UpdateRoutingControlStates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-routing-control-states))

@@ -119,5 +119,5 @@
         'kinesis-video-webrtc-storage-request
         aws-sdk/generator/operation::input "POST" "/joinStorageSession"
         "JoinStorageSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'join-storage-session))

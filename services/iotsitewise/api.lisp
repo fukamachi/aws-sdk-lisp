@@ -19103,7 +19103,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'asset-id))))
                                                         "AssociateAssets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-assets))
 (common-lisp:progn
  (common-lisp:defun associate-time-series-to-asset-property
@@ -19123,7 +19123,7 @@
                                                         "POST"
                                                         "/timeseries/associate/"
                                                         "AssociateTimeSeriesToAssetProperty"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-time-series-to-asset-property))
 (common-lisp:progn
  (common-lisp:defun batch-associate-project-assets
@@ -19152,7 +19152,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project-id))))
                                                         "BatchAssociateProjectAssets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-associate-project-assets))
 (common-lisp:progn
  (common-lisp:defun batch-disassociate-project-assets
@@ -19181,7 +19181,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project-id))))
                                                         "BatchDisassociateProjectAssets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-disassociate-project-assets))
 (common-lisp:progn
  (common-lisp:defun batch-get-asset-property-aggregates
@@ -19200,7 +19200,7 @@
                                                         "POST"
                                                         "/properties/batch/aggregates"
                                                         "BatchGetAssetPropertyAggregates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-asset-property-aggregates))
 (common-lisp:progn
  (common-lisp:defun batch-get-asset-property-value
@@ -19219,7 +19219,7 @@
                                                         "POST"
                                                         "/properties/batch/latest"
                                                         "BatchGetAssetPropertyValue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-asset-property-value))
 (common-lisp:progn
  (common-lisp:defun batch-get-asset-property-value-history
@@ -19238,7 +19238,7 @@
                                                         "POST"
                                                         "/properties/batch/history"
                                                         "BatchGetAssetPropertyValueHistory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-asset-property-value-history))
 (common-lisp:progn
  (common-lisp:defun batch-put-asset-property-value
@@ -19256,7 +19256,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/properties"
                                                         "BatchPutAssetPropertyValue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-put-asset-property-value))
 (common-lisp:progn
  (common-lisp:defun create-access-policy
@@ -19278,7 +19278,7 @@
                                                         "POST"
                                                         "/access-policies"
                                                         "CreateAccessPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-access-policy))
 (common-lisp:progn
  (common-lisp:defun create-asset
@@ -19298,7 +19298,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/assets"
                                                         "CreateAsset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-asset))
 (common-lisp:progn
  (common-lisp:defun create-asset-model
@@ -19322,7 +19322,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/asset-models"
                                                         "CreateAssetModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-asset-model))
 (common-lisp:progn
  (common-lisp:defun create-asset-model-composite-model
@@ -19363,7 +19363,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'asset-model-id))))
                                                         "CreateAssetModelCompositeModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-asset-model-composite-model))
 (common-lisp:progn
  (common-lisp:defun create-bulk-import-job
@@ -19384,7 +19384,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/jobs"
                                                         "CreateBulkImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-bulk-import-job))
 (common-lisp:progn
  (common-lisp:defun create-dashboard
@@ -19405,7 +19405,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/dashboards"
                                                         "CreateDashboard"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-dashboard))
 (common-lisp:progn
  (common-lisp:defun create-gateway
@@ -19424,7 +19424,7 @@
                                                         "POST"
                                                         "/20200301/gateways"
                                                         "CreateGateway"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-gateway))
 (common-lisp:progn
  (common-lisp:defun create-portal
@@ -19447,7 +19447,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/portals"
                                                         "CreatePortal"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-portal))
 (common-lisp:progn
  (common-lisp:defun create-project
@@ -19467,7 +19467,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/projects"
                                                         "CreateProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-project))
 (common-lisp:progn
  (common-lisp:defun delete-access-policy
@@ -19494,7 +19494,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'access-policy-id))))
                                                         "DeleteAccessPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-access-policy))
 (common-lisp:progn
  (common-lisp:defun delete-asset
@@ -19521,7 +19521,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'asset-id))))
                                                         "DeleteAsset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-asset))
 (common-lisp:progn
  (common-lisp:defun delete-asset-model
@@ -19548,7 +19548,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'asset-model-id))))
                                                         "DeleteAssetModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-asset-model))
 (common-lisp:progn
  (common-lisp:defun delete-asset-model-composite-model
@@ -19583,7 +19583,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'asset-model-composite-model-id))))
                                                         "DeleteAssetModelCompositeModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-asset-model-composite-model))
 (common-lisp:progn
  (common-lisp:defun delete-dashboard
@@ -19610,7 +19610,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dashboard-id))))
                                                         "DeleteDashboard"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-dashboard))
 (common-lisp:progn
  (common-lisp:defun delete-gateway
@@ -19637,7 +19637,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'gateway-id))))
                                                         "DeleteGateway"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-gateway))
 (common-lisp:progn
  (common-lisp:defun delete-portal
@@ -19664,7 +19664,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'portal-id))))
                                                         "DeletePortal"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-portal))
 (common-lisp:progn
  (common-lisp:defun delete-project
@@ -19691,7 +19691,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project-id))))
                                                         "DeleteProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-project))
 (common-lisp:progn
  (common-lisp:defun delete-time-series
@@ -19710,7 +19710,7 @@
                                                         "POST"
                                                         "/timeseries/delete/"
                                                         "DeleteTimeSeries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-time-series))
 (common-lisp:progn
  (common-lisp:defun describe-access-policy
@@ -19737,7 +19737,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'access-policy-id))))
                                                         "DescribeAccessPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-access-policy))
 (common-lisp:progn
  (common-lisp:defun describe-action
@@ -19764,7 +19764,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'action-id))))
                                                         "DescribeAction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-action))
 (common-lisp:progn
  (common-lisp:defun describe-asset
@@ -19791,7 +19791,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'asset-id))))
                                                         "DescribeAsset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-asset))
 (common-lisp:progn
  (common-lisp:defun describe-asset-composite-model
@@ -19824,7 +19824,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'asset-composite-model-id))))
                                                         "DescribeAssetCompositeModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-asset-composite-model))
 (common-lisp:progn
  (common-lisp:defun describe-asset-model
@@ -19852,7 +19852,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'asset-model-id))))
                                                         "DescribeAssetModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-asset-model))
 (common-lisp:progn
  (common-lisp:defun describe-asset-model-composite-model
@@ -19886,7 +19886,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'asset-model-composite-model-id))))
                                                         "DescribeAssetModelCompositeModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-asset-model-composite-model))
 (common-lisp:progn
  (common-lisp:defun describe-asset-property
@@ -19917,7 +19917,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'property-id))))
                                                         "DescribeAssetProperty"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-asset-property))
 (common-lisp:progn
  (common-lisp:defun describe-bulk-import-job
@@ -19944,7 +19944,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "DescribeBulkImportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-bulk-import-job))
 (common-lisp:progn
  (common-lisp:defun describe-dashboard
@@ -19971,7 +19971,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dashboard-id))))
                                                         "DescribeDashboard"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-dashboard))
 (common-lisp:progn
  (common-lisp:defun describe-default-encryption-configuration ()
@@ -20007,7 +20007,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'gateway-id))))
                                                         "DescribeGateway"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-gateway))
 (common-lisp:progn
  (common-lisp:defun describe-gateway-capability-configuration
@@ -20040,7 +20040,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'capability-namespace))))
                                                         "DescribeGatewayCapabilityConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-gateway-capability-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-logging-options ()
@@ -20076,7 +20076,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'portal-id))))
                                                         "DescribePortal"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-portal))
 (common-lisp:progn
  (common-lisp:defun describe-project
@@ -20103,7 +20103,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project-id))))
                                                         "DescribeProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-project))
 (common-lisp:progn
  (common-lisp:defun describe-storage-configuration ()
@@ -20130,7 +20130,7 @@
                                                         "GET"
                                                         "/timeseries/describe/"
                                                         "DescribeTimeSeries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-time-series))
 (common-lisp:progn
  (common-lisp:defun disassociate-assets
@@ -20159,7 +20159,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'asset-id))))
                                                         "DisassociateAssets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-assets))
 (common-lisp:progn
  (common-lisp:defun disassociate-time-series-from-asset-property
@@ -20179,7 +20179,7 @@
                                                         "POST"
                                                         "/timeseries/disassociate/"
                                                         "DisassociateTimeSeriesFromAssetProperty"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-time-series-from-asset-property))
 (common-lisp:progn
  (common-lisp:defun execute-action
@@ -20199,7 +20199,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/actions"
                                                         "ExecuteAction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'execute-action))
 (common-lisp:progn
  (common-lisp:defun execute-query
@@ -20218,7 +20218,7 @@
                                                         "POST"
                                                         "/queries/execution"
                                                         "ExecuteQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'execute-query))
 (common-lisp:progn
  (common-lisp:defun get-asset-property-aggregates
@@ -20242,7 +20242,7 @@
                                                         "GET"
                                                         "/properties/aggregates"
                                                         "GetAssetPropertyAggregates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-asset-property-aggregates))
 (common-lisp:progn
  (common-lisp:defun get-asset-property-value
@@ -20261,7 +20261,7 @@
                                                         "GET"
                                                         "/properties/latest"
                                                         "GetAssetPropertyValue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-asset-property-value))
 (common-lisp:progn
  (common-lisp:defun get-asset-property-value-history
@@ -20284,7 +20284,7 @@
                                                         "GET"
                                                         "/properties/history"
                                                         "GetAssetPropertyValueHistory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-asset-property-value-history))
 (common-lisp:progn
  (common-lisp:defun get-interpolated-asset-property-values
@@ -20311,7 +20311,7 @@
                                                         "GET"
                                                         "/properties/interpolated"
                                                         "GetInterpolatedAssetPropertyValues"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-interpolated-asset-property-values))
 (common-lisp:progn
  (common-lisp:defun list-access-policies
@@ -20332,7 +20332,7 @@
                                                         "GET"
                                                         "/access-policies"
                                                         "ListAccessPolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-access-policies))
 (common-lisp:progn
  (common-lisp:defun list-actions
@@ -20352,7 +20352,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/actions"
                                                         "ListActions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-actions))
 (common-lisp:progn
  (common-lisp:defun list-asset-model-composite-models
@@ -20381,7 +20381,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'asset-model-id))))
                                                         "ListAssetModelCompositeModels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-asset-model-composite-models))
 (common-lisp:progn
  (common-lisp:defun list-asset-model-properties
@@ -20411,7 +20411,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'asset-model-id))))
                                                         "ListAssetModelProperties"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-asset-model-properties))
 (common-lisp:progn
  (common-lisp:defun list-asset-models
@@ -20429,7 +20429,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/asset-models"
                                                         "ListAssetModels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-asset-models))
 (common-lisp:progn
  (common-lisp:defun list-asset-properties
@@ -20457,7 +20457,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'asset-id))))
                                                         "ListAssetProperties"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-asset-properties))
 (common-lisp:progn
  (common-lisp:defun list-asset-relationships
@@ -20486,7 +20486,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'asset-id))))
                                                         "ListAssetRelationships"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-asset-relationships))
 (common-lisp:progn
  (common-lisp:defun list-assets
@@ -20505,7 +20505,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/assets"
                                                         "ListAssets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-assets))
 (common-lisp:progn
  (common-lisp:defun list-associated-assets
@@ -20535,7 +20535,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'asset-id))))
                                                         "ListAssociatedAssets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-associated-assets))
 (common-lisp:progn
  (common-lisp:defun list-bulk-import-jobs
@@ -20552,7 +20552,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/jobs"
                                                         "ListBulkImportJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-bulk-import-jobs))
 (common-lisp:progn
  (common-lisp:defun list-composition-relationships
@@ -20581,7 +20581,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'asset-model-id))))
                                                         "ListCompositionRelationships"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-composition-relationships))
 (common-lisp:progn
  (common-lisp:defun list-dashboards
@@ -20599,7 +20599,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/dashboards"
                                                         "ListDashboards"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-dashboards))
 (common-lisp:progn
  (common-lisp:defun list-gateways
@@ -20617,7 +20617,7 @@
                                                         "GET"
                                                         "/20200301/gateways"
                                                         "ListGateways"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-gateways))
 (common-lisp:progn
  (common-lisp:defun list-portals
@@ -20634,7 +20634,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/portals"
                                                         "ListPortals"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-portals))
 (common-lisp:progn
  (common-lisp:defun list-project-assets
@@ -20662,7 +20662,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project-id))))
                                                         "ListProjectAssets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-project-assets))
 (common-lisp:progn
  (common-lisp:defun list-projects
@@ -20680,7 +20680,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/projects"
                                                         "ListProjects"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-projects))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -20697,7 +20697,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/tags"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-time-series
@@ -20717,7 +20717,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/timeseries/"
                                                         "ListTimeSeries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-time-series))
 (common-lisp:progn
  (common-lisp:defun put-default-encryption-configuration
@@ -20736,7 +20736,7 @@
                                                         "POST"
                                                         "/configuration/account/encryption"
                                                         "PutDefaultEncryptionConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-default-encryption-configuration))
 (common-lisp:progn
  (common-lisp:defun put-logging-options
@@ -20753,7 +20753,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/logging"
                                                         "PutLoggingOptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-logging-options))
 (common-lisp:progn
  (common-lisp:defun put-storage-configuration
@@ -20777,7 +20777,7 @@
                                                         "POST"
                                                         "/configuration/account/storage"
                                                         "PutStorageConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-storage-configuration))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -20794,7 +20794,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/tags"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -20811,7 +20811,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "DELETE" "/tags"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-access-policy
@@ -20842,7 +20842,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'access-policy-id))))
                                                         "UpdateAccessPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-access-policy))
 (common-lisp:progn
  (common-lisp:defun update-asset
@@ -20872,7 +20872,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'asset-id))))
                                                         "UpdateAsset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-asset))
 (common-lisp:progn
  (common-lisp:defun update-asset-model
@@ -20905,7 +20905,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'asset-model-id))))
                                                         "UpdateAssetModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-asset-model))
 (common-lisp:progn
  (common-lisp:defun update-asset-model-composite-model
@@ -20946,7 +20946,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'asset-model-composite-model-id))))
                                                         "UpdateAssetModelCompositeModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-asset-model-composite-model))
 (common-lisp:progn
  (common-lisp:defun update-asset-property
@@ -20980,7 +20980,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'property-id))))
                                                         "UpdateAssetProperty"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-asset-property))
 (common-lisp:progn
  (common-lisp:defun update-dashboard
@@ -21010,7 +21010,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dashboard-id))))
                                                         "UpdateDashboard"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-dashboard))
 (common-lisp:progn
  (common-lisp:defun update-gateway
@@ -21037,7 +21037,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'gateway-id))))
                                                         "UpdateGateway"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-gateway))
 (common-lisp:progn
  (common-lisp:defun update-gateway-capability-configuration
@@ -21068,7 +21068,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'gateway-id))))
                                                         "UpdateGatewayCapabilityConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-gateway-capability-configuration))
 (common-lisp:progn
  (common-lisp:defun update-portal
@@ -21100,7 +21100,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'portal-id))))
                                                         "UpdatePortal"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-portal))
 (common-lisp:progn
  (common-lisp:defun update-project
@@ -21130,5 +21130,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'project-id))))
                                                         "UpdateProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-project))

@@ -1463,7 +1463,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           execute-gremlin-explain-query-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'output)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'output))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          execute-gremlin-explain-query-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass execute-gremlin-profile-query-input common-lisp:nil
                        ((chop :initarg :chop :initform common-lisp:nil :type
@@ -1592,7 +1598,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           execute-gremlin-profile-query-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'output)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'output))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          execute-gremlin-profile-query-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass execute-gremlin-query-input common-lisp:nil
                        ((gremlin-query :initarg :gremlin-query :initform
@@ -1801,7 +1813,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           execute-open-cypher-explain-query-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'results)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'results))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          execute-open-cypher-explain-query-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass execute-open-cypher-query-input common-lisp:nil
                        ((open-cypher-query :initarg :open-cypher-query
@@ -7045,7 +7063,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'query-id))))
                                                         "CancelGremlinQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-gremlin-query))
 (common-lisp:progn
  (common-lisp:defun cancel-loader-job
@@ -7072,7 +7090,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'load-id))))
                                                         "CancelLoaderJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-loader-job))
 (common-lisp:progn
  (common-lisp:defun cancel-mldata-processing-job
@@ -7100,7 +7118,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "CancelMLDataProcessingJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-mldata-processing-job))
 (common-lisp:progn
  (common-lisp:defun cancel-mlmodel-training-job
@@ -7128,7 +7146,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "CancelMLModelTrainingJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-mlmodel-training-job))
 (common-lisp:progn
  (common-lisp:defun cancel-mlmodel-transform-job
@@ -7156,7 +7174,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "CancelMLModelTransformJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-mlmodel-transform-job))
 (common-lisp:progn
  (common-lisp:defun cancel-open-cypher-query
@@ -7183,7 +7201,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'query-id))))
                                                         "CancelOpenCypherQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-open-cypher-query))
 (common-lisp:progn
  (common-lisp:defun create-mlendpoint
@@ -7206,7 +7224,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/ml/endpoints"
                                                         "CreateMLEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-mlendpoint))
 (common-lisp:progn
  (common-lisp:defun delete-mlendpoint
@@ -7233,7 +7251,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "DeleteMLEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-mlendpoint))
 (common-lisp:progn
  (common-lisp:defun delete-propertygraph-statistics ()
@@ -7268,7 +7286,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/system"
                                                         "ExecuteFastReset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'execute-fast-reset))
 (common-lisp:progn
  (common-lisp:defun execute-gremlin-explain-query
@@ -7288,7 +7306,7 @@
                                                         "/gremlin/explain"
                                                         "ExecuteGremlinExplainQuery")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'execute-gremlin-explain-query))
 (common-lisp:progn
  (common-lisp:defun execute-gremlin-profile-query
@@ -7310,7 +7328,7 @@
                                                         "/gremlin/profile"
                                                         "ExecuteGremlinProfileQuery")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'execute-gremlin-profile-query))
 (common-lisp:progn
  (common-lisp:defun execute-gremlin-query
@@ -7327,7 +7345,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/gremlin"
                                                         "ExecuteGremlinQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'execute-gremlin-query))
 (common-lisp:progn
  (common-lisp:defun execute-open-cypher-explain-query
@@ -7349,7 +7367,7 @@
                                                         "/opencypher/explain"
                                                         "ExecuteOpenCypherExplainQuery")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'execute-open-cypher-explain-query))
 (common-lisp:progn
  (common-lisp:defun get-engine-status ()
@@ -7384,7 +7402,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'query-id))))
                                                         "GetGremlinQueryStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-gremlin-query-status))
 (common-lisp:progn
  (common-lisp:defun get-mldata-processing-job
@@ -7411,7 +7429,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetMLDataProcessingJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-mldata-processing-job))
 (common-lisp:progn
  (common-lisp:defun get-mlendpoint
@@ -7438,7 +7456,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetMLEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-mlendpoint))
 (common-lisp:progn
  (common-lisp:defun get-mlmodel-training-job
@@ -7465,7 +7483,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetMLModelTrainingJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-mlmodel-training-job))
 (common-lisp:progn
  (common-lisp:defun get-mlmodel-transform-job
@@ -7492,7 +7510,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetMLModelTransformJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-mlmodel-transform-job))
 (common-lisp:progn
  (common-lisp:defun get-open-cypher-query-status
@@ -7520,7 +7538,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'query-id))))
                                                         "GetOpenCypherQueryStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-open-cypher-query-status))
 (common-lisp:progn
  (common-lisp:defun get-propertygraph-statistics ()
@@ -7547,7 +7565,7 @@
                                                         "GET"
                                                         "/propertygraph/statistics/summary"
                                                         "GetPropertygraphSummary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-propertygraph-summary))
 (common-lisp:progn
  (common-lisp:defun get-rdfgraph-summary
@@ -7565,7 +7583,7 @@
                                                         "GET"
                                                         "/rdf/statistics/summary"
                                                         "GetRDFGraphSummary"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-rdfgraph-summary))
 (common-lisp:progn
  (common-lisp:defun get-sparql-statistics ()
@@ -7593,7 +7611,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/sparql/stream"
                                                         "GetSparqlStream"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-sparql-stream))
 (common-lisp:progn
  (common-lisp:defun list-gremlin-queries
@@ -7610,7 +7628,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/gremlin/status"
                                                         "ListGremlinQueries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-gremlin-queries))
 (common-lisp:progn
  (common-lisp:defun list-loader-jobs
@@ -7627,7 +7645,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/loader"
                                                         "ListLoaderJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-loader-jobs))
 (common-lisp:progn
  (common-lisp:defun list-mldata-processing-jobs
@@ -7646,7 +7664,7 @@
                                                         "GET"
                                                         "/ml/dataprocessing"
                                                         "ListMLDataProcessingJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-mldata-processing-jobs))
 (common-lisp:progn
  (common-lisp:defun list-mlendpoints
@@ -7663,7 +7681,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/ml/endpoints"
                                                         "ListMLEndpoints"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-mlendpoints))
 (common-lisp:progn
  (common-lisp:defun list-mlmodel-training-jobs
@@ -7681,7 +7699,7 @@
                                                         "GET"
                                                         "/ml/modeltraining"
                                                         "ListMLModelTrainingJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-mlmodel-training-jobs))
 (common-lisp:progn
  (common-lisp:defun list-mlmodel-transform-jobs
@@ -7700,7 +7718,7 @@
                                                         "GET"
                                                         "/ml/modeltransform"
                                                         "ListMLModelTransformJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-mlmodel-transform-jobs))
 (common-lisp:progn
  (common-lisp:defun list-open-cypher-queries
@@ -7718,7 +7736,7 @@
                                                         "GET"
                                                         "/opencypher/status"
                                                         "ListOpenCypherQueries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-open-cypher-queries))
 (common-lisp:progn
  (common-lisp:defun manage-propertygraph-statistics
@@ -7737,7 +7755,7 @@
                                                         "POST"
                                                         "/propertygraph/statistics"
                                                         "ManagePropertygraphStatistics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'manage-propertygraph-statistics))
 (common-lisp:progn
  (common-lisp:defun manage-sparql-statistics
@@ -7755,7 +7773,7 @@
                                                         "POST"
                                                         "/sparql/statistics"
                                                         "ManageSparqlStatistics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'manage-sparql-statistics))
 (common-lisp:progn
  (common-lisp:defun start-loader-job
@@ -7779,7 +7797,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/loader"
                                                         "StartLoaderJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-loader-job))
 (common-lisp:progn
  (common-lisp:defun start-mldata-processing-job
@@ -7811,7 +7829,7 @@
                                                         "POST"
                                                         "/ml/dataprocessing"
                                                         "StartMLDataProcessingJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-mldata-processing-job))
 (common-lisp:progn
  (common-lisp:defun start-mlmodel-training-job
@@ -7846,7 +7864,7 @@
                                                         "POST"
                                                         "/ml/modeltraining"
                                                         "StartMLModelTrainingJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-mlmodel-training-job))
 (common-lisp:progn
  (common-lisp:defun start-mlmodel-transform-job
@@ -7878,5 +7896,5 @@
                                                         "POST"
                                                         "/ml/modeltransform"
                                                         "StartMLModelTransformJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-mlmodel-transform-job))

@@ -42477,7 +42477,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AddRoleToDBCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'add-role-to-dbcluster))
 (common-lisp:progn
  (common-lisp:defun add-role-to-dbinstance
@@ -42496,7 +42496,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AddRoleToDBInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'add-role-to-dbinstance))
 (common-lisp:progn
  (common-lisp:defun add-source-identifier-to-subscription
@@ -42515,7 +42515,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AddSourceIdentifierToSubscription"))
-      common-lisp:nil "AddSourceIdentifierToSubscriptionResult" *error-map*)))
+      common-lisp:nil "AddSourceIdentifierToSubscriptionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'add-source-identifier-to-subscription))
 (common-lisp:progn
  (common-lisp:defun add-tags-to-resource
@@ -42532,7 +42533,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AddTagsToResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'add-tags-to-resource))
 (common-lisp:progn
  (common-lisp:defun apply-pending-maintenance-action
@@ -42552,7 +42553,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ApplyPendingMaintenanceAction"))
-      common-lisp:nil "ApplyPendingMaintenanceActionResult" *error-map*)))
+      common-lisp:nil "ApplyPendingMaintenanceActionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'apply-pending-maintenance-action))
 (common-lisp:progn
  (common-lisp:defun authorize-dbsecurity-group-ingress
@@ -42574,7 +42576,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AuthorizeDBSecurityGroupIngress"))
-      common-lisp:nil "AuthorizeDBSecurityGroupIngressResult" *error-map*)))
+      common-lisp:nil "AuthorizeDBSecurityGroupIngressResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'authorize-dbsecurity-group-ingress))
 (common-lisp:progn
  (common-lisp:defun backtrack-dbcluster
@@ -42594,7 +42597,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BacktrackDBCluster"))
-      common-lisp:nil "BacktrackDBClusterResult" *error-map*)))
+      common-lisp:nil "BacktrackDBClusterResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'backtrack-dbcluster))
 (common-lisp:progn
  (common-lisp:defun cancel-export-task
@@ -42611,7 +42614,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CancelExportTask"))
-      common-lisp:nil "CancelExportTaskResult" *error-map*)))
+      common-lisp:nil "CancelExportTaskResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'cancel-export-task))
 (common-lisp:progn
  (common-lisp:defun copy-dbcluster-parameter-group
@@ -42635,7 +42638,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CopyDBClusterParameterGroup"))
-      common-lisp:nil "CopyDBClusterParameterGroupResult" *error-map*)))
+      common-lisp:nil "CopyDBClusterParameterGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'copy-dbcluster-parameter-group))
 (common-lisp:progn
  (common-lisp:defun copy-dbcluster-snapshot
@@ -42657,7 +42661,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CopyDBClusterSnapshot"))
-      common-lisp:nil "CopyDBClusterSnapshotResult" *error-map*)))
+      common-lisp:nil "CopyDBClusterSnapshotResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'copy-dbcluster-snapshot))
 (common-lisp:progn
  (common-lisp:defun copy-dbparameter-group
@@ -42679,7 +42684,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CopyDBParameterGroup"))
-      common-lisp:nil "CopyDBParameterGroupResult" *error-map*)))
+      common-lisp:nil "CopyDBParameterGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'copy-dbparameter-group))
 (common-lisp:progn
  (common-lisp:defun copy-dbsnapshot
@@ -42702,7 +42708,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CopyDBSnapshot"))
-      common-lisp:nil "CopyDBSnapshotResult" *error-map*)))
+      common-lisp:nil "CopyDBSnapshotResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'copy-dbsnapshot))
 (common-lisp:progn
  (common-lisp:defun copy-option-group
@@ -42723,7 +42729,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CopyOptionGroup"))
-      common-lisp:nil "CopyOptionGroupResult" *error-map*)))
+      common-lisp:nil "CopyOptionGroupResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'copy-option-group))
 (common-lisp:progn
  (common-lisp:defun create-blue-green-deployment
@@ -42748,7 +42754,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateBlueGreenDeployment"))
-      common-lisp:nil "CreateBlueGreenDeploymentResult" *error-map*)))
+      common-lisp:nil "CreateBlueGreenDeploymentResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-blue-green-deployment))
 (common-lisp:progn
  (common-lisp:defun create-custom-dbengine-version
@@ -42776,7 +42783,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateCustomDBEngineVersion"))
-      common-lisp:nil "CreateCustomDBEngineVersionResult" *error-map*)))
+      common-lisp:nil "CreateCustomDBEngineVersionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-custom-dbengine-version))
 (common-lisp:progn
  (common-lisp:defun create-dbcluster
@@ -42834,7 +42842,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDBCluster"))
-      common-lisp:nil "CreateDBClusterResult" *error-map*)))
+      common-lisp:nil "CreateDBClusterResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-dbcluster))
 (common-lisp:progn
  (common-lisp:defun create-dbcluster-endpoint
@@ -42856,7 +42864,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDBClusterEndpoint"))
-      common-lisp:nil "CreateDBClusterEndpointResult" *error-map*)))
+      common-lisp:nil "CreateDBClusterEndpointResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-dbcluster-endpoint))
 (common-lisp:progn
  (common-lisp:defun create-dbcluster-parameter-group
@@ -42877,7 +42886,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDBClusterParameterGroup"))
-      common-lisp:nil "CreateDBClusterParameterGroupResult" *error-map*)))
+      common-lisp:nil "CreateDBClusterParameterGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-dbcluster-parameter-group))
 (common-lisp:progn
  (common-lisp:defun create-dbcluster-snapshot
@@ -42898,7 +42908,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDBClusterSnapshot"))
-      common-lisp:nil "CreateDBClusterSnapshotResult" *error-map*)))
+      common-lisp:nil "CreateDBClusterSnapshotResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-dbcluster-snapshot))
 (common-lisp:progn
  (common-lisp:defun create-dbinstance
@@ -42958,7 +42969,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDBInstance"))
-      common-lisp:nil "CreateDBInstanceResult" *error-map*)))
+      common-lisp:nil "CreateDBInstanceResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-dbinstance))
 (common-lisp:progn
  (common-lisp:defun create-dbinstance-read-replica
@@ -43007,7 +43018,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDBInstanceReadReplica"))
-      common-lisp:nil "CreateDBInstanceReadReplicaResult" *error-map*)))
+      common-lisp:nil "CreateDBInstanceReadReplicaResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-dbinstance-read-replica))
 (common-lisp:progn
  (common-lisp:defun create-dbparameter-group
@@ -43027,7 +43039,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDBParameterGroup"))
-      common-lisp:nil "CreateDBParameterGroupResult" *error-map*)))
+      common-lisp:nil "CreateDBParameterGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-dbparameter-group))
 (common-lisp:progn
  (common-lisp:defun create-dbproxy
@@ -43049,7 +43062,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDBProxy"))
-      common-lisp:nil "CreateDBProxyResult" *error-map*)))
+      common-lisp:nil "CreateDBProxyResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-dbproxy))
 (common-lisp:progn
  (common-lisp:defun create-dbproxy-endpoint
@@ -43069,7 +43082,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDBProxyEndpoint"))
-      common-lisp:nil "CreateDBProxyEndpointResult" *error-map*)))
+      common-lisp:nil "CreateDBProxyEndpointResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-dbproxy-endpoint))
 (common-lisp:progn
  (common-lisp:defun create-dbsecurity-group
@@ -43089,7 +43103,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDBSecurityGroup"))
-      common-lisp:nil "CreateDBSecurityGroupResult" *error-map*)))
+      common-lisp:nil "CreateDBSecurityGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-dbsecurity-group))
 (common-lisp:progn
  (common-lisp:defun create-dbshard-group
@@ -43110,7 +43125,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDBShardGroup"))
-      common-lisp:nil "CreateDBShardGroupResult" *error-map*)))
+      common-lisp:nil "CreateDBShardGroupResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-dbshard-group))
 (common-lisp:progn
  (common-lisp:defun create-dbsnapshot
@@ -43129,7 +43144,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDBSnapshot"))
-      common-lisp:nil "CreateDBSnapshotResult" *error-map*)))
+      common-lisp:nil "CreateDBSnapshotResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-dbsnapshot))
 (common-lisp:progn
  (common-lisp:defun create-dbsubnet-group
@@ -43149,7 +43164,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDBSubnetGroup"))
-      common-lisp:nil "CreateDBSubnetGroupResult" *error-map*)))
+      common-lisp:nil "CreateDBSubnetGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-dbsubnet-group))
 (common-lisp:progn
  (common-lisp:defun create-event-subscription
@@ -43170,7 +43186,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateEventSubscription"))
-      common-lisp:nil "CreateEventSubscriptionResult" *error-map*)))
+      common-lisp:nil "CreateEventSubscriptionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-event-subscription))
 (common-lisp:progn
  (common-lisp:defun create-global-cluster
@@ -43192,7 +43209,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateGlobalCluster"))
-      common-lisp:nil "CreateGlobalClusterResult" *error-map*)))
+      common-lisp:nil "CreateGlobalClusterResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-global-cluster))
 (common-lisp:progn
  (common-lisp:defun create-integration
@@ -43212,7 +43230,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateIntegration"))
-      common-lisp:nil "CreateIntegrationResult" *error-map*)))
+      common-lisp:nil "CreateIntegrationResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-integration))
 (common-lisp:progn
  (common-lisp:defun create-option-group
@@ -43232,7 +43250,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateOptionGroup"))
-      common-lisp:nil "CreateOptionGroupResult" *error-map*)))
+      common-lisp:nil "CreateOptionGroupResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-option-group))
 (common-lisp:progn
  (common-lisp:defun create-tenant-database
@@ -43253,7 +43271,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateTenantDatabase"))
-      common-lisp:nil "CreateTenantDatabaseResult" *error-map*)))
+      common-lisp:nil "CreateTenantDatabaseResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-tenant-database))
 (common-lisp:progn
  (common-lisp:defun delete-blue-green-deployment
@@ -43273,7 +43292,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteBlueGreenDeployment"))
-      common-lisp:nil "DeleteBlueGreenDeploymentResult" *error-map*)))
+      common-lisp:nil "DeleteBlueGreenDeploymentResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-blue-green-deployment))
 (common-lisp:progn
  (common-lisp:defun delete-custom-dbengine-version
@@ -43291,7 +43311,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteCustomDBEngineVersion"))
-      common-lisp:nil "DeleteCustomDBEngineVersionResult" *error-map*)))
+      common-lisp:nil "DeleteCustomDBEngineVersionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-custom-dbengine-version))
 (common-lisp:progn
  (common-lisp:defun delete-dbcluster
@@ -43311,7 +43332,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDBCluster"))
-      common-lisp:nil "DeleteDBClusterResult" *error-map*)))
+      common-lisp:nil "DeleteDBClusterResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-dbcluster))
 (common-lisp:progn
  (common-lisp:defun delete-dbcluster-automated-backup
@@ -43329,7 +43350,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDBClusterAutomatedBackup"))
-      common-lisp:nil "DeleteDBClusterAutomatedBackupResult" *error-map*)))
+      common-lisp:nil "DeleteDBClusterAutomatedBackupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-dbcluster-automated-backup))
 (common-lisp:progn
  (common-lisp:defun delete-dbcluster-endpoint
@@ -43347,7 +43369,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDBClusterEndpoint"))
-      common-lisp:nil "DeleteDBClusterEndpointResult" *error-map*)))
+      common-lisp:nil "DeleteDBClusterEndpointResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-dbcluster-endpoint))
 (common-lisp:progn
  (common-lisp:defun delete-dbcluster-parameter-group
@@ -43365,7 +43388,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDBClusterParameterGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-dbcluster-parameter-group))
 (common-lisp:progn
  (common-lisp:defun delete-dbcluster-snapshot
@@ -43383,7 +43406,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDBClusterSnapshot"))
-      common-lisp:nil "DeleteDBClusterSnapshotResult" *error-map*)))
+      common-lisp:nil "DeleteDBClusterSnapshotResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-dbcluster-snapshot))
 (common-lisp:progn
  (common-lisp:defun delete-dbinstance
@@ -43403,7 +43427,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDBInstance"))
-      common-lisp:nil "DeleteDBInstanceResult" *error-map*)))
+      common-lisp:nil "DeleteDBInstanceResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-dbinstance))
 (common-lisp:progn
  (common-lisp:defun delete-dbinstance-automated-backup
@@ -43423,7 +43447,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDBInstanceAutomatedBackup"))
-      common-lisp:nil "DeleteDBInstanceAutomatedBackupResult" *error-map*)))
+      common-lisp:nil "DeleteDBInstanceAutomatedBackupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-dbinstance-automated-backup))
 (common-lisp:progn
  (common-lisp:defun delete-dbparameter-group
@@ -43440,7 +43465,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDBParameterGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-dbparameter-group))
 (common-lisp:progn
  (common-lisp:defun delete-dbproxy
@@ -43457,7 +43482,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDBProxy"))
-      common-lisp:nil "DeleteDBProxyResult" *error-map*)))
+      common-lisp:nil "DeleteDBProxyResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-dbproxy))
 (common-lisp:progn
  (common-lisp:defun delete-dbproxy-endpoint
@@ -43474,7 +43499,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDBProxyEndpoint"))
-      common-lisp:nil "DeleteDBProxyEndpointResult" *error-map*)))
+      common-lisp:nil "DeleteDBProxyEndpointResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-dbproxy-endpoint))
 (common-lisp:progn
  (common-lisp:defun delete-dbsecurity-group
@@ -43491,7 +43517,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDBSecurityGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-dbsecurity-group))
 (common-lisp:progn
  (common-lisp:defun delete-dbshard-group
@@ -43508,7 +43534,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDBShardGroup"))
-      common-lisp:nil "DeleteDBShardGroupResult" *error-map*)))
+      common-lisp:nil "DeleteDBShardGroupResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-dbshard-group))
 (common-lisp:progn
  (common-lisp:defun delete-dbsnapshot
@@ -43525,7 +43551,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDBSnapshot"))
-      common-lisp:nil "DeleteDBSnapshotResult" *error-map*)))
+      common-lisp:nil "DeleteDBSnapshotResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-dbsnapshot))
 (common-lisp:progn
  (common-lisp:defun delete-dbsubnet-group
@@ -43542,7 +43568,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDBSubnetGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-dbsubnet-group))
 (common-lisp:progn
  (common-lisp:defun delete-event-subscription
@@ -43560,7 +43586,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteEventSubscription"))
-      common-lisp:nil "DeleteEventSubscriptionResult" *error-map*)))
+      common-lisp:nil "DeleteEventSubscriptionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-event-subscription))
 (common-lisp:progn
  (common-lisp:defun delete-global-cluster
@@ -43577,7 +43604,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteGlobalCluster"))
-      common-lisp:nil "DeleteGlobalClusterResult" *error-map*)))
+      common-lisp:nil "DeleteGlobalClusterResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-global-cluster))
 (common-lisp:progn
  (common-lisp:defun delete-integration
@@ -43594,7 +43622,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteIntegration"))
-      common-lisp:nil "DeleteIntegrationResult" *error-map*)))
+      common-lisp:nil "DeleteIntegrationResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-integration))
 (common-lisp:progn
  (common-lisp:defun delete-option-group
@@ -43611,7 +43639,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteOptionGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-option-group))
 (common-lisp:progn
  (common-lisp:defun delete-tenant-database
@@ -43631,7 +43659,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteTenantDatabase"))
-      common-lisp:nil "DeleteTenantDatabaseResult" *error-map*)))
+      common-lisp:nil "DeleteTenantDatabaseResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-tenant-database))
 (common-lisp:progn
  (common-lisp:defun deregister-dbproxy-targets
@@ -43652,7 +43681,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeregisterDBProxyTargets"))
-      common-lisp:nil "DeregisterDBProxyTargetsResult" *error-map*)))
+      common-lisp:nil "DeregisterDBProxyTargetsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'deregister-dbproxy-targets))
 (common-lisp:progn
  (common-lisp:defun describe-account-attributes ()
@@ -43681,7 +43711,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeBlueGreenDeployments"))
-      common-lisp:nil "DescribeBlueGreenDeploymentsResult" *error-map*)))
+      common-lisp:nil "DescribeBlueGreenDeploymentsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-blue-green-deployments))
 (common-lisp:progn
  (common-lisp:defun describe-certificates
@@ -43700,7 +43731,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeCertificates"))
-      common-lisp:nil "DescribeCertificatesResult" *error-map*)))
+      common-lisp:nil "DescribeCertificatesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-certificates))
 (common-lisp:progn
  (common-lisp:defun describe-dbcluster-automated-backups
@@ -43721,7 +43753,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBClusterAutomatedBackups"))
-      common-lisp:nil "DescribeDBClusterAutomatedBackupsResult" *error-map*)))
+      common-lisp:nil "DescribeDBClusterAutomatedBackupsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-dbcluster-automated-backups))
 (common-lisp:progn
  (common-lisp:defun describe-dbcluster-backtracks
@@ -43742,7 +43775,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBClusterBacktracks"))
-      common-lisp:nil "DescribeDBClusterBacktracksResult" *error-map*)))
+      common-lisp:nil "DescribeDBClusterBacktracksResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-dbcluster-backtracks))
 (common-lisp:progn
  (common-lisp:defun describe-dbcluster-endpoints
@@ -43763,7 +43797,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBClusterEndpoints"))
-      common-lisp:nil "DescribeDBClusterEndpointsResult" *error-map*)))
+      common-lisp:nil "DescribeDBClusterEndpointsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-dbcluster-endpoints))
 (common-lisp:progn
  (common-lisp:defun describe-dbcluster-parameter-groups
@@ -43784,7 +43819,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBClusterParameterGroups"))
-      common-lisp:nil "DescribeDBClusterParameterGroupsResult" *error-map*)))
+      common-lisp:nil "DescribeDBClusterParameterGroupsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-dbcluster-parameter-groups))
 (common-lisp:progn
  (common-lisp:defun describe-dbcluster-parameters
@@ -43805,7 +43841,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBClusterParameters"))
-      common-lisp:nil "DescribeDBClusterParametersResult" *error-map*)))
+      common-lisp:nil "DescribeDBClusterParametersResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-dbcluster-parameters))
 (common-lisp:progn
  (common-lisp:defun describe-dbcluster-snapshot-attributes
@@ -43823,8 +43860,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBClusterSnapshotAttributes"))
-      common-lisp:nil "DescribeDBClusterSnapshotAttributesResult"
-      *error-map*)))
+      common-lisp:nil "DescribeDBClusterSnapshotAttributesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-dbcluster-snapshot-attributes))
 (common-lisp:progn
  (common-lisp:defun describe-dbcluster-snapshots
@@ -43848,7 +43885,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBClusterSnapshots"))
-      common-lisp:nil "DescribeDBClusterSnapshotsResult" *error-map*)))
+      common-lisp:nil "DescribeDBClusterSnapshotsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-dbcluster-snapshots))
 (common-lisp:progn
  (common-lisp:defun describe-dbclusters
@@ -43868,7 +43906,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBClusters"))
-      common-lisp:nil "DescribeDBClustersResult" *error-map*)))
+      common-lisp:nil "DescribeDBClustersResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-dbclusters))
 (common-lisp:progn
  (common-lisp:defun describe-dbengine-versions
@@ -43892,7 +43930,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBEngineVersions"))
-      common-lisp:nil "DescribeDBEngineVersionsResult" *error-map*)))
+      common-lisp:nil "DescribeDBEngineVersionsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-dbengine-versions))
 (common-lisp:progn
  (common-lisp:defun describe-dbinstance-automated-backups
@@ -43914,7 +43953,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBInstanceAutomatedBackups"))
-      common-lisp:nil "DescribeDBInstanceAutomatedBackupsResult" *error-map*)))
+      common-lisp:nil "DescribeDBInstanceAutomatedBackupsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-dbinstance-automated-backups))
 (common-lisp:progn
  (common-lisp:defun describe-dbinstances
@@ -43933,7 +43973,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBInstances"))
-      common-lisp:nil "DescribeDBInstancesResult" *error-map*)))
+      common-lisp:nil "DescribeDBInstancesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-dbinstances))
 (common-lisp:progn
  (common-lisp:defun describe-dblog-files
@@ -43953,7 +43994,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBLogFiles"))
-      common-lisp:nil "DescribeDBLogFilesResult" *error-map*)))
+      common-lisp:nil "DescribeDBLogFilesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-dblog-files))
 (common-lisp:progn
  (common-lisp:defun describe-dbparameter-groups
@@ -43973,7 +44014,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBParameterGroups"))
-      common-lisp:nil "DescribeDBParameterGroupsResult" *error-map*)))
+      common-lisp:nil "DescribeDBParameterGroupsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-dbparameter-groups))
 (common-lisp:progn
  (common-lisp:defun describe-dbparameters
@@ -43993,7 +44035,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBParameters"))
-      common-lisp:nil "DescribeDBParametersResult" *error-map*)))
+      common-lisp:nil "DescribeDBParametersResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-dbparameters))
 (common-lisp:progn
  (common-lisp:defun describe-dbproxies
@@ -44011,7 +44054,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBProxies"))
-      common-lisp:nil "DescribeDBProxiesResult" *error-map*)))
+      common-lisp:nil "DescribeDBProxiesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-dbproxies))
 (common-lisp:progn
  (common-lisp:defun describe-dbproxy-endpoints
@@ -44032,7 +44075,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBProxyEndpoints"))
-      common-lisp:nil "DescribeDBProxyEndpointsResult" *error-map*)))
+      common-lisp:nil "DescribeDBProxyEndpointsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-dbproxy-endpoints))
 (common-lisp:progn
  (common-lisp:defun describe-dbproxy-target-groups
@@ -44053,7 +44097,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBProxyTargetGroups"))
-      common-lisp:nil "DescribeDBProxyTargetGroupsResult" *error-map*)))
+      common-lisp:nil "DescribeDBProxyTargetGroupsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-dbproxy-target-groups))
 (common-lisp:progn
  (common-lisp:defun describe-dbproxy-targets
@@ -44073,7 +44118,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBProxyTargets"))
-      common-lisp:nil "DescribeDBProxyTargetsResult" *error-map*)))
+      common-lisp:nil "DescribeDBProxyTargetsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-dbproxy-targets))
 (common-lisp:progn
  (common-lisp:defun describe-dbrecommendations
@@ -44094,7 +44140,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBRecommendations"))
-      common-lisp:nil "DescribeDBRecommendationsResult" *error-map*)))
+      common-lisp:nil "DescribeDBRecommendationsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-dbrecommendations))
 (common-lisp:progn
  (common-lisp:defun describe-dbsecurity-groups
@@ -44114,7 +44161,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBSecurityGroups"))
-      common-lisp:nil "DescribeDBSecurityGroupsResult" *error-map*)))
+      common-lisp:nil "DescribeDBSecurityGroupsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-dbsecurity-groups))
 (common-lisp:progn
  (common-lisp:defun describe-dbshard-groups
@@ -44134,7 +44182,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBShardGroups"))
-      common-lisp:nil "DescribeDBShardGroupsResult" *error-map*)))
+      common-lisp:nil "DescribeDBShardGroupsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-dbshard-groups))
 (common-lisp:progn
  (common-lisp:defun describe-dbsnapshot-attributes
@@ -44152,7 +44201,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBSnapshotAttributes"))
-      common-lisp:nil "DescribeDBSnapshotAttributesResult" *error-map*)))
+      common-lisp:nil "DescribeDBSnapshotAttributesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-dbsnapshot-attributes))
 (common-lisp:progn
  (common-lisp:defun describe-dbsnapshot-tenant-databases
@@ -44174,7 +44224,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBSnapshotTenantDatabases"))
-      common-lisp:nil "DescribeDBSnapshotTenantDatabasesResult" *error-map*)))
+      common-lisp:nil "DescribeDBSnapshotTenantDatabasesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-dbsnapshot-tenant-databases))
 (common-lisp:progn
  (common-lisp:defun describe-dbsnapshots
@@ -44196,7 +44247,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBSnapshots"))
-      common-lisp:nil "DescribeDBSnapshotsResult" *error-map*)))
+      common-lisp:nil "DescribeDBSnapshotsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-dbsnapshots))
 (common-lisp:progn
  (common-lisp:defun describe-dbsubnet-groups
@@ -44215,7 +44267,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDBSubnetGroups"))
-      common-lisp:nil "DescribeDBSubnetGroupsResult" *error-map*)))
+      common-lisp:nil "DescribeDBSubnetGroupsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-dbsubnet-groups))
 (common-lisp:progn
  (common-lisp:defun describe-engine-default-cluster-parameters
@@ -44237,7 +44290,7 @@
                                                         "POST" "/"
                                                         "DescribeEngineDefaultClusterParameters"))
       common-lisp:nil "DescribeEngineDefaultClusterParametersResult"
-      *error-map*)))
+      *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-engine-default-cluster-parameters))
 (common-lisp:progn
  (common-lisp:defun describe-engine-default-parameters
@@ -44258,7 +44311,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEngineDefaultParameters"))
-      common-lisp:nil "DescribeEngineDefaultParametersResult" *error-map*)))
+      common-lisp:nil "DescribeEngineDefaultParametersResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-engine-default-parameters))
 (common-lisp:progn
  (common-lisp:defun describe-event-categories
@@ -44276,7 +44330,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEventCategories"))
-      common-lisp:nil "DescribeEventCategoriesResult" *error-map*)))
+      common-lisp:nil "DescribeEventCategoriesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-event-categories))
 (common-lisp:progn
  (common-lisp:defun describe-event-subscriptions
@@ -44296,7 +44351,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEventSubscriptions"))
-      common-lisp:nil "DescribeEventSubscriptionsResult" *error-map*)))
+      common-lisp:nil "DescribeEventSubscriptionsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-event-subscriptions))
 (common-lisp:progn
  (common-lisp:defun describe-events
@@ -44317,7 +44373,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeEvents"))
-      common-lisp:nil "DescribeEventsResult" *error-map*)))
+      common-lisp:nil "DescribeEventsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-events))
 (common-lisp:progn
  (common-lisp:defun describe-export-tasks
@@ -44337,7 +44393,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeExportTasks"))
-      common-lisp:nil "DescribeExportTasksResult" *error-map*)))
+      common-lisp:nil "DescribeExportTasksResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-export-tasks))
 (common-lisp:progn
  (common-lisp:defun describe-global-clusters
@@ -44357,7 +44414,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeGlobalClusters"))
-      common-lisp:nil "DescribeGlobalClustersResult" *error-map*)))
+      common-lisp:nil "DescribeGlobalClustersResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-global-clusters))
 (common-lisp:progn
  (common-lisp:defun describe-integrations
@@ -44376,7 +44434,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeIntegrations"))
-      common-lisp:nil "DescribeIntegrationsResult" *error-map*)))
+      common-lisp:nil "DescribeIntegrationsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-integrations))
 (common-lisp:progn
  (common-lisp:defun describe-option-group-options
@@ -44397,7 +44456,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeOptionGroupOptions"))
-      common-lisp:nil "DescribeOptionGroupOptionsResult" *error-map*)))
+      common-lisp:nil "DescribeOptionGroupOptionsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-option-group-options))
 (common-lisp:progn
  (common-lisp:defun describe-option-groups
@@ -44417,7 +44477,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeOptionGroups"))
-      common-lisp:nil "DescribeOptionGroupsResult" *error-map*)))
+      common-lisp:nil "DescribeOptionGroupsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-option-groups))
 (common-lisp:progn
  (common-lisp:defun describe-orderable-dbinstance-options
@@ -44439,7 +44500,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeOrderableDBInstanceOptions"))
-      common-lisp:nil "DescribeOrderableDBInstanceOptionsResult" *error-map*)))
+      common-lisp:nil "DescribeOrderableDBInstanceOptionsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-orderable-dbinstance-options))
 (common-lisp:progn
  (common-lisp:defun describe-pending-maintenance-actions
@@ -44459,7 +44521,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribePendingMaintenanceActions"))
-      common-lisp:nil "DescribePendingMaintenanceActionsResult" *error-map*)))
+      common-lisp:nil "DescribePendingMaintenanceActionsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-pending-maintenance-actions))
 (common-lisp:progn
  (common-lisp:defun describe-reserved-dbinstances
@@ -44484,7 +44547,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeReservedDBInstances"))
-      common-lisp:nil "DescribeReservedDBInstancesResult" *error-map*)))
+      common-lisp:nil "DescribeReservedDBInstancesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-reserved-dbinstances))
 (common-lisp:progn
  (common-lisp:defun describe-reserved-dbinstances-offerings
@@ -44507,8 +44571,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeReservedDBInstancesOfferings"))
-      common-lisp:nil "DescribeReservedDBInstancesOfferingsResult"
-      *error-map*)))
+      common-lisp:nil "DescribeReservedDBInstancesOfferingsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-reserved-dbinstances-offerings))
 (common-lisp:progn
  (common-lisp:defun describe-source-regions
@@ -44526,7 +44590,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeSourceRegions"))
-      common-lisp:nil "DescribeSourceRegionsResult" *error-map*)))
+      common-lisp:nil "DescribeSourceRegionsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-source-regions))
 (common-lisp:progn
  (common-lisp:defun describe-tenant-databases
@@ -44547,7 +44612,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTenantDatabases"))
-      common-lisp:nil "DescribeTenantDatabasesResult" *error-map*)))
+      common-lisp:nil "DescribeTenantDatabasesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-tenant-databases))
 (common-lisp:progn
  (common-lisp:defun describe-valid-dbinstance-modifications
@@ -44565,8 +44631,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeValidDBInstanceModifications"))
-      common-lisp:nil "DescribeValidDBInstanceModificationsResult"
-      *error-map*)))
+      common-lisp:nil "DescribeValidDBInstanceModificationsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-valid-dbinstance-modifications))
 (common-lisp:progn
  (common-lisp:defun disable-http-endpoint
@@ -44583,7 +44649,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisableHttpEndpoint"))
-      common-lisp:nil "DisableHttpEndpointResult" *error-map*)))
+      common-lisp:nil "DisableHttpEndpointResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'disable-http-endpoint))
 (common-lisp:progn
  (common-lisp:defun download-dblog-file-portion
@@ -44604,7 +44671,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DownloadDBLogFilePortion"))
-      common-lisp:nil "DownloadDBLogFilePortionResult" *error-map*)))
+      common-lisp:nil "DownloadDBLogFilePortionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'download-dblog-file-portion))
 (common-lisp:progn
  (common-lisp:defun enable-http-endpoint
@@ -44621,7 +44689,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "EnableHttpEndpoint"))
-      common-lisp:nil "EnableHttpEndpointResult" *error-map*)))
+      common-lisp:nil "EnableHttpEndpointResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'enable-http-endpoint))
 (common-lisp:progn
  (common-lisp:defun failover-dbcluster
@@ -44640,7 +44708,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "FailoverDBCluster"))
-      common-lisp:nil "FailoverDBClusterResult" *error-map*)))
+      common-lisp:nil "FailoverDBClusterResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'failover-dbcluster))
 (common-lisp:progn
  (common-lisp:defun failover-global-cluster
@@ -44660,7 +44728,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "FailoverGlobalCluster"))
-      common-lisp:nil "FailoverGlobalClusterResult" *error-map*)))
+      common-lisp:nil "FailoverGlobalClusterResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'failover-global-cluster))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -44677,7 +44746,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil "ListTagsForResourceResult" *error-map*)))
+      common-lisp:nil "ListTagsForResourceResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun modify-activity-stream
@@ -44695,7 +44765,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyActivityStream"))
-      common-lisp:nil "ModifyActivityStreamResult" *error-map*)))
+      common-lisp:nil "ModifyActivityStreamResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'modify-activity-stream))
 (common-lisp:progn
  (common-lisp:defun modify-certificates
@@ -44714,7 +44785,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyCertificates"))
-      common-lisp:nil "ModifyCertificatesResult" *error-map*)))
+      common-lisp:nil "ModifyCertificatesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'modify-certificates))
 (common-lisp:progn
  (common-lisp:defun modify-current-dbcluster-capacity
@@ -44735,7 +44806,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyCurrentDBClusterCapacity"))
-      common-lisp:nil "ModifyCurrentDBClusterCapacityResult" *error-map*)))
+      common-lisp:nil "ModifyCurrentDBClusterCapacityResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'modify-current-dbcluster-capacity))
 (common-lisp:progn
  (common-lisp:defun modify-custom-dbengine-version
@@ -44754,7 +44826,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyCustomDBEngineVersion"))
-      common-lisp:nil "ModifyCustomDBEngineVersionResult" *error-map*)))
+      common-lisp:nil "ModifyCustomDBEngineVersionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'modify-custom-dbengine-version))
 (common-lisp:progn
  (common-lisp:defun modify-dbcluster
@@ -44811,7 +44884,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyDBCluster"))
-      common-lisp:nil "ModifyDBClusterResult" *error-map*)))
+      common-lisp:nil "ModifyDBClusterResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'modify-dbcluster))
 (common-lisp:progn
  (common-lisp:defun modify-dbcluster-endpoint
@@ -44832,7 +44905,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyDBClusterEndpoint"))
-      common-lisp:nil "ModifyDBClusterEndpointResult" *error-map*)))
+      common-lisp:nil "ModifyDBClusterEndpointResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'modify-dbcluster-endpoint))
 (common-lisp:progn
  (common-lisp:defun modify-dbcluster-parameter-group
@@ -44852,7 +44926,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyDBClusterParameterGroup"))
-      common-lisp:nil "ModifyDBClusterParameterGroupResult" *error-map*)))
+      common-lisp:nil "ModifyDBClusterParameterGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'modify-dbcluster-parameter-group))
 (common-lisp:progn
  (common-lisp:defun modify-dbcluster-snapshot-attribute
@@ -44873,7 +44948,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyDBClusterSnapshotAttribute"))
-      common-lisp:nil "ModifyDBClusterSnapshotAttributeResult" *error-map*)))
+      common-lisp:nil "ModifyDBClusterSnapshotAttributeResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'modify-dbcluster-snapshot-attribute))
 (common-lisp:progn
  (common-lisp:defun modify-dbinstance
@@ -44935,7 +45011,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyDBInstance"))
-      common-lisp:nil "ModifyDBInstanceResult" *error-map*)))
+      common-lisp:nil "ModifyDBInstanceResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'modify-dbinstance))
 (common-lisp:progn
  (common-lisp:defun modify-dbparameter-group
@@ -44953,7 +45029,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyDBParameterGroup"))
-      common-lisp:nil "ModifyDBParameterGroupResult" *error-map*)))
+      common-lisp:nil "ModifyDBParameterGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'modify-dbparameter-group))
 (common-lisp:progn
  (common-lisp:defun modify-dbproxy
@@ -44974,7 +45051,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyDBProxy"))
-      common-lisp:nil "ModifyDBProxyResult" *error-map*)))
+      common-lisp:nil "ModifyDBProxyResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'modify-dbproxy))
 (common-lisp:progn
  (common-lisp:defun modify-dbproxy-endpoint
@@ -44994,7 +45071,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyDBProxyEndpoint"))
-      common-lisp:nil "ModifyDBProxyEndpointResult" *error-map*)))
+      common-lisp:nil "ModifyDBProxyEndpointResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'modify-dbproxy-endpoint))
 (common-lisp:progn
  (common-lisp:defun modify-dbproxy-target-group
@@ -45015,7 +45093,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyDBProxyTargetGroup"))
-      common-lisp:nil "ModifyDBProxyTargetGroupResult" *error-map*)))
+      common-lisp:nil "ModifyDBProxyTargetGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'modify-dbproxy-target-group))
 (common-lisp:progn
  (common-lisp:defun modify-dbrecommendation
@@ -45035,7 +45114,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyDBRecommendation"))
-      common-lisp:nil "ModifyDBRecommendationResult" *error-map*)))
+      common-lisp:nil "ModifyDBRecommendationResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'modify-dbrecommendation))
 (common-lisp:progn
  (common-lisp:defun modify-dbshard-group
@@ -45053,7 +45133,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyDBShardGroup"))
-      common-lisp:nil "ModifyDBShardGroupResult" *error-map*)))
+      common-lisp:nil "ModifyDBShardGroupResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'modify-dbshard-group))
 (common-lisp:progn
  (common-lisp:defun modify-dbsnapshot
@@ -45073,7 +45153,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyDBSnapshot"))
-      common-lisp:nil "ModifyDBSnapshotResult" *error-map*)))
+      common-lisp:nil "ModifyDBSnapshotResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'modify-dbsnapshot))
 (common-lisp:progn
  (common-lisp:defun modify-dbsnapshot-attribute
@@ -45094,7 +45174,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyDBSnapshotAttribute"))
-      common-lisp:nil "ModifyDBSnapshotAttributeResult" *error-map*)))
+      common-lisp:nil "ModifyDBSnapshotAttributeResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'modify-dbsnapshot-attribute))
 (common-lisp:progn
  (common-lisp:defun modify-dbsubnet-group
@@ -45114,7 +45195,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyDBSubnetGroup"))
-      common-lisp:nil "ModifyDBSubnetGroupResult" *error-map*)))
+      common-lisp:nil "ModifyDBSubnetGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'modify-dbsubnet-group))
 (common-lisp:progn
  (common-lisp:defun modify-event-subscription
@@ -45135,7 +45217,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyEventSubscription"))
-      common-lisp:nil "ModifyEventSubscriptionResult" *error-map*)))
+      common-lisp:nil "ModifyEventSubscriptionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'modify-event-subscription))
 (common-lisp:progn
  (common-lisp:defun modify-global-cluster
@@ -45157,7 +45240,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyGlobalCluster"))
-      common-lisp:nil "ModifyGlobalClusterResult" *error-map*)))
+      common-lisp:nil "ModifyGlobalClusterResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'modify-global-cluster))
 (common-lisp:progn
  (common-lisp:defun modify-option-group
@@ -45177,7 +45261,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyOptionGroup"))
-      common-lisp:nil "ModifyOptionGroupResult" *error-map*)))
+      common-lisp:nil "ModifyOptionGroupResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'modify-option-group))
 (common-lisp:progn
  (common-lisp:defun modify-tenant-database
@@ -45197,7 +45281,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ModifyTenantDatabase"))
-      common-lisp:nil "ModifyTenantDatabaseResult" *error-map*)))
+      common-lisp:nil "ModifyTenantDatabaseResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'modify-tenant-database))
 (common-lisp:progn
  (common-lisp:defun promote-read-replica
@@ -45217,7 +45302,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PromoteReadReplica"))
-      common-lisp:nil "PromoteReadReplicaResult" *error-map*)))
+      common-lisp:nil "PromoteReadReplicaResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'promote-read-replica))
 (common-lisp:progn
  (common-lisp:defun promote-read-replica-dbcluster
@@ -45235,7 +45320,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PromoteReadReplicaDBCluster"))
-      common-lisp:nil "PromoteReadReplicaDBClusterResult" *error-map*)))
+      common-lisp:nil "PromoteReadReplicaDBClusterResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'promote-read-replica-dbcluster))
 (common-lisp:progn
  (common-lisp:defun purchase-reserved-dbinstances-offering
@@ -45256,8 +45342,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PurchaseReservedDBInstancesOffering"))
-      common-lisp:nil "PurchaseReservedDBInstancesOfferingResult"
-      *error-map*)))
+      common-lisp:nil "PurchaseReservedDBInstancesOfferingResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'purchase-reserved-dbinstances-offering))
 (common-lisp:progn
  (common-lisp:defun reboot-dbcluster
@@ -45274,7 +45360,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RebootDBCluster"))
-      common-lisp:nil "RebootDBClusterResult" *error-map*)))
+      common-lisp:nil "RebootDBClusterResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'reboot-dbcluster))
 (common-lisp:progn
  (common-lisp:defun reboot-dbinstance
@@ -45292,7 +45378,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RebootDBInstance"))
-      common-lisp:nil "RebootDBInstanceResult" *error-map*)))
+      common-lisp:nil "RebootDBInstanceResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'reboot-dbinstance))
 (common-lisp:progn
  (common-lisp:defun reboot-dbshard-group
@@ -45309,7 +45395,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RebootDBShardGroup"))
-      common-lisp:nil "RebootDBShardGroupResult" *error-map*)))
+      common-lisp:nil "RebootDBShardGroupResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'reboot-dbshard-group))
 (common-lisp:progn
  (common-lisp:defun register-dbproxy-targets
@@ -45329,7 +45415,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RegisterDBProxyTargets"))
-      common-lisp:nil "RegisterDBProxyTargetsResult" *error-map*)))
+      common-lisp:nil "RegisterDBProxyTargetsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'register-dbproxy-targets))
 (common-lisp:progn
  (common-lisp:defun remove-from-global-cluster
@@ -45349,7 +45436,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RemoveFromGlobalCluster"))
-      common-lisp:nil "RemoveFromGlobalClusterResult" *error-map*)))
+      common-lisp:nil "RemoveFromGlobalClusterResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'remove-from-global-cluster))
 (common-lisp:progn
  (common-lisp:defun remove-role-from-dbcluster
@@ -45369,7 +45457,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RemoveRoleFromDBCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'remove-role-from-dbcluster))
 (common-lisp:progn
  (common-lisp:defun remove-role-from-dbinstance
@@ -45389,7 +45477,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RemoveRoleFromDBInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'remove-role-from-dbinstance))
 (common-lisp:progn
  (common-lisp:defun remove-source-identifier-from-subscription
@@ -45409,7 +45497,7 @@
                                                         "POST" "/"
                                                         "RemoveSourceIdentifierFromSubscription"))
       common-lisp:nil "RemoveSourceIdentifierFromSubscriptionResult"
-      *error-map*)))
+      *error-map* common-lisp:nil)))
  (common-lisp:export 'remove-source-identifier-from-subscription))
 (common-lisp:progn
  (common-lisp:defun remove-tags-from-resource
@@ -45427,7 +45515,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RemoveTagsFromResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'remove-tags-from-resource))
 (common-lisp:progn
  (common-lisp:defun reset-dbcluster-parameter-group
@@ -45448,7 +45536,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ResetDBClusterParameterGroup"))
-      common-lisp:nil "ResetDBClusterParameterGroupResult" *error-map*)))
+      common-lisp:nil "ResetDBClusterParameterGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'reset-dbcluster-parameter-group))
 (common-lisp:progn
  (common-lisp:defun reset-dbparameter-group
@@ -45468,7 +45557,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ResetDBParameterGroup"))
-      common-lisp:nil "ResetDBParameterGroupResult" *error-map*)))
+      common-lisp:nil "ResetDBParameterGroupResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'reset-dbparameter-group))
 (common-lisp:progn
  (common-lisp:defun restore-dbcluster-from-s3
@@ -45510,7 +45600,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RestoreDBClusterFromS3"))
-      common-lisp:nil "RestoreDBClusterFromS3Result" *error-map*)))
+      common-lisp:nil "RestoreDBClusterFromS3Result" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'restore-dbcluster-from-s3))
 (common-lisp:progn
  (common-lisp:defun restore-dbcluster-from-snapshot
@@ -45548,7 +45639,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RestoreDBClusterFromSnapshot"))
-      common-lisp:nil "RestoreDBClusterFromSnapshotResult" *error-map*)))
+      common-lisp:nil "RestoreDBClusterFromSnapshotResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'restore-dbcluster-from-snapshot))
 (common-lisp:progn
  (common-lisp:defun restore-dbcluster-to-point-in-time
@@ -45587,7 +45679,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RestoreDBClusterToPointInTime"))
-      common-lisp:nil "RestoreDBClusterToPointInTimeResult" *error-map*)))
+      common-lisp:nil "RestoreDBClusterToPointInTimeResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'restore-dbcluster-to-point-in-time))
 (common-lisp:progn
  (common-lisp:defun restore-dbinstance-from-dbsnapshot
@@ -45632,7 +45725,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RestoreDBInstanceFromDBSnapshot"))
-      common-lisp:nil "RestoreDBInstanceFromDBSnapshotResult" *error-map*)))
+      common-lisp:nil "RestoreDBInstanceFromDBSnapshotResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'restore-dbinstance-from-dbsnapshot))
 (common-lisp:progn
  (common-lisp:defun restore-dbinstance-from-s3
@@ -45685,7 +45779,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RestoreDBInstanceFromS3"))
-      common-lisp:nil "RestoreDBInstanceFromS3Result" *error-map*)))
+      common-lisp:nil "RestoreDBInstanceFromS3Result" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'restore-dbinstance-from-s3))
 (common-lisp:progn
  (common-lisp:defun restore-dbinstance-to-point-in-time
@@ -45735,7 +45830,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RestoreDBInstanceToPointInTime"))
-      common-lisp:nil "RestoreDBInstanceToPointInTimeResult" *error-map*)))
+      common-lisp:nil "RestoreDBInstanceToPointInTimeResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'restore-dbinstance-to-point-in-time))
 (common-lisp:progn
  (common-lisp:defun revoke-dbsecurity-group-ingress
@@ -45757,7 +45853,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RevokeDBSecurityGroupIngress"))
-      common-lisp:nil "RevokeDBSecurityGroupIngressResult" *error-map*)))
+      common-lisp:nil "RevokeDBSecurityGroupIngressResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'revoke-dbsecurity-group-ingress))
 (common-lisp:progn
  (common-lisp:defun start-activity-stream
@@ -45777,7 +45874,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartActivityStream"))
-      common-lisp:nil "StartActivityStreamResult" *error-map*)))
+      common-lisp:nil "StartActivityStreamResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'start-activity-stream))
 (common-lisp:progn
  (common-lisp:defun start-dbcluster
@@ -45794,7 +45892,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartDBCluster"))
-      common-lisp:nil "StartDBClusterResult" *error-map*)))
+      common-lisp:nil "StartDBClusterResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'start-dbcluster))
 (common-lisp:progn
  (common-lisp:defun start-dbinstance
@@ -45811,7 +45909,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartDBInstance"))
-      common-lisp:nil "StartDBInstanceResult" *error-map*)))
+      common-lisp:nil "StartDBInstanceResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'start-dbinstance))
 (common-lisp:progn
  (common-lisp:defun start-dbinstance-automated-backups-replication
@@ -45833,7 +45931,7 @@
                                                         "POST" "/"
                                                         "StartDBInstanceAutomatedBackupsReplication"))
       common-lisp:nil "StartDBInstanceAutomatedBackupsReplicationResult"
-      *error-map*)))
+      *error-map* common-lisp:nil)))
  (common-lisp:export 'start-dbinstance-automated-backups-replication))
 (common-lisp:progn
  (common-lisp:defun start-export-task
@@ -45854,7 +45952,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartExportTask"))
-      common-lisp:nil "StartExportTaskResult" *error-map*)))
+      common-lisp:nil "StartExportTaskResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'start-export-task))
 (common-lisp:progn
  (common-lisp:defun stop-activity-stream
@@ -45871,7 +45969,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopActivityStream"))
-      common-lisp:nil "StopActivityStreamResult" *error-map*)))
+      common-lisp:nil "StopActivityStreamResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'stop-activity-stream))
 (common-lisp:progn
  (common-lisp:defun stop-dbcluster
@@ -45888,7 +45986,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopDBCluster"))
-      common-lisp:nil "StopDBClusterResult" *error-map*)))
+      common-lisp:nil "StopDBClusterResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'stop-dbcluster))
 (common-lisp:progn
  (common-lisp:defun stop-dbinstance
@@ -45907,7 +46005,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopDBInstance"))
-      common-lisp:nil "StopDBInstanceResult" *error-map*)))
+      common-lisp:nil "StopDBInstanceResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'stop-dbinstance))
 (common-lisp:progn
  (common-lisp:defun stop-dbinstance-automated-backups-replication
@@ -45926,7 +46024,7 @@
                                                         "POST" "/"
                                                         "StopDBInstanceAutomatedBackupsReplication"))
       common-lisp:nil "StopDBInstanceAutomatedBackupsReplicationResult"
-      *error-map*)))
+      *error-map* common-lisp:nil)))
  (common-lisp:export 'stop-dbinstance-automated-backups-replication))
 (common-lisp:progn
  (common-lisp:defun switchover-blue-green-deployment
@@ -45947,7 +46045,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SwitchoverBlueGreenDeployment"))
-      common-lisp:nil "SwitchoverBlueGreenDeploymentResult" *error-map*)))
+      common-lisp:nil "SwitchoverBlueGreenDeploymentResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'switchover-blue-green-deployment))
 (common-lisp:progn
  (common-lisp:defun switchover-global-cluster
@@ -45968,7 +46067,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SwitchoverGlobalCluster"))
-      common-lisp:nil "SwitchoverGlobalClusterResult" *error-map*)))
+      common-lisp:nil "SwitchoverGlobalClusterResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'switchover-global-cluster))
 (common-lisp:progn
  (common-lisp:defun switchover-read-replica
@@ -45985,5 +46085,6 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SwitchoverReadReplica"))
-      common-lisp:nil "SwitchoverReadReplicaResult" *error-map*)))
+      common-lisp:nil "SwitchoverReadReplicaResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'switchover-read-replica))

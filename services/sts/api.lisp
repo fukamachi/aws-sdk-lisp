@@ -1780,7 +1780,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssumeRole"))
-      common-lisp:nil "AssumeRoleResult" *error-map*)))
+      common-lisp:nil "AssumeRoleResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'assume-role))
 (common-lisp:progn
  (common-lisp:defun assume-role-with-saml
@@ -1800,7 +1800,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssumeRoleWithSAML"))
-      common-lisp:nil "AssumeRoleWithSAMLResult" *error-map*)))
+      common-lisp:nil "AssumeRoleWithSAMLResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'assume-role-with-saml))
 (common-lisp:progn
  (common-lisp:defun assume-role-with-web-identity
@@ -1822,7 +1822,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssumeRoleWithWebIdentity"))
-      common-lisp:nil "AssumeRoleWithWebIdentityResult" *error-map*)))
+      common-lisp:nil "AssumeRoleWithWebIdentityResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'assume-role-with-web-identity))
 (common-lisp:progn
  (common-lisp:defun decode-authorization-message
@@ -1840,7 +1841,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DecodeAuthorizationMessage"))
-      common-lisp:nil "DecodeAuthorizationMessageResult" *error-map*)))
+      common-lisp:nil "DecodeAuthorizationMessageResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'decode-authorization-message))
 (common-lisp:progn
  (common-lisp:defun get-access-key-info
@@ -1857,7 +1859,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetAccessKeyInfo"))
-      common-lisp:nil "GetAccessKeyInfoResult" *error-map*)))
+      common-lisp:nil "GetAccessKeyInfoResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-access-key-info))
 (common-lisp:progn
  (common-lisp:defun get-caller-identity ()
@@ -1884,7 +1886,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetFederationToken"))
-      common-lisp:nil "GetFederationTokenResult" *error-map*)))
+      common-lisp:nil "GetFederationTokenResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-federation-token))
 (common-lisp:progn
  (common-lisp:defun get-session-token
@@ -1903,5 +1905,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetSessionToken"))
-      common-lisp:nil "GetSessionTokenResult" *error-map*)))
+      common-lisp:nil "GetSessionTokenResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-session-token))

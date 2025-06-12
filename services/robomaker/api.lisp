@@ -13393,7 +13393,7 @@
                                                         "POST"
                                                         "/batchDeleteWorlds"
                                                         "BatchDeleteWorlds"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-delete-worlds))
 (common-lisp:progn
  (common-lisp:defun batch-describe-simulation-job
@@ -13412,7 +13412,7 @@
                                                         "POST"
                                                         "/batchDescribeSimulationJob"
                                                         "BatchDescribeSimulationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-describe-simulation-job))
 (common-lisp:progn
  (common-lisp:defun cancel-deployment-job
@@ -13430,7 +13430,7 @@
                                                         "POST"
                                                         "/cancelDeploymentJob"
                                                         "CancelDeploymentJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-deployment-job))
 (common-lisp:progn
  (common-lisp:defun cancel-simulation-job
@@ -13448,7 +13448,7 @@
                                                         "POST"
                                                         "/cancelSimulationJob"
                                                         "CancelSimulationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-simulation-job))
 (common-lisp:progn
  (common-lisp:defun cancel-simulation-job-batch
@@ -13467,7 +13467,7 @@
                                                         "POST"
                                                         "/cancelSimulationJobBatch"
                                                         "CancelSimulationJobBatch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-simulation-job-batch))
 (common-lisp:progn
  (common-lisp:defun cancel-world-export-job
@@ -13485,7 +13485,7 @@
                                                         "POST"
                                                         "/cancelWorldExportJob"
                                                         "CancelWorldExportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-world-export-job))
 (common-lisp:progn
  (common-lisp:defun cancel-world-generation-job
@@ -13504,7 +13504,7 @@
                                                         "POST"
                                                         "/cancelWorldGenerationJob"
                                                         "CancelWorldGenerationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-world-generation-job))
 (common-lisp:progn
  (common-lisp:defun create-deployment-job
@@ -13525,7 +13525,7 @@
                                                         "POST"
                                                         "/createDeploymentJob"
                                                         "CreateDeploymentJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-deployment-job))
 (common-lisp:progn
  (common-lisp:defun create-fleet
@@ -13542,7 +13542,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/createFleet"
                                                         "CreateFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-fleet))
 (common-lisp:progn
  (common-lisp:defun create-robot
@@ -13561,7 +13561,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/createRobot"
                                                         "CreateRobot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-robot))
 (common-lisp:progn
  (common-lisp:defun create-robot-application
@@ -13581,7 +13581,7 @@
                                                         "POST"
                                                         "/createRobotApplication"
                                                         "CreateRobotApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-robot-application))
 (common-lisp:progn
  (common-lisp:defun create-robot-application-version
@@ -13603,7 +13603,7 @@
                                                         "POST"
                                                         "/createRobotApplicationVersion"
                                                         "CreateRobotApplicationVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-robot-application-version))
 (common-lisp:progn
  (common-lisp:defun create-simulation-application
@@ -13625,7 +13625,7 @@
                                                         "POST"
                                                         "/createSimulationApplication"
                                                         "CreateSimulationApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-simulation-application))
 (common-lisp:progn
  (common-lisp:defun create-simulation-application-version
@@ -13647,7 +13647,7 @@
                                                         "POST"
                                                         "/createSimulationApplicationVersion"
                                                         "CreateSimulationApplicationVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-simulation-application-version))
 (common-lisp:progn
  (common-lisp:defun create-simulation-job
@@ -13672,7 +13672,7 @@
                                                         "POST"
                                                         "/createSimulationJob"
                                                         "CreateSimulationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-simulation-job))
 (common-lisp:progn
  (common-lisp:defun create-world-export-job
@@ -13693,7 +13693,7 @@
                                                         "POST"
                                                         "/createWorldExportJob"
                                                         "CreateWorldExportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-world-export-job))
 (common-lisp:progn
  (common-lisp:defun create-world-generation-job
@@ -13715,7 +13715,7 @@
                                                         "POST"
                                                         "/createWorldGenerationJob"
                                                         "CreateWorldGenerationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-world-generation-job))
 (common-lisp:progn
  (common-lisp:defun create-world-template
@@ -13736,7 +13736,7 @@
                                                         "POST"
                                                         "/createWorldTemplate"
                                                         "CreateWorldTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-world-template))
 (common-lisp:progn
  (common-lisp:defun delete-fleet
@@ -13753,7 +13753,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/deleteFleet"
                                                         "DeleteFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-fleet))
 (common-lisp:progn
  (common-lisp:defun delete-robot
@@ -13770,7 +13770,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/deleteRobot"
                                                         "DeleteRobot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-robot))
 (common-lisp:progn
  (common-lisp:defun delete-robot-application
@@ -13789,7 +13789,7 @@
                                                         "POST"
                                                         "/deleteRobotApplication"
                                                         "DeleteRobotApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-robot-application))
 (common-lisp:progn
  (common-lisp:defun delete-simulation-application
@@ -13809,7 +13809,7 @@
                                                         "POST"
                                                         "/deleteSimulationApplication"
                                                         "DeleteSimulationApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-simulation-application))
 (common-lisp:progn
  (common-lisp:defun delete-world-template
@@ -13827,7 +13827,7 @@
                                                         "POST"
                                                         "/deleteWorldTemplate"
                                                         "DeleteWorldTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-world-template))
 (common-lisp:progn
  (common-lisp:defun deregister-robot
@@ -13845,7 +13845,7 @@
                                                         "POST"
                                                         "/deregisterRobot"
                                                         "DeregisterRobot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deregister-robot))
 (common-lisp:progn
  (common-lisp:defun describe-deployment-job
@@ -13863,7 +13863,7 @@
                                                         "POST"
                                                         "/describeDeploymentJob"
                                                         "DescribeDeploymentJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-deployment-job))
 (common-lisp:progn
  (common-lisp:defun describe-fleet
@@ -13880,7 +13880,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/describeFleet"
                                                         "DescribeFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-fleet))
 (common-lisp:progn
  (common-lisp:defun describe-robot
@@ -13897,7 +13897,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/describeRobot"
                                                         "DescribeRobot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-robot))
 (common-lisp:progn
  (common-lisp:defun describe-robot-application
@@ -13917,7 +13917,7 @@
                                                         "POST"
                                                         "/describeRobotApplication"
                                                         "DescribeRobotApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-robot-application))
 (common-lisp:progn
  (common-lisp:defun describe-simulation-application
@@ -13937,7 +13937,7 @@
                                                         "POST"
                                                         "/describeSimulationApplication"
                                                         "DescribeSimulationApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-simulation-application))
 (common-lisp:progn
  (common-lisp:defun describe-simulation-job
@@ -13955,7 +13955,7 @@
                                                         "POST"
                                                         "/describeSimulationJob"
                                                         "DescribeSimulationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-simulation-job))
 (common-lisp:progn
  (common-lisp:defun describe-simulation-job-batch
@@ -13974,7 +13974,7 @@
                                                         "POST"
                                                         "/describeSimulationJobBatch"
                                                         "DescribeSimulationJobBatch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-simulation-job-batch))
 (common-lisp:progn
  (common-lisp:defun describe-world
@@ -13991,7 +13991,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/describeWorld"
                                                         "DescribeWorld"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-world))
 (common-lisp:progn
  (common-lisp:defun describe-world-export-job
@@ -14010,7 +14010,7 @@
                                                         "POST"
                                                         "/describeWorldExportJob"
                                                         "DescribeWorldExportJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-world-export-job))
 (common-lisp:progn
  (common-lisp:defun describe-world-generation-job
@@ -14029,7 +14029,7 @@
                                                         "POST"
                                                         "/describeWorldGenerationJob"
                                                         "DescribeWorldGenerationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-world-generation-job))
 (common-lisp:progn
  (common-lisp:defun describe-world-template
@@ -14047,7 +14047,7 @@
                                                         "POST"
                                                         "/describeWorldTemplate"
                                                         "DescribeWorldTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-world-template))
 (common-lisp:progn
  (common-lisp:defun get-world-template-body
@@ -14065,7 +14065,7 @@
                                                         "POST"
                                                         "/getWorldTemplateBody"
                                                         "GetWorldTemplateBody"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-world-template-body))
 (common-lisp:progn
  (common-lisp:defun list-deployment-jobs
@@ -14083,7 +14083,7 @@
                                                         "POST"
                                                         "/listDeploymentJobs"
                                                         "ListDeploymentJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-deployment-jobs))
 (common-lisp:progn
  (common-lisp:defun list-fleets
@@ -14100,7 +14100,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/listFleets"
                                                         "ListFleets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-fleets))
 (common-lisp:progn
  (common-lisp:defun list-robot-applications
@@ -14120,7 +14120,7 @@
                                                         "POST"
                                                         "/listRobotApplications"
                                                         "ListRobotApplications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-robot-applications))
 (common-lisp:progn
  (common-lisp:defun list-robots
@@ -14137,7 +14137,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/listRobots"
                                                         "ListRobots"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-robots))
 (common-lisp:progn
  (common-lisp:defun list-simulation-applications
@@ -14158,7 +14158,7 @@
                                                         "POST"
                                                         "/listSimulationApplications"
                                                         "ListSimulationApplications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-simulation-applications))
 (common-lisp:progn
  (common-lisp:defun list-simulation-job-batches
@@ -14177,7 +14177,7 @@
                                                         "POST"
                                                         "/listSimulationJobBatches"
                                                         "ListSimulationJobBatches"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-simulation-job-batches))
 (common-lisp:progn
  (common-lisp:defun list-simulation-jobs
@@ -14195,7 +14195,7 @@
                                                         "POST"
                                                         "/listSimulationJobs"
                                                         "ListSimulationJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-simulation-jobs))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -14222,7 +14222,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-world-export-jobs
@@ -14240,7 +14240,7 @@
                                                         "POST"
                                                         "/listWorldExportJobs"
                                                         "ListWorldExportJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-world-export-jobs))
 (common-lisp:progn
  (common-lisp:defun list-world-generation-jobs
@@ -14259,7 +14259,7 @@
                                                         "POST"
                                                         "/listWorldGenerationJobs"
                                                         "ListWorldGenerationJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-world-generation-jobs))
 (common-lisp:progn
  (common-lisp:defun list-world-templates
@@ -14277,7 +14277,7 @@
                                                         "POST"
                                                         "/listWorldTemplates"
                                                         "ListWorldTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-world-templates))
 (common-lisp:progn
  (common-lisp:defun list-worlds
@@ -14294,7 +14294,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/listWorlds"
                                                         "ListWorlds"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-worlds))
 (common-lisp:progn
  (common-lisp:defun register-robot
@@ -14311,7 +14311,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/registerRobot"
                                                         "RegisterRobot"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-robot))
 (common-lisp:progn
  (common-lisp:defun restart-simulation-job
@@ -14329,7 +14329,7 @@
                                                         "POST"
                                                         "/restartSimulationJob"
                                                         "RestartSimulationJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'restart-simulation-job))
 (common-lisp:progn
  (common-lisp:defun start-simulation-job-batch
@@ -14351,7 +14351,7 @@
                                                         "POST"
                                                         "/startSimulationJobBatch"
                                                         "StartSimulationJobBatch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-simulation-job-batch))
 (common-lisp:progn
  (common-lisp:defun sync-deployment-job
@@ -14369,7 +14369,7 @@
                                                         "POST"
                                                         "/syncDeploymentJob"
                                                         "SyncDeploymentJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'sync-deployment-job))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -14396,7 +14396,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -14423,7 +14423,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-robot-application
@@ -14444,7 +14444,7 @@
                                                         "POST"
                                                         "/updateRobotApplication"
                                                         "UpdateRobotApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-robot-application))
 (common-lisp:progn
  (common-lisp:defun update-simulation-application
@@ -14467,7 +14467,7 @@
                                                         "POST"
                                                         "/updateSimulationApplication"
                                                         "UpdateSimulationApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-simulation-application))
 (common-lisp:progn
  (common-lisp:defun update-world-template
@@ -14487,5 +14487,5 @@
                                                         "POST"
                                                         "/updateWorldTemplate"
                                                         "UpdateWorldTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-world-template))

@@ -1894,7 +1894,7 @@
                                 aws-sdk/generator/operation::input
                                 'device-template-name))))
         "AssociateDeviceWithPlacement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-device-with-placement))
 (common-lisp:progn
  (common-lisp:defun create-placement
@@ -1917,7 +1917,7 @@
                                 aws-sdk/generator/operation::input
                                 'project-name))))
         "CreatePlacement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-placement))
 (common-lisp:progn
  (common-lisp:defun create-project
@@ -1935,7 +1935,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'iot1click-projects-request aws-sdk/generator/operation::input "POST"
         "/projects" "CreateProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-project))
 (common-lisp:progn
  (common-lisp:defun delete-placement
@@ -1961,7 +1961,7 @@
                                 aws-sdk/generator/operation::input
                                 'placement-name))))
         "DeletePlacement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-placement))
 (common-lisp:progn
  (common-lisp:defun delete-project
@@ -1983,7 +1983,7 @@
                                 aws-sdk/generator/operation::input
                                 'project-name))))
         "DeleteProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-project))
 (common-lisp:progn
  (common-lisp:defun describe-placement
@@ -2009,7 +2009,7 @@
                                 aws-sdk/generator/operation::input
                                 'placement-name))))
         "DescribePlacement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-placement))
 (common-lisp:progn
  (common-lisp:defun describe-project
@@ -2031,7 +2031,7 @@
                                 aws-sdk/generator/operation::input
                                 'project-name))))
         "DescribeProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-project))
 (common-lisp:progn
  (common-lisp:defun disassociate-device-from-placement
@@ -2065,7 +2065,7 @@
                                 aws-sdk/generator/operation::input
                                 'device-template-name))))
         "DisassociateDeviceFromPlacement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-device-from-placement))
 (common-lisp:progn
  (common-lisp:defun get-devices-in-placement
@@ -2092,7 +2092,7 @@
                                 aws-sdk/generator/operation::input
                                 'placement-name))))
         "GetDevicesInPlacement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-devices-in-placement))
 (common-lisp:progn
  (common-lisp:defun list-placements
@@ -2115,7 +2115,7 @@
                                 aws-sdk/generator/operation::input
                                 'project-name))))
         "ListPlacements"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-placements))
 (common-lisp:progn
  (common-lisp:defun list-projects
@@ -2131,7 +2131,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'iot1click-projects-request aws-sdk/generator/operation::input "GET"
         "/projects" "ListProjects"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-projects))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -2153,7 +2153,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -2175,7 +2175,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -2197,7 +2197,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-placement
@@ -2224,7 +2224,7 @@
                                 aws-sdk/generator/operation::input
                                 'placement-name))))
         "UpdatePlacement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-placement))
 (common-lisp:progn
  (common-lisp:defun update-project
@@ -2248,5 +2248,5 @@
                                 aws-sdk/generator/operation::input
                                 'project-name))))
         "UpdateProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-project))

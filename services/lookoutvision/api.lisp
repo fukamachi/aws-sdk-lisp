@@ -1392,7 +1392,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           detect-anomalies-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          detect-anomalies-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass detect-anomalies-response common-lisp:nil
                        ((detect-anomaly-result :initarg :detect-anomaly-result
@@ -4206,7 +4212,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project-name))))
                                                         "CreateDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-dataset))
 (common-lisp:progn
  (common-lisp:defun create-model
@@ -4236,7 +4242,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project-name))))
                                                         "CreateModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-model))
 (common-lisp:progn
  (common-lisp:defun create-project
@@ -4254,7 +4260,7 @@
                                                         "POST"
                                                         "/2020-11-20/projects"
                                                         "CreateProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-project))
 (common-lisp:progn
  (common-lisp:defun delete-dataset
@@ -4286,7 +4292,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataset-type))))
                                                         "DeleteDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-dataset))
 (common-lisp:progn
  (common-lisp:defun delete-model
@@ -4318,7 +4324,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'model-version))))
                                                         "DeleteModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-model))
 (common-lisp:progn
  (common-lisp:defun delete-project
@@ -4345,7 +4351,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project-name))))
                                                         "DeleteProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-project))
 (common-lisp:progn
  (common-lisp:defun describe-dataset
@@ -4376,7 +4382,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataset-type))))
                                                         "DescribeDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-dataset))
 (common-lisp:progn
  (common-lisp:defun describe-model
@@ -4407,7 +4413,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'model-version))))
                                                         "DescribeModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-model))
 (common-lisp:progn
  (common-lisp:defun describe-model-packaging-job
@@ -4439,7 +4445,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-name))))
                                                         "DescribeModelPackagingJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-model-packaging-job))
 (common-lisp:progn
  (common-lisp:defun describe-project
@@ -4466,7 +4472,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project-name))))
                                                         "DescribeProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-project))
 (common-lisp:progn
  (common-lisp:defun detect-anomalies
@@ -4499,7 +4505,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'model-version))))
                                                         "DetectAnomalies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detect-anomalies))
 (common-lisp:progn
  (common-lisp:defun list-dataset-entries
@@ -4535,7 +4541,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataset-type))))
                                                         "ListDatasetEntries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-dataset-entries))
 (common-lisp:progn
  (common-lisp:defun list-model-packaging-jobs
@@ -4564,7 +4570,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project-name))))
                                                         "ListModelPackagingJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-model-packaging-jobs))
 (common-lisp:progn
  (common-lisp:defun list-models
@@ -4592,7 +4598,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project-name))))
                                                         "ListModels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-models))
 (common-lisp:progn
  (common-lisp:defun list-projects
@@ -4610,7 +4616,7 @@
                                                         "GET"
                                                         "/2020-11-20/projects"
                                                         "ListProjects"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-projects))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -4637,7 +4643,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun start-model
@@ -4671,7 +4677,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'model-version))))
                                                         "StartModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-model))
 (common-lisp:progn
  (common-lisp:defun start-model-packaging-job
@@ -4702,7 +4708,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'project-name))))
                                                         "StartModelPackagingJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-model-packaging-job))
 (common-lisp:progn
  (common-lisp:defun stop-model
@@ -4734,7 +4740,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'model-version))))
                                                         "StopModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-model))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4761,7 +4767,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4788,7 +4794,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-dataset-entries
@@ -4821,5 +4827,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataset-type))))
                                                         "UpdateDatasetEntries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-dataset-entries))

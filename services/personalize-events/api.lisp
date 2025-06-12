@@ -824,7 +824,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'personalize-events-request aws-sdk/generator/operation::input "POST"
         "/action-interactions" "PutActionInteractions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-action-interactions))
 (common-lisp:progn
  (common-lisp:defun put-actions
@@ -840,7 +840,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'personalize-events-request aws-sdk/generator/operation::input "POST"
         "/actions" "PutActions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-actions))
 (common-lisp:progn
  (common-lisp:defun put-events
@@ -858,7 +858,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'personalize-events-request aws-sdk/generator/operation::input "POST"
         "/events" "PutEvents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-events))
 (common-lisp:progn
  (common-lisp:defun put-items
@@ -874,7 +874,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'personalize-events-request aws-sdk/generator/operation::input "POST"
         "/items" "PutItems"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-items))
 (common-lisp:progn
  (common-lisp:defun put-users
@@ -890,5 +890,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'personalize-events-request aws-sdk/generator/operation::input "POST"
         "/users" "PutUsers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-users))

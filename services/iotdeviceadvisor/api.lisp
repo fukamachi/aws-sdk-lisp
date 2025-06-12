@@ -2584,7 +2584,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'iotdeviceadvisor-request aws-sdk/generator/operation::input "POST"
         "/suiteDefinitions" "CreateSuiteDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-suite-definition))
 (common-lisp:progn
  (common-lisp:defun delete-suite-definition
@@ -2606,7 +2606,7 @@
                                 aws-sdk/generator/operation::input
                                 'suite-definition-id))))
         "DeleteSuiteDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-suite-definition))
 (common-lisp:progn
  (common-lisp:defun get-endpoint
@@ -2625,7 +2625,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'iotdeviceadvisor-request aws-sdk/generator/operation::input "GET"
         "/endpoint" "GetEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-endpoint))
 (common-lisp:progn
  (common-lisp:defun get-suite-definition
@@ -2649,7 +2649,7 @@
                                 aws-sdk/generator/operation::input
                                 'suite-definition-id))))
         "GetSuiteDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-suite-definition))
 (common-lisp:progn
  (common-lisp:defun get-suite-run
@@ -2677,7 +2677,7 @@
                                 aws-sdk/generator/operation::input
                                 'suite-run-id))))
         "GetSuiteRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-suite-run))
 (common-lisp:progn
  (common-lisp:defun get-suite-run-report
@@ -2705,7 +2705,7 @@
                                 aws-sdk/generator/operation::input
                                 'suite-run-id))))
         "GetSuiteRunReport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-suite-run-report))
 (common-lisp:progn
  (common-lisp:defun list-suite-definitions
@@ -2721,7 +2721,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'iotdeviceadvisor-request aws-sdk/generator/operation::input "GET"
         "/suiteDefinitions" "ListSuiteDefinitions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-suite-definitions))
 (common-lisp:progn
  (common-lisp:defun list-suite-runs
@@ -2740,7 +2740,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'iotdeviceadvisor-request aws-sdk/generator/operation::input "GET"
         "/suiteRuns" "ListSuiteRuns"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-suite-runs))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -2762,7 +2762,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun start-suite-run
@@ -2787,7 +2787,7 @@
                                 aws-sdk/generator/operation::input
                                 'suite-definition-id))))
         "StartSuiteRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-suite-run))
 (common-lisp:progn
  (common-lisp:defun stop-suite-run
@@ -2815,7 +2815,7 @@
                                 aws-sdk/generator/operation::input
                                 'suite-run-id))))
         "StopSuiteRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-suite-run))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -2837,7 +2837,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -2859,7 +2859,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-suite-definition
@@ -2883,5 +2883,5 @@
                                 aws-sdk/generator/operation::input
                                 'suite-definition-id))))
         "UpdateSuiteDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-suite-definition))

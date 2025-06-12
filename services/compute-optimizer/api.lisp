@@ -10864,7 +10864,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'compute-optimizer-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteRecommendationPreferences"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-recommendation-preferences))
 (common-lisp:progn
  (common-lisp:defun describe-recommendation-export-jobs
@@ -10882,7 +10882,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'compute-optimizer-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeRecommendationExportJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-recommendation-export-jobs))
 (common-lisp:progn
  (common-lisp:defun export-auto-scaling-group-recommendations
@@ -10904,7 +10904,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'compute-optimizer-request aws-sdk/generator/operation::input "POST"
         "/" "ExportAutoScalingGroupRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'export-auto-scaling-group-recommendations))
 (common-lisp:progn
  (common-lisp:defun export-ebsvolume-recommendations
@@ -10924,7 +10924,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'compute-optimizer-request aws-sdk/generator/operation::input "POST"
         "/" "ExportEBSVolumeRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'export-ebsvolume-recommendations))
 (common-lisp:progn
  (common-lisp:defun export-ec2instance-recommendations
@@ -10946,7 +10946,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'compute-optimizer-request aws-sdk/generator/operation::input "POST"
         "/" "ExportEC2InstanceRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'export-ec2instance-recommendations))
 (common-lisp:progn
  (common-lisp:defun export-ecsservice-recommendations
@@ -10966,7 +10966,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'compute-optimizer-request aws-sdk/generator/operation::input "POST"
         "/" "ExportECSServiceRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'export-ecsservice-recommendations))
 (common-lisp:progn
  (common-lisp:defun export-lambda-function-recommendations
@@ -10986,7 +10986,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'compute-optimizer-request aws-sdk/generator/operation::input "POST"
         "/" "ExportLambdaFunctionRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'export-lambda-function-recommendations))
 (common-lisp:progn
  (common-lisp:defun export-license-recommendations
@@ -11006,7 +11006,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'compute-optimizer-request aws-sdk/generator/operation::input "POST"
         "/" "ExportLicenseRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'export-license-recommendations))
 (common-lisp:progn
  (common-lisp:defun get-auto-scaling-group-recommendations
@@ -11026,7 +11026,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'compute-optimizer-request aws-sdk/generator/operation::input "POST"
         "/" "GetAutoScalingGroupRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-auto-scaling-group-recommendations))
 (common-lisp:progn
  (common-lisp:defun get-ebsvolume-recommendations
@@ -11046,7 +11046,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'compute-optimizer-request aws-sdk/generator/operation::input "POST"
         "/" "GetEBSVolumeRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-ebsvolume-recommendations))
 (common-lisp:progn
  (common-lisp:defun get-ec2instance-recommendations
@@ -11066,7 +11066,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'compute-optimizer-request aws-sdk/generator/operation::input "POST"
         "/" "GetEC2InstanceRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-ec2instance-recommendations))
 (common-lisp:progn
  (common-lisp:defun get-ec2recommendation-projected-metrics
@@ -11086,7 +11086,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'compute-optimizer-request aws-sdk/generator/operation::input "POST"
         "/" "GetEC2RecommendationProjectedMetrics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-ec2recommendation-projected-metrics))
 (common-lisp:progn
  (common-lisp:defun get-ecsservice-recommendation-projected-metrics
@@ -11105,7 +11105,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'compute-optimizer-request aws-sdk/generator/operation::input "POST"
         "/" "GetECSServiceRecommendationProjectedMetrics"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-ecsservice-recommendation-projected-metrics))
 (common-lisp:progn
  (common-lisp:defun get-ecsservice-recommendations
@@ -11125,7 +11125,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'compute-optimizer-request aws-sdk/generator/operation::input "POST"
         "/" "GetECSServiceRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-ecsservice-recommendations))
 (common-lisp:progn
  (common-lisp:defun get-effective-recommendation-preferences
@@ -11142,7 +11142,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'compute-optimizer-request aws-sdk/generator/operation::input "POST"
         "/" "GetEffectiveRecommendationPreferences"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-effective-recommendation-preferences))
 (common-lisp:progn
  (common-lisp:defun get-enrollment-status ()
@@ -11167,7 +11167,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'compute-optimizer-request aws-sdk/generator/operation::input "POST"
         "/" "GetEnrollmentStatusesForOrganization"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-enrollment-statuses-for-organization))
 (common-lisp:progn
  (common-lisp:defun get-lambda-function-recommendations
@@ -11187,7 +11187,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'compute-optimizer-request aws-sdk/generator/operation::input "POST"
         "/" "GetLambdaFunctionRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-lambda-function-recommendations))
 (common-lisp:progn
  (common-lisp:defun get-license-recommendations
@@ -11207,7 +11207,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'compute-optimizer-request aws-sdk/generator/operation::input "POST"
         "/" "GetLicenseRecommendations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-license-recommendations))
 (common-lisp:progn
  (common-lisp:defun get-recommendation-preferences
@@ -11226,7 +11226,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'compute-optimizer-request aws-sdk/generator/operation::input "POST"
         "/" "GetRecommendationPreferences"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-recommendation-preferences))
 (common-lisp:progn
  (common-lisp:defun get-recommendation-summaries
@@ -11244,7 +11244,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'compute-optimizer-request aws-sdk/generator/operation::input "POST"
         "/" "GetRecommendationSummaries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-recommendation-summaries))
 (common-lisp:progn
  (common-lisp:defun put-recommendation-preferences
@@ -11268,7 +11268,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'compute-optimizer-request aws-sdk/generator/operation::input "POST"
         "/" "PutRecommendationPreferences"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-recommendation-preferences))
 (common-lisp:progn
  (common-lisp:defun update-enrollment-status
@@ -11284,5 +11284,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'compute-optimizer-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateEnrollmentStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-enrollment-status))

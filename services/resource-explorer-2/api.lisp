@@ -2722,7 +2722,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-explorer-2-request aws-sdk/generator/operation::input "POST"
         "/AssociateDefaultView" "AssociateDefaultView"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-default-view))
 (common-lisp:progn
  (common-lisp:defun batch-get-view
@@ -2738,7 +2738,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-explorer-2-request aws-sdk/generator/operation::input "POST"
         "/BatchGetView" "BatchGetView"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-view))
 (common-lisp:progn
  (common-lisp:defun create-index
@@ -2754,7 +2754,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-explorer-2-request aws-sdk/generator/operation::input "POST"
         "/CreateIndex" "CreateIndex"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-index))
 (common-lisp:progn
  (common-lisp:defun create-view
@@ -2773,7 +2773,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-explorer-2-request aws-sdk/generator/operation::input "POST"
         "/CreateView" "CreateView"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-view))
 (common-lisp:progn
  (common-lisp:defun delete-index
@@ -2789,7 +2789,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-explorer-2-request aws-sdk/generator/operation::input "POST"
         "/DeleteIndex" "DeleteIndex"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-index))
 (common-lisp:progn
  (common-lisp:defun delete-view
@@ -2805,7 +2805,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-explorer-2-request aws-sdk/generator/operation::input "POST"
         "/DeleteView" "DeleteView"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-view))
 (common-lisp:progn
  (common-lisp:defun disassociate-default-view ()
@@ -2857,7 +2857,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-explorer-2-request aws-sdk/generator/operation::input "POST"
         "/GetView" "GetView"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-view))
 (common-lisp:progn
  (common-lisp:defun list-indexes
@@ -2874,7 +2874,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-explorer-2-request aws-sdk/generator/operation::input "POST"
         "/ListIndexes" "ListIndexes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-indexes))
 (common-lisp:progn
  (common-lisp:defun list-indexes-for-members
@@ -2891,7 +2891,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-explorer-2-request aws-sdk/generator/operation::input "POST"
         "/ListIndexesForMembers" "ListIndexesForMembers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-indexes-for-members))
 (common-lisp:progn
  (common-lisp:defun list-supported-resource-types
@@ -2908,7 +2908,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-explorer-2-request aws-sdk/generator/operation::input "POST"
         "/ListSupportedResourceTypes" "ListSupportedResourceTypes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-supported-resource-types))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -2930,7 +2930,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-views
@@ -2946,7 +2946,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-explorer-2-request aws-sdk/generator/operation::input "POST"
         "/ListViews" "ListViews"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-views))
 (common-lisp:progn
  (common-lisp:defun search
@@ -2964,7 +2964,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-explorer-2-request aws-sdk/generator/operation::input "POST"
         "/Search" "Search"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -2986,7 +2986,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3009,7 +3009,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-index-type
@@ -3025,7 +3025,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-explorer-2-request aws-sdk/generator/operation::input "POST"
         "/UpdateIndexType" "UpdateIndexType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-index-type))
 (common-lisp:progn
  (common-lisp:defun update-view
@@ -3042,5 +3042,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'resource-explorer-2-request aws-sdk/generator/operation::input "POST"
         "/UpdateView" "UpdateView"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-view))

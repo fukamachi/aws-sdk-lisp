@@ -744,7 +744,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           invoke-agent-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'completion)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'completion))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          invoke-agent-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:deftype kms-key-arn () 'common-lisp:string)
 (common-lisp:deftype knowledge-base-id () 'common-lisp:string)
 (common-lisp:progn
@@ -3158,7 +3164,7 @@
                                 aws-sdk/generator/operation::input
                                 'session-id))))
         "InvokeAgent"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'invoke-agent))
 (common-lisp:progn
  (common-lisp:defun retrieve
@@ -3184,7 +3190,7 @@
                                 aws-sdk/generator/operation::input
                                 'knowledge-base-id))))
         "Retrieve"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'retrieve))
 (common-lisp:progn
  (common-lisp:defun retrieve-and-generate
@@ -3203,5 +3209,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'bedrock-agent-runtime-request aws-sdk/generator/operation::input
         "POST" "/retrieveAndGenerate" "RetrieveAndGenerate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'retrieve-and-generate))

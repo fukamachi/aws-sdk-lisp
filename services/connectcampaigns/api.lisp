@@ -2728,7 +2728,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'connectcampaigns-request aws-sdk/generator/operation::input "PUT"
         "/campaigns" "CreateCampaign"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-campaign))
 (common-lisp:progn
  (common-lisp:defun delete-campaign
@@ -2749,7 +2749,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "DeleteCampaign"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-campaign))
 (common-lisp:progn
  (common-lisp:defun delete-connect-instance-config
@@ -2772,7 +2772,7 @@
                                 aws-sdk/generator/operation::input
                                 'connect-instance-id))))
         "DeleteConnectInstanceConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-connect-instance-config))
 (common-lisp:progn
  (common-lisp:defun delete-instance-onboarding-job
@@ -2795,7 +2795,7 @@
                                 aws-sdk/generator/operation::input
                                 'connect-instance-id))))
         "DeleteInstanceOnboardingJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-instance-onboarding-job))
 (common-lisp:progn
  (common-lisp:defun describe-campaign
@@ -2816,7 +2816,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "DescribeCampaign"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-campaign))
 (common-lisp:progn
  (common-lisp:defun get-campaign-state
@@ -2837,7 +2837,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "GetCampaignState"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-campaign-state))
 (common-lisp:progn
  (common-lisp:defun get-campaign-state-batch
@@ -2853,7 +2853,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'connectcampaigns-request aws-sdk/generator/operation::input "POST"
         "/campaigns-state" "GetCampaignStateBatch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-campaign-state-batch))
 (common-lisp:progn
  (common-lisp:defun get-connect-instance-config
@@ -2876,7 +2876,7 @@
                                 aws-sdk/generator/operation::input
                                 'connect-instance-id))))
         "GetConnectInstanceConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-connect-instance-config))
 (common-lisp:progn
  (common-lisp:defun get-instance-onboarding-job-status
@@ -2899,7 +2899,7 @@
                                 aws-sdk/generator/operation::input
                                 'connect-instance-id))))
         "GetInstanceOnboardingJobStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-instance-onboarding-job-status))
 (common-lisp:progn
  (common-lisp:defun list-campaigns
@@ -2915,7 +2915,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'connectcampaigns-request aws-sdk/generator/operation::input "POST"
         "/campaigns-summary" "ListCampaigns"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-campaigns))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -2936,7 +2936,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun pause-campaign
@@ -2957,7 +2957,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "PauseCampaign"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'pause-campaign))
 (common-lisp:progn
  (common-lisp:defun put-dial-request-batch
@@ -2978,7 +2978,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "PutDialRequestBatch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-dial-request-batch))
 (common-lisp:progn
  (common-lisp:defun resume-campaign
@@ -2999,7 +2999,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "ResumeCampaign"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'resume-campaign))
 (common-lisp:progn
  (common-lisp:defun start-campaign
@@ -3020,7 +3020,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "StartCampaign"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-campaign))
 (common-lisp:progn
  (common-lisp:defun start-instance-onboarding-job
@@ -3044,7 +3044,7 @@
                                 aws-sdk/generator/operation::input
                                 'connect-instance-id))))
         "StartInstanceOnboardingJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-instance-onboarding-job))
 (common-lisp:progn
  (common-lisp:defun stop-campaign
@@ -3065,7 +3065,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "StopCampaign"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-campaign))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3086,7 +3086,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3107,7 +3107,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-campaign-dialer-config
@@ -3129,7 +3129,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "UpdateCampaignDialerConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-campaign-dialer-config))
 (common-lisp:progn
  (common-lisp:defun update-campaign-name
@@ -3150,7 +3150,7 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "UpdateCampaignName"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-campaign-name))
 (common-lisp:progn
  (common-lisp:defun update-campaign-outbound-call-config
@@ -3177,5 +3177,5 @@
                                (common-lisp:slot-value
                                 aws-sdk/generator/operation::input 'id))))
         "UpdateCampaignOutboundCallConfig"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-campaign-outbound-call-config))

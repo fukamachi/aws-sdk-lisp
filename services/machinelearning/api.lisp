@@ -6314,7 +6314,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "AddTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-tags))
 (common-lisp:progn
  (common-lisp:defun create-batch-prediction
@@ -6333,7 +6333,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "CreateBatchPrediction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-batch-prediction))
 (common-lisp:progn
  (common-lisp:defun create-data-source-from-rds
@@ -6352,7 +6352,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "CreateDataSourceFromRDS"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-data-source-from-rds))
 (common-lisp:progn
  (common-lisp:defun create-data-source-from-redshift
@@ -6372,7 +6372,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "CreateDataSourceFromRedshift"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-data-source-from-redshift))
 (common-lisp:progn
  (common-lisp:defun create-data-source-from-s3
@@ -6391,7 +6391,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "CreateDataSourceFromS3"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-data-source-from-s3))
 (common-lisp:progn
  (common-lisp:defun create-evaluation
@@ -6410,7 +6410,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "CreateEvaluation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-evaluation))
 (common-lisp:progn
  (common-lisp:defun create-mlmodel
@@ -6429,7 +6429,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "CreateMLModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-mlmodel))
 (common-lisp:progn
  (common-lisp:defun create-realtime-endpoint
@@ -6445,7 +6445,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "CreateRealtimeEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-realtime-endpoint))
 (common-lisp:progn
  (common-lisp:defun delete-batch-prediction
@@ -6461,7 +6461,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteBatchPrediction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-batch-prediction))
 (common-lisp:progn
  (common-lisp:defun delete-data-source
@@ -6477,7 +6477,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteDataSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-data-source))
 (common-lisp:progn
  (common-lisp:defun delete-evaluation
@@ -6493,7 +6493,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteEvaluation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-evaluation))
 (common-lisp:progn
  (common-lisp:defun delete-mlmodel
@@ -6509,7 +6509,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteMLModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-mlmodel))
 (common-lisp:progn
  (common-lisp:defun delete-realtime-endpoint
@@ -6525,7 +6525,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteRealtimeEndpoint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-realtime-endpoint))
 (common-lisp:progn
  (common-lisp:defun delete-tags
@@ -6542,7 +6542,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "DeleteTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-tags))
 (common-lisp:progn
  (common-lisp:defun describe-batch-predictions
@@ -6561,7 +6561,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeBatchPredictions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-batch-predictions))
 (common-lisp:progn
  (common-lisp:defun describe-data-sources
@@ -6580,7 +6580,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeDataSources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-data-sources))
 (common-lisp:progn
  (common-lisp:defun describe-evaluations
@@ -6599,7 +6599,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeEvaluations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-evaluations))
 (common-lisp:progn
  (common-lisp:defun describe-mlmodels
@@ -6618,7 +6618,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeMLModels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-mlmodels))
 (common-lisp:progn
  (common-lisp:defun describe-tags
@@ -6634,7 +6634,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "DescribeTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-tags))
 (common-lisp:progn
  (common-lisp:defun get-batch-prediction
@@ -6650,7 +6650,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "GetBatchPrediction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-batch-prediction))
 (common-lisp:progn
  (common-lisp:defun get-data-source
@@ -6666,7 +6666,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "GetDataSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-data-source))
 (common-lisp:progn
  (common-lisp:defun get-evaluation
@@ -6682,7 +6682,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "GetEvaluation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-evaluation))
 (common-lisp:progn
  (common-lisp:defun get-mlmodel
@@ -6698,7 +6698,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "GetMLModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-mlmodel))
 (common-lisp:progn
  (common-lisp:defun predict
@@ -6715,7 +6715,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "Predict"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'predict))
 (common-lisp:progn
  (common-lisp:defun update-batch-prediction
@@ -6733,7 +6733,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateBatchPrediction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-batch-prediction))
 (common-lisp:progn
  (common-lisp:defun update-data-source
@@ -6750,7 +6750,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateDataSource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-data-source))
 (common-lisp:progn
  (common-lisp:defun update-evaluation
@@ -6766,7 +6766,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateEvaluation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-evaluation))
 (common-lisp:progn
  (common-lisp:defun update-mlmodel
@@ -6783,5 +6783,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'machinelearning-request aws-sdk/generator/operation::input "POST" "/"
         "UpdateMLModel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-mlmodel))

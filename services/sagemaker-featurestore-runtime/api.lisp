@@ -876,7 +876,7 @@
         'sagemaker-featurestore-runtime-request
         aws-sdk/generator/operation::input "POST" "/BatchGetRecord"
         "BatchGetRecord"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-record))
 (common-lisp:progn
  (common-lisp:defun delete-record
@@ -903,7 +903,7 @@
                                 aws-sdk/generator/operation::input
                                 'feature-group-name))))
         "DeleteRecord"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-record))
 (common-lisp:progn
  (common-lisp:defun get-record
@@ -930,7 +930,7 @@
                                 aws-sdk/generator/operation::input
                                 'feature-group-name))))
         "GetRecord"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-record))
 (common-lisp:progn
  (common-lisp:defun put-record
@@ -956,5 +956,5 @@
                                 aws-sdk/generator/operation::input
                                 'feature-group-name))))
         "PutRecord"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-record))

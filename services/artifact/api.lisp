@@ -1239,7 +1239,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/report/get"
                                                         "GetReport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-report))
 (common-lisp:progn
  (common-lisp:defun get-report-metadata
@@ -1257,7 +1257,7 @@
                                                         "GET"
                                                         "/v1/report/getMetadata"
                                                         "GetReportMetadata"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-report-metadata))
 (common-lisp:progn
  (common-lisp:defun get-term-for-report
@@ -1275,7 +1275,7 @@
                                                         "GET"
                                                         "/v1/report/getTermForReport"
                                                         "GetTermForReport"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-term-for-report))
 (common-lisp:progn
  (common-lisp:defun list-reports
@@ -1292,7 +1292,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/report/list"
                                                         "ListReports"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-reports))
 (common-lisp:progn
  (common-lisp:defun put-account-settings
@@ -1311,5 +1311,5 @@
                                                         "PUT"
                                                         "/v1/account-settings/put"
                                                         "PutAccountSettings"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-account-settings))

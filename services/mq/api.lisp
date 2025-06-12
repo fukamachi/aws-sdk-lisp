@@ -7889,7 +7889,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/v1/brokers"
                                                         "CreateBroker"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-broker))
 (common-lisp:progn
  (common-lisp:defun create-configuration
@@ -7910,7 +7910,7 @@
                                                         "POST"
                                                         "/v1/configurations"
                                                         "CreateConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-configuration))
 (common-lisp:progn
  (common-lisp:defun create-tags
@@ -7937,7 +7937,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "CreateTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-tags))
 (common-lisp:progn
  (common-lisp:defun create-user
@@ -7971,7 +7971,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'username))))
                                                         "CreateUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-user))
 (common-lisp:progn
  (common-lisp:defun delete-broker
@@ -7998,7 +7998,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'broker-id))))
                                                         "DeleteBroker"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-broker))
 (common-lisp:progn
  (common-lisp:defun delete-tags
@@ -8025,7 +8025,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "DeleteTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-tags))
 (common-lisp:progn
  (common-lisp:defun delete-user
@@ -8056,7 +8056,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'username))))
                                                         "DeleteUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-user))
 (common-lisp:progn
  (common-lisp:defun describe-broker
@@ -8083,7 +8083,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'broker-id))))
                                                         "DescribeBroker"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-broker))
 (common-lisp:progn
  (common-lisp:defun describe-broker-engine-types
@@ -8103,7 +8103,7 @@
                                                         "GET"
                                                         "/v1/broker-engine-types"
                                                         "DescribeBrokerEngineTypes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-broker-engine-types))
 (common-lisp:progn
  (common-lisp:defun describe-broker-instance-options
@@ -8125,7 +8125,7 @@
                                                         "GET"
                                                         "/v1/broker-instance-options"
                                                         "DescribeBrokerInstanceOptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-broker-instance-options))
 (common-lisp:progn
  (common-lisp:defun describe-configuration
@@ -8152,7 +8152,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-id))))
                                                         "DescribeConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-configuration-revision
@@ -8185,7 +8185,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-revision))))
                                                         "DescribeConfigurationRevision"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-configuration-revision))
 (common-lisp:progn
  (common-lisp:defun describe-user
@@ -8216,7 +8216,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'username))))
                                                         "DescribeUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-user))
 (common-lisp:progn
  (common-lisp:defun list-brokers
@@ -8233,7 +8233,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/v1/brokers"
                                                         "ListBrokers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-brokers))
 (common-lisp:progn
  (common-lisp:defun list-configuration-revisions
@@ -8262,7 +8262,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-id))))
                                                         "ListConfigurationRevisions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-configuration-revisions))
 (common-lisp:progn
  (common-lisp:defun list-configurations
@@ -8280,7 +8280,7 @@
                                                         "GET"
                                                         "/v1/configurations"
                                                         "ListConfigurations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-configurations))
 (common-lisp:progn
  (common-lisp:defun list-tags
@@ -8307,7 +8307,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags))
 (common-lisp:progn
  (common-lisp:defun list-users
@@ -8335,7 +8335,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'broker-id))))
                                                         "ListUsers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-users))
 (common-lisp:progn
  (common-lisp:defun promote
@@ -8362,7 +8362,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'broker-id))))
                                                         "Promote"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'promote))
 (common-lisp:progn
  (common-lisp:defun reboot-broker
@@ -8389,7 +8389,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'broker-id))))
                                                         "RebootBroker"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reboot-broker))
 (common-lisp:progn
  (common-lisp:defun update-broker
@@ -8424,7 +8424,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'broker-id))))
                                                         "UpdateBroker"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-broker))
 (common-lisp:progn
  (common-lisp:defun update-configuration
@@ -8452,7 +8452,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'configuration-id))))
                                                         "UpdateConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-configuration))
 (common-lisp:progn
  (common-lisp:defun update-user
@@ -8486,5 +8486,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'username))))
                                                         "UpdateUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-user))

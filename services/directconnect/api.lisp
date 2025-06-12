@@ -9829,7 +9829,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AcceptDirectConnectGatewayAssociationProposal"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'accept-direct-connect-gateway-association-proposal))
 (common-lisp:progn
  (common-lisp:defun allocate-connection-on-interconnect
@@ -9850,7 +9850,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AllocateConnectionOnInterconnect"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'allocate-connection-on-interconnect))
 (common-lisp:progn
  (common-lisp:defun allocate-hosted-connection
@@ -9871,7 +9871,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AllocateHostedConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'allocate-hosted-connection))
 (common-lisp:progn
  (common-lisp:defun allocate-private-virtual-interface
@@ -9892,7 +9892,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AllocatePrivateVirtualInterface"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'allocate-private-virtual-interface))
 (common-lisp:progn
  (common-lisp:defun allocate-public-virtual-interface
@@ -9913,7 +9913,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AllocatePublicVirtualInterface"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'allocate-public-virtual-interface))
 (common-lisp:progn
  (common-lisp:defun allocate-transit-virtual-interface
@@ -9934,7 +9934,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AllocateTransitVirtualInterface"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'allocate-transit-virtual-interface))
 (common-lisp:progn
  (common-lisp:defun associate-connection-with-lag
@@ -9952,7 +9952,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateConnectionWithLag"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-connection-with-lag))
 (common-lisp:progn
  (common-lisp:defun associate-hosted-connection
@@ -9971,7 +9971,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateHostedConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-hosted-connection))
 (common-lisp:progn
  (common-lisp:defun associate-mac-sec-key
@@ -9989,7 +9989,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateMacSecKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-mac-sec-key))
 (common-lisp:progn
  (common-lisp:defun associate-virtual-interface
@@ -10008,7 +10008,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateVirtualInterface"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-virtual-interface))
 (common-lisp:progn
  (common-lisp:defun confirm-connection
@@ -10025,7 +10025,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ConfirmConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'confirm-connection))
 (common-lisp:progn
  (common-lisp:defun confirm-customer-agreement
@@ -10043,7 +10043,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ConfirmCustomerAgreement"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'confirm-customer-agreement))
 (common-lisp:progn
  (common-lisp:defun confirm-private-virtual-interface
@@ -10064,7 +10064,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ConfirmPrivateVirtualInterface"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'confirm-private-virtual-interface))
 (common-lisp:progn
  (common-lisp:defun confirm-public-virtual-interface
@@ -10082,7 +10082,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ConfirmPublicVirtualInterface"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'confirm-public-virtual-interface))
 (common-lisp:progn
  (common-lisp:defun confirm-transit-virtual-interface
@@ -10102,7 +10102,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ConfirmTransitVirtualInterface"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'confirm-transit-virtual-interface))
 (common-lisp:progn
  (common-lisp:defun create-bgppeer
@@ -10120,7 +10120,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateBGPPeer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-bgppeer))
 (common-lisp:progn
  (common-lisp:defun create-connection
@@ -10140,7 +10140,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-connection))
 (common-lisp:progn
  (common-lisp:defun create-direct-connect-gateway
@@ -10160,7 +10160,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDirectConnectGateway"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-direct-connect-gateway))
 (common-lisp:progn
  (common-lisp:defun create-direct-connect-gateway-association
@@ -10182,7 +10182,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDirectConnectGatewayAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-direct-connect-gateway-association))
 (common-lisp:progn
  (common-lisp:defun create-direct-connect-gateway-association-proposal
@@ -10207,7 +10207,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDirectConnectGatewayAssociationProposal"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-direct-connect-gateway-association-proposal))
 (common-lisp:progn
  (common-lisp:defun create-interconnect
@@ -10227,7 +10227,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateInterconnect"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-interconnect))
 (common-lisp:progn
  (common-lisp:defun create-lag
@@ -10249,7 +10249,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateLag"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-lag))
 (common-lisp:progn
  (common-lisp:defun create-private-virtual-interface
@@ -10269,7 +10269,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreatePrivateVirtualInterface"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-private-virtual-interface))
 (common-lisp:progn
  (common-lisp:defun create-public-virtual-interface
@@ -10289,7 +10289,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreatePublicVirtualInterface"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-public-virtual-interface))
 (common-lisp:progn
  (common-lisp:defun create-transit-virtual-interface
@@ -10309,7 +10309,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateTransitVirtualInterface"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-transit-virtual-interface))
 (common-lisp:progn
  (common-lisp:defun delete-bgppeer
@@ -10329,7 +10329,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteBGPPeer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-bgppeer))
 (common-lisp:progn
  (common-lisp:defun delete-connection
@@ -10346,7 +10346,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-connection))
 (common-lisp:progn
  (common-lisp:defun delete-direct-connect-gateway
@@ -10364,7 +10364,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDirectConnectGateway"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-direct-connect-gateway))
 (common-lisp:progn
  (common-lisp:defun delete-direct-connect-gateway-association
@@ -10385,7 +10385,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDirectConnectGatewayAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-direct-connect-gateway-association))
 (common-lisp:progn
  (common-lisp:defun delete-direct-connect-gateway-association-proposal
@@ -10403,7 +10403,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDirectConnectGatewayAssociationProposal"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-direct-connect-gateway-association-proposal))
 (common-lisp:progn
  (common-lisp:defun delete-interconnect
@@ -10420,7 +10420,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteInterconnect"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-interconnect))
 (common-lisp:progn
  (common-lisp:defun delete-lag
@@ -10437,7 +10437,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteLag"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-lag))
 (common-lisp:progn
  (common-lisp:defun delete-virtual-interface
@@ -10454,7 +10454,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteVirtualInterface"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-virtual-interface))
 (common-lisp:progn
  (common-lisp:defun describe-connection-loa
@@ -10473,7 +10473,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeConnectionLoa"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-connection-loa))
 (common-lisp:progn
  (common-lisp:defun describe-connections
@@ -10490,7 +10490,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeConnections"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-connections))
 (common-lisp:progn
  (common-lisp:defun describe-connections-on-interconnect
@@ -10508,7 +10508,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeConnectionsOnInterconnect"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-connections-on-interconnect))
 (common-lisp:progn
  (common-lisp:defun describe-customer-metadata ()
@@ -10537,7 +10537,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDirectConnectGatewayAssociationProposals"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-direct-connect-gateway-association-proposals))
 (common-lisp:progn
  (common-lisp:defun describe-direct-connect-gateway-associations
@@ -10559,7 +10559,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDirectConnectGatewayAssociations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-direct-connect-gateway-associations))
 (common-lisp:progn
  (common-lisp:defun describe-direct-connect-gateway-attachments
@@ -10580,7 +10580,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDirectConnectGatewayAttachments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-direct-connect-gateway-attachments))
 (common-lisp:progn
  (common-lisp:defun describe-direct-connect-gateways
@@ -10600,7 +10600,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDirectConnectGateways"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-direct-connect-gateways))
 (common-lisp:progn
  (common-lisp:defun describe-hosted-connections
@@ -10618,7 +10618,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeHostedConnections"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-hosted-connections))
 (common-lisp:progn
  (common-lisp:defun describe-interconnect-loa
@@ -10638,7 +10638,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeInterconnectLoa"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-interconnect-loa))
 (common-lisp:progn
  (common-lisp:defun describe-interconnects
@@ -10655,7 +10655,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeInterconnects"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-interconnects))
 (common-lisp:progn
  (common-lisp:defun describe-lags
@@ -10672,7 +10672,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeLags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-lags))
 (common-lisp:progn
  (common-lisp:defun describe-loa
@@ -10691,7 +10691,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeLoa"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-loa))
 (common-lisp:progn
  (common-lisp:defun describe-locations ()
@@ -10719,7 +10719,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeRouterConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-router-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-tags
@@ -10736,7 +10736,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTags"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-tags))
 (common-lisp:progn
  (common-lisp:defun describe-virtual-gateways ()
@@ -10763,7 +10763,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeVirtualInterfaces"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-virtual-interfaces))
 (common-lisp:progn
  (common-lisp:defun disassociate-connection-from-lag
@@ -10781,7 +10781,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateConnectionFromLag"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-connection-from-lag))
 (common-lisp:progn
  (common-lisp:defun disassociate-mac-sec-key
@@ -10798,7 +10798,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateMacSecKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-mac-sec-key))
 (common-lisp:progn
  (common-lisp:defun list-virtual-interface-test-history
@@ -10819,7 +10819,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListVirtualInterfaceTestHistory"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-virtual-interface-test-history))
 (common-lisp:progn
  (common-lisp:defun start-bgp-failover-test
@@ -10839,7 +10839,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartBgpFailoverTest"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-bgp-failover-test))
 (common-lisp:progn
  (common-lisp:defun stop-bgp-failover-test
@@ -10856,7 +10856,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopBgpFailoverTest"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-bgp-failover-test))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -10873,7 +10873,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -10890,7 +10890,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-connection
@@ -10909,7 +10909,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateConnection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-connection))
 (common-lisp:progn
  (common-lisp:defun update-direct-connect-gateway
@@ -10930,7 +10930,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateDirectConnectGateway"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-direct-connect-gateway))
 (common-lisp:progn
  (common-lisp:defun update-direct-connect-gateway-association
@@ -10953,7 +10953,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateDirectConnectGatewayAssociation"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-direct-connect-gateway-association))
 (common-lisp:progn
  (common-lisp:defun update-lag
@@ -10972,7 +10972,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateLag"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-lag))
 (common-lisp:progn
  (common-lisp:defun update-virtual-interface-attributes
@@ -10993,5 +10993,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateVirtualInterfaceAttributes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-virtual-interface-attributes))

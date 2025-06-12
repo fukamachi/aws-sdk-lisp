@@ -2452,7 +2452,7 @@
                                                         "POST"
                                                         "/2022-01-01/osis/createPipeline"
                                                         "CreatePipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-pipeline))
 (common-lisp:progn
  (common-lisp:defun delete-pipeline
@@ -2479,7 +2479,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'pipeline-name))))
                                                         "DeletePipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-pipeline))
 (common-lisp:progn
  (common-lisp:defun get-pipeline
@@ -2506,7 +2506,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'pipeline-name))))
                                                         "GetPipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-pipeline))
 (common-lisp:progn
  (common-lisp:defun get-pipeline-blueprint
@@ -2533,7 +2533,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'blueprint-name))))
                                                         "GetPipelineBlueprint"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-pipeline-blueprint))
 (common-lisp:progn
  (common-lisp:defun get-pipeline-change-progress
@@ -2561,7 +2561,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'pipeline-name))))
                                                         "GetPipelineChangeProgress"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-pipeline-change-progress))
 (common-lisp:progn
  (common-lisp:defun list-pipeline-blueprints ()
@@ -2588,7 +2588,7 @@
                                                         "GET"
                                                         "/2022-01-01/osis/listPipelines"
                                                         "ListPipelines"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-pipelines))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -2606,7 +2606,7 @@
                                                         "GET"
                                                         "/2022-01-01/osis/listTagsForResource/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun start-pipeline
@@ -2633,7 +2633,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'pipeline-name))))
                                                         "StartPipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-pipeline))
 (common-lisp:progn
  (common-lisp:defun stop-pipeline
@@ -2660,7 +2660,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'pipeline-name))))
                                                         "StopPipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-pipeline))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -2678,7 +2678,7 @@
                                                         "POST"
                                                         "/2022-01-01/osis/tagResource/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -2696,7 +2696,7 @@
                                                         "POST"
                                                         "/2022-01-01/osis/untagResource/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-pipeline
@@ -2728,7 +2728,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'pipeline-name))))
                                                         "UpdatePipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-pipeline))
 (common-lisp:progn
  (common-lisp:defun validate-pipeline
@@ -2746,5 +2746,5 @@
                                                         "POST"
                                                         "/2022-01-01/osis/validatePipeline"
                                                         "ValidatePipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'validate-pipeline))

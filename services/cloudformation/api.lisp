@@ -19455,7 +19455,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ActivateType"))
-      common-lisp:nil "ActivateTypeResult" *error-map*)))
+      common-lisp:nil "ActivateTypeResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'activate-type))
 (common-lisp:progn
  (common-lisp:defun batch-describe-type-configurations
@@ -19473,7 +19473,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BatchDescribeTypeConfigurations"))
-      common-lisp:nil "BatchDescribeTypeConfigurationsResult" *error-map*)))
+      common-lisp:nil "BatchDescribeTypeConfigurationsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'batch-describe-type-configurations))
 (common-lisp:progn
  (common-lisp:defun cancel-update-stack
@@ -19491,7 +19492,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CancelUpdateStack"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'cancel-update-stack))
 (common-lisp:progn
  (common-lisp:defun continue-update-rollback
@@ -19511,7 +19512,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ContinueUpdateRollback"))
-      common-lisp:nil "ContinueUpdateRollbackResult" *error-map*)))
+      common-lisp:nil "ContinueUpdateRollbackResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'continue-update-rollback))
 (common-lisp:progn
  (common-lisp:defun create-change-set
@@ -19539,7 +19541,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateChangeSet"))
-      common-lisp:nil "CreateChangeSetResult" *error-map*)))
+      common-lisp:nil "CreateChangeSetResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-change-set))
 (common-lisp:progn
  (common-lisp:defun create-generated-template
@@ -19559,7 +19561,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateGeneratedTemplate"))
-      common-lisp:nil "CreateGeneratedTemplateResult" *error-map*)))
+      common-lisp:nil "CreateGeneratedTemplateResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-generated-template))
 (common-lisp:progn
  (common-lisp:defun create-stack
@@ -19586,7 +19589,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateStack"))
-      common-lisp:nil "CreateStackResult" *error-map*)))
+      common-lisp:nil "CreateStackResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-stack))
 (common-lisp:progn
  (common-lisp:defun create-stack-instances
@@ -19607,7 +19610,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateStackInstances"))
-      common-lisp:nil "CreateStackInstancesResult" *error-map*)))
+      common-lisp:nil "CreateStackInstancesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'create-stack-instances))
 (common-lisp:progn
  (common-lisp:defun create-stack-set
@@ -19632,7 +19636,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateStackSet"))
-      common-lisp:nil "CreateStackSetResult" *error-map*)))
+      common-lisp:nil "CreateStackSetResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-stack-set))
 (common-lisp:progn
  (common-lisp:defun deactivate-organizations-access ()
@@ -19658,7 +19662,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeactivateType"))
-      common-lisp:nil "DeactivateTypeResult" *error-map*)))
+      common-lisp:nil "DeactivateTypeResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'deactivate-type))
 (common-lisp:progn
  (common-lisp:defun delete-change-set
@@ -19675,7 +19679,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteChangeSet"))
-      common-lisp:nil "DeleteChangeSetResult" *error-map*)))
+      common-lisp:nil "DeleteChangeSetResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-change-set))
 (common-lisp:progn
  (common-lisp:defun delete-generated-template
@@ -19692,7 +19696,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteGeneratedTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-generated-template))
 (common-lisp:progn
  (common-lisp:defun delete-stack
@@ -19712,7 +19716,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteStack"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-stack))
 (common-lisp:progn
  (common-lisp:defun delete-stack-instances
@@ -19733,7 +19737,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteStackInstances"))
-      common-lisp:nil "DeleteStackInstancesResult" *error-map*)))
+      common-lisp:nil "DeleteStackInstancesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-stack-instances))
 (common-lisp:progn
  (common-lisp:defun delete-stack-set
@@ -19750,7 +19755,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteStackSet"))
-      common-lisp:nil "DeleteStackSetResult" *error-map*)))
+      common-lisp:nil "DeleteStackSetResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-stack-set))
 (common-lisp:progn
  (common-lisp:defun deregister-type
@@ -19767,7 +19772,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeregisterType"))
-      common-lisp:nil "DeregisterTypeResult" *error-map*)))
+      common-lisp:nil "DeregisterTypeResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'deregister-type))
 (common-lisp:progn
  (common-lisp:defun describe-account-limits
@@ -19784,7 +19789,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAccountLimits"))
-      common-lisp:nil "DescribeAccountLimitsResult" *error-map*)))
+      common-lisp:nil "DescribeAccountLimitsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-account-limits))
 (common-lisp:progn
  (common-lisp:defun describe-change-set
@@ -19802,7 +19808,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeChangeSet"))
-      common-lisp:nil "DescribeChangeSetResult" *error-map*)))
+      common-lisp:nil "DescribeChangeSetResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-change-set))
 (common-lisp:progn
  (common-lisp:defun describe-change-set-hooks
@@ -19822,7 +19828,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeChangeSetHooks"))
-      common-lisp:nil "DescribeChangeSetHooksResult" *error-map*)))
+      common-lisp:nil "DescribeChangeSetHooksResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-change-set-hooks))
 (common-lisp:progn
  (common-lisp:defun describe-generated-template
@@ -19840,7 +19847,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeGeneratedTemplate"))
-      common-lisp:nil "DescribeGeneratedTemplateResult" *error-map*)))
+      common-lisp:nil "DescribeGeneratedTemplateResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-generated-template))
 (common-lisp:progn
  (common-lisp:defun describe-organizations-access
@@ -19858,7 +19866,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeOrganizationsAccess"))
-      common-lisp:nil "DescribeOrganizationsAccessResult" *error-map*)))
+      common-lisp:nil "DescribeOrganizationsAccessResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-organizations-access))
 (common-lisp:progn
  (common-lisp:defun describe-publisher
@@ -19875,7 +19884,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribePublisher"))
-      common-lisp:nil "DescribePublisherResult" *error-map*)))
+      common-lisp:nil "DescribePublisherResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-publisher))
 (common-lisp:progn
  (common-lisp:defun describe-resource-scan
@@ -19892,7 +19901,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeResourceScan"))
-      common-lisp:nil "DescribeResourceScanResult" *error-map*)))
+      common-lisp:nil "DescribeResourceScanResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-resource-scan))
 (common-lisp:progn
  (common-lisp:defun describe-stack-drift-detection-status
@@ -19910,7 +19920,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeStackDriftDetectionStatus"))
-      common-lisp:nil "DescribeStackDriftDetectionStatusResult" *error-map*)))
+      common-lisp:nil "DescribeStackDriftDetectionStatusResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-stack-drift-detection-status))
 (common-lisp:progn
  (common-lisp:defun describe-stack-events
@@ -19927,7 +19938,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeStackEvents"))
-      common-lisp:nil "DescribeStackEventsResult" *error-map*)))
+      common-lisp:nil "DescribeStackEventsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-stack-events))
 (common-lisp:progn
  (common-lisp:defun describe-stack-instance
@@ -19947,7 +19959,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeStackInstance"))
-      common-lisp:nil "DescribeStackInstanceResult" *error-map*)))
+      common-lisp:nil "DescribeStackInstanceResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-stack-instance))
 (common-lisp:progn
  (common-lisp:defun describe-stack-resource
@@ -19964,7 +19977,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeStackResource"))
-      common-lisp:nil "DescribeStackResourceResult" *error-map*)))
+      common-lisp:nil "DescribeStackResourceResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-stack-resource))
 (common-lisp:progn
  (common-lisp:defun describe-stack-resource-drifts
@@ -19986,7 +20000,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeStackResourceDrifts"))
-      common-lisp:nil "DescribeStackResourceDriftsResult" *error-map*)))
+      common-lisp:nil "DescribeStackResourceDriftsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-stack-resource-drifts))
 (common-lisp:progn
  (common-lisp:defun describe-stack-resources
@@ -20006,7 +20021,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeStackResources"))
-      common-lisp:nil "DescribeStackResourcesResult" *error-map*)))
+      common-lisp:nil "DescribeStackResourcesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-stack-resources))
 (common-lisp:progn
  (common-lisp:defun describe-stack-set
@@ -20023,7 +20039,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeStackSet"))
-      common-lisp:nil "DescribeStackSetResult" *error-map*)))
+      common-lisp:nil "DescribeStackSetResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-stack-set))
 (common-lisp:progn
  (common-lisp:defun describe-stack-set-operation
@@ -20042,7 +20058,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeStackSetOperation"))
-      common-lisp:nil "DescribeStackSetOperationResult" *error-map*)))
+      common-lisp:nil "DescribeStackSetOperationResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-stack-set-operation))
 (common-lisp:progn
  (common-lisp:defun describe-stacks
@@ -20059,7 +20076,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeStacks"))
-      common-lisp:nil "DescribeStacksResult" *error-map*)))
+      common-lisp:nil "DescribeStacksResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-stacks))
 (common-lisp:progn
  (common-lisp:defun describe-type
@@ -20079,7 +20096,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeType"))
-      common-lisp:nil "DescribeTypeResult" *error-map*)))
+      common-lisp:nil "DescribeTypeResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-type))
 (common-lisp:progn
  (common-lisp:defun describe-type-registration
@@ -20096,7 +20113,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTypeRegistration"))
-      common-lisp:nil "DescribeTypeRegistrationResult" *error-map*)))
+      common-lisp:nil "DescribeTypeRegistrationResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-type-registration))
 (common-lisp:progn
  (common-lisp:defun detect-stack-drift
@@ -20114,7 +20132,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetectStackDrift"))
-      common-lisp:nil "DetectStackDriftResult" *error-map*)))
+      common-lisp:nil "DetectStackDriftResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'detect-stack-drift))
 (common-lisp:progn
  (common-lisp:defun detect-stack-resource-drift
@@ -20132,7 +20150,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetectStackResourceDrift"))
-      common-lisp:nil "DetectStackResourceDriftResult" *error-map*)))
+      common-lisp:nil "DetectStackResourceDriftResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'detect-stack-resource-drift))
 (common-lisp:progn
  (common-lisp:defun detect-stack-set-drift
@@ -20152,7 +20171,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetectStackSetDrift"))
-      common-lisp:nil "DetectStackSetDriftResult" *error-map*)))
+      common-lisp:nil "DetectStackSetDriftResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'detect-stack-set-drift))
 (common-lisp:progn
  (common-lisp:defun estimate-template-cost
@@ -20170,7 +20190,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "EstimateTemplateCost"))
-      common-lisp:nil "EstimateTemplateCostResult" *error-map*)))
+      common-lisp:nil "EstimateTemplateCostResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'estimate-template-cost))
 (common-lisp:progn
  (common-lisp:defun execute-change-set
@@ -20191,7 +20212,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ExecuteChangeSet"))
-      common-lisp:nil "ExecuteChangeSetResult" *error-map*)))
+      common-lisp:nil "ExecuteChangeSetResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'execute-change-set))
 (common-lisp:progn
  (common-lisp:defun get-generated-template
@@ -20208,7 +20229,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetGeneratedTemplate"))
-      common-lisp:nil "GetGeneratedTemplateResult" *error-map*)))
+      common-lisp:nil "GetGeneratedTemplateResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'get-generated-template))
 (common-lisp:progn
  (common-lisp:defun get-stack-policy
@@ -20225,7 +20247,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetStackPolicy"))
-      common-lisp:nil "GetStackPolicyResult" *error-map*)))
+      common-lisp:nil "GetStackPolicyResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-stack-policy))
 (common-lisp:progn
  (common-lisp:defun get-template
@@ -20244,7 +20266,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetTemplate"))
-      common-lisp:nil "GetTemplateResult" *error-map*)))
+      common-lisp:nil "GetTemplateResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-template))
 (common-lisp:progn
  (common-lisp:defun get-template-summary
@@ -20264,7 +20286,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetTemplateSummary"))
-      common-lisp:nil "GetTemplateSummaryResult" *error-map*)))
+      common-lisp:nil "GetTemplateSummaryResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'get-template-summary))
 (common-lisp:progn
  (common-lisp:defun import-stacks-to-stack-set
@@ -20285,7 +20307,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ImportStacksToStackSet"))
-      common-lisp:nil "ImportStacksToStackSetResult" *error-map*)))
+      common-lisp:nil "ImportStacksToStackSetResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'import-stacks-to-stack-set))
 (common-lisp:progn
  (common-lisp:defun list-change-sets
@@ -20302,7 +20325,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListChangeSets"))
-      common-lisp:nil "ListChangeSetsResult" *error-map*)))
+      common-lisp:nil "ListChangeSetsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-change-sets))
 (common-lisp:progn
  (common-lisp:defun list-exports
@@ -20319,7 +20342,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListExports"))
-      common-lisp:nil "ListExportsResult" *error-map*)))
+      common-lisp:nil "ListExportsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-exports))
 (common-lisp:progn
  (common-lisp:defun list-generated-templates
@@ -20336,7 +20359,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListGeneratedTemplates"))
-      common-lisp:nil "ListGeneratedTemplatesResult" *error-map*)))
+      common-lisp:nil "ListGeneratedTemplatesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-generated-templates))
 (common-lisp:progn
  (common-lisp:defun list-imports
@@ -20353,7 +20377,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListImports"))
-      common-lisp:nil "ListImportsResult" *error-map*)))
+      common-lisp:nil "ListImportsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-imports))
 (common-lisp:progn
  (common-lisp:defun list-resource-scan-related-resources
@@ -20373,7 +20397,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListResourceScanRelatedResources"))
-      common-lisp:nil "ListResourceScanRelatedResourcesResult" *error-map*)))
+      common-lisp:nil "ListResourceScanRelatedResourcesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-resource-scan-related-resources))
 (common-lisp:progn
  (common-lisp:defun list-resource-scan-resources
@@ -20395,7 +20420,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListResourceScanResources"))
-      common-lisp:nil "ListResourceScanResourcesResult" *error-map*)))
+      common-lisp:nil "ListResourceScanResourcesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-resource-scan-resources))
 (common-lisp:progn
  (common-lisp:defun list-resource-scans
@@ -20412,7 +20438,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListResourceScans"))
-      common-lisp:nil "ListResourceScansResult" *error-map*)))
+      common-lisp:nil "ListResourceScansResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-resource-scans))
 (common-lisp:progn
  (common-lisp:defun list-stack-instance-resource-drifts
@@ -20436,7 +20462,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListStackInstanceResourceDrifts"))
-      common-lisp:nil "ListStackInstanceResourceDriftsResult" *error-map*)))
+      common-lisp:nil "ListStackInstanceResourceDriftsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-stack-instance-resource-drifts))
 (common-lisp:progn
  (common-lisp:defun list-stack-instances
@@ -20457,7 +20484,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListStackInstances"))
-      common-lisp:nil "ListStackInstancesResult" *error-map*)))
+      common-lisp:nil "ListStackInstancesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-stack-instances))
 (common-lisp:progn
  (common-lisp:defun list-stack-resources
@@ -20474,7 +20501,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListStackResources"))
-      common-lisp:nil "ListStackResourcesResult" *error-map*)))
+      common-lisp:nil "ListStackResourcesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-stack-resources))
 (common-lisp:progn
  (common-lisp:defun list-stack-set-operation-results
@@ -20495,7 +20522,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListStackSetOperationResults"))
-      common-lisp:nil "ListStackSetOperationResultsResult" *error-map*)))
+      common-lisp:nil "ListStackSetOperationResultsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-stack-set-operation-results))
 (common-lisp:progn
  (common-lisp:defun list-stack-set-operations
@@ -20514,7 +20542,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListStackSetOperations"))
-      common-lisp:nil "ListStackSetOperationsResult" *error-map*)))
+      common-lisp:nil "ListStackSetOperationsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-stack-set-operations))
 (common-lisp:progn
  (common-lisp:defun list-stack-sets
@@ -20532,7 +20561,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListStackSets"))
-      common-lisp:nil "ListStackSetsResult" *error-map*)))
+      common-lisp:nil "ListStackSetsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-stack-sets))
 (common-lisp:progn
  (common-lisp:defun list-stacks
@@ -20549,7 +20578,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListStacks"))
-      common-lisp:nil "ListStacksResult" *error-map*)))
+      common-lisp:nil "ListStacksResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-stacks))
 (common-lisp:progn
  (common-lisp:defun list-type-registrations
@@ -20569,7 +20598,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTypeRegistrations"))
-      common-lisp:nil "ListTypeRegistrationsResult" *error-map*)))
+      common-lisp:nil "ListTypeRegistrationsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'list-type-registrations))
 (common-lisp:progn
  (common-lisp:defun list-type-versions
@@ -20589,7 +20619,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTypeVersions"))
-      common-lisp:nil "ListTypeVersionsResult" *error-map*)))
+      common-lisp:nil "ListTypeVersionsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-type-versions))
 (common-lisp:progn
  (common-lisp:defun list-types
@@ -20609,7 +20639,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTypes"))
-      common-lisp:nil "ListTypesResult" *error-map*)))
+      common-lisp:nil "ListTypesResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'list-types))
 (common-lisp:progn
  (common-lisp:defun publish-type
@@ -20627,7 +20657,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PublishType"))
-      common-lisp:nil "PublishTypeResult" *error-map*)))
+      common-lisp:nil "PublishTypeResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'publish-type))
 (common-lisp:progn
  (common-lisp:defun record-handler-progress
@@ -20649,7 +20679,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RecordHandlerProgress"))
-      common-lisp:nil "RecordHandlerProgressResult" *error-map*)))
+      common-lisp:nil "RecordHandlerProgressResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'record-handler-progress))
 (common-lisp:progn
  (common-lisp:defun register-publisher
@@ -20668,7 +20699,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RegisterPublisher"))
-      common-lisp:nil "RegisterPublisherResult" *error-map*)))
+      common-lisp:nil "RegisterPublisherResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'register-publisher))
 (common-lisp:progn
  (common-lisp:defun register-type
@@ -20688,7 +20719,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RegisterType"))
-      common-lisp:nil "RegisterTypeResult" *error-map*)))
+      common-lisp:nil "RegisterTypeResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'register-type))
 (common-lisp:progn
  (common-lisp:defun rollback-stack
@@ -20708,7 +20739,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RollbackStack"))
-      common-lisp:nil "RollbackStackResult" *error-map*)))
+      common-lisp:nil "RollbackStackResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'rollback-stack))
 (common-lisp:progn
  (common-lisp:defun set-stack-policy
@@ -20727,7 +20758,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetStackPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'set-stack-policy))
 (common-lisp:progn
  (common-lisp:defun set-type-configuration
@@ -20747,7 +20778,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetTypeConfiguration"))
-      common-lisp:nil "SetTypeConfigurationResult" *error-map*)))
+      common-lisp:nil "SetTypeConfigurationResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'set-type-configuration))
 (common-lisp:progn
  (common-lisp:defun set-type-default-version
@@ -20764,7 +20796,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SetTypeDefaultVersion"))
-      common-lisp:nil "SetTypeDefaultVersionResult" *error-map*)))
+      common-lisp:nil "SetTypeDefaultVersionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'set-type-default-version))
 (common-lisp:progn
  (common-lisp:defun signal-resource
@@ -20783,7 +20816,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SignalResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* common-lisp:nil)))
  (common-lisp:export 'signal-resource))
 (common-lisp:progn
  (common-lisp:defun start-resource-scan
@@ -20800,7 +20833,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartResourceScan"))
-      common-lisp:nil "StartResourceScanResult" *error-map*)))
+      common-lisp:nil "StartResourceScanResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'start-resource-scan))
 (common-lisp:progn
  (common-lisp:defun stop-stack-set-operation
@@ -20818,7 +20851,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopStackSetOperation"))
-      common-lisp:nil "StopStackSetOperationResult" *error-map*)))
+      common-lisp:nil "StopStackSetOperationResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'stop-stack-set-operation))
 (common-lisp:progn
  (common-lisp:defun test-type
@@ -20836,7 +20870,7 @@
        (aws-sdk/generator/shape:make-request-with-input 'cloudformation-request
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/" "TestType"))
-      common-lisp:nil "TestTypeResult" *error-map*)))
+      common-lisp:nil "TestTypeResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'test-type))
 (common-lisp:progn
  (common-lisp:defun update-generated-template
@@ -20858,7 +20892,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateGeneratedTemplate"))
-      common-lisp:nil "UpdateGeneratedTemplateResult" *error-map*)))
+      common-lisp:nil "UpdateGeneratedTemplateResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'update-generated-template))
 (common-lisp:progn
  (common-lisp:defun update-stack
@@ -20887,7 +20922,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateStack"))
-      common-lisp:nil "UpdateStackResult" *error-map*)))
+      common-lisp:nil "UpdateStackResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'update-stack))
 (common-lisp:progn
  (common-lisp:defun update-stack-instances
@@ -20908,7 +20943,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateStackInstances"))
-      common-lisp:nil "UpdateStackInstancesResult" *error-map*)))
+      common-lisp:nil "UpdateStackInstancesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'update-stack-instances))
 (common-lisp:progn
  (common-lisp:defun update-stack-set
@@ -20935,7 +20971,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateStackSet"))
-      common-lisp:nil "UpdateStackSetResult" *error-map*)))
+      common-lisp:nil "UpdateStackSetResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'update-stack-set))
 (common-lisp:progn
  (common-lisp:defun update-termination-protection
@@ -20954,7 +20990,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateTerminationProtection"))
-      common-lisp:nil "UpdateTerminationProtectionResult" *error-map*)))
+      common-lisp:nil "UpdateTerminationProtectionResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'update-termination-protection))
 (common-lisp:progn
  (common-lisp:defun validate-template
@@ -20971,5 +21008,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ValidateTemplate"))
-      common-lisp:nil "ValidateTemplateResult" *error-map*)))
+      common-lisp:nil "ValidateTemplateResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'validate-template))

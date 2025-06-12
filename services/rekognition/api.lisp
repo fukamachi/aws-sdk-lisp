@@ -19667,7 +19667,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AssociateFaces"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-faces))
 (common-lisp:progn
  (common-lisp:defun compare-faces
@@ -19687,7 +19687,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CompareFaces"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'compare-faces))
 (common-lisp:progn
  (common-lisp:defun copy-project-version
@@ -19708,7 +19708,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CopyProjectVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'copy-project-version))
 (common-lisp:progn
  (common-lisp:defun create-collection
@@ -19725,7 +19725,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateCollection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-collection))
 (common-lisp:progn
  (common-lisp:defun create-dataset
@@ -19743,7 +19743,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-dataset))
 (common-lisp:progn
  (common-lisp:defun create-face-liveness-session
@@ -19762,7 +19762,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateFaceLivenessSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-face-liveness-session))
 (common-lisp:progn
  (common-lisp:defun create-project
@@ -19780,7 +19780,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-project))
 (common-lisp:progn
  (common-lisp:defun create-project-version
@@ -19801,7 +19801,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateProjectVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-project-version))
 (common-lisp:progn
  (common-lisp:defun create-stream-processor
@@ -19823,7 +19823,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateStreamProcessor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-stream-processor))
 (common-lisp:progn
  (common-lisp:defun create-user
@@ -19842,7 +19842,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-user))
 (common-lisp:progn
  (common-lisp:defun delete-collection
@@ -19859,7 +19859,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteCollection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-collection))
 (common-lisp:progn
  (common-lisp:defun delete-dataset
@@ -19876,7 +19876,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-dataset))
 (common-lisp:progn
  (common-lisp:defun delete-faces
@@ -19893,7 +19893,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteFaces"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-faces))
 (common-lisp:progn
  (common-lisp:defun delete-project
@@ -19910,7 +19910,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteProject"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-project))
 (common-lisp:progn
  (common-lisp:defun delete-project-policy
@@ -19929,7 +19929,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteProjectPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-project-policy))
 (common-lisp:progn
  (common-lisp:defun delete-project-version
@@ -19946,7 +19946,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteProjectVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-project-version))
 (common-lisp:progn
  (common-lisp:defun delete-stream-processor
@@ -19963,7 +19963,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteStreamProcessor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-stream-processor))
 (common-lisp:progn
  (common-lisp:defun delete-user
@@ -19982,7 +19982,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteUser"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-user))
 (common-lisp:progn
  (common-lisp:defun describe-collection
@@ -19999,7 +19999,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeCollection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-collection))
 (common-lisp:progn
  (common-lisp:defun describe-dataset
@@ -20016,7 +20016,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-dataset))
 (common-lisp:progn
  (common-lisp:defun describe-project-versions
@@ -20036,7 +20036,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeProjectVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-project-versions))
 (common-lisp:progn
  (common-lisp:defun describe-projects
@@ -20055,7 +20055,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeProjects"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-projects))
 (common-lisp:progn
  (common-lisp:defun describe-stream-processor
@@ -20073,7 +20073,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeStreamProcessor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-stream-processor))
 (common-lisp:progn
  (common-lisp:defun detect-custom-labels
@@ -20093,7 +20093,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetectCustomLabels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detect-custom-labels))
 (common-lisp:progn
  (common-lisp:defun detect-faces
@@ -20110,7 +20110,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetectFaces"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detect-faces))
 (common-lisp:progn
  (common-lisp:defun detect-labels
@@ -20129,7 +20129,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetectLabels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detect-labels))
 (common-lisp:progn
  (common-lisp:defun detect-moderation-labels
@@ -20149,7 +20149,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetectModerationLabels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detect-moderation-labels))
 (common-lisp:progn
  (common-lisp:defun detect-protective-equipment
@@ -20167,7 +20167,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetectProtectiveEquipment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detect-protective-equipment))
 (common-lisp:progn
  (common-lisp:defun detect-text
@@ -20184,7 +20184,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetectText"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detect-text))
 (common-lisp:progn
  (common-lisp:defun disassociate-faces
@@ -20204,7 +20204,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisassociateFaces"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-faces))
 (common-lisp:progn
  (common-lisp:defun distribute-dataset-entries
@@ -20222,7 +20222,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DistributeDatasetEntries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'distribute-dataset-entries))
 (common-lisp:progn
  (common-lisp:defun get-celebrity-info
@@ -20239,7 +20239,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCelebrityInfo"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-celebrity-info))
 (common-lisp:progn
  (common-lisp:defun get-celebrity-recognition
@@ -20258,7 +20258,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetCelebrityRecognition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-celebrity-recognition))
 (common-lisp:progn
  (common-lisp:defun get-content-moderation
@@ -20277,7 +20277,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetContentModeration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-content-moderation))
 (common-lisp:progn
  (common-lisp:defun get-face-detection
@@ -20294,7 +20294,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetFaceDetection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-face-detection))
 (common-lisp:progn
  (common-lisp:defun get-face-liveness-session-results
@@ -20312,7 +20312,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetFaceLivenessSessionResults"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-face-liveness-session-results))
 (common-lisp:progn
  (common-lisp:defun get-face-search
@@ -20330,7 +20330,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetFaceSearch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-face-search))
 (common-lisp:progn
  (common-lisp:defun get-label-detection
@@ -20349,7 +20349,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetLabelDetection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-label-detection))
 (common-lisp:progn
  (common-lisp:defun get-media-analysis-job
@@ -20366,7 +20366,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetMediaAnalysisJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-media-analysis-job))
 (common-lisp:progn
  (common-lisp:defun get-person-tracking
@@ -20384,7 +20384,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetPersonTracking"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-person-tracking))
 (common-lisp:progn
  (common-lisp:defun get-segment-detection
@@ -20401,7 +20401,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetSegmentDetection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-segment-detection))
 (common-lisp:progn
  (common-lisp:defun get-text-detection
@@ -20418,7 +20418,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetTextDetection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-text-detection))
 (common-lisp:progn
  (common-lisp:defun index-faces
@@ -20438,7 +20438,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "IndexFaces"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'index-faces))
 (common-lisp:progn
  (common-lisp:defun list-collections
@@ -20455,7 +20455,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListCollections"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-collections))
 (common-lisp:progn
  (common-lisp:defun list-dataset-entries
@@ -20475,7 +20475,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDatasetEntries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-dataset-entries))
 (common-lisp:progn
  (common-lisp:defun list-dataset-labels
@@ -20493,7 +20493,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListDatasetLabels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-dataset-labels))
 (common-lisp:progn
  (common-lisp:defun list-faces
@@ -20513,7 +20513,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListFaces"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-faces))
 (common-lisp:progn
  (common-lisp:defun list-media-analysis-jobs
@@ -20530,7 +20530,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListMediaAnalysisJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-media-analysis-jobs))
 (common-lisp:progn
  (common-lisp:defun list-project-policies
@@ -20548,7 +20548,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListProjectPolicies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-project-policies))
 (common-lisp:progn
  (common-lisp:defun list-stream-processors
@@ -20565,7 +20565,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListStreamProcessors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-stream-processors))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -20582,7 +20582,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-users
@@ -20600,7 +20600,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListUsers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-users))
 (common-lisp:progn
  (common-lisp:defun put-project-policy
@@ -20620,7 +20620,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutProjectPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-project-policy))
 (common-lisp:progn
  (common-lisp:defun recognize-celebrities
@@ -20637,7 +20637,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RecognizeCelebrities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'recognize-celebrities))
 (common-lisp:progn
  (common-lisp:defun search-faces
@@ -20657,7 +20657,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SearchFaces"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-faces))
 (common-lisp:progn
  (common-lisp:defun search-faces-by-image
@@ -20677,7 +20677,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SearchFacesByImage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-faces-by-image))
 (common-lisp:progn
  (common-lisp:defun search-users
@@ -20697,7 +20697,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SearchUsers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-users))
 (common-lisp:progn
  (common-lisp:defun search-users-by-image
@@ -20717,7 +20717,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "SearchUsersByImage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'search-users-by-image))
 (common-lisp:progn
  (common-lisp:defun start-celebrity-recognition
@@ -20738,7 +20738,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartCelebrityRecognition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-celebrity-recognition))
 (common-lisp:progn
  (common-lisp:defun start-content-moderation
@@ -20758,7 +20758,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartContentModeration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-content-moderation))
 (common-lisp:progn
  (common-lisp:defun start-face-detection
@@ -20778,7 +20778,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartFaceDetection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-face-detection))
 (common-lisp:progn
  (common-lisp:defun start-face-search
@@ -20799,7 +20799,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartFaceSearch"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-face-search))
 (common-lisp:progn
  (common-lisp:defun start-label-detection
@@ -20819,7 +20819,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartLabelDetection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-label-detection))
 (common-lisp:progn
  (common-lisp:defun start-media-analysis-job
@@ -20839,7 +20839,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartMediaAnalysisJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-media-analysis-job))
 (common-lisp:progn
  (common-lisp:defun start-person-tracking
@@ -20859,7 +20859,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartPersonTracking"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-person-tracking))
 (common-lisp:progn
  (common-lisp:defun start-project-version
@@ -20879,7 +20879,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartProjectVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-project-version))
 (common-lisp:progn
  (common-lisp:defun start-segment-detection
@@ -20899,7 +20899,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartSegmentDetection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-segment-detection))
 (common-lisp:progn
  (common-lisp:defun start-stream-processor
@@ -20917,7 +20917,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartStreamProcessor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-stream-processor))
 (common-lisp:progn
  (common-lisp:defun start-text-detection
@@ -20937,7 +20937,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartTextDetection"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-text-detection))
 (common-lisp:progn
  (common-lisp:defun stop-project-version
@@ -20954,7 +20954,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopProjectVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-project-version))
 (common-lisp:progn
  (common-lisp:defun stop-stream-processor
@@ -20971,7 +20971,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopStreamProcessor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-stream-processor))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -20988,7 +20988,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -21005,7 +21005,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-dataset-entries
@@ -21022,7 +21022,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateDatasetEntries"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-dataset-entries))
 (common-lisp:progn
  (common-lisp:defun update-stream-processor
@@ -21044,5 +21044,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateStreamProcessor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-stream-processor))

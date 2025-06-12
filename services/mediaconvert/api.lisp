@@ -24823,7 +24823,7 @@
                                                         "POST"
                                                         "/2017-08-29/certificates"
                                                         "AssociateCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-certificate))
 (common-lisp:progn
  (common-lisp:defun cancel-job
@@ -24850,7 +24850,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "CancelJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-job))
 (common-lisp:progn
  (common-lisp:defun create-job
@@ -24875,7 +24875,7 @@
                                                         "POST"
                                                         "/2017-08-29/jobs"
                                                         "CreateJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-job))
 (common-lisp:progn
  (common-lisp:defun create-job-template
@@ -24898,7 +24898,7 @@
                                                         "POST"
                                                         "/2017-08-29/jobTemplates"
                                                         "CreateJobTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-job-template))
 (common-lisp:progn
  (common-lisp:defun create-preset
@@ -24917,7 +24917,7 @@
                                                         "POST"
                                                         "/2017-08-29/presets"
                                                         "CreatePreset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-preset))
 (common-lisp:progn
  (common-lisp:defun create-queue
@@ -24938,7 +24938,7 @@
                                                         "POST"
                                                         "/2017-08-29/queues"
                                                         "CreateQueue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-queue))
 (common-lisp:progn
  (common-lisp:defun delete-job-template
@@ -24965,7 +24965,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteJobTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-job-template))
 (common-lisp:progn
  (common-lisp:defun delete-policy ()
@@ -25001,7 +25001,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeletePreset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-preset))
 (common-lisp:progn
  (common-lisp:defun delete-queue
@@ -25028,7 +25028,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "DeleteQueue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-queue))
 (common-lisp:progn
  (common-lisp:defun describe-endpoints
@@ -25046,7 +25046,7 @@
                                                         "POST"
                                                         "/2017-08-29/endpoints"
                                                         "DescribeEndpoints"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-endpoints))
 (common-lisp:progn
  (common-lisp:defun disassociate-certificate
@@ -25073,7 +25073,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'arn))))
                                                         "DisassociateCertificate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-certificate))
 (common-lisp:progn
  (common-lisp:defun get-job
@@ -25100,7 +25100,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'id))))
                                                         "GetJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-job))
 (common-lisp:progn
  (common-lisp:defun get-job-template
@@ -25127,7 +25127,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetJobTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-job-template))
 (common-lisp:progn
  (common-lisp:defun get-policy ()
@@ -25162,7 +25162,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetPreset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-preset))
 (common-lisp:progn
  (common-lisp:defun get-queue
@@ -25189,7 +25189,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "GetQueue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-queue))
 (common-lisp:progn
  (common-lisp:defun list-job-templates
@@ -25209,7 +25209,7 @@
                                                         "GET"
                                                         "/2017-08-29/jobTemplates"
                                                         "ListJobTemplates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-job-templates))
 (common-lisp:progn
  (common-lisp:defun list-jobs
@@ -25229,7 +25229,7 @@
                                                         "GET"
                                                         "/2017-08-29/jobs"
                                                         "ListJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-jobs))
 (common-lisp:progn
  (common-lisp:defun list-presets
@@ -25249,7 +25249,7 @@
                                                         "GET"
                                                         "/2017-08-29/presets"
                                                         "ListPresets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-presets))
 (common-lisp:progn
  (common-lisp:defun list-queues
@@ -25268,7 +25268,7 @@
                                                         "GET"
                                                         "/2017-08-29/queues"
                                                         "ListQueues"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-queues))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -25295,7 +25295,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-policy
@@ -25313,7 +25313,7 @@
                                                         "PUT"
                                                         "/2017-08-29/policy"
                                                         "PutPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-policy))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -25331,7 +25331,7 @@
                                                         "POST"
                                                         "/2017-08-29/tags"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -25358,7 +25358,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-job-template
@@ -25389,7 +25389,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateJobTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-job-template))
 (common-lisp:progn
  (common-lisp:defun update-preset
@@ -25417,7 +25417,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdatePreset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-preset))
 (common-lisp:progn
  (common-lisp:defun update-queue
@@ -25446,5 +25446,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'name))))
                                                         "UpdateQueue"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-queue))

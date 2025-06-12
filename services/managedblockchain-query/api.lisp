@@ -2746,7 +2746,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'managedblockchain-query-request aws-sdk/generator/operation::input
         "POST" "/batch-get-token-balance" "BatchGetTokenBalance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-get-token-balance))
 (common-lisp:progn
  (common-lisp:defun get-asset-contract
@@ -2762,7 +2762,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'managedblockchain-query-request aws-sdk/generator/operation::input
         "POST" "/get-asset-contract" "GetAssetContract"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-asset-contract))
 (common-lisp:progn
  (common-lisp:defun get-token-balance
@@ -2781,7 +2781,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'managedblockchain-query-request aws-sdk/generator/operation::input
         "POST" "/get-token-balance" "GetTokenBalance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-token-balance))
 (common-lisp:progn
  (common-lisp:defun get-transaction
@@ -2797,7 +2797,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'managedblockchain-query-request aws-sdk/generator/operation::input
         "POST" "/get-transaction" "GetTransaction"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-transaction))
 (common-lisp:progn
  (common-lisp:defun list-asset-contracts
@@ -2814,7 +2814,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'managedblockchain-query-request aws-sdk/generator/operation::input
         "POST" "/list-asset-contracts" "ListAssetContracts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-asset-contracts))
 (common-lisp:progn
  (common-lisp:defun list-token-balances
@@ -2832,7 +2832,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'managedblockchain-query-request aws-sdk/generator/operation::input
         "POST" "/list-token-balances" "ListTokenBalances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-token-balances))
 (common-lisp:progn
  (common-lisp:defun list-transaction-events
@@ -2850,7 +2850,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'managedblockchain-query-request aws-sdk/generator/operation::input
         "POST" "/list-transaction-events" "ListTransactionEvents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-transaction-events))
 (common-lisp:progn
  (common-lisp:defun list-transactions
@@ -2871,5 +2871,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'managedblockchain-query-request aws-sdk/generator/operation::input
         "POST" "/list-transactions" "ListTransactions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-transactions))

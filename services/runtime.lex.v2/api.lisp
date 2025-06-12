@@ -1735,7 +1735,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input put-session-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'audio-stream)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'audio-stream))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input put-session-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass recognize-text-request common-lisp:nil
                        ((bot-id :initarg :bot-id :initform
@@ -2048,7 +2052,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           recognize-utterance-request))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'input-stream)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'input-stream))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          recognize-utterance-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass recognize-utterance-response common-lisp:nil
                        ((input-mode :initarg :input-mode :initform
@@ -2191,7 +2201,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           recognize-utterance-response))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'audio-stream)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'audio-stream))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          recognize-utterance-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass recognized-bot-member common-lisp:nil
                        ((bot-id :initarg :bot-id :initform
@@ -2745,7 +2761,13 @@
                          (aws-sdk/generator/shape::input
                           start-conversation-request))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'request-event-stream)))
+                           'request-event-stream))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          start-conversation-request))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass start-conversation-request-event-stream common-lisp:nil
                        ((configuration-event :initarg :configuration-event
@@ -2902,7 +2924,13 @@
                          (aws-sdk/generator/shape::input
                           start-conversation-response))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'response-event-stream)))
+                           'response-event-stream))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          start-conversation-response))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass start-conversation-response-event-stream common-lisp:nil
                        ((playback-interruption-event :initarg
@@ -3423,7 +3451,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'session-id))))
                                                         "DeleteSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-session))
 (common-lisp:progn
  (common-lisp:defun get-session
@@ -3463,7 +3491,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'session-id))))
                                                         "GetSession"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-session))
 (common-lisp:progn
  (common-lisp:defun put-session
@@ -3507,7 +3535,7 @@
                                                              'session-id))))
                                                         "PutSession")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-session))
 (common-lisp:progn
  (common-lisp:defun recognize-text
@@ -3549,7 +3577,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'session-id))))
                                                         "RecognizeText"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'recognize-text))
 (common-lisp:progn
  (common-lisp:defun recognize-utterance
@@ -3594,7 +3622,7 @@
                                                              'session-id))))
                                                         "RecognizeUtterance")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'recognize-utterance))
 (common-lisp:progn
  (common-lisp:defun start-conversation
@@ -3636,5 +3664,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'session-id))))
                                                         "StartConversation"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-conversation))

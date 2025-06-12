@@ -3329,7 +3329,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'route53-recovery-control-config-request
         aws-sdk/generator/operation::input "POST" "/cluster" "CreateCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-cluster))
 (common-lisp:progn
  (common-lisp:defun create-control-panel
@@ -3348,7 +3348,7 @@
         'route53-recovery-control-config-request
         aws-sdk/generator/operation::input "POST" "/controlpanel"
         "CreateControlPanel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-control-panel))
 (common-lisp:progn
  (common-lisp:defun create-routing-control
@@ -3368,7 +3368,7 @@
         'route53-recovery-control-config-request
         aws-sdk/generator/operation::input "POST" "/routingcontrol"
         "CreateRoutingControl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-routing-control))
 (common-lisp:progn
  (common-lisp:defun create-safety-rule
@@ -3387,7 +3387,7 @@
         'route53-recovery-control-config-request
         aws-sdk/generator/operation::input "POST" "/safetyrule"
         "CreateSafetyRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-safety-rule))
 (common-lisp:progn
  (common-lisp:defun delete-cluster
@@ -3410,7 +3410,7 @@
                                 aws-sdk/generator/operation::input
                                 'cluster-arn))))
         "DeleteCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-cluster))
 (common-lisp:progn
  (common-lisp:defun delete-control-panel
@@ -3433,7 +3433,7 @@
                                 aws-sdk/generator/operation::input
                                 'control-panel-arn))))
         "DeleteControlPanel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-control-panel))
 (common-lisp:progn
  (common-lisp:defun delete-routing-control
@@ -3456,7 +3456,7 @@
                                 aws-sdk/generator/operation::input
                                 'routing-control-arn))))
         "DeleteRoutingControl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-routing-control))
 (common-lisp:progn
  (common-lisp:defun delete-safety-rule
@@ -3479,7 +3479,7 @@
                                 aws-sdk/generator/operation::input
                                 'safety-rule-arn))))
         "DeleteSafetyRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-safety-rule))
 (common-lisp:progn
  (common-lisp:defun describe-cluster
@@ -3502,7 +3502,7 @@
                                 aws-sdk/generator/operation::input
                                 'cluster-arn))))
         "DescribeCluster"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-cluster))
 (common-lisp:progn
  (common-lisp:defun describe-control-panel
@@ -3525,7 +3525,7 @@
                                 aws-sdk/generator/operation::input
                                 'control-panel-arn))))
         "DescribeControlPanel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-control-panel))
 (common-lisp:progn
  (common-lisp:defun describe-routing-control
@@ -3548,7 +3548,7 @@
                                 aws-sdk/generator/operation::input
                                 'routing-control-arn))))
         "DescribeRoutingControl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-routing-control))
 (common-lisp:progn
  (common-lisp:defun describe-safety-rule
@@ -3571,7 +3571,7 @@
                                 aws-sdk/generator/operation::input
                                 'safety-rule-arn))))
         "DescribeSafetyRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-safety-rule))
 (common-lisp:progn
  (common-lisp:defun get-resource-policy
@@ -3594,7 +3594,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "GetResourcePolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-policy))
 (common-lisp:progn
  (common-lisp:defun list-associated-route53health-checks
@@ -3621,7 +3621,7 @@
                                 aws-sdk/generator/operation::input
                                 'routing-control-arn))))
         "ListAssociatedRoute53HealthChecks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-associated-route53health-checks))
 (common-lisp:progn
  (common-lisp:defun list-clusters
@@ -3637,7 +3637,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'route53-recovery-control-config-request
         aws-sdk/generator/operation::input "GET" "/cluster" "ListClusters"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-clusters))
 (common-lisp:progn
  (common-lisp:defun list-control-panels
@@ -3655,7 +3655,7 @@
         'route53-recovery-control-config-request
         aws-sdk/generator/operation::input "GET" "/controlpanels"
         "ListControlPanels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-control-panels))
 (common-lisp:progn
  (common-lisp:defun list-routing-controls
@@ -3680,7 +3680,7 @@
                                 aws-sdk/generator/operation::input
                                 'control-panel-arn))))
         "ListRoutingControls"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-routing-controls))
 (common-lisp:progn
  (common-lisp:defun list-safety-rules
@@ -3704,7 +3704,7 @@
                                 aws-sdk/generator/operation::input
                                 'control-panel-arn))))
         "ListSafetyRules"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-safety-rules))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -3727,7 +3727,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3750,7 +3750,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3773,7 +3773,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-control-panel
@@ -3791,7 +3791,7 @@
         'route53-recovery-control-config-request
         aws-sdk/generator/operation::input "PUT" "/controlpanel"
         "UpdateControlPanel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-control-panel))
 (common-lisp:progn
  (common-lisp:defun update-routing-control
@@ -3809,7 +3809,7 @@
         'route53-recovery-control-config-request
         aws-sdk/generator/operation::input "PUT" "/routingcontrol"
         "UpdateRoutingControl"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-routing-control))
 (common-lisp:progn
  (common-lisp:defun update-safety-rule
@@ -3827,5 +3827,5 @@
         'route53-recovery-control-config-request
         aws-sdk/generator/operation::input "PUT" "/safetyrule"
         "UpdateSafetyRule"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-safety-rule))

@@ -13713,7 +13713,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'group-id))))
                                                         "AssociateRoleToGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-role-to-group))
 (common-lisp:progn
  (common-lisp:defun associate-service-role-to-account
@@ -13732,7 +13732,7 @@
                                                         "PUT"
                                                         "/greengrass/servicerole"
                                                         "AssociateServiceRoleToAccount"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-service-role-to-account))
 (common-lisp:progn
  (common-lisp:defun create-connector-definition
@@ -13753,7 +13753,7 @@
                                                         "POST"
                                                         "/greengrass/definition/connectors"
                                                         "CreateConnectorDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-connector-definition))
 (common-lisp:progn
  (common-lisp:defun create-connector-definition-version
@@ -13784,7 +13784,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'connector-definition-id))))
                                                         "CreateConnectorDefinitionVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-connector-definition-version))
 (common-lisp:progn
  (common-lisp:defun create-core-definition
@@ -13804,7 +13804,7 @@
                                                         "POST"
                                                         "/greengrass/definition/cores"
                                                         "CreateCoreDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-core-definition))
 (common-lisp:progn
  (common-lisp:defun create-core-definition-version
@@ -13834,7 +13834,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'core-definition-id))))
                                                         "CreateCoreDefinitionVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-core-definition-version))
 (common-lisp:progn
  (common-lisp:defun create-deployment
@@ -13864,7 +13864,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'group-id))))
                                                         "CreateDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-deployment))
 (common-lisp:progn
  (common-lisp:defun create-device-definition
@@ -13884,7 +13884,7 @@
                                                         "POST"
                                                         "/greengrass/definition/devices"
                                                         "CreateDeviceDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-device-definition))
 (common-lisp:progn
  (common-lisp:defun create-device-definition-version
@@ -13914,7 +13914,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'device-definition-id))))
                                                         "CreateDeviceDefinitionVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-device-definition-version))
 (common-lisp:progn
  (common-lisp:defun create-function-definition
@@ -13935,7 +13935,7 @@
                                                         "POST"
                                                         "/greengrass/definition/functions"
                                                         "CreateFunctionDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-function-definition))
 (common-lisp:progn
  (common-lisp:defun create-function-definition-version
@@ -13966,7 +13966,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-definition-id))))
                                                         "CreateFunctionDefinitionVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-function-definition-version))
 (common-lisp:progn
  (common-lisp:defun create-group
@@ -13986,7 +13986,7 @@
                                                         "POST"
                                                         "/greengrass/groups"
                                                         "CreateGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-group))
 (common-lisp:progn
  (common-lisp:defun create-group-certificate-authority
@@ -14014,7 +14014,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'group-id))))
                                                         "CreateGroupCertificateAuthority"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-group-certificate-authority))
 (common-lisp:progn
  (common-lisp:defun create-group-version
@@ -14051,7 +14051,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'group-id))))
                                                         "CreateGroupVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-group-version))
 (common-lisp:progn
  (common-lisp:defun create-logger-definition
@@ -14071,7 +14071,7 @@
                                                         "POST"
                                                         "/greengrass/definition/loggers"
                                                         "CreateLoggerDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-logger-definition))
 (common-lisp:progn
  (common-lisp:defun create-logger-definition-version
@@ -14101,7 +14101,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'logger-definition-id))))
                                                         "CreateLoggerDefinitionVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-logger-definition-version))
 (common-lisp:progn
  (common-lisp:defun create-resource-definition
@@ -14122,7 +14122,7 @@
                                                         "POST"
                                                         "/greengrass/definition/resources"
                                                         "CreateResourceDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-resource-definition))
 (common-lisp:progn
  (common-lisp:defun create-resource-definition-version
@@ -14152,7 +14152,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-definition-id))))
                                                         "CreateResourceDefinitionVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-resource-definition-version))
 (common-lisp:progn
  (common-lisp:defun create-software-update-job
@@ -14177,7 +14177,7 @@
                                                         "POST"
                                                         "/greengrass/updates"
                                                         "CreateSoftwareUpdateJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-software-update-job))
 (common-lisp:progn
  (common-lisp:defun create-subscription-definition
@@ -14198,7 +14198,7 @@
                                                         "POST"
                                                         "/greengrass/definition/subscriptions"
                                                         "CreateSubscriptionDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-subscription-definition))
 (common-lisp:progn
  (common-lisp:defun create-subscription-definition-version
@@ -14229,7 +14229,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'subscription-definition-id))))
                                                         "CreateSubscriptionDefinitionVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-subscription-definition-version))
 (common-lisp:progn
  (common-lisp:defun delete-connector-definition
@@ -14257,7 +14257,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'connector-definition-id))))
                                                         "DeleteConnectorDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-connector-definition))
 (common-lisp:progn
  (common-lisp:defun delete-core-definition
@@ -14284,7 +14284,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'core-definition-id))))
                                                         "DeleteCoreDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-core-definition))
 (common-lisp:progn
  (common-lisp:defun delete-device-definition
@@ -14311,7 +14311,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'device-definition-id))))
                                                         "DeleteDeviceDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-device-definition))
 (common-lisp:progn
  (common-lisp:defun delete-function-definition
@@ -14339,7 +14339,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-definition-id))))
                                                         "DeleteFunctionDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-function-definition))
 (common-lisp:progn
  (common-lisp:defun delete-group
@@ -14366,7 +14366,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'group-id))))
                                                         "DeleteGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-group))
 (common-lisp:progn
  (common-lisp:defun delete-logger-definition
@@ -14393,7 +14393,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'logger-definition-id))))
                                                         "DeleteLoggerDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-logger-definition))
 (common-lisp:progn
  (common-lisp:defun delete-resource-definition
@@ -14421,7 +14421,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-definition-id))))
                                                         "DeleteResourceDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-resource-definition))
 (common-lisp:progn
  (common-lisp:defun delete-subscription-definition
@@ -14449,7 +14449,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'subscription-definition-id))))
                                                         "DeleteSubscriptionDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-subscription-definition))
 (common-lisp:progn
  (common-lisp:defun disassociate-role-from-group
@@ -14477,7 +14477,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'group-id))))
                                                         "DisassociateRoleFromGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disassociate-role-from-group))
 (common-lisp:progn
  (common-lisp:defun disassociate-service-role-from-account ()
@@ -14513,7 +14513,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'group-id))))
                                                         "GetAssociatedRole"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-associated-role))
 (common-lisp:progn
  (common-lisp:defun get-bulk-deployment-status
@@ -14541,7 +14541,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bulk-deployment-id))))
                                                         "GetBulkDeploymentStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-bulk-deployment-status))
 (common-lisp:progn
  (common-lisp:defun get-connectivity-info
@@ -14568,7 +14568,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'thing-name))))
                                                         "GetConnectivityInfo"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-connectivity-info))
 (common-lisp:progn
  (common-lisp:defun get-connector-definition
@@ -14595,7 +14595,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'connector-definition-id))))
                                                         "GetConnectorDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-connector-definition))
 (common-lisp:progn
  (common-lisp:defun get-connector-definition-version
@@ -14630,7 +14630,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'connector-definition-version-id))))
                                                         "GetConnectorDefinitionVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-connector-definition-version))
 (common-lisp:progn
  (common-lisp:defun get-core-definition
@@ -14657,7 +14657,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'core-definition-id))))
                                                         "GetCoreDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-core-definition))
 (common-lisp:progn
  (common-lisp:defun get-core-definition-version
@@ -14691,7 +14691,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'core-definition-version-id))))
                                                         "GetCoreDefinitionVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-core-definition-version))
 (common-lisp:progn
  (common-lisp:defun get-deployment-status
@@ -14722,7 +14722,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'deployment-id))))
                                                         "GetDeploymentStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-deployment-status))
 (common-lisp:progn
  (common-lisp:defun get-device-definition
@@ -14749,7 +14749,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'device-definition-id))))
                                                         "GetDeviceDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-device-definition))
 (common-lisp:progn
  (common-lisp:defun get-device-definition-version
@@ -14784,7 +14784,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'device-definition-version-id))))
                                                         "GetDeviceDefinitionVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-device-definition-version))
 (common-lisp:progn
  (common-lisp:defun get-function-definition
@@ -14811,7 +14811,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-definition-id))))
                                                         "GetFunctionDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-function-definition))
 (common-lisp:progn
  (common-lisp:defun get-function-definition-version
@@ -14846,7 +14846,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-definition-version-id))))
                                                         "GetFunctionDefinitionVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-function-definition-version))
 (common-lisp:progn
  (common-lisp:defun get-group
@@ -14873,7 +14873,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'group-id))))
                                                         "GetGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-group))
 (common-lisp:progn
  (common-lisp:defun get-group-certificate-authority
@@ -14906,7 +14906,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'certificate-authority-id))))
                                                         "GetGroupCertificateAuthority"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-group-certificate-authority))
 (common-lisp:progn
  (common-lisp:defun get-group-certificate-configuration
@@ -14934,7 +14934,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'group-id))))
                                                         "GetGroupCertificateConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-group-certificate-configuration))
 (common-lisp:progn
  (common-lisp:defun get-group-version
@@ -14965,7 +14965,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'group-version-id))))
                                                         "GetGroupVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-group-version))
 (common-lisp:progn
  (common-lisp:defun get-logger-definition
@@ -14992,7 +14992,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'logger-definition-id))))
                                                         "GetLoggerDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-logger-definition))
 (common-lisp:progn
  (common-lisp:defun get-logger-definition-version
@@ -15027,7 +15027,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'logger-definition-version-id))))
                                                         "GetLoggerDefinitionVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-logger-definition-version))
 (common-lisp:progn
  (common-lisp:defun get-resource-definition
@@ -15054,7 +15054,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-definition-id))))
                                                         "GetResourceDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-definition))
 (common-lisp:progn
  (common-lisp:defun get-resource-definition-version
@@ -15089,7 +15089,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-definition-version-id))))
                                                         "GetResourceDefinitionVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-resource-definition-version))
 (common-lisp:progn
  (common-lisp:defun get-service-role-for-account ()
@@ -15126,7 +15126,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'subscription-definition-id))))
                                                         "GetSubscriptionDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-subscription-definition))
 (common-lisp:progn
  (common-lisp:defun get-subscription-definition-version
@@ -15161,7 +15161,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'subscription-definition-version-id))))
                                                         "GetSubscriptionDefinitionVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-subscription-definition-version))
 (common-lisp:progn
  (common-lisp:defun get-thing-runtime-configuration
@@ -15189,7 +15189,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'thing-name))))
                                                         "GetThingRuntimeConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-thing-runtime-configuration))
 (common-lisp:progn
  (common-lisp:defun list-bulk-deployment-detailed-reports
@@ -15219,7 +15219,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bulk-deployment-id))))
                                                         "ListBulkDeploymentDetailedReports"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-bulk-deployment-detailed-reports))
 (common-lisp:progn
  (common-lisp:defun list-bulk-deployments
@@ -15237,7 +15237,7 @@
                                                         "GET"
                                                         "/greengrass/bulk/deployments"
                                                         "ListBulkDeployments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-bulk-deployments))
 (common-lisp:progn
  (common-lisp:defun list-connector-definition-versions
@@ -15267,7 +15267,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'connector-definition-id))))
                                                         "ListConnectorDefinitionVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-connector-definition-versions))
 (common-lisp:progn
  (common-lisp:defun list-connector-definitions
@@ -15286,7 +15286,7 @@
                                                         "GET"
                                                         "/greengrass/definition/connectors"
                                                         "ListConnectorDefinitions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-connector-definitions))
 (common-lisp:progn
  (common-lisp:defun list-core-definition-versions
@@ -15316,7 +15316,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'core-definition-id))))
                                                         "ListCoreDefinitionVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-core-definition-versions))
 (common-lisp:progn
  (common-lisp:defun list-core-definitions
@@ -15334,7 +15334,7 @@
                                                         "GET"
                                                         "/greengrass/definition/cores"
                                                         "ListCoreDefinitions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-core-definitions))
 (common-lisp:progn
  (common-lisp:defun list-deployments
@@ -15362,7 +15362,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'group-id))))
                                                         "ListDeployments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-deployments))
 (common-lisp:progn
  (common-lisp:defun list-device-definition-versions
@@ -15392,7 +15392,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'device-definition-id))))
                                                         "ListDeviceDefinitionVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-device-definition-versions))
 (common-lisp:progn
  (common-lisp:defun list-device-definitions
@@ -15410,7 +15410,7 @@
                                                         "GET"
                                                         "/greengrass/definition/devices"
                                                         "ListDeviceDefinitions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-device-definitions))
 (common-lisp:progn
  (common-lisp:defun list-function-definition-versions
@@ -15440,7 +15440,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-definition-id))))
                                                         "ListFunctionDefinitionVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-function-definition-versions))
 (common-lisp:progn
  (common-lisp:defun list-function-definitions
@@ -15459,7 +15459,7 @@
                                                         "GET"
                                                         "/greengrass/definition/functions"
                                                         "ListFunctionDefinitions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-function-definitions))
 (common-lisp:progn
  (common-lisp:defun list-group-certificate-authorities
@@ -15487,7 +15487,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'group-id))))
                                                         "ListGroupCertificateAuthorities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-group-certificate-authorities))
 (common-lisp:progn
  (common-lisp:defun list-group-versions
@@ -15515,7 +15515,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'group-id))))
                                                         "ListGroupVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-group-versions))
 (common-lisp:progn
  (common-lisp:defun list-groups
@@ -15533,7 +15533,7 @@
                                                         "GET"
                                                         "/greengrass/groups"
                                                         "ListGroups"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-groups))
 (common-lisp:progn
  (common-lisp:defun list-logger-definition-versions
@@ -15563,7 +15563,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'logger-definition-id))))
                                                         "ListLoggerDefinitionVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-logger-definition-versions))
 (common-lisp:progn
  (common-lisp:defun list-logger-definitions
@@ -15581,7 +15581,7 @@
                                                         "GET"
                                                         "/greengrass/definition/loggers"
                                                         "ListLoggerDefinitions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-logger-definitions))
 (common-lisp:progn
  (common-lisp:defun list-resource-definition-versions
@@ -15611,7 +15611,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-definition-id))))
                                                         "ListResourceDefinitionVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-resource-definition-versions))
 (common-lisp:progn
  (common-lisp:defun list-resource-definitions
@@ -15630,7 +15630,7 @@
                                                         "GET"
                                                         "/greengrass/definition/resources"
                                                         "ListResourceDefinitions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-resource-definitions))
 (common-lisp:progn
  (common-lisp:defun list-subscription-definition-versions
@@ -15660,7 +15660,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'subscription-definition-id))))
                                                         "ListSubscriptionDefinitionVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-subscription-definition-versions))
 (common-lisp:progn
  (common-lisp:defun list-subscription-definitions
@@ -15679,7 +15679,7 @@
                                                         "GET"
                                                         "/greengrass/definition/subscriptions"
                                                         "ListSubscriptionDefinitions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-subscription-definitions))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -15706,7 +15706,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun reset-deployments
@@ -15734,7 +15734,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'group-id))))
                                                         "ResetDeployments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reset-deployments))
 (common-lisp:progn
  (common-lisp:defun start-bulk-deployment
@@ -15755,7 +15755,7 @@
                                                         "POST"
                                                         "/greengrass/bulk/deployments"
                                                         "StartBulkDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-bulk-deployment))
 (common-lisp:progn
  (common-lisp:defun stop-bulk-deployment
@@ -15782,7 +15782,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'bulk-deployment-id))))
                                                         "StopBulkDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-bulk-deployment))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -15809,7 +15809,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -15836,7 +15836,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-connectivity-info
@@ -15863,7 +15863,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'thing-name))))
                                                         "UpdateConnectivityInfo"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-connectivity-info))
 (common-lisp:progn
  (common-lisp:defun update-connector-definition
@@ -15891,7 +15891,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'connector-definition-id))))
                                                         "UpdateConnectorDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-connector-definition))
 (common-lisp:progn
  (common-lisp:defun update-core-definition
@@ -15918,7 +15918,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'core-definition-id))))
                                                         "UpdateCoreDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-core-definition))
 (common-lisp:progn
  (common-lisp:defun update-device-definition
@@ -15945,7 +15945,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'device-definition-id))))
                                                         "UpdateDeviceDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-device-definition))
 (common-lisp:progn
  (common-lisp:defun update-function-definition
@@ -15973,7 +15973,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'function-definition-id))))
                                                         "UpdateFunctionDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-function-definition))
 (common-lisp:progn
  (common-lisp:defun update-group
@@ -16000,7 +16000,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'group-id))))
                                                         "UpdateGroup"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-group))
 (common-lisp:progn
  (common-lisp:defun update-group-certificate-configuration
@@ -16030,7 +16030,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'group-id))))
                                                         "UpdateGroupCertificateConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-group-certificate-configuration))
 (common-lisp:progn
  (common-lisp:defun update-logger-definition
@@ -16057,7 +16057,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'logger-definition-id))))
                                                         "UpdateLoggerDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-logger-definition))
 (common-lisp:progn
  (common-lisp:defun update-resource-definition
@@ -16085,7 +16085,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-definition-id))))
                                                         "UpdateResourceDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-resource-definition))
 (common-lisp:progn
  (common-lisp:defun update-subscription-definition
@@ -16114,7 +16114,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'subscription-definition-id))))
                                                         "UpdateSubscriptionDefinition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-subscription-definition))
 (common-lisp:progn
  (common-lisp:defun update-thing-runtime-configuration
@@ -16143,5 +16143,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'thing-name))))
                                                         "UpdateThingRuntimeConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-thing-runtime-configuration))

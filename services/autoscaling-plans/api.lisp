@@ -2230,7 +2230,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'autoscaling-plans-request aws-sdk/generator/operation::input "POST"
         "/" "CreateScalingPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-scaling-plan))
 (common-lisp:progn
  (common-lisp:defun delete-scaling-plan
@@ -2247,7 +2247,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'autoscaling-plans-request aws-sdk/generator/operation::input "POST"
         "/" "DeleteScalingPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-scaling-plan))
 (common-lisp:progn
  (common-lisp:defun describe-scaling-plan-resources
@@ -2267,7 +2267,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'autoscaling-plans-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeScalingPlanResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-scaling-plan-resources))
 (common-lisp:progn
  (common-lisp:defun describe-scaling-plans
@@ -2286,7 +2286,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'autoscaling-plans-request aws-sdk/generator/operation::input "POST"
         "/" "DescribeScalingPlans"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-scaling-plans))
 (common-lisp:progn
  (common-lisp:defun get-scaling-plan-resource-forecast-data
@@ -2308,7 +2308,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'autoscaling-plans-request aws-sdk/generator/operation::input "POST"
         "/" "GetScalingPlanResourceForecastData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-scaling-plan-resource-forecast-data))
 (common-lisp:progn
  (common-lisp:defun update-scaling-plan
@@ -2327,5 +2327,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'autoscaling-plans-request aws-sdk/generator/operation::input "POST"
         "/" "UpdateScalingPlan"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-scaling-plan))

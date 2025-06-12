@@ -389,5 +389,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'entitlement.marketplace-request aws-sdk/generator/operation::input
         "POST" "/" "GetEntitlements"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-entitlements))

@@ -14663,7 +14663,7 @@
                                                         "POST"
                                                         "/cancel-flow-executions"
                                                         "CancelFlowExecutions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-flow-executions))
 (common-lisp:progn
  (common-lisp:defun create-connector-profile
@@ -14685,7 +14685,7 @@
                                                         "POST"
                                                         "/create-connector-profile"
                                                         "CreateConnectorProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-connector-profile))
 (common-lisp:progn
  (common-lisp:defun create-flow
@@ -14708,7 +14708,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/create-flow"
                                                         "CreateFlow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-flow))
 (common-lisp:progn
  (common-lisp:defun delete-connector-profile
@@ -14727,7 +14727,7 @@
                                                         "POST"
                                                         "/delete-connector-profile"
                                                         "DeleteConnectorProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-connector-profile))
 (common-lisp:progn
  (common-lisp:defun delete-flow
@@ -14744,7 +14744,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/delete-flow"
                                                         "DeleteFlow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-flow))
 (common-lisp:progn
  (common-lisp:defun describe-connector
@@ -14762,7 +14762,7 @@
                                                         "POST"
                                                         "/describe-connector"
                                                         "DescribeConnector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-connector))
 (common-lisp:progn
  (common-lisp:defun describe-connector-entity
@@ -14784,7 +14784,7 @@
                                                         "POST"
                                                         "/describe-connector-entity"
                                                         "DescribeConnectorEntity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-connector-entity))
 (common-lisp:progn
  (common-lisp:defun describe-connector-profiles
@@ -14806,7 +14806,7 @@
                                                         "POST"
                                                         "/describe-connector-profiles"
                                                         "DescribeConnectorProfiles"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-connector-profiles))
 (common-lisp:progn
  (common-lisp:defun describe-connectors
@@ -14825,7 +14825,7 @@
                                                         "POST"
                                                         "/describe-connectors"
                                                         "DescribeConnectors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-connectors))
 (common-lisp:progn
  (common-lisp:defun describe-flow
@@ -14842,7 +14842,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/describe-flow"
                                                         "DescribeFlow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-flow))
 (common-lisp:progn
  (common-lisp:defun describe-flow-execution-records
@@ -14862,7 +14862,7 @@
                                                         "POST"
                                                         "/describe-flow-execution-records"
                                                         "DescribeFlowExecutionRecords"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-flow-execution-records))
 (common-lisp:progn
  (common-lisp:defun list-connector-entities
@@ -14883,7 +14883,7 @@
                                                         "POST"
                                                         "/list-connector-entities"
                                                         "ListConnectorEntities"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-connector-entities))
 (common-lisp:progn
  (common-lisp:defun list-connectors
@@ -14901,7 +14901,7 @@
                                                         "POST"
                                                         "/list-connectors"
                                                         "ListConnectors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-connectors))
 (common-lisp:progn
  (common-lisp:defun list-flows
@@ -14918,7 +14918,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/list-flows"
                                                         "ListFlows"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-flows))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -14945,7 +14945,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun register-connector
@@ -14967,7 +14967,7 @@
                                                         "POST"
                                                         "/register-connector"
                                                         "RegisterConnector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-connector))
 (common-lisp:progn
  (common-lisp:defun reset-connector-metadata-cache
@@ -14989,7 +14989,7 @@
                                                         "POST"
                                                         "/reset-connector-metadata-cache"
                                                         "ResetConnectorMetadataCache"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'reset-connector-metadata-cache))
 (common-lisp:progn
  (common-lisp:defun start-flow
@@ -15006,7 +15006,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/start-flow"
                                                         "StartFlow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-flow))
 (common-lisp:progn
  (common-lisp:defun stop-flow
@@ -15023,7 +15023,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/stop-flow"
                                                         "StopFlow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-flow))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -15050,7 +15050,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun unregister-connector
@@ -15068,7 +15068,7 @@
                                                         "POST"
                                                         "/unregister-connector"
                                                         "UnregisterConnector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'unregister-connector))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -15095,7 +15095,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-connector-profile
@@ -15116,7 +15116,7 @@
                                                         "POST"
                                                         "/update-connector-profile"
                                                         "UpdateConnectorProfile"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-connector-profile))
 (common-lisp:progn
  (common-lisp:defun update-connector-registration
@@ -15138,7 +15138,7 @@
                                                         "POST"
                                                         "/update-connector-registration"
                                                         "UpdateConnectorRegistration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-connector-registration))
 (common-lisp:progn
  (common-lisp:defun update-flow
@@ -15160,5 +15160,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/update-flow"
                                                         "UpdateFlow"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-flow))

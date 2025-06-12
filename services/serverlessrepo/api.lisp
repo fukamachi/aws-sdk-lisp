@@ -4560,7 +4560,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/applications"
                                                         "CreateApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-application))
 (common-lisp:progn
  (common-lisp:defun create-application-version
@@ -4596,7 +4596,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'semantic-version))))
                                                         "CreateApplicationVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-application-version))
 (common-lisp:progn
  (common-lisp:defun create-cloud-formation-change-set
@@ -4631,7 +4631,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "CreateCloudFormationChangeSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-cloud-formation-change-set))
 (common-lisp:progn
  (common-lisp:defun create-cloud-formation-template
@@ -4660,7 +4660,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "CreateCloudFormationTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-cloud-formation-template))
 (common-lisp:progn
  (common-lisp:defun delete-application
@@ -4687,7 +4687,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "DeleteApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-application))
 (common-lisp:progn
  (common-lisp:defun get-application
@@ -4715,7 +4715,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "GetApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-application))
 (common-lisp:progn
  (common-lisp:defun get-application-policy
@@ -4742,7 +4742,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "GetApplicationPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-application-policy))
 (common-lisp:progn
  (common-lisp:defun get-cloud-formation-template
@@ -4774,7 +4774,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'template-id))))
                                                         "GetCloudFormationTemplate"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-cloud-formation-template))
 (common-lisp:progn
  (common-lisp:defun list-application-dependencies
@@ -4805,7 +4805,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "ListApplicationDependencies"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-application-dependencies))
 (common-lisp:progn
  (common-lisp:defun list-application-versions
@@ -4834,7 +4834,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "ListApplicationVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-application-versions))
 (common-lisp:progn
  (common-lisp:defun list-applications
@@ -4851,7 +4851,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/applications"
                                                         "ListApplications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-applications))
 (common-lisp:progn
  (common-lisp:defun put-application-policy
@@ -4878,7 +4878,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "PutApplicationPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-application-policy))
 (common-lisp:progn
  (common-lisp:defun unshare-application
@@ -4905,7 +4905,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "UnshareApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'unshare-application))
 (common-lisp:progn
  (common-lisp:defun update-application
@@ -4935,5 +4935,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "UpdateApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-application))

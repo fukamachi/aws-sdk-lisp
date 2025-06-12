@@ -406,7 +406,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'ec2-instance-connect-request aws-sdk/generator/operation::input "POST"
         "/" "SendSSHPublicKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-sshpublic-key))
 (common-lisp:progn
  (common-lisp:defun send-serial-console-sshpublic-key
@@ -424,5 +424,5 @@
        (aws-sdk/generator/shape:make-request-with-input
         'ec2-instance-connect-request aws-sdk/generator/operation::input "POST"
         "/" "SendSerialConsoleSSHPublicKey"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'send-serial-console-sshpublic-key))

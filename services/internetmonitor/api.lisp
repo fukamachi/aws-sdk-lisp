@@ -3010,7 +3010,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'internetmonitor-request aws-sdk/generator/operation::input "POST"
         "/v20210603/Monitors" "CreateMonitor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-monitor))
 (common-lisp:progn
  (common-lisp:defun delete-monitor
@@ -3032,7 +3032,7 @@
                                 aws-sdk/generator/operation::input
                                 'monitor-name))))
         "DeleteMonitor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-monitor))
 (common-lisp:progn
  (common-lisp:defun get-health-event
@@ -3059,7 +3059,7 @@
                                 aws-sdk/generator/operation::input
                                 'event-id))))
         "GetHealthEvent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-health-event))
 (common-lisp:progn
  (common-lisp:defun get-monitor
@@ -3081,7 +3081,7 @@
                                 aws-sdk/generator/operation::input
                                 'monitor-name))))
         "GetMonitor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-monitor))
 (common-lisp:progn
  (common-lisp:defun get-query-results
@@ -3110,7 +3110,7 @@
                                 aws-sdk/generator/operation::input
                                 'query-id))))
         "GetQueryResults"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-query-results))
 (common-lisp:progn
  (common-lisp:defun get-query-status
@@ -3137,7 +3137,7 @@
                                 aws-sdk/generator/operation::input
                                 'query-id))))
         "GetQueryStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-query-status))
 (common-lisp:progn
  (common-lisp:defun list-health-events
@@ -3163,7 +3163,7 @@
                                 aws-sdk/generator/operation::input
                                 'monitor-name))))
         "ListHealthEvents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-health-events))
 (common-lisp:progn
  (common-lisp:defun list-monitors
@@ -3180,7 +3180,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'internetmonitor-request aws-sdk/generator/operation::input "GET"
         "/v20210603/Monitors" "ListMonitors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-monitors))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -3202,7 +3202,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun start-query
@@ -3227,7 +3227,7 @@
                                 aws-sdk/generator/operation::input
                                 'monitor-name))))
         "StartQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-query))
 (common-lisp:progn
  (common-lisp:defun stop-query
@@ -3254,7 +3254,7 @@
                                 aws-sdk/generator/operation::input
                                 'query-id))))
         "StopQuery"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-query))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -3276,7 +3276,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -3298,7 +3298,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-arn))))
         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-monitor
@@ -3328,5 +3328,5 @@
                                 aws-sdk/generator/operation::input
                                 'monitor-name))))
         "UpdateMonitor"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-monitor))

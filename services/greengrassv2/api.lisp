@@ -6502,7 +6502,7 @@
                                                         "PUT"
                                                         "/greengrass/servicerole"
                                                         "AssociateServiceRoleToAccount"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'associate-service-role-to-account))
 (common-lisp:progn
  (common-lisp:defun batch-associate-client-device-with-core-device
@@ -6530,7 +6530,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'core-device-thing-name))))
                                                         "BatchAssociateClientDeviceWithCoreDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-associate-client-device-with-core-device))
 (common-lisp:progn
  (common-lisp:defun batch-disassociate-client-device-from-core-device
@@ -6558,7 +6558,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'core-device-thing-name))))
                                                         "BatchDisassociateClientDeviceFromCoreDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-disassociate-client-device-from-core-device))
 (common-lisp:progn
  (common-lisp:defun cancel-deployment
@@ -6585,7 +6585,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'deployment-id))))
                                                         "CancelDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-deployment))
 (common-lisp:progn
  (common-lisp:defun create-component-version
@@ -6605,7 +6605,7 @@
                                                         "POST"
                                                         "/greengrass/v2/createComponentVersion"
                                                         "CreateComponentVersion"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-component-version))
 (common-lisp:progn
  (common-lisp:defun create-deployment
@@ -6628,7 +6628,7 @@
                                                         "POST"
                                                         "/greengrass/v2/deployments"
                                                         "CreateDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-deployment))
 (common-lisp:progn
  (common-lisp:defun delete-component
@@ -6655,7 +6655,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'arn))))
                                                         "DeleteComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-component))
 (common-lisp:progn
  (common-lisp:defun delete-core-device
@@ -6682,7 +6682,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'core-device-thing-name))))
                                                         "DeleteCoreDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-core-device))
 (common-lisp:progn
  (common-lisp:defun delete-deployment
@@ -6709,7 +6709,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'deployment-id))))
                                                         "DeleteDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-deployment))
 (common-lisp:progn
  (common-lisp:defun describe-component
@@ -6736,7 +6736,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'arn))))
                                                         "DescribeComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-component))
 (common-lisp:progn
  (common-lisp:defun disassociate-service-role-from-account ()
@@ -6772,7 +6772,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'arn))))
                                                         "GetComponent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-component))
 (common-lisp:progn
  (common-lisp:defun get-component-version-artifact
@@ -6803,7 +6803,7 @@
                                                             aws-sdk/generator/operation::input
                                                             'artifact-name)))
                                                         "GetComponentVersionArtifact"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-component-version-artifact))
 (common-lisp:progn
  (common-lisp:defun get-connectivity-info
@@ -6830,7 +6830,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'thing-name))))
                                                         "GetConnectivityInfo"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-connectivity-info))
 (common-lisp:progn
  (common-lisp:defun get-core-device
@@ -6857,7 +6857,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'core-device-thing-name))))
                                                         "GetCoreDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-core-device))
 (common-lisp:progn
  (common-lisp:defun get-deployment
@@ -6884,7 +6884,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'deployment-id))))
                                                         "GetDeployment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-deployment))
 (common-lisp:progn
  (common-lisp:defun get-service-role-for-account ()
@@ -6923,7 +6923,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'core-device-thing-name))))
                                                         "ListClientDevicesAssociatedWithCoreDevice"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-client-devices-associated-with-core-device))
 (common-lisp:progn
  (common-lisp:defun list-component-versions
@@ -6950,7 +6950,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'arn))))
                                                         "ListComponentVersions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-component-versions))
 (common-lisp:progn
  (common-lisp:defun list-components
@@ -6968,7 +6968,7 @@
                                                         "GET"
                                                         "/greengrass/v2/components"
                                                         "ListComponents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-components))
 (common-lisp:progn
  (common-lisp:defun list-core-devices
@@ -6988,7 +6988,7 @@
                                                         "GET"
                                                         "/greengrass/v2/coreDevices"
                                                         "ListCoreDevices"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-core-devices))
 (common-lisp:progn
  (common-lisp:defun list-deployments
@@ -7009,7 +7009,7 @@
                                                         "GET"
                                                         "/greengrass/v2/deployments"
                                                         "ListDeployments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-deployments))
 (common-lisp:progn
  (common-lisp:defun list-effective-deployments
@@ -7039,7 +7039,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'core-device-thing-name))))
                                                         "ListEffectiveDeployments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-effective-deployments))
 (common-lisp:progn
  (common-lisp:defun list-installed-components
@@ -7070,7 +7070,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'core-device-thing-name))))
                                                         "ListInstalledComponents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-installed-components))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -7097,7 +7097,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun resolve-component-candidates
@@ -7116,7 +7116,7 @@
                                                         "POST"
                                                         "/greengrass/v2/resolveComponentCandidates"
                                                         "ResolveComponentCandidates"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'resolve-component-candidates))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -7143,7 +7143,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -7170,7 +7170,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-connectivity-info
@@ -7197,5 +7197,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'thing-name))))
                                                         "UpdateConnectivityInfo"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-connectivity-info))

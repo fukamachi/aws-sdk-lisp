@@ -3496,7 +3496,7 @@
                                                         "POST"
                                                         "/alarms/acknowledge"
                                                         "BatchAcknowledgeAlarm"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-acknowledge-alarm))
 (common-lisp:progn
  (common-lisp:defun batch-delete-detector
@@ -3514,7 +3514,7 @@
                                                         "POST"
                                                         "/detectors/delete"
                                                         "BatchDeleteDetector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-delete-detector))
 (common-lisp:progn
  (common-lisp:defun batch-disable-alarm
@@ -3532,7 +3532,7 @@
                                                         "POST"
                                                         "/alarms/disable"
                                                         "BatchDisableAlarm"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-disable-alarm))
 (common-lisp:progn
  (common-lisp:defun batch-enable-alarm
@@ -3549,7 +3549,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/alarms/enable"
                                                         "BatchEnableAlarm"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-enable-alarm))
 (common-lisp:progn
  (common-lisp:defun batch-put-message
@@ -3567,7 +3567,7 @@
                                                         "POST"
                                                         "/inputs/messages"
                                                         "BatchPutMessage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-put-message))
 (common-lisp:progn
  (common-lisp:defun batch-reset-alarm
@@ -3584,7 +3584,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/alarms/reset"
                                                         "BatchResetAlarm"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-reset-alarm))
 (common-lisp:progn
  (common-lisp:defun batch-snooze-alarm
@@ -3601,7 +3601,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/alarms/snooze"
                                                         "BatchSnoozeAlarm"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-snooze-alarm))
 (common-lisp:progn
  (common-lisp:defun batch-update-detector
@@ -3618,7 +3618,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/detectors"
                                                         "BatchUpdateDetector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-update-detector))
 (common-lisp:progn
  (common-lisp:defun describe-alarm
@@ -3645,7 +3645,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'alarm-model-name))))
                                                         "DescribeAlarm"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-alarm))
 (common-lisp:progn
  (common-lisp:defun describe-detector
@@ -3672,7 +3672,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'detector-model-name))))
                                                         "DescribeDetector"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-detector))
 (common-lisp:progn
  (common-lisp:defun list-alarms
@@ -3700,7 +3700,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'alarm-model-name))))
                                                         "ListAlarms"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-alarms))
 (common-lisp:progn
  (common-lisp:defun list-detectors
@@ -3730,5 +3730,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'detector-model-name))))
                                                         "ListDetectors"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-detectors))

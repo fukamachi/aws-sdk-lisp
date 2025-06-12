@@ -11061,7 +11061,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AttachCustomerManagedPolicyReferenceToPermissionSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export
   'attach-customer-managed-policy-reference-to-permission-set))
 (common-lisp:progn
@@ -11082,7 +11082,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AttachManagedPolicyToPermissionSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'attach-managed-policy-to-permission-set))
 (common-lisp:progn
  (common-lisp:defun create-account-assignment
@@ -11103,7 +11103,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateAccountAssignment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-account-assignment))
 (common-lisp:progn
  (common-lisp:defun create-application
@@ -11123,7 +11123,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-application))
 (common-lisp:progn
  (common-lisp:defun create-application-assignment
@@ -11143,7 +11143,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateApplicationAssignment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-application-assignment))
 (common-lisp:progn
  (common-lisp:defun create-instance
@@ -11160,7 +11160,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-instance))
 (common-lisp:progn
  (common-lisp:defun create-instance-access-control-attribute-configuration
@@ -11182,7 +11182,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateInstanceAccessControlAttributeConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-instance-access-control-attribute-configuration))
 (common-lisp:progn
  (common-lisp:defun create-permission-set
@@ -11202,7 +11202,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreatePermissionSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-permission-set))
 (common-lisp:progn
  (common-lisp:defun create-trusted-token-issuer
@@ -11224,7 +11224,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateTrustedTokenIssuer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-trusted-token-issuer))
 (common-lisp:progn
  (common-lisp:defun delete-account-assignment
@@ -11245,7 +11245,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAccountAssignment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-account-assignment))
 (common-lisp:progn
  (common-lisp:defun delete-application
@@ -11262,7 +11262,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-application))
 (common-lisp:progn
  (common-lisp:defun delete-application-access-scope
@@ -11280,7 +11280,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteApplicationAccessScope"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-application-access-scope))
 (common-lisp:progn
  (common-lisp:defun delete-application-assignment
@@ -11300,7 +11300,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteApplicationAssignment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-application-assignment))
 (common-lisp:progn
  (common-lisp:defun delete-application-authentication-method
@@ -11320,7 +11320,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteApplicationAuthenticationMethod"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-application-authentication-method))
 (common-lisp:progn
  (common-lisp:defun delete-application-grant
@@ -11337,7 +11337,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteApplicationGrant"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-application-grant))
 (common-lisp:progn
  (common-lisp:defun delete-inline-policy-from-permission-set
@@ -11356,7 +11356,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteInlinePolicyFromPermissionSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-inline-policy-from-permission-set))
 (common-lisp:progn
  (common-lisp:defun delete-instance
@@ -11373,7 +11373,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-instance))
 (common-lisp:progn
  (common-lisp:defun delete-instance-access-control-attribute-configuration
@@ -11391,7 +11391,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteInstanceAccessControlAttributeConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-instance-access-control-attribute-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-permission-set
@@ -11409,7 +11409,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeletePermissionSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-permission-set))
 (common-lisp:progn
  (common-lisp:defun delete-permissions-boundary-from-permission-set
@@ -11428,7 +11428,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeletePermissionsBoundaryFromPermissionSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-permissions-boundary-from-permission-set))
 (common-lisp:progn
  (common-lisp:defun delete-trusted-token-issuer
@@ -11446,7 +11446,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteTrustedTokenIssuer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-trusted-token-issuer))
 (common-lisp:progn
  (common-lisp:defun describe-account-assignment-creation-status
@@ -11467,7 +11467,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAccountAssignmentCreationStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-account-assignment-creation-status))
 (common-lisp:progn
  (common-lisp:defun describe-account-assignment-deletion-status
@@ -11488,7 +11488,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAccountAssignmentDeletionStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-account-assignment-deletion-status))
 (common-lisp:progn
  (common-lisp:defun describe-application
@@ -11505,7 +11505,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-application))
 (common-lisp:progn
  (common-lisp:defun describe-application-assignment
@@ -11525,7 +11525,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeApplicationAssignment"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-application-assignment))
 (common-lisp:progn
  (common-lisp:defun describe-application-provider
@@ -11543,7 +11543,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeApplicationProvider"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-application-provider))
 (common-lisp:progn
  (common-lisp:defun describe-instance
@@ -11560,7 +11560,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-instance))
 (common-lisp:progn
  (common-lisp:defun describe-instance-access-control-attribute-configuration
@@ -11578,7 +11578,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeInstanceAccessControlAttributeConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-instance-access-control-attribute-configuration))
 (common-lisp:progn
  (common-lisp:defun describe-permission-set
@@ -11596,7 +11596,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribePermissionSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-permission-set))
 (common-lisp:progn
  (common-lisp:defun describe-permission-set-provisioning-status
@@ -11616,7 +11616,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribePermissionSetProvisioningStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-permission-set-provisioning-status))
 (common-lisp:progn
  (common-lisp:defun describe-trusted-token-issuer
@@ -11634,7 +11634,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeTrustedTokenIssuer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-trusted-token-issuer))
 (common-lisp:progn
  (common-lisp:defun detach-customer-managed-policy-reference-from-permission-set
@@ -11655,7 +11655,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetachCustomerManagedPolicyReferenceFromPermissionSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export
   'detach-customer-managed-policy-reference-from-permission-set))
 (common-lisp:progn
@@ -11676,7 +11676,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DetachManagedPolicyFromPermissionSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'detach-managed-policy-from-permission-set))
 (common-lisp:progn
  (common-lisp:defun get-application-access-scope
@@ -11694,7 +11694,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetApplicationAccessScope"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-application-access-scope))
 (common-lisp:progn
  (common-lisp:defun get-application-assignment-configuration
@@ -11712,7 +11712,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetApplicationAssignmentConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-application-assignment-configuration))
 (common-lisp:progn
  (common-lisp:defun get-application-authentication-method
@@ -11732,7 +11732,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetApplicationAuthenticationMethod"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-application-authentication-method))
 (common-lisp:progn
  (common-lisp:defun get-application-grant
@@ -11749,7 +11749,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetApplicationGrant"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-application-grant))
 (common-lisp:progn
  (common-lisp:defun get-inline-policy-for-permission-set
@@ -11768,7 +11768,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetInlinePolicyForPermissionSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-inline-policy-for-permission-set))
 (common-lisp:progn
  (common-lisp:defun get-permissions-boundary-for-permission-set
@@ -11787,7 +11787,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetPermissionsBoundaryForPermissionSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-permissions-boundary-for-permission-set))
 (common-lisp:progn
  (common-lisp:defun list-account-assignment-creation-status
@@ -11807,7 +11807,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAccountAssignmentCreationStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-account-assignment-creation-status))
 (common-lisp:progn
  (common-lisp:defun list-account-assignment-deletion-status
@@ -11827,7 +11827,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAccountAssignmentDeletionStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-account-assignment-deletion-status))
 (common-lisp:progn
  (common-lisp:defun list-account-assignments
@@ -11847,7 +11847,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAccountAssignments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-account-assignments))
 (common-lisp:progn
  (common-lisp:defun list-account-assignments-for-principal
@@ -11868,7 +11868,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAccountAssignmentsForPrincipal"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-account-assignments-for-principal))
 (common-lisp:progn
  (common-lisp:defun list-accounts-for-provisioned-permission-set
@@ -11889,7 +11889,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListAccountsForProvisionedPermissionSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-accounts-for-provisioned-permission-set))
 (common-lisp:progn
  (common-lisp:defun list-application-access-scopes
@@ -11908,7 +11908,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListApplicationAccessScopes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-application-access-scopes))
 (common-lisp:progn
  (common-lisp:defun list-application-assignments
@@ -11927,7 +11927,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListApplicationAssignments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-application-assignments))
 (common-lisp:progn
  (common-lisp:defun list-application-assignments-for-principal
@@ -11948,7 +11948,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListApplicationAssignmentsForPrincipal"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-application-assignments-for-principal))
 (common-lisp:progn
  (common-lisp:defun list-application-authentication-methods
@@ -11966,7 +11966,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListApplicationAuthenticationMethods"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-application-authentication-methods))
 (common-lisp:progn
  (common-lisp:defun list-application-grants
@@ -11983,7 +11983,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListApplicationGrants"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-application-grants))
 (common-lisp:progn
  (common-lisp:defun list-application-providers
@@ -12001,7 +12001,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListApplicationProviders"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-application-providers))
 (common-lisp:progn
  (common-lisp:defun list-applications
@@ -12020,7 +12020,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListApplications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-applications))
 (common-lisp:progn
  (common-lisp:defun list-customer-managed-policy-references-in-permission-set
@@ -12041,7 +12041,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListCustomerManagedPolicyReferencesInPermissionSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export
   'list-customer-managed-policy-references-in-permission-set))
 (common-lisp:progn
@@ -12059,7 +12059,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListInstances"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-instances))
 (common-lisp:progn
  (common-lisp:defun list-managed-policies-in-permission-set
@@ -12080,7 +12080,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListManagedPoliciesInPermissionSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-managed-policies-in-permission-set))
 (common-lisp:progn
  (common-lisp:defun list-permission-set-provisioning-status
@@ -12100,7 +12100,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPermissionSetProvisioningStatus"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-permission-set-provisioning-status))
 (common-lisp:progn
  (common-lisp:defun list-permission-sets
@@ -12118,7 +12118,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPermissionSets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-permission-sets))
 (common-lisp:progn
  (common-lisp:defun list-permission-sets-provisioned-to-account
@@ -12139,7 +12139,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPermissionSetsProvisionedToAccount"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-permission-sets-provisioned-to-account))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -12157,7 +12157,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-trusted-token-issuers
@@ -12176,7 +12176,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTrustedTokenIssuers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-trusted-token-issuers))
 (common-lisp:progn
  (common-lisp:defun provision-permission-set
@@ -12196,7 +12196,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ProvisionPermissionSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'provision-permission-set))
 (common-lisp:progn
  (common-lisp:defun put-application-access-scope
@@ -12215,7 +12215,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutApplicationAccessScope"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-application-access-scope))
 (common-lisp:progn
  (common-lisp:defun put-application-assignment-configuration
@@ -12234,7 +12234,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutApplicationAssignmentConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-application-assignment-configuration))
 (common-lisp:progn
  (common-lisp:defun put-application-authentication-method
@@ -12255,7 +12255,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutApplicationAuthenticationMethod"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-application-authentication-method))
 (common-lisp:progn
  (common-lisp:defun put-application-grant
@@ -12273,7 +12273,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutApplicationGrant"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-application-grant))
 (common-lisp:progn
  (common-lisp:defun put-inline-policy-to-permission-set
@@ -12293,7 +12293,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutInlinePolicyToPermissionSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-inline-policy-to-permission-set))
 (common-lisp:progn
  (common-lisp:defun put-permissions-boundary-to-permission-set
@@ -12314,7 +12314,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutPermissionsBoundaryToPermissionSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-permissions-boundary-to-permission-set))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -12331,7 +12331,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -12349,7 +12349,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-application
@@ -12369,7 +12369,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-application))
 (common-lisp:progn
  (common-lisp:defun update-instance
@@ -12386,7 +12386,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateInstance"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-instance))
 (common-lisp:progn
  (common-lisp:defun update-instance-access-control-attribute-configuration
@@ -12408,7 +12408,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateInstanceAccessControlAttributeConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-instance-access-control-attribute-configuration))
 (common-lisp:progn
  (common-lisp:defun update-permission-set
@@ -12428,7 +12428,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdatePermissionSet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-permission-set))
 (common-lisp:progn
  (common-lisp:defun update-trusted-token-issuer
@@ -12449,5 +12449,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateTrustedTokenIssuer"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-trusted-token-issuer))

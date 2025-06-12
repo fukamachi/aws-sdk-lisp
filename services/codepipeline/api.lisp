@@ -10162,7 +10162,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AcknowledgeJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'acknowledge-job))
 (common-lisp:progn
  (common-lisp:defun acknowledge-third-party-job
@@ -10180,7 +10180,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "AcknowledgeThirdPartyJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'acknowledge-third-party-job))
 (common-lisp:progn
  (common-lisp:defun create-custom-action-type
@@ -10202,7 +10202,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateCustomActionType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-custom-action-type))
 (common-lisp:progn
  (common-lisp:defun create-pipeline
@@ -10219,7 +10219,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreatePipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-pipeline))
 (common-lisp:progn
  (common-lisp:defun delete-custom-action-type
@@ -10236,7 +10236,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteCustomActionType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-custom-action-type))
 (common-lisp:progn
  (common-lisp:defun delete-pipeline
@@ -10253,7 +10253,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeletePipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-pipeline))
 (common-lisp:progn
  (common-lisp:defun delete-webhook
@@ -10270,7 +10270,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteWebhook"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-webhook))
 (common-lisp:progn
  (common-lisp:defun deregister-webhook-with-third-party
@@ -10288,7 +10288,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeregisterWebhookWithThirdParty"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'deregister-webhook-with-third-party))
 (common-lisp:progn
  (common-lisp:defun disable-stage-transition
@@ -10307,7 +10307,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DisableStageTransition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'disable-stage-transition))
 (common-lisp:progn
  (common-lisp:defun enable-stage-transition
@@ -10325,7 +10325,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "EnableStageTransition"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'enable-stage-transition))
 (common-lisp:progn
  (common-lisp:defun get-action-type
@@ -10343,7 +10343,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetActionType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-action-type))
 (common-lisp:progn
  (common-lisp:defun get-job-details
@@ -10360,7 +10360,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetJobDetails"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-job-details))
 (common-lisp:progn
  (common-lisp:defun get-pipeline
@@ -10377,7 +10377,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetPipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-pipeline))
 (common-lisp:progn
  (common-lisp:defun get-pipeline-execution
@@ -10395,7 +10395,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetPipelineExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-pipeline-execution))
 (common-lisp:progn
  (common-lisp:defun get-pipeline-state
@@ -10412,7 +10412,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetPipelineState"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-pipeline-state))
 (common-lisp:progn
  (common-lisp:defun get-third-party-job-details
@@ -10430,7 +10430,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "GetThirdPartyJobDetails"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-third-party-job-details))
 (common-lisp:progn
  (common-lisp:defun list-action-executions
@@ -10449,7 +10449,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListActionExecutions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-action-executions))
 (common-lisp:progn
  (common-lisp:defun list-action-types
@@ -10468,7 +10468,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListActionTypes"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-action-types))
 (common-lisp:progn
  (common-lisp:defun list-pipeline-executions
@@ -10486,7 +10486,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPipelineExecutions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-pipeline-executions))
 (common-lisp:progn
  (common-lisp:defun list-pipelines
@@ -10503,7 +10503,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListPipelines"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-pipelines))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -10521,7 +10521,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun list-webhooks
@@ -10538,7 +10538,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "ListWebhooks"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-webhooks))
 (common-lisp:progn
  (common-lisp:defun poll-for-jobs
@@ -10557,7 +10557,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PollForJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'poll-for-jobs))
 (common-lisp:progn
  (common-lisp:defun poll-for-third-party-jobs
@@ -10574,7 +10574,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PollForThirdPartyJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'poll-for-third-party-jobs))
 (common-lisp:progn
  (common-lisp:defun put-action-revision
@@ -10594,7 +10594,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutActionRevision"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-action-revision))
 (common-lisp:progn
  (common-lisp:defun put-approval-result
@@ -10613,7 +10613,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutApprovalResult"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-approval-result))
 (common-lisp:progn
  (common-lisp:defun put-job-failure-result
@@ -10630,7 +10630,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutJobFailureResult"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-job-failure-result))
 (common-lisp:progn
  (common-lisp:defun put-job-success-result
@@ -10650,7 +10650,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutJobSuccessResult"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-job-success-result))
 (common-lisp:progn
  (common-lisp:defun put-third-party-job-failure-result
@@ -10669,7 +10669,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutThirdPartyJobFailureResult"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-third-party-job-failure-result))
 (common-lisp:progn
  (common-lisp:defun put-third-party-job-success-result
@@ -10690,7 +10690,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutThirdPartyJobSuccessResult"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-third-party-job-success-result))
 (common-lisp:progn
  (common-lisp:defun put-webhook
@@ -10707,7 +10707,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "PutWebhook"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-webhook))
 (common-lisp:progn
  (common-lisp:defun register-webhook-with-third-party
@@ -10725,7 +10725,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RegisterWebhookWithThirdParty"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'register-webhook-with-third-party))
 (common-lisp:progn
  (common-lisp:defun retry-stage-execution
@@ -10745,7 +10745,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "RetryStageExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'retry-stage-execution))
 (common-lisp:progn
  (common-lisp:defun start-pipeline-execution
@@ -10765,7 +10765,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StartPipelineExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-pipeline-execution))
 (common-lisp:progn
  (common-lisp:defun stop-pipeline-execution
@@ -10784,7 +10784,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "StopPipelineExecution"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-pipeline-execution))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -10801,7 +10801,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -10818,7 +10818,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-action-type
@@ -10835,7 +10835,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateActionType"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-action-type))
 (common-lisp:progn
  (common-lisp:defun update-pipeline
@@ -10852,5 +10852,5 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdatePipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-pipeline))

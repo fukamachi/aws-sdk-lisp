@@ -2220,7 +2220,7 @@
                                 aws-sdk/generator/operation::input
                                 'zonal-shift-id))))
         "CancelZonalShift"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-zonal-shift))
 (common-lisp:progn
  (common-lisp:defun create-practice-run-configuration
@@ -2240,7 +2240,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'arc-zonal-shift-request aws-sdk/generator/operation::input "POST"
         "/configuration" "CreatePracticeRunConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-practice-run-configuration))
 (common-lisp:progn
  (common-lisp:defun delete-practice-run-configuration
@@ -2263,7 +2263,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-identifier))))
         "DeletePracticeRunConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-practice-run-configuration))
 (common-lisp:progn
  (common-lisp:defun get-managed-resource
@@ -2285,7 +2285,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-identifier))))
         "GetManagedResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-managed-resource))
 (common-lisp:progn
  (common-lisp:defun list-autoshifts
@@ -2301,7 +2301,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'arc-zonal-shift-request aws-sdk/generator/operation::input "GET"
         "/autoshifts" "ListAutoshifts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-autoshifts))
 (common-lisp:progn
  (common-lisp:defun list-managed-resources
@@ -2317,7 +2317,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'arc-zonal-shift-request aws-sdk/generator/operation::input "GET"
         "/managedresources" "ListManagedResources"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-managed-resources))
 (common-lisp:progn
  (common-lisp:defun list-zonal-shifts
@@ -2335,7 +2335,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'arc-zonal-shift-request aws-sdk/generator/operation::input "GET"
         "/zonalshifts" "ListZonalShifts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-zonal-shifts))
 (common-lisp:progn
  (common-lisp:defun start-zonal-shift
@@ -2353,7 +2353,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'arc-zonal-shift-request aws-sdk/generator/operation::input "POST"
         "/zonalshifts" "StartZonalShift"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-zonal-shift))
 (common-lisp:progn
  (common-lisp:defun update-practice-run-configuration
@@ -2379,7 +2379,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-identifier))))
         "UpdatePracticeRunConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-practice-run-configuration))
 (common-lisp:progn
  (common-lisp:defun update-zonal-autoshift-configuration
@@ -2404,7 +2404,7 @@
                                 aws-sdk/generator/operation::input
                                 'resource-identifier))))
         "UpdateZonalAutoshiftConfiguration"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-zonal-autoshift-configuration))
 (common-lisp:progn
  (common-lisp:defun update-zonal-shift
@@ -2427,5 +2427,5 @@
                                 aws-sdk/generator/operation::input
                                 'zonal-shift-id))))
         "UpdateZonalShift"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-zonal-shift))

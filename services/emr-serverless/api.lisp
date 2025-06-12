@@ -3950,7 +3950,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-run-id))))
                                                         "CancelJobRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-job-run))
 (common-lisp:progn
  (common-lisp:defun create-application
@@ -3977,7 +3977,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/applications"
                                                         "CreateApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-application))
 (common-lisp:progn
  (common-lisp:defun delete-application
@@ -4004,7 +4004,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "DeleteApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-application))
 (common-lisp:progn
  (common-lisp:defun get-application
@@ -4031,7 +4031,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "GetApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-application))
 (common-lisp:progn
  (common-lisp:defun get-dashboard-for-job-run
@@ -4063,7 +4063,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-run-id))))
                                                         "GetDashboardForJobRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-dashboard-for-job-run))
 (common-lisp:progn
  (common-lisp:defun get-job-run
@@ -4094,7 +4094,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'job-run-id))))
                                                         "GetJobRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-job-run))
 (common-lisp:progn
  (common-lisp:defun list-applications
@@ -4111,7 +4111,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/applications"
                                                         "ListApplications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-applications))
 (common-lisp:progn
  (common-lisp:defun list-job-runs
@@ -4141,7 +4141,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "ListJobRuns"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-job-runs))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -4168,7 +4168,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun start-application
@@ -4195,7 +4195,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "StartApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-application))
 (common-lisp:progn
  (common-lisp:defun start-job-run
@@ -4226,7 +4226,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "StartJobRun"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-job-run))
 (common-lisp:progn
  (common-lisp:defun stop-application
@@ -4253,7 +4253,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "StopApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'stop-application))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -4280,7 +4280,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -4307,7 +4307,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'resource-arn))))
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-application
@@ -4344,5 +4344,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'application-id))))
                                                         "UpdateApplication"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-application))

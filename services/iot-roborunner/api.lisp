@@ -3715,7 +3715,7 @@
                                                         "POST"
                                                         "/createDestination"
                                                         "CreateDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-destination))
 (common-lisp:progn
  (common-lisp:defun create-site
@@ -3734,7 +3734,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/createSite"
                                                         "CreateSite"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-site))
 (common-lisp:progn
  (common-lisp:defun create-worker
@@ -3757,7 +3757,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/createWorker"
                                                         "CreateWorker"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-worker))
 (common-lisp:progn
  (common-lisp:defun create-worker-fleet
@@ -3777,7 +3777,7 @@
                                                         "POST"
                                                         "/createWorkerFleet"
                                                         "CreateWorkerFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-worker-fleet))
 (common-lisp:progn
  (common-lisp:defun delete-destination
@@ -3795,7 +3795,7 @@
                                                         "POST"
                                                         "/deleteDestination"
                                                         "DeleteDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-destination))
 (common-lisp:progn
  (common-lisp:defun delete-site
@@ -3812,7 +3812,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/deleteSite"
                                                         "DeleteSite"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-site))
 (common-lisp:progn
  (common-lisp:defun delete-worker
@@ -3829,7 +3829,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/deleteWorker"
                                                         "DeleteWorker"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-worker))
 (common-lisp:progn
  (common-lisp:defun delete-worker-fleet
@@ -3847,7 +3847,7 @@
                                                         "POST"
                                                         "/deleteWorkerFleet"
                                                         "DeleteWorkerFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-worker-fleet))
 (common-lisp:progn
  (common-lisp:defun get-destination
@@ -3864,7 +3864,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/getDestination"
                                                         "GetDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-destination))
 (common-lisp:progn
  (common-lisp:defun get-site
@@ -3881,7 +3881,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/getSite"
                                                         "GetSite"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-site))
 (common-lisp:progn
  (common-lisp:defun get-worker
@@ -3898,7 +3898,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/getWorker"
                                                         "GetWorker"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-worker))
 (common-lisp:progn
  (common-lisp:defun get-worker-fleet
@@ -3915,7 +3915,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/getWorkerFleet"
                                                         "GetWorkerFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-worker-fleet))
 (common-lisp:progn
  (common-lisp:defun list-destinations
@@ -3934,7 +3934,7 @@
                                                         "GET"
                                                         "/listDestinations"
                                                         "ListDestinations"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-destinations))
 (common-lisp:progn
  (common-lisp:defun list-sites
@@ -3951,7 +3951,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/listSites"
                                                         "ListSites"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-sites))
 (common-lisp:progn
  (common-lisp:defun list-worker-fleets
@@ -3969,7 +3969,7 @@
                                                         "GET"
                                                         "/listWorkerFleets"
                                                         "ListWorkerFleets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-worker-fleets))
 (common-lisp:progn
  (common-lisp:defun list-workers
@@ -3987,7 +3987,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/listWorkers"
                                                         "ListWorkers"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-workers))
 (common-lisp:progn
  (common-lisp:defun update-destination
@@ -4007,7 +4007,7 @@
                                                         "POST"
                                                         "/updateDestination"
                                                         "UpdateDestination"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-destination))
 (common-lisp:progn
  (common-lisp:defun update-site
@@ -4025,7 +4025,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/updateSite"
                                                         "UpdateSite"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-site))
 (common-lisp:progn
  (common-lisp:defun update-worker
@@ -4046,7 +4046,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/updateWorker"
                                                         "UpdateWorker"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-worker))
 (common-lisp:progn
  (common-lisp:defun update-worker-fleet
@@ -4065,5 +4065,5 @@
                                                         "POST"
                                                         "/updateWorkerFleet"
                                                         "UpdateWorkerFleet"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-worker-fleet))

@@ -4944,7 +4944,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "BuildSuggesters"))
-      common-lisp:nil "BuildSuggestersResult" *error-map*)))
+      common-lisp:nil "BuildSuggestersResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'build-suggesters))
 (common-lisp:progn
  (common-lisp:defun create-domain
@@ -4961,7 +4961,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "CreateDomain"))
-      common-lisp:nil "CreateDomainResult" *error-map*)))
+      common-lisp:nil "CreateDomainResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'create-domain))
 (common-lisp:progn
  (common-lisp:defun define-analysis-scheme
@@ -4978,7 +4978,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DefineAnalysisScheme"))
-      common-lisp:nil "DefineAnalysisSchemeResult" *error-map*)))
+      common-lisp:nil "DefineAnalysisSchemeResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'define-analysis-scheme))
 (common-lisp:progn
  (common-lisp:defun define-expression
@@ -4995,7 +4996,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DefineExpression"))
-      common-lisp:nil "DefineExpressionResult" *error-map*)))
+      common-lisp:nil "DefineExpressionResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'define-expression))
 (common-lisp:progn
  (common-lisp:defun define-index-field
@@ -5012,7 +5013,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DefineIndexField"))
-      common-lisp:nil "DefineIndexFieldResult" *error-map*)))
+      common-lisp:nil "DefineIndexFieldResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'define-index-field))
 (common-lisp:progn
  (common-lisp:defun define-suggester
@@ -5029,7 +5030,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DefineSuggester"))
-      common-lisp:nil "DefineSuggesterResult" *error-map*)))
+      common-lisp:nil "DefineSuggesterResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'define-suggester))
 (common-lisp:progn
  (common-lisp:defun delete-analysis-scheme
@@ -5047,7 +5048,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteAnalysisScheme"))
-      common-lisp:nil "DeleteAnalysisSchemeResult" *error-map*)))
+      common-lisp:nil "DeleteAnalysisSchemeResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'delete-analysis-scheme))
 (common-lisp:progn
  (common-lisp:defun delete-domain
@@ -5064,7 +5066,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteDomain"))
-      common-lisp:nil "DeleteDomainResult" *error-map*)))
+      common-lisp:nil "DeleteDomainResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-domain))
 (common-lisp:progn
  (common-lisp:defun delete-expression
@@ -5081,7 +5083,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteExpression"))
-      common-lisp:nil "DeleteExpressionResult" *error-map*)))
+      common-lisp:nil "DeleteExpressionResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-expression))
 (common-lisp:progn
  (common-lisp:defun delete-index-field
@@ -5098,7 +5100,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteIndexField"))
-      common-lisp:nil "DeleteIndexFieldResult" *error-map*)))
+      common-lisp:nil "DeleteIndexFieldResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-index-field))
 (common-lisp:progn
  (common-lisp:defun delete-suggester
@@ -5115,7 +5117,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DeleteSuggester"))
-      common-lisp:nil "DeleteSuggesterResult" *error-map*)))
+      common-lisp:nil "DeleteSuggesterResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'delete-suggester))
 (common-lisp:progn
  (common-lisp:defun describe-analysis-schemes
@@ -5135,7 +5137,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAnalysisSchemes"))
-      common-lisp:nil "DescribeAnalysisSchemesResult" *error-map*)))
+      common-lisp:nil "DescribeAnalysisSchemesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-analysis-schemes))
 (common-lisp:progn
  (common-lisp:defun describe-availability-options
@@ -5153,7 +5156,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeAvailabilityOptions"))
-      common-lisp:nil "DescribeAvailabilityOptionsResult" *error-map*)))
+      common-lisp:nil "DescribeAvailabilityOptionsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-availability-options))
 (common-lisp:progn
  (common-lisp:defun describe-domain-endpoint-options
@@ -5171,7 +5175,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDomainEndpointOptions"))
-      common-lisp:nil "DescribeDomainEndpointOptionsResult" *error-map*)))
+      common-lisp:nil "DescribeDomainEndpointOptionsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-domain-endpoint-options))
 (common-lisp:progn
  (common-lisp:defun describe-domains
@@ -5188,7 +5193,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeDomains"))
-      common-lisp:nil "DescribeDomainsResult" *error-map*)))
+      common-lisp:nil "DescribeDomainsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-domains))
 (common-lisp:progn
  (common-lisp:defun describe-expressions
@@ -5206,7 +5211,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeExpressions"))
-      common-lisp:nil "DescribeExpressionsResult" *error-map*)))
+      common-lisp:nil "DescribeExpressionsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-expressions))
 (common-lisp:progn
  (common-lisp:defun describe-index-fields
@@ -5224,7 +5230,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeIndexFields"))
-      common-lisp:nil "DescribeIndexFieldsResult" *error-map*)))
+      common-lisp:nil "DescribeIndexFieldsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-index-fields))
 (common-lisp:progn
  (common-lisp:defun describe-scaling-parameters
@@ -5242,7 +5249,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeScalingParameters"))
-      common-lisp:nil "DescribeScalingParametersResult" *error-map*)))
+      common-lisp:nil "DescribeScalingParametersResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-scaling-parameters))
 (common-lisp:progn
  (common-lisp:defun describe-service-access-policies
@@ -5260,7 +5268,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeServiceAccessPolicies"))
-      common-lisp:nil "DescribeServiceAccessPoliciesResult" *error-map*)))
+      common-lisp:nil "DescribeServiceAccessPoliciesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'describe-service-access-policies))
 (common-lisp:progn
  (common-lisp:defun describe-suggesters
@@ -5278,7 +5287,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "DescribeSuggesters"))
-      common-lisp:nil "DescribeSuggestersResult" *error-map*)))
+      common-lisp:nil "DescribeSuggestersResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'describe-suggesters))
 (common-lisp:progn
  (common-lisp:defun index-documents
@@ -5295,7 +5304,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "IndexDocuments"))
-      common-lisp:nil "IndexDocumentsResult" *error-map*)))
+      common-lisp:nil "IndexDocumentsResult" *error-map* common-lisp:nil)))
  (common-lisp:export 'index-documents))
 (common-lisp:progn
  (common-lisp:defun list-domain-names ()
@@ -5321,7 +5330,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateAvailabilityOptions"))
-      common-lisp:nil "UpdateAvailabilityOptionsResult" *error-map*)))
+      common-lisp:nil "UpdateAvailabilityOptionsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'update-availability-options))
 (common-lisp:progn
  (common-lisp:defun update-domain-endpoint-options
@@ -5340,7 +5350,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateDomainEndpointOptions"))
-      common-lisp:nil "UpdateDomainEndpointOptionsResult" *error-map*)))
+      common-lisp:nil "UpdateDomainEndpointOptionsResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'update-domain-endpoint-options))
 (common-lisp:progn
  (common-lisp:defun update-scaling-parameters
@@ -5358,7 +5369,8 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateScalingParameters"))
-      common-lisp:nil "UpdateScalingParametersResult" *error-map*)))
+      common-lisp:nil "UpdateScalingParametersResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'update-scaling-parameters))
 (common-lisp:progn
  (common-lisp:defun update-service-access-policies
@@ -5376,5 +5388,6 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/"
                                                         "UpdateServiceAccessPolicies"))
-      common-lisp:nil "UpdateServiceAccessPoliciesResult" *error-map*)))
+      common-lisp:nil "UpdateServiceAccessPoliciesResult" *error-map*
+      common-lisp:nil)))
  (common-lisp:export 'update-service-access-policies))

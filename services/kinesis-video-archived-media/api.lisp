@@ -524,7 +524,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input get-clip-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input get-clip-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-dashstreaming-session-urlinput common-lisp:nil
                        ((stream-name :initarg :stream-name :initform
@@ -1257,7 +1261,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-media-for-fragment-list-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'payload))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-media-for-fragment-list-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:deftype hlsdiscontinuity-mode () 'common-lisp:string)
 (common-lisp:deftype hlsdisplay-fragment-timestamp () 'common-lisp:string)
 (common-lisp:progn
@@ -1694,7 +1704,7 @@
         'kinesis-video-archived-media-request
         aws-sdk/generator/operation::input "POST" "/getClip" "GetClip")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-clip))
 (common-lisp:progn
  (common-lisp:defun get-dashstreaming-session-url
@@ -1718,7 +1728,7 @@
         'kinesis-video-archived-media-request
         aws-sdk/generator/operation::input "POST" "/getDASHStreamingSessionURL"
         "GetDASHStreamingSessionURL"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-dashstreaming-session-url))
 (common-lisp:progn
  (common-lisp:defun get-hlsstreaming-session-url
@@ -1742,7 +1752,7 @@
         'kinesis-video-archived-media-request
         aws-sdk/generator/operation::input "POST" "/getHLSStreamingSessionURL"
         "GetHLSStreamingSessionURL"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-hlsstreaming-session-url))
 (common-lisp:progn
  (common-lisp:defun get-images
@@ -1764,7 +1774,7 @@
        (aws-sdk/generator/shape:make-request-with-input
         'kinesis-video-archived-media-request
         aws-sdk/generator/operation::input "POST" "/getImages" "GetImages"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-images))
 (common-lisp:progn
  (common-lisp:defun get-media-for-fragment-list
@@ -1784,7 +1794,7 @@
         aws-sdk/generator/operation::input "POST" "/getMediaForFragmentList"
         "GetMediaForFragmentList")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-media-for-fragment-list))
 (common-lisp:progn
  (common-lisp:defun list-fragments
@@ -1804,5 +1814,5 @@
         'kinesis-video-archived-media-request
         aws-sdk/generator/operation::input "POST" "/listFragments"
         "ListFragments"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-fragments))

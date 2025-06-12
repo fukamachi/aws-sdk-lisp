@@ -7932,7 +7932,7 @@
                                                         "POST"
                                                         "/messages/batch"
                                                         "BatchPutMessage"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'batch-put-message))
 (common-lisp:progn
  (common-lisp:defun cancel-pipeline-reprocessing
@@ -7964,7 +7964,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'reprocessing-id))))
                                                         "CancelPipelineReprocessing"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'cancel-pipeline-reprocessing))
 (common-lisp:progn
  (common-lisp:defun create-channel
@@ -7983,7 +7983,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/channels"
                                                         "CreateChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-channel))
 (common-lisp:progn
  (common-lisp:defun create-dataset
@@ -8004,7 +8004,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/datasets"
                                                         "CreateDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-dataset))
 (common-lisp:progn
  (common-lisp:defun create-dataset-content
@@ -8031,7 +8031,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataset-name))))
                                                         "CreateDatasetContent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-dataset-content))
 (common-lisp:progn
  (common-lisp:defun create-datastore
@@ -8052,7 +8052,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/datastores"
                                                         "CreateDatastore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-datastore))
 (common-lisp:progn
  (common-lisp:defun create-pipeline
@@ -8070,7 +8070,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/pipelines"
                                                         "CreatePipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-pipeline))
 (common-lisp:progn
  (common-lisp:defun delete-channel
@@ -8097,7 +8097,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-name))))
                                                         "DeleteChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-channel))
 (common-lisp:progn
  (common-lisp:defun delete-dataset
@@ -8124,7 +8124,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataset-name))))
                                                         "DeleteDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-dataset))
 (common-lisp:progn
  (common-lisp:defun delete-dataset-content
@@ -8151,7 +8151,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataset-name))))
                                                         "DeleteDatasetContent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-dataset-content))
 (common-lisp:progn
  (common-lisp:defun delete-datastore
@@ -8178,7 +8178,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'datastore-name))))
                                                         "DeleteDatastore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-datastore))
 (common-lisp:progn
  (common-lisp:defun delete-pipeline
@@ -8205,7 +8205,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'pipeline-name))))
                                                         "DeletePipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-pipeline))
 (common-lisp:progn
  (common-lisp:defun describe-channel
@@ -8233,7 +8233,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-name))))
                                                         "DescribeChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-channel))
 (common-lisp:progn
  (common-lisp:defun describe-dataset
@@ -8260,7 +8260,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataset-name))))
                                                         "DescribeDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-dataset))
 (common-lisp:progn
  (common-lisp:defun describe-datastore
@@ -8288,7 +8288,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'datastore-name))))
                                                         "DescribeDatastore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-datastore))
 (common-lisp:progn
  (common-lisp:defun describe-logging-options ()
@@ -8324,7 +8324,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'pipeline-name))))
                                                         "DescribePipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-pipeline))
 (common-lisp:progn
  (common-lisp:defun get-dataset-content
@@ -8351,7 +8351,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataset-name))))
                                                         "GetDatasetContent"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-dataset-content))
 (common-lisp:progn
  (common-lisp:defun list-channels
@@ -8368,7 +8368,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/channels"
                                                         "ListChannels"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-channels))
 (common-lisp:progn
  (common-lisp:defun list-dataset-contents
@@ -8398,7 +8398,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataset-name))))
                                                         "ListDatasetContents"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-dataset-contents))
 (common-lisp:progn
  (common-lisp:defun list-datasets
@@ -8415,7 +8415,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/datasets"
                                                         "ListDatasets"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-datasets))
 (common-lisp:progn
  (common-lisp:defun list-datastores
@@ -8432,7 +8432,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/datastores"
                                                         "ListDatastores"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-datastores))
 (common-lisp:progn
  (common-lisp:defun list-pipelines
@@ -8449,7 +8449,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/pipelines"
                                                         "ListPipelines"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-pipelines))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-resource
@@ -8466,7 +8466,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "GET" "/tags"
                                                         "ListTagsForResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-resource))
 (common-lisp:progn
  (common-lisp:defun put-logging-options
@@ -8483,7 +8483,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "PUT" "/logging"
                                                         "PutLoggingOptions"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'put-logging-options))
 (common-lisp:progn
  (common-lisp:defun run-pipeline-activity
@@ -8501,7 +8501,7 @@
                                                         "POST"
                                                         "/pipelineactivities/run"
                                                         "RunPipelineActivity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'run-pipeline-activity))
 (common-lisp:progn
  (common-lisp:defun sample-channel-data
@@ -8530,7 +8530,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-name))))
                                                         "SampleChannelData"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'sample-channel-data))
 (common-lisp:progn
  (common-lisp:defun start-pipeline-reprocessing
@@ -8560,7 +8560,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'pipeline-name))))
                                                         "StartPipelineReprocessing"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'start-pipeline-reprocessing))
 (common-lisp:progn
  (common-lisp:defun tag-resource
@@ -8577,7 +8577,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "POST" "/tags"
                                                         "TagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'tag-resource))
 (common-lisp:progn
  (common-lisp:defun untag-resource
@@ -8594,7 +8594,7 @@
                                                         aws-sdk/generator/operation::input
                                                         "DELETE" "/tags"
                                                         "UntagResource"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'untag-resource))
 (common-lisp:progn
  (common-lisp:defun update-channel
@@ -8623,7 +8623,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'channel-name))))
                                                         "UpdateChannel"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-channel))
 (common-lisp:progn
  (common-lisp:defun update-dataset
@@ -8654,7 +8654,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'dataset-name))))
                                                         "UpdateDataset"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-dataset))
 (common-lisp:progn
  (common-lisp:defun update-datastore
@@ -8684,7 +8684,7 @@
                                                              aws-sdk/generator/operation::input
                                                              'datastore-name))))
                                                         "UpdateDatastore"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-datastore))
 (common-lisp:progn
  (common-lisp:defun update-pipeline
@@ -8712,5 +8712,5 @@
                                                              aws-sdk/generator/operation::input
                                                              'pipeline-name))))
                                                         "UpdatePipeline"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'update-pipeline))

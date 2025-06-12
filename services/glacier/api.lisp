@@ -1271,7 +1271,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-job-output-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-job-output-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-vault-access-policy-input common-lisp:nil
                        ((account-id :initarg :account-id :initform
@@ -1351,7 +1357,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           get-vault-access-policy-output))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'policy)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'policy))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-vault-access-policy-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass get-vault-lock-input common-lisp:nil
                        ((account-id :initarg :account-id :initform
@@ -1542,7 +1554,13 @@
                          (aws-sdk/generator/shape::input
                           get-vault-notifications-output))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'vault-notification-config)))
+                           'vault-notification-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          get-vault-notifications-output))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass glacier-job-description common-lisp:nil
                        ((job-id :initarg :job-id :initform common-lisp:nil
@@ -2026,7 +2044,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input initiate-job-input))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'job-parameters)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'job-parameters))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input initiate-job-input))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass initiate-job-output common-lisp:nil
                        ((location :initarg :location :initform common-lisp:nil
@@ -2241,7 +2263,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           initiate-vault-lock-input))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'policy)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'policy))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          initiate-vault-lock-input))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass initiate-vault-lock-output common-lisp:nil
                        ((lock-id :initarg :lock-id :initform common-lisp:nil
@@ -3960,7 +3988,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           set-vault-access-policy-input))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'policy)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'policy))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          set-vault-access-policy-input))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass set-vault-notifications-input common-lisp:nil
                        ((account-id :initarg :account-id :initform
@@ -4018,7 +4052,13 @@
                          (aws-sdk/generator/shape::input
                           set-vault-notifications-input))
    (common-lisp:slot-value aws-sdk/generator/shape::input
-                           'vault-notification-config)))
+                           'vault-notification-config))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          set-vault-notifications-input))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:deftype size () 'common-lisp:integer)
 (common-lisp:deftype status-code () 'common-lisp:string)
 (common-lisp:deftype storage-class () 'common-lisp:string)
@@ -4106,7 +4146,11 @@
                           aws-sdk/generator/shape::value))))))
  (common-lisp:defmethod aws-sdk/generator/shape::input-payload
                         ((aws-sdk/generator/shape::input upload-archive-input))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        ((aws-sdk/generator/shape::input upload-archive-input))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass upload-list-element common-lisp:nil
                        ((multipart-upload-id :initarg :multipart-upload-id
@@ -4273,7 +4317,13 @@
                         (
                          (aws-sdk/generator/shape::input
                           upload-multipart-part-input))
-   (common-lisp:slot-value aws-sdk/generator/shape::input 'body)))
+   (common-lisp:slot-value aws-sdk/generator/shape::input 'body))
+ (common-lisp:defmethod aws-sdk/generator/shape::input-payload-properties
+                        (
+                         (aws-sdk/generator/shape::input
+                          upload-multipart-part-input))
+   (common-lisp:declare (common-lisp:ignore aws-sdk/generator/shape::input))
+   (common-lisp:list)))
 (common-lisp:progn
  (common-lisp:defclass upload-multipart-part-output common-lisp:nil
                        ((checksum :initarg :checksum :initform common-lisp:nil
@@ -4488,7 +4538,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'upload-id))))
                                                         "AbortMultipartUpload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'abort-multipart-upload))
 (common-lisp:progn
  (common-lisp:defun abort-vault-lock
@@ -4519,7 +4569,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'vault-name))))
                                                         "AbortVaultLock"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'abort-vault-lock))
 (common-lisp:progn
  (common-lisp:defun add-tags-to-vault
@@ -4550,7 +4600,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'vault-name))))
                                                         "AddTagsToVault"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'add-tags-to-vault))
 (common-lisp:progn
  (common-lisp:defun complete-multipart-upload
@@ -4588,7 +4638,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'upload-id))))
                                                         "CompleteMultipartUpload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'complete-multipart-upload))
 (common-lisp:progn
  (common-lisp:defun complete-vault-lock
@@ -4623,7 +4673,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'lock-id))))
                                                         "CompleteVaultLock"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'complete-vault-lock))
 (common-lisp:progn
  (common-lisp:defun create-vault
@@ -4654,7 +4704,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'vault-name))))
                                                         "CreateVault"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'create-vault))
 (common-lisp:progn
  (common-lisp:defun delete-archive
@@ -4690,7 +4740,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'archive-id))))
                                                         "DeleteArchive"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-archive))
 (common-lisp:progn
  (common-lisp:defun delete-vault
@@ -4721,7 +4771,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'vault-name))))
                                                         "DeleteVault"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-vault))
 (common-lisp:progn
  (common-lisp:defun delete-vault-access-policy
@@ -4752,7 +4802,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'vault-name))))
                                                         "DeleteVaultAccessPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-vault-access-policy))
 (common-lisp:progn
  (common-lisp:defun delete-vault-notifications
@@ -4783,7 +4833,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'vault-name))))
                                                         "DeleteVaultNotifications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'delete-vault-notifications))
 (common-lisp:progn
  (common-lisp:defun describe-job
@@ -4818,7 +4868,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'job-id))))
                                                         "DescribeJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-job))
 (common-lisp:progn
  (common-lisp:defun describe-vault
@@ -4849,7 +4899,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'vault-name))))
                                                         "DescribeVault"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'describe-vault))
 (common-lisp:progn
  (common-lisp:defun get-data-retrieval-policy
@@ -4876,7 +4926,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'account-id))))
                                                         "GetDataRetrievalPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-data-retrieval-policy))
 (common-lisp:progn
  (common-lisp:defun get-job-output
@@ -4913,7 +4963,7 @@ common-lisp:nil
                                                              'job-id))))
                                                         "GetJobOutput")
        :want-stream common-lisp:t)
-      "blob" common-lisp:nil *error-map*)))
+      "blob" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-job-output))
 (common-lisp:progn
  (common-lisp:defun get-vault-access-policy
@@ -4944,7 +4994,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'vault-name))))
                                                         "GetVaultAccessPolicy"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-vault-access-policy))
 (common-lisp:progn
  (common-lisp:defun get-vault-lock
@@ -4975,7 +5025,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'vault-name))))
                                                         "GetVaultLock"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-vault-lock))
 (common-lisp:progn
  (common-lisp:defun get-vault-notifications
@@ -5006,7 +5056,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'vault-name))))
                                                         "GetVaultNotifications"))
-      "structure" common-lisp:nil *error-map*)))
+      "structure" common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'get-vault-notifications))
 (common-lisp:progn
  (common-lisp:defun initiate-job
@@ -5038,7 +5088,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'vault-name))))
                                                         "InitiateJob"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'initiate-job))
 (common-lisp:progn
  (common-lisp:defun initiate-multipart-upload
@@ -5072,7 +5122,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'vault-name))))
                                                         "InitiateMultipartUpload"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'initiate-multipart-upload))
 (common-lisp:progn
  (common-lisp:defun initiate-vault-lock
@@ -5103,7 +5153,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'vault-name))))
                                                         "InitiateVaultLock"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'initiate-vault-lock))
 (common-lisp:progn
  (common-lisp:defun list-jobs
@@ -5137,7 +5187,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'vault-name))))
                                                         "ListJobs"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-jobs))
 (common-lisp:progn
  (common-lisp:defun list-multipart-uploads
@@ -5169,7 +5219,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'vault-name))))
                                                         "ListMultipartUploads"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-multipart-uploads))
 (common-lisp:progn
  (common-lisp:defun list-parts
@@ -5206,7 +5256,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'upload-id))))
                                                         "ListParts"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-parts))
 (common-lisp:progn
  (common-lisp:defun list-provisioned-capacity
@@ -5233,7 +5283,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'account-id))))
                                                         "ListProvisionedCapacity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-provisioned-capacity))
 (common-lisp:progn
  (common-lisp:defun list-tags-for-vault
@@ -5264,7 +5314,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'vault-name))))
                                                         "ListTagsForVault"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-tags-for-vault))
 (common-lisp:progn
  (common-lisp:defun list-vaults
@@ -5291,7 +5341,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'account-id))))
                                                         "ListVaults"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'list-vaults))
 (common-lisp:progn
  (common-lisp:defun purchase-provisioned-capacity
@@ -5319,7 +5369,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'account-id))))
                                                         "PurchaseProvisionedCapacity"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'purchase-provisioned-capacity))
 (common-lisp:progn
  (common-lisp:defun remove-tags-from-vault
@@ -5350,7 +5400,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'vault-name))))
                                                         "RemoveTagsFromVault"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'remove-tags-from-vault))
 (common-lisp:progn
  (common-lisp:defun set-data-retrieval-policy
@@ -5377,7 +5427,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'account-id))))
                                                         "SetDataRetrievalPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'set-data-retrieval-policy))
 (common-lisp:progn
  (common-lisp:defun set-vault-access-policy
@@ -5408,7 +5458,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'vault-name))))
                                                         "SetVaultAccessPolicy"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'set-vault-access-policy))
 (common-lisp:progn
  (common-lisp:defun set-vault-notifications
@@ -5441,7 +5491,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'vault-name))))
                                                         "SetVaultNotifications"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'set-vault-notifications))
 (common-lisp:progn
  (common-lisp:defun upload-archive
@@ -5475,7 +5525,7 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'vault-name))))
                                                         "UploadArchive"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'upload-archive))
 (common-lisp:progn
  (common-lisp:defun upload-multipart-part
@@ -5513,5 +5563,5 @@ common-lisp:nil
                                                              aws-sdk/generator/operation::input
                                                              'upload-id))))
                                                         "UploadMultipartPart"))
-      common-lisp:nil common-lisp:nil *error-map*)))
+      common-lisp:nil common-lisp:nil *error-map* "application/json")))
  (common-lisp:export 'upload-multipart-part))
